@@ -13,7 +13,7 @@
                 <phone
                     jcr:primaryType="nt:unstructured"
                     title="Smaller Screen"
-                    width="{Long}650"/>
+                    width="{Long}768"/>
                 <tablet
                     jcr:primaryType="nt:unstructured"
                     title="Tablet"

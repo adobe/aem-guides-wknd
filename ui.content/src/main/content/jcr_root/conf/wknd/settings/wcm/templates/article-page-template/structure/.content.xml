@@ -3,29 +3,26 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:template="/conf/wknd/settings/wcm/templates/content-page"
+        cq:lastModified="{Date}2019-03-19T13:19:35.894-07:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="wknd/components/structure/page">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
-            <languagenavigation
+            <header
+                jcr:created="{Date}2019-03-19T13:19:08.890-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-03-19T13:19:08.890-07:00"
+                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wknd/components/content/languagenavigation"
-                navigationRoot="/content/wknd/"
-                structureDepth="1"/>
-            <search
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="wknd/components/content/search"
-                searchRoot="/content/wknd/"/>
-            <navigation
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="wknd/components/content/navigation"
-                navigationRoot="/content/wknd/"/>
-            <breadcrumb
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="wknd/components/content/breadcrumb"/>
+                sling:resourceType="wknd/components/structure/header"/>
             <responsivegrid
+                jcr:created="{Date}2019-03-19T13:19:35.891-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-03-19T13:19:35.891-07:00"
+                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid"
                 editable="{Boolean}true">
@@ -37,7 +34,7 @@
                 <phone
                     jcr:primaryType="nt:unstructured"
                     title="Smaller Screen"
-                    width="{Long}650"/>
+                    width="{Long}768"/>
                 <tablet
                     jcr:primaryType="nt:unstructured"
                     title="Tablet"
