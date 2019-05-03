@@ -2,7 +2,7 @@
 
 This is the code companion to a multi-part series on HelpX:
 
-### [Getting Started with AEM Sites - WKND Tutorial](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop.html)
+### [Getting Started with AEM Sites - WKND Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/introduction.html)
 
 1. Chapter 1 - Project Setup
 2. Chapter 2 - Pages and Templates
