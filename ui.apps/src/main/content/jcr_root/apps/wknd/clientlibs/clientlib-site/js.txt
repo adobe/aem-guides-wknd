@@ -1,0 +1,3 @@
+#base=.
+
+components/page/page.js

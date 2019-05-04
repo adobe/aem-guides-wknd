@@ -1,0 +1,65 @@
+/* WKND Header - default.less */
+
+.wknd-header {
+ z-index: 1030;
+ position: fixed;
+ top: 0;
+ height:92px;
+ padding-top: 45px;
+ left:0;
+ right:0;
+
+ .container {
+  .container-content();
+  max-width: 1116px;
+ }
+
+  @media (max-width: @screen-medium) {
+     padding: 12px;
+     top: 0;
+     left: 0;
+     right: 0;
+     height: 60px;
+     position: absolute;
+ }
+
+ a.wknd-header-logo {
+     color: @text-color;
+     font-weight: bolder;
+     font-size: @font-size-xlarge;
+     float:left;
+     padding: 11px 12px;
+     line-height: 28px;
+     height: 50px;
+     margin:0;
+     padding-left: 0;
+     text-decoration: none;
+     text-align: left;
+
+  @media (max-width: @screen-medium) {
+   font-size: (@font-size-large + 8px);
+   margin-left: 0;
+   padding-top: 10px;
+   padding-left: @gutter-padding;
+   }
+ }
+
+ h1 {
+  float: left;
+  margin-top: 0.25em;
+  font-size: 1.5em;
+ }
+}
+
+.scrolly {
+ .wknd-header {
+
+  @media (min-width: (@screen-medium + 1)) {
+   height: 80px;
+   background-color: @body-bg;
+   -webkit-box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.26);
+   -moz-box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.26);
+   box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.26);
+  }
+ }
+}

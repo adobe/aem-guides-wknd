@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-03-19T13:33:12.283-07:00"
+        cq:lastModified="{Date}2019-04-03T13:15:05.008-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
         jcr:primaryType="cq:PageContent"
@@ -28,20 +28,100 @@
                 <text
                     jcr:created="{Date}2019-03-19T13:33:03.393-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-03-19T13:33:12.281-07:00"
+                    jcr:lastModified="{Date}2019-04-03T13:09:25.345-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/content/text"
-                    text="&lt;p>Hello World!&lt;/p>&#xa;"
-                    textIsRich="true"/>
-                <image
-                    jcr:created="{Date}2019-03-19T13:27:02.308-07:00"
+                    text="&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Congue eu consequat ac felis donec et. Porttitor eget dolor morbi non arcu risus. In iaculis nunc sed augue lacus viverra vitae congue eu. Consequat ac felis donec et. Cursus risus at ultrices mi tempus. Gravida cum sociis natoque penatibus et magnis dis. Morbi tempus iaculis urna id volutpat lacus. Velit euismod in pellentesque massa placerat duis ultricies. Eget mi proin sed libero enim sed faucibus turpis in. Malesuada pellentesque elit eget gravida cum.&lt;/p>&#xa;&lt;p>Sollicitudin tempor id eu nisl nunc. Molestie nunc non blandit massa enim. Eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis.&lt;/p>&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="6"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                    </cq:responsive>
+                </text>
+                <text_1922459121
+                    jcr:created="{Date}2019-04-03T13:07:14.825-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-03-19T13:27:02.308-07:00"
+                    jcr:lastModified="{Date}2019-04-03T13:07:54.790-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/text"
+                    text="&lt;p>Sollicitudin tempor id eu nisl nunc. Molestie nunc non blandit massa enim. Eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis. Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo nec. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum. Elementum pulvinar etiam non quam lacus suspendisse faucibus. Et ligula ullamcorper malesuada proin libero nunc. Faucibus scelerisque eleifend donec pretium. Eu ultrices vitae auctor eu augue. Tellus pellentesque eu tincidunt tortor. Gravida quis blandit turpis cursus in hac habitasse platea dictumst. Ipsum a arcu cursus vitae congue mauris rhoncus aenean. Mauris nunc congue nisi vitae suscipit tellus. Elit duis tristique sollicitudin nibh sit amet commodo nulla. Ac tincidunt vitae semper quis lectus nulla at volutpat. Vel turpis nunc eget lorem dolor sed. Nulla aliquet enim tortor at auctor. Eu tincidunt tortor aliquam nulla facilisi cras fermentum odio eu. Feugiat pretium nibh ipsum consequat nisl vel pretium lectus quam.&lt;/p>&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="6"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                    </cq:responsive>
+                </text_1922459121>
+                <image
+                    jcr:created="{Date}2019-04-03T13:08:16.576-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-04-03T13:10:04.703-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/content/image"
-                    fileReference="/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten/camp-tent.jpg"/>
+                    fileReference="/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten/northern-lights.jpg">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="4"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                    </cq:responsive>
+                </image>
+                <image_copy
+                    jcr:created="{Date}2019-04-03T13:08:16.576-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-04-03T13:10:09.998-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/image"
+                    fileReference="/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten/surfer-wave-02.jpg">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="4"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                    </cq:responsive>
+                </image_copy>
+                <image_copy_2119904576
+                    jcr:created="{Date}2019-04-03T13:08:16.576-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-04-03T13:10:13.066-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/image"
+                    fileReference="/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten/majestic-rainbow.jpg">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="4"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                    </cq:responsive>
+                </image_copy_2119904576>
             </responsivegrid>
         </root>
     </jcr:content>

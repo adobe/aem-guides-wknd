@@ -1,0 +1,16 @@
+.container-fixed(@gutter: @grid-gutter-width) {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left:  floor((@gutter / 2));
+    padding-right: ceil((@gutter / 2));
+    &:extend(.clearfix all);
+  }
+
+  //WKND Mixins
+
+.container-content() {
+  max-width: @max-width;
+  margin: 0 auto;
+  padding: 0 @gutter-padding;
+	
+}
