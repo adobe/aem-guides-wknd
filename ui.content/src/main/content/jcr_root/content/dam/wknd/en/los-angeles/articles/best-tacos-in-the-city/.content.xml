@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="eb5ef57d-e246-41d3-9cd2-8603bc2454ba">
+    <jcr:content
+        cq:name="best-tacos-in-the-city"
+        cq:parentPath="/content/dam/wknd/en/los-angeles/articles"
+        dam:assetState="processed"
+        jcr:description=""
+        jcr:lastModified="{Date}2019-04-17T10:33:46.935-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Best Tacos in the City"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2019-04-17T10:33:46.742-07:00">
+        <associated
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="sling/collection">
+            <sling:members jcr:primaryType="nt:unstructured"/>
+        </associated>
+        <metadata
+            dam:extracted="{Date}2019-04-17T10:33:46.793-07:00"
+            dam:sha1="8abb7f30b9f1b93f186e9a638b67550cfab9d23b"
+            dam:size="{Long}3382"
+            dc:format="text/html"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <model
+            jcr:description="A simple fragment, containing one single element and no predefined variations"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Simple Fragment"
+            precreateElements="{Boolean}true"
+            version="{Long}2">
+            <elements jcr:primaryType="nt:unstructured">
+                <main
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Main"
+                    defaultContent=""
+                    name="main"/>
+            </elements>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

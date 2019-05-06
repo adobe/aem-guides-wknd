@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="c24b1cf6-cee7-4499-b212-ae69c5ee1849">
+    <jcr:content
+        cq:name="five-gyms-in-la"
+        cq:parentPath="/content/dam/wknd/en/los-angeles/articles"
+        dam:assetState="processed"
+        jcr:description=""
+        jcr:lastModified="{Date}2019-04-17T10:36:37.618-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Five Gyms in LA"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2019-04-17T10:36:37.498-07:00">
+        <associated
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="sling/collection">
+            <sling:members jcr:primaryType="nt:unstructured"/>
+        </associated>
+        <metadata
+            dam:extracted="{Date}2019-04-17T10:36:37.548-07:00"
+            dam:sha1="54dcbf9dc92ace81fea552583a42bfc977305c0b"
+            dam:size="{Long}2629"
+            dc:format="text/html"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <model
+            jcr:description="A simple fragment, containing one single element and no predefined variations"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Simple Fragment"
+            precreateElements="{Boolean}true"
+            version="{Long}2">
+            <elements jcr:primaryType="nt:unstructured">
+                <main
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Main"
+                    defaultContent=""
+                    name="main"/>
+            </elements>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
