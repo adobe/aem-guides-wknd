@@ -541,11 +541,23 @@
                 <version>2.3.2</version>
             </dependency>
             <dependency>
+           		<groupId>com.adobe.cq</groupId>
+           		<artifactId>core.wcm.components.core</artifactId>
+           		<version>2.3.2</version>
+           		<scope>provided</scope>
+        	</dependency>
+            <dependency>
                 <groupId>com.adobe.cq</groupId>
                 <artifactId>core.wcm.components.examples</artifactId>
                 <type>zip</type>
                 <version>2.3.2</version>
             </dependency>
+            <dependency>
+       			<groupId>com.adobe.cq</groupId>
+       			<artifactId>core.wcm.components.extension</artifactId>
+       			<type>zip</type>
+       			<version>1.0.12</version>
+   			</dependency>
             <!-- Apache Sling Dependencies -->
             <dependency>
                 <groupId>org.apache.sling</groupId>

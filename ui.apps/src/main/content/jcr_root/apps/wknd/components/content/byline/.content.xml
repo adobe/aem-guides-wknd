@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root 
+    xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Component"
+    jcr:title="Byline"
+    jcr:description="Displays a contributor's byline."
+    componentGroup="WKND.Content"
+    sling:resourceSuperType="core/wcm/components/image/v2/image" />
