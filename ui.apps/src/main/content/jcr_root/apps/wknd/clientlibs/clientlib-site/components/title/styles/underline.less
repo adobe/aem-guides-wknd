@@ -14,20 +14,19 @@
  *  limitations under the License.
  */
 
-/* WKND Title Default style */
+/* WKND Title Underline style */
+
+.cmp-title--underline { 
  
-.cmp-title {
-     
-    h1, h2, h3, h4 {
-        font-family: @font-family-serif;
-    }
-
-    h1 {
-        font-size: 48px;
-
-        @media (max-width: @screen-medium) {
-            font-size: @font-size-h1;
-        }
-    }
-    
+ .cmp-title {
+  .cmp-title__text {
+   &:after {
+   display: block;
+      width: 84px;
+      padding-top: 8px;
+      content: '';
+      border-bottom: 2px solid @brand-primary;
+   }
+  }
+ }
 }

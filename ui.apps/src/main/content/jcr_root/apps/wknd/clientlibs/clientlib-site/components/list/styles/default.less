@@ -14,20 +14,40 @@
  *  limitations under the License.
  */
 
-/* WKND Title Default style */
- 
-.cmp-title {
-     
-    h1, h2, h3, h4 {
-        font-family: @font-family-serif;
+/* WKND List Default Style */
+
+.cmp-list {
+
+    float:left;
+    padding:0;
+
+    .cmp-list__item {
+        list-style: none;
+        float:left;
+        width:100%;
+        margin-bottom:1em;
     }
 
-    h1 {
-        font-size: 48px;
+    .cmp-list__item-link {
+        font-weight: 600;
+        float:left;
+        padding: 0.5rem 1rem;
 
-        @media (max-width: @screen-medium) {
-            font-size: @font-size-h1;
+        &:hover {
+            background: @brand-secondary;
         }
     }
-    
+
+    .cmp-list__item-title {
+        width:100%;
+        float:left;
+    }
+
+    .cmp-list__item-date {
+        width:100%;
+        float:left;
+        color: @gray-light;
+        font-size: @font-size-small; 
+    }
+
 }

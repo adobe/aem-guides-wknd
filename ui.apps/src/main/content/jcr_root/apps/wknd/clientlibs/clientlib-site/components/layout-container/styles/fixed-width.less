@@ -13,21 +13,19 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-
-/* WKND Title Default style */
  
-.cmp-title {
-     
-    h1, h2, h3, h4 {
-        font-family: @font-family-serif;
-    }
+/* WKND Layout Container - fixed-width.less */
 
-    h1 {
-        font-size: 48px;
+.cmp-layout-container--fixed {
+  display:block;
+  max-width:  @max-width !important;
+  float: unset !important;
+  margin: 0 auto !important;
+  padding: 0 @gutter-padding;
+  clear: both !important; 
 
-        @media (max-width: @screen-medium) {
-            font-size: @font-size-h1;
-        }
-    }
-    
+  @media (max-width: @screen-medium) {
+    padding: 0 !important;
+  }
+
 }

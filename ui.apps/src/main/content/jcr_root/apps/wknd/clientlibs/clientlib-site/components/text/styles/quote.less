@@ -14,7 +14,29 @@
 *  limitations under the License.
 */
 
-/* WKND Text Styles */
- 
-@import (once) "styles/default.less";
-@import (once) "styles/quote.less";
+/* WKND Text Quote style */
+
+.cmp-text--quote {
+
+      background-color:@brand-secondary;
+      padding: 1em 3em;
+     margin: 1em 0em;
+
+      blockquote {
+       margin: 0;
+       font-size: 36px;
+       border: none;
+       padding: 14px 0px;
+      }
+
+      u {
+       text-decoration: none;
+       font-family: @font-family-sans-serif;
+       &:before {
+                border-top: 2px solid @brand-primary;
+                content: '';
+                display: block;
+                width: 80px;
+       }
+      }
+}
