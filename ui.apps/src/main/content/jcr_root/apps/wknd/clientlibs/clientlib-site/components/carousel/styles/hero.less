@@ -1,0 +1,118 @@
+/*
+ *  Copyright 2018 Adobe Systems Incorporated
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+/* WKND Carousel - hero.less*/
+
+@cmp-carousel-indicator-size: 10px;
+@cmp-carousel-indicator-height: 60px;
+@cmp-carousel-action-icon-size: 35px;
+@cmp-carousel-action-bg-size: 50px;
+@cmp-carousel-action-icon-offset: 12px;
+
+
+.cmp-carousel--hero {
+    
+    padding:0;
+
+	.cmp-carousel {
+        &:hover {
+            .cmp-carousel__action {
+                opacity: 1;
+            }
+        }
+    }
+		
+    .cmp-carousel__action {
+       	position: absolute;
+    	line-height: @cmp-carousel-action-bg-size;
+        opacity: 0;
+        background-color: rgba(151, 151, 151, 0.897); 
+        color: rgba(255, 255, 255, 0.8);
+        border-radius: 50%;
+        height: @cmp-carousel-action-bg-size;
+        width: @cmp-carousel-action-bg-size;
+        display: block;
+        padding: 0px;
+        border: none;
+        cursor: pointer;
+        transition: opacity 0.2s linear 0s;
+        top: ~"calc(50% - @{cmp-carousel-action-bg-size})";
+        margin-left: @cmp-carousel-action-icon-offset;
+        margin-right: @cmp-carousel-action-icon-offset;
+       }
+
+       .cmp-carousel__action-text {
+           display:none;
+       }
+
+       .cmp-carousel__action-icon {
+           height: @cmp-carousel-action-icon-size;
+           width: @cmp-carousel-action-icon-size;
+           display: block;
+           background-repeat: no-repeat;
+           background-size: contain;
+       }
+
+       .cmp-carousel__action--previous {
+           left: 0;
+           .cmp-carousel__action-icon {
+           background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 252.15 477.17'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Eback-button%3C/title%3E%3Cpath class='cls-1' d='M145.19,238.57l215.5-215.5A13.51,13.51,0,0,0,341.59,4l-225.1,225.1a13.46,13.46,0,0,0,0,19.1l225.1,225a13.59,13.59,0,0,0,9.5,4,13.17,13.17,0,0,0,9.5-4,13.46,13.46,0,0,0,0-19.1Z' transform='translate(-112.51 0)'/%3E%3C/svg%3E");
+           margin-left: @cmp-carousel-action-icon-offset;
+        }
+       }
+
+       .cmp-carousel__action--next {
+           right: 0;
+
+           .cmp-carousel__action-icon {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 252.15 477.17'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Eback%3C/title%3E%3Cpath class='cls-1' d='M116.59,454.07a13.46,13.46,0,0,0,0,19.1,13.17,13.17,0,0,0,9.5,4,13.59,13.59,0,0,0,9.5-4l225.1-225a13.46,13.46,0,0,0,0-19.1L135.59,4a13.51,13.51,0,1,0-19.1,19.1L332,238.57Z' transform='translate(-112.51 0)'/%3E%3C/svg%3E");
+            margin-left: @cmp-carousel-action-icon-offset + 6;
+            }
+       }
+
+       .cmp-carousel__indicators {
+           .container-content();
+           position: relative;
+           padding: 0;
+           bottom: @cmp-carousel-indicator-height;
+           padding-left: @gutter-padding * 2;
+           display: flex;
+           justify-content: left;
+           list-style: none;
+           background-color: transparent;
+           height:@cmp-carousel-indicator-height;
+
+           @media (max-width: @screen-medium) {
+               justify-content: center;
+           }
+       }
+
+       .cmp-carousel__indicator {
+           position: relative;
+           cursor: pointer;
+           flex: 0 1 auto;
+           width: @cmp-carousel-indicator-size;
+           height: @cmp-carousel-indicator-size;
+           margin: 6px 8px;
+           border-radius: 50%;
+           font-size: 0;
+           text-indent: -3000px;
+           background-color: rgba(116, 116, 116, 0.5);
+
+           &--active {
+               background-color: rgba(0, 0, 0, 0.9);
+           }
+       }
+   }
