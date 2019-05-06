@@ -1,0 +1,93 @@
+/*
+ *  Copyright 2018 Adobe Systems Incorporated
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+ 
+//== Colors
+//
+//## Gray and brand colors for use across Bootstrap.
+
+@gray-base:              #000;
+@gray-darker:            lighten(@gray-base, 13.5%); // #222
+@gray-dark:              lighten(@gray-base, 20%);   // #333
+@gray:                   lighten(@gray-base, 33.5%); // #555
+@gray-light:             lighten(@gray-base, 46.7%); // #777
+@gray-lighter:           lighten(@gray-base, 93.5%); // #eee
+
+@brand-primary:         #FFE72B; // #337ab7
+
+
+//== Layout
+@gutter-padding: 14px;
+
+@max-width: 1164px;
+
+@screen-small: 767px;
+@screen-medium: 992px;
+@screen-large: 1200px;
+
+//== Scaffolding
+//
+//## Settings for some of the most global styles.
+
+//** Background color for `<body>`.
+@body-bg:               #fff;
+//** Global text color on `<body>`.
+@text-color:            #000;
+
+@brand-secondary:       #EBEBEB;
+
+@brand-third:           #fff;
+
+//** Global textual link color.
+@link-color:            #0045FF;
+//** Link hover color set via `darken()` function.
+@link-hover-color:      @link-color;
+//** Link hover decoration.
+@link-hover-decoration: underline;
+
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+
+@font-family-sans-serif:  "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-serif:       "Asar",Georgia, "Times New Roman", Times, serif;
+@font-family-base:        @font-family-sans-serif;
+
+@font-size-base:          20px;
+@font-size-large:         24px;
+@font-size-xlarge:        48px;
+@font-size-medium:		  13px;
+@font-size-small:         16px;
+@font-size-xsmall:		  12px;
+
+@font-size-h1:            36px; // ~36px
+@font-size-h2:            30px; // ~30px
+@font-size-h3:            24px; // ~24px
+@font-size-h4:            22px; // ~18px
+@font-size-h5:            @font-size-base;
+@font-size-h6:            12px; // ~12px
+
+//** Unit-less `line-height` for use in components like buttons.
+@line-height-base:        1.428571429; // 20/14
+@line-height-computed:    floor((@font-size-base * @line-height-base)); // ~20px
+
+@font-weight-light:      300;
+@font-weight-normal:     400;
+@font-weight-semi-bold:  500;
+@font-weight-bold:       700;
+
+
+

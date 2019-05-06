@@ -1,0 +1,91 @@
+/*
+ *  Copyright 2018 Adobe Systems Incorporated
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+ 
+//** Load fonts from this directory.
+@icon-font-path:          "../resources/";
+//** WKND Specific Fonts
+@app-icon-font-name: "wknd-icon-font";
+
+@font-face {
+  font-family: 'Wkndicons';
+  src: url('@{icon-font-path}@{app-icon-font-name}.eot');
+  src: url('@{icon-font-path}@{app-icon-font-name}.eot?#iefix') format('embedded-opentype'),
+       url('@{icon-font-path}@{app-icon-font-name}.woff2') format('woff2'),
+       url('@{icon-font-path}@{app-icon-font-name}.woff') format('woff'),
+       url('@{icon-font-path}@{app-icon-font-name}.ttf') format('truetype'),
+       url('@{icon-font-path}@{app-icon-font-name}.svg#@{app-icon-font-name}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'tutorialfont';
+    src: url('../font/tutorialfont.svg?90561520#tutorialfont') format('svg');
+  }
+}
+*/
+ 
+.wkndicon {
+  font-family: "Wkndicons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.wkndicon-ico-bm                { &:before { content: "\e800"; } }
+.wkndicon-ico-art               { &:before { content: "\e801"; } }
+.wkndicon-ico-bars              { &:before { content: "\e802"; } }
+.wkndicon-ico-music             { &:before { content: "\e803"; } }
+.wkndicon-ico-restaurants       { &:before { content: "\e804"; } }
+.wkndicon-ico-shopping          { &:before { content: "\e805"; } }
+.wkndicon-ico-sport             { &:before { content: "\e806"; } }
+.wkndicon-ico-cross             { &:before { content: "\e807"; } }
+.wkndicon-ico-fb-edge           { &:before { content: "\e808"; } }
+.wkndicon-ico-insta-edge        { &:before { content: "\e809"; } }
+.wkndicon-ico-like-edge         { &:before { content: "\e80a"; } }
+.wkndicon-ico-fill-edge         { &:before { content: "\e80b"; } }
+.wkndicon-ico-pinterest-edge    { &:before { content: "\e80c"; } }
+.wkndicon-ico-play              { &:before { content: "\e80d"; } }
+.wkndicon-ico-replies-edge      { &:before { content: "\e80e"; } }
+.wkndicon-ico-reply-fill        { &:before { content: "\e80f"; } }
+.wkndicon-ico-search            { &:before { content: "\e810"; } }
+.wkndicon-ico-twitter-edge      { &:before { content: "\e811"; } }
+.wkndicon-ico-twitter-fill      { &:before { content: "\e812"; } }
+.wkndicon-ico-user              { &:before { content: "\e813"; } }

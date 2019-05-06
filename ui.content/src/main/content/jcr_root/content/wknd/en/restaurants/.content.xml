@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-04-17T13:15:50.862-07:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/wknd/settings/wcm/templates/landing-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Restaurants"
+        sling:resourceType="wknd/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                cq:styleIds="[1554340406437]"
+                jcr:created="{Date}2019-03-19T13:22:52.385-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-03-19T13:23:39.376-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <list
+                    jcr:created="{Date}2019-04-16T15:34:35.296-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-04-17T13:15:50.859-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/list"
+                    childDepth="1"
+                    linkItems="true"
+                    listFrom="children"
+                    parentPage="/content/wknd/en/restaurants"
+                    showDescription="false"
+                    showModificationDate="true"
+                    sortOrder="asc"
+                    tagsMatch="any"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+    <best-tacos-in-the-city/>
+    <best-roasters/>
+</jcr:root>

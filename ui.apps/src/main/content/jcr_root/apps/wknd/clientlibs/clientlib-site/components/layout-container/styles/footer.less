@@ -1,0 +1,25 @@
+ /* WKND Layout Container Footer Style */
+
+   @footer-background-color: #000;
+   @footer-text-color: #fff;
+
+   .cmp-layout-container--footer {
+       background: @footer-background-color;
+       min-height: 365px;
+       margin-top: 3em;
+       padding: 0 3em;
+
+       >.aem-Grid {
+           .container-content();
+       }
+
+       @media (max-width: @screen-medium) {
+               min-height:267px;
+       }
+
+       p {
+              color: @footer-text-color;
+              font-size: @font-size-xsmall;
+              text-align:center;
+          }
+   }

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    cq:isContainer="{Boolean}true"
+    jcr:primaryType="cq:Component"
+    componentGroup="WKND.Content"
+    sling:resourceSuperType="core/wcm/extension/components/contentfragment/v1/contentfragment"
+    jcr:title="Content Fragment"
+    jcr:description="Displays content from a referenced Content Fragment"/>
