@@ -98,6 +98,10 @@
     </build>
 
     <dependencies>
+        <dependency>
+            <groupId>com.adobe.cq</groupId>
+            <artifactId>core.wcm.components.core</artifactId>
+        </dependency>
         <!-- OSGi Dependencies -->
         <dependency>
             <groupId>org.osgi</groupId>

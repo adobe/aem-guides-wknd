@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+          xmlns:granite="http://www.adobe.com/jcr/granite/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Byline"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured">
+                <items jcr:primaryType="nt:unstructured">
+                    <properties
+                        jcr:primaryType="nt:unstructured">
+                        <items jcr:primaryType="nt:unstructured">
+                            <content
+                                jcr:primaryType="nt:unstructured">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <decorative
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:hideResource="{Boolean}true"/>
+                                    <altValueFromDAM
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:hideResource="{Boolean}true"/>
+                                    <titleValueFromDAM
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:hideResource="{Boolean}true"/>
+                                    <displayCaptionPopup
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:hideResource="{Boolean}true"/>
+                                    <disableUuidTracking
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:hideResource="{Boolean}true"/>                                
+                                </items>
+                            </content>
+                        </items>
+                    </properties>
+                    <features
+                        jcr:primaryType="nt:unstructured">
+                        <items jcr:primaryType="nt:unstructured">
+                            <content
+                                jcr:primaryType="nt:unstructured">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <accordion
+                                        jcr:primaryType="nt:unstructured">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <orientation
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:hideResource="{Boolean}true"/>
+                                            <crop
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:hideResource="{Boolean}true"/>
+                                        </items>
+                                    </accordion>
+                                </items>
+                            </content>
+                        </items>
+                    </features>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>
