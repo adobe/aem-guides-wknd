@@ -32,12 +32,12 @@
                             mergeList="{Boolean}true"/>
                     </content-default>
                     <policy_213106331986985
-                        jcr:lastModified="{Date}2019-04-03T18:31:34.539-07:00"
+                        jcr:lastModified="{Date}2019-04-04T11:09:51.261-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Content"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/wknd/components/content/breadcrumb,/apps/wknd/components/content/contentfragment,/apps/wknd/components/content/image,/apps/wknd/components/content/list,/apps/wknd/components/content/text,/apps/wknd/components/content/title]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/wknd/components/content/breadcrumb,/apps/wknd/components/content/byline,/apps/wknd/components/content/contentfragment,/apps/wknd/components/content/image,/apps/wknd/components/content/list,/apps/wknd/components/content/text,/apps/wknd/components/content/title]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -305,6 +305,7 @@
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_1554341419430>
                 </breadcrumb>
+                <byline jcr:primaryType="nt:unstructured"/>
             </content>
         </components>
     </wknd>
