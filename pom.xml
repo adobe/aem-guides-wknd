@@ -546,12 +546,6 @@
                 <type>zip</type>
                 <version>2.4.0</version>
             </dependency>
-            <dependency>
-                <groupId>com.adobe.cq</groupId>
-                <artifactId>core.wcm.components.extension</artifactId>
-                <type>zip</type>
-                <version>1.0.12</version>
-            </dependency>
             <!-- Apache Sling Dependencies -->
             <dependency>
                 <groupId>org.apache.sling</groupId>
