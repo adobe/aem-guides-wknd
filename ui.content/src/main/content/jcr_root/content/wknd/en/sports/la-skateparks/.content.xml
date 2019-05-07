@@ -114,7 +114,7 @@
                         sling:resourceType="wknd/components/content/byline"
                         fileReference="/content/dam/wknd/en/contributors/stacey-roswells.jpg"
                         name="Stacey Roswells"
-                        occupations="[Photographer,Blogger]"/>
+                        occupations="[Photographer,Youtuber,Blogger]"/>
                 </responsivegrid>
                 <responsivegrid_1919360910
                     jcr:created="{Date}2018-11-15T20:40:44.357-05:00"

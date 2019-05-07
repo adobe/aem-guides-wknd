@@ -75,11 +75,6 @@
                             <artifactId>core.wcm.components.examples</artifactId>
                             <filter>true</filter>
                         </subPackage>
-                        <subPackage>
-                            <groupId>com.adobe.cq</groupId>
-                            <artifactId>core.wcm.components.extension</artifactId>
-                            <filter>true</filter>
-                        </subPackage>
                     </subPackages>
                 </configuration>
             </plugin>
@@ -124,11 +119,6 @@
         <dependency>
             <groupId>com.adobe.cq</groupId>
             <artifactId>core.wcm.components.examples</artifactId>
-            <type>zip</type>
-        </dependency>
-        <dependency>
-            <groupId>com.adobe.cq</groupId>
-            <artifactId>core.wcm.components.extension</artifactId>
             <type>zip</type>
         </dependency>
         <dependency>

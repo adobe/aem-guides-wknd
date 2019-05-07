@@ -3,6 +3,6 @@
     cq:isContainer="{Boolean}true"
     jcr:primaryType="cq:Component"
     componentGroup="WKND.Content"
-    sling:resourceSuperType="core/wcm/extension/components/contentfragment/v1/contentfragment"
+    sling:resourceSuperType="core/wcm/components/contentfragment/v1/contentfragment"
     jcr:title="Content Fragment"
     jcr:description="Displays content from a referenced Content Fragment"/>
