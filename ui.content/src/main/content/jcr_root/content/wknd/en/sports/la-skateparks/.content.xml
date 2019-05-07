@@ -62,7 +62,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/components/grid">
                             <text
-                                cq:styleIds="[1542316114487]"
+                                cq:styleIds="[1554340301154]"
                                 jcr:created="{Date}2018-11-15T21:59:44.233-05:00"
                                 jcr:createdBy="admin"
                                 jcr:lastModified="{Date}2018-11-15T22:00:22.384-05:00"
@@ -112,7 +112,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/content/byline"
-                        fileReference="/content/dam/wknd/en/contributors/stacey-roswells.jpg"
+                        fileReference="/content/dam/wknd/en/los-angeles/stacey-roswells.jpg"
                         name="Stacey Roswells"
                         occupations="[Photographer,Youtuber,Blogger]"/>
                 </responsivegrid>
