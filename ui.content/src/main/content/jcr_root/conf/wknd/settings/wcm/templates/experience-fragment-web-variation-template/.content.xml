@@ -6,6 +6,6 @@
         cq:lastModifiedBy="admin"
         cq:templateType="/conf/wknd/settings/wcm/template-types/empty-experience-fragment"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Experience Fragment Sample WKND Template"
+        jcr:title="Experience Fragment Web Variation Template"
         status="enabled"/>
 </jcr:root>
