@@ -15,6 +15,7 @@
  */
 package com.adobe.aem.guides.wknd.core.components.impl;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
@@ -69,7 +70,7 @@ public class BylineImpl implements Byline {
     public List<String> getOccupations() {
          if (occupations != null) {
              Collections.sort(occupations);
-             return occupations;
+             return new ArrayList<String>(occupations);
          } else {
              return Collections.emptyList();
          }
