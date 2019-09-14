@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:lastModified="{Date}2019-09-11T16:24:31.535-05:00"
+        cq:lastModified="{Date}2019-09-13T14:22:51.215-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/experience-fragment-web-variation-template"
         jcr:primaryType="cq:PageContent"
@@ -11,29 +11,23 @@
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
-            <title
-                jcr:created="{Date}2019-09-11T16:24:28.704-05:00"
+            <responsivegrid
+                jcr:created="{Date}2019-09-13T14:22:51.213-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2019-09-11T16:24:28.704-05:00"
+                jcr:lastModified="{Date}2019-09-13T14:22:51.213-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wknd/components/content/title"
-                editable="{Boolean}true"/>
-            <text
-                jcr:created="{Date}2019-09-11T16:24:31.533-05:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2019-09-11T16:24:31.533-05:00"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="wknd/components/content/text"
-                editable="{Boolean}true"/>
+                sling:resourceType="wcm/foundation/components/responsivegrid"
+                editable="{Boolean}true">
+                <cq:responsive jcr:primaryType="nt:unstructured"/>
+            </responsivegrid>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">
                 <phone
                     jcr:primaryType="nt:unstructured"
                     title="Smaller Screen"
-                    width="{Long}650"/>
+                    width="{Long}768"/>
                 <tablet
                     jcr:primaryType="nt:unstructured"
                     title="Tablet"

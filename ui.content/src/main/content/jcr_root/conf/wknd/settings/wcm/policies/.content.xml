@@ -32,12 +32,12 @@
                             mergeList="{Boolean}true"/>
                     </content-default>
                     <policy_213106331986985
-                        jcr:lastModified="{Date}2019-04-17T15:30:03.692-07:00"
+                        jcr:lastModified="{Date}2019-09-13T15:11:10.693-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Content"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/wknd/components/content/breadcrumb,/apps/wknd/components/content/byline,/apps/wknd/components/content/carousel,/apps/wknd/components/content/contentfragment,/apps/wknd/components/content/image,/apps/wknd/components/content/list,/apps/wknd/components/content/teaser,/apps/wknd/components/content/text,/apps/wknd/components/content/title]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/wknd/components/content/breadcrumb,/apps/wknd/components/content/byline,/apps/wknd/components/content/carousel,/apps/wknd/components/content/contentfragment,/apps/wknd/components/content/experiencefragment,/apps/wknd/components/content/image,/apps/wknd/components/content/list,/apps/wknd/components/content/teaser,/apps/wknd/components/content/text,/apps/wknd/components/content/title]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -84,6 +84,25 @@
                         components="[group:WKND.Content,group:WKND.Structure]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_4792148308882>
+                    <policy_70911755464249
+                        jcr:lastModified="{Date}2019-09-13T16:28:07.947-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Experience Fragment"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/wcm/foundation/components/responsivegrid,group:WKND.Content,group:WKND.Content Form,group:WKND.Structure]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:authoring jcr:primaryType="nt:unstructured">
+                            <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                                <mapping_1568417184586
+                                    jcr:primaryType="nt:unstructured"
+                                    assetGroup="media"
+                                    assetMimetype="image/*"
+                                    droptarget="image"
+                                    resourceType="wknd/components/content/image"/>
+                            </assetToComponentMapping>
+                        </cq:authoring>
+                    </policy_70911755464249>
                 </responsivegrid>
             </components>
         </foundation>
@@ -255,7 +274,7 @@
                 </list>
                 <image jcr:primaryType="nt:unstructured">
                     <policy_1554341366929
-                        jcr:lastModified="{Date}2019-04-18T16:35:27.752-07:00"
+                        jcr:lastModified="{Date}2019-09-13T16:25:31.474-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Image - Article"
@@ -263,7 +282,7 @@
                         allowedRenditionWidths="[300,500,800,1000,1200]"
                         allowUpload="true"
                         altValueFromDAM="true"
-                        disableLazyLoading="true"
+                        disableLazyLoading="false"
                         displayPopupTitle="true"
                         isDecorative="false"
                         jpegQuality="{Long}100"
@@ -301,6 +320,53 @@
                                 features="-"/>
                         </plugins>
                     </policy_1554341366929>
+                    <policy_1568423036289
+                        jcr:lastModified="{Date}2019-09-13T18:05:03.008-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Image - Landing"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        allowedRenditionWidths="[300,400,500,600,700,800,900,1000,1280]"
+                        allowUpload="true"
+                        altValueFromDAM="true"
+                        disableLazyLoading="true"
+                        displayPopupTitle="true"
+                        isDecorative="false"
+                        jpegQuality="{Long}100"
+                        titleValueFromDAM="true"
+                        uuidDisabled="true">
+                        <plugins jcr:primaryType="nt:unstructured">
+                            <rotate
+                                jcr:primaryType="nt:unstructured"
+                                features="right"/>
+                            <flip
+                                jcr:primaryType="nt:unstructured"
+                                features="-"/>
+                            <crop
+                                jcr:primaryType="nt:unstructured"
+                                features="*">
+                                <aspectRatios jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        name="Wide Landscape"
+                                        ratio="0.6180"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        name="Landscape"
+                                        ratio="0.8284"/>
+                                    <item2
+                                        jcr:primaryType="nt:unstructured"
+                                        name="Square"
+                                        ratio="1"/>
+                                    <item3
+                                        jcr:primaryType="nt:unstructured"
+                                        name="Portrait"
+                                        ratio="1.6180"/>
+                                </aspectRatios>
+                            </crop>
+                        </plugins>
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1568423036289>
                 </image>
                 <breadcrumb jcr:primaryType="nt:unstructured">
                     <policy_1554341419430
