@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:allowedTemplates="/conf/wknd/settings/wcm/templates/.*"
-        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:deviceGroups="[mobile/groups/responsive]"
         cq:lastModified="{Date}2019-03-19T13:34:28.176-07:00"
         cq:lastModifiedBy="admin"
         jcr:primaryType="cq:PageContent"
@@ -17,4 +17,5 @@
         </image>
     </jcr:content>
     <en/>
+    <fr/>
 </jcr:root>
