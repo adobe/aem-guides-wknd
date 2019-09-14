@@ -9,8 +9,9 @@
         "allowSyntheticDefaultImports": true,
         "sourceMap": true
     },
-    "include": [ "**/*.ts" ],
+    "include": [ "src/**/*.ts", "src/**/*.tsx"],
     "exclude": [
+        "node",
         "node_modules",
         "**/tests/*.js",
         "**/tests/*.ts",
