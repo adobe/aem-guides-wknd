@@ -3,4 +3,4 @@
     jcr:primaryType="cq:ClientLibraryFolder"
     allowProxy="{Boolean}true"
     categories="[wknd.dependencies]"
-    embed="[granite.shared,cq.shared]"/>
+    embed="[granite.csrf.standalone]"/>
