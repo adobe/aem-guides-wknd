@@ -1,7 +1,7 @@
 import { document, console } from 'global';
 import { storiesOf } from '@storybook/html';
-import '../../../site/main.scss';
-import '../../../../.storybook/story-styles.css';
+import '../src/site/main.scss';
+import '../.storybook/story-styles.css';
 
 
 

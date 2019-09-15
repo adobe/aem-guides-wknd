@@ -21,6 +21,7 @@
         "*.config.js",
         "**/clientlib-dependencies/dependencies.js",
         "**/clientlib-site/site.js",
-        "**/clientlib-site/webpack/vendors.js"
+        "**/clientlib-site/webpack/vendors.js",
+        "**/*.stories.js"
     ]
 }
