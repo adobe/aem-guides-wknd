@@ -1,14 +1,14 @@
 import { document, console } from 'global';
 import { storiesOf } from '@storybook/html';
-import '../../../site/main.scss';
-import '../../../../.storybook/story-styles.css';
+import '../src/site/main.scss';
+import '../.storybook/story-styles.css';
 
 
 
 
 storiesOf('Image', module)
-  .add('Default', () => new Image("default").markup)
-  .add('Caption', () => new Image("default").caption);
+  .add('Default', () => '<div style="width:50%">' + new Image("default").markup + '</div>')
+  .add('Caption', () => '<div style="width:50%">' + new Image("default").caption + '</div>');
 
 
   class Image {
