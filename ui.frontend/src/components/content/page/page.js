@@ -13,28 +13,27 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
- 
-/* In Author Mode change header position from fixed to static */
 
- .wknd-header {
-    position: static;
-    @media (max-width: 992px) {
-        position: static;
-    }
-}
+var jQuery = require("jquery");
 
-body {
-    .root {
-        padding-top:0px;
-        @media (max-width: 992px) {
-            padding-top:0px;     
-        }
-    }
-}
+   (function (element, $) {
+       'use strict';
+       var target = $(element),
+           className = "scrolly",
+           scroll,
+           mobileBreakpoint = 992;
 
-body.wknd-page--home {
+       if($(window).scrollTop() > 0) {
+           target.addClass(className);
+       }
 
-    .wknd-header {
-        position: fixed;
-    }
-}
+       $(window).scroll(function(){
+
+            scroll = $(window).scrollTop();
+       if(scroll > 0 ) {
+           target.addClass(className);
+       } else {
+           target.removeClass(className);
+       }
+    });
+   }('body',jQuery));

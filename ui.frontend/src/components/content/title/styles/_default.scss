@@ -13,28 +13,21 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
+
+/* WKND Title Default style */
  
-/* In Author Mode change header position from fixed to static */
-
- .wknd-header {
-    position: static;
-    @media (max-width: 992px) {
-        position: static;
+.cmp-title {
+     
+    h1, h2, h3, h4 {
+        font-family: $font-family-serif;
     }
-}
 
-body {
-    .root {
-        padding-top:0px;
-        @media (max-width: 992px) {
-            padding-top:0px;     
+    h1 {
+        font-size: 48px;
+
+        @media (max-width: $screen-medium) {
+            font-size: $font-size-h1;
         }
     }
-}
-
-body.wknd-page--home {
-
-    .wknd-header {
-        position: fixed;
-    }
+    
 }

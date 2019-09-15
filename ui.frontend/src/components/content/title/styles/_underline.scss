@@ -13,28 +13,20 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
+
+/* WKND Title Underline style */
+
+.cmp-title--underline { 
  
-/* In Author Mode change header position from fixed to static */
-
- .wknd-header {
-    position: static;
-    @media (max-width: 992px) {
-        position: static;
+   .cmp-title {
+    .cmp-title__text {
+     &:after {
+     display: block;
+        width: 84px;
+        padding-top: 8px;
+        content: '';
+        border-bottom: 2px solid $brand-primary;
+     }
     }
-}
-
-body {
-    .root {
-        padding-top:0px;
-        @media (max-width: 992px) {
-            padding-top:0px;     
-        }
-    }
-}
-
-body.wknd-page--home {
-
-    .wknd-header {
-        position: fixed;
-    }
-}
+   }
+  }

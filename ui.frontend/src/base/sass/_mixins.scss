@@ -13,28 +13,31 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
- 
-/* In Author Mode change header position from fixed to static */
 
- .wknd-header {
-    position: static;
-    @media (max-width: 992px) {
-        position: static;
-    }
+ @mixin container-fixed($gutter: $grid-gutter-width){
+    margin-right: auto;
+    margin-left: auto;
+    padding-left:  floor(($gutter / 2));
+    padding-right: ceil(($gutter / 2));
+  }
+
+  //WKND Mixins
+
+@mixin container-content(){
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 0 $gutter-padding;
+	
 }
 
-body {
-    .root {
-        padding-top:0px;
-        @media (max-width: 992px) {
-            padding-top:0px;     
-        }
-    }
+@mixin animated(){
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
-body.wknd-page--home {
-
-    .wknd-header {
-        position: fixed;
-    }
+@mixin fadeIn(){
+-webkit-animation-name: fadeIn;
+animation-name: fadeIn;
 }

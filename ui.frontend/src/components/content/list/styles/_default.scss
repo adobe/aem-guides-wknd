@@ -13,28 +13,41 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
- 
-/* In Author Mode change header position from fixed to static */
 
- .wknd-header {
-    position: static;
-    @media (max-width: 992px) {
-        position: static;
+/* WKND List Default Style */
+
+.cmp-list {
+
+    float: left;
+    padding: 0;
+
+    .cmp-list__item {
+        list-style: none;
+        float: left;
+        width: 100%;
+        margin-bottom: 1em;
     }
-}
 
-body {
-    .root {
-        padding-top:0px;
-        @media (max-width: 992px) {
-            padding-top:0px;     
+    .cmp-list__item-link {
+        font-weight: 600;
+        float: left;
+        padding: 0.5rem 1rem;
+
+        &:hover {
+            background: $brand-secondary;
         }
     }
-}
 
-body.wknd-page--home {
-
-    .wknd-header {
-        position: fixed;
+    .cmp-list__item-title {
+        width: 100%;
+        float: left;
     }
+
+    .cmp-list__item-date {
+        width: 100%;
+        float: left;
+        color: $gray-light;
+        font-size: $font-size-small;
+    }
+
 }

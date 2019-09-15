@@ -12,29 +12,18 @@
  *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
- */
- 
-/* In Author Mode change header position from fixed to static */
+ */ 
+ /* WKND Carousel - default.less */
 
- .wknd-header {
-    position: static;
-    @media (max-width: 992px) {
-        position: static;
-    }
-}
+ .cmp-carousel {
 
-body {
-    .root {
-        padding-top:0px;
-        @media (max-width: 992px) {
-            padding-top:0px;     
+    .cmp-carousel__item {
+        @include animated();
+        @include fadeIn();
+
+        display: none;
+        &--active {
+            display: block;
         }
-    }
-}
-
-body.wknd-page--home {
-
-    .wknd-header {
-        position: fixed;
     }
 }
