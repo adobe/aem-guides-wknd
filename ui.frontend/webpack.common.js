@@ -12,7 +12,7 @@ const SOURCE_ROOT = __dirname + '/src';
 
 module.exports = {
         resolve: {
-            extensions: ['js', '.ts'],
+            extensions: ['.js', '.ts'],
             plugins: [new TSConfigPathsPlugin({
                 configFile: "./tsconfig.json"
             })]
