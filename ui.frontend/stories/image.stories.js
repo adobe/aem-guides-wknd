@@ -8,7 +8,8 @@ import '../.storybook/story-styles.css';
 
 storiesOf('Image', module)
   .add('Default', () => '<div style="width:50%">' + new Image("default").markup + '</div>')
-  .add('Caption', () => '<div style="width:50%">' + new Image("default").caption + '</div>');
+  .add('Caption', () => '<div style="width:50%">' + new Image("default").caption + '</div>')
+  .add('Logo', () =>  new Image("cmp-image--logo").markup);
 
 
   class Image {

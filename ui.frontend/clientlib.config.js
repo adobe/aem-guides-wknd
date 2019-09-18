@@ -25,6 +25,10 @@ module.exports = {
                 resources: [
                     {
                         src: "dist/resources/*.{eot,svg,ttf,woff,woff2}"
+                    },
+                    {
+                        src: "dist/resources/images/country-flags/*.svg",
+                        dest: "images/country-flags"
                     }
                 ]
             }

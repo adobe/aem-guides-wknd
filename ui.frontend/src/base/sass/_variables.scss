@@ -16,17 +16,17 @@
  
 //== Colors
 //
-//## Gray and brand colors for use across Bootstrap.
+//## Gray and brand colors for use across theme.
 
-$gray-base:              #000;
+$black:                  #000;
+$gray-base:              $black;
 $gray-darker:            lighten($gray-base, 13.5%); // #222
 $gray-dark:              lighten($gray-base, 20%);   // #333
 $gray:                   lighten($gray-base, 33.5%); // #555
 $gray-light:             lighten($gray-base, 46.7%); // #777
-$gray-lighter:           lighten($gray-base, 93.5%); // #eee
+$gray-lighter:           lighten($gray-base, 90%); // #eee
 
 $brand-primary:         #FFE72B; // #337ab7
-
 
 //== Layout
 $gutter-padding: 14px;
@@ -57,6 +57,9 @@ $link-hover-color:      $link-color;
 //** Link hover decoration.
 $link-hover-decoration: underline;
 
+$nav-link: #000;
+$nav-link-inverse: #fff;
+
 
 //== Typography
 //
@@ -69,9 +72,9 @@ $font-family-base:        $font-family-sans-serif;
 $font-size-base:          20px;
 $font-size-large:         24px;
 $font-size-xlarge:        48px;
-$font-size-medium:		  13px;
+$font-size-medium:		  18px;
 $font-size-small:         16px;
-$font-size-xsmall:		  12px;
+$font-size-xsmall:		  13px;
 
 $font-size-h1:            36px; // ~36px
 $font-size-h2:            30px; // ~30px
@@ -88,3 +91,13 @@ $font-weight-light:      300;
 $font-weight-normal:     400;
 $font-weight-semi-bold:  500;
 $font-weight-bold:       700;
+
+//=== Page Layout
+$header-height: 200px;
+$header-mobile-height: 130px;
+$utility-nav-height: 40px;
+
+//=== Language Switcher
+//** Load country flags from this directory.
+$country-flag-path:          '../resources/images/country-flags';
+$country-flag-size:          25px;

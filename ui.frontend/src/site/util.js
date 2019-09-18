@@ -195,6 +195,7 @@ var jQuery = require("jquery");
 
                 }
 
+                /*
             // Event: Touch stuff.
                 $this.on('touchstart', function(event) {
 
@@ -270,7 +271,7 @@ var jQuery = require("jquery");
             // Event: Prevent certain events inside the panel from bubbling.
                 $this.on('click touchend touchstart touchmove', function(event) {
                     event.stopPropagation();
-                });
+                });*/
 
             // Event: Hide panel if a child anchor tag pointing to its ID is clicked.
                 $this.on('click', 'a[href="#' + id + '"]', function(event) {
