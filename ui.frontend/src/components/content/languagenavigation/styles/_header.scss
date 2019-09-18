@@ -1,0 +1,16 @@
+.cmp-languagenavigation--header {
+
+    .cmp-languagenavigation {
+        position:fixed;
+        top: 38px;
+        z-index: 999;
+        width: 360px;
+        right: 0;
+        display: none;
+        @include boxShadow();
+        
+        &.showMenu {
+            display: block;
+        }
+    }
+}

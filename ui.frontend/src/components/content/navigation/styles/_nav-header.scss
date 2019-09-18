@@ -19,19 +19,22 @@ $mobile-nav-bg-color: #000;
 $mobile-nav-link-color: #fff;
 
 .cmp-navigation--header {
-
-    float: right;
-    padding-top: .25em;
     min-width: 100px;
-    margin-right: 0.25em;
-    margin-left: 0.25em;
+    width:100%;
 
     .cmp-navigation {
         float: right;
+        padding-top: 15px;
+
+        @media (max-width: $screen-medium) {
+            display: none !important;
+        }
 
         .cmp-navigation__group {
             list-style: none;
             margin: 0;
+            padding-inline-start: 0;
+
         }
 
         .cmp-navigation__item {
@@ -41,9 +44,9 @@ $mobile-nav-link-color: #fff;
 
         .cmp-navigation__item-link {
             color: $text-color;
-            font-size: $font-size-medium;
+            font-size: $font-size-small;
             text-transform: uppercase;
-            font-weight: bolder;
+            font-weight: bold;
             padding: 15px 17px;
             text-decoration: none;
 
@@ -52,14 +55,9 @@ $mobile-nav-link-color: #fff;
                 background-color: $brand-primary;
             }
         }
-        
+
         .cmp-navigation__item--active .cmp-navigation__item-link {
             background-color: $brand-primary;
         }
-    }
-
-    @media (max-width: $screen-medium) {
-
-        display: none;
     }
 }

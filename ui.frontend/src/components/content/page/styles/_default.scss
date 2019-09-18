@@ -25,7 +25,7 @@
   line-height: $line-height-base;
 
   .root {
-      padding-top:160px;
+      padding-top:$header-height;
       @media (max-width: $screen-medium) {
           padding-top:60px;     
       }

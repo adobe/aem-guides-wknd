@@ -526,7 +526,7 @@
                             <item0 jcr:primaryType="nt:unstructured">
                                 <cq:styles jcr:primaryType="nt:unstructured">
                                     <item0
-                                        cq:styleClasses="cmp-button--acount"
+                                        cq:styleClasses="cmp-button--utility cmp-button--account"
                                         cq:styleId="1568591670228"
                                         cq:styleLabel="Account"
                                         jcr:primaryType="nt:unstructured"/>
@@ -555,9 +555,9 @@
                                         cq:styleLabel="Default"
                                         jcr:primaryType="nt:unstructured"/>
                                     <item1
-                                        cq:styleClasses="cmp-languagenavigation--default cmp-languagenavigation--header"
+                                        cq:styleClasses="cmp-languagenavigation--default cmp-languagenavigation--dark cmp-languagenavigation--header"
                                         cq:styleId="1568591864735"
-                                        cq:styleLabel="Header"
+                                        cq:styleLabel="Dark Header"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item0>

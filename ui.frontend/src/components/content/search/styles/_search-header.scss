@@ -16,58 +16,54 @@
 
 /* WKND Search Header styles */
 
-$search-width: 165px;
-$search-width-expand: 265px;
+$search-width: 120px;
+$search-width-expand: 165px;
+$search-results-width: 365px;
+
 $search-width-mobile: $search-width /2;
 $search-width-mobile-expand: $search-width;
 
 .cmp-search--header {
-    float: right;
-    margin-right: -12px;
-    padding-right: $gutter-padding;
+    
+    padding-left: 0px !important;
 
     .cmp-search {
+        padding-top: 10px;
 
         &__form {
 
             .cmp-search__icon {
-                top: 0.7rem;
+                top: 0.8rem;
+                left: 0.35rem;
             }
-
+            .cmp-search__loading-indicator {
+                left: 0.15rem;
+            }
             .cmp-search__clear-icon {
-                top: 0.7rem;
+                top: 0.8rem;
             }
 
             .cmp-search__input {
+                float:right;
                 background-color: #ebebeb8a;
                 color: $text-color;
-                font-size: $font-size-medium;
+                font-size: $font-size-xsmall;
                 border-radius: 0px;
                 border: none;
                 height: 40px;
                 width: $search-width;
                 padding-right: 2rem;
                 padding-left: 1.8rem;
-                transition: ease-in-out, width .35s ease-in-out;
 
                 &:focus {
                     background-color: $body-bg;
                     outline: none !important;
                     border: 1px solid $text-color;
                     box-shadow: none;
-                    width: $search-width-expand;
                 }
 
                 &::placeholder {
                     text-transform: uppercase;
-                }
-
-                @media (max-width: $screen-small) {
-                    width: $search-width-mobile;
-
-                    &:focus {
-                        width: $search-width-mobile-expand;
-                    }
                 }
 
             }
@@ -75,8 +71,13 @@ $search-width-mobile-expand: $search-width;
         }
 
         .cmp-search__results {
-            margin-top: 0.5em;
+            margin-top: 0.75em;
             background: $gray-dark;
+            width: $search-results-width;
+            left: unset;
+            right:0;
+            max-height: unset;
+            @include boxShadow();
 
             a.cmp-search__item {
                 color: $brand-third;
