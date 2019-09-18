@@ -20,7 +20,10 @@ $mobile-nav-link-color: #fff;
 
 .cmp-navigation--header {
     min-width: 100px;
-    width:100%;
+    
+    @media (min-width: ($screen-medium + 1)) and (max-width: $screen-large) {
+        width: 60% !important;
+    }
 
     .cmp-navigation {
         float: right;
@@ -46,7 +49,6 @@ $mobile-nav-link-color: #fff;
             color: $text-color;
             font-size: $font-size-small;
             text-transform: uppercase;
-            font-weight: bold;
             padding: 15px 17px;
             text-decoration: none;
 

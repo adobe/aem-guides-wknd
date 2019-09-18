@@ -1,14 +1,17 @@
 .cmp-layoutcontainer--utility {
     background-color: $black;
     color:$gray-light;
-
+    
     .aem-Grid {
         padding-top: 4px;
         padding-bottom: 4px;
 
-        @media (min-width: $screen-large) {
+        @media (min-width: $screen-large + 1) {
             @include container-content();
+            padding-top: 4px;
+            padding-bottom: 4px;
         }
     }
 
 }
+

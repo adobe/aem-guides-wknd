@@ -2,8 +2,25 @@
    
     padding-top: 50px;
     padding-bottom: 50px;
-
+    
     .aem-Grid {
         @include container-content();
+    }
+
+     /* Tablet */
+     @media (max-width: $screen-medium) {
+        padding-top: 15px;
+        padding-bottom: 15px;
+     }
+}
+
+/* Add Drop shadow on scroll */
+
+.scrolly {
+    .cmp-layoutcontainer--header {
+      background-color: $body-bg;
+      -webkit-box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.26);
+      -moz-box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.26);
+      box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.26);
     }
 }

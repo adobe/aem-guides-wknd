@@ -16,102 +16,103 @@
 
 /* WKND Search Header styles */
 
-$search-width: 120px;
-$search-width-expand: 165px;
-$search-results-width: 365px;
+$search-max-width: 10rem;
+$offset: 3.5rem;
+$search-results-width: 20rem;
 
-$search-width-mobile: $search-width /2;
-$search-width-mobile-expand: $search-width;
+
 
 .cmp-search--header {
     
-    padding-left: 0px !important;
-
     .cmp-search {
         padding-top: 10px;
-
-        &__form {
-
-            .cmp-search__icon {
-                top: 0.8rem;
-                left: 0.35rem;
-            }
-            .cmp-search__loading-indicator {
-                left: 0.15rem;
-            }
-            .cmp-search__clear-icon {
-                top: 0.8rem;
-            }
-
-            .cmp-search__input {
-                float:right;
-                background-color: #ebebeb8a;
-                color: $text-color;
-                font-size: $font-size-xsmall;
-                border-radius: 0px;
-                border: none;
-                height: 40px;
-                width: $search-width;
-                padding-right: 2rem;
-                padding-left: 1.8rem;
-
-                &:focus {
-                    background-color: $body-bg;
-                    outline: none !important;
-                    border: 1px solid $text-color;
-                    box-shadow: none;
-                }
-
-                &::placeholder {
-                    text-transform: uppercase;
-                }
-
-            }
-
-        }
-
-        .cmp-search__results {
-            margin-top: 0.75em;
-            background: $gray-dark;
-            width: $search-results-width;
-            left: unset;
-            right:0;
-            max-height: unset;
-            @include boxShadow();
-
-            a.cmp-search__item {
-                color: $brand-third;
-                font-size: $font-size-small;
-                height: 50px;
-                text-overflow: ellipsis;
-                padding: 0.5em;
-                margin-top: 0.25em;
-            }
-
-            a.cmp-search__item:hover {
-                text-decoration: none;
-                background: $gray-base;
-            }
-
-            .cmp-search__item-mark {
-                background: $gray-base;
-                color: $brand-third;
-            }
-        }
     }
 
+    .cmp-search__clear-icon, .cmp-search__icon  {
+        top: 0.8rem;
+    }
+
+    .cmp-search__input {
+        background-color: #ebebeb8a;
+        color: $text-color;
+        font-size: $font-size-xsmall;
+        border-radius: 0px;
+        border: none;
+        height: 40px;
+        width: #{'calc(100% - 4rem)'};
+
+        &:focus {
+            background-color: $body-bg;
+            outline: none !important;
+            border: 1px solid $text-color;
+            box-shadow: none;
+        }
+
+        &::placeholder {
+            text-transform: uppercase;
+        }
+
+    }
+
+    .cmp-search__results {
+        margin-top: 0.75em;
+        background: $gray-dark;
+        width: $search-results-width;
+        left: unset;
+        right:0;
+        max-height: unset;
+        @include boxShadow();
+    }
+
+    a.cmp-search__item {
+        color: $brand-third;
+        font-size: $font-size-small;
+        height: 50px;
+        text-overflow: ellipsis;
+        padding: 0.5em;
+        margin-top: 0.25em;
+    }
+
+    a.cmp-search__item:hover {
+        text-decoration: none;
+        background: $gray-base;
+    }
+
+    .cmp-search__item-mark {
+        background: $gray-base;
+        color: $brand-third;
+    }
+
+    /* Tablet */
     @media (max-width: $screen-medium) {
+
         .cmp-search__input {
-            height: 50px;
+            max-width: $search-max-width;
+            position: absolute;
+            right: $gutter-padding;
+        }
+        .cmp-search__results {
+            right: 0.75rem;
+        }
+
+        .cmp-search__icon,.cmp-search__loading-indicator {
+            left: unset;
+            right: $search-max-width + $offset;
+            z-index: 1;
+        }
+
+        .cmp-search__clear-icon {
+            right: 1.5rem;
         }
     }
 
+    /* Mobile */
     @media (max-width: $screen-small) {
-        margin-right: 1em;
+        padding-right: 0;
         position: absolute;
         right: 0;
         z-index: 100;
-        margin-top: 0.25em;
+        
 
     }
 }

@@ -27,7 +27,7 @@
   .root {
       padding-top:$header-height;
       @media (max-width: $screen-medium) {
-          padding-top:60px;     
+          padding-top:$header-mobile-height;     
       }
   }
 }
