@@ -23,7 +23,7 @@ var jQuery = require("jquery");
     function applyComponentStyles() {
 
      //Top Level Navigation (expected to only be one of these)
-     $("#header-navbar .cmp-navigation").not("[data-top-nav-processed='true']").each(function() {
+     $(".cmp-layoutcontainer--header .cmp-navigation--header .cmp-navigation").not("[data-top-nav-processed='true']").each(function() {
                // Mark the component element as processed to avoid the cyclic processing (see .not(..) above).
                var nav = $(this).attr("data-top-nav-processed", true),
                    $body = $('body');
