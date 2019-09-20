@@ -23,14 +23,14 @@ var jQuery = require("jquery");
            scroll,
            mobileBreakpoint = 992;
 
-       if($(window).scrollTop() > 0) {
+       if($(window).scrollTop() > 50) {
            target.addClass(className);
        }
 
        $(window).scroll(function(){
 
             scroll = $(window).scrollTop();
-       if(scroll > 0 ) {
+       if(scroll > 50 ) {
            target.addClass(className);
        } else {
            target.removeClass(className);

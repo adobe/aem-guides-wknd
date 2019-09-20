@@ -1,0 +1,12 @@
+
+/* Default */
+.cmp-title__text {
+    color: $text-color;
+}
+
+/* Light */
+.cmp-title--light {
+    .cmp-title__text {
+        color: $gray-light;
+    }
+}
