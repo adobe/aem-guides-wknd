@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-09-18T02:59:28.927-07:00"
+        cq:lastModified="{Date}2019-09-18T13:04:10.083-07:00"
         cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/wknd/settings/wcm/templates/experience-fragment-web-variation-template"
@@ -90,7 +90,7 @@
                         cq:styleIds="[1568592012684]"
                         jcr:created="{Date}2019-09-15T16:52:06.237-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-09-16T12:58:42.103-07:00"
+                        jcr:lastModified="{Date}2019-09-18T13:04:10.001-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/content/image"
@@ -99,7 +99,7 @@
                         displayPopupTitle="false"
                         fileReference="/content/dam/wknd/site/wknd-logo-dk.png"
                         isDecorative="false"
-                        linkURL="/content/wknd/language-masters/en"
+                        linkURL="#"
                         titleValueFromDAM="false">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
@@ -118,13 +118,13 @@
                         cq:styleIds="[1568591750865]"
                         jcr:created="{Date}2019-09-15T16:52:36.305-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-09-16T12:58:22.159-07:00"
+                        jcr:lastModified="{Date}2019-09-18T13:03:47.581-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/structure/navigation"
                         collectAllPages="false"
                         navigationRoot="/content/wknd/language-masters/en"
-                        skipNavigationRoot="true"
+                        skipNavigationRoot="false"
                         structureDepth="1">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
