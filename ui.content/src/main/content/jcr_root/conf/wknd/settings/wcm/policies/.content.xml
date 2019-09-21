@@ -85,11 +85,7 @@
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_4792148308882>
                     <policy_70911755464249
-<<<<<<< HEAD
                         jcr:lastModified="{Date}2019-09-20T10:46:02.051-07:00"
-=======
-                        jcr:lastModified="{Date}2019-09-15T17:02:33.944-07:00"
->>>>>>> develop
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Experience Fragment"
@@ -121,7 +117,6 @@
                                         cq:styleId="1568592140003"
                                         cq:styleLabel="Header"
                                         jcr:primaryType="nt:unstructured"/>
-<<<<<<< HEAD
                                     <item2
                                         cq:styleClasses="cmp-layout-container--fixed cmp-layoutcontainer--footer"
                                         cq:styleId="1568839620471"
@@ -132,8 +127,6 @@
                                         cq:styleId="1568995157177"
                                         cq:styleLabel="Social Media"
                                         jcr:primaryType="nt:unstructured"/>
-=======
->>>>>>> develop
                                 </cq:styles>
                             </item0>
                         </cq:styleGroups>
@@ -703,11 +696,7 @@
                 <contentfragment jcr:primaryType="nt:unstructured"/>
                 <button jcr:primaryType="nt:unstructured">
                     <policy_1568591661081
-<<<<<<< HEAD
                         jcr:lastModified="{Date}2019-09-18T13:50:20.537-07:00"
-=======
-                        jcr:lastModified="{Date}2019-09-15T16:54:43.743-07:00"
->>>>>>> develop
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Button"
@@ -723,7 +712,6 @@
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item0>
-<<<<<<< HEAD
                             <item1
                                 cq:styleGroupLabel="Social Media Icons"
                                 jcr:primaryType="nt:unstructured">
@@ -740,8 +728,6 @@
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item1>
-=======
->>>>>>> develop
                         </cq:styleGroups>
                     </policy_1568591661081>
                 </button>
@@ -776,11 +762,7 @@
                 </languagenavigation>
                 <experiencefragment jcr:primaryType="nt:unstructured">
                     <policy_1568592468447
-<<<<<<< HEAD
                         jcr:lastModified="{Date}2019-09-18T17:16:36.928-07:00"
-=======
-                        jcr:lastModified="{Date}2019-09-15T17:10:44.883-07:00"
->>>>>>> develop
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Experience Fragment - Site"
