@@ -4,5 +4,8 @@
     jcr:primaryType="sling:OrderedFolder"
     jcr:title="Site">
     <header/>
+<<<<<<< HEAD
     <footer/>
+=======
+>>>>>>> develop
 </jcr:root>

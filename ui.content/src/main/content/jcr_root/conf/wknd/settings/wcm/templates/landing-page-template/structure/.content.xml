@@ -3,7 +3,11 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
+<<<<<<< HEAD
         cq:lastModified="{Date}2019-09-18T14:31:02.473-07:00"
+=======
+        cq:lastModified="{Date}2019-09-16T13:47:28.149-07:00"
+>>>>>>> develop
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/landing-page-template"
         jcr:primaryType="cq:PageContent"
