@@ -2,42 +2,58 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-09-26T09:36:48.579-07:00"
+        cq:lastModified="{Date}2019-09-26T11:30:57.625-07:00"
         cq:lastModifiedBy="admin"
+        cq:lastRolledoutBy="admin"
+        cq:propertyInheritanceCancelled="[jcr:language]"
         cq:styleIds="[1555624476368]"
         cq:template="/conf/wknd/settings/wcm/templates/landing-page-template"
+        jcr:language="en_ca"
+        jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync,cq:PropertyLiveSyncCancelled]"
         jcr:primaryType="cq:PageContent"
         jcr:title="English"
         sling:resourceType="wknd/components/structure/page"
         pageTitle="English">
         <root
+            cq:lastRolledout="{Date}2019-09-26T10:48:13.016-07:00"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
             <responsivegrid
+                cq:lastRolledout="{Date}2019-09-26T10:48:13.021-07:00"
+                cq:lastRolledoutBy="admin"
                 jcr:created="{Date}2019-03-19T13:22:52.385-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2019-03-19T13:23:39.376-07:00"
+                jcr:lastModified="{Date}2019-09-26T10:48:13.018-07:00"
                 jcr:lastModifiedBy="admin"
+                jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
                 <carousel
+                    cq:lastRolledout="{Date}2019-09-26T10:48:13.031-07:00"
+                    cq:lastRolledoutBy="admin"
                     cq:styleIds="[1555545421827]"
                     jcr:created="{Date}2019-04-17T15:36:28.849-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-09-26T07:24:47.087-07:00"
+                    jcr:lastModified="{Date}2019-09-26T10:48:13.025-07:00"
                     jcr:lastModifiedBy="admin"
+                    jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/content/carousel"
                     autopauseDisabled="false"
                     autoplay="false"
                     delay="5000">
                     <teaser
+                        cq:lastRolledout="{Date}2019-09-26T10:48:13.042-07:00"
+                        cq:lastRolledoutBy="admin"
                         cq:panelTitle="LA Skateparks"
                         cq:styleIds="[1555543212672]"
                         jcr:created="{Date}2019-04-17T15:43:55.322-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-09-26T07:36:24.129-07:00"
+                        jcr:lastModified="{Date}2019-09-26T10:48:13.035-07:00"
                         jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/content/teaser"
                         actionsEnabled="true"
@@ -45,26 +61,45 @@
                         fileReference="/content/dam/wknd/en/magazine/la-skateparks/skateboard-hero.jpg"
                         textIsRich="true"
                         titleFromPage="true">
-                        <actions jcr:primaryType="nt:unstructured">
+                        <actions
+                            cq:lastRolledout="{Date}2019-09-26T10:48:13.045-07:00"
+                            cq:lastRolledoutBy="admin"
+                            jcr:mixinTypes="[cq:LiveRelationship]"
+                            jcr:primaryType="nt:unstructured">
                             <item0
+                                cq:lastRolledout="{Date}2019-09-26T10:48:13.057-07:00"
+                                cq:lastRolledoutBy="admin"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                link="/content/wknd/language-masters/en/magazine/guide-la-skateparks"
+                                link="/content/wknd/ca/en_ca/magazine/guide-la-skateparks"
                                 text="Read More"/>
                         </actions>
                     </teaser>
                 </carousel>
                 <responsivegrid
+                    cq:lastRolledout="{Date}2019-09-26T10:48:13.062-07:00"
+                    cq:lastRolledoutBy="admin"
                     cq:styleIds="[1554340406437]"
                     jcr:created="{Date}2019-04-17T14:31:50.612-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-04-17T14:31:50.612-07:00"
+                    jcr:lastModified="{Date}2019-09-26T10:48:13.059-07:00"
                     jcr:lastModifiedBy="admin"
+                    jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
-                    <cq:responsive jcr:primaryType="nt:unstructured"/>
+                    <cq:responsive
+                        cq:lastRolledout="{Date}2019-09-26T10:48:13.065-07:00"
+                        cq:lastRolledoutBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
+                        jcr:primaryType="nt:unstructured"/>
                 </responsivegrid>
             </responsivegrid>
         </root>
+        <cq:LiveSyncConfig
+            cq:isDeep="{Boolean}true"
+            cq:master="/content/wknd/language-masters/en"
+            cq:rolloutConfigs="[/libs/msm/wcm/rolloutconfigs/default]"
+            jcr:primaryType="cq:LiveCopy"/>
     </jcr:content>
     <magazine/>
     <events/>
