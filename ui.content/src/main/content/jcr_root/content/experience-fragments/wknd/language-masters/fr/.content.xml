@@ -6,6 +6,4 @@
     cq:isLanguageRoot="{Boolean}true"
     jcr:language="fr"
     jcr:primaryType="sling:OrderedFolder"
-    jcr:title="French">
-    <site/>
-</jcr:root>
+    jcr:title="French"/>
