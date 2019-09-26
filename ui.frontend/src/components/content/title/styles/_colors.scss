@@ -1,24 +1,29 @@
-
-/* Default */
-.cmp-title__text {
-    color: $text-color;
-}
-
 /* Light */
 .cmp-title--light {
+    .cmp-title__text {
+        color: $text-color-inverse;
+    }
+}
+
+/* Gray */
+.cmp-title--gray {
     .cmp-title__text {
         color: $gray-light;
     }
 }
 
+/* Black */
+.cmp-title--black {
+    .cmp-title__text {
+        color: $black;
+    }
+}
+
+/* Bold */
 .cmp-title--bold {
     .cmp-title__text {
         font-weight: 600;
     }
 }
 
-.cmp-title--black {
-    .cmp-title__text {
-        color: $black;
-    }
-}
+
