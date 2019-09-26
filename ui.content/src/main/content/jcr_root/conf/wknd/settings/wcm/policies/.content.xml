@@ -66,12 +66,13 @@
                         </cq:styleGroups>
                     </policy_213106331986985>
                     <policy_178507300498125
-                        jcr:lastModified="{Date}2019-04-03T18:33:18.218-07:00"
+                        cq:styleDefaultClasses="cmp-layoutcontainer--sidebar"
+                        jcr:lastModified="{Date}2019-09-25T20:34:19.873-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Article Sidebar"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/apps/wknd/components/content/image,/apps/wknd/components/content/list,/apps/wknd/components/content/text,/apps/wknd/components/content/title]">
+                        components="[/apps/wknd/components/content/button,/apps/wknd/components/content/image,/apps/wknd/components/content/list,/apps/wknd/components/content/sharing,/apps/wknd/components/content/text,/apps/wknd/components/content/title]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_178507300498125>
                     <policy_4792148308882
@@ -151,7 +152,7 @@
             <content jcr:primaryType="nt:unstructured">
                 <title jcr:primaryType="nt:unstructured">
                     <policy_1554340232282
-                        jcr:lastModified="{Date}2019-04-03T18:45:00.379-07:00"
+                        jcr:lastModified="{Date}2019-09-25T15:07:57.173-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Title - Article"
@@ -164,19 +165,24 @@
                             <item0 jcr:primaryType="nt:unstructured">
                                 <cq:styles jcr:primaryType="nt:unstructured">
                                     <item0
-                                        cq:styleClasses="cmp-title--underline"
+                                        cq:styleClasses="cmp-title--articletitle"
                                         cq:styleId="1554340254365"
-                                        cq:styleLabel="Underline"
+                                        cq:styleLabel="Article Title"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="cmp-title--articlesub"
+                                        cq:styleId="1569449252745"
+                                        cq:styleLabel="Article Subtitle"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item0>
                         </cq:styleGroups>
                     </policy_1554340232282>
                     <policy_349626543823562
-                        jcr:lastModified="{Date}2019-09-20T09:21:48.119-07:00"
+                        jcr:lastModified="{Date}2019-09-25T15:06:27.602-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="WKND Title - Experience Fragment"
+                        jcr:title="WKND Title - Global Styles"
                         sling:resourceType="wcm/core/components/policy/policy"
                         allowedTypes="[h1,h2,h3,h4,h5,h6]"
                         linkDisabled="false"
@@ -184,31 +190,55 @@
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
                             <item0
-                                cq:styleGroupLabel="Colors"
+                                cq:styleGroupLabel="Styles"
+                                cq:styleGroupMultiple="true"
                                 jcr:primaryType="nt:unstructured">
                                 <cq:styles jcr:primaryType="nt:unstructured">
                                     <item0
-                                        cq:styleId="1568996420379"
-                                        cq:styleLabel="Dark"
+                                        cq:styleClasses="cmp-title--serif"
+                                        cq:styleId="1569448824091"
+                                        cq:styleLabel="Serif"
                                         jcr:primaryType="nt:unstructured"/>
                                     <item1
-                                        cq:styleClasses="cmp-title--light"
-                                        cq:styleId="1568996427017"
-                                        cq:styleLabel="Light"
+                                        cq:styleClasses="cmp-title--sans"
+                                        cq:styleId="1569448853340"
+                                        cq:styleLabel="Sans-serif"
                                         jcr:primaryType="nt:unstructured"/>
-                                </cq:styles>
-                            </item0>
-                            <item1
-                                cq:styleGroupLabel="Styles"
-                                jcr:primaryType="nt:unstructured">
-                                <cq:styles jcr:primaryType="nt:unstructured">
-                                    <item0
+                                    <item2
                                         cq:styleClasses="cmp-title--label"
                                         cq:styleId="1568996465682"
                                         cq:styleLabel="Label"
                                         jcr:primaryType="nt:unstructured"/>
-                                    <item1
+                                    <item3
+                                        cq:styleClasses="cmp-title--underline"
                                         cq:styleId="1568996484405"
+                                        cq:styleLabel="Underline"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item4
+                                        cq:styleClasses="cmp-title--bold"
+                                        cq:styleId="1569449156797"
+                                        cq:styleLabel="Bold"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                            <item1
+                                cq:styleGroupLabel="Colors"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-title--black"
+                                        cq:styleId="1568996420379"
+                                        cq:styleLabel="Black"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="cmp-title--white"
+                                        cq:styleId="1568996427017"
+                                        cq:styleLabel="White"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item2
+                                        cq:styleClasses="cmp-title--gray"
+                                        cq:styleId="1569448732502"
+                                        cq:styleLabel="Gray"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item1>
