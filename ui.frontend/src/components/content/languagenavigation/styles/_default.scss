@@ -46,31 +46,31 @@
         width: #{'calc(100% - 45px)'};
 
         /* COUNTRY FLAGS (Show for Level 0 only)*/
-        &.cmp-languagenavigation__item--countrycode-CA, &.cmp-languagenavigation__item--langcode-ca {
+        &.cmp-languagenavigation__item--countrycode-CA {
             background-image: url('#{$country-flag-path}/CA.svg');
         }
 
-        &.cmp-languagenavigation__item--countrycode-CH, &.cmp-languagenavigation__item--langcode-ch {
+        &.cmp-languagenavigation__item--countrycode-CH{
             background-image: url('#{$country-flag-path}/CH.svg');
         }
         
-        &.cmp-languagenavigation__item--countrycode-DE, &.cmp-languagenavigation__item--langcode-de {
+        &.cmp-languagenavigation__item--countrycode-DE {
             background-image: url('#{$country-flag-path}/DE.svg');
         }
 
-        &.cmp-languagenavigation__item--countrycode-ES, &.cmp-languagenavigation__item--langcode-es {
+        &.cmp-languagenavigation__item--countrycode-ES {
             background-image: url('#{$country-flag-path}/ES.svg');
         }
         
-        &.cmp-languagenavigation__item--countrycode-FR, &.cmp-languagenavigation__item--langcode-fr {
+        &.cmp-languagenavigation__item--countrycode-FR {
             background-image: url('#{$country-flag-path}/FR.svg');
         }
         
-        &.cmp-languagenavigation__item--countrycode-IT, &.cmp-languagenavigation__item--langcode-it {
+        &.cmp-languagenavigation__item--countrycode-IT {
             background-image: url('#{$country-flag-path}/IT.svg');
         }
 
-        &.cmp-languagenavigation__item--countrycode-US, &.cmp-languagenavigation__item--langcode-us {
+        &.cmp-languagenavigation__item--countrycode-US {
             background-image: url('#{$country-flag-path}/US.svg');
         }
 
