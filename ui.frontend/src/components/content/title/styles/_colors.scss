@@ -10,3 +10,15 @@
         color: $gray-light;
     }
 }
+
+.cmp-title--bold {
+    .cmp-title__text {
+        font-weight: 600;
+    }
+}
+
+.cmp-title--black {
+    .cmp-title__text {
+        color: $black;
+    }
+}

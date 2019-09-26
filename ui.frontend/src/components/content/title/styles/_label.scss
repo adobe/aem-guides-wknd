@@ -1,6 +1,7 @@
 .cmp-title--label {
 
     .cmp-title {
+        padding-top: ($gutter-padding / 2 );
         text-align: right;
         
         & h1 {
@@ -23,5 +24,12 @@
     .cmp-title__text {
         font-family: $font-family-sans-serif;
         text-transform: uppercase;
+    }
+
+     /* Mobile View */
+     @media (max-width: $screen-medium) {
+        .cmp-title {
+            text-align: unset;
+        }
     }
 }

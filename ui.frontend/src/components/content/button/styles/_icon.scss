@@ -3,7 +3,8 @@
 
 .cmp-button__icon {
     font-family: "Wkndicons";
-    font-size: 2rem;
+    font-size: 1.5rem;
+    padding: 0.5rem;
 }
 
 .cmp-button__icon--facebook {
@@ -24,6 +25,7 @@
 
     .cmp-button__icon {
         background-color: $text-color-inverse;
+        margin-right: 0.15rem;
     }
 
    
