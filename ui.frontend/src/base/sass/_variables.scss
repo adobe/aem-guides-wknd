@@ -18,8 +18,9 @@
 //
 //## Gray and brand colors for use across theme.
 
-$black:                  #000;
-$gray-base:              $black;
+$black:                  #252525;
+$white:                  #ffffff;
+$gray-base:              #000;
 $gray-darker:            lighten($gray-base, 13.5%); // #222
 $gray-dark:              lighten($gray-base, 20%);   // #333
 $gray:                   lighten($gray-base, 33.5%); // #555
@@ -44,7 +45,8 @@ $screen-large: 1200px;
 //** Background color for `<body>`.
 $body-bg:               #fff;
 //** Global text color on `<body>`.
-$text-color:            #000;
+$text-color:            $black;
+$text-color-inverse:     #EBEBEB;
 
 $brand-secondary:       #EBEBEB;
 
@@ -57,8 +59,9 @@ $link-hover-color:      $link-color;
 //** Link hover decoration.
 $link-hover-decoration: underline;
 
-$nav-link: #000;
+$nav-link: $black;
 $nav-link-inverse: #fff;
+
 
 
 //== Typography

@@ -3,43 +3,41 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:conf="/conf/wknd"
-        cq:lastModified="{Date}2019-09-17T11:31:37.699-07:00"
+        cq:lastModified="{Date}2019-09-26T11:33:01.228-07:00"
         cq:lastModifiedBy="admin"
-        cq:lastRolledout="{Date}2019-09-17T11:24:46.751-07:00"
+        cq:lastRolledout="{Date}2019-09-26T10:42:05.678-07:00"
         cq:lastRolledoutBy="admin"
-        cq:lastTranslationUpdate="{Date}2019-09-17T11:21:51.434-07:00"
-        cq:propertyInheritanceCancelled="[jcr:language,cq:isLanguageRoot]"
+        cq:propertyInheritanceCancelled="[jcr:language]"
         cq:styleIds="[1555624476368]"
         cq:template="/conf/wknd/settings/wcm/templates/landing-page-template"
-        cq:translationSourcePath="/content/wknd/language-masters/en"
+        jcr:language="it_ch"
         jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync,cq:PropertyLiveSyncCancelled]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Italiano"
-        sling:resourceType="wknd/components/structure/page"
-        pageTitle="English">
+        sling:resourceType="wknd/components/structure/page">
         <root
-            cq:lastRolledout="{Date}2019-09-17T11:24:46.639-07:00"
+            cq:lastRolledout="{Date}2019-09-26T10:42:05.653-07:00"
             cq:lastRolledoutBy="admin"
             jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
             <responsivegrid
-                cq:lastRolledout="{Date}2019-09-17T11:24:46.646-07:00"
+                cq:lastRolledout="{Date}2019-09-26T10:42:05.657-07:00"
                 cq:lastRolledoutBy="admin"
                 jcr:created="{Date}2019-03-19T13:22:52.385-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2019-09-17T11:24:46.640-07:00"
+                jcr:lastModified="{Date}2019-09-26T10:42:05.655-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
                 <carousel
-                    cq:lastRolledout="{Date}2019-09-17T11:24:46.650-07:00"
+                    cq:lastRolledout="{Date}2019-09-26T10:42:05.663-07:00"
                     cq:lastRolledoutBy="admin"
                     cq:styleIds="[1555545421827]"
                     jcr:created="{Date}2019-04-17T15:36:28.849-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-09-17T11:24:46.647-07:00"
+                    jcr:lastModified="{Date}2019-09-26T10:42:05.659-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
@@ -48,450 +46,58 @@
                     autoplay="false"
                     delay="5000">
                     <teaser
-                        cq:lastRolledout="{Date}2019-09-17T11:24:46.654-07:00"
+                        cq:lastRolledout="{Date}2019-09-26T10:42:05.669-07:00"
                         cq:lastRolledoutBy="admin"
                         cq:panelTitle="LA Skateparks"
                         cq:styleIds="[1555543212672]"
                         jcr:created="{Date}2019-04-17T15:43:55.322-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-09-17T11:24:46.652-07:00"
+                        jcr:lastModified="{Date}2019-09-26T10:42:05.665-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/content/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="true"
-                        fileReference="/content/dam/wknd/en/los-angeles/skateboard-hero.jpg"
+                        fileReference="/content/dam/wknd/en/magazine/la-skateparks/skateboard-hero.jpg"
                         textIsRich="true"
                         titleFromPage="true">
                         <actions
-                            cq:lastRolledout="{Date}2019-09-17T11:24:46.655-07:00"
+                            cq:lastRolledout="{Date}2019-09-26T10:42:05.670-07:00"
                             cq:lastRolledoutBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured">
                             <item0
-                                cq:lastRolledout="{Date}2019-09-17T11:24:46.657-07:00"
+                                cq:lastRolledout="{Date}2019-09-26T10:42:05.673-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                link="/content/wknd/ch/it/sports/la-skateparks"
-                                text="Read More"/>
+                                link="/content/wknd/language-masters/en/magazine/guide-la-skateparks"
+                                text="Per saperne di più"/>
                         </actions>
                     </teaser>
-                    <item_1555541210019
-                        cq:lastRolledout="{Date}2019-09-17T11:24:46.662-07:00"
-                        cq:lastRolledoutBy="admin"
-                        cq:panelTitle="Office"
-                        cq:styleIds="[1555543212672]"
-                        jcr:lastModified="{Date}2019-09-17T11:24:46.659-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:mixinTypes="[cq:LiveRelationship]"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/teaser"
-                        actionsEnabled="true"
-                        descriptionFromPage="true"
-                        fileReference="/content/dam/wknd/en/los-angeles/desk-hero2.jpg"
-                        textIsRich="true"
-                        titleFromPage="true">
-                        <actions
-                            cq:lastRolledout="{Date}2019-09-17T11:24:46.663-07:00"
-                            cq:lastRolledoutBy="admin"
-                            jcr:mixinTypes="[cq:LiveRelationship]"
-                            jcr:primaryType="nt:unstructured">
-                            <item0
-                                cq:lastRolledout="{Date}2019-09-17T11:24:46.664-07:00"
-                                cq:lastRolledoutBy="admin"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
-                                jcr:primaryType="nt:unstructured"
-                                link="/content/wknd/ch/it/shopping/office-space"
-                                text="Read More"/>
-                        </actions>
-                    </item_1555541210019>
-                    <item_1555541215733
-                        cq:lastRolledout="{Date}2019-09-17T11:24:46.668-07:00"
-                        cq:lastRolledoutBy="admin"
-                        cq:panelTitle="Architecture"
-                        cq:styleIds="[1555543212672]"
-                        jcr:lastModified="{Date}2019-09-17T11:24:46.665-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:mixinTypes="[cq:LiveRelationship]"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/teaser"
-                        actionsEnabled="true"
-                        descriptionFromPage="true"
-                        fileReference="/content/dam/wknd/en/los-angeles/architecture-hero.jpg"
-                        textIsRich="true"
-                        titleFromPage="true">
-                        <actions
-                            cq:lastRolledout="{Date}2019-09-17T11:24:46.669-07:00"
-                            cq:lastRolledoutBy="admin"
-                            jcr:mixinTypes="[cq:LiveRelationship]"
-                            jcr:primaryType="nt:unstructured">
-                            <item0
-                                cq:lastRolledout="{Date}2019-09-17T11:24:46.670-07:00"
-                                cq:lastRolledoutBy="admin"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
-                                jcr:primaryType="nt:unstructured"
-                                link="/content/wknd/ch/it/art/architecture"
-                                text="Read More"/>
-                        </actions>
-                    </item_1555541215733>
                 </carousel>
                 <responsivegrid
-                    cq:lastRolledout="{Date}2019-09-17T11:24:46.675-07:00"
+                    cq:lastRolledout="{Date}2019-09-26T10:42:05.676-07:00"
                     cq:lastRolledoutBy="admin"
                     cq:styleIds="[1554340406437]"
                     jcr:created="{Date}2019-04-17T14:31:50.612-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-09-17T11:24:46.671-07:00"
+                    jcr:lastModified="{Date}2019-09-26T10:42:05.674-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
                     <cq:responsive
-                        cq:lastRolledout="{Date}2019-09-17T11:24:46.678-07:00"
+                        cq:lastRolledout="{Date}2019-09-26T10:42:05.677-07:00"
                         cq:lastRolledoutBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"/>
-                    <teaser
-                        cq:lastRolledout="{Date}2019-09-17T11:24:46.681-07:00"
-                        cq:lastRolledoutBy="admin"
-                        cq:styleIds="[1555539443529]"
-                        jcr:created="{Date}2019-04-17T14:34:49.885-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-09-17T11:24:46.679-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:mixinTypes="[cq:LiveRelationship]"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/teaser"
-                        actionsEnabled="true"
-                        descriptionFromPage="true"
-                        fileReference="/content/dam/wknd/en/los-angeles/roaster-image.jpeg"
-                        textIsRich="true"
-                        titleFromPage="true">
-                        <actions
-                            cq:lastRolledout="{Date}2019-09-17T11:24:46.682-07:00"
-                            cq:lastRolledoutBy="admin"
-                            jcr:mixinTypes="[cq:LiveRelationship]"
-                            jcr:primaryType="nt:unstructured">
-                            <item0
-                                cq:lastRolledout="{Date}2019-09-17T11:24:46.684-07:00"
-                                cq:lastRolledoutBy="admin"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
-                                jcr:primaryType="nt:unstructured"
-                                link="/content/wknd/ch/it/restaurants/best-roasters"
-                                text="Read More"/>
-                        </actions>
-                        <cq:responsive
-                            cq:lastRolledout="{Date}2019-09-17T11:24:46.685-07:00"
-                            cq:lastRolledoutBy="admin"
-                            jcr:mixinTypes="[cq:LiveRelationship]"
-                            jcr:primaryType="nt:unstructured">
-                            <default
-                                cq:lastRolledout="{Date}2019-09-17T11:24:46.687-07:00"
-                                cq:lastRolledoutBy="admin"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="3"/>
-                            <phone
-                                cq:lastRolledout="{Date}2019-09-17T11:24:46.688-07:00"
-                                cq:lastRolledoutBy="admin"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="12"/>
-                            <tablet
-                                cq:lastRolledout="{Date}2019-09-17T11:24:46.689-07:00"
-                                cq:lastRolledoutBy="admin"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="6"/>
-                        </cq:responsive>
-                    </teaser>
-                    <teaser_1194499207
-                        cq:lastRolledout="{Date}2019-09-17T11:24:46.694-07:00"
-                        cq:lastRolledoutBy="admin"
-                        cq:styleIds="[1555539443529]"
-                        jcr:created="{Date}2019-04-17T14:39:20.878-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-09-17T11:24:46.691-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:mixinTypes="[cq:LiveRelationship]"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/teaser"
-                        actionsEnabled="true"
-                        descriptionFromPage="true"
-                        fileReference="/content/dam/wknd/en/los-angeles/nadine-shaabana-161337.jpg"
-                        textIsRich="true"
-                        titleFromPage="true">
-                        <cq:responsive
-                            cq:lastRolledout="{Date}2019-09-17T11:24:46.695-07:00"
-                            cq:lastRolledoutBy="admin"
-                            jcr:mixinTypes="[cq:LiveRelationship]"
-                            jcr:primaryType="nt:unstructured">
-                            <default
-                                cq:lastRolledout="{Date}2019-09-17T11:24:46.697-07:00"
-                                cq:lastRolledoutBy="admin"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="6"/>
-                            <phone
-                                cq:lastRolledout="{Date}2019-09-17T11:24:46.698-07:00"
-                                cq:lastRolledoutBy="admin"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="12"/>
-                        </cq:responsive>
-                        <actions
-                            cq:lastRolledout="{Date}2019-09-17T11:24:46.699-07:00"
-                            cq:lastRolledoutBy="admin"
-                            jcr:mixinTypes="[cq:LiveRelationship]"
-                            jcr:primaryType="nt:unstructured">
-                            <item0
-                                cq:lastRolledout="{Date}2019-09-17T11:24:46.701-07:00"
-                                cq:lastRolledoutBy="admin"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
-                                jcr:primaryType="nt:unstructured"
-                                link="/content/wknd/ch/it/music/underground-musicians"
-                                text="Read More"/>
-                        </actions>
-                    </teaser_1194499207>
-                    <teaser_2058099794
-                        cq:lastRolledout="{Date}2019-09-17T11:24:46.705-07:00"
-                        cq:lastRolledoutBy="admin"
-                        cq:styleIds="[1555539443529]"
-                        jcr:created="{Date}2019-04-17T14:40:27.220-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-09-17T11:24:46.702-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:mixinTypes="[cq:LiveRelationship]"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/teaser"
-                        actionsEnabled="true"
-                        descriptionFromPage="true"
-                        fileReference="/content/dam/wknd/en/los-angeles/whiteflowers.jpg"
-                        textIsRich="true"
-                        titleFromPage="true">
-                        <cq:responsive
-                            cq:lastRolledout="{Date}2019-09-17T11:24:46.706-07:00"
-                            cq:lastRolledoutBy="admin"
-                            jcr:mixinTypes="[cq:LiveRelationship]"
-                            jcr:primaryType="nt:unstructured">
-                            <default
-                                cq:lastRolledout="{Date}2019-09-17T11:24:46.708-07:00"
-                                cq:lastRolledoutBy="admin"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="3"/>
-                            <tablet
-                                cq:lastRolledout="{Date}2019-09-17T11:24:46.710-07:00"
-                                cq:lastRolledoutBy="admin"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="6"/>
-                            <phone
-                                cq:lastRolledout="{Date}2019-09-17T11:24:46.712-07:00"
-                                cq:lastRolledoutBy="admin"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="12"/>
-                        </cq:responsive>
-                        <actions
-                            cq:lastRolledout="{Date}2019-09-17T11:24:46.712-07:00"
-                            cq:lastRolledoutBy="admin"
-                            jcr:mixinTypes="[cq:LiveRelationship]"
-                            jcr:primaryType="nt:unstructured">
-                            <item0
-                                cq:lastRolledout="{Date}2019-09-17T11:24:46.714-07:00"
-                                cq:lastRolledoutBy="admin"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
-                                jcr:primaryType="nt:unstructured"
-                                link="/content/wknd/ch/it/art/photography"
-                                text="Read More"/>
-                        </actions>
-                    </teaser_2058099794>
-                    <teaser_1571332096
-                        cq:lastRolledout="{Date}2019-09-17T11:24:46.718-07:00"
-                        cq:lastRolledoutBy="admin"
-                        cq:styleIds="[1555539443529]"
-                        jcr:created="{Date}2019-04-18T15:16:02.325-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-09-17T11:24:46.715-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:mixinTypes="[cq:LiveRelationship]"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/teaser"
-                        actionsEnabled="true"
-                        descriptionFromPage="true"
-                        fileReference="/content/dam/wknd/en/los-angeles/taiana-martinez-tai-s-captures-1430583-unsplash.jpg"
-                        textIsRich="true"
-                        titleFromPage="true">
-                        <cq:responsive
-                            cq:lastRolledout="{Date}2019-09-17T11:24:46.719-07:00"
-                            cq:lastRolledoutBy="admin"
-                            jcr:mixinTypes="[cq:LiveRelationship]"
-                            jcr:primaryType="nt:unstructured">
-                            <default
-                                cq:lastRolledout="{Date}2019-09-17T11:24:46.721-07:00"
-                                cq:lastRolledoutBy="admin"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="4"/>
-                            <tablet
-                                cq:lastRolledout="{Date}2019-09-17T11:24:46.722-07:00"
-                                cq:lastRolledoutBy="admin"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
-                                jcr:primaryType="nt:unstructured"
-                                width="6"/>
-                            <phone
-                                cq:lastRolledout="{Date}2019-09-17T11:24:46.723-07:00"
-                                cq:lastRolledoutBy="admin"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="12"/>
-                        </cq:responsive>
-                        <actions
-                            cq:lastRolledout="{Date}2019-09-17T11:24:46.724-07:00"
-                            cq:lastRolledoutBy="admin"
-                            jcr:mixinTypes="[cq:LiveRelationship]"
-                            jcr:primaryType="nt:unstructured">
-                            <item0
-                                cq:lastRolledout="{Date}2019-09-17T11:24:46.727-07:00"
-                                cq:lastRolledoutBy="admin"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
-                                jcr:primaryType="nt:unstructured"
-                                link="/content/wknd/ch/it/restaurants/best-tacos-in-the-city"
-                                text="Read More"/>
-                        </actions>
-                    </teaser_1571332096>
-                    <teaser_1571332096_co
-                        cq:lastRolledout="{Date}2019-09-17T11:24:46.731-07:00"
-                        cq:lastRolledoutBy="admin"
-                        cq:styleIds="[1555539443529]"
-                        jcr:created="{Date}2019-04-18T15:16:02.325-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-09-17T11:24:46.728-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:mixinTypes="[cq:LiveRelationship]"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/teaser"
-                        actionsEnabled="true"
-                        descriptionFromPage="true"
-                        fileReference="/content/dam/wknd/en/los-angeles/roi-dimor-388002.jpg"
-                        textIsRich="true"
-                        titleFromPage="true">
-                        <cq:responsive
-                            cq:lastRolledout="{Date}2019-09-17T11:24:46.732-07:00"
-                            cq:lastRolledoutBy="admin"
-                            jcr:mixinTypes="[cq:LiveRelationship]"
-                            jcr:primaryType="nt:unstructured">
-                            <default
-                                cq:lastRolledout="{Date}2019-09-17T11:24:46.734-07:00"
-                                cq:lastRolledoutBy="admin"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="4"/>
-                            <tablet
-                                cq:lastRolledout="{Date}2019-09-17T11:24:46.735-07:00"
-                                cq:lastRolledoutBy="admin"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="6"/>
-                            <phone
-                                cq:lastRolledout="{Date}2019-09-17T11:24:46.736-07:00"
-                                cq:lastRolledoutBy="admin"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="12"/>
-                        </cq:responsive>
-                        <actions
-                            cq:lastRolledout="{Date}2019-09-17T11:24:46.737-07:00"
-                            cq:lastRolledoutBy="admin"
-                            jcr:mixinTypes="[cq:LiveRelationship]"
-                            jcr:primaryType="nt:unstructured">
-                            <item0
-                                cq:lastRolledout="{Date}2019-09-17T11:24:46.738-07:00"
-                                cq:lastRolledoutBy="admin"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
-                                jcr:primaryType="nt:unstructured"
-                                link="/content/wknd/ch/it/art/cars"
-                                text="Read More"/>
-                        </actions>
-                    </teaser_1571332096_co>
-                    <teaser_1571332096_co_34061039
-                        cq:lastRolledout="{Date}2019-09-17T11:24:46.743-07:00"
-                        cq:lastRolledoutBy="admin"
-                        cq:styleIds="[1555539443529]"
-                        jcr:created="{Date}2019-04-18T15:16:02.325-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-09-17T11:24:46.740-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:mixinTypes="[cq:LiveRelationship]"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/teaser"
-                        actionsEnabled="true"
-                        descriptionFromPage="true"
-                        fileReference="/content/dam/we-retail/en/activities/biking/cycling_1.jpg"
-                        textIsRich="true"
-                        titleFromPage="true">
-                        <cq:responsive
-                            cq:lastRolledout="{Date}2019-09-17T11:24:46.744-07:00"
-                            cq:lastRolledoutBy="admin"
-                            jcr:mixinTypes="[cq:LiveRelationship]"
-                            jcr:primaryType="nt:unstructured">
-                            <default
-                                cq:lastRolledout="{Date}2019-09-17T11:24:46.746-07:00"
-                                cq:lastRolledoutBy="admin"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="4"/>
-                            <tablet
-                                cq:lastRolledout="{Date}2019-09-17T11:24:46.748-07:00"
-                                cq:lastRolledoutBy="admin"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="6"/>
-                            <phone
-                                cq:lastRolledout="{Date}2019-09-17T11:24:46.749-07:00"
-                                cq:lastRolledoutBy="admin"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="12"/>
-                        </cq:responsive>
-                        <actions
-                            cq:lastRolledout="{Date}2019-09-17T11:24:46.749-07:00"
-                            cq:lastRolledoutBy="admin"
-                            jcr:mixinTypes="[cq:LiveRelationship]"
-                            jcr:primaryType="nt:unstructured">
-                            <item0
-                                cq:lastRolledout="{Date}2019-09-17T11:24:46.751-07:00"
-                                cq:lastRolledoutBy="admin"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
-                                jcr:primaryType="nt:unstructured"
-                                link="/content/wknd/ch/it/sports/mountain-bike-routes"
-                                text="Read More"/>
-                        </actions>
-                    </teaser_1571332096_co_34061039>
                 </responsivegrid>
             </responsivegrid>
         </root>
         <cq:LiveSyncConfig
-            cq:isDeep="{Boolean}false"
+            cq:isDeep="{Boolean}true"
             cq:master="/content/wknd/language-masters/it"
             cq:rolloutConfigs="[/libs/msm/wcm/rolloutconfigs/default]"
             jcr:primaryType="cq:LiveCopy"/>

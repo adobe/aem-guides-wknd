@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="e9a81364-447c-4114-ab92-11a436b6bfd5">
+    <jcr:content
+        cq:lastModified="{Date}2019-09-26T06:44:46.208-07:00"
+        cq:lastModifiedBy="admin"
+        cq:name="wknd-logo-dk.png"
+        cq:parentPath="/content/dam/wknd/en/site"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2019-09-17T21:49:34.281-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}32"
+            dam:extracted="{Date}2019-09-17T21:49:33.998-07:00"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}144"
+            dam:Physicalheightininches="{Decimal}0.8889345526695251"
+            dam:Physicalwidthindpi="{Long}144"
+            dam:Physicalwidthininches="{Decimal}2.0903851985931396"
+            dam:Progressive="no"
+            dam:sha1="aae1e54fc4f0297666f712f4163322e1f542673e"
+            dam:size="{Long}3106"
+            dc:format="image/png"
+            dc:modified="{Date}2019-09-17T21:49:33.932-07:00"
+            jcr:lastModified="{Date}2019-09-17T21:49:33.931-07:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}128"
+            tiff:ImageWidth="{Long}301"/>
+        <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}2"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}2"
+                lastUsed="{Date}2019-09-26T07:05:59.204-07:00"/>
+        </usages>
+    </jcr:content>
+</jcr:root>

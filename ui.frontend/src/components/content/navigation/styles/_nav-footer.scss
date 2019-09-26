@@ -16,56 +16,43 @@
 
 /* WKND Navigation Footer Style */
 
-$footer-color: #fff;
 
 .cmp-navigation--footer {
 
-    .cmp-navigation {
-        width: 100%;
-        text-align: center;
-        float: left;
-        margin-top: 3em;
+    .cmp-navigation__item-link {
+        color: $gray-lighter;
 
-        .cmp-navigation__group {
-
-            margin-top: 2em;
-            margin-left: 2em;
-            margin-right: 2em;
-
-            .cmp-navigation__item {
-
-                float: left;
-                display: block;
-
-                .cmp-navigation__item-link {
-                    font-size: $font-size-xsmall;
-                    text-transform: uppercase;
-                    color: $footer-color;
-                    height: 6em;
-                    width: 10em;
-                    text-align: center;
-                    text-decoration: none;
-                    padding-top: 4em;
-                    float: left;
-
-                    &:hover,
-                    &:focus {
-                        background-color: $brand-primary;
-                        color: $text-color;
-                    }
-
-                }
-            }
-
-            li.cmp-navigation__item--active .cmp-navigation__item-link {
-                background-color: rgba(255, 233, 0, 0.4);
-                color: $brand-primary;
-            }
-
-            @media (max-width: $screen-medium) {
-                margin-top: 2em;
-            }
+        &:hover,
+        &:focus {
+            background-color: unset;
+            text-decoration: underline;
         }
     }
 
+    .cmp-navigation__item--level-1.cmp-navigation__item--active .cmp-navigation__item-link {
+        background-color: unset;
+        text-decoration: underline;
+    }
+
+    /* Tablet width */
+    @media (max-width: $screen-medium) {
+
+        .cmp-navigation {
+            padding-top: 10px;
+        }
+        
+        .cmp-navigation__group {
+            float: left;
+            width: 100%;
+        }
+
+        .cmp-navigation__item {
+            width: 100%;
+        }
+
+        .cmp-navigation__item--level-1 {
+            margin-bottom: 1rem;
+        }
+    }
+    
 }

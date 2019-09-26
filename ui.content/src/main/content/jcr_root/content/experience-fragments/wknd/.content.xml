@@ -5,5 +5,4 @@
     jcr:primaryType="sling:OrderedFolder"
     jcr:title="WKND Fragments">
     <language-masters/>
-    <us/>
 </jcr:root>

@@ -17,6 +17,7 @@
 /* WKND Search Header styles */
 
 $search-max-width: 10rem;
+$search-max-mobile-width: 6rem;
 $offset: 3.5rem;
 $search-results-width: 20rem;
 
@@ -94,7 +95,7 @@ $search-results-width: 20rem;
         .cmp-search__results {
             right: 0.75rem;
         }
-
+        
         .cmp-search__icon,.cmp-search__loading-indicator {
             left: unset;
             right: $search-max-width + $offset;
@@ -113,6 +114,13 @@ $search-results-width: 20rem;
         right: 0;
         z-index: 100;
         
+        .cmp-search__input {
+            width: $search-max-mobile-width;
+        }
 
+        .cmp-search__icon,.cmp-search__loading-indicator  {
+            right: 9.5rem;
+        }
+        
     }
 }
