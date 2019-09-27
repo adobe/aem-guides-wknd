@@ -916,11 +916,12 @@
                 </search>
                 <page jcr:primaryType="nt:unstructured">
                     <policy_1555624447675
-                        jcr:lastModified="{Date}2019-09-20T10:11:38.284-07:00"
+                        jcr:lastModified="{Date}2019-09-26T15:03:19.053-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Landing Page"
-                        sling:resourceType="wcm/core/components/policy/policy">
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        clientlibs="wknd.site">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
                             <item0 jcr:primaryType="nt:unstructured">
@@ -934,6 +935,24 @@
                             </item0>
                         </cq:styleGroups>
                     </policy_1555624447675>
+                    <policy_654210257255105
+                        jcr:lastModified="{Date}2019-09-26T15:03:52.447-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Article"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        clientlibs="wknd.site">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_654210257255105>
+                    <policy_654239029509196
+                        jcr:lastModified="{Date}2019-09-26T15:04:18.519-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Experience Fragment"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        clientlibs="wknd.site">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_654239029509196>
                 </page>
             </structure>
         </components>
