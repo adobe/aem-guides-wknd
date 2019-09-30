@@ -27,39 +27,27 @@ The main parts of the project are:
 
 To build all the modules run in the project root directory the following command with Maven 3:
 
-    ```
     mvn clean install
-    ```
 
 If you have a running AEM instance you can build and package the whole project and deploy into AEM with  
 
-    ```
     mvn clean install -PautoInstallPackage
-    ```
 
 Depending on your maven configuration, you may find it helpful to force the resolution of the Adobe public repo with
 
-    ```
     mvn clean install -PautoInstallPackage -Padobe-public
-    ```
     
 Or to deploy it to a publish instance, run
 
-    ```
     mvn clean install -PautoInstallPackagePublish
-    ```
     
 Or alternatively
 
-    ```
     mvn clean install -PautoInstallPackage -Daem.port=4503
-    ```
 
 Or to deploy only the bundle to the author, run
 
-    ```
     mvn clean install -PautoInstallBundle
-    ```
 
 ## Testing
 
