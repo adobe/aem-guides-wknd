@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/conf/wknd" mode="merge"/>
-    <filter root="/content/wknd" mode="merge"/>
-    <filter root="/content/dam/wknd" mode="merge"/>
-    <filter root="/content/experience-fragments/wknd" mode="merge"/>
+    <filter root="/conf/wknd" />
+    <filter root="/content/wknd" />
+    <filter root="/content/dam/wknd" />
+    <filter root="/content/experience-fragments/wknd" />
 </workspaceFilter>
