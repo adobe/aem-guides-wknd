@@ -1,0 +1,26 @@
+.cmp-image--logo {
+
+    .cmp-image__link {
+        border: none;
+    }
+    .cmp-image__image {
+        max-width: 8rem;
+        margin-top: $gutter-padding / 2;
+        margin-bottom: $gutter-padding / 2;
+    }
+}
+
+@media (max-width: $screen-medium) {
+
+    .cmp-experiencefragment--header {
+
+        .cmp-image--logo {
+
+            .cmp-image__image {
+                max-width: 6rem;
+                margin-left: 2rem;
+                margin-top: .75rem;
+            }
+        }
+    }
+}

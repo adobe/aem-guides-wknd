@@ -1,0 +1,28 @@
+.cmp-layoutcontainer--utility {
+    background-color: $black;
+    color:$gray-light;
+    -webkit-transition: margin-top 0.5s ease;
+    transition: margin-top 0.5s ease;
+
+    .aem-Grid {
+        padding-top: 4px;
+        padding-bottom: 4px;
+
+        @media (min-width: $screen-large + 1) {
+            @include container-content();
+            padding-top: 4px;
+            padding-bottom: 4px;
+        }
+    }
+
+}
+
+.scrolly {
+    @media (min-width: $screen-large + 1) {
+        .cmp-layoutcontainer--utility {
+            margin-top: -($utility-nav-height);
+        }
+    }
+    
+}
+

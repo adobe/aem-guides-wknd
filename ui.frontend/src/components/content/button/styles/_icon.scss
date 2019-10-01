@@ -1,0 +1,35 @@
+
+/* Default icons */
+
+.cmp-button__icon {
+    font-family: "Wkndicons";
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+.cmp-button__icon--facebook {
+    &:before { content: "\e808"; } 
+}
+.cmp-button__icon--twitter {
+    &:before { content: "\e811"; }
+}
+.cmp-button__icon--instagram {
+    &:before { content: "\e809"; }
+}
+
+
+.cmp-button--lighticon {
+    .cmp-button {
+        color: $black;
+    }
+
+    .cmp-button__icon {
+        background-color: $text-color-inverse;
+        margin-right: 0.15rem;
+    }
+
+   
+    .cmp-button__text {
+        display: none;
+    }
+}

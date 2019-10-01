@@ -117,6 +117,11 @@
             <type>zip</type>
         </dependency>
         <dependency>
+            <groupId>com.adobe.cq</groupId>
+            <artifactId>core.wcm.components.examples</artifactId>
+            <type>zip</type>
+        </dependency>
+        <dependency>
             <groupId>javax.jcr</groupId>
             <artifactId>jcr</artifactId>
         </dependency>

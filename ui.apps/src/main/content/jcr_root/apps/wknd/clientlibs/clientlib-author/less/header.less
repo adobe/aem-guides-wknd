@@ -13,14 +13,12 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
+ 
 /* In Author Mode change header position from fixed to static */
-
-
-@import (reference) "/apps/wknd/clientlibs/clientlib-site/less/variables.less";
 
  .wknd-header {
     position: static;
-    @media (max-width: @screen-medium) {
+    @media (max-width: 992px) {
         position: static;
     }
 }
@@ -28,7 +26,7 @@
 body {
     .root {
         padding-top:0px;
-        @media (max-width: @screen-medium) {
+        @media (max-width: 992px) {
             padding-top:0px;     
         }
     }

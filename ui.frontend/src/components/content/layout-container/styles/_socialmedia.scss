@@ -1,0 +1,16 @@
+
+.cmp-layout-container--socialmedia {
+
+    .aem-Grid.aem-Grid--default--2 > .aem-GridColumn.button, .aem-Grid.aem-Grid--default--3 > .aem-GridColumn.button {
+        width: unset;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: $gutter-padding;
+    }
+
+    /* Mobile View */
+    @media (max-width: $screen-medium) {
+    padding-left: $gutter-padding !important;
+    padding-right: $gutter-padding !important;
+    }
+}
