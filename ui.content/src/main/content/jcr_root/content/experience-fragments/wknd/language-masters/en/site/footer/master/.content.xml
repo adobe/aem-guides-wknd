@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-09-26T07:06:19.331-07:00"
+        cq:lastModified="{Date}2019-10-02T14:47:41.876-07:00"
         cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/wknd/settings/wcm/templates/experience-fragment-web-variation-template"
@@ -85,7 +85,7 @@
                         </cq:responsive>
                     </navigation>
                     <title
-                        cq:styleIds="[1568996465682,1569448732502]"
+                        cq:styleIds="[1568996465682,1568996427017]"
                         jcr:created="{Date}2019-09-19T17:49:52.098-07:00"
                         jcr:createdBy="admin"
                         jcr:lastModified="{Date}2019-09-19T17:50:03.551-07:00"
