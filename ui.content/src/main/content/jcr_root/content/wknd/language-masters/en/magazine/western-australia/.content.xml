@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-10-01T20:58:32.730-07:00"
+        cq:lastModified="{Date}2019-10-02T13:05:36.543-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
         jcr:primaryType="cq:PageContent"
@@ -43,10 +43,10 @@
                     cq:styleIds="[1569449252745]"
                     jcr:created="{Date}2019-09-25T15:03:01.614-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-10-01T18:19:47.185-07:00"
+                    jcr:lastModified="{Date}2019-10-02T13:05:36.539-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="By Jacob Wester"
+                    jcr:title="By Sofia Sjöberg"
                     sling:resourceType="wknd/components/content/title"
                     type="h2"/>
                 <responsivegrid
@@ -149,6 +149,14 @@
                                 fileReference="/content/dam/wknd/en/magazine/western-australia/Adobe_WAAdobe_WA_MG_3851.JPG"/>
                         </par4>
                     </contentfragment>
+                    <experiencefragment
+                        jcr:created="{Date}2019-10-02T13:05:02.480-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-10-02T13:05:16.393-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/content/experiencefragment"
+                        fragmentVariationPath="/content/experience-fragments/wknd/language-masters/en/contributors/sofia-sjoeberg/byline"/>
                 </responsivegrid>
                 <responsivegrid_223059690
                     jcr:created="{Date}2019-04-03T18:32:31.547-07:00"

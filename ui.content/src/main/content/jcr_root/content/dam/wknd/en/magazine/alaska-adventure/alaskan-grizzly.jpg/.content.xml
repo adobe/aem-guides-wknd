@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:psAux="http://ns.adobe.com/exif/1.0/aux/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+<jcr:root xmlns:exifEX="http://cipa.jp/exif/1.0/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:psAux="http://ns.adobe.com/exif/1.0/aux/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="fdcc664d-f0f7-4061-a877-b8de624b295d">
     <jcr:content
+        cq:name="alaskan-grizzly.jpg"
+        cq:parentPath="/content/dam/wknd/en/magazine/alaska-adventure"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-01T16:13:19.987-07:00"
+        jcr:lastModified="{Date}2019-10-02T12:07:32.515-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2019-10-01T16:13:19.433-07:00"
+            dam:extracted="{Date}2019-10-02T12:07:31.760-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -20,14 +23,15 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}17.77777862548828"
             dam:Progressive="yes"
-            dam:sha1="b6127ed475725bb013d3a072dfc65ca4d1e570a1"
-            dam:size="{Long}314756"
-            dam:TimeCreated="171817+0000"
-            dc:creator="[unknown,unknown,unknown]"
+            dam:sha1="ece8fdbad123c2ea149edcd8b93f47f4126a6262"
+            dam:size="{Long}316251"
+            dam:TimeCreated="171817-0700"
+            dc:creator="[unknown,unknown,unknown,unknown,unknown,unknown,unknown]"
             dc:creator_xmpArrayType="rdf:Seq"
-            dc:date="{Long}[20150727]"
-            dc:date_xmpArrayType="rdf:Bag"
+            dc:date="{Long}[20150727,20150727,20150727]"
+            dc:date_xmpArrayType="rdf:Seq"
             dc:format="image/jpeg"
+            dc:modified="{Date}2019-10-02T12:07:28.611-07:00"
             exif:ApertureValue="370648/65536"
             exif:ColorSpace="{Long}65535"
             exif:ComponentsConfiguration="{Long}[1,2,3,0]"
@@ -53,6 +57,14 @@
             exif:SceneCaptureType="{Long}0"
             exif:ShutterSpeedValue="566484/65536"
             exif:WhiteBalance="{Long}0"
+            exifEX:BodySerialNumber="{Long}420220402"
+            exifEX:CameraOwnerName="unknown"
+            exifEX:LensModel="75.0-300.0 mm"
+            exifEX:LensSpecification="[75/1,300/1,0/0,0/0]"
+            exifEX:LensSpecification_xmpArrayType="rdf:Seq"
+            exifEX:PhotographicSensitivity="{Long}100"
+            jcr:lastModified="{Date}2019-10-02T12:07:28.611-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             photoshop:ColorMode="{Long}3"
@@ -95,6 +107,12 @@
                 exif:RedEyeMode="{Boolean}false"
                 exif:Return="{Long}0"
                 jcr:primaryType="nt:unstructured"
+                xmpNodeType="xmpStruct"/>
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="xmp.did:aba9df47-af7a-482e-bcfa-dab1f1ebfe90"
+                stRef:instanceID="xmp.iid:9d260a08-22bb-4e03-9a33-111b155d7aba"
+                stRef:originalDocumentID="6BA3D597730DA3DF4ED440FAF6B7239D"
                 xmpNodeType="xmpStruct"/>
             <xmpMM:History
                 jcr:primaryType="nt:unstructured"
@@ -162,12 +180,6 @@
                     stEvt:when="{Date}2019-10-01T16:03:27.000-07:00"
                     xmpNodeType="xmpStruct"/>
             </xmpMM:History>
-            <xmpMM:DerivedFrom
-                jcr:primaryType="nt:unstructured"
-                stRef:documentID="xmp.did:aba9df47-af7a-482e-bcfa-dab1f1ebfe90"
-                stRef:instanceID="xmp.iid:9d260a08-22bb-4e03-9a33-111b155d7aba"
-                stRef:originalDocumentID="6BA3D597730DA3DF4ED440FAF6B7239D"
-                xmpNodeType="xmpStruct"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

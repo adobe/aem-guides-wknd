@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:exifEX="http://cipa.jp/exif/1.0/" xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/" xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:psAux="http://ns.adobe.com/exif/1.0/aux/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="4c25fbc2-b7d6-4dec-9ec4-6ca6049c3eb5">
     <jcr:content
+        cq:name="alaskan-landscape-01.JPG"
+        cq:parentPath="/content/dam/wknd/en/magazine/alaska-adventure"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-01T16:11:32.668-07:00"
+        jcr:lastModified="{Date}2019-10-02T12:07:30.936-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -125,7 +128,7 @@
             crs:Whites2012="{Long}8"
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20120214"
-            dam:extracted="{Date}2019-10-01T16:11:32.262-07:00"
+            dam:extracted="{Date}2019-10-02T12:07:25.173-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -135,7 +138,7 @@
             dam:Physicalwidthindpi="{Long}240"
             dam:Physicalwidthininches="{Decimal}5.333333492279053"
             dam:Progressive="no"
-            dam:sha1="5ddb48d802ad2fc226570d01bd083c0869b4f036"
+            dam:sha1="4b0c32c7db4cfe488c9a7d4252f56867ca902dfd"
             dam:size="{Long}146389"
             dam:TimeCreated="214753+0000"
             dc:creator="[Ian Provo,Ian Provo,Ian Provo]"
@@ -143,6 +146,7 @@
             dc:date="{Long}[20120214]"
             dc:date_xmpArrayType="rdf:Bag"
             dc:format="image/jpeg"
+            dc:modified="{Date}2019-10-02T12:07:30.650-07:00"
             dc:rights="Ian Provo Photography"
             dc:subject="[alaska,bolivia,british columbia,condoriri,fly-fishing,steelhead and spines,alaska,bolivia,british columbia,condoriri,fly-fishing,steelhead and spines,alaska,bolivia,british columbia,condoriri,fly-fishing,steelhead and spines]"
             dc:subject_xmpArrayType="rdf:Bag"
@@ -175,6 +179,8 @@
             exifEX:LensSpecification="[70/1,200/1,0/0,0/0]"
             exifEX:LensSpecification_xmpArrayType="rdf:Seq"
             exifEX:PhotographicSensitivity="{Long}100"
+            jcr:lastModified="{Date}2019-10-02T12:07:30.650-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             photoshop:AuthorsPosition="Photographer"
@@ -218,6 +224,21 @@
                 exif:Return="{Long}0"
                 jcr:primaryType="nt:unstructured"
                 xmpNodeType="xmpStruct"/>
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="399B55AF360A9E7B4263CA24EDBD0544"
+                stRef:originalDocumentID="399B55AF360A9E7B4263CA24EDBD0544"
+                xmpNodeType="xmpStruct"/>
+            <Iptc4xmpCore:CreatorContactInfo
+                Iptc4xmpCore:CiAdrCity="Park City"
+                Iptc4xmpCore:CiAdrExtadr="P.O Box 680146"
+                Iptc4xmpCore:CiAdrPcode="84068"
+                Iptc4xmpCore:CiAdrRegion="UT"
+                Iptc4xmpCore:CiEmailWork="ijprovo@gmail.com"
+                Iptc4xmpCore:CiTelWork="435-640-6994"
+                Iptc4xmpCore:CiUrlWork="www.ianprovo.com"
+                jcr:primaryType="nt:unstructured"
+                xmpNodeType="xmpStruct"/>
             <xmpMM:History
                 jcr:primaryType="nt:unstructured"
                 xmpArraySize="{Long}3"
@@ -245,21 +266,6 @@
                     stEvt:when="{Date}2019-10-01T15:32:30.000-07:00"
                     xmpNodeType="xmpStruct"/>
             </xmpMM:History>
-            <xmpMM:DerivedFrom
-                jcr:primaryType="nt:unstructured"
-                stRef:documentID="399B55AF360A9E7B4263CA24EDBD0544"
-                stRef:originalDocumentID="399B55AF360A9E7B4263CA24EDBD0544"
-                xmpNodeType="xmpStruct"/>
-            <Iptc4xmpCore:CreatorContactInfo
-                Iptc4xmpCore:CiAdrCity="Park City"
-                Iptc4xmpCore:CiAdrExtadr="P.O Box 680146"
-                Iptc4xmpCore:CiAdrPcode="84068"
-                Iptc4xmpCore:CiAdrRegion="UT"
-                Iptc4xmpCore:CiEmailWork="ijprovo@gmail.com"
-                Iptc4xmpCore:CiTelWork="435-640-6994"
-                Iptc4xmpCore:CiUrlWork="www.ianprovo.com"
-                jcr:primaryType="nt:unstructured"
-                xmpNodeType="xmpStruct"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
