@@ -2,12 +2,11 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-10-02T10:41:41.088-07:00"
+        cq:lastModified="{Date}2019-10-01T20:58:10.253-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
-        jcr:description="Breaking down the top 10 skate destinations in all of Los Angeles. You don't want to miss this!"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Ultimate Guide to LA Skateparks"
+        jcr:title="Arctic Surfing"
         sling:resourceType="wknd/components/structure/page"
         socialMedia="[facebook,pinterest]">
         <root
@@ -24,29 +23,30 @@
                 <image
                     jcr:created="{Date}2019-04-03T18:29:05.193-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-09-26T07:30:01.669-07:00"
+                    jcr:lastModified="{Date}2019-10-01T18:09:25.382-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/content/image"
-                    fileReference="/content/dam/wknd/en/magazine/la-skateparks/article_01_hero.png"/>
+                    fileReference="/content/dam/wknd/en/magazine/arctic-surfing/surfer-back-from-the-ocean.JPG"
+                    imageCrop="14,45,1256,813"/>
                 <title
                     cq:styleIds="[1554340254365]"
                     jcr:created="{Date}2019-04-03T18:30:45.362-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-09-26T07:29:08.125-07:00"
+                    jcr:lastModified="{Date}2019-10-01T18:10:25.142-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="Ultimate guide to LA Skateparks"
+                    jcr:title="Aloha Spirits in Northern Norway"
                     sling:resourceType="wknd/components/content/title"
                     type="h1"/>
                 <title_1878931237
                     cq:styleIds="[1569449252745]"
                     jcr:created="{Date}2019-09-25T15:03:01.614-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-09-26T07:29:17.395-07:00"
+                    jcr:lastModified="{Date}2019-10-01T18:10:39.639-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="By Stacey Roswells"
+                    jcr:title="By Jacob Wester"
                     sling:resourceType="wknd/components/content/title"
                     type="h2"/>
                 <responsivegrid
@@ -56,25 +56,16 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
-                    <title
-                        jcr:created="{Date}2019-10-02T10:41:33.407-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-02T10:41:41.084-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Sample here!"
-                        sling:resourceType="wknd/components/content/title"
-                        type="h1"/>
                     <contentfragment
                         jcr:created="{Date}2019-04-03T18:35:18.394-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-02T10:41:19.293-07:00"
+                        jcr:lastModified="{Date}2019-10-01T18:10:01.417-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/content/contentfragment"
                         displayMode="singleText"
                         elementNames="main"
-                        fragmentPath="/content/dam/wknd/en/magazine/la-skateparks/ultimate-guide-to-la-skateparks"
+                        fragmentPath="/content/dam/wknd/en/magazine/arctic-surfing/aloha-spirits-in-northern-norway"
                         paragraphScope="all"
                         text=""
                         variationName="master">
@@ -83,82 +74,82 @@
                             sling:resourceType="dam/cfm/components/grid">
                             <text
                                 cq:styleIds="[1554340301154]"
-                                jcr:created="{Date}2019-09-26T07:30:42.044-07:00"
+                                jcr:created="{Date}2019-10-01T18:15:26.950-07:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-10-01T16:59:22.922-07:00"
+                                jcr:lastModified="{Date}2019-10-01T18:15:59.022-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wknd/components/content/text"
-                                text="&lt;blockquote>&amp;quot;There is no better place to shred then Los Angeles&amp;quot;&lt;/blockquote>&#xa;&lt;p>&lt;u>Jake Hammer - Pro Skater&lt;/u>&lt;/p>&#xa;"
+                                text="&lt;blockquote>&amp;quot;When rare sunrays pierce through the low clouds, the scenery revelas its vibrancy&amp;quot;&lt;/blockquote>&#xd;&#xa;"
                                 textIsRich="true"/>
-                            <title
-                                cq:styleIds="[1568996484405]"
-                                jcr:created="{Date}2019-10-01T16:59:27.512-07:00"
+                            <image
+                                jcr:created="{Date}2019-10-01T18:11:07.534-07:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-10-01T17:00:02.275-07:00"
+                                jcr:lastModified="{Date}2019-10-01T18:11:07.534-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="Vans Off the Wall Skatepark"
+                                sling:resourceType="wknd/components/content/image"
+                                fileReference="/content/dam/wknd/en/magazine/arctic-surfing/surfer-wave-02.JPG"/>
+                            <title_copy
+                                cq:styleIds="[1568996484405]"
+                                jcr:created="{Date}2019-10-01T18:16:10.264-07:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2019-10-01T18:17:13.684-07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="The front"
                                 sling:resourceType="wknd/components/content/title"
                                 type="h2"/>
                         </par1>
                         <par2
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/components/grid">
-                            <image_copy
-                                jcr:created="{Date}2019-09-26T07:30:24.820-07:00"
+                            <title
+                                cq:styleIds="[1568996484405]"
+                                jcr:created="{Date}2019-10-01T18:16:10.264-07:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-09-26T07:30:27.169-07:00"
+                                jcr:lastModified="{Date}2019-10-01T18:16:53.313-07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Clear skies"
+                                sling:resourceType="wknd/components/content/title"
+                                type="h2"/>
+                            <image
+                                jcr:created="{Date}2019-10-01T18:13:01.696-07:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2019-10-01T18:13:01.696-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wknd/components/content/image"
-                                fileReference="/content/dam/wknd/en/magazine/la-skateparks/article_01_picture_01.png"/>
+                                fileReference="/content/dam/wknd/en/magazine/arctic-surfing/majestic-rainbow.JPG"/>
                         </par2>
+                        <par4
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/components/grid">
+                            <image
+                                jcr:created="{Date}2019-10-01T18:13:24.339-07:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2019-10-01T18:13:24.339-07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wknd/components/content/image"
+                                fileReference="/content/dam/wknd/en/magazine/arctic-surfing/northern-lights.JPG"/>
+                        </par4>
                         <par3
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/components/grid">
                             <title
                                 cq:styleIds="[1568996484405]"
-                                jcr:created="{Date}2019-10-01T17:01:13.797-07:00"
+                                jcr:created="{Date}2019-10-01T18:17:25.955-07:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-10-01T17:01:38.526-07:00"
+                                jcr:lastModified="{Date}2019-10-01T18:17:35.993-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="Moorpark skate park"
+                                jcr:title="Mythical northern lights"
                                 sling:resourceType="wknd/components/content/title"
                                 type="h2"/>
                         </par3>
-                        <par5
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="dam/cfm/components/grid">
-                            <title
-                                cq:styleIds="[1568996484405]"
-                                jcr:created="{Date}2019-10-01T17:05:08.775-07:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-10-01T17:05:26.169-07:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="Venice Beach Skatepark"
-                                sling:resourceType="wknd/components/content/title"
-                                type="h2"/>
-                            <image
-                                jcr:created="{Date}2019-10-01T17:05:46.598-07:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-10-01T17:05:46.598-07:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/image"
-                                fileReference="/content/dam/wknd/en/magazine/la-skateparks/robson-hatsukami-morgan-280159.jpg"/>
-                        </par5>
                     </contentfragment>
-                    <experiencefragment
-                        jcr:created="{Date}2019-09-26T07:29:35.773-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-09-26T07:29:48.964-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/experiencefragment"
-                        fragmentVariationPath="/content/experience-fragments/wknd/language-masters/en/writers/stacey-roswells/master"/>
                 </responsivegrid>
                 <responsivegrid_223059690
                     jcr:created="{Date}2019-04-03T18:32:31.547-07:00"
@@ -184,11 +175,21 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/content/sharing"/>
+                    <title_copy
+                        cq:styleIds="[1569449156797,1568996420379,1569448853340]"
+                        jcr:created="{Date}2019-09-25T15:04:58.771-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-10-01T20:58:10.248-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="UP NEXT"
+                        sling:resourceType="wknd/components/content/title"
+                        type="h6"/>
                     <list
                         cq:styleIds="[1554340350631]"
                         jcr:created="{Date}2019-04-03T18:35:24.854-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-01T20:57:25.144-07:00"
+                        jcr:lastModified="{Date}2019-10-01T20:57:46.233-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/content/list"
@@ -196,7 +197,7 @@
                         linkItems="true"
                         listFrom="children"
                         maxItems="4"
-                        orderBy="modified"
+                        orderBy="title"
                         parentPage="/content/wknd/language-masters/en/magazine"
                         showDescription="false"
                         showModificationDate="true"
