@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+<jcr:root xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="caaa4a8c-1612-461e-a949-0fad1ee44adf">
     <jcr:content
+        cq:name="skateboard-hero.jpg"
+        cq:parentPath="/content/dam/wknd/en/magazine/la-skateparks"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-09-26T07:14:25.057-07:00"
+        jcr:lastModified="{Date}2019-10-01T16:17:02.379-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2019-09-26T07:14:24.580-07:00"
+            dam:extracted="{Date}2019-10-01T15:35:57.036-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -20,16 +23,22 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="no"
-            dam:sha1="ab62790654df7b20271c0fe3f99df9d8b265aaf1"
+            dam:sha1="0562047d918658f1e2a8a113b53913fa57b1fc59"
             dam:size="{Long}73840"
+            dc:contributor="unsplash.com"
+            dc:creator="Chris Brignola"
             dc:format="image/jpeg"
             dc:modified="{Date}2018-11-15T15:18:16.548-05:00"
             exif:PixelXDimension="{Long}1366"
             exif:PixelYDimension="{Long}800"
+            jcr:lastModified="{Date}2019-10-01T16:17:02.301-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}749"
-            tiff:ImageWidth="{Long}1280"/>
+            tiff:ImageWidth="{Long}1280">
+            <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
+        </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>

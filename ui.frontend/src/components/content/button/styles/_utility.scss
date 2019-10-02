@@ -3,14 +3,8 @@
 
     .cmp-button {
         text-transform: uppercase;
-        color:$gray-light;
+        color:$gray-lighter;
         font-size: $font-size-small;
-    }
-}
-
-.cmp-button--account {
-    @media (max-width: $screen-large) {
-        text-align: left;
     }
 }
 

@@ -17,7 +17,11 @@
 /* WKND Sign In Buttons Default Style */
 
 .wknd-sign-in-buttons {
-
+  text-align: right;
+  
+  @media (max-width: $screen-large) {
+    text-align: left;
+  }
 }
 
 .wknd-sign-in-buttons__button {
@@ -25,9 +29,9 @@
   display: none;
 
   text-transform: uppercase;
-  color: #777;
+  color: $gray-lighter;
   font-size: 1pc;
-
+ 
   &:hover {
 
   }
@@ -35,4 +39,5 @@
   &:active {
 
   }
+
 }

@@ -4,7 +4,7 @@
     allowedPaths="[/content/entities(/.*)?]"
     ranking="{Long}100">
     <jcr:content
-        cq:lastModified="{Date}2019-09-26T06:24:23.505-07:00"
+        cq:lastModified="{Date}2019-10-02T11:42:58.726-07:00"
         cq:lastModifiedBy="admin"
         cq:scaffolding="/conf/wknd/settings/dam/cfm/models/article/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
@@ -23,21 +23,32 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="cq/gui/components/authoring/dialog">
                 <content
-                    jcr:lastModified="{Date}2019-09-26T06:24:23.505-07:00"
+                    jcr:lastModified="{Date}2019-10-02T11:42:58.726-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
                     <items
                         jcr:primaryType="nt:unstructured"
-                        maxGeneratedOrder="21">
+                        maxGeneratedOrder="20">
+                        <_x0031_569969628315
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Author"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="author"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string"/>
                         <_x0031_569504252173
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/admin/components/authoring/contenteditor/multieditor"
-                            cfm-element="Body"
+                            cfm-element="Main"
                             default-mime-type="text/html"
-                            listOrder="21"
+                            listOrder="2"
                             metaType="text-multi"
-                            name="body"
+                            name="main"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
                             valueType="string"/>

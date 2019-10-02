@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-10-02T12:22:42.572-07:00"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/conf/wknd/settings/wcm/templates/experience-fragment-web-variation-template"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Stacey Roswells"
+        jcr:uuid="726e286c-a7f7-4f5a-868f-7609ddaa73ca"
+        sling:resourceType="wknd/components/structure/xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                cq:styleIds="[1570043787082]"
+                jcr:created="{Date}2019-09-13T14:22:51.213-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-09-13T14:23:01.260-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <image
+                    jcr:created="{Date}2019-10-02T12:20:59.582-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-10-02T12:21:08.253-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/image"
+                    fileReference="/content/dam/wknd/en/contributors/stacey-roswells.jpg"/>
+                <title
+                    jcr:created="{Date}2019-10-02T12:21:16.916-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-10-02T12:21:30.136-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Stacey Roswells"
+                    sling:resourceType="wknd/components/content/title"
+                    type="h2"/>
+                <title_2061073292
+                    cq:styleIds="[1569448732502,1569448853340]"
+                    jcr:created="{Date}2019-10-02T12:21:38.958-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-10-02T12:22:42.538-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Artist, Photographer, Traveler"
+                    sling:resourceType="wknd/components/content/title"
+                    type="h3"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

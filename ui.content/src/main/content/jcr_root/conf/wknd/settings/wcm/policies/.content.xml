@@ -32,12 +32,12 @@
                             mergeList="{Boolean}true"/>
                     </content-default>
                     <policy_213106331986985
-                        jcr:lastModified="{Date}2019-09-13T15:11:10.693-07:00"
+                        jcr:lastModified="{Date}2019-10-02T13:27:05.844-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Content"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/wknd/components/content/breadcrumb,/apps/wknd/components/content/byline,/apps/wknd/components/content/carousel,/apps/wknd/components/content/contentfragment,/apps/wknd/components/content/experiencefragment,/apps/wknd/components/content/image,/apps/wknd/components/content/list,/apps/wknd/components/content/teaser,/apps/wknd/components/content/text,/apps/wknd/components/content/title]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,group:WKND.Content]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -47,6 +47,18 @@
                                     assetMimetype="image/*"
                                     droptarget="image"
                                     resourceType="wknd/components/content/image"/>
+                                <mapping_1570046914244
+                                    jcr:primaryType="nt:unstructured"
+                                    assetGroup="content"
+                                    assetMimetype="text/html"
+                                    droptarget="experiencefragment"
+                                    resourceType="wknd/components/content/experiencefragment"/>
+                                <mapping_1570047042575
+                                    jcr:primaryType="nt:unstructured"
+                                    assetGroup="media"
+                                    assetMimetype="[text/html,application/vnd.adobe.contentfragment]"
+                                    droptarget="contentfragment"
+                                    resourceType="wknd/components/content/contentfragment"/>
                             </assetToComponentMapping>
                         </cq:authoring>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
@@ -101,6 +113,18 @@
                                     assetMimetype="image/*"
                                     droptarget="image"
                                     resourceType="wknd/components/content/image"/>
+                                <mapping_1570048100274
+                                    jcr:primaryType="nt:unstructured"
+                                    assetGroup="content"
+                                    assetMimetype="text/html"
+                                    droptarget="experiencefragment"
+                                    resourceType="wknd/components/content/experiencefragment"/>
+                                <mapping_1570048111074
+                                    jcr:primaryType="nt:unstructured"
+                                    assetGroup="media"
+                                    assetMimetype="[text/html,application/vnd.adobe.contentfragment]"
+                                    droptarget="contentfragment"
+                                    resourceType="wknd/components/content/contentfragment"/>
                             </assetToComponentMapping>
                         </cq:authoring>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
@@ -132,6 +156,11 @@
                                         cq:styleClasses="cmp-layout-container--modal"
                                         cq:styleId="1569950941796"
                                         cq:styleLabel="Modal"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item5
+                                        cq:styleClasses="cmp-layout-container--fixed"
+                                        cq:styleId="1570043787082"
+                                        cq:styleLabel="Fixed"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item0>
