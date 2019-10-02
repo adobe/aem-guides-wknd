@@ -3,9 +3,9 @@
 
 @import '../base/sass/shared';
 
+
 /* Page */
 @import '../components/content/page/page';
-
 
 /* Components */
 @import '../components/content/breadcrumb/breadcrumb';
@@ -25,3 +25,8 @@
 @import '../components/content/teaser/teaser';
 @import '../components/content/text/text.scss';
 @import '../components/content/title/title';
+@import '../components/content/sign-in-form/sign-in-form';
+@import '../components/content/sign-in-buttons/sign-in-buttons';
+
+@import '../components/form/text/text';
+@import '../components/form/button/button';
