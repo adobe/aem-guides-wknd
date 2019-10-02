@@ -33,7 +33,7 @@ If you have a running AEM instance you can build and package the whole project a
 
     mvn clean install -PautoInstallPackage
 
-Depending on your maven configuration, you may find it helpful to force the resolution of the Adobe pubic repo with
+Depending on your maven configuration, you may find it helpful to force the resolution of the Adobe public repo with
 
     mvn clean install -PautoInstallPackage -Padobe-public
     
