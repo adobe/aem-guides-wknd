@@ -2,229 +2,243 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-10-02T14:57:56.183-07:00"
+        cq:lastModified="{Date}2019-10-02T14:57:56.559-07:00"
         cq:lastModifiedBy="admin"
-        cq:lastRolledout="{Date}2019-10-02T14:57:56.185-07:00"
+        cq:lastRolledout="{Date}2019-10-02T14:57:56.561-07:00"
         cq:lastRolledoutBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
-        jcr:description="Breaking down the top 10 skate destinations in all of Los Angeles. You don't want to miss this!"
         jcr:mixinTypes="[cq:LiveRelationship]"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Ultimate Guide to LA Skateparks"
+        jcr:title="Alaskan Adventure"
         sling:resourceType="wknd/components/structure/page"
         socialMedia="[facebook,pinterest]">
         <root
-            cq:lastRolledout="{Date}2019-10-02T14:57:56.085-07:00"
+            cq:lastRolledout="{Date}2019-10-02T14:57:56.477-07:00"
             cq:lastRolledoutBy="admin"
             jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
             <responsivegrid
-                cq:lastRolledout="{Date}2019-10-02T14:57:56.090-07:00"
+                cq:lastRolledout="{Date}2019-10-02T14:57:56.481-07:00"
                 cq:lastRolledoutBy="admin"
                 cq:styleIds="[1554340406437]"
                 jcr:created="{Date}2019-03-19T13:19:35.891-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2019-10-02T14:57:56.086-07:00"
+                jcr:lastModified="{Date}2019-10-02T14:57:56.478-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
                 <image
-                    cq:lastRolledout="{Date}2019-10-02T14:57:56.096-07:00"
+                    cq:lastRolledout="{Date}2019-10-02T14:57:56.486-07:00"
                     cq:lastRolledoutBy="admin"
                     jcr:created="{Date}2019-04-03T18:29:05.193-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-10-02T14:57:56.094-07:00"
+                    jcr:lastModified="{Date}2019-10-02T14:57:56.484-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/content/image"
-                    fileReference="/content/dam/wknd/en/magazine/la-skateparks/article_01_hero.png"/>
+                    fileReference="/content/dam/wknd/en/magazine/alaska-adventure/camp-alaska.JPG"
+                    imageCrop="0,62,1279,852"/>
                 <title
-                    cq:lastRolledout="{Date}2019-10-02T14:57:56.101-07:00"
+                    cq:lastRolledout="{Date}2019-10-02T14:57:56.490-07:00"
                     cq:lastRolledoutBy="admin"
                     cq:styleIds="[1554340254365]"
                     jcr:created="{Date}2019-04-03T18:30:45.362-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-10-02T14:57:56.098-07:00"
+                    jcr:lastModified="{Date}2019-10-02T14:57:56.487-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="Ultimate guide to LA Skateparks"
                     sling:resourceType="wknd/components/content/title"
                     type="h1"/>
                 <title_1878931237
-                    cq:lastRolledout="{Date}2019-10-02T14:57:56.106-07:00"
+                    cq:lastRolledout="{Date}2019-10-02T14:57:56.493-07:00"
                     cq:lastRolledoutBy="admin"
                     cq:styleIds="[1569449252745]"
                     jcr:created="{Date}2019-09-25T15:03:01.614-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-10-02T14:57:56.103-07:00"
+                    jcr:lastModified="{Date}2019-10-02T14:57:56.491-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="By Stacey Roswells"
+                    jcr:title="By Ian Provo"
                     sling:resourceType="wknd/components/content/title"
                     type="h2"/>
                 <responsivegrid
-                    cq:lastRolledout="{Date}2019-10-02T14:57:56.109-07:00"
+                    cq:lastRolledout="{Date}2019-10-02T14:57:56.497-07:00"
                     cq:lastRolledoutBy="admin"
                     jcr:created="{Date}2019-04-03T18:31:10.416-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-10-02T14:57:56.107-07:00"
+                    jcr:lastModified="{Date}2019-10-02T14:57:56.494-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
                     <contentfragment
-                        cq:lastRolledout="{Date}2019-10-02T14:57:56.116-07:00"
+                        cq:lastRolledout="{Date}2019-10-02T14:57:56.502-07:00"
                         cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2019-04-03T18:35:18.394-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-02T14:57:56.112-07:00"
+                        jcr:lastModified="{Date}2019-10-02T14:57:56.499-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/content/contentfragment"
                         displayMode="singleText"
                         elementNames="main"
-                        fragmentPath="/content/dam/wknd/en/magazine/la-skateparks/ultimate-guide-to-la-skateparks"
-                        paragraphScope="all"
+                        fragmentPath="/content/dam/wknd/en/magazine/alaska-adventure/alaskan-adventures"
                         text=""
                         variationName="master">
                         <par1
-                            cq:lastRolledout="{Date}2019-10-02T14:57:56.121-07:00"
+                            cq:lastRolledout="{Date}2019-10-02T14:57:56.505-07:00"
+                            cq:lastRolledoutBy="admin"
+                            jcr:mixinTypes="[cq:LiveRelationship]"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/components/grid">
+                            <image
+                                cq:lastRolledout="{Date}2019-10-02T14:57:56.509-07:00"
+                                cq:lastRolledoutBy="admin"
+                                jcr:created="{Date}2019-10-01T20:32:07.509-07:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2019-10-02T14:57:56.507-07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wknd/components/content/image"
+                                fileReference="/content/dam/wknd/en/magazine/alaska-adventure/alaskan-landscape-01.JPG"/>
+                        </par1>
+                        <par2
+                            cq:lastRolledout="{Date}2019-10-02T14:57:56.511-07:00"
+                            cq:lastRolledoutBy="admin"
+                            jcr:mixinTypes="[cq:LiveRelationship]"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/components/grid">
+                            <title
+                                cq:lastRolledout="{Date}2019-10-02T14:57:56.515-07:00"
+                                cq:lastRolledoutBy="admin"
+                                cq:styleIds="[1568996484405]"
+                                jcr:created="{Date}2019-10-01T20:37:15.597-07:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2019-10-02T14:57:56.513-07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Some places are only accessible by plane"
+                                sling:resourceType="wknd/components/content/title"
+                                type="h2"/>
+                            <image
+                                cq:lastRolledout="{Date}2019-10-02T14:57:56.518-07:00"
+                                cq:lastRolledoutBy="admin"
+                                jcr:created="{Date}2019-10-01T20:32:16.431-07:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2019-10-02T14:57:56.516-07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wknd/components/content/image"
+                                fileReference="/content/dam/wknd/en/magazine/alaska-adventure/plane.JPG"/>
+                        </par2>
+                        <par3
+                            cq:lastRolledout="{Date}2019-10-02T14:57:56.520-07:00"
                             cq:lastRolledoutBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/components/grid">
                             <text
-                                cq:lastRolledout="{Date}2019-10-02T14:57:56.127-07:00"
+                                cq:lastRolledout="{Date}2019-10-02T14:57:56.524-07:00"
                                 cq:lastRolledoutBy="admin"
                                 cq:styleIds="[1554340301154]"
-                                jcr:created="{Date}2019-09-26T07:30:42.044-07:00"
+                                jcr:created="{Date}2019-10-01T20:32:29.840-07:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-10-02T14:57:56.124-07:00"
+                                jcr:lastModified="{Date}2019-10-02T14:57:56.521-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wknd/components/content/text"
-                                text="&lt;blockquote>&amp;quot;There is no better place to shred then Los Angeles&amp;quot;&lt;/blockquote>&#xd;&#xa;&lt;p>&lt;u>Jacob Wester - Pro Skater&lt;/u>&lt;/p>&#xd;&#xa;"
+                                text="&lt;blockquote>For 18 days we lived on a glacier, 50 miles by plane from the nearest anything...&lt;/blockquote>&#xd;&#xa;&lt;p>&lt;u>Neil Provo&lt;/u>&lt;/p>&#xd;&#xa;"
                                 textIsRich="true"/>
-                            <title
-                                cq:lastRolledout="{Date}2019-10-02T14:57:56.131-07:00"
-                                cq:lastRolledoutBy="admin"
-                                cq:styleIds="[1568996484405]"
-                                jcr:created="{Date}2019-10-01T16:59:27.512-07:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-10-02T14:57:56.128-07:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="Vans Off the Wall Skatepark"
-                                sling:resourceType="wknd/components/content/title"
-                                type="h2"/>
-                        </par1>
-                        <par2
-                            cq:lastRolledout="{Date}2019-10-02T14:57:56.134-07:00"
-                            cq:lastRolledoutBy="admin"
-                            jcr:mixinTypes="[cq:LiveRelationship]"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="dam/cfm/components/grid">
-                            <image_copy
-                                cq:lastRolledout="{Date}2019-10-02T14:57:56.140-07:00"
-                                cq:lastRolledoutBy="admin"
-                                jcr:created="{Date}2019-09-26T07:30:24.820-07:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-09-26T07:30:27.169-07:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/image"
-                                fileReference="/content/dam/wknd/en/magazine/la-skateparks/article_01_picture_01.png"/>
-                        </par2>
-                        <par3
-                            cq:lastRolledout="{Date}2019-10-02T14:57:56.143-07:00"
-                            cq:lastRolledoutBy="admin"
-                            jcr:mixinTypes="[cq:LiveRelationship]"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="dam/cfm/components/grid">
-                            <title
-                                cq:lastRolledout="{Date}2019-10-02T14:57:56.148-07:00"
-                                cq:lastRolledoutBy="admin"
-                                cq:styleIds="[1568996484405]"
-                                jcr:created="{Date}2019-10-01T17:01:13.797-07:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-10-02T14:57:56.145-07:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="Moorpark skate park"
-                                sling:resourceType="wknd/components/content/title"
-                                type="h2"/>
                         </par3>
-                        <par5
-                            cq:lastRolledout="{Date}2019-10-02T14:57:56.152-07:00"
+                        <par4
+                            cq:lastRolledout="{Date}2019-10-02T14:57:56.525-07:00"
                             cq:lastRolledoutBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/components/grid">
                             <title
-                                cq:lastRolledout="{Date}2019-10-02T14:57:56.158-07:00"
+                                cq:lastRolledout="{Date}2019-10-02T14:57:56.530-07:00"
                                 cq:lastRolledoutBy="admin"
                                 cq:styleIds="[1568996484405]"
-                                jcr:created="{Date}2019-10-01T17:05:08.775-07:00"
+                                jcr:created="{Date}2019-10-01T20:37:43.326-07:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-10-02T14:57:56.155-07:00"
+                                jcr:lastModified="{Date}2019-10-02T14:57:56.527-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                jcr:title="Venice Beach Skatepark"
+                                jcr:title="Fishing in the village of Yakutat"
                                 sling:resourceType="wknd/components/content/title"
                                 type="h2"/>
                             <image
-                                cq:lastRolledout="{Date}2019-10-02T14:57:56.162-07:00"
+                                cq:lastRolledout="{Date}2019-10-02T14:57:56.533-07:00"
                                 cq:lastRolledoutBy="admin"
-                                jcr:created="{Date}2019-10-01T17:05:46.598-07:00"
+                                jcr:created="{Date}2019-10-01T20:34:02.452-07:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-10-02T14:57:56.159-07:00"
+                                jcr:lastModified="{Date}2019-10-02T14:57:56.531-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wknd/components/content/image"
-                                fileReference="/content/dam/wknd/en/magazine/la-skateparks/robson-hatsukami-morgan-280159.jpg"/>
+                                fileReference="/content/dam/wknd/en/magazine/alaska-adventure/alaskan-grizzly.jpg"/>
+                        </par4>
+                        <par5
+                            cq:lastRolledout="{Date}2019-10-02T14:57:56.535-07:00"
+                            cq:lastRolledoutBy="admin"
+                            jcr:mixinTypes="[cq:LiveRelationship]"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/components/grid">
+                            <image
+                                cq:lastRolledout="{Date}2019-10-02T14:57:56.538-07:00"
+                                cq:lastRolledoutBy="admin"
+                                jcr:created="{Date}2019-10-01T20:35:51.476-07:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2019-10-02T14:57:56.537-07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wknd/components/content/image"
+                                fileReference="/content/dam/wknd/en/magazine/alaska-adventure/fish.JPG"/>
                         </par5>
                     </contentfragment>
                     <experiencefragment
-                        cq:lastRolledout="{Date}2019-10-02T14:57:56.165-07:00"
+                        cq:lastRolledout="{Date}2019-10-02T14:57:56.541-07:00"
                         cq:lastRolledoutBy="admin"
-                        jcr:created="{Date}2019-09-26T07:29:35.773-07:00"
+                        jcr:created="{Date}2019-10-02T13:11:30.983-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-02T14:57:56.163-07:00"
+                        jcr:lastModified="{Date}2019-10-02T14:57:56.540-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/content/experiencefragment"
-                        fragmentVariationPath="/content/experience-fragments/wknd/language-masters/en/contributors/stacey-roswells/byline"/>
+                        fragmentVariationPath="/content/experience-fragments/wknd/language-masters/en/contributors/ian-provo/byline"/>
                 </responsivegrid>
                 <responsivegrid_223059690
-                    cq:lastRolledout="{Date}2019-10-02T14:57:56.169-07:00"
+                    cq:lastRolledout="{Date}2019-10-02T14:57:56.544-07:00"
                     cq:lastRolledoutBy="admin"
                     jcr:created="{Date}2019-04-03T18:32:31.547-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-10-02T14:57:56.166-07:00"
+                    jcr:lastModified="{Date}2019-10-02T14:57:56.542-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
                     <title
-                        cq:lastRolledout="{Date}2019-10-02T14:57:56.175-07:00"
+                        cq:lastRolledout="{Date}2019-10-02T14:57:56.549-07:00"
                         cq:lastRolledoutBy="admin"
                         cq:styleIds="[1569449156797,1568996420379,1569448853340]"
                         jcr:created="{Date}2019-09-25T15:04:58.771-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-02T14:57:56.172-07:00"
+                        jcr:lastModified="{Date}2019-10-02T14:57:56.547-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
@@ -232,22 +246,35 @@
                         sling:resourceType="wknd/components/content/title"
                         type="h6"/>
                     <sharing
-                        cq:lastRolledout="{Date}2019-10-02T14:57:56.178-07:00"
+                        cq:lastRolledout="{Date}2019-10-02T14:57:56.552-07:00"
                         cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2019-09-25T15:04:53.325-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-02T14:57:56.176-07:00"
+                        jcr:lastModified="{Date}2019-10-02T14:57:56.550-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/content/sharing"/>
+                    <title_copy
+                        cq:lastRolledout="{Date}2019-10-02T14:57:56.555-07:00"
+                        cq:lastRolledoutBy="admin"
+                        cq:styleIds="[1569449156797,1568996420379,1569448853340]"
+                        jcr:created="{Date}2019-09-25T15:04:58.771-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-10-02T14:57:56.553-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="UP NEXT"
+                        sling:resourceType="wknd/components/content/title"
+                        type="h6"/>
                     <list
-                        cq:lastRolledout="{Date}2019-10-02T14:57:56.185-07:00"
+                        cq:lastRolledout="{Date}2019-10-02T14:57:56.561-07:00"
                         cq:lastRolledoutBy="admin"
                         cq:styleIds="[1554340350631]"
                         jcr:created="{Date}2019-04-03T18:35:24.854-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-02T14:57:56.180-07:00"
+                        jcr:lastModified="{Date}2019-10-02T14:57:56.557-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
