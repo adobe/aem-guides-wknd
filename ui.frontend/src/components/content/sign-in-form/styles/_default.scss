@@ -16,6 +16,9 @@
 
 /* WKND Sign In Form Default Style */
 
-.wknd-sign-in-form__field {
-  margin-bottom: 1.5rem;
+.wknd-sign-in-form {
+  .aem-GridColumn {
+    padding: 0;
+    margin-bottom: 1.25rem;
+  }
 }

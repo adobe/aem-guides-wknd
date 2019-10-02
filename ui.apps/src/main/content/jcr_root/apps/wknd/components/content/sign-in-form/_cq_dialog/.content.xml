@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
           xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
           jcr:primaryType="nt:unstructured"
-          jcr:title="Sign In Form"
+          jcr:title="Sign In/Sign Out Form"
           sling:resourceType="cq/gui/components/authoring/dialog">
     <content
             jcr:primaryType="nt:unstructured"
@@ -25,15 +25,25 @@
                                 <items jcr:primaryType="nt:unstructured">
                                     <action-url
                                             jcr:primaryType="nt:unstructured"
-                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                                            fieldLabel="Form Submit URL"
-                                            fieldDescription="The URL to post the form to."
-                                            name="./actionUrl"/>
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                            fieldLabel="Form Type"
+                                            name="./actionUrl">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <sign-in
+                                                    jcr:primaryType="nt:unstructured"
+                                                    text="Sign In"
+                                                    value="/system/sling/login/j_security_check"/>
+                                            <sign-out
+                                                    jcr:primaryType="nt:unstructured"
+                                                    text="Sign Out"
+                                                    value="/system/sling/logout"/>
+                                        </items>
+                                    </action-url>
                                     <redirect-url
                                             jcr:primaryType="nt:unstructured"
                                             sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                                             fieldLabel="Redirect URL"
-                                            fieldDescription="The URL to redirect upon successful log in."
+                                            fieldDescription="The URL to redirect upon successful sign in/sign out."
                                             name="./redirectUrl"/>
                                 </items>
                             </column>
