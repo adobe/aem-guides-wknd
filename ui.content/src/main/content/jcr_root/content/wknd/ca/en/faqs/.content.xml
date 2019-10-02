@@ -4,7 +4,7 @@
     <jcr:content
         cq:lastModified="{Date}2019-09-26T10:33:53.842-07:00"
         cq:lastModifiedBy="admin"
-        cq:lastRolledout="{Date}2019-09-26T10:33:53.843-07:00"
+        cq:lastRolledout="{Date}2019-10-02T14:57:09.537-07:00"
         cq:lastRolledoutBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
         jcr:mixinTypes="[cq:LiveRelationship]"
