@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="nt:unstructured"
+          actionUrl="/system/sling/login/j_security_check">
+    <user-name
+            jcr:primaryType="nt:unstructured"
+            helpMessage="EMAIL"
+            hideTitle="{Boolean}true"
+            jcr:title="EMAIL"
+            name="j_username"
+            required="{Boolean}true"
+            rows="{Long}1"
+            type="text"
+            usePlaceholder="{Boolean}true"
+            sling:resourceType="wknd/components/form/text"/>
+    <password
+            jcr:primaryType="nt:unstructured"
+            helpMessage="PASSWORD"
+            hideTitle="{Boolean}true"
+            jcr:title="PASSWORD"
+            name="j_password"
+            required="{Boolean}true"
+            rows="{Long}1"
+            type="text"
+            usePlaceholder="{Boolean}true"
+            sling:resourceType="wknd/components/form/password"/>
+    <forgot-password
+            jcr:primaryType="nt:unstructured"
+            textIsRich="{Boolean}true"
+            text="FORGOT YOUR PASSWORD?"
+            sling:resourceType="wknd/components/content/text"/>
+    <sign-in
+            jcr:primaryType="nt:unstructured"
+            jcr:title="SIGN IN"
+            type="submit"
+            sling:resourceType="wknd/components/form/button"/>
+</jcr:root>

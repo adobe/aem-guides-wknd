@@ -86,7 +86,7 @@
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_4792148308882>
                     <policy_70911755464249
-                        jcr:lastModified="{Date}2019-09-20T10:46:02.051-07:00"
+                        jcr:lastModified="{Date}2019-10-01T13:29:21.665-04:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Experience Fragment"
@@ -127,6 +127,11 @@
                                         cq:styleClasses="cmp-layout-container--socialmedia"
                                         cq:styleId="1568995157177"
                                         cq:styleLabel="Social Media"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item4
+                                        cq:styleClasses="cmp-layout-container--modal"
+                                        cq:styleId="1569950941796"
+                                        cq:styleLabel="Modal"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item0>

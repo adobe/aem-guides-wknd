@@ -1,5 +1,5 @@
 /*
- *  Copyright 2018 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe Systems Incorporated
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -14,11 +14,8 @@
  *  limitations under the License.
  */
 
-/* WKND Layout Container Styles */
-@import 'styles/default';
-@import 'styles/fixed-width';
-@import 'styles/footer';
-@import 'styles/utility';
-@import 'styles/header';
-@import 'styles/socialmedia';
-@import 'styles/modal';
+/* WKND Sign In Form Default Style */
+
+.wknd-sign-in-form__field {
+  margin-bottom: 1.5rem;
+}
