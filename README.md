@@ -55,15 +55,17 @@ There are three levels of testing contained in the project:
 
 * unit test in core: this show-cases classic unit testing of the code contained in the bundle. To test, execute:
 
+    ```
     mvn clean test
+    ```
 
 * server-side integration tests: this allows to run unit-like tests in the AEM-environment, ie on the AEM server. To test, execute:
 
+    ```
     mvn clean verify -PintegrationTests
+    ```
 
-* client-side Hobbes.js tests: JavaScript-based browser-side tests that verify browser-side behavior. To test:
-
-    in the browser, open the page in 'Developer mode', open the left panel and switch to the 'Tests' tab and find the generated 'MyName Tests' and run them.
+* client-side Hobbes.js tests: JavaScript-based browser-side tests that verify browser-side behavior. To test, go in the browser, open the page in 'Developer mode', open the left panel and switch to the 'Tests' tab and find the generated 'MyName Tests' and run them.
 
 
 ## Maven settings
