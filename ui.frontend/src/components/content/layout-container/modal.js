@@ -24,7 +24,7 @@ jQuery(function($) {
 
         if (visible || !xfUrl) { return; }
 
-        $.get(xfUrl + '?wcmmode=disabled', function (data) {
+        $.get(xfUrl, function (data) {
             const modal = $('<div id="wknd-modal"/>');
             $('body').append(modal.append(data));
             modal.fadeIn(300, function() { visible = true; });

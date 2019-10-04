@@ -826,7 +826,7 @@
                 </languagenavigation>
                 <experiencefragment jcr:primaryType="nt:unstructured">
                     <policy_1568592468447
-                        jcr:lastModified="{Date}2019-09-18T17:16:36.928-07:00"
+                        jcr:lastModified="{Date}2019-10-03T15:00:04.275-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Experience Fragment - Site"
@@ -987,6 +987,15 @@
                         clientlibs="wknd.site">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_654239029509196>
+                    <policy_1570140199406
+                        jcr:lastModified="{Date}2019-10-03T15:03:31.427-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Site Theme"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        clientlibs="wknd.site">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1570140199406>
                 </page>
             </structure>
         </components>

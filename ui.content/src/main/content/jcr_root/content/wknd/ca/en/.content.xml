@@ -2,9 +2,9 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-09-26T11:52:32.749-07:00"
+        cq:lastModified="{Date}2019-10-03T17:06:49.839-07:00"
         cq:lastModifiedBy="admin"
-        cq:lastRolledout="{Date}2019-10-02T14:57:08.708-07:00"
+        cq:lastRolledout="{Date}2019-10-03T17:06:49.841-07:00"
         cq:lastRolledoutBy="admin"
         cq:propertyInheritanceCancelled="[jcr:language]"
         cq:styleIds="[1555624476368]"
@@ -16,28 +16,28 @@
         sling:resourceType="wknd/components/structure/page"
         pageTitle="English">
         <root
-            cq:lastRolledout="{Date}2019-09-26T11:52:32.733-07:00"
+            cq:lastRolledout="{Date}2019-10-03T17:06:49.822-07:00"
             cq:lastRolledoutBy="admin"
             jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
             <responsivegrid
-                cq:lastRolledout="{Date}2019-09-26T11:52:32.736-07:00"
+                cq:lastRolledout="{Date}2019-10-03T17:06:49.825-07:00"
                 cq:lastRolledoutBy="admin"
                 jcr:created="{Date}2019-03-19T13:22:52.385-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2019-09-26T11:52:32.734-07:00"
+                jcr:lastModified="{Date}2019-10-03T17:06:49.823-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
                 <carousel
-                    cq:lastRolledout="{Date}2019-09-26T11:52:32.739-07:00"
+                    cq:lastRolledout="{Date}2019-10-03T17:06:49.829-07:00"
                     cq:lastRolledoutBy="admin"
                     cq:styleIds="[1555545421827]"
                     jcr:created="{Date}2019-04-17T15:36:28.849-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-09-26T11:52:32.737-07:00"
+                    jcr:lastModified="{Date}2019-10-03T17:06:49.826-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
@@ -46,13 +46,13 @@
                     autoplay="false"
                     delay="5000">
                     <teaser
-                        cq:lastRolledout="{Date}2019-09-26T11:52:32.744-07:00"
+                        cq:lastRolledout="{Date}2019-10-03T17:06:49.833-07:00"
                         cq:lastRolledoutBy="admin"
                         cq:panelTitle="LA Skateparks"
                         cq:styleIds="[1555543212672]"
                         jcr:created="{Date}2019-04-17T15:43:55.322-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-09-26T11:52:32.741-07:00"
+                        jcr:lastModified="{Date}2019-10-03T17:06:49.831-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
@@ -63,12 +63,12 @@
                         textIsRich="true"
                         titleFromPage="true">
                         <actions
-                            cq:lastRolledout="{Date}2019-09-26T11:52:32.745-07:00"
+                            cq:lastRolledout="{Date}2019-10-03T17:06:49.835-07:00"
                             cq:lastRolledoutBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured">
                             <item0
-                                cq:lastRolledout="{Date}2019-09-26T11:52:32.747-07:00"
+                                cq:lastRolledout="{Date}2019-10-03T17:06:49.837-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
@@ -78,18 +78,18 @@
                     </teaser>
                 </carousel>
                 <responsivegrid
-                    cq:lastRolledout="{Date}2019-09-26T11:52:32.750-07:00"
+                    cq:lastRolledout="{Date}2019-10-03T17:06:49.840-07:00"
                     cq:lastRolledoutBy="admin"
                     cq:styleIds="[1554340406437]"
                     jcr:created="{Date}2019-04-17T14:31:50.612-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-09-26T11:52:32.748-07:00"
+                    jcr:lastModified="{Date}2019-10-03T17:06:49.838-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
                     <cq:responsive
-                        cq:lastRolledout="{Date}2019-09-26T11:52:32.751-07:00"
+                        cq:lastRolledout="{Date}2019-10-03T17:06:49.841-07:00"
                         cq:lastRolledoutBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"/>
@@ -103,7 +103,7 @@
             jcr:primaryType="cq:LiveCopy"/>
     </jcr:content>
     <magazine/>
-    <events/>
+    <adventures/>
     <faqs/>
     <about-us/>
 </jcr:root>
