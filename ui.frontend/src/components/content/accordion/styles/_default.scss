@@ -1,19 +1,12 @@
 
 .cmp-accordion {
 
-    .cmp-accordion__item {
-
-    }
-
-    .cmp-accordion__header {
-
-    }
-
     .cmp-accordion__button {
         border: none;
         border-bottom: 2px solid $gray-light;
         padding: 1em;
         cursor: pointer;
+        background: none;
         &:focus {
             outline: none;
         }
