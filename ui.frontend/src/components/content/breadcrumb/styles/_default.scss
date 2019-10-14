@@ -19,7 +19,6 @@
     .cmp-breadcrumb__list {
          padding: 12px 12px 0px 0px;
          margin-bottom: 0px;
-         margin-top:30px;
          list-style: none;
          border-radius: 0px;
          font-size: $font-size-small;
@@ -38,8 +37,9 @@
        text-transform: uppercase;
           
        &:before {
-         font-family: 'Wkndicons';
-         content: "\e80d";
+         @include wkndiconstyle();
+         font-size: 1em;
+         content: $wkndicon-play3;
          color: $brand-primary;
          padding-right: 5px;
        }

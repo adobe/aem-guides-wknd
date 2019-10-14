@@ -25,7 +25,11 @@
   line-height: $line-height-base;
 
   .root {
-      padding-top:$header-height;
+    
+     max-width: $max-body-width;
+     margin: 0 auto;
+     padding-top:$header-height;
+
       @media (max-width: $screen-medium) {
           padding-top:$header-mobile-height;     
       }
@@ -39,8 +43,6 @@
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-font-family: $font-family-base;
-font-weight: $font-weight-semi-bold;
 line-height: $line-height-base;
 color: $text-color;
 }
@@ -48,6 +50,8 @@ color: $text-color;
 h1, .h1,
 h2, .h2,
 h3, .h3 {
+font-family: $font-family-serif;
+font-weight: $font-weight-normal;
 margin-top: $line-height-computed;
 margin-bottom: ($line-height-computed / 2);
 }
@@ -55,9 +59,9 @@ margin-bottom: ($line-height-computed / 2);
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-margin-top: ($line-height-computed / 2);
-margin-bottom: ($line-height-computed / 2);
-
+font-family: $font-family-sans-serif;
+text-transform: uppercase;
+font-weight: $font-weight-bold;
 }
 
 h1, .h1 { font-size: $font-size-h1; }
@@ -72,9 +76,25 @@ a {
   text-decoration: none;
 }
 
+h1 a, h2 a, h3 a {
+    color: $text-color;
+
+    &:after {
+        @include wkndiconstyle();
+        content: $wkndicon-play3;
+        font-size: $font-size-xsmall;
+        position: relative;
+        top: -0.5em;
+        left: 0.75em;
+      }
+}
+
 // Body text
 // -------------------------
 
 p {
 margin: 0 0 ($line-height-computed / 2);
+font-size: $font-size-base;
+line-height: $line-height-base + 1;
+text-align: justify;
 }

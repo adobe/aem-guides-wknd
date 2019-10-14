@@ -13,21 +13,3 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-
-/* WKND Title Default style */
- 
-.cmp-title {
-     
-    h1, h2, h3, h4 {
-        font-family: $font-family-serif;
-    }
-
-    h1 {
-        font-size: 48px;
-
-        @media (max-width: $screen-medium) {
-            font-size: $font-size-h1;
-        }
-    }
-    
-}

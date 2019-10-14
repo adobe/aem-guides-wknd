@@ -26,6 +26,11 @@
         float: left;
         width: 100%;
         margin-bottom: 1em;
+
+        &::before {
+            content: none;
+            position: unset;
+        }
     }
 
     .cmp-list__item-link {
@@ -34,19 +39,24 @@
         padding: 0.5rem 1rem;
 
         &:hover {
-            background: $brand-secondary;
+            .cmp-list__item-title {
+                text-decoration: underline;
+            }
+           
         }
+        
     }
 
     .cmp-list__item-title {
         width: 100%;
         float: left;
+     
     }
 
     .cmp-list__item-date {
         width: 100%;
         float: left;
-        color: $gray-light;
+        color: $gray;
         font-size: $font-size-small;
     }
 

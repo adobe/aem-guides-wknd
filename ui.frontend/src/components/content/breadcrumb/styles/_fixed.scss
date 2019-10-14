@@ -1,0 +1,8 @@
+.cmp-breadcrumb--fixed {
+    @include container-content();
+
+    .cmp-breadcrumb__list {
+        padding-top: 0;
+        margin-top: 0;
+    }
+}

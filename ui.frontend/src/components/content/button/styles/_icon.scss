@@ -1,35 +1,44 @@
 
 /* Default icons */
 
-.cmp-button__icon {
-    font-family: "Wkndicons";
-    font-size: 1.5rem;
-    padding: 0.5rem;
-}
-
-.cmp-button__icon--facebook {
-    &:before { content: "\e808"; } 
-}
-.cmp-button__icon--twitter {
-    &:before { content: "\e811"; }
-}
-.cmp-button__icon--instagram {
-    &:before { content: "\e809"; }
-}
-
-
-.cmp-button--lighticon {
-    .cmp-button {
-        color: $black;
-    }
+.cmp-button {
 
     .cmp-button__icon {
-        background-color: $text-color-inverse;
-        margin-right: 0.15rem;
+        float: left;
+        padding-top: 18px;
+        padding-left: 14px;
+        font-size: 1.25em;
     }
+    
+    .cmp-button__icon--facebook {
+        &:before {
+            content: $wkndicon-facebook; 
+        }
+    }
+    .cmp-button__icon--twitter {
+        &:before {
+            content: $wkndicon-twitter; 
+        }
+    }
+    .cmp-button__icon--instagram {
+        &:before {
+            content: $wkndicon-instagram; 
+        }
+    }
+}
 
-   
-    .cmp-button__text {
-        display: none;
+.cmp-button--icononly {
+
+    .cmp-button {
+        width: $button-size;
+        height: $button-size;
+    
+        .cmp-button__icon {
+            float: left;
+        }
+
+        .cmp-button__text {
+            display: none;
+        }
     }
 }

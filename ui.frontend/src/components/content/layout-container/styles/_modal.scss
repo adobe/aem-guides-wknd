@@ -1,6 +1,6 @@
 .cmp-layout-container--modal {
-  background: $gray-darker;
-  box-shadow: 0px 10px 20px $gray-dark;
+  background: $black;
+  box-shadow: 0px 10px 20px $gray;
   box-sizing: border-box;
   margin: 2rem;
   max-width: 450px;
@@ -21,8 +21,8 @@
   }
 
   .cmp-form-text__text {
-    background-color: black;
-    color: white;
+    background-color: $black;
+    color: $white;
   }
 
   // Title components
@@ -73,7 +73,7 @@
 
   .cmp-separator__horizontal-rule {
     background: $gray;
-    background-image: linear-gradient(to bottom, $gray-dark, $gray-darker);
+    background-image: linear-gradient(to bottom, $gray, $black);
     border: 0;
     height: 2px;
   }

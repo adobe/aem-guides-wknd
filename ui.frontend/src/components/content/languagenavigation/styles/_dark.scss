@@ -1,20 +1,20 @@
 .cmp-languagenavigation--dark {
 
     .cmp-languagenavigation {
-        background: $gray-darker;
+        background: $black;
         float:left;
-        color:$gray-light;
+        color: $gray-light;
+    }
+
+    .cmp-languagenavigation__item-title {
+        color: $gray-light;
     }
 
     .cmp-languagenavigation__item-link {
-        color: $nav-link-inverse;
+        color: $gray-lighter;
     }
 
     .cmp-languagenavigation__item--level-0 {
-        border-bottom-color: $gray-dark;
-
-        &.cmp-languagenavigation__item--active {
-            background-color: $black;
-        }
+        border-bottom-color: $gray;
     }
 }
