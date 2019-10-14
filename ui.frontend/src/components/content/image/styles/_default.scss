@@ -20,6 +20,13 @@
     	width: 100%;
 		margin-top: $gutter-padding / 2;
 		margin-bottom: $gutter-padding / 2;
-	}	
+	}
+	
+	.cmp-image__title {
+		text-transform: uppercase;
+		font-size: $font-size-small;
+		margin-top: -0.25em;
+		float: left;
+	}
 	
 }

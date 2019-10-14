@@ -57,7 +57,7 @@ $search-results-width: 20rem;
 
     .cmp-search__results {
         margin-top: 0.75em;
-        background: $gray-dark;
+        background: $black;
         width: $search-results-width;
         left: unset;
         right:0;
@@ -75,13 +75,12 @@ $search-results-width: 20rem;
     }
 
     a.cmp-search__item:hover {
-        text-decoration: none;
-        background: $gray-base;
+        text-decoration: underline;
     }
 
     .cmp-search__item-mark {
-        background: $gray-base;
-        color: $brand-third;
+        color: $text-color;
+        background-color: $gray-lighter;
     }
 
     /* Tablet */

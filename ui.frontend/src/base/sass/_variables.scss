@@ -18,24 +18,26 @@
 //
 //## Gray and brand colors for use across theme.
 
-$black:                  #252525;
+$black:                  #202020;
+$gray:                   #696969;
+$gray-light:             #EBEBEB;
+$gray-lighter:           #F7F7F7;
 $white:                  #ffffff;
-$gray-base:              #000;
-$gray-darker:            lighten($gray-base, 13.5%); // #222
-$gray-dark:              lighten($gray-base, 20%);   // #333
-$gray:                   lighten($gray-base, 33.5%); // #555
-$gray-light:             lighten($gray-base, 46.7%); // #777
-$gray-lighter:           lighten($gray-base, 80%); // #eee
 
-$brand-primary:         #FFE72B; // #337ab7
+$yellow:                 #FFE900;
+$blue:                   #0045FF;
+$pink:                   #FF0058;
+
+
+$brand-primary:           $yellow;
 
 //== Layout
 $gutter-padding: 14px;
 
 $max-width: 1164px;
-
+$max-body-width: 1680px;
 $screen-small: 767px;
-$screen-medium: 992px;
+$screen-medium: 1024px;
 $screen-large: 1200px;
 
 //== Scaffolding
@@ -43,24 +45,24 @@ $screen-large: 1200px;
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-$body-bg:               #fff;
+$body-bg:                   $white;
 //** Global text color on `<body>`.
-$text-color:            $black;
-$text-color-inverse:     #EBEBEB;
+$text-color:                $black;
+$text-color-inverse:        $gray-light;
 
-$brand-secondary:       #EBEBEB;
+$brand-secondary:           $black;
 
-$brand-third:           #fff;
+$brand-third:               $gray-light;
 
 //** Global textual link color.
-$link-color:            #0045FF;
+$link-color:                $blue;
 //** Link hover color set via `darken()` function.
 $link-hover-color:      $link-color;
 //** Link hover decoration.
 $link-hover-decoration: underline;
 
 $nav-link: $black;
-$nav-link-inverse: #fff;
+$nav-link-inverse: $gray-light;
 
 
 
@@ -76,24 +78,24 @@ $font-size-base:          20px;
 $font-size-large:         24px;
 $font-size-xlarge:        48px;
 $font-size-medium:		  18px;
-$font-size-small:         16px;
-$font-size-xsmall:		  13px;
+$font-size-small:         14px;
+$font-size-xsmall:		  12px;
 
-$font-size-h1:            36px; // ~36px
-$font-size-h2:            30px; // ~30px
-$font-size-h3:            24px; // ~24px
-$font-size-h4:            22px; // ~18px
-$font-size-h5:            $font-size-base;
-$font-size-h6:            12px; // ~12px
+$font-size-h1:            40px;
+$font-size-h2:            36px; 
+$font-size-h3:            24px; 
+$font-size-h4:            16px; 
+$font-size-h5:            14px;
+$font-size-h6:            10px; 
 
 //** Unit-less `line-height` for use in components like buttons.
-$line-height-base:        1.428571429; // 20/14
+$line-height-base:        1.5;
 $line-height-computed:    floor(($font-size-base * $line-height-base)); // ~20px
 
 $font-weight-light:      300;
-$font-weight-normal:     400;
-$font-weight-semi-bold:  500;
-$font-weight-bold:       700;
+$font-weight-normal:     normal;
+$font-weight-semi-bold:  400;
+$font-weight-bold:       600;
 
 //=== Page Layout
 $header-height: 200px;
@@ -104,3 +106,9 @@ $utility-nav-height: 40px;
 //** Load country flags from this directory.
 $country-flag-path:          '../resources/images/country-flags';
 $country-flag-size:          25px;
+
+//=== WKND Item Styles (Up Next, CF elements)
+$list-item-height: 120px;
+$list-item-border: 5px solid $brand-third;
+
+$button-size: 48px;

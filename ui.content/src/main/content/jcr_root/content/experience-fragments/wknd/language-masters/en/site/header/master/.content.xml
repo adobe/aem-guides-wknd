@@ -32,11 +32,11 @@
                     <cq:responsive jcr:primaryType="nt:unstructured"/>
                     <sign-in-buttons
                         jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/content/sign-in-buttons"
                         signInLabel="Sign In"
                         signInXfPath="/content/experience-fragments/wknd/language-masters/en/site/sign-in/master"
                         signOutLabel="Sign Out"
-                        signOutXfPath="/content/experience-fragments/wknd/language-masters/en/site/sign-out/master"
-                        sling:resourceType="wknd/components/content/sign-in-buttons">
+                        signOutXfPath="/content/experience-fragments/wknd/language-masters/en/site/sign-out/master">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
                                 jcr:primaryType="nt:unstructured"

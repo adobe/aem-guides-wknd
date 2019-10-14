@@ -18,26 +18,35 @@
 
 .cmp-text--quote {
 
-      background-color: $brand-secondary;
-      padding: 1em 3em;
+      background-color: $brand-third;
       margin: 1em 0em;
+
+      .cmp-text {
+            padding: 1em;
+      }
 
       blockquote {
             margin: 0;
-            font-size: 36px;
+            font-size: $font-size-h2;
+            font-family: $font-family-serif;
             border: none;
-            padding: 14px 0px;
+            padding: 14px 14px;
+            margin-bottom: 0.5em;
+
+            &:after {
+                  border-bottom: 2px solid $brand-primary;
+                  content: '';
+                  display: block;
+                  width: 80px;
+                  position: relative;
+                  top: 0.25em;
+            }
       }
 
       u {
             text-decoration: none;
             font-family: $font-family-sans-serif;
 
-            &:before {
-                  border-top: 2px solid $brand-primary;
-                  content: '';
-                  display: block;
-                  width: 80px;
-            }
+           
       }
 }

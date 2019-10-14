@@ -32,12 +32,16 @@
 
         .cmp-list__item-link {
             font-weight: normal;
-            height: 120px;
-            border-left: 6px solid $brand-secondary;
+            height: $list-item-height;
+            border-left: $list-item-border;
 
             &:hover {
                 background: $brand-primary;
                 border-color: $text-color;
+
+                .cmp-list__item-title {
+                    text-decoration: none;
+                }
             }
 
         }
@@ -50,7 +54,7 @@
         }
 
         .cmp-list__item-date {
-            color: $gray-dark;
+            color: $gray;
             font-size: $font-size-xsmall;
             padding: 5px;
             text-transform: uppercase;

@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-10-02T13:03:57.210-07:00"
+        cq:lastModified="{Date}2019-10-13T19:08:42.752-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
         jcr:primaryType="cq:PageContent"
@@ -43,12 +43,12 @@
                     cq:styleIds="[1569449252745]"
                     jcr:created="{Date}2019-09-25T15:03:01.614-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-10-01T18:10:39.639-07:00"
+                    jcr:lastModified="{Date}2019-10-13T19:08:31.588-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="By Jacob Wester"
                     sling:resourceType="wknd/components/content/title"
-                    type="h2"/>
+                    type="h4"/>
                 <responsivegrid
                     jcr:created="{Date}2019-04-03T18:31:10.416-07:00"
                     jcr:createdBy="admin"
@@ -170,12 +170,12 @@
                         cq:styleIds="[1569449156797,1568996420379,1569448853340]"
                         jcr:created="{Date}2019-09-25T15:04:58.771-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-09-25T15:05:19.676-07:00"
+                        jcr:lastModified="{Date}2019-10-13T19:08:37.935-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="SHARE THIS STORY"
                         sling:resourceType="wknd/components/content/title"
-                        type="h6"/>
+                        type="h5"/>
                     <sharing
                         jcr:created="{Date}2019-09-25T15:04:53.325-07:00"
                         jcr:createdBy="admin"
@@ -187,12 +187,12 @@
                         cq:styleIds="[1569449156797,1568996420379,1569448853340]"
                         jcr:created="{Date}2019-09-25T15:04:58.771-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-01T20:58:10.248-07:00"
+                        jcr:lastModified="{Date}2019-10-13T19:08:42.749-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="UP NEXT"
                         sling:resourceType="wknd/components/content/title"
-                        type="h6"/>
+                        type="h5"/>
                     <list
                         cq:styleIds="[1554340350631]"
                         jcr:created="{Date}2019-04-03T18:35:24.854-07:00"

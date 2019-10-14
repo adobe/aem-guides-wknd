@@ -20,7 +20,7 @@
 .cmp-navigation--footer {
 
     .cmp-navigation__item-link {
-        color: $gray-lighter;
+        color: $nav-link-inverse;
 
         &:hover,
         &:focus {
@@ -32,6 +32,7 @@
     .cmp-navigation__item--level-1.cmp-navigation__item--active .cmp-navigation__item-link {
         background-color: unset;
         text-decoration: underline;
+        color: $gray-lighter;
     }
 
     /* Tablet width */

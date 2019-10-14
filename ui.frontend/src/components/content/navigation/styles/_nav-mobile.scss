@@ -95,7 +95,7 @@ $nav-item-mobile-border : solid 1px rgba(255, 255, 255, 0.05);
         transition: transform 0.5s ease;
         display: block;
         height: 44px;
-        left: $gutter-padding;
+        left: 10px;
         position: fixed;
         top: $utility-nav-height + $gutter-padding;
         width: 40px;
@@ -106,15 +106,18 @@ $nav-item-mobile-border : solid 1px rgba(255, 255, 255, 0.05);
 
 
     #toggleNav .toggle {
-        width: 80px;
-        height: 60px;
-        font-size: 40px;
         color: $text-color;
 
         &:hover {
             text-decoration: none;
             color: $text-color;
         }
+
+        .wkndicon-menu {
+            font-size: 1.75rem;
+            padding: 0.5rem;
+            float: left;
+    }
 
     }
 
@@ -160,11 +163,6 @@ $nav-item-mobile-border : solid 1px rgba(255, 255, 255, 0.05);
             -webkit-transform: translateX(275px);
             -ms-transform: translateX(275px);
             transform: translateX(275px);
-
-            .wkndicon-ico-bm {
-                background: $gray-lighter;
-            }
-            
         }
 
         #mobileNav {
@@ -174,5 +172,13 @@ $nav-item-mobile-border : solid 1px rgba(255, 255, 255, 0.05);
             transform: translateX(0);
         }
 
+    }
+
+    body.navPanel-visible.scrolly {
+        .wkndicon-menu {
+            background: rgba(68, 68, 68, 0.75);
+            color: $white;
+            border: 1px solid $gray;
+        }
     }
 }

@@ -8,6 +8,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Sign In (Modal)"
+        jcr:uuid="f59734c1-f6b3-4bc6-9d6e-db061746fea4"
         sling:resourceType="wknd/components/structure/xfpage">
         <root
             cq:styleIds="[1569614530122]"
