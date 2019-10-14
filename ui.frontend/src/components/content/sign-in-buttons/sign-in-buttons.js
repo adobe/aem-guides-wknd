@@ -8,8 +8,8 @@ jQuery(function($) {
             signIn = $('[href="#sign-in"]'),
             signOut = $('[href="#sign-out"]');
 
-        $.get(currentUserUrl + "?_ck=" + new Date().getTime(), function(data) {
-            const anonymous = 'anonymous' === data;
+        $.getJSON(currentUserUrl + "?nocache=" + new Date().getTime(), function(currentUser) {
+            const anonymous = 'anonymous' === currentUser.authorizableId;
 
             signIn.toggle(anonymous);
             signOut.toggle(!anonymous);

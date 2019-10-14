@@ -19,7 +19,7 @@
 <div data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"
      data-sly-test.hasContent="${properties.signInLabel != '' && properties.signInXfPath != '' && properties.signOutLabel != '' && properties.signOutXfPath != '' }"
      class="wknd-sign-in-buttons"
-     data-current-user-url="${resource.path @ selectors='current-user', extension = 'html'}">
+     data-current-user-url="/libs/granite/security/currentuser.json">
 
     <a href="#sign-in"
        class="wknd-sign-in-buttons__button wknd-sign-in-buttons__button--sign-in"
