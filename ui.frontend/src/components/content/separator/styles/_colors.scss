@@ -1,0 +1,21 @@
+.cmp-separator--light {
+
+    .cmp-separator__horizontal-rule {
+        color: $gray-lighter;
+    }
+
+}
+
+.cmp-separator--dark {
+
+    .cmp-separator__horizontal-rule {
+        color: $gray;
+    }
+
+}
+
+.cmp-separator--hidden {
+    .cmp-separator__horizontal-rule {
+        border: none;
+    }
+}

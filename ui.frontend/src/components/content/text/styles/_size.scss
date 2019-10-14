@@ -1,0 +1,23 @@
+.cmp-text--font-xsmall {
+    p {
+        font-size: $font-size-xsmall;
+    }
+}
+
+.cmp-text--font-small {
+    p {
+        font-size: $font-size-small;
+    }
+}
+
+.cmp-text--font-default {
+    p {
+        font-size: $font-size-base;
+    }
+}
+
+.cmp-text--font-large {
+    p {
+        font-size: $font-size-large;
+    }
+}
