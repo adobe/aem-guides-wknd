@@ -7,8 +7,10 @@ import '../.storybook/story-styles.css';
 
 
 storiesOf('Carousel', module)
-  .add('Default', () => new Carousel("default").markup)
-  .add('Hero', () => new Carousel("cmp-carousel--hero").markup)
+  .add('Default', () => new Carousel("default").teaserMarkup)
+  .add('Hero', () => new Carousel("cmp-carousel--hero").teaserMarkup)
+  .add('Mini Image', () => new Carousel("cmp-carousel--mini").imageMarkup)
+  .add('Mini Teaser', () => new Carousel("cmp-carousel--mini").teaserMarkup);
 
 
 
@@ -17,7 +19,7 @@ storiesOf('Carousel', module)
           this.styleClass = styleClass;
       }
 
-      get markup() {
+      get teaserMarkup() {
           return '<div class=\'' + this.styleClass + '\' >'+
           '<div class=\'cmp-carousel\' role=\'group\' aria-roledescription=\'carousel\' data-cmp-delay=\'5000\'>'+
           '<div class=\'cmp-carousel__content\'>'+
@@ -79,5 +81,33 @@ storiesOf('Carousel', module)
           '</div>'+
           '</div>'+
           '</div>';
+      }
+
+      get imageMarkup() {
+        return '<div class="carousel ' + this.styleClass + ' aem-GridColumn aem-GridColumn--default--12">'+
+        '<div class="cmp-carousel" role="group" aria-roledescription="carousel" data-cmp-is="carousel" data-cmp-delay="5000">'+
+        '<div class="cmp-carousel__content">'+
+        '<div class="cmp-carousel__item cmp-carousel__item--active" role="tabpanel" aria-label="Slide 1 of 1" data-cmp-hook-carousel="item"><div class="image">'+
+        '<div data-cmp-is="image" data-cmp-lazy data-cmp-src="/content/wknd/language-masters/en/about-us/_jcr_content/root/responsivegrid/carousel/image.coreimg.100{.width}.jpeg/1571095595129/surfer-wave-02.jpeg" data-cmp-widths="300,400,500,600,700,800,900,1000,1280,1600" data-asset="/content/dam/wknd/en/magazine/arctic-surfing/surfer-wave-02.JPG" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">'+
+        '<img src="https://www.fillmurray.com/1280/900" class="cmp-image__image" itemprop="contentUrl" data-cmp-hook-image="image" alt="Aerial photo of mountain range" title="Aerial photo of mountain range"></img>'+
+        '</div>'+
+        '</div>'+
+        '</div>'+
+        '<div class="cmp-carousel__actions">'+
+        '<button class="cmp-carousel__action cmp-carousel__action--previous" role="button" aria-label="Previous" data-cmp-hook-carousel="previous">'+
+        '<span class="cmp-carousel__action-icon"></span>'+
+        '<span class="cmp-carousel__action-text">Previous</span>'+
+        '</button>'+
+        '<button class="cmp-carousel__action cmp-carousel__action--next" role="button" aria-label="Next" data-cmp-hook-carousel="next">'+
+        '<span class="cmp-carousel__action-icon"></span>'+
+        '<span class="cmp-carousel__action-text">Next</span>'+
+        '</button>'+
+        '</div>'+
+        '<ol class="cmp-carousel__indicators" role="tablist" aria-label="Choose a slide to display" data-cmp-hook-carousel="indicators">'+
+        '<li class="cmp-carousel__indicator cmp-carousel__indicator--active" role="tab" aria-label="Slide 1" data-cmp-hook-carousel="indicator"></li>'+
+        '</ol>'+
+        '</div>'+
+        '</div>'+
+        '</div>';
       }
   }
