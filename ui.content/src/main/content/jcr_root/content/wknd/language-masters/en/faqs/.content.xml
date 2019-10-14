@@ -2,9 +2,9 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-09-26T07:34:24.420-07:00"
+        cq:lastModified="{Date}2019-10-14T14:19:29.043-07:00"
         cq:lastModifiedBy="admin"
-        cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
+        cq:template="/conf/wknd/settings/wcm/templates/content-page-template"
         jcr:primaryType="cq:PageContent"
         jcr:title="FAQs"
         sling:resourceType="wknd/components/structure/page">
@@ -12,88 +12,233 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
             <responsivegrid
-                cq:styleIds="[1554340406437]"
-                jcr:created="{Date}2019-03-19T13:19:35.891-07:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2019-04-03T18:28:52.706-07:00"
+                jcr:lastModified="{Date}2019-10-14T09:15:16.863-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
-                <image
-                    jcr:created="{Date}2019-04-03T18:29:05.193-07:00"
+                <responsivegrid_2048869544
+                    cq:styleIds="[1554340406437]"
+                    jcr:created="{Date}2019-10-14T10:15:52.656-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-04-03T18:29:08.791-07:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/content/image"/>
-                <title
-                    cq:styleIds="[1554340254365]"
-                    jcr:created="{Date}2019-04-03T18:30:45.362-07:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-09-25T15:11:06.514-07:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    jcr:title="Article Title"
-                    sling:resourceType="wknd/components/content/title"
-                    type="h1"/>
-                <title_1878931237
-                    cq:styleIds="[1569449252745]"
-                    jcr:created="{Date}2019-09-25T15:03:01.614-07:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-09-25T15:11:09.677-07:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    jcr:title="By Author Name"
-                    sling:resourceType="wknd/components/content/title"
-                    type="h2"/>
-                <responsivegrid
-                    jcr:created="{Date}2019-04-03T18:31:10.416-07:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-04-03T18:31:17.935-07:00"
+                    jcr:lastModified="{Date}2019-10-14T10:15:52.656-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
-                    <contentfragment
-                        jcr:created="{Date}2019-04-03T18:35:18.394-07:00"
+                    <cq:responsive jcr:primaryType="nt:unstructured"/>
+                    <responsivegrid
+                        jcr:created="{Date}2019-10-14T10:19:24.180-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-04-03T18:35:18.394-07:00"
+                        jcr:lastModified="{Date}2019-10-14T10:19:24.180-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/contentfragment"
-                        text=""/>
-                </responsivegrid>
-                <responsivegrid_223059690
-                    jcr:created="{Date}2019-04-03T18:32:31.547-07:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-04-03T18:32:34.502-07:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/foundation/components/responsivegrid">
-                    <title
-                        cq:styleIds="[1569449156797,1568996420379,1569448853340]"
-                        jcr:created="{Date}2019-09-25T15:04:58.771-07:00"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="8"/>
+                            <tablet
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
+                        </cq:responsive>
+                        <title
+                            cq:styleIds="[1568996484405]"
+                            jcr:created="{Date}2019-10-14T09:28:37.553-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-10-14T09:28:37.553-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wknd/components/content/title">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="12"/>
+                            </cq:responsive>
+                        </title>
+                        <text
+                            jcr:created="{Date}2019-10-14T09:28:54.146-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-10-14T09:29:25.270-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wknd/components/content/text"
+                            text="&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer euismod odio non leo pretium pellentesque. Curabitur blandit urna cursus, malesuada erat ut, egestas odio. Quisque suscipit, urna ac vulputate sollicitudin, mi urna elementum augue, id tristique arcu erat non enim.&lt;/p>&#xd;&#xa;"
+                            textIsRich="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="12"/>
+                            </cq:responsive>
+                        </text>
+                        <accordion
+                            jcr:created="{Date}2019-10-14T09:29:31.848-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-10-14T10:14:42.016-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wknd/components/content/accordion"
+                            headingElement="h3"
+                            singleExpansion="false">
+                            <item_1571070731882
+                                cq:panelTitle="Is this a real company?"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/foundation/components/responsivegrid">
+                                <text
+                                    jcr:created="{Date}2019-10-14T09:32:49.895-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-14T09:51:05.816-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/text"
+                                    text="&lt;p>No. The WKND is a fictional online magazine and adventure company that focuses on outdoor activities and trips across the globe. The WKND site is designed to demonstrate functionality for Adobe Experience Manager. There is also a corresponding tutorial that walks a developer through the development.&amp;nbsp; Special thanks to&amp;nbsp;&lt;b>Lorenzo Buosi &lt;/b>and&lt;b> Kilian Amendola &lt;/b>who&amp;nbsp;created the beautiful design for the WKND site.&lt;/p>&#xd;&#xa;"
+                                    textIsRich="true"/>
+                                <image
+                                    jcr:created="{Date}2019-10-14T10:13:36.773-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-14T10:14:06.508-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/image"
+                                    fileReference="/content/dam/wknd/en/magazine/la-skateparks/skateboard-hero.jpg"
+                                    imageCrop="0,323,1277,749"/>
+                            </item_1571070731882>
+                            <item_1
+                                cq:panelTitle="What is lorem ipsum?"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Item 1"
+                                sling:resourceType="wcm/foundation/components/responsivegrid">
+                                <text
+                                    jcr:created="{Date}2019-10-14T09:51:23.154-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-14T10:11:29.568-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/text"
+                                    text="&lt;p>&lt;b>Lorem Ipsum&lt;/b>&amp;nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>&#xd;&#xa;"
+                                    textIsRich="true"/>
+                            </item_1>
+                            <item_2
+                                cq:panelTitle="Why do we use it?"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Item 2"
+                                sling:resourceType="wcm/foundation/components/responsivegrid">
+                                <text
+                                    jcr:created="{Date}2019-10-14T10:12:29.401-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-14T10:12:39.242-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/text"
+                                    text="&lt;p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&lt;/p>&#xd;&#xa;"
+                                    textIsRich="true"/>
+                            </item_2>
+                            <item_1571070705187
+                                cq:panelTitle="Where does it come from?"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/foundation/components/responsivegrid">
+                                <text
+                                    jcr:created="{Date}2019-10-14T10:12:54.254-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-14T10:12:59.338-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/text"
+                                    text="&lt;p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &amp;quot;de Finibus Bonorum et Malorum&amp;quot; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &amp;quot;Lorem ipsum dolor sit amet..&amp;quot;, comes from a line in section 1.10.32.&lt;/p>&#xd;&#xa;&lt;p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from &amp;quot;de Finibus Bonorum et Malorum&amp;quot; by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.&lt;/p>&#xd;&#xa;"
+                                    textIsRich="true"/>
+                            </item_1571070705187>
+                            <item_1571070718887
+                                cq:panelTitle="Where can I get some samples?"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/foundation/components/responsivegrid">
+                                <text
+                                    jcr:created="{Date}2019-10-14T10:13:09.156-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-14T10:13:23.252-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/text"
+                                    text="&lt;p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.&lt;/p>&#xd;&#xa;"
+                                    textIsRich="true"/>
+                            </item_1571070718887>
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="12"/>
+                            </cq:responsive>
+                        </accordion>
+                    </responsivegrid>
+                    <responsivegrid_293505757
+                        jcr:created="{Date}2019-10-14T10:20:06.270-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-09-25T15:05:19.676-07:00"
+                        jcr:lastModified="{Date}2019-10-14T10:20:06.270-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="SHARE THIS STORY"
-                        sling:resourceType="wknd/components/content/title"
-                        type="h6"/>
-                    <sharing
-                        jcr:created="{Date}2019-09-25T15:04:53.325-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-09-25T15:04:53.325-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/sharing"/>
-                    <list
-                        jcr:created="{Date}2019-04-03T18:35:24.854-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-04-03T18:35:24.854-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/list"/>
-                </responsivegrid_223059690>
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="3"/>
+                            <tablet
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
+                        </cq:responsive>
+                        <separator
+                            cq:styleIds="[1571075919520,1571075910473]"
+                            jcr:created="{Date}2019-10-14T13:49:29.760-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-10-14T13:49:29.760-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wknd/components/content/separator"/>
+                        <title
+                            jcr:created="{Date}2019-10-14T10:21:03.118-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-10-14T10:21:13.842-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Need more help?"
+                            sling:resourceType="wknd/components/content/title"
+                            type="h3">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="12"/>
+                            </cq:responsive>
+                        </title>
+                        <text
+                            cq:styleIds="[1571074070335]"
+                            jcr:created="{Date}2019-10-14T10:21:26.357-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-10-14T10:31:09.107-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wknd/components/content/text"
+                            text="&lt;p style=&quot;text-align: left;&quot;>Give us a call at &lt;a href=&quot;#&quot;>1-800-800-0000&lt;/a>.&lt;br>&#xd;&#xa;E-mail us at info&lt;a href=&quot;#&quot;>@wknd.com&lt;/a>&lt;br>&#xd;&#xa;We love to talk adventures!&lt;/p>&#xd;&#xa;"
+                            textIsRich="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="12"/>
+                            </cq:responsive>
+                        </text>
+                    </responsivegrid_293505757>
+                </responsivegrid_2048869544>
             </responsivegrid>
         </root>
     </jcr:content>
