@@ -2,9 +2,9 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-10-02T14:57:09.030-07:00"
+        cq:lastModified="{Date}2019-10-13T19:09:31.729-07:00"
         cq:lastModifiedBy="admin"
-        cq:lastRolledout="{Date}2019-10-02T14:57:09.033-07:00"
+        cq:lastRolledout="{Date}2019-10-13T19:09:31.731-07:00"
         cq:lastRolledoutBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
         jcr:mixinTypes="[cq:LiveRelationship]"
@@ -13,28 +13,28 @@
         sling:resourceType="wknd/components/structure/page"
         socialMedia="[facebook,pinterest]">
         <root
-            cq:lastRolledout="{Date}2019-10-02T14:57:08.932-07:00"
+            cq:lastRolledout="{Date}2019-10-13T19:09:31.657-07:00"
             cq:lastRolledoutBy="admin"
             jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
             <responsivegrid
-                cq:lastRolledout="{Date}2019-10-02T14:57:08.938-07:00"
+                cq:lastRolledout="{Date}2019-10-13T19:09:31.660-07:00"
                 cq:lastRolledoutBy="admin"
                 cq:styleIds="[1554340406437]"
                 jcr:created="{Date}2019-03-19T13:19:35.891-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2019-10-02T14:57:08.934-07:00"
+                jcr:lastModified="{Date}2019-10-13T19:09:31.658-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
                 <image
-                    cq:lastRolledout="{Date}2019-10-02T14:57:08.945-07:00"
+                    cq:lastRolledout="{Date}2019-10-13T19:09:31.665-07:00"
                     cq:lastRolledoutBy="admin"
                     jcr:created="{Date}2019-04-03T18:29:05.193-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-10-02T14:57:08.942-07:00"
+                    jcr:lastModified="{Date}2019-10-13T19:09:31.663-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
@@ -42,12 +42,12 @@
                     fileReference="/content/dam/wknd/en/magazine/arctic-surfing/surfer-back-from-the-ocean.JPG"
                     imageCrop="14,45,1256,813"/>
                 <title
-                    cq:lastRolledout="{Date}2019-10-02T14:57:08.949-07:00"
+                    cq:lastRolledout="{Date}2019-10-13T19:09:31.668-07:00"
                     cq:lastRolledoutBy="admin"
                     cq:styleIds="[1554340254365]"
                     jcr:created="{Date}2019-04-03T18:30:45.362-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-10-02T14:57:08.946-07:00"
+                    jcr:lastModified="{Date}2019-10-13T19:09:31.666-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
@@ -55,34 +55,34 @@
                     sling:resourceType="wknd/components/content/title"
                     type="h1"/>
                 <title_1878931237
-                    cq:lastRolledout="{Date}2019-10-02T14:57:08.953-07:00"
+                    cq:lastRolledout="{Date}2019-10-13T19:09:31.671-07:00"
                     cq:lastRolledoutBy="admin"
                     cq:styleIds="[1569449252745]"
                     jcr:created="{Date}2019-09-25T15:03:01.614-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-10-02T14:57:08.950-07:00"
+                    jcr:lastModified="{Date}2019-10-13T19:09:31.669-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="By Jacob Wester"
                     sling:resourceType="wknd/components/content/title"
-                    type="h2"/>
+                    type="h4"/>
                 <responsivegrid
-                    cq:lastRolledout="{Date}2019-10-02T14:57:08.957-07:00"
+                    cq:lastRolledout="{Date}2019-10-13T19:09:31.673-07:00"
                     cq:lastRolledoutBy="admin"
                     jcr:created="{Date}2019-04-03T18:31:10.416-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-10-02T14:57:08.954-07:00"
+                    jcr:lastModified="{Date}2019-10-13T19:09:31.672-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
                     <contentfragment
-                        cq:lastRolledout="{Date}2019-10-02T14:57:08.965-07:00"
+                        cq:lastRolledout="{Date}2019-10-13T19:09:31.678-07:00"
                         cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2019-04-03T18:35:18.394-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-02T14:57:08.960-07:00"
+                        jcr:lastModified="{Date}2019-10-13T19:09:31.676-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
@@ -94,18 +94,18 @@
                         text=""
                         variationName="master">
                         <par1
-                            cq:lastRolledout="{Date}2019-10-02T14:57:08.968-07:00"
+                            cq:lastRolledout="{Date}2019-10-13T19:09:31.681-07:00"
                             cq:lastRolledoutBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/components/grid">
                             <text
-                                cq:lastRolledout="{Date}2019-10-02T14:57:08.974-07:00"
+                                cq:lastRolledout="{Date}2019-10-13T19:09:31.686-07:00"
                                 cq:lastRolledoutBy="admin"
                                 cq:styleIds="[1554340301154]"
                                 jcr:created="{Date}2019-10-01T18:15:26.950-07:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-10-02T14:57:08.971-07:00"
+                                jcr:lastModified="{Date}2019-10-13T19:09:31.684-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
@@ -113,23 +113,23 @@
                                 text="&lt;blockquote>&amp;quot;When rare sunrays pierce through the low clouds, the scenery revelas its vibrancy&amp;quot;&lt;/blockquote>&#xd;&#xa;"
                                 textIsRich="true"/>
                             <image
-                                cq:lastRolledout="{Date}2019-10-02T14:57:08.978-07:00"
+                                cq:lastRolledout="{Date}2019-10-13T19:09:31.689-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:created="{Date}2019-10-01T18:11:07.534-07:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-10-02T14:57:08.976-07:00"
+                                jcr:lastModified="{Date}2019-10-13T19:09:31.687-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wknd/components/content/image"
                                 fileReference="/content/dam/wknd/en/magazine/arctic-surfing/surfer-wave-02.JPG"/>
                             <title_copy
-                                cq:lastRolledout="{Date}2019-10-02T14:57:08.982-07:00"
+                                cq:lastRolledout="{Date}2019-10-13T19:09:31.692-07:00"
                                 cq:lastRolledoutBy="admin"
                                 cq:styleIds="[1568996484405]"
                                 jcr:created="{Date}2019-10-01T18:16:10.264-07:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-10-02T14:57:08.979-07:00"
+                                jcr:lastModified="{Date}2019-10-13T19:09:31.690-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
@@ -138,18 +138,18 @@
                                 type="h2"/>
                         </par1>
                         <par2
-                            cq:lastRolledout="{Date}2019-10-02T14:57:08.985-07:00"
+                            cq:lastRolledout="{Date}2019-10-13T19:09:31.693-07:00"
                             cq:lastRolledoutBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/components/grid">
                             <title
-                                cq:lastRolledout="{Date}2019-10-02T14:57:08.991-07:00"
+                                cq:lastRolledout="{Date}2019-10-13T19:09:31.697-07:00"
                                 cq:lastRolledoutBy="admin"
                                 cq:styleIds="[1568996484405]"
                                 jcr:created="{Date}2019-10-01T18:16:10.264-07:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-10-02T14:57:08.988-07:00"
+                                jcr:lastModified="{Date}2019-10-13T19:09:31.695-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
@@ -157,11 +157,11 @@
                                 sling:resourceType="wknd/components/content/title"
                                 type="h2"/>
                             <image
-                                cq:lastRolledout="{Date}2019-10-02T14:57:08.995-07:00"
+                                cq:lastRolledout="{Date}2019-10-13T19:09:31.700-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:created="{Date}2019-10-01T18:13:01.696-07:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-10-02T14:57:08.993-07:00"
+                                jcr:lastModified="{Date}2019-10-13T19:09:31.698-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
@@ -169,17 +169,17 @@
                                 fileReference="/content/dam/wknd/en/magazine/arctic-surfing/majestic-rainbow.JPG"/>
                         </par2>
                         <par4
-                            cq:lastRolledout="{Date}2019-10-02T14:57:08.996-07:00"
+                            cq:lastRolledout="{Date}2019-10-13T19:09:31.702-07:00"
                             cq:lastRolledoutBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/components/grid">
                             <image
-                                cq:lastRolledout="{Date}2019-10-02T14:57:09.001-07:00"
+                                cq:lastRolledout="{Date}2019-10-13T19:09:31.705-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:created="{Date}2019-10-01T18:13:24.339-07:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-10-02T14:57:08.998-07:00"
+                                jcr:lastModified="{Date}2019-10-13T19:09:31.703-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
@@ -187,18 +187,18 @@
                                 fileReference="/content/dam/wknd/en/magazine/arctic-surfing/northern-lights.JPG"/>
                         </par4>
                         <par3
-                            cq:lastRolledout="{Date}2019-10-02T14:57:09.003-07:00"
+                            cq:lastRolledout="{Date}2019-10-13T19:09:31.706-07:00"
                             cq:lastRolledoutBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/components/grid">
                             <title
-                                cq:lastRolledout="{Date}2019-10-02T14:57:09.007-07:00"
+                                cq:lastRolledout="{Date}2019-10-13T19:09:31.710-07:00"
                                 cq:lastRolledoutBy="admin"
                                 cq:styleIds="[1568996484405]"
                                 jcr:created="{Date}2019-10-01T18:17:25.955-07:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-10-02T14:57:09.005-07:00"
+                                jcr:lastModified="{Date}2019-10-13T19:09:31.708-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
@@ -208,11 +208,11 @@
                         </par3>
                     </contentfragment>
                     <experiencefragment
-                        cq:lastRolledout="{Date}2019-10-02T14:57:09.010-07:00"
+                        cq:lastRolledout="{Date}2019-10-13T19:09:31.713-07:00"
                         cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2019-10-02T13:03:29.730-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-02T14:57:09.008-07:00"
+                        jcr:lastModified="{Date}2019-10-13T19:09:31.711-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
@@ -220,58 +220,58 @@
                         fragmentVariationPath="/content/experience-fragments/wknd/language-masters/en/contributors/jacob-wester/byline"/>
                 </responsivegrid>
                 <responsivegrid_223059690
-                    cq:lastRolledout="{Date}2019-10-02T14:57:09.014-07:00"
+                    cq:lastRolledout="{Date}2019-10-13T19:09:31.715-07:00"
                     cq:lastRolledoutBy="admin"
                     jcr:created="{Date}2019-04-03T18:32:31.547-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-10-02T14:57:09.011-07:00"
+                    jcr:lastModified="{Date}2019-10-13T19:09:31.714-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
                     <title
-                        cq:lastRolledout="{Date}2019-10-02T14:57:09.019-07:00"
+                        cq:lastRolledout="{Date}2019-10-13T19:09:31.720-07:00"
                         cq:lastRolledoutBy="admin"
                         cq:styleIds="[1569449156797,1568996420379,1569448853340]"
                         jcr:created="{Date}2019-09-25T15:04:58.771-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-02T14:57:09.016-07:00"
+                        jcr:lastModified="{Date}2019-10-13T19:09:31.718-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="SHARE THIS STORY"
                         sling:resourceType="wknd/components/content/title"
-                        type="h6"/>
+                        type="h5"/>
                     <sharing
-                        cq:lastRolledout="{Date}2019-10-02T14:57:09.022-07:00"
+                        cq:lastRolledout="{Date}2019-10-13T19:09:31.722-07:00"
                         cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2019-09-25T15:04:53.325-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-02T14:57:09.020-07:00"
+                        jcr:lastModified="{Date}2019-10-13T19:09:31.721-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/content/sharing"/>
                     <title_copy
-                        cq:lastRolledout="{Date}2019-10-02T14:57:09.026-07:00"
+                        cq:lastRolledout="{Date}2019-10-13T19:09:31.725-07:00"
                         cq:lastRolledoutBy="admin"
                         cq:styleIds="[1569449156797,1568996420379,1569448853340]"
                         jcr:created="{Date}2019-09-25T15:04:58.771-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-02T14:57:09.023-07:00"
+                        jcr:lastModified="{Date}2019-10-13T19:09:31.724-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="UP NEXT"
                         sling:resourceType="wknd/components/content/title"
-                        type="h6"/>
+                        type="h5"/>
                     <list
-                        cq:lastRolledout="{Date}2019-10-02T14:57:09.033-07:00"
+                        cq:lastRolledout="{Date}2019-10-13T19:09:31.731-07:00"
                         cq:lastRolledoutBy="admin"
                         cq:styleIds="[1554340350631]"
                         jcr:created="{Date}2019-04-03T18:35:24.854-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-02T14:57:09.028-07:00"
+                        jcr:lastModified="{Date}2019-10-13T19:09:31.727-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"

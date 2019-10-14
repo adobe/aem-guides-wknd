@@ -8,6 +8,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Sign Out (Modal)"
+        jcr:uuid="8e96567f-ac03-465a-bc6c-194a0ee39b23"
         sling:resourceType="wknd/components/structure/xfpage">
         <root
             cq:styleIds="[1569614530122]"
@@ -33,8 +34,8 @@
                     text="&lt;p>There's a bunch of great content only available to signed in users you'll miss out on!&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
                     textIsRich="true"/>
                 <separator
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/separator"/>
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/separator"/>
                 <sign_in_form
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/content/sign-in-form"
