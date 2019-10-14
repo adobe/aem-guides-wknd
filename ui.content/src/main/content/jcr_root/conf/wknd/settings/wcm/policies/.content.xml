@@ -79,12 +79,12 @@
                     </policy_213106331986985>
                     <policy_178507300498125
                         cq:styleDefaultClasses="cmp-layoutcontainer--sidebar"
-                        jcr:lastModified="{Date}2019-09-25T20:34:19.873-07:00"
+                        jcr:lastModified="{Date}2019-10-14T15:15:57.378-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Article Sidebar"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/apps/wknd/components/content/button,/apps/wknd/components/content/image,/apps/wknd/components/content/list,/apps/wknd/components/content/sharing,/apps/wknd/components/content/text,/apps/wknd/components/content/title]">
+                        components="[/apps/wknd/components/content/button,/apps/wknd/components/content/download,/apps/wknd/components/content/image,/apps/wknd/components/content/list,/apps/wknd/components/content/separator,/apps/wknd/components/content/sharing,/apps/wknd/components/content/text,/apps/wknd/components/content/title]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_178507300498125>
                     <policy_4792148308882
@@ -1018,7 +1018,7 @@
                 </accordion>
                 <separator jcr:primaryType="nt:unstructured">
                     <policy_1571075710034
-                        jcr:lastModified="{Date}2019-10-14T13:40:00.510-07:00"
+                        jcr:lastModified="{Date}2019-10-14T15:17:33.627-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Separator"
