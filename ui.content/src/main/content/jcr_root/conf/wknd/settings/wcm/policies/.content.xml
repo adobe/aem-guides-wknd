@@ -821,7 +821,7 @@
                 </image>
                 <breadcrumb jcr:primaryType="nt:unstructured">
                     <policy_1554341419430
-                        jcr:lastModified="{Date}2019-10-14T09:26:57.134-07:00"
+                        jcr:lastModified="{Date}2019-10-15T12:06:19.662-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Breadcrumb"
@@ -876,7 +876,7 @@
                 </teaser>
                 <carousel jcr:primaryType="nt:unstructured">
                     <policy_1555540352044
-                        jcr:lastModified="{Date}2019-10-14T13:46:34.520-07:00"
+                        jcr:lastModified="{Date}2019-10-15T12:06:53.236-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Carousel"
@@ -904,7 +904,31 @@
                         </cq:styleGroups>
                     </policy_1555540352044>
                 </carousel>
-                <contentfragment jcr:primaryType="nt:unstructured"/>
+                <contentfragment jcr:primaryType="nt:unstructured">
+                    <policy_1571166588834
+                        jcr:lastModified="{Date}2019-10-15T12:11:49.882-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Content Fragment"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleId="1571166691078"
+                                        cq:styleLabel="Default"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="cmp-contentfragment--elements"
+                                        cq:styleId="1571166694176"
+                                        cq:styleLabel="Elements"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1571166588834>
+                </contentfragment>
                 <button jcr:primaryType="nt:unstructured">
                     <policy_1568591661081
                         jcr:lastModified="{Date}2019-10-14T09:26:49.573-07:00"
