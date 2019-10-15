@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="ffd36424-121e-4116-a56c-bb96f2802347">
+    <jcr:content
+        cq:name="nicaragua-surf-trip"
+        cq:parentPath="/content/dam/wknd/en/adventures/surf-nicaragua"
+        jcr:description=""
+        jcr:lastModified="{Date}2019-10-15T12:02:40.896-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Nicaragua Surf Trip"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2019-10-15T12:02:40.896-07:00">
+        <data
+            cq:model="/conf/wknd/settings/dam/cfm/models/adventure"
+            jcr:primaryType="nt:unstructured">
+            <master
+                cq:tags="[wknd:activity/surfing]"
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                adventureActivity="Surfing"
+                adventureActivity_x0040_LastModified="{Date}2019-10-15T12:02:40.863-07:00"
+                adventureDescription="&lt;h3>3-day surf camp in Nicaragua&lt;br>&#xa;&lt;/h3>&#xa;&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Duis aute irure dolor in reprehenderit&lt;/li>&#xa;&lt;li>Sin voluptate velit esse cillum dolore eu fugiat nulla pariatur&lt;/li>&#xa;&lt;li>Excepteur sint occaecat cupidatat non proident&lt;/li>&#xa;&lt;li>Sunt in culpa qui officia deserunt mollit anim id est laborum&lt;/li>&#xa;&lt;/ul>&#xa;"
+                adventureDescription_x0040_ContentType="text/html"
+                adventureDescription_x0040_LastModified="{Date}2019-10-15T12:02:40.862-07:00"
+                adventureDifficulty="Intermediate"
+                adventureDifficulty_x0040_LastModified="{Date}2019-10-15T12:02:40.864-07:00"
+                adventureGearList="&lt;h3>What to Bring&lt;/h3>&#xa;&lt;p>Ut tellus elementum sagittis vitae et leo. Pellentesque sit amet porttitor eget. Urna duis convallis convallis tellus id interdum. Sit amet volutpat consequat mauris nunc congue nisi vitae. Urna cursus eget nunc scelerisque viverra mauris in. Libero volutpat sed cras ornare arcu dui vivamus.&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;b>Packed by us&lt;/b>&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Surfboards (hard top and foam)&lt;/li>&#xa;&lt;li>&amp;nbsp;Rash guards&lt;/li>&#xa;&lt;li>&amp;nbsp;Surf wax&lt;/li>&#xa;&lt;li>Life Jackets&lt;/li>&#xa;&lt;/ul>&#xa;&lt;div>&lt;b>Packed by you&lt;/b>&lt;/div>&#xa;&lt;ul>&#xa;&lt;li>Wetsuit (recommend 3/2 neoprene)&lt;/li>&#xa;&lt;li>Personal Surfboard (optional)&lt;/li>&#xa;&lt;li>Swim suit&lt;/li>&#xa;&lt;li>Closed-toed hiking shoes&lt;/li>&#xa;&lt;li>Day pack&lt;/li>&#xa;&lt;li>Rain coat&lt;/li>&#xa;&lt;/ul>&#xa;&lt;div>&lt;b>Recommended&lt;/b>&lt;/div>&#xa;&lt;ul>&#xa;&lt;li>Sunscreen&lt;/li>&#xa;&lt;li>Hat&lt;/li>&#xa;&lt;li>Sunglasses&lt;/li>&#xa;&lt;li>Water bottle&lt;/li>&#xa;&lt;li>Sweatshirt&amp;nbsp;&lt;/li>&#xa;&lt;/ul>&#xa;"
+                adventureGearList_x0040_ContentType="text/html"
+                adventureGearList_x0040_LastModified="{Date}2019-10-15T12:02:40.865-07:00"
+                adventureGroupSize="6-8"
+                adventureGroupSize_x0040_LastModified="{Date}2019-10-15T12:02:40.863-07:00"
+                adventureItinerary="&lt;p>&lt;b>Day 1&lt;/b>&lt;/p>&#xa;&lt;h3>Our adventure begins!&lt;/h3>&#xa;&lt;p>In est ante in nibh. Phasellus faucibus scelerisque eleifend donec. Ultricies mi quis hendrerit dolor magna eget. Aliquam id diam maecenas ultricies mi eget mauris pharetra. Ut aliquam purus sit amet luctus venenatis.&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;b>Day 2&lt;/b>&lt;/p>&#xa;&lt;h3>Forrest hike to secluded surf spot&lt;/h3>&#xa;&lt;p>Ut sem viverra aliquet eget sit. Urna et pharetra pharetra massa massa ultricies. Sed blandit libero volutpat sed cras ornare. Nascetur ridiculus mus mauris vitae ultricies leo integer. Nibh mauris cursus mattis molestie a iaculis at erat.&lt;/p>&#xa;&lt;p>&lt;b>Day 3&lt;/b>&lt;/p>&#xa;&lt;h3>Surf at sunset cliffs&lt;/h3>&#xa;&lt;p>Posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Placerat vestibulum lectus mauris ultrices eros in. Eget dolor morbi non arcu. Magna fermentum iaculis eu non diam phasellus vestibulum lorem sed. Vulputate mi sit amet mauris commodo quis.&amp;nbsp;&lt;/p>&#xa;"
+                adventureItinerary_x0040_ContentType="text/html"
+                adventureItinerary_x0040_LastModified="{Date}2019-10-15T12:02:40.865-07:00"
+                adventurePrice="$2400 USD"
+                adventurePrice_x0040_LastModified="{Date}2019-10-15T12:02:40.864-07:00"
+                adventurePrimaryImage="/content/dam/wknd/en/adventures/surf-nicaragua/beach-walking.jpg"
+                adventurePrimaryImage_x0040_LastModified="{Date}2019-10-15T12:02:40.864-07:00"
+                adventureTitle="Surf trip in Nicaragua"
+                adventureTitle_x0040_LastModified="{Date}2019-10-15T12:02:40.862-07:00"
+                adventureTripLength="3 Days"
+                adventureTripLength_x0040_LastModified="{Date}2019-10-15T12:02:40.863-07:00"
+                adventureType="Overnight Trip"
+                adventureType_x0040_LastModified="{Date}2019-10-15T12:02:40.862-07:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
