@@ -1,0 +1,22 @@
+
+$mini-carousel-max-height: 400px;
+
+.cmp-carousel--mini {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+    .cmp-carousel {
+        width: 100%;
+    }
+
+    /* Max height embedded images */
+    .cmp-image {
+
+        .cmp-image__image {
+            min-height: $mini-carousel-max-height;
+            height: $mini-carousel-max-height;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+}

@@ -8,6 +8,10 @@ import '../.storybook/story-styles.css';
 
 storiesOf('Text', module)
     .add('Default', () => '<div style=\'width:50%\'>' + new Text("").markup + '</div>')
+    .add('Size X-Small', () => '<div style=\'width:50%\'>' + new Text("cmp-text--font-xsmall").markup + '</div>')
+    .add('Size Small', () => '<div style=\'width:50%\'>' + new Text("cmp-text--font-small").markup + '</div>')
+    .add('Size Default', () => '<div style=\'width:50%\'>' + new Text("cmp-text--font-base").markup + '</div>')
+    .add('Size Large', () => '<div style=\'width:50%\'>' + new Text("cmp-text--font-large").markup + '</div>')
     .add('Quote', () => '<div style=\'width:50%\'>' + new Text("").quoteBlock + '</div>')
 
 

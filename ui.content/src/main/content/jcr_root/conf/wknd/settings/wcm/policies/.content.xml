@@ -32,7 +32,7 @@
                             mergeList="{Boolean}true"/>
                     </content-default>
                     <policy_213106331986985
-                        jcr:lastModified="{Date}2019-10-02T13:27:05.844-07:00"
+                        jcr:lastModified="{Date}2019-10-14T09:28:14.302-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Content"
@@ -79,12 +79,12 @@
                     </policy_213106331986985>
                     <policy_178507300498125
                         cq:styleDefaultClasses="cmp-layoutcontainer--sidebar"
-                        jcr:lastModified="{Date}2019-09-25T20:34:19.873-07:00"
+                        jcr:lastModified="{Date}2019-10-14T15:15:57.378-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Article Sidebar"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/apps/wknd/components/content/button,/apps/wknd/components/content/image,/apps/wknd/components/content/list,/apps/wknd/components/content/sharing,/apps/wknd/components/content/text,/apps/wknd/components/content/title]">
+                        components="[/apps/wknd/components/content/button,/apps/wknd/components/content/download,/apps/wknd/components/content/image,/apps/wknd/components/content/list,/apps/wknd/components/content/separator,/apps/wknd/components/content/sharing,/apps/wknd/components/content/text,/apps/wknd/components/content/title]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_178507300498125>
                     <policy_4792148308882
@@ -186,7 +186,7 @@
             <content jcr:primaryType="nt:unstructured">
                 <title jcr:primaryType="nt:unstructured">
                     <policy_349626543823562
-                        jcr:lastModified="{Date}2019-10-12T07:09:19.017-07:00"
+                        jcr:lastModified="{Date}2019-10-14T09:20:51.842-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Title - Global Styles"
@@ -468,7 +468,7 @@
                         </cq:styleGroups>
                     </policy_292492673658670>
                     <policy_1570746487640
-                        jcr:lastModified="{Date}2019-10-12T07:09:25.460-07:00"
+                        jcr:lastModified="{Date}2019-10-14T13:39:38.916-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Text - Kitchen Sink"
@@ -584,15 +584,47 @@
                                 features="*"/>
                         </rtePlugins>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
-                            <item0 jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Styles"
+                                jcr:primaryType="nt:unstructured">
                                 <cq:styles jcr:primaryType="nt:unstructured">
                                     <item0
+                                        cq:styleId="1571073973204"
+                                        cq:styleLabel="Default"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
                                         cq:styleClasses="cmp-text--quote"
                                         cq:styleId="1570746601923"
                                         cq:styleLabel="Quote Block"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item0>
+                            <item1
+                                cq:styleGroupLabel="Paragraph Size"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-text--font-xsmall"
+                                        cq:styleId="1571074021746"
+                                        cq:styleLabel="Extra-Small"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="cmp-text--font-small"
+                                        cq:styleId="1571074070335"
+                                        cq:styleLabel="Small"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item2
+                                        cq:styleClasses="cmp-text--font-default"
+                                        cq:styleId="1571085340516"
+                                        cq:styleLabel="Default"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item3
+                                        cq:styleClasses="cmp-text--font-large"
+                                        cq:styleId="1571085385905"
+                                        cq:styleLabel="Large"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item1>
                         </cq:styleGroups>
                     </policy_1570746487640>
                 </text>
@@ -674,10 +706,10 @@
                         </plugins>
                     </policy_1554341366929>
                     <policy_1568423036289
-                        jcr:lastModified="{Date}2019-10-12T08:40:39.287-07:00"
+                        jcr:lastModified="{Date}2019-10-14T09:25:07.934-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="WKND Image - Landing"
+                        jcr:title="WKND Image"
                         sling:resourceType="wcm/core/components/policy/policy"
                         allowedRenditionWidths="[300,400,500,600,700,800,900,1000,1280,1600]"
                         allowUpload="true"
@@ -789,7 +821,7 @@
                 </image>
                 <breadcrumb jcr:primaryType="nt:unstructured">
                     <policy_1554341419430
-                        jcr:lastModified="{Date}2019-10-12T07:20:38.644-07:00"
+                        jcr:lastModified="{Date}2019-10-15T12:06:19.662-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Breadcrumb"
@@ -818,7 +850,7 @@
                 <byline jcr:primaryType="nt:unstructured"/>
                 <teaser jcr:primaryType="nt:unstructured">
                     <policy_1555539430196
-                        jcr:lastModified="{Date}2019-10-12T07:09:30.479-07:00"
+                        jcr:lastModified="{Date}2019-10-14T13:39:55.592-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Teaser"
@@ -844,7 +876,7 @@
                 </teaser>
                 <carousel jcr:primaryType="nt:unstructured">
                     <policy_1555540352044
-                        jcr:lastModified="{Date}2019-10-12T07:19:01.240-07:00"
+                        jcr:lastModified="{Date}2019-10-15T12:06:53.236-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Carousel"
@@ -872,10 +904,34 @@
                         </cq:styleGroups>
                     </policy_1555540352044>
                 </carousel>
-                <contentfragment jcr:primaryType="nt:unstructured"/>
+                <contentfragment jcr:primaryType="nt:unstructured">
+                    <policy_1571166588834
+                        jcr:lastModified="{Date}2019-10-15T12:11:49.882-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Content Fragment"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleId="1571166691078"
+                                        cq:styleLabel="Default"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="cmp-contentfragment--elements"
+                                        cq:styleId="1571166694176"
+                                        cq:styleLabel="Elements"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1571166588834>
+                </contentfragment>
                 <button jcr:primaryType="nt:unstructured">
                     <policy_1568591661081
-                        jcr:lastModified="{Date}2019-10-12T07:10:17.924-07:00"
+                        jcr:lastModified="{Date}2019-10-14T09:26:49.573-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Button"
@@ -971,6 +1027,73 @@
                         </cq:styleGroups>
                     </policy_1568592468447>
                 </experiencefragment>
+                <accordion jcr:primaryType="nt:unstructured">
+                    <policy_1571070092603
+                        jcr:lastModified="{Date}2019-10-14T13:46:04.358-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Accordion"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        allowedHeadingElements="h3"
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/wknd/components/content/button,/apps/wknd/components/content/image,/apps/wknd/components/content/text,/apps/wknd/components/content/title]"
+                        headingElement="h3">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1571070092603>
+                </accordion>
+                <separator jcr:primaryType="nt:unstructured">
+                    <policy_1571075710034
+                        jcr:lastModified="{Date}2019-10-14T15:17:33.627-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Separator"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Colors"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-separator--light"
+                                        cq:styleId="1571075856942"
+                                        cq:styleLabel="Light"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="cmp-separator--dark"
+                                        cq:styleId="1571075888147"
+                                        cq:styleLabel="Dark"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item2
+                                        cq:styleClasses="cmp-separator--hidden"
+                                        cq:styleId="1571075919520"
+                                        cq:styleLabel="Hidden"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                            <item1
+                                cq:styleGroupLabel="Spacing"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-separator--space-small"
+                                        cq:styleId="1571075910473"
+                                        cq:styleLabel="Small"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="cmp-separator--space-medium"
+                                        cq:styleId="1571075969668"
+                                        cq:styleLabel="Medium"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item2
+                                        cq:styleClasses="cmp-separator--space-large"
+                                        cq:styleId="1571075976665"
+                                        cq:styleLabel="Large"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item1>
+                        </cq:styleGroups>
+                    </policy_1571075710034>
+                </separator>
             </content>
             <structure jcr:primaryType="nt:unstructured">
                 <navigation jcr:primaryType="nt:unstructured">
