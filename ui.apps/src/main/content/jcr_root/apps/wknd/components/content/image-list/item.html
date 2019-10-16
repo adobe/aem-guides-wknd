@@ -1,0 +1,18 @@
+<template data-sly-template.item="${@ list, item}">
+    <article
+            class="cmp-image-list__item"
+            data-sly-use.image="${'com.adobe.aem.guides.wknd.core.components.ListItemImage'@ path = item.path}">
+
+        <a class="cmp-image-list__item-image-link" href="${item.URL}">
+            <div    class="cmp-image-list__item-image"
+                    data-sly-resource="${image.resource}"></div>
+        </a>
+
+        <a class="cmp-image-list__item-link" href="${item.URL}">
+            <span class="cmp-image-list__item-title">${item.title}</span>
+        </a>
+
+        <span data-sly-test="${list.showDescription}" class="cmp-image-list__item-description">${item.description}</span>
+
+    </article>
+</template>
