@@ -17,15 +17,13 @@
 /* WKND Layout Container - fixed-width.less */
 
 .cmp-layout-container--fixed {
-  display:block;
-  max-width:  $max-width !important;
-  float: unset !important;
-  margin: 0 auto !important;
-  padding: 0 $gutter-padding;
-  clear: both !important; 
-
-  @media (max-width: $screen-medium) {
-    padding: 0 !important;
+  @media (min-width: $screen-medium + 1) {
+    display:block;
+    max-width:  $max-width !important;
+    float: unset !important;
+    margin: 0 auto !important;
+    padding: 0 $gutter-padding;
+    clear: both !important; 
   }
 
 }
