@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-10-02T12:22:42.572-07:00"
+        cq:lastModified="{Date}2019-10-18T13:17:32.756-07:00"
         cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/wknd/settings/wcm/templates/experience-fragment-web-variation-template"
@@ -36,22 +36,67 @@
                 <title
                     jcr:created="{Date}2019-10-02T12:21:16.916-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-10-02T12:21:30.136-07:00"
+                    jcr:lastModified="{Date}2019-10-17T17:36:01.084-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Stacey Roswells"
                     sling:resourceType="wknd/components/content/title"
-                    type="h2"/>
+                    type="h3"/>
                 <title_2061073292
-                    cq:styleIds="[1569448732502,1569448853340]"
+                    cq:styleIds="[1568996420379]"
                     jcr:created="{Date}2019-10-02T12:21:38.958-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-10-02T12:22:42.538-07:00"
+                    jcr:lastModified="{Date}2019-10-18T13:17:32.707-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="Artist, Photographer, Traveler"
+                    jcr:title="Artist | Photographer | Traveler"
                     sling:resourceType="wknd/components/content/title"
-                    type="h3"/>
+                    type="h5"/>
+                <button
+                    cq:masterBuildingBlock="{Boolean}true"
+                    cq:styleIds="[1571358661842]"
+                    jcr:created="{Date}2019-10-17T17:44:18.272-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-10-17T17:47:16.279-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Stacey Roswell Social Media Buttons"
+                    sling:resourceType="cq/experience-fragments/editor/components/buildingblock">
+                    <button34118634274966
+                        cq:styleIds="[1570758781253,1568839776757]"
+                        jcr:lastModified="{Date}2019-10-18T09:13:42.911-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Facebook"
+                        sling:resourceType="wknd/components/content/button"
+                        accessibilityLabel="Facebook Social Media"
+                        icon="facebook"
+                        link="#facebook-staceyroswell"/>
+                    <item34118634619135
+                        cq:styleIds="[1568839776757,1570758781253]"
+                        jcr:created="{Date}2019-10-17T17:45:02.668-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-10-18T09:13:52.098-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Twitter"
+                        sling:resourceType="wknd/components/content/button"
+                        accessibilityLabel="Twitter Social Media"
+                        icon="twitter"
+                        link="#twitter-staceyroswells"/>
+                    <item34118635370474
+                        cq:styleIds="[1568839776757,1570758781253]"
+                        jcr:created="{Date}2019-10-17T17:45:02.668-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-10-18T09:14:01.558-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Instagram"
+                        sling:resourceType="wknd/components/content/button"
+                        accessibilityLabel="Instagram Social Media"
+                        icon="instagram"
+                        link="#insta-staceyroswells"/>
+                </button>
             </responsivegrid>
         </root>
     </jcr:content>
