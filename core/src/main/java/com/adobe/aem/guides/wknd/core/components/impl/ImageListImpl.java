@@ -1,9 +1,25 @@
+/*
+ *  Copyright 2019 Adobe Systems Incorporated
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
 package com.adobe.aem.guides.wknd.core.components.impl;
 
 import com.adobe.aem.guides.wknd.core.components.ImageList;
 import com.adobe.cq.wcm.core.components.models.Image;
 import com.day.cq.commons.jcr.JcrConstants;
 import com.day.cq.search.Predicate;
+import com.day.cq.search.PredicateConverter;
 import com.day.cq.search.PredicateGroup;
 import com.day.cq.search.QueryBuilder;
 import com.day.cq.search.eval.JcrPropertyPredicateEvaluator;
@@ -31,7 +47,13 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import javax.jcr.Session;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 @Model(
@@ -57,6 +79,8 @@ public class ImageListImpl implements ImageList {
      * The Image List Component extends the AEM WCM Core Component.
      * This injection creates an instance of the Core Components List component, and allows its methods to be called by
      * the WKND Image List component, following the delegation pattern.
+     *
+     * Note this is made @Optional to allow for Unit Testing of this Sling Model.
      */
     @Self
     @Via(type = ResourceSuperType.class)
@@ -68,7 +92,7 @@ public class ImageListImpl implements ImageList {
     public final Collection<ImageList.ListItem> getListItems() {
         if (imageListItems == null) {
             if (coreList == null) {
-                log.warn("Could not locate the AEM WCM Core Components List component via this component's ResourceSuperType. Returning an empty list.");
+                log.warn("Could not locate the AEM WCM Core Components List SlingModel via this component's ResourceSuperType. Returning an empty list.");
                 imageListItems = Collections.EMPTY_LIST;
             } else {
                 // Calls the AEM WCM Core Components List component's `getListItems()` methods, transforms them into ImageListItem objects.
@@ -133,7 +157,7 @@ public class ImageListImpl implements ImageList {
     /**
      * Helper method that searches an AEM Page for 1 or more resources that are of a specified sling:resourceType.
      *
-     * Note the order is not guaranteed.
+     * Note the order is by JCR Path, ascending.
      *
      * @param page the AEM Page to search
      * @param slingResourceType The sling:resourceType too look for
@@ -153,9 +177,9 @@ public class ImageListImpl implements ImageList {
                 put(TypePredicateEvaluator.TYPE, JcrConstants.NT_UNSTRUCTURED).
                 put(JcrPropertyPredicateEvaluator.PROPERTY, JcrResourceConstants.SLING_RESOURCE_TYPE_PROPERTY).
                 put(JcrPropertyPredicateEvaluator.PROPERTY + "." + JcrPropertyPredicateEvaluator.VALUE, slingResourceType).
-                put(PredicateGroup.PARAM_LIMIT, String.valueOf(limit)).
-                put(PredicateGroup.PARAM_GUESS_TOTAL, "true").
-                put(Predicate.ORDER_BY, "@path").
+                put(PredicateConverter.GROUP_PARAMETER_PREFIX + "." + PredicateGroup.PARAM_LIMIT, String.valueOf(limit)).
+                put(PredicateConverter.GROUP_PARAMETER_PREFIX + "." +  PredicateGroup.PARAM_GUESS_TOTAL, "true").
+                put(Predicate.ORDER_BY, "@jcr:path").
                 put(Predicate.ORDER_BY + "." + Predicate.PARAM_SORT , Predicate.SORT_ASCENDING).
                 build();
 
@@ -164,7 +188,9 @@ public class ImageListImpl implements ImageList {
         final Iterator<Resource> resources = queryBuilder.createQuery(PredicateGroup.create(params),
                 request.getResourceResolver().adaptTo(Session.class)).getResult().getResources();
 
+        // Handle QueryBuilder's leakingResourceResolver; Make sure to close it manually.
         ResourceResolver leakingResourceResolver = null;
+
         while(resources.hasNext()) {
             final Resource resource = resources.next();
 
