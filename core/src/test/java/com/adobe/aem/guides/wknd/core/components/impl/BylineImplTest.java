@@ -58,7 +58,7 @@ class BylineImplTest {
 	    	       any(Resource.class),
 	    	       eq(Image.class))).thenReturn(image);
 
-	    	     ctx.registerService(ModelFactory.class, modelFactory,
+	    ctx.registerService(ModelFactory.class, modelFactory,
 	    	       org.osgi.framework.Constants.SERVICE_RANKING, Integer.MAX_VALUE);
 	}
 

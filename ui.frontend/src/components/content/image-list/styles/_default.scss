@@ -17,38 +17,32 @@
 /* WKND Image List Default Style */
 
 .cmp-image-list {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 
-    /** From OOTB Core Components List Component **/
-    .cmp-list {
-        align-items: flex-start;
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
+  .cmp-image-list__item {
+    flex-basis: 260px;
+    margin: 0 0 2rem 0;
+  }
 
-        .cmp-list__item {
-            width: 260px;
-            margin: 0 0 0 1rem;
+  .cmp-image-list__item-title {
+    color: $text-color;
+    text-transform: uppercase;
+  }
 
-            &:first-child {
-                margin-left: 1rem;
-            }
-        }
-    }
-
-    /** From WKND Override of item.html **/
-    .cmp-image-list__item-title {
-        color: black;
-        text-transform: uppercase;
-    }
-
-
-    /** From AEM WCM Core Components Image Component **/
-    .cmp-image__image {
-        height: 175px;
-        width: 100%;
-        margin: 0;
-        object-fit: cover;
-        object-position: center;
-        overflow: hidden;
-    }
+  /** For embed of AEM WCM Core Components Image Component **/
+  .cmp-image__image {
+    height: 175px;
+    width: 100%;
+    margin: 0;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+  }
 }
