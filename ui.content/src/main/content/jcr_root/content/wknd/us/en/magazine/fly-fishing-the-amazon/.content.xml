@@ -10,6 +10,7 @@
         jcr:mixinTypes="[cq:LiveRelationship]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Fly Fishing the Amazon"
+        jcr:description="Experience the Amazon like never before"
         sling:resourceType="wknd/components/structure/page"
         socialMedia="[facebook,pinterest]">
         <root

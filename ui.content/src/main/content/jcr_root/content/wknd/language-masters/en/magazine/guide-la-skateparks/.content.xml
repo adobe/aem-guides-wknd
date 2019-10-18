@@ -5,9 +5,9 @@
         cq:lastModified="{Date}2019-10-14T15:25:23.551-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
-        jcr:description="Breaking down the top 10 skate destinations in all of Los Angeles. You don't want to miss this!"
         jcr:primaryType="cq:PageContent"
         jcr:title="Ultimate Guide to LA Skateparks"
+        jcr:description="Breaking down the top 10 skate destinations in all of Los Angeles. You don't want to miss this!"
         sling:resourceType="wknd/components/structure/page"
         socialMedia="[facebook,pinterest]">
         <root

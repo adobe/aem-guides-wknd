@@ -10,6 +10,7 @@
         jcr:mixinTypes="[cq:LiveRelationship]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Alaskan Adventure"
+        jcr:description="Discover the 49th state"
         sling:resourceType="wknd/components/structure/page"
         socialMedia="[facebook,pinterest]">
         <root

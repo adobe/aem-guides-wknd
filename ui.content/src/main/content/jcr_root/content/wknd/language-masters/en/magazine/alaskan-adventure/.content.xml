@@ -7,6 +7,7 @@
         cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
         jcr:primaryType="cq:PageContent"
         jcr:title="Alaskan Adventure"
+        jcr:description="Discover the 49th state"
         sling:resourceType="wknd/components/structure/page"
         socialMedia="[facebook,pinterest]">
         <root
