@@ -22,7 +22,7 @@ public interface ImageList {
     /**
      * Describes a item of the Image List.
      */
-    interface ListItem {
+    interface ListItem{
         /**
          * This method returns a resource that is an WKND Image Component resource (rather than an image binary, such as a DAM asset).
          * This resource is intended to be rendered via the WKND Image Component's logic via a Sling include of this resource.
@@ -32,9 +32,14 @@ public interface ImageList {
         Resource getImage();
 
         /**
-         * @return the title of the Image List item.
+         * @return the title of the Image List item (Page).
          */
         String getTitle();
+
+        /**
+         * @return the description of the Image List item (Page).
+         */
+        String getDescription();
 
         /**
          * @return the url to the Page the Image List item represents.

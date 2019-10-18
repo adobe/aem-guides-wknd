@@ -17,6 +17,9 @@
 /* WKND Image List Default Style */
 
 .cmp-image-list {
+  $image-height: 200px;
+  $item-width: 260px;
+
   align-items: flex-start;
   display: flex;
   flex-wrap: wrap;
@@ -27,22 +30,42 @@
   width: 100%;
 
   .cmp-image-list__item {
-    flex-basis: 260px;
+    flex-basis: $item-width;
     margin: 0 0 2rem 0;
-  }
-
-  .cmp-image-list__item-title {
-    color: $text-color;
-    text-transform: uppercase;
   }
 
   /** For embed of AEM WCM Core Components Image Component **/
   .cmp-image__image {
-    height: 175px;
+    height: $image-height;
     width: 100%;
     margin: 0;
     object-fit: cover;
     object-position: center;
     overflow: hidden;
+  }
+
+  /** Title w/ Hyperlink */
+  .cmp-image-list__item-title {
+    color: $text-color;
+    font-size: $font-size-medium;
+    font-family: $font-family-sans-serif;
+    font-weight: $font-weight-bold;
+    text-transform: uppercase;
+  }
+
+  /** Description with ellipsis **/
+  .cmp-image-list__item-description {
+    color: $gray;
+    display: block;
+    font-size: $font-size-small;
+    margin-top: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width: $item-width;
+    p {
+      font-size: $font-size-small;
+    }
   }
 }

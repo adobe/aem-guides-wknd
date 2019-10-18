@@ -31,6 +31,8 @@ class DefaultImageList {
                                 <a class="cmp-image-list__item-title-link" href="#">
                                     <span class="cmp-image-list__item-title">Short</span>
                                 </a>
+                                
+                                <span class="cmp-image-list__item-description">Short description</span>
                             </article>
                         </li>
                 
@@ -52,6 +54,8 @@ class DefaultImageList {
                                 <a class="cmp-image-list__item-title-link" href="#">
                                     <span class="cmp-image-list__item-title">A Medium Length Title</span>
                                 </a>
+                                
+                                <span class="cmp-image-list__item-description">A medium length description</span>
                             </article>
                         </li>
                 
@@ -73,6 +77,7 @@ class DefaultImageList {
                                 <a class="cmp-image-list__item-title-link" href="#">
                                     <span class="cmp-image-list__item-title">A LONG TITLE THAT ILLUSTRATES HOW WRAPPING LOOKS</span>
                                 </a>
+                                <span class="cmp-image-list__item-description">A long title that should end up being truncated</span>                                
                             </article>
                         </li>
                 
@@ -94,6 +99,7 @@ class DefaultImageList {
                                 <a class="cmp-image-list__item-title-link" href="/#">
                                     <span class="cmp-image-list__item-title">A VERY VERY VERY VERY VERY VERY VERY VERY VERY VERY VERY LONG TITLE TO SEE WHAT AN EXTREME CASE OF WRAPPING LOOKS LIKE</span>
                                 </a>
+                                <span class="cmp-image-list__item-description">A very very very very very very very very very very very very very very very very long title that will most certainly be truncated</span>                                                                
                             </article>
                         </li>
                     </ul>

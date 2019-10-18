@@ -123,11 +123,12 @@ class ImageListImplTest {
 
         assertEquals("/content/pages/page-1/jcr:content/root/responsivegrid/page-1-image-component", actualListItems[0].getImage().getPath());
         assertEquals("Page 1", actualListItems[0].getTitle());
+        assertEquals("Page 1 Description", actualListItems[0].getDescription());
         assertEquals("/content/pages/page-1.html", actualListItems[0].getURL());
-
 
         assertEquals("/content/pages/page-2/jcr:content/root/responsivegrid/page-2-image-component", actualListItems[1].getImage().getPath());
         assertEquals("Page 2", actualListItems[1].getTitle());
+        assertEquals("Page 2 Description", actualListItems[1].getDescription());
         assertEquals("/content/pages/page-2.html", actualListItems[1].getURL());
 
         assertFalse(actual.isEmpty());
@@ -247,6 +248,10 @@ class ImageListImplTest {
 
         public String getTitle() {
             return resource.getValueMap().get("jcr:content/jcr:title", String.class);
+        }
+
+        public String getDescription() {
+            return resource.getValueMap().get("jcr:content/jcr:description", String.class);
         }
 
         public String getPath() {

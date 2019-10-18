@@ -116,6 +116,11 @@ public class ImageListImpl implements ImageList {
         }
 
         @Override
+        public String getDescription() {
+            return wrappedListItem.getDescription();
+        }
+
+        @Override
         public String getURL() {
             return wrappedListItem.getURL();
         }
