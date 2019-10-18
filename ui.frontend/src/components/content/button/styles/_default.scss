@@ -1,12 +1,12 @@
 .cmp-button {
     text-transform: uppercase;
     color:$black;
-    font-size: $font-size-h5;
+    font-size: $font-size-small;
     background-color: $brand-third;
     font-weight: $font-weight-bold;
     float: left;
-    height: 48px;
-    min-width: 48px;
+    height: $button-size;
+    min-width: $button-size;
 
     .cmp-button__text {
         padding: 1rem 2rem;

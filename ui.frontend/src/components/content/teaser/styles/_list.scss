@@ -1,0 +1,28 @@
+
+.cmp-teaser--list {
+
+
+     .cmp-teaser__image {
+
+        .cmp-image__image {
+            object-fit: cover;
+            max-height: 200px;
+        }
+    }
+
+    .cmp-teaser__title {
+        font-size: $font-size-medium;
+        font-family: $font-family-sans-serif;
+        font-weight: $font-weight-bold;
+        text-transform: uppercase;
+    }
+
+    .cmp-teaser__description {
+        font-size: $font-size-small;
+        color: $gray;
+        text-transform: uppercase;
+        p {
+            font-size: $font-size-small;
+        }
+    }
+}

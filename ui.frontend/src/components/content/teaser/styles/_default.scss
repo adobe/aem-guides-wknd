@@ -15,30 +15,56 @@
  */
 /* WKND teaser - default.less */
 
-.cmp-teaser {
+/*BLOCK cmp-teaser
+    ELEMENT cmp-teaser__image
+    ELEMENT cmp-teaser__content
+    ELEMENT cmp-teaser__title
+    ELEMENT cmp-teaser__title-link
+    ELEMENT cmp-teaser__description
+    ELEMENT cmp-teaser__action-container
+    ELEMENT cmp-teaser__action-link
+    */
 
+.cmp-teaser {
+    
+    .cmp-teaser__content {
+        float: left;
+    }
+    
     .cmp-teaser__title {
         font-family: $font-family-serif;
-        margin-top: 0;
+        margin: 0.5em 0;
     }
 
     .cmp-teaser__title-link {
         color: $teaser-dark-color;
+
+        &:after {
+            content: none;
+        }
     }
 
     .cmp-teaser__description {
-        color: $gray;
-        font-size: $font-size-small;
-        margin: 1em 0;
+        font-size: $font-size-base;
+        margin: 0;
+        line-height: 1.75;
+        p {
+            line-height: 1.75;
+            font-size: $font-size-base;
+        }
     }
 
+    .cmp-teaser__action-container {
+        margin: 1em 0;
+        float: left;
+    }
     .cmp-teaser__action-link {
         background-color: $brand-primary;
         text-transform: uppercase;
         font-size: $font-size-small;
-        padding: 0.75em 3.5em;
-        margin-top: 0.5em;
+        padding: 1em 2.5em;
         font-weight: $font-weight-bold;
-        color: $teaser-dark-color;
+        color: $text-color;
+        float: left;
     }
 }
