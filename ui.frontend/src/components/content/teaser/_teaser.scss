@@ -19,5 +19,9 @@ $teaser-light-color: #fff;
 $teaser-dark-color: $text-color;
 
 @import 'styles/default';
+@import 'styles/featured';
+@import 'styles/list';
+@import 'styles/hero';
+/*
 @import 'styles/card';
-@import 'styles/slide';
+@import 'styles/slide';*/
