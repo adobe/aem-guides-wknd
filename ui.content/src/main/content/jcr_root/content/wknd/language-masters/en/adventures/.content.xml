@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-10-15T13:04:59.168-07:00"
+        cq:lastModified="{Date}2019-10-15T14:59:10.455-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/landing-page-template"
         jcr:primaryType="cq:PageContent"
@@ -37,5 +37,13 @@
             </responsivegrid>
         </root>
     </jcr:content>
+    <ski-touring-mont-blanc/>
     <surf-nicaragua/>
+    <riverside-camping-australia/>
+    <beervana-portland/>
+    <surf-camp-costa-rica/>
+    <whistler-mountain-biking/>
+    <cycling-tuscany/>
+    <climbing-new-zealand/>
+    <downhill-skiing-wyoming/>
 </jcr:root>

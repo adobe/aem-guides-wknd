@@ -4,4 +4,5 @@
     <filter root="/content/wknd"/>
     <filter root="/content/dam/wknd"/>
     <filter root="/content/experience-fragments/wknd"/>
+    <filter root="/content/cq:tags/wknd"/>
 </workspaceFilter>
