@@ -41,7 +41,7 @@
                         <default
                             jcr:primaryType="nt:unstructured"
                             offset="0"
-                            width="10"/>
+                            width="9"/>
                         <phone
                             jcr:primaryType="nt:unstructured"
                             offset="0"
@@ -121,7 +121,7 @@
                         <default
                             jcr:primaryType="nt:unstructured"
                             offset="0"
-                            width="2"/>
+                            width="3"/>
                         <phone
                             jcr:primaryType="nt:unstructured"
                             offset="0"
