@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-10-16T15:48:57.330-07:00"
+        cq:lastModified="{Date}2019-10-18T18:46:24.391-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/adventure-page-template"
         jcr:isCheckedOut="{Boolean}true"
@@ -31,10 +31,11 @@
                     <image
                         jcr:created="{Date}2019-10-16T15:48:57.324-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-16T15:48:57.324-07:00"
+                        jcr:lastModified="{Date}2019-10-18T18:46:24.386-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/image"/>
+                        sling:resourceType="wknd/components/content/image"
+                        fileReference="/content/dam/we-retail/en/activities/skiing/ski touring.jpg"/>
                 </carousel>
                 <responsivegrid
                     cq:styleIds="[1554340406437]"

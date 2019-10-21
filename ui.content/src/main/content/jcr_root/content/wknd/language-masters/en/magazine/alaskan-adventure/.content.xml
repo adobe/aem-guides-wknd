@@ -5,9 +5,9 @@
         cq:lastModified="{Date}2019-10-13T19:08:14.213-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
+        jcr:description="Discover the 49th state"
         jcr:primaryType="cq:PageContent"
         jcr:title="Alaskan Adventure"
-        jcr:description="Discover the 49th state"
         sling:resourceType="wknd/components/structure/page"
         socialMedia="[facebook,pinterest]">
         <root

@@ -3,17 +3,18 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="77ed958c-9433-471d-9b37-f770de400bf2">
+    jcr:uuid="b9ef1d9a-4716-4e5e-be53-2c246df97cbd">
     <jcr:content
-        cq:name="surfing_2.jpg"
+        cq:name="surfing_5.jpg"
         cq:parentPath="/content/dam/wknd/en/adventures/surf-nicaragua"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-18T15:16:02.750-07:00"
+        jcr:lastModified="{Date}2019-10-18T15:20:33.780-07:00"
         jcr:lastModifiedBy="admin"
-        jcr:primaryType="dam:AssetContent">
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="surfing_5.jpg">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2019-10-18T15:16:00.590-07:00"
+            dam:extracted="{Date}2019-10-18T15:20:33.209-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -23,15 +24,15 @@
             dam:Physicalwidthindpi="{Long}300"
             dam:Physicalwidthininches="{Decimal}6.400000095367432"
             dam:Progressive="no"
-            dam:sha1="28fb84d02ee74b6f496ef0837209c05400703963"
-            dam:size="{Long}263051"
+            dam:sha1="71e754a45a1a0846b7365ed2edbcc0f8f7dd6c69"
+            dam:size="{Long}445541"
             dc:format="image/jpeg"
-            dc:modified="{Date}2016-01-14T14:22:14.742-08:00"
+            dc:modified="{Date}2016-01-14T14:22:19.386-08:00"
             exif:ColorSpace="{Long}65535"
             exif:ExifVersion="0221"
             exif:PixelXDimension="{Long}1920"
             exif:PixelYDimension="{Long}1080"
-            jcr:lastModified="{Date}2019-10-18T15:16:02.582-07:00"
+            jcr:lastModified="{Date}2019-10-18T15:16:04.236-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
@@ -46,13 +47,13 @@
             tiff:SamplesPerPixel="{Long}3"
             tiff:XResolution="300/1"
             tiff:YResolution="300/1"
-            xmp:CreateDate="{Date}2015-07-22T12:06:00.000-07:00"
+            xmp:CreateDate="{Date}2015-07-22T11:46:15.000-07:00"
             xmp:CreatorTool="Adobe Photoshop CC 2015 (Macintosh)"
-            xmp:MetadataDate="{Date}2016-01-14T11:07:27.000-08:00"
-            xmp:ModifyDate="{Date}2016-01-14T11:07:27.000+01:00"
-            xmpMM:DocumentID="adobe:docid:photoshop:735ac593-fb80-1178-9b17-8a9c853140bd"
-            xmpMM:InstanceID="xmp.iid:973fdee6-b25d-4070-899b-e1960e7ff8f8"
-            xmpMM:OriginalDocumentID="5EB0BDB2DCAD9443BC076E7F18506B1A">
+            xmp:MetadataDate="{Date}2016-01-14T11:06:23.000-08:00"
+            xmp:ModifyDate="{Date}2016-01-14T11:06:23.000+01:00"
+            xmpMM:DocumentID="adobe:docid:photoshop:502384fa-fb80-1178-9b17-8a9c853140bd"
+            xmpMM:InstanceID="xmp.iid:60ac5de9-bfff-4e3a-9d65-60079ddb3a8d"
+            xmpMM:OriginalDocumentID="B4F960C904A80A365F4DF7AA02B1E5C3">
             <xmpMM:History
                 jcr:primaryType="nt:unstructured"
                 xmpArraySize="{Long}2"
@@ -62,20 +63,29 @@
                     jcr:primaryType="nt:unstructured"
                     stEvt:action="saved"
                     stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:7f26b4db-974a-4c8f-a56d-cd8375aa06bc"
+                    stEvt:instanceID="xmp.iid:913e11c2-f349-4c65-bdff-4b305d053960"
                     stEvt:softwareAgent="Adobe Photoshop CC 2015 (Macintosh)"
-                    stEvt:when="{Date}2016-01-14T11:07:27.000-08:00"
+                    stEvt:when="{Date}2016-01-14T11:06:23.000-08:00"
                     xmpNodeType="xmpStruct"/>
                 <_x0032_
                     jcr:primaryType="nt:unstructured"
                     stEvt:action="saved"
                     stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:973fdee6-b25d-4070-899b-e1960e7ff8f8"
+                    stEvt:instanceID="xmp.iid:60ac5de9-bfff-4e3a-9d65-60079ddb3a8d"
                     stEvt:softwareAgent="Adobe Photoshop CC 2015 (Macintosh)"
-                    stEvt:when="{Date}2016-01-14T11:07:27.000-08:00"
+                    stEvt:when="{Date}2016-01-14T11:06:23.000-08:00"
                     xmpNodeType="xmpStruct"/>
             </xmpMM:History>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}2"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}2"
+                lastUsed="{Date}2019-10-21T11:15:59.983-07:00"/>
+        </usages>
     </jcr:content>
 </jcr:root>

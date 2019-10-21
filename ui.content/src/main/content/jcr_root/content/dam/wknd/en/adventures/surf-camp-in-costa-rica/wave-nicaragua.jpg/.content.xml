@@ -3,17 +3,18 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="b9ef1d9a-4716-4e5e-be53-2c246df97cbd">
+    jcr:uuid="aca2d6e5-8570-4397-9d5b-37883e761a7a">
     <jcr:content
-        cq:name="surfing_5.jpg"
+        cq:name="wave-nicaragua.jpg"
         cq:parentPath="/content/dam/wknd/en/adventures/surf-nicaragua"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-18T15:16:04.439-07:00"
+        jcr:lastModified="{Date}2019-10-18T15:20:34.467-07:00"
         jcr:lastModifiedBy="admin"
-        jcr:primaryType="dam:AssetContent">
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Wave Nicaragua">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2019-10-18T15:16:01.963-07:00"
+            dam:extracted="{Date}2019-10-18T15:20:33.952-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -21,38 +22,41 @@
             dam:Physicalheightindpi="{Long}300"
             dam:Physicalheightininches="{Decimal}3.5999999046325684"
             dam:Physicalwidthindpi="{Long}300"
-            dam:Physicalwidthininches="{Decimal}6.400000095367432"
+            dam:Physicalwidthininches="{Decimal}5.400000095367432"
             dam:Progressive="no"
-            dam:sha1="71e754a45a1a0846b7365ed2edbcc0f8f7dd6c69"
-            dam:size="{Long}445541"
+            dam:sha1="1518da447d5cc5847e8a3a936b0bc46c6bd16bb4"
+            dam:size="{Long}336489"
+            dc:description="Surfing in Nicaragua"
             dc:format="image/jpeg"
-            dc:modified="{Date}2016-01-14T14:22:19.386-08:00"
+            dc:modified="{Date}2016-03-06T18:53:23.613+01:00"
+            dc:title="Wave Nicaragua"
             exif:ColorSpace="{Long}65535"
             exif:ExifVersion="0221"
-            exif:PixelXDimension="{Long}1920"
-            exif:PixelYDimension="{Long}1080"
-            jcr:lastModified="{Date}2019-10-18T15:16:04.236-07:00"
+            exif:PixelXDimension="{Long}2880"
+            exif:PixelYDimension="{Long}1920"
+            jcr:lastModified="{Date}2019-10-18T15:16:03.279-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
+            jcr:title="Wave Nicaragua"
             photoshop:ColorMode="{Long}3"
             tiff:BitsPerSample="{Long}[8,8,8]"
             tiff:BitsPerSample_xmpArrayType="rdf:Seq"
             tiff:ImageLength="{Long}1080"
-            tiff:ImageWidth="{Long}1920"
+            tiff:ImageWidth="{Long}1620"
             tiff:Orientation="{Long}1"
             tiff:PhotometricInterpretation="{Long}2"
             tiff:ResolutionUnit="{Long}2"
             tiff:SamplesPerPixel="{Long}3"
             tiff:XResolution="300/1"
             tiff:YResolution="300/1"
-            xmp:CreateDate="{Date}2015-07-22T11:46:15.000-07:00"
-            xmp:CreatorTool="Adobe Photoshop CC 2015 (Macintosh)"
-            xmp:MetadataDate="{Date}2016-01-14T11:06:23.000-08:00"
-            xmp:ModifyDate="{Date}2016-01-14T11:06:23.000+01:00"
-            xmpMM:DocumentID="adobe:docid:photoshop:502384fa-fb80-1178-9b17-8a9c853140bd"
-            xmpMM:InstanceID="xmp.iid:60ac5de9-bfff-4e3a-9d65-60079ddb3a8d"
-            xmpMM:OriginalDocumentID="B4F960C904A80A365F4DF7AA02B1E5C3">
+            xmp:CreateDate="{Date}2016-02-09T16:28:11.000+01:00"
+            xmp:CreatorTool="Adobe Photoshop CC 2015"
+            xmp:MetadataDate="{Date}2016-03-04T12:39:16.000+01:00"
+            xmp:ModifyDate="{Date}2016-03-04T12:39:16.000+01:00"
+            xmpMM:DocumentID="adobe:docid:photoshop:269a2b5a-228c-1179-9fe2-dd6814746362"
+            xmpMM:InstanceID="xmp.iid:92df977b-903e-41e8-aaa1-1c4fff096727"
+            xmpMM:OriginalDocumentID="FF03F0E2025BE30CFC72397DAC1E15AE">
             <xmpMM:History
                 jcr:primaryType="nt:unstructured"
                 xmpArraySize="{Long}2"
@@ -62,29 +66,29 @@
                     jcr:primaryType="nt:unstructured"
                     stEvt:action="saved"
                     stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:913e11c2-f349-4c65-bdff-4b305d053960"
-                    stEvt:softwareAgent="Adobe Photoshop CC 2015 (Macintosh)"
-                    stEvt:when="{Date}2016-01-14T11:06:23.000-08:00"
+                    stEvt:instanceID="xmp.iid:cb4b033a-9aad-423a-b9ca-f2836b55b3ad"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2015"
+                    stEvt:when="{Date}2016-03-04T12:39:16.000+01:00"
                     xmpNodeType="xmpStruct"/>
                 <_x0032_
                     jcr:primaryType="nt:unstructured"
                     stEvt:action="saved"
                     stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:60ac5de9-bfff-4e3a-9d65-60079ddb3a8d"
-                    stEvt:softwareAgent="Adobe Photoshop CC 2015 (Macintosh)"
-                    stEvt:when="{Date}2016-01-14T11:06:23.000-08:00"
+                    stEvt:instanceID="xmp.iid:92df977b-903e-41e8-aaa1-1c4fff096727"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2015"
+                    stEvt:when="{Date}2016-03-04T12:39:16.000+01:00"
                     xmpNodeType="xmpStruct"/>
             </xmpMM:History>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
         <usages
-            dam:score="{Long}1"
+            dam:score="{Long}2"
             jcr:primaryType="nt:unstructured"
             usedBy="[aem]">
             <aem
                 jcr:primaryType="nt:unstructured"
-                count="{Long}1"
-                lastUsed="{Date}2019-10-03T17:58:20.378-07:00"/>
+                count="{Long}2"
+                lastUsed="{Date}2019-10-21T11:15:39.089-07:00"/>
         </usages>
     </jcr:content>
 </jcr:root>

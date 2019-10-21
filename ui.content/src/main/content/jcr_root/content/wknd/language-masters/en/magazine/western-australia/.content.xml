@@ -5,9 +5,9 @@
         cq:lastModified="{Date}2019-10-14T15:22:03.010-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
+        jcr:description="What doesn't kill you..."
         jcr:primaryType="cq:PageContent"
         jcr:title="Western Australia"
-        jcr:description="What doesn't kill you..."
         sling:resourceType="wknd/components/structure/page"
         socialMedia="[facebook,pinterest]">
         <root
