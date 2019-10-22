@@ -6,13 +6,20 @@ jQuery(function($) {
     (function() {
         const currentUserUrl = $('.wknd-sign-in-buttons').data('current-user-url'),
             signIn = $('[href="#sign-in"]'),
-            signOut = $('[href="#sign-out"]');
+            signOut = $('[href="#sign-out"]'),
+            greetingLabel = $('#wkndGreetingLabel'),
+            greetingText = greetingLabel.text();
 
         $.getJSON(currentUserUrl + "?nocache=" + new Date().getTime(), function(currentUser) {
-            const anonymous = 'anonymous' === currentUser.authorizableId;
+            const isAnonymous = 'anonymous' === currentUser.authorizableId;
 
-            signIn.toggle(anonymous);
-            signOut.toggle(!anonymous);
+            if(isAnonymous) {
+                signIn.show();
+            } else {
+                signOut.show();
+                greetingLabel.text(greetingText + ", " + currentUser.name);
+                greetingLabel.show();
+            }
         });
     })();
 });

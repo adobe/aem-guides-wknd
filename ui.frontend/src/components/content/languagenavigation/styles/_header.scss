@@ -31,7 +31,7 @@
                 height: 0.45em;
                 left: 0.45em;
                 position: relative;
-                top: 0.65em;
+                top: 0.35em;
                 transform: rotate(135deg); 
               
                 vertical-align: top;
@@ -39,7 +39,7 @@
             }
     
             &.open::after {
-                top: 1em;
+                top: 0.65em;
                 transform: rotate(-45deg);
             }
         }
