@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
-    cq:lastModified="{Date}2019-10-22T13:50:52.379-07:00"
+    cq:lastModified="{Date}2019-10-23T11:48:07.783-07:00"
     cq:lastModifiedBy="admin"
-    cq:lastReplicated="{Date}2019-10-22T13:35:31.981-07:00"
-    cq:lastReplicatedBy="admin"
-    cq:lastReplicationAction="Activate"
-    jcr:lastModified="{Date}2019-10-22T13:50:52.379-07:00"
+    jcr:lastModified="{Date}2019-10-23T11:48:07.783-07:00"
     jcr:lastModifiedBy="admin"
-    jcr:mixinTypes="[cq:ReplicationStatus,rep:AccessControllable]"
+    jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="rep:Group"
-    jcr:uuid="b7b37a25-416b-383a-a57f-90d5230ac2c0"
-    rep:authorizableId="wknd-members"
-    rep:members="{WeakReference}[6c618b3b-8147-3a1b-90c9-9f836678dfca]"
-    rep:principalName="wknd-members">
+    jcr:uuid="71f830b3-57a8-37d1-82b2-01ce49effe3d"
+    rep:authorizableId="wkndmembers"
+    rep:members="{WeakReference}[959074c6-444c-390d-b64c-44e363b28b10]"
+    rep:principalName="wkndmembers">
     <profile
         jcr:primaryType="nt:unstructured"
         givenName="WKND Members">

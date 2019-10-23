@@ -3,6 +3,6 @@
     jcr:primaryType="rep:ACL">
     <allow
         jcr:primaryType="rep:GrantACE"
-        rep:principalName="wknd-members"
-        rep:privileges="{Name}[jcr:read]"/>
+        rep:principalName="asmith"
+        rep:privileges="{Name}[jcr:all]"/>
 </jcr:root>

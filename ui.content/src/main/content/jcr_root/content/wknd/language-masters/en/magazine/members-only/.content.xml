@@ -3,7 +3,7 @@
     jcr:mixinTypes="[rep:CugMixin]"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-10-22T18:00:35.706-07:00"
+        cq:lastModified="{Date}2019-10-23T11:51:19.549-07:00"
         cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
         cq:lastReplicatedBy="admin"
