@@ -4,4 +4,9 @@
     <filter root="/content/wknd"/>
     <filter root="/content/dam/wknd"/>
     <filter root="/content/experience-fragments/wknd"/>
+
+    <!-- WKND Member Group-->
+    <filter root="/home/groups/L" mode="merge" />
+    <!-- Sample User-->
+    <filter root="/home/users/Z" mode="merge" />
 </workspaceFilter>

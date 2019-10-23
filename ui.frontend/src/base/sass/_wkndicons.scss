@@ -41,6 +41,8 @@ $wkndicon-location: "\e912";
 $wkndicon-search: "\e913";
 $wkndicon-delete: "\e914";
 $wkndicon-cart: "\e915";
+$wkndicon-lock: "\e98f";
+$wkndicon-unlocked: "\e990";
 $wkndicon-play3: "\ea1c";
 
 @font-face {
@@ -192,6 +194,16 @@ $wkndicon-play3: "\ea1c";
 .wkndicon-menu {
   &:before {
     content: $wkndicon-menu; 
+  }
+}
+.wkndicon-lock {
+  &:before {
+    content: $wkndicon-lock; 
+  }
+}
+.wkndicon-unlocked {
+  &:before {
+    content: $wkndicon-unlocked; 
   }
 }
 .wkndicon-play3 {

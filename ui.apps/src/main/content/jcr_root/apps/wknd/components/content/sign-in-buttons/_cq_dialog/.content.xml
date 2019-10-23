@@ -50,6 +50,12 @@
                                             fieldDescription="The Experience Fragment to display as a modal when the Sign Out button is clicked"
                                             rootPath="/content/experience-fragments/wknd"
                                             name="./signOutXfPath"/>
+                                    <greeting-label
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                            fieldLabel="Greeting Label"
+                                            fieldDescription="Message to display before a user's name when signed in"
+                                            name="./greetingLabel"/>
                                 </items>
                             </column>
                         </items>

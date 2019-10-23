@@ -1,0 +1,32 @@
+/* Styles for teasers that point to secure content */
+
+body.anonymous { 
+
+    .cmp-teaser--secure {
+
+        &:before {
+            @include wkndiconstyle();
+        font-size: 24px;
+        content: $wkndicon-lock;
+        color: black;
+        background: linear-gradient(to top left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 50%, $brand-primary 50%, $brand-primary 100%);
+        position: relative;
+        top: 49px;
+        padding: 12px;
+        z-index: 2;
+        }
+
+        .cmp-teaser {
+            opacity: 0.65;
+        }
+
+        .cmp-teaser__action-container {
+            color: $gray;
+            background-color: $gray-light;
+            text-transform: uppercase;
+            padding: 0.5em 1em;
+            font-size: $font-size-small;
+        }
+    }
+
+}
