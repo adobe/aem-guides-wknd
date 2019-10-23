@@ -17,7 +17,7 @@ jQuery(function($) {
             url: form.attr('action'),
             data: form.serialize(),
             success: function(data) {
-                signIn(form.find('input[name="sling.auth.redirect"]').val() || false);
+                signIn(form.find('input[name="sling.auth.redirect"]') || false);
             }, error: function(data) {
                 form.find('[name=j_username],[name=j_password]').addClass('cmp-form-text__text--error');
             }
@@ -26,11 +26,17 @@ jQuery(function($) {
         return false;
     });
 
-    function signIn(redirectUrl) {
-        if (!redirectUrl) {
-            window.location.reload();
+    function signIn(redirectField) {
+        if (redirectField) {
+            //always reload current page if sign-in
+            if($(redirectField).attr('id') === 'sling-auth-redirect-signin') {
+                window.location.reload();
+            } else {
+                window.location = $(redirectField).val() ? $(redirectField).val() : '/';
+            }
+            
         } else {
-            window.location = redirectUrl;
+            window.location.reload();
         }
     }
 });
