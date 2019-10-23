@@ -1,30 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
-    cq:lastModified="{Date}2019-10-22T13:49:49.634-07:00"
+    cq:lastModified="{Date}2019-10-23T11:45:08.059-07:00"
     cq:lastModifiedBy="admin"
-    cq:lastReplicated="{Date}2019-10-22T13:35:13.575-07:00"
-    cq:lastReplicatedBy="admin"
-    cq:lastReplicationAction="Activate"
-    jcr:lastModified="{Date}2019-10-22T13:49:49.634-07:00"
+    jcr:lastModified="{Date}2019-10-23T11:45:08.059-07:00"
     jcr:lastModifiedBy="admin"
-    jcr:mixinTypes="[cq:ReplicationStatus,rep:AccessControllable]"
+    jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="rep:User"
-    jcr:uuid="6c618b3b-8147-3a1b-90c9-9f836678dfca"
-    rep:authorizableId="cavery"
-    rep:password="\{SHA-256}2c86f9f68be069eb-1000-69418464bc7b043757d006bd6c8e6ae1468ed0c9f1fca5d18177a9dc47e237af"
-    rep:principalName="cavery"
-    selected_profile="profile"
-    userStatus="true"
-    userStatus_x0040_DefaultValue="false"
-    userStatus_x0040_UseDefaultWhenMissing="true">
+    jcr:uuid="959074c6-444c-390d-b64c-44e363b28b10"
+    rep:authorizableId="asmith"
+    rep:password="\{SHA-256}d53e0da85748aacc-1000-70e9b81e3cfcd43880d5307d5ab7c83e42250596515dd772af6b27d9b208679c"
+    rep:principalName="asmith">
     <profile
         jcr:mixinTypes="[granite:Ranking,mix:title]"
         jcr:primaryType="nt:unstructured"
         sling:resourceType="cq/security/components/profile"
-        email="cavery@wknddemo.com"
-        familyName="Avery"
+        email="asmith@wknd.com"
+        familyName="Smith"
         gender="female"
-        givenName="Carly">
+        givenName="Alison">
         <photos
             jcr:primaryType="nt:unstructured"
             sling:resourceType="nt:unstructured">
