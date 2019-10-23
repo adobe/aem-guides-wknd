@@ -1,192 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-10-13T19:08:14.213-07:00"
+        cq:lastModified="{Date}2019-10-22T17:51:28.099-07:00"
         cq:lastModifiedBy="admin"
+        cq:lastRolledout="{Date}2019-10-22T17:51:28.393-07:00"
+        cq:lastRolledoutBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
+        jcr:description="Experience the Amazon like never before"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:LiveRelationship,mix:versionable]"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Alaskan Adventure"
-        jcr:description="Discover the 49th state"
+        jcr:title="Fly Fishing the Amazon"
+        jcr:uuid="064fb85c-39ca-46cb-a723-a963d438d498"
         sling:resourceType="wknd/components/structure/page"
         socialMedia="[facebook,pinterest]">
         <root
+            cq:lastRolledout="{Date}2019-10-22T17:51:28.042-07:00"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
             <responsivegrid
+                cq:lastRolledout="{Date}2019-10-22T17:51:28.045-07:00"
+                cq:lastRolledoutBy="admin"
                 cq:styleIds="[1554340406437]"
                 jcr:created="{Date}2019-03-19T13:19:35.891-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2019-04-03T18:28:52.706-07:00"
+                jcr:lastModified="{Date}2019-10-22T17:51:28.043-07:00"
                 jcr:lastModifiedBy="admin"
+                jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
                 <image
+                    cq:lastRolledout="{Date}2019-10-22T17:51:28.049-07:00"
+                    cq:lastRolledoutBy="admin"
                     jcr:created="{Date}2019-04-03T18:29:05.193-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-10-01T20:31:38.417-07:00"
+                    jcr:lastModified="{Date}2019-10-22T17:51:28.047-07:00"
                     jcr:lastModifiedBy="admin"
+                    jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/content/image"
-                    fileReference="/content/dam/wknd/en/magazine/alaska-adventure/camp-alaska.JPG"
-                    imageCrop="0,62,1279,852"/>
+                    fileReference="/content/dam/wknd/en/magazine/fly-fishing-amazon/amazon-river-02.JPG"
+                    imageCrop="0,0,1279,791"/>
                 <responsivegrid
+                    cq:lastRolledout="{Date}2019-10-22T17:51:28.051-07:00"
+                    cq:lastRolledoutBy="admin"
                     jcr:created="{Date}2019-04-03T18:31:10.416-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-04-03T18:31:17.935-07:00"
+                    jcr:lastModified="{Date}2019-10-22T17:51:28.049-07:00"
                     jcr:lastModifiedBy="admin"
+                    jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
                     <title
+                        cq:lastRolledout="{Date}2019-10-22T17:51:28.055-07:00"
+                        cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2019-04-03T18:30:45.362-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-01T19:14:00.887-07:00"
+                        jcr:lastModified="{Date}2019-10-22T17:51:28.054-07:00"
                         jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/content/title"
                         type="h1"/>
                     <title_1878931237
+                        cq:lastRolledout="{Date}2019-10-22T17:51:28.058-07:00"
+                        cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2019-09-25T15:03:01.614-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-13T19:08:05.846-07:00"
+                        jcr:lastModified="{Date}2019-10-22T17:51:28.056-07:00"
                         jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="By Ian Provo"
+                        jcr:title="By Jake Hammer"
                         sling:resourceType="wknd/components/content/title"
                         type="h4"/>
                     <contentfragment
+                        cq:lastRolledout="{Date}2019-10-22T17:51:28.062-07:00"
+                        cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2019-04-03T18:35:18.394-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-01T20:31:09.366-07:00"
+                        jcr:lastModified="{Date}2019-10-22T17:51:28.059-07:00"
                         jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/content/contentfragment"
                         displayMode="singleText"
                         elementNames="main"
-                        fragmentPath="/content/dam/wknd/en/magazine/alaska-adventure/alaskan-adventures"
+                        fragmentPath="/content/dam/wknd/en/magazine/fly-fishing-amazon/fly-fishing"
                         text=""
                         variationName="master">
                         <par1
+                            cq:lastRolledout="{Date}2019-10-22T17:51:28.064-07:00"
+                            cq:lastRolledoutBy="admin"
+                            jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/components/grid">
                             <image
-                                jcr:created="{Date}2019-10-01T20:32:07.509-07:00"
+                                cq:lastRolledout="{Date}2019-10-22T17:51:28.066-07:00"
+                                cq:lastRolledoutBy="admin"
+                                jcr:created="{Date}2019-10-01T20:46:54.353-07:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-10-01T20:32:07.509-07:00"
+                                jcr:lastModified="{Date}2019-10-22T17:51:28.065-07:00"
                                 jcr:lastModifiedBy="admin"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wknd/components/content/image"
-                                fileReference="/content/dam/wknd/en/magazine/alaska-adventure/alaskan-landscape-01.JPG"/>
+                                fileReference="/content/dam/wknd/en/magazine/fly-fishing-amazon/amazon-river-01.JPG"/>
                         </par1>
-                        <par2
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="dam/cfm/components/grid">
-                            <title
-                                cq:styleIds="[1568996484405]"
-                                jcr:created="{Date}2019-10-01T20:37:15.597-07:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-10-01T20:37:27.174-07:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="Some places are only accessible by plane"
-                                sling:resourceType="wknd/components/content/title"
-                                type="h2"/>
-                            <image
-                                jcr:created="{Date}2019-10-01T20:32:16.431-07:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-10-01T20:32:16.431-07:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/image"
-                                fileReference="/content/dam/wknd/en/magazine/alaska-adventure/plane.JPG"/>
-                        </par2>
-                        <par3
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="dam/cfm/components/grid">
-                            <text
-                                cq:styleIds="[1554340301154]"
-                                jcr:created="{Date}2019-10-01T20:32:29.840-07:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-10-01T20:33:26.757-07:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/text"
-                                text="&lt;blockquote>For 18 days we lived on a glacier, 50 miles by plane from the nearest anything...&lt;/blockquote>&#xd;&#xa;&lt;p>&lt;u>Neil Provo&lt;/u>&lt;/p>&#xd;&#xa;"
-                                textIsRich="true"/>
-                        </par3>
                         <par4
+                            cq:lastRolledout="{Date}2019-10-22T17:51:28.068-07:00"
+                            cq:lastRolledoutBy="admin"
+                            jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/components/grid">
-                            <title
-                                cq:styleIds="[1568996484405]"
-                                jcr:created="{Date}2019-10-01T20:37:43.326-07:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-10-01T20:37:56.662-07:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="Fishing in the village of Yakutat"
-                                sling:resourceType="wknd/components/content/title"
-                                type="h2"/>
                             <image
-                                jcr:created="{Date}2019-10-01T20:34:02.452-07:00"
+                                cq:lastRolledout="{Date}2019-10-22T17:51:28.071-07:00"
+                                cq:lastRolledoutBy="admin"
+                                jcr:created="{Date}2019-10-01T20:47:14.963-07:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-10-01T20:34:02.452-07:00"
+                                jcr:lastModified="{Date}2019-10-22T17:51:28.069-07:00"
                                 jcr:lastModifiedBy="admin"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wknd/components/content/image"
-                                fileReference="/content/dam/wknd/en/magazine/alaska-adventure/alaskan-grizzly.jpg"/>
+                                fileReference="/content/dam/wknd/en/magazine/fly-fishing-amazon/dorado-fish-03.JPG"/>
                         </par4>
-                        <par5
+                        <par8
+                            cq:lastRolledout="{Date}2019-10-22T17:51:28.073-07:00"
+                            cq:lastRolledoutBy="admin"
+                            jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/components/grid">
                             <image
-                                jcr:created="{Date}2019-10-01T20:35:51.476-07:00"
+                                cq:lastRolledout="{Date}2019-10-22T17:51:28.075-07:00"
+                                cq:lastRolledoutBy="admin"
+                                jcr:created="{Date}2019-10-01T20:47:23.004-07:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-10-01T20:35:51.476-07:00"
+                                jcr:lastModified="{Date}2019-10-22T17:51:28.074-07:00"
                                 jcr:lastModifiedBy="admin"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wknd/components/content/image"
-                                fileReference="/content/dam/wknd/en/magazine/alaska-adventure/fish.JPG"/>
-                        </par5>
+                                fileReference="/content/dam/wknd/en/magazine/fly-fishing-amazon/milkyway-amazon.JPG"/>
+                        </par8>
                     </contentfragment>
                     <experiencefragment
-                        jcr:created="{Date}2019-10-02T13:11:30.983-07:00"
+                        cq:lastRolledout="{Date}2019-10-22T17:51:28.078-07:00"
+                        cq:lastRolledoutBy="admin"
+                        jcr:created="{Date}2019-10-02T13:14:17.797-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-02T13:16:36.355-07:00"
+                        jcr:lastModified="{Date}2019-10-22T17:51:28.076-07:00"
                         jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/content/experiencefragment"
-                        fragmentVariationPath="/content/experience-fragments/wknd/language-masters/en/contributors/ian-provo/byline"/>
+                        fragmentVariationPath="/content/experience-fragments/wknd/language-masters/en/contributors/jake-hammer/byline"/>
                 </responsivegrid>
                 <responsivegrid_223059690
+                    cq:lastRolledout="{Date}2019-10-22T17:51:28.080-07:00"
+                    cq:lastRolledoutBy="admin"
                     jcr:created="{Date}2019-04-03T18:32:31.547-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-04-03T18:32:34.502-07:00"
+                    jcr:lastModified="{Date}2019-10-22T17:51:28.079-07:00"
                     jcr:lastModifiedBy="admin"
+                    jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
                     <title
+                        cq:lastRolledout="{Date}2019-10-22T17:51:28.094-07:00"
+                        cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2019-09-25T15:04:58.771-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-13T19:08:09.913-07:00"
+                        jcr:lastModified="{Date}2019-10-22T17:51:28.082-07:00"
                         jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="SHARE THIS STORY"
                         sling:resourceType="wknd/components/content/title"
                         type="h5"/>
                     <sharing
+                        cq:lastRolledout="{Date}2019-10-22T17:51:28.096-07:00"
+                        cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2019-09-25T15:04:53.325-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-09-25T15:04:53.325-07:00"
+                        jcr:lastModified="{Date}2019-10-22T17:51:28.095-07:00"
                         jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/content/sharing"/>
                     <list
+                        cq:lastRolledout="{Date}2019-10-22T17:51:28.101-07:00"
+                        cq:lastRolledoutBy="admin"
                         cq:styleIds="[1554340350631]"
                         jcr:created="{Date}2019-04-03T18:35:24.854-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-01T20:59:12.931-07:00"
+                        jcr:lastModified="{Date}2019-10-22T17:51:28.098-07:00"
                         jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/content/list"
                         childDepth="1"
@@ -194,7 +207,7 @@
                         listFrom="children"
                         maxItems="4"
                         orderBy="modified"
-                        parentPage="/content/wknd/language-masters/en/magazine"
+                        parentPage="/content/wknd/ca/en/magazine"
                         showDescription="false"
                         showModificationDate="true"
                         sortOrder="desc"

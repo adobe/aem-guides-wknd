@@ -4,13 +4,13 @@
     <jcr:content
         cq:lastModified="{Date}2019-10-14T15:41:32.346-07:00"
         cq:lastModifiedBy="admin"
-        cq:lastRolledout="{Date}2019-10-14T15:41:32.347-07:00"
+        cq:lastRolledout="{Date}2019-10-22T17:51:34.808-07:00"
         cq:lastRolledoutBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
+        jcr:description="Join a new generation of tourists"
         jcr:mixinTypes="[cq:LiveRelationship]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Skiitouring"
-        jcr:description="Join a new generation of tourists"
         sling:resourceType="wknd/components/structure/page"
         socialMedia="[facebook,pinterest]">
         <root
