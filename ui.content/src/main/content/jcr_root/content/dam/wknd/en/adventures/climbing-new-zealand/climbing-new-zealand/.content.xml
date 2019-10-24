@@ -3,7 +3,7 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="cdc0184f-e1a1-4129-93c9-b2016d7cd44f">
+    jcr:uuid="eb0175d3-b011-421b-b1be-0ef5b2b64518">
     <jcr:content
         cq:name="climbing-new-zealand"
         cq:parentPath="/content/dam/wknd/en/adventures/climbing-new-zealand"

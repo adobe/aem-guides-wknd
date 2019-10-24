@@ -3,5 +3,7 @@
     jcr:primaryType="sling:Folder">
     <jcr:content
         jcr:primaryType="nt:unstructured"
-        jcr:title="Ski Touring Mont Blanc"/>
+        jcr:title="Ski Touring Mont Blanc">
+        <folderThumbnail/>
+    </jcr:content>
 </jcr:root>

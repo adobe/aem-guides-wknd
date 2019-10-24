@@ -6,15 +6,15 @@
     jcr:uuid="b9ef1d9a-4716-4e5e-be53-2c246df97cbd">
     <jcr:content
         cq:name="surfing_5.jpg"
-        cq:parentPath="/content/dam/wknd/en/adventures/surf-nicaragua"
+        cq:parentPath="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-18T15:20:33.780-07:00"
+        jcr:lastModified="{Date}2019-10-24T14:31:45.815-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         jcr:title="surfing_5.jpg">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2019-10-18T15:20:33.209-07:00"
+            dam:extracted="{Date}2019-10-24T14:31:38.232-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -24,7 +24,7 @@
             dam:Physicalwidthindpi="{Long}300"
             dam:Physicalwidthininches="{Decimal}6.400000095367432"
             dam:Progressive="no"
-            dam:sha1="71e754a45a1a0846b7365ed2edbcc0f8f7dd6c69"
+            dam:sha1="50a77f871ad22f7da4658017925fe2cf1c244cbb"
             dam:size="{Long}445541"
             dc:format="image/jpeg"
             dc:modified="{Date}2016-01-14T14:22:19.386-08:00"
@@ -32,7 +32,7 @@
             exif:ExifVersion="0221"
             exif:PixelXDimension="{Long}1920"
             exif:PixelYDimension="{Long}1080"
-            jcr:lastModified="{Date}2019-10-18T15:16:04.236-07:00"
+            jcr:lastModified="{Date}2019-10-24T14:31:45.662-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

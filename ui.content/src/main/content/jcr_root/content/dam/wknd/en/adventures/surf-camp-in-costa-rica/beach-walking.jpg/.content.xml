@@ -6,15 +6,15 @@
     jcr:uuid="cb7d92cd-4857-48a5-8370-6449f3006d0d">
     <jcr:content
         cq:name="beach-walking.jpg"
-        cq:parentPath="/content/dam/wknd/en/adventures/surf-nicaragua"
+        cq:parentPath="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-18T15:20:35.884-07:00"
+        jcr:lastModified="{Date}2019-10-24T14:31:44.911-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Beach Walking">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2019-10-18T15:20:35.559-07:00"
+            dam:extracted="{Date}2019-10-24T14:31:42.968-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -24,7 +24,7 @@
             dam:Physicalwidthindpi="{Long}300"
             dam:Physicalwidthininches="{Decimal}5.400000095367432"
             dam:Progressive="no"
-            dam:sha1="a5580660769483dd06bb532fc6591f1018a38772"
+            dam:sha1="ef17201cfdbc3dfdf45b4d7920baab706e29c64a"
             dam:size="{Long}116881"
             dc:description="Young lady with surfboard going to the ocean at surf spot"
             dc:format="image/jpeg"
@@ -34,7 +34,7 @@
             exif:ExifVersion="0221"
             exif:PixelXDimension="{Long}2880"
             exif:PixelYDimension="{Long}1920"
-            jcr:lastModified="{Date}2019-10-18T15:16:04.000-07:00"
+            jcr:lastModified="{Date}2019-10-24T14:31:42.871-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

@@ -6,15 +6,15 @@
     jcr:uuid="0417ba73-c785-4d4d-8750-6f4c0be3853d">
     <jcr:content
         cq:name="man-wetsuit.jpg"
-        cq:parentPath="/content/dam/wknd/en/adventures/surf-nicaragua"
+        cq:parentPath="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-18T15:20:37.477-07:00"
+        jcr:lastModified="{Date}2019-10-24T14:31:40.593-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Man Wetsuit">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2019-10-18T15:20:36.025-07:00"
+            dam:extracted="{Date}2019-10-24T14:31:39.146-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -24,7 +24,7 @@
             dam:Physicalwidthindpi="{Long}300"
             dam:Physicalwidthininches="{Decimal}5.400000095367432"
             dam:Progressive="no"
-            dam:sha1="af8cf552591143f21ed5e9e335741c34165efef3"
+            dam:sha1="2b4e70f95257d2f3c2d327f86a43b1e3b4be3187"
             dam:size="{Long}78242"
             dc:description="Man in wetsuit with bodyboard surfing equipment"
             dc:format="image/jpeg"
@@ -34,7 +34,7 @@
             exif:ExifVersion="0221"
             exif:PixelXDimension="{Long}2880"
             exif:PixelYDimension="{Long}1920"
-            jcr:lastModified="{Date}2019-10-18T15:16:00.204-07:00"
+            jcr:lastModified="{Date}2019-10-24T14:31:39.841-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

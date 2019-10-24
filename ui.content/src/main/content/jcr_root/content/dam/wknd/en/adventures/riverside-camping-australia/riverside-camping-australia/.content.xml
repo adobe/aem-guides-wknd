@@ -3,7 +3,7 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="49864161-f9cb-4729-aeb2-4c9e4e916ede">
+    jcr:uuid="39678c95-d5e0-4162-ab49-51b38b5e8389">
     <jcr:content
         cq:name="riverside-camping-australia"
         cq:parentPath="/content/dam/wknd/en/adventures/riverside-camping-australia"

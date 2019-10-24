@@ -3,7 +3,7 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="283360e5-75da-47ca-8679-26fdf3b232cb">
+    jcr:uuid="576374bc-e25b-428f-a249-1b615e5c0cf0">
     <jcr:content
         cq:name="whistler-mountain-biking"
         cq:parentPath="/content/dam/wknd/en/adventures/whistler-mountain-biking"

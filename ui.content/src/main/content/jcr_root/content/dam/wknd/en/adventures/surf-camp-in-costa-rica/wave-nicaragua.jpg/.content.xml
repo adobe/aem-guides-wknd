@@ -6,15 +6,15 @@
     jcr:uuid="aca2d6e5-8570-4397-9d5b-37883e761a7a">
     <jcr:content
         cq:name="wave-nicaragua.jpg"
-        cq:parentPath="/content/dam/wknd/en/adventures/surf-nicaragua"
+        cq:parentPath="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-18T15:20:34.467-07:00"
+        jcr:lastModified="{Date}2019-10-24T14:31:45.379-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Wave Nicaragua">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2019-10-18T15:20:33.952-07:00"
+            dam:extracted="{Date}2019-10-24T14:31:39.450-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -24,7 +24,7 @@
             dam:Physicalwidthindpi="{Long}300"
             dam:Physicalwidthininches="{Decimal}5.400000095367432"
             dam:Progressive="no"
-            dam:sha1="1518da447d5cc5847e8a3a936b0bc46c6bd16bb4"
+            dam:sha1="5fbc6d16544c598725aba762d2f98743546bc7f1"
             dam:size="{Long}336489"
             dc:description="Surfing in Nicaragua"
             dc:format="image/jpeg"
@@ -34,7 +34,7 @@
             exif:ExifVersion="0221"
             exif:PixelXDimension="{Long}2880"
             exif:PixelYDimension="{Long}1920"
-            jcr:lastModified="{Date}2019-10-18T15:16:03.279-07:00"
+            jcr:lastModified="{Date}2019-10-24T14:31:44.210-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

@@ -3,7 +3,7 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="4a819d84-8f84-4aaa-8dbc-0ef79a73f65c">
+    jcr:uuid="ec21e2d1-c8b6-430c-bd2a-24e52c879456">
     <jcr:content
         cq:name="downhill-skiing-wyoming"
         cq:parentPath="/content/dam/wknd/en/adventures/downhill-skiing-wyoming"

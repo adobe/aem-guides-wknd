@@ -3,7 +3,7 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="ba4f1e4e-05af-44b1-a33b-cd483f0a38ca">
+    jcr:uuid="83b63802-ffb0-47d6-94b0-ee821e887538">
     <jcr:content
         cq:name="ski-touring-mont-blanc"
         cq:parentPath="/content/dam/wknd/en/adventures/ski-touring-mont-blanc"

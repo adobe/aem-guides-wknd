@@ -3,7 +3,7 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="2d59793c-0788-47fc-bc77-72b9a431b560">
+    jcr:uuid="593210d0-6ffe-42c9-818f-d7825e21d93d">
     <jcr:content
         cq:name="cycling-tuscany"
         cq:parentPath="/content/dam/wknd/en/adventures/cycling-tuscany"

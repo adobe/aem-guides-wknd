@@ -3,7 +3,7 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="c6c697bd-1455-4df4-9436-d7bafef8b9f9">
+    jcr:uuid="9e1e9835-64c8-42dc-9d36-fbd59e28f753">
     <jcr:content
         cq:name="beervana-in-portland"
         cq:parentPath="/content/dam/wknd/en/adventures/beervana-portland"
