@@ -27,17 +27,12 @@
 .wknd-sign-in-buttons__button {
   // Start hidden, let JavaScript display the correct one
   display: none;
-
   text-transform: uppercase;
   color: $gray-lighter;
-  font-size: 1pc;
- 
-  &:hover {
+}
 
-  }
-
-  &:active {
-
-  }
-
+.wknd-sign-in-buttons__button--greeting {
+  text-align: left;
+  float: left;
+  padding-right: $gutter-padding;
 }

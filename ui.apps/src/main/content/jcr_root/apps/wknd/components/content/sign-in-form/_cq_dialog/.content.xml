@@ -39,12 +39,6 @@
                                                     value="/system/sling/logout"/>
                                         </items>
                                     </action-url>
-                                    <redirect-url
-                                            jcr:primaryType="nt:unstructured"
-                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                                            fieldLabel="Redirect URL"
-                                            fieldDescription="The URL to redirect upon successful sign in/sign out."
-                                            name="./redirectUrl"/>
                                 </items>
                             </column>
                         </items>

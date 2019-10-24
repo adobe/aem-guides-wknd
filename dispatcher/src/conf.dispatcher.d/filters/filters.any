@@ -1,0 +1,21 @@
+#
+# This file contains the filter ACL, and can be customized.
+#
+# By default, it includes the default filter ACL.
+#
+
+$include "./default_filters.any"
+
+# Allow components JSON model
+/0101 { /type "allow" /extension "json" /selectors "model" /path "/content/*" }
+
+# Allow Quick Search
+/0102 { /type "allow" /extension "json" /selectors "searchresults" /path "/content/*" }
+
+# Allow j_security check for login
+/0103 { /type "allow" /method "POST" /url "/system/sling/login/j_security_check" }
+
+#Allow logout path
+/0104 { /type "allow" /method "POST" /url "/system/sling/logout" }
+
+

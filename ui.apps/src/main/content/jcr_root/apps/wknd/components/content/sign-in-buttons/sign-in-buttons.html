@@ -21,6 +21,11 @@
      class="wknd-sign-in-buttons"
      data-current-user-url="/libs/granite/security/currentuser.json">
 
+    <span
+       class="wknd-sign-in-buttons__button wknd-sign-in-buttons__button--greeting"
+       id="wkndGreetingLabel"
+       >${properties.greetingLabel @ i18n}</span>
+
     <a href="#sign-in"
        class="wknd-sign-in-buttons__button wknd-sign-in-buttons__button--sign-in"
        data-modal-url="${ properties.signInXfPath @ selectors='content', extension = 'html'}"

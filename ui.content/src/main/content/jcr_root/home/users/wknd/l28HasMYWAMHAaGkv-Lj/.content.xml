@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    cq:lastModified="{Date}2019-10-23T11:45:08.059-07:00"
+    cq:lastModifiedBy="admin"
+    jcr:lastModified="{Date}2019-10-23T11:45:08.059-07:00"
+    jcr:lastModifiedBy="admin"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:User"
+    jcr:uuid="959074c6-444c-390d-b64c-44e363b28b10"
+    rep:authorizableId="asmith"
+    rep:password="\{SHA-256}d53e0da85748aacc-1000-70e9b81e3cfcd43880d5307d5ab7c83e42250596515dd772af6b27d9b208679c"
+    rep:principalName="asmith">
+    <profile
+        jcr:mixinTypes="[granite:Ranking,mix:title]"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="cq/security/components/profile"
+        email="asmith@wknd.com"
+        familyName="Smith"
+        gender="female"
+        givenName="Alison">
+        <photos
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="nt:unstructured">
+            <primary
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="nt:unstructured">
+                <image/>
+            </primary>
+        </photos>
+    </profile>
+    <profiles jcr:primaryType="nt:unstructured">
+        <public
+            jcr:mixinTypes="[granite:Ranking,mix:title]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="cq/security/components/profile"/>
+    </profiles>
+</jcr:root>

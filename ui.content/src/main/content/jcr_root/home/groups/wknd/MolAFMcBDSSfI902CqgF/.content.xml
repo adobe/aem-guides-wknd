@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    cq:lastModified="{Date}2019-10-23T11:48:07.783-07:00"
+    cq:lastModifiedBy="admin"
+    jcr:lastModified="{Date}2019-10-23T11:48:07.783-07:00"
+    jcr:lastModifiedBy="admin"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:uuid="71f830b3-57a8-37d1-82b2-01ce49effe3d"
+    rep:authorizableId="wkndmembers"
+    rep:members="{WeakReference}[959074c6-444c-390d-b64c-44e363b28b10]"
+    rep:principalName="wkndmembers">
+    <profile
+        jcr:primaryType="nt:unstructured"
+        givenName="WKND Members">
+        <photos
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="nt:unstructured">
+            <primary
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="nt:unstructured">
+                <image/>
+            </primary>
+        </photos>
+    </profile>
+</jcr:root>

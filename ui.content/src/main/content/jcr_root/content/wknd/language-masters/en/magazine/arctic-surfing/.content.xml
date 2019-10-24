@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:lastModified="{Date}2019-10-13T19:08:42.752-07:00"
         cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
         cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
         jcr:description="Surfing isn't just for San Diego"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Arctic Surfing"
+        jcr:uuid="61c1c121-7c1c-4045-9596-dc1c8d9665a0"
         sling:resourceType="wknd/components/structure/page"
         socialMedia="[facebook,pinterest]">
         <root

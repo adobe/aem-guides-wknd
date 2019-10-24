@@ -5,4 +5,9 @@
     <filter root="/content/dam/wknd"/>
     <filter root="/content/experience-fragments/wknd"/>
     <filter root="/content/cq:tags/wknd"/>
+
+    <!-- WKND Member Group-->
+    <filter root="/home/groups/wknd" mode="merge" />
+    <!-- Sample User-->
+    <filter root="/home/users/wknd" />
 </workspaceFilter>

@@ -4,13 +4,13 @@
     <jcr:content
         cq:lastModified="{Date}2019-10-13T19:09:38.344-07:00"
         cq:lastModifiedBy="admin"
-        cq:lastRolledout="{Date}2019-10-14T15:41:32.158-07:00"
+        cq:lastRolledout="{Date}2019-10-22T17:51:34.808-07:00"
         cq:lastRolledoutBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
+        jcr:description="Surfing isn't just for San Diego"
         jcr:mixinTypes="[cq:LiveRelationship]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Arctic Surfing"
-        jcr:description="Surfing isn't just for San Diego"
         sling:resourceType="wknd/components/structure/page"
         socialMedia="[facebook,pinterest]">
         <root
