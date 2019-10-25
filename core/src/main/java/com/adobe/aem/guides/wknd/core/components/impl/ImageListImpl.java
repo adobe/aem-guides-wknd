@@ -116,15 +116,16 @@ public class ImageListImpl implements ImageList {
 
         private final com.adobe.cq.wcm.core.components.models.ListItem wrappedListItem;
         private final Resource image;
+        private final Page page;
 
         public ImageListItemImpl(final ResourceResolver resourceResolver,
                                  final com.adobe.cq.wcm.core.components.models.ListItem listItem) {
 
             final PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
+            this.wrappedListItem = listItem;
+            this.page = pageManager.getContainingPage(wrappedListItem.getPath());          
 
-            wrappedListItem = listItem;
-
-            image = findPageComponentResources(pageManager.getContainingPage(wrappedListItem.getPath()), IMAGE_RESOURCE_TYPE, 1).stream()
+            image = findPageComponentResources(this.page, IMAGE_RESOURCE_TYPE, 1).stream()
                     .map(r -> new SimpleImageComponentResource(r, getTitle()))
                     .findFirst()
                     .orElse(null);
@@ -141,7 +142,7 @@ public class ImageListImpl implements ImageList {
 
         @Override
         public String getDescription() {
-            return wrappedListItem.getDescription();
+            return this.page.getProperties().get("shortDescription", this.page.getDescription());
         }
 
         @Override
