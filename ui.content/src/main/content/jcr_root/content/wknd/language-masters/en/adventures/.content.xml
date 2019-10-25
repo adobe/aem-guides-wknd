@@ -2,9 +2,11 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-10-15T14:59:10.455-07:00"
+        cq:lastModified="{Date}2019-10-25T07:29:02.755-07:00"
         cq:lastModifiedBy="admin"
+        cq:tags="[wknd:customer-journey/attract,wknd:customer-journey/engage,wknd:activity/surfing]"
         cq:template="/conf/wknd/settings/wcm/templates/landing-page-template"
+        jcr:description="Join us on one of our next adventures.  Browse our list of curated experiences and sign up for one when you're ready to explore with us."
         jcr:primaryType="cq:PageContent"
         jcr:title="Adventures"
         sling:resourceType="wknd/components/structure/page">

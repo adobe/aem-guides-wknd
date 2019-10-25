@@ -2,9 +2,11 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-10-18T18:46:24.391-07:00"
+        cq:lastModified="{Date}2019-10-25T07:52:12.215-07:00"
         cq:lastModifiedBy="admin"
+        cq:tags="[wknd:customer-journey/engage,wknd:customer-journey/convert,wknd:region/nam/united-states,wknd:season/winter,wknd:activity/skiing]"
         cq:template="/conf/wknd/settings/wcm/templates/adventure-page-template"
+        jcr:description="A skiers paradise far from crowds and close to nature with terrain so vast it appears uncharted.  With 2,500 acres of legendary terrain, unmatched levels of snowfall each winter, and unparalleled backcountry access, Jackson Hole offers a truly unique skiing experience."
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"

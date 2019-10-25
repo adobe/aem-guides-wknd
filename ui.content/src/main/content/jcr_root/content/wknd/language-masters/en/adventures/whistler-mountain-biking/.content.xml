@@ -2,9 +2,11 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-10-18T19:38:52.287-07:00"
+        cq:lastModified="{Date}2019-10-25T07:50:07.924-07:00"
         cq:lastModifiedBy="admin"
+        cq:tags="[wknd:customer-journey/engage,wknd:customer-journey/convert,wknd:region/nam/canada,wknd:season/summer,wknd:activity/cycling]"
         cq:template="/conf/wknd/settings/wcm/templates/adventure-page-template"
+        jcr:description="Whistler is often considered North America’s preeminent mountain bike destination.  Let us show you why."
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"

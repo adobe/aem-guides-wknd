@@ -2,9 +2,11 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-10-21T12:10:00.998-07:00"
-        cq:lastModifiedBy="reference-adjustment-service"
+        cq:lastModified="{Date}2019-10-25T07:36:00.253-07:00"
+        cq:lastModifiedBy="admin"
+        cq:tags="[wknd:customer-journey/engage,wknd:customer-journey/convert,wknd:activity/surfing,wknd:season/summer]"
         cq:template="/conf/wknd/settings/wcm/templates/adventure-page-template"
+        jcr:description="Costa Rica is the ideal location for a first surf trip. It is a safe place to travel and the locals are quite friendly and happy to see other surfers."
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"

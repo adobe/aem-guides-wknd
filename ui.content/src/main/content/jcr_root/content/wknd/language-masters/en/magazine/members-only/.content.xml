@@ -13,7 +13,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Members Only"
-        jcr:uuid="3a5a8f6a-85b5-4890-b5a3-8faa10bc8732"
+        jcr:uuid="f6ec735e-bb05-4440-b63a-07587fda1369"
         sling:resourceType="wknd/components/structure/page">
         <root
             jcr:primaryType="nt:unstructured"

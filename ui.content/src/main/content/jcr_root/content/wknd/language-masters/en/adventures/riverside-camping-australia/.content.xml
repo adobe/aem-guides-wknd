@@ -2,9 +2,11 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-10-18T18:39:30.178-07:00"
+        cq:lastModified="{Date}2019-10-25T07:32:07.883-07:00"
         cq:lastModifiedBy="admin"
+        cq:tags="[wknd:customer-journey/engage,wknd:customer-journey/convert,wknd:region/apac/australia,wknd:season/summer,wknd:activity/hiking,wknd:activity/camping,wknd:activity/hunting-fishing]"
         cq:template="/conf/wknd/settings/wcm/templates/adventure-page-template"
+        jcr:description="Learn how to pitch a tent by the Siegel River, catch local cod, and spot unique Australian wildlife on this retreat. Or, you can sit back in the shade with a cool beverage and a book until it's too dark to read, then tell stories around a campfire. "
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"

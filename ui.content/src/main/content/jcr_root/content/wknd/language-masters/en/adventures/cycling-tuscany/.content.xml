@@ -2,9 +2,11 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-10-18T18:46:09.146-07:00"
+        cq:lastModified="{Date}2019-10-25T07:54:57.492-07:00"
         cq:lastModifiedBy="admin"
+        cq:tags="[wknd:customer-journey/engage,wknd:customer-journey/convert,wknd:activity/cycling,wknd:activity/social,wknd:season/summer,wknd:region/emea/italy]"
         cq:template="/conf/wknd/settings/wcm/templates/adventure-page-template"
+        jcr:description="Visiting Tuscany on a bicycle is about experiencing the old world charm of Italy on your own terms."
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
