@@ -116,28 +116,6 @@
                                     width="9"/>
                             </cq:responsive>
                         </contentfragment>
-                        <button
-                            cq:styleIds="[1570236090914]"
-                            jcr:created="{Date}2019-10-12T07:08:36.710-07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-10-12T07:09:04.457-07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            jcr:title="Select Date"
-                            sling:resourceType="wknd/components/content/button"
-                            accessibilityLabel="select the date"
-                            link="#modal">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <tablet
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="0"
-                                    width="3"/>
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="0"
-                                    width="5"/>
-                            </cq:responsive>
-                        </button>
                         <title
                             jcr:created="{Date}2019-10-12T07:12:15.915-07:00"
                             jcr:createdBy="admin"
