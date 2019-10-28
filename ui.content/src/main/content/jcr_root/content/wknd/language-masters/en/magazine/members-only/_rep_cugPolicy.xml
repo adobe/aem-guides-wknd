@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
     jcr:primaryType="rep:CugPolicy"
-    rep:principalNames="[wkndmembers,wkndmembers,wkndmembers]"/>
+    rep:principalNames="[wkndmembers]"/>

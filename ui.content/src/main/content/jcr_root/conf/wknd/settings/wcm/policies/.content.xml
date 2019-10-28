@@ -1415,7 +1415,7 @@
                 </search>
                 <page jcr:primaryType="nt:unstructured">
                     <policy_1555624447675
-                        jcr:lastModified="{Date}2019-09-26T15:03:19.053-07:00"
+                        jcr:lastModified="{Date}2019-10-28T11:27:25.807-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Landing Page"
@@ -1427,17 +1427,6 @@
                             cq:lastReplicationAction="Activate"
                             jcr:mixinTypes="[cq:ReplicationStatus]"
                             jcr:primaryType="nt:unstructured"/>
-                        <cq:styleGroups jcr:primaryType="nt:unstructured">
-                            <item0 jcr:primaryType="nt:unstructured">
-                                <cq:styles jcr:primaryType="nt:unstructured">
-                                    <item0
-                                        cq:styleClasses="wknd-page--home"
-                                        cq:styleId="1555624476368"
-                                        cq:styleLabel="Homepage"
-                                        jcr:primaryType="nt:unstructured"/>
-                                </cq:styles>
-                            </item0>
-                        </cq:styleGroups>
                     </policy_1555624447675>
                     <policy_654210257255105
                         jcr:lastModified="{Date}2019-09-26T15:03:52.447-07:00"
