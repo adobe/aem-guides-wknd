@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:exifEX="http://cipa.jp/exif/1.0/" xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:psAux="http://ns.adobe.com/exif/1.0/aux/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="08256501-bd82-4f38-9893-ecd1f67f87e4">
     <jcr:content
+        cq:name="Adobe_WAAdobe_WA_MG_3094.JPG"
+        cq:parentPath="/content/dam/wknd/en/magazine/western-australia"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-01T15:42:25.421-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:50:36.331-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -122,7 +125,7 @@
             crs:WhiteBalance="Tungsten"
             crs:Whites2012="{Long}-3"
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2019-10-01T15:42:24.915-07:00"
+            dam:extracted="{Date}2019-10-25T16:49:02.951-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -132,7 +135,7 @@
             dam:Physicalwidthindpi="{Long}300"
             dam:Physicalwidthininches="{Decimal}4.266666889190674"
             dam:Progressive="no"
-            dam:sha1="797e7d77a82ef4b3032badc70f3ea97effe403fb"
+            dam:sha1="5f5695149f66bbcb13af04d190c9af420abbc739"
             dam:size="{Long}173150"
             dam:TimeCreated="123146+0000"
             dc:creator="[Robert Bergelt,Robert Bergelt,Robert Bergelt]"
@@ -140,6 +143,7 @@
             dc:date="{Long}[20150707]"
             dc:date_xmpArrayType="rdf:Bag"
             dc:format="image/jpeg"
+            dc:modified="{Date}2019-10-25T16:50:31.098-07:00"
             dc:rights="Robert Bergelt"
             exif:ApertureValue="3356144/1000000"
             exif:ColorSpace="{Long}65535"
@@ -173,6 +177,8 @@
             exifEX:PhotographicSensitivity="{Long}1250"
             exifEX:RecommendedExposureIndex="{Long}1250"
             exifEX:SensitivityType="{Long}2"
+            jcr:lastModified="{Date}2019-10-25T16:50:31.098-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             photoshop:ColorMode="{Long}3"
@@ -216,6 +222,12 @@
                 exif:RedEyeMode="{Boolean}false"
                 exif:Return="{Long}0"
                 jcr:primaryType="nt:unstructured"
+                xmpNodeType="xmpStruct"/>
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="adobe:docid:photoshop:f3e6caab-5cf8-1179-9d1c-c0251f5a06b8"
+                stRef:instanceID="xmp.iid:80759dc8-87cd-4c89-8049-dfea87f5ad12"
+                stRef:originalDocumentID="EDD79FA7EB20AAC90BDC05EFEDC07F9F"
                 xmpNodeType="xmpStruct"/>
             <xmpMM:History
                 jcr:primaryType="nt:unstructured"
@@ -270,12 +282,6 @@
                     stEvt:when="{Date}2019-10-01T15:26:33.000-07:00"
                     xmpNodeType="xmpStruct"/>
             </xmpMM:History>
-            <xmpMM:DerivedFrom
-                jcr:primaryType="nt:unstructured"
-                stRef:documentID="adobe:docid:photoshop:f3e6caab-5cf8-1179-9d1c-c0251f5a06b8"
-                stRef:instanceID="xmp.iid:80759dc8-87cd-4c89-8049-dfea87f5ad12"
-                stRef:originalDocumentID="EDD79FA7EB20AAC90BDC05EFEDC07F9F"
-                xmpNodeType="xmpStruct"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

@@ -7,31 +7,31 @@
     <jcr:content
         cq:name="UltimateGuidetoLASkateParks.pdf"
         cq:parentPath="/content/dam/wknd/en/magazine/la-skateparks"
-        dam:assetState="processing"
-        jcr:lastModified="{Date}2019-10-14T15:12:05.324-07:00"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2019-10-25T16:51:11.189-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2019-10-14T15:11:57.264-07:00"
+            dam:extracted="{Date}2019-10-25T16:51:00.999-07:00"
             dam:numPages="{Long}2"
             dam:Physicalheightininches="{Decimal}11.0"
             dam:Physicalwidthininches="{Decimal}8.5"
             dam:Producer="macOS Version 10.14.5 (Build 18F132) Quartz PDFContext"
-            dam:sha1="1f855b75a1bb20ba1c1ffb3c317c45e849c442f2"
-            dam:size="{Long}138360"
+            dam:sha1="22fc7f7ab7bd3d09ca716ab728e7648a39b26a7f"
+            dam:size="{Long}143191"
             dc:format="application/pdf"
             dc:modified="{Date}2019-10-14T15:12:05.066-07:00"
             dc:title="Ultimate Guide To LA Skateparks PDF"
-            jcr:lastModified="{Date}2019-10-14T15:12:05.066-07:00"
+            jcr:lastModified="{Date}2019-10-25T16:49:47.212-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
-            jcr:title="Microsoft Word - Document1"
+            jcr:title="Ultimate Guide To LA Skateparks PDF"
             pdf:Producer="macOS Version 10.14.5 (Build 18F132) Quartz PDFContext"
             xmp:CreateDate="{Date}2019-10-14T15:10:46.000-07:00"
             xmp:CreatorTool="Word"
-            xmp:MetadataDate="{Date}2019-10-14T22:10:46.000Z"
-            xmp:ModifyDate="{Date}2019-10-14T15:10:46.000-07:00"/>
+            xmp:MetadataDate="{Date}2019-10-25T16:49:48.000-07:00"
+            xmp:ModifyDate="{Date}2019-10-25T16:49:48.000-07:00"/>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>

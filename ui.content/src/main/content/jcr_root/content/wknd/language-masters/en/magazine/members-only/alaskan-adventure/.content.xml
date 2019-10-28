@@ -2,18 +2,19 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-10-22T13:27:56.598-07:00"
+        cq:lastModified="{Date}2019-10-25T07:11:39.761-07:00"
         cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
         cq:lastReplicatedBy="admin"
         cq:lastReplicationAction="Activate"
+        cq:tags="[wknd:customer-journey/attract,wknd:customer-journey/engage,wknd:region/nam/united-states,wknd:season/winter,wknd:activity/hunting-fishing]"
         cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
-        jcr:description="Discover the 49th state"
+        jcr:description="My brother and I had an amazing Alaskan adventure. Read about how we lived on glaciers for 18 days."
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Alaskan Adventure"
-        jcr:uuid="a8e09d19-b07d-4137-9da7-6b16021ea0ce"
+        jcr:uuid="8c2630d6-b2e9-4dc7-a5d2-aef6a7b5c3fd"
         sling:resourceType="wknd/components/structure/page"
         socialMedia="[facebook,pinterest]">
         <root

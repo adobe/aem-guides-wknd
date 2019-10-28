@@ -2,76 +2,78 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-10-14T14:19:43.349-07:00"
+        cq:lastModified="{Date}2019-10-28T11:02:10.499-07:00"
         cq:lastModifiedBy="admin"
-        cq:lastRolledout="{Date}2019-10-14T14:19:43.349-07:00"
+        cq:lastRolledout="{Date}2019-10-28T11:02:10.500-07:00"
         cq:lastRolledoutBy="admin"
+        cq:tags="[]"
         cq:template="/conf/wknd/settings/wcm/templates/content-page-template"
+        jcr:description="Here we answer some of the questions that we hear most often from the community."
         jcr:mixinTypes="[cq:LiveRelationship]"
         jcr:primaryType="cq:PageContent"
         jcr:title="FAQs"
         sling:resourceType="wknd/components/structure/page">
         <root
-            cq:lastRolledout="{Date}2019-10-14T14:19:43.235-07:00"
+            cq:lastRolledout="{Date}2019-10-28T11:02:10.386-07:00"
             cq:lastRolledoutBy="admin"
             jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
             <responsivegrid
-                cq:lastRolledout="{Date}2019-10-14T14:19:43.238-07:00"
+                cq:lastRolledout="{Date}2019-10-28T11:02:10.392-07:00"
                 cq:lastRolledoutBy="admin"
-                jcr:lastModified="{Date}2019-10-14T14:19:43.236-07:00"
+                jcr:lastModified="{Date}2019-10-28T11:02:10.386-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
                 <responsivegrid_2048869544
-                    cq:lastRolledout="{Date}2019-10-14T14:19:43.241-07:00"
+                    cq:lastRolledout="{Date}2019-10-28T11:02:10.398-07:00"
                     cq:lastRolledoutBy="admin"
                     cq:styleIds="[1554340406437]"
                     jcr:created="{Date}2019-10-14T10:15:52.656-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-10-14T14:19:43.239-07:00"
+                    jcr:lastModified="{Date}2019-10-28T11:02:10.393-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
                     <cq:responsive
-                        cq:lastRolledout="{Date}2019-10-14T14:19:43.244-07:00"
+                        cq:lastRolledout="{Date}2019-10-28T11:02:10.400-07:00"
                         cq:lastRolledoutBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"/>
                     <responsivegrid
-                        cq:lastRolledout="{Date}2019-10-14T14:19:43.247-07:00"
+                        cq:lastRolledout="{Date}2019-10-28T11:02:10.404-07:00"
                         cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2019-10-14T10:19:24.180-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-14T14:19:43.245-07:00"
+                        jcr:lastModified="{Date}2019-10-28T11:02:10.400-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/foundation/components/responsivegrid">
                         <cq:responsive
-                            cq:lastRolledout="{Date}2019-10-14T14:19:43.249-07:00"
+                            cq:lastRolledout="{Date}2019-10-28T11:02:10.406-07:00"
                             cq:lastRolledoutBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured">
                             <default
-                                cq:lastRolledout="{Date}2019-10-14T14:19:43.253-07:00"
+                                cq:lastRolledout="{Date}2019-10-28T11:02:10.409-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
                                 width="8"/>
                             <tablet
-                                cq:lastRolledout="{Date}2019-10-14T14:19:43.270-07:00"
+                                cq:lastRolledout="{Date}2019-10-28T11:02:10.410-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
                                 width="12"/>
                             <phone
-                                cq:lastRolledout="{Date}2019-10-14T14:19:43.272-07:00"
+                                cq:lastRolledout="{Date}2019-10-28T11:02:10.412-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
@@ -79,23 +81,23 @@
                                 width="12"/>
                         </cq:responsive>
                         <title
-                            cq:lastRolledout="{Date}2019-10-14T14:19:43.275-07:00"
+                            cq:lastRolledout="{Date}2019-10-28T11:02:10.415-07:00"
                             cq:lastRolledoutBy="admin"
                             cq:styleIds="[1568996484405]"
                             jcr:created="{Date}2019-10-14T09:28:37.553-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-10-14T14:19:43.273-07:00"
+                            jcr:lastModified="{Date}2019-10-28T11:02:10.413-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/content/title">
                             <cq:responsive
-                                cq:lastRolledout="{Date}2019-10-14T14:19:43.276-07:00"
+                                cq:lastRolledout="{Date}2019-10-28T11:02:10.416-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured">
                                 <phone
-                                    cq:lastRolledout="{Date}2019-10-14T14:19:43.278-07:00"
+                                    cq:lastRolledout="{Date}2019-10-28T11:02:10.418-07:00"
                                     cq:lastRolledoutBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
@@ -103,204 +105,278 @@
                                     width="12"/>
                             </cq:responsive>
                         </title>
+                        <image
+                            cq:lastRolledout="{Date}2019-10-28T11:02:10.420-07:00"
+                            cq:lastRolledoutBy="admin"
+                            jcr:created="{Date}2019-10-25T11:23:20.439-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-10-28T11:02:10.419-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:mixinTypes="[cq:LiveRelationship]"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wknd/components/content/image"
+                            fileReference="/content/dam/wknd/en/adventures/climbing-new-zealand/AdobeStock_277768563.jpeg">
+                            <cq:responsive
+                                cq:lastRolledout="{Date}2019-10-28T11:02:10.421-07:00"
+                                cq:lastRolledoutBy="admin"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
+                                jcr:primaryType="nt:unstructured">
+                                <default
+                                    cq:lastRolledout="{Date}2019-10-28T11:02:10.423-07:00"
+                                    cq:lastRolledoutBy="admin"
+                                    jcr:mixinTypes="[cq:LiveRelationship]"
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="8"/>
+                            </cq:responsive>
+                        </image>
                         <text
-                            cq:lastRolledout="{Date}2019-10-14T14:19:43.281-07:00"
+                            cq:lastRolledout="{Date}2019-10-28T11:02:10.426-07:00"
                             cq:lastRolledoutBy="admin"
                             jcr:created="{Date}2019-10-14T09:28:54.146-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-10-14T14:19:43.279-07:00"
+                            jcr:lastModified="{Date}2019-10-28T11:02:10.424-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/content/text"
-                            text="&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer euismod odio non leo pretium pellentesque. Curabitur blandit urna cursus, malesuada erat ut, egestas odio. Quisque suscipit, urna ac vulputate sollicitudin, mi urna elementum augue, id tristique arcu erat non enim.&lt;/p>&#xd;&#xa;"
+                            text="&lt;p>WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world. Our objective is create a community to help like-minded adventure seekers find fun, engaging, and responsible ways to to enjoy life and create lasting memories.&lt;/p>&#xa;"
                             textIsRich="true">
                             <cq:responsive
-                                cq:lastRolledout="{Date}2019-10-14T14:19:43.282-07:00"
+                                cq:lastRolledout="{Date}2019-10-28T11:02:10.427-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured">
                                 <phone
-                                    cq:lastRolledout="{Date}2019-10-14T14:19:43.285-07:00"
+                                    cq:lastRolledout="{Date}2019-10-28T11:02:10.429-07:00"
                                     cq:lastRolledoutBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
                                     offset="0"
                                     width="12"/>
+                                <default
+                                    cq:lastRolledout="{Date}2019-10-28T11:02:10.431-07:00"
+                                    cq:lastRolledoutBy="admin"
+                                    jcr:mixinTypes="[cq:LiveRelationship]"
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="8"/>
                             </cq:responsive>
                         </text>
                         <accordion
-                            cq:lastRolledout="{Date}2019-10-14T14:19:43.288-07:00"
+                            cq:lastRolledout="{Date}2019-10-28T11:02:10.435-07:00"
                             cq:lastRolledoutBy="admin"
                             jcr:created="{Date}2019-10-14T09:29:31.848-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-10-14T14:19:43.286-07:00"
+                            jcr:lastModified="{Date}2019-10-28T11:02:10.432-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/content/accordion"
                             headingElement="h3"
                             singleExpansion="false">
-                            <item_1571070731882
-                                cq:lastRolledout="{Date}2019-10-14T14:19:43.292-07:00"
-                                cq:lastRolledoutBy="admin"
-                                cq:panelTitle="Is this a real company?"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wcm/foundation/components/responsivegrid">
-                                <text
-                                    cq:lastRolledout="{Date}2019-10-14T14:19:43.297-07:00"
-                                    cq:lastRolledoutBy="admin"
-                                    jcr:created="{Date}2019-10-14T09:32:49.895-07:00"
-                                    jcr:createdBy="admin"
-                                    jcr:lastModified="{Date}2019-10-14T14:19:43.295-07:00"
-                                    jcr:lastModifiedBy="admin"
-                                    jcr:mixinTypes="[cq:LiveRelationship]"
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="wknd/components/content/text"
-                                    text="&lt;p>No. The WKND is a fictional online magazine and adventure company that focuses on outdoor activities and trips across the globe. The WKND site is designed to demonstrate functionality for Adobe Experience Manager. There is also a corresponding tutorial that walks a developer through the development.&amp;nbsp; Special thanks to&amp;nbsp;&lt;b>Lorenzo Buosi &lt;/b>and&lt;b> Kilian Amendola &lt;/b>who&amp;nbsp;created the beautiful design for the WKND site.&lt;/p>&#xd;&#xa;"
-                                    textIsRich="true"/>
-                                <image
-                                    cq:lastRolledout="{Date}2019-10-14T14:19:43.300-07:00"
-                                    cq:lastRolledoutBy="admin"
-                                    jcr:created="{Date}2019-10-14T10:13:36.773-07:00"
-                                    jcr:createdBy="admin"
-                                    jcr:lastModified="{Date}2019-10-14T14:19:43.298-07:00"
-                                    jcr:lastModifiedBy="admin"
-                                    jcr:mixinTypes="[cq:LiveRelationship]"
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="wknd/components/content/image"
-                                    fileReference="/content/dam/wknd/en/magazine/la-skateparks/skateboard-hero.jpg"
-                                    imageCrop="0,323,1277,749"/>
-                            </item_1571070731882>
-                            <item_1
-                                cq:lastRolledout="{Date}2019-10-14T14:19:43.302-07:00"
-                                cq:lastRolledoutBy="admin"
-                                cq:panelTitle="What is lorem ipsum?"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="Item 1"
-                                sling:resourceType="wcm/foundation/components/responsivegrid">
-                                <text
-                                    cq:lastRolledout="{Date}2019-10-14T14:19:43.305-07:00"
-                                    cq:lastRolledoutBy="admin"
-                                    jcr:created="{Date}2019-10-14T09:51:23.154-07:00"
-                                    jcr:createdBy="admin"
-                                    jcr:lastModified="{Date}2019-10-14T14:19:43.303-07:00"
-                                    jcr:lastModifiedBy="admin"
-                                    jcr:mixinTypes="[cq:LiveRelationship]"
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="wknd/components/content/text"
-                                    text="&lt;p>&lt;b>Lorem Ipsum&lt;/b>&amp;nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>&#xd;&#xa;"
-                                    textIsRich="true"/>
-                            </item_1>
-                            <item_2
-                                cq:lastRolledout="{Date}2019-10-14T14:19:43.307-07:00"
-                                cq:lastRolledoutBy="admin"
-                                cq:panelTitle="Why do we use it?"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="Item 2"
-                                sling:resourceType="wcm/foundation/components/responsivegrid">
-                                <text
-                                    cq:lastRolledout="{Date}2019-10-14T14:19:43.310-07:00"
-                                    cq:lastRolledoutBy="admin"
-                                    jcr:created="{Date}2019-10-14T10:12:29.401-07:00"
-                                    jcr:createdBy="admin"
-                                    jcr:lastModified="{Date}2019-10-14T14:19:43.309-07:00"
-                                    jcr:lastModifiedBy="admin"
-                                    jcr:mixinTypes="[cq:LiveRelationship]"
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="wknd/components/content/text"
-                                    text="&lt;p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&lt;/p>&#xd;&#xa;"
-                                    textIsRich="true"/>
-                            </item_2>
-                            <item_1571070705187
-                                cq:lastRolledout="{Date}2019-10-14T14:19:43.312-07:00"
-                                cq:lastRolledoutBy="admin"
-                                cq:panelTitle="Where does it come from?"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wcm/foundation/components/responsivegrid">
-                                <text
-                                    cq:lastRolledout="{Date}2019-10-14T14:19:43.316-07:00"
-                                    cq:lastRolledoutBy="admin"
-                                    jcr:created="{Date}2019-10-14T10:12:54.254-07:00"
-                                    jcr:createdBy="admin"
-                                    jcr:lastModified="{Date}2019-10-14T14:19:43.314-07:00"
-                                    jcr:lastModifiedBy="admin"
-                                    jcr:mixinTypes="[cq:LiveRelationship]"
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="wknd/components/content/text"
-                                    text="&lt;p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &amp;quot;de Finibus Bonorum et Malorum&amp;quot; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &amp;quot;Lorem ipsum dolor sit amet..&amp;quot;, comes from a line in section 1.10.32.&lt;/p>&#xd;&#xa;&lt;p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from &amp;quot;de Finibus Bonorum et Malorum&amp;quot; by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.&lt;/p>&#xd;&#xa;"
-                                    textIsRich="true"/>
-                            </item_1571070705187>
-                            <item_1571070718887
-                                cq:lastRolledout="{Date}2019-10-14T14:19:43.317-07:00"
-                                cq:lastRolledoutBy="admin"
-                                cq:panelTitle="Where can I get some samples?"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wcm/foundation/components/responsivegrid">
-                                <text
-                                    cq:lastRolledout="{Date}2019-10-14T14:19:43.321-07:00"
-                                    cq:lastRolledoutBy="admin"
-                                    jcr:created="{Date}2019-10-14T10:13:09.156-07:00"
-                                    jcr:createdBy="admin"
-                                    jcr:lastModified="{Date}2019-10-14T14:19:43.319-07:00"
-                                    jcr:lastModifiedBy="admin"
-                                    jcr:mixinTypes="[cq:LiveRelationship]"
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="wknd/components/content/text"
-                                    text="&lt;p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.&lt;/p>&#xd;&#xa;"
-                                    textIsRich="true"/>
-                            </item_1571070718887>
                             <cq:responsive
-                                cq:lastRolledout="{Date}2019-10-14T14:19:43.321-07:00"
+                                cq:lastRolledout="{Date}2019-10-28T11:02:10.437-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured">
                                 <phone
-                                    cq:lastRolledout="{Date}2019-10-14T14:19:43.323-07:00"
+                                    cq:lastRolledout="{Date}2019-10-28T11:02:10.439-07:00"
                                     cq:lastRolledoutBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
                                     offset="0"
                                     width="12"/>
                             </cq:responsive>
+                            <item_1571070731882
+                                cq:lastRolledout="{Date}2019-10-28T11:02:10.441-07:00"
+                                cq:lastRolledoutBy="admin"
+                                cq:panelTitle="Who is WKND's intended audience?"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/foundation/components/responsivegrid">
+                                <text
+                                    cq:lastRolledout="{Date}2019-10-28T11:02:10.444-07:00"
+                                    cq:lastRolledoutBy="admin"
+                                    jcr:created="{Date}2019-10-14T09:32:49.895-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-28T11:02:10.442-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:mixinTypes="[cq:LiveRelationship]"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/text"
+                                    text="&lt;p>We believe the best adventures and activities are those that are accessible to everyone. WKND is designed to be inclusive of all age ranges, abilities, and budget-levels. We strive to cater to the thrill-seeking adrenaline junkie BASE-jumpers as well as novices that have a spare weekend and interest in trying something new.&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p>&#xa;"
+                                    textIsRich="true"/>
+                            </item_1571070731882>
+                            <item_1
+                                cq:lastRolledout="{Date}2019-10-28T11:02:10.446-07:00"
+                                cq:lastRolledoutBy="admin"
+                                cq:panelTitle="How does WKND pay for itself?"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Item 1"
+                                sling:resourceType="wcm/foundation/components/responsivegrid">
+                                <text
+                                    cq:lastRolledout="{Date}2019-10-28T11:02:10.449-07:00"
+                                    cq:lastRolledoutBy="admin"
+                                    jcr:created="{Date}2019-10-14T09:51:23.154-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-28T11:02:10.447-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:mixinTypes="[cq:LiveRelationship]"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/text"
+                                    text="&lt;p>WKND charges a small fee for local promoters that want to sponsor their adventures and events on the WKND site.&amp;nbsp; Sponsored Adventures may get sorted to more prominent positions in our Adventures listings pages.&lt;/p>&#xa;&lt;h3>&amp;nbsp;&lt;/h3>&#xa;"
+                                    textIsRich="true"/>
+                            </item_1>
+                            <item_2
+                                cq:lastRolledout="{Date}2019-10-28T11:02:10.451-07:00"
+                                cq:lastRolledoutBy="admin"
+                                cq:panelTitle="Can I contribute to WKND?"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Item 2"
+                                sling:resourceType="wcm/foundation/components/responsivegrid">
+                                <text
+                                    cq:lastRolledout="{Date}2019-10-28T11:02:10.454-07:00"
+                                    cq:lastRolledoutBy="admin"
+                                    jcr:created="{Date}2019-10-14T10:12:29.401-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-28T11:02:10.452-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:mixinTypes="[cq:LiveRelationship]"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/text"
+                                    text="&lt;p>Yes!&amp;nbsp; If you have the expertise and&amp;nbsp;experiences&amp;nbsp;to share, we’ll provide the platform to spread it.&amp;nbsp; As a Guest Writer, you will play an integral role in helping people find fun and cool things to do in your community.&lt;/p>&#xa;"
+                                    textIsRich="true"/>
+                            </item_2>
+                            <item_1571070705187
+                                cq:lastRolledout="{Date}2019-10-28T11:02:10.455-07:00"
+                                cq:lastRolledoutBy="admin"
+                                cq:panelTitle="How often is WKDN updated?"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/foundation/components/responsivegrid">
+                                <text
+                                    cq:lastRolledout="{Date}2019-10-28T11:02:10.458-07:00"
+                                    cq:lastRolledoutBy="admin"
+                                    jcr:created="{Date}2019-10-14T10:12:54.254-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-28T11:02:10.457-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:mixinTypes="[cq:LiveRelationship]"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/text"
+                                    text="&lt;p>WKND is updated daily to provide you with the latest in-depth articles on fun activities that we’ve recently exploring and new adventures that are available for you to discover.&amp;nbsp; Come back often to see the latest or subscribe to our social feeds.&lt;/p>&#xa;"
+                                    textIsRich="true"/>
+                            </item_1571070705187>
+                            <item_1571070718887
+                                cq:lastRolledout="{Date}2019-10-28T11:02:10.460-07:00"
+                                cq:lastRolledoutBy="admin"
+                                cq:panelTitle="When was WKND founded?"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/foundation/components/responsivegrid">
+                                <text
+                                    cq:lastRolledout="{Date}2019-10-28T11:02:10.463-07:00"
+                                    cq:lastRolledoutBy="admin"
+                                    jcr:created="{Date}2019-10-14T10:13:09.156-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-28T11:02:10.462-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:mixinTypes="[cq:LiveRelationship]"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/text"
+                                    text="&lt;p>WKND was created in 2015 when our founders, Daniel and Kilian, realized that their friends and family were constantly using them as resources to find fun things to do while they were in Los Angeles. They loved sharing ideas about fun events and activities they knew of, but wanted to be able to do it at larger scale across communities.&amp;nbsp; They decided to start WKND as a way to share their insights and experiences with as many people as possible.&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p>&#xa;"
+                                    textIsRich="true"/>
+                            </item_1571070718887>
+                            <item_1572027287775
+                                cq:lastRolledout="{Date}2019-10-28T11:02:10.465-07:00"
+                                cq:lastRolledoutBy="admin"
+                                cq:panelTitle="Is a hot dog a sandwich?"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/foundation/components/responsivegrid">
+                                <text
+                                    cq:lastRolledout="{Date}2019-10-28T11:02:10.468-07:00"
+                                    cq:lastRolledoutBy="admin"
+                                    jcr:created="{Date}2019-10-25T11:18:51.723-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-28T11:02:10.466-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:mixinTypes="[cq:LiveRelationship]"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/text"
+                                    text="&lt;p>While it may be described as meat between two pieces of bread, a hot dog is just a sandwich in the same way Michael Jordan was just a basketball player or William Shakespeare was just a playwright.&amp;nbsp; Technically true, but vastly understated.&lt;/p>&#xa;"
+                                    textIsRich="true"/>
+                            </item_1572027287775>
+                            <item_1572027298182
+                                cq:lastRolledout="{Date}2019-10-28T11:02:10.470-07:00"
+                                cq:lastRolledoutBy="admin"
+                                cq:panelTitle="Is WKND a real company?"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/foundation/components/responsivegrid">
+                                <text
+                                    cq:lastRolledout="{Date}2019-10-28T11:02:10.473-07:00"
+                                    cq:lastRolledoutBy="admin"
+                                    jcr:created="{Date}2019-10-25T11:19:22.144-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-28T11:02:10.471-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:mixinTypes="[cq:LiveRelationship]"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/text"
+                                    text="&lt;p>No. The WKND is a fictional online magazine and adventure company that focuses on outdoor activities and trips across the globe. The WKND site is designed to demonstrate functionality for Adobe Experience Manager. There is also a corresponding tutorial that walks a developer through the development.&amp;nbsp; Special thanks to&amp;nbsp;&lt;b>Lorenzo Buosi&amp;nbsp;&lt;/b>and&lt;b>&amp;nbsp;Kilian Amendola&amp;nbsp;&lt;/b>who&amp;nbsp;created the beautiful design for the WKND site.&lt;/p>&#xa;"
+                                    textIsRich="true">
+                                    <cq:responsive
+                                        cq:lastRolledout="{Date}2019-10-28T11:02:10.474-07:00"
+                                        cq:lastRolledoutBy="admin"
+                                        jcr:mixinTypes="[cq:LiveRelationship]"
+                                        jcr:primaryType="nt:unstructured">
+                                        <default
+                                            cq:lastRolledout="{Date}2019-10-28T11:02:10.476-07:00"
+                                            cq:lastRolledoutBy="admin"
+                                            jcr:mixinTypes="[cq:LiveRelationship]"
+                                            jcr:primaryType="nt:unstructured"
+                                            offset="0"
+                                            width="12"/>
+                                    </cq:responsive>
+                                </text>
+                            </item_1572027298182>
                         </accordion>
                     </responsivegrid>
                     <responsivegrid_293505757
-                        cq:lastRolledout="{Date}2019-10-14T14:19:43.326-07:00"
+                        cq:lastRolledout="{Date}2019-10-28T11:02:10.479-07:00"
                         cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2019-10-14T10:20:06.270-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-14T14:19:43.324-07:00"
+                        jcr:lastModified="{Date}2019-10-28T11:02:10.477-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/foundation/components/responsivegrid">
                         <cq:responsive
-                            cq:lastRolledout="{Date}2019-10-14T14:19:43.328-07:00"
+                            cq:lastRolledout="{Date}2019-10-28T11:02:10.481-07:00"
                             cq:lastRolledoutBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured">
                             <default
-                                cq:lastRolledout="{Date}2019-10-14T14:19:43.331-07:00"
+                                cq:lastRolledout="{Date}2019-10-28T11:02:10.483-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 offset="1"
                                 width="3"/>
                             <tablet
-                                cq:lastRolledout="{Date}2019-10-14T14:19:43.332-07:00"
+                                cq:lastRolledout="{Date}2019-10-28T11:02:10.485-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
                                 width="12"/>
                             <phone
-                                cq:lastRolledout="{Date}2019-10-14T14:19:43.334-07:00"
+                                cq:lastRolledout="{Date}2019-10-28T11:02:10.486-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
@@ -308,22 +384,22 @@
                                 width="12"/>
                         </cq:responsive>
                         <separator
-                            cq:lastRolledout="{Date}2019-10-14T14:19:43.336-07:00"
+                            cq:lastRolledout="{Date}2019-10-28T11:02:10.488-07:00"
                             cq:lastRolledoutBy="admin"
                             cq:styleIds="[1571075919520,1571075910473]"
                             jcr:created="{Date}2019-10-14T13:49:29.760-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-10-14T14:19:43.335-07:00"
+                            jcr:lastModified="{Date}2019-10-28T11:02:10.487-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/content/separator"/>
                         <title
-                            cq:lastRolledout="{Date}2019-10-14T14:19:43.339-07:00"
+                            cq:lastRolledout="{Date}2019-10-28T11:02:10.491-07:00"
                             cq:lastRolledoutBy="admin"
                             jcr:created="{Date}2019-10-14T10:21:03.118-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-10-14T14:19:43.337-07:00"
+                            jcr:lastModified="{Date}2019-10-28T11:02:10.489-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
@@ -331,12 +407,12 @@
                             sling:resourceType="wknd/components/content/title"
                             type="h3">
                             <cq:responsive
-                                cq:lastRolledout="{Date}2019-10-14T14:19:43.340-07:00"
+                                cq:lastRolledout="{Date}2019-10-28T11:02:10.492-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured">
                                 <phone
-                                    cq:lastRolledout="{Date}2019-10-14T14:19:43.342-07:00"
+                                    cq:lastRolledout="{Date}2019-10-28T11:02:10.494-07:00"
                                     cq:lastRolledoutBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
@@ -345,12 +421,12 @@
                             </cq:responsive>
                         </title>
                         <text
-                            cq:lastRolledout="{Date}2019-10-14T14:19:43.345-07:00"
+                            cq:lastRolledout="{Date}2019-10-28T11:02:10.497-07:00"
                             cq:lastRolledoutBy="admin"
                             cq:styleIds="[1571074070335]"
                             jcr:created="{Date}2019-10-14T10:21:26.357-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-10-14T14:19:43.343-07:00"
+                            jcr:lastModified="{Date}2019-10-28T11:02:10.495-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
@@ -358,12 +434,12 @@
                             text="&lt;p style=&quot;text-align: left;&quot;>Give us a call at &lt;a href=&quot;#&quot;>1-800-800-0000&lt;/a>.&lt;br>&#xd;&#xa;E-mail us at info&lt;a href=&quot;#&quot;>@wknd.com&lt;/a>&lt;br>&#xd;&#xa;We love to talk adventures!&lt;/p>&#xd;&#xa;"
                             textIsRich="true">
                             <cq:responsive
-                                cq:lastRolledout="{Date}2019-10-14T14:19:43.346-07:00"
+                                cq:lastRolledout="{Date}2019-10-28T11:02:10.498-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured">
                                 <phone
-                                    cq:lastRolledout="{Date}2019-10-14T14:19:43.348-07:00"
+                                    cq:lastRolledout="{Date}2019-10-28T11:02:10.500-07:00"
                                     cq:lastRolledoutBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"

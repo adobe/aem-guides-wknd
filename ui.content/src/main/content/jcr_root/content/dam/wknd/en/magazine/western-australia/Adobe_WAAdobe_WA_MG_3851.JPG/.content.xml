@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:exifEX="http://cipa.jp/exif/1.0/" xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:psAux="http://ns.adobe.com/exif/1.0/aux/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="d7ae4202-cb92-4e51-8d9a-42493f923ae9">
     <jcr:content
+        cq:name="Adobe_WAAdobe_WA_MG_3851.JPG"
+        cq:parentPath="/content/dam/wknd/en/magazine/western-australia"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-01T15:42:36.870-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:49:50.980-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -131,7 +134,7 @@
             crs:WhiteBalance="As Shot"
             crs:Whites2012="{Long}-15"
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2019-10-01T15:42:36.329-07:00"
+            dam:extracted="{Date}2019-10-25T16:49:46.536-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -141,14 +144,15 @@
             dam:Physicalwidthindpi="{Long}300"
             dam:Physicalwidthininches="{Decimal}4.266666889190674"
             dam:Progressive="no"
-            dam:sha1="ec9a8022bc6e464238569d46b2f1168feb348803"
-            dam:size="{Long}243670"
-            dam:TimeCreated="091954+0000"
-            dc:creator="[Robert Bergelt,Robert Bergelt,Robert Bergelt]"
+            dam:sha1="005f26f514df693ad0fc2441156584d9624d384f"
+            dam:size="{Long}244443"
+            dam:TimeCreated="091954-0700"
+            dc:creator="[Robert Bergelt,Robert Bergelt,Robert Bergelt,Robert Bergelt,Robert Bergelt,Robert Bergelt,Robert Bergelt]"
             dc:creator_xmpArrayType="rdf:Seq"
-            dc:date="{Long}[20150709]"
-            dc:date_xmpArrayType="rdf:Bag"
+            dc:date="{Long}[20150709,20150709,20150709]"
+            dc:date_xmpArrayType="rdf:Seq"
             dc:format="image/jpeg"
+            dc:modified="{Date}2019-10-25T16:49:21.673-07:00"
             dc:rights="Robert Bergelt"
             exif:ApertureValue="9715962/1000000"
             exif:ColorSpace="{Long}65535"
@@ -182,6 +186,8 @@
             exifEX:PhotographicSensitivity="{Long}500"
             exifEX:RecommendedExposureIndex="{Long}500"
             exifEX:SensitivityType="{Long}2"
+            jcr:lastModified="{Date}2019-10-25T16:49:21.673-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             photoshop:ColorMode="{Long}3"
@@ -227,6 +233,12 @@
                 exif:RedEyeMode="{Boolean}false"
                 exif:Return="{Long}0"
                 jcr:primaryType="nt:unstructured"
+                xmpNodeType="xmpStruct"/>
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="adobe:docid:photoshop:f0112663-5cf8-1179-9d1c-c0251f5a06b8"
+                stRef:instanceID="xmp.iid:1647259f-18d2-4140-b33c-a179e98f4273"
+                stRef:originalDocumentID="E7A20D62A545D365451ECE49739980FB"
                 xmpNodeType="xmpStruct"/>
             <xmpMM:History
                 jcr:primaryType="nt:unstructured"
@@ -289,12 +301,6 @@
                     stEvt:when="{Date}2019-10-01T15:26:35.000-07:00"
                     xmpNodeType="xmpStruct"/>
             </xmpMM:History>
-            <xmpMM:DerivedFrom
-                jcr:primaryType="nt:unstructured"
-                stRef:documentID="adobe:docid:photoshop:f0112663-5cf8-1179-9d1c-c0251f5a06b8"
-                stRef:instanceID="xmp.iid:1647259f-18d2-4140-b33c-a179e98f4273"
-                stRef:originalDocumentID="E7A20D62A545D365451ECE49739980FB"
-                xmpNodeType="xmpStruct"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

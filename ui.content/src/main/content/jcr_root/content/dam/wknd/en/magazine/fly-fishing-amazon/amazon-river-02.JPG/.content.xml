@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:exifEX="http://cipa.jp/exif/1.0/" xmlns:Iptc4xmpExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/" xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:psAux="http://ns.adobe.com/exif/1.0/aux/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:plus="http://ns.useplus.org/ldf/xmp/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="48388f77-dc67-4f44-8806-7f48339c8645">
     <jcr:content
+        cq:name="amazon-river-02.JPG"
+        cq:parentPath="/content/dam/wknd/en/magazine/fly-fishing-amazon"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-01T15:51:19.961-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:50:09.630-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -130,7 +133,8 @@
             crs:Whites2012="{Long}-3"
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20130811"
-            dam:extracted="{Date}2019-10-01T15:51:19.503-07:00"
+            dam:DigitalCreationTime="163433-0700"
+            dam:extracted="{Date}2019-10-25T16:50:01.441-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -140,13 +144,14 @@
             dam:Physicalwidthindpi="{Long}240"
             dam:Physicalwidthininches="{Decimal}5.333333492279053"
             dam:Progressive="no"
-            dam:sha1="98cf27d1049d631b32676f6ee4a48daf42ce4462"
-            dam:size="{Long}319270"
-            dam:TimeCreated="163433+0000"
-            dc:date="{Long}[20130811]"
-            dc:date_xmpArrayType="rdf:Bag"
+            dam:sha1="5eb6b4e63a18861f8c550d8dfe62ab146c305a9a"
+            dam:size="{Long}320101"
+            dam:TimeCreated="163433-0700"
+            dc:date="{Long}[20130811,20130811,20130811]"
+            dc:date_xmpArrayType="rdf:Seq"
             dc:format="image/jpeg"
-            dc:subject="[bolivia,fly-fishing,bolivia,fly-fishing,bolivia,fly-fishing]"
+            dc:modified="{Date}2019-10-25T16:49:22.763-07:00"
+            dc:subject="[bolivia,fly-fishing,bolivia,fly-fishing,bolivia,fly-fishing,bolivia,fly-fishing,bolivia,fly-fishing,bolivia,fly-fishing,bolivia,fly-fishing]"
             dc:subject_xmpArrayType="rdf:Bag"
             exif:ApertureValue="633985/100000"
             exif:ColorSpace="{Long}65535"
@@ -191,6 +196,8 @@
             Iptc4xmpExt:OrganisationInImageName_xmpArrayType="rdf:Bag"
             Iptc4xmpExt:PersonInImage="[nil]"
             Iptc4xmpExt:PersonInImage_xmpArrayType="rdf:Bag"
+            jcr:lastModified="{Date}2019-10-25T16:49:22.763-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             photoshop:ColorMode="{Long}3"
@@ -240,6 +247,12 @@
                 exif:RedEyeMode="{Boolean}false"
                 exif:Return="{Long}0"
                 jcr:primaryType="nt:unstructured"
+                xmpNodeType="xmpStruct"/>
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="xmp.did:f9487aeb-ac3c-4d08-8764-f2f2540b4c10"
+                stRef:instanceID="xmp.iid:f9487aeb-ac3c-4d08-8764-f2f2540b4c10"
+                stRef:originalDocumentID="9A1D1FFF6AA346076690613658A3ABF9"
                 xmpNodeType="xmpStruct"/>
             <Iptc4xmpExt:Event
                 jcr:primaryType="nt:unstructured"
@@ -352,12 +365,6 @@
                     stEvt:when="{Date}2019-10-01T15:31:16.000-07:00"
                     xmpNodeType="xmpStruct"/>
             </xmpMM:History>
-            <xmpMM:DerivedFrom
-                jcr:primaryType="nt:unstructured"
-                stRef:documentID="xmp.did:f9487aeb-ac3c-4d08-8764-f2f2540b4c10"
-                stRef:instanceID="xmp.iid:f9487aeb-ac3c-4d08-8764-f2f2540b4c10"
-                stRef:originalDocumentID="9A1D1FFF6AA346076690613658A3ABF9"
-                xmpNodeType="xmpStruct"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

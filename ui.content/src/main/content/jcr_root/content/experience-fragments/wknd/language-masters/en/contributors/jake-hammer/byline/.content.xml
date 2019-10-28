@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-10-18T13:09:47.106-07:00"
+        cq:lastModified="{Date}2019-10-27T21:20:12.881-07:00"
         cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/wknd/settings/wcm/templates/experience-fragment-web-variation-template"
@@ -30,13 +30,13 @@
                 <byline_copy
                     jcr:created="{Date}2019-09-25T14:32:57.008-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-10-02T12:48:37.119-07:00"
+                    jcr:lastModified="{Date}2019-10-27T21:20:12.824-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/content/byline"
-                    fileReference="/content/dam/wknd/en/contributors/jake_hammer.jpg"
+                    fileReference="/content/dam/wknd/en/contributors/alex-iby-343837.jpg"
                     name="Jake Hammer"
-                    occupations="[Influencer,Surfer]">
+                    occupations="[Influencer,Writer]">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
