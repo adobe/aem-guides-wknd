@@ -8,14 +8,14 @@
         cq:name="AdobeStock_166718157.jpeg"
         cq:parentPath="/content/dam/wknd/en/adventures/downhill-skiing-wyoming"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-24T15:47:42.562-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:48:27.386-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20170612"
-            dam:DigitalCreationTime="130009+0000"
-            dam:extracted="{Date}2019-10-24T15:46:09.555-07:00"
+            dam:DigitalCreationTime="130009-0700"
+            dam:extracted="{Date}2019-10-25T16:48:21.410-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -25,19 +25,19 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}17.40277862548828"
             dam:Progressive="no"
-            dam:sha1="23f56ae7af4b7b564d6be404122dae7b0e86b125"
-            dam:size="{Long}410743"
-            dam:TimeCreated="130009+0000"
+            dam:sha1="ccb1a34b3dd2fd0068d2d1dd5990a1e251880871"
+            dam:size="{Long}417977"
+            dam:TimeCreated="130009-0700"
             dam:Unknown="0:4:0:000067"
-            dc:creator="[Cavan Images]"
+            dc:creator="[Cavan Images,Cavan Images,Cavan Images]"
             dc:creator_xmpArrayType="rdf:Seq"
-            dc:date="{Long}[20170612]"
-            dc:date_xmpArrayType="rdf:Bag"
+            dc:date="{Long}[20170612,20170612,20170612]"
+            dc:date_xmpArrayType="rdf:Seq"
             dc:description="A woman riding a snowmobile in the middle of wyoming."
             dc:format="image/jpeg"
             dc:modified="{Date}2019-10-24T15:47:42.463-07:00"
             dc:rights="©Cavan Social - stock.adobe.com"
-            dc:subject="[Woman,Snowmobile,Field,Snow,Snowmobiling,Tourist,Riding,Cold Temperature,Extreme Sports,Adventure,Healthy Lifestyle,Sunlight,Trees,Nizhny Tagil,Nature,Hobbies,Motion,Winter Sport,Journey,Destinations,Activity,Covering,Transportation,Recreation,Tourism,Deep Snow,Sport,Lifestyle,Environment,Vacation,Russia,Weather,Warm Clothing,Travel,White,Blue,Winter,Rear View,Leisure Activity,Outdoors,Day,One Person,30-35 Years Old,Mid Adult,Mid Adult Woman,Mid Adult Female,Female,Millennial,Caucasian Ethnicity,woman,ride,snowmobile,caucasian,one,mid,adult,incidental,people,wooly,hat,jacket,hood,transportation,snow,tree,winter,track,sunlight,leisure,outdoors,day,hobbies and leisure,Woman,Snowmobile,Field,Snow,Snowmobiling,Tourist,Riding,Cold Temperature,Extreme Sports,Adventure,Healthy Lifestyle,Sunlight,Trees,Nizhny Tagil,Nature,Hobbies,Motion,Winter Sport,Journey,Destinations,Activity,Covering,Transportation,Recreation,Tourism,Deep Snow,Sport,Lifestyle,Environment,Vacation,Russia,Weather,Warm Clothing,Travel,White,Blue,Winter,Rear View,Leisure Activity,Outdoors,Day,One Person,30-35 Years Old,Mid Adult,Mid Adult Woman,Mid Adult Female,Female,Millennial,Caucasian Ethnicity,woman,ride,snowmobile,caucasian,one,mid,adult,incidental,people,wooly,hat,jacket,hood,transportation,snow,tree,winter,track,sunlight,leisure,outdoors,day,hobbies and leisure,Woman,Snowmobile,Field,Snow,Snowmobiling,Tourist,Riding,Cold Temperature,Extreme Sports,Adventure,Healthy Lifestyle,Sunlight,Trees,Nizhny Tagil,Nature,Hobbies,Motion,Winter Sport,Journey,Destinations,Activity,Covering,Transportation,Recreation,Tourism,Deep Snow,Sport,Lifestyle,Environment,Vacation,Russia,Weather,Warm Clothing,Travel,White,Blue,Winter,Rear View,Leisure Activity,Outdoors,Day,One Person,30-35 Years Old,Mid Adult,Mid Adult Woman,Mid Adult Female,Female,Millennial,Caucasian Ethnicity,woman,ride,snowmobile,caucasian,one,mid,adult,incidental,people,wooly,hat,jacket,hood,transportation,snow,tree,winter,track,sunlight,leisure,outdoors,day,hobbies and leisure]"
+            dc:subject="[Woman,Snowmobile,Field,Snow,Snowmobiling,Tourist,Riding,Cold Temperature,Extreme Sports,Adventure,Healthy Lifestyle,Sunlight,Trees,Nizhny Tagil,Nature,Hobbies,Motion,Winter Sport,Journey,Destinations,Activity,Covering,Transportation,Recreation,Tourism,Deep Snow,Sport,Lifestyle,Environment,Vacation,Russia,Weather,Warm Clothing,Travel,White,Blue,Winter,Rear View,Leisure Activity,Outdoors,Day,One Person,30-35 Years Old,Mid Adult,Mid Adult Woman,Mid Adult Female,Female,Millennial,Caucasian Ethnicity,woman,ride,snowmobile,caucasian,one,mid,adult,incidental,people,wooly,hat,jacket,hood,transportation,snow,tree,winter,track,sunlight,leisure,outdoors,day,hobbies and leisure,Woman,Snowmobile,Field,Snow,Snowmobiling,Tourist,Riding,Cold Temperature,Extreme Sports,Adventure,Healthy Lifestyle,Sunlight,Trees,Nizhny Tagil,Nature,Hobbies,Motion,Winter Sport,Journey,Destinations,Activity,Covering,Transportation,Recreation,Tourism,Deep Snow,Sport,Lifestyle,Environment,Vacation,Russia,Weather,Warm Clothing,Travel,White,Blue,Winter,Rear View,Leisure Activity,Outdoors,Day,One Person,30-35 Years Old,Mid Adult,Mid Adult Woman,Mid Adult Female,Female,Millennial,Caucasian Ethnicity,woman,ride,snowmobile,caucasian,one,mid,adult,incidental,people,wooly,hat,jacket,hood,transportation,snow,tree,winter,track,sunlight,leisure,outdoors,day,hobbies and leisure,Woman,Snowmobile,Field,Snow,Snowmobiling,Tourist,Riding,Cold Temperature,Extreme Sports,Adventure,Healthy Lifestyle,Sunlight,Trees,Nizhny Tagil,Nature,Hobbies,Motion,Winter Sport,Journey,Destinations,Activity,Covering,Transportation,Recreation,Tourism,Deep Snow,Sport,Lifestyle,Environment,Vacation,Russia,Weather,Warm Clothing,Travel,White,Blue,Winter,Rear View,Leisure Activity,Outdoors,Day,One Person,30-35 Years Old,Mid Adult,Mid Adult Woman,Mid Adult Female,Female,Millennial,Caucasian Ethnicity,woman,ride,snowmobile,caucasian,one,mid,adult,incidental,people,wooly,hat,jacket,hood,transportation,snow,tree,winter,track,sunlight,leisure,outdoors,day,hobbies and leisure,Woman,Snowmobile,Field,Snow,Snowmobiling,Tourist,Riding,Cold Temperature,Extreme Sports,Adventure,Healthy Lifestyle,Sunlight,Trees,Nizhny Tagil,Nature,Hobbies,Motion,Winter Sport,Journey,Destinations,Activity,Covering,Transportation,Recreation,Tourism,Deep Snow,Sport,Lifestyle,Environment,Vacation,Russia,Weather,Warm Clothing,Travel,White,Blue,Winter,Rear View,Leisure Activity,Outdoors,Day,One Person,30-35 Years Old,Mid Adult,Mid Adult Woman,Mid Adult Female,Female,Millennial,Caucasian Ethnicity,woman,ride,snowmobile,caucasian,one,mid,adult,incidental,people,wooly,hat,jacket,hood,transportation,snow,tree,winter,track,sunlight,leisure,outdoors,day,hobbies and leisure,Woman,Snowmobile,Field,Snow,Snowmobiling,Tourist,Riding,Cold Temperature,Extreme Sports,Adventure,Healthy Lifestyle,Sunlight,Trees,Nizhny Tagil,Nature,Hobbies,Motion,Winter Sport,Journey,Destinations,Activity,Covering,Transportation,Recreation,Tourism,Deep Snow,Sport,Lifestyle,Environment,Vacation,Russia,Weather,Warm Clothing,Travel,White,Blue,Winter,Rear View,Leisure Activity,Outdoors,Day,One Person,30-35 Years Old,Mid Adult,Mid Adult Woman,Mid Adult Female,Female,Millennial,Caucasian Ethnicity,woman,ride,snowmobile,caucasian,one,mid,adult,incidental,people,wooly,hat,jacket,hood,transportation,snow,tree,winter,track,sunlight,leisure,outdoors,day,hobbies and leisure,Woman,Snowmobile,Field,Snow,Snowmobiling,Tourist,Riding,Cold Temperature,Extreme Sports,Adventure,Healthy Lifestyle,Sunlight,Trees,Nizhny Tagil,Nature,Hobbies,Motion,Winter Sport,Journey,Destinations,Activity,Covering,Transportation,Recreation,Tourism,Deep Snow,Sport,Lifestyle,Environment,Vacation,Russia,Weather,Warm Clothing,Travel,White,Blue,Winter,Rear View,Leisure Activity,Outdoors,Day,One Person,30-35 Years Old,Mid Adult,Mid Adult Woman,Mid Adult Female,Female,Millennial,Caucasian Ethnicity,woman,ride,snowmobile,caucasian,one,mid,adult,incidental,people,wooly,hat,jacket,hood,transportation,snow,tree,winter,track,sunlight,leisure,outdoors,day,hobbies and leisure,Woman,Snowmobile,Field,Snow,Snowmobiling,Tourist,Riding,Cold Temperature,Extreme Sports,Adventure,Healthy Lifestyle,Sunlight,Trees,Nizhny Tagil,Nature,Hobbies,Motion,Winter Sport,Journey,Destinations,Activity,Covering,Transportation,Recreation,Tourism,Deep Snow,Sport,Lifestyle,Environment,Vacation,Russia,Weather,Warm Clothing,Travel,White,Blue,Winter,Rear View,Leisure Activity,Outdoors,Day,One Person,30-35 Years Old,Mid Adult,Mid Adult Woman,Mid Adult Female,Female,Millennial,Caucasian Ethnicity,woman,ride,snowmobile,caucasian,one,mid,adult,incidental,people,wooly,hat,jacket,hood,transportation,snow,tree,winter,track,sunlight,leisure,outdoors,day,hobbies and leisure]"
             dc:subject_xmpArrayType="rdf:Bag"
             dc:title="Woman riding snowmobile"
             exif:ColorSpace="{Long}65535"
@@ -48,7 +48,7 @@
             exif:FlashpixVersion="0100"
             exif:PixelXDimension="{Long}1253"
             exif:PixelYDimension="{Long}836"
-            jcr:lastModified="{Date}2019-10-24T15:47:42.463-07:00"
+            jcr:lastModified="{Date}2019-10-25T16:47:31.868-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
@@ -93,31 +93,10 @@
             xmpMM:DocumentID="adobe:docid:photoshop:ec225128-9668-117a-ba30-eb4f5caa1480"
             xmpMM:InstanceID="xmp.iid:2d431afb-46f4-497d-b090-08fae88ee0db"
             xmpMM:OriginalDocumentID="2BD512CDA3EABE4750742D8CDA39A821"
-            xmpRights:UsageTerms="Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  "
+            xmpRights:UsageTerms="[Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  ]"
+            xmpRights:UsageTerms_xmpArrayType="rdf:Alt"
             lastTransferredForTagging="{Date}2019-10-24T15:46:11.760-07:00"
             simsearchVersion="1.0.0">
-            <xmpMM:History
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}2"
-                xmpArrayType="rdf:Seq"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:c79d524b-9768-fd46-a5d5-8021cffbf6c3"
-                    stEvt:softwareAgent="Adobe Photoshop CC 2015 (Windows)"
-                    stEvt:when="{Date}2017-06-12T12:09:17.000+05:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0032_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:2d431afb-46f4-497d-b090-08fae88ee0db"
-                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
-                    stEvt:when="{Date}2019-10-24T15:20:21.000-07:00"
-                    xmpNodeType="xmpStruct"/>
-            </xmpMM:History>
             <Iptc4xmpCore:CreatorContactInfo
                 Iptc4xmpCore:CiAdrCity="New York"
                 Iptc4xmpCore:CiAdrCtry="USA"
@@ -284,6 +263,28 @@
             <imageFeatures
                 jcr:primaryType="nt:unstructured"
                 haystack0="{Binary}"/>
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}2"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:c79d524b-9768-fd46-a5d5-8021cffbf6c3"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2015 (Windows)"
+                    stEvt:when="{Date}2017-06-12T12:09:17.000+05:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:2d431afb-46f4-497d-b090-08fae88ee0db"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
+                    stEvt:when="{Date}2019-10-24T15:20:21.000-07:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

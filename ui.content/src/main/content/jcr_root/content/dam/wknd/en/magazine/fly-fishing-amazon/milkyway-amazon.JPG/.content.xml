@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:exifEX="http://cipa.jp/exif/1.0/" xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:psAux="http://ns.adobe.com/exif/1.0/aux/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="ed58ad67-1709-44cb-b08c-d2ecda7135d6">
     <jcr:content
+        cq:name="milkyway-amazon.JPG"
+        cq:parentPath="/content/dam/wknd/en/magazine/fly-fishing-amazon"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-01T15:50:36.739-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:49:44.495-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -122,7 +125,8 @@
             crs:Whites2012="{Long}62"
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20130811"
-            dam:extracted="{Date}2019-10-01T15:50:36.352-07:00"
+            dam:DigitalCreationTime="070332-0700"
+            dam:extracted="{Date}2019-10-25T16:49:40.181-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -132,13 +136,14 @@
             dam:Physicalwidthindpi="{Long}240"
             dam:Physicalwidthininches="{Decimal}5.333333492279053"
             dam:Progressive="no"
-            dam:sha1="33587bbe2b5522b2de68a99b638b3e52a5c09fd1"
-            dam:size="{Long}248244"
-            dam:TimeCreated="070332+0000"
-            dc:date="{Long}[20130811]"
-            dc:date_xmpArrayType="rdf:Bag"
+            dam:sha1="60b92b2a5cc1a559ff994d9564e0ffd71cbe6f7f"
+            dam:size="{Long}249074"
+            dam:TimeCreated="070332-0700"
+            dc:date="{Long}[20130811,20130811,20130811]"
+            dc:date_xmpArrayType="rdf:Seq"
             dc:format="image/jpeg"
-            dc:subject="[bolivia,fly-fishing,bolivia,fly-fishing,bolivia,fly-fishing]"
+            dc:modified="{Date}2019-10-25T16:49:32.533-07:00"
+            dc:subject="[bolivia,fly-fishing,bolivia,fly-fishing,bolivia,fly-fishing,bolivia,fly-fishing,bolivia,fly-fishing,bolivia,fly-fishing,bolivia,fly-fishing]"
             dc:subject_xmpArrayType="rdf:Bag"
             exif:ApertureValue="2970854/1000000"
             exif:ColorSpace="{Long}65535"
@@ -171,6 +176,8 @@
             exifEX:PhotographicSensitivity="{Long}2000"
             exifEX:RecommendedExposureIndex="{Long}2000"
             exifEX:SensitivityType="{Long}2"
+            jcr:lastModified="{Date}2019-10-25T16:49:32.532-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             photoshop:ColorMode="{Long}3"
@@ -212,6 +219,11 @@
                 exif:RedEyeMode="{Boolean}false"
                 exif:Return="{Long}0"
                 jcr:primaryType="nt:unstructured"
+                xmpNodeType="xmpStruct"/>
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="2F1E4E5D84D8B7D5F46DE169494939E2"
+                stRef:originalDocumentID="2F1E4E5D84D8B7D5F46DE169494939E2"
                 xmpNodeType="xmpStruct"/>
             <crs:PaintBasedCorrections
                 jcr:primaryType="nt:unstructured"
@@ -322,11 +334,6 @@
                     stEvt:when="{Date}2019-10-01T15:31:19.000-07:00"
                     xmpNodeType="xmpStruct"/>
             </xmpMM:History>
-            <xmpMM:DerivedFrom
-                jcr:primaryType="nt:unstructured"
-                stRef:documentID="2F1E4E5D84D8B7D5F46DE169494939E2"
-                stRef:originalDocumentID="2F1E4E5D84D8B7D5F46DE169494939E2"
-                xmpNodeType="xmpStruct"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

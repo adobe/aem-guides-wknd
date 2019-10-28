@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:prismusagerights="http://prismstandard.org/namespaces/prismusagerights/2.1/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="4511a934-6001-4a5d-baf6-dd46281e654f">
     <jcr:content
+        cq:name="AdobeStock_141786166.jpeg"
+        cq:parentPath="/content/dam/wknd/en/adventures/cycling-tuscany"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-24T15:51:03.840-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:48:26.282-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2019-10-24T15:51:03.305-07:00"
+            dam:extracted="{Date}2019-10-25T16:48:20.197-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -20,23 +23,26 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}21.625"
             dam:Progressive="no"
-            dam:sha1="2ac309f308e643be5834d5d31d4d791b74bce53e"
-            dam:size="{Long}247320"
-            dam:TimeCreated="000000+0000"
-            dc:creator="[Luca Gino,Luca Gino,Luca Gino]"
+            dam:sha1="ee4c80e9917891e0f034ca4e7191117267081d00"
+            dam:size="{Long}250294"
+            dam:TimeCreated="000000-0700"
+            dc:creator="[Luca Gino,Luca Gino,Luca Gino,Luca Gino,Luca Gino,Luca Gino,Luca Gino]"
             dc:creator_xmpArrayType="rdf:Seq"
-            dc:date="{Long}[20140518]"
-            dc:date_xmpArrayType="rdf:Bag"
+            dc:date="{Long}[20140518,20140518,20140518]"
+            dc:date_xmpArrayType="rdf:Seq"
             dc:description="Italy, Tuscany, Siena District, Orcia Valley -Belvedere at sunrise"
             dc:format="image/jpeg"
+            dc:modified="{Date}2019-10-25T16:47:27.841-07:00"
             dc:rights="©ClickAlps - stock.adobe.com"
-            dc:subject="[Hills\,Italy\,Landscapes\,Orcia Valley\,Rainbow\,Siena district\,Sunrise\,Sunrises\,Tuscany\,agrarian\,agricultural\,bow\,cypresses\,farmhouse\,farmhouses\,field\,fields\,hill\,landscape\,rainbows\,rural\,wheat\,wheat field,hills,italy,landscapes,orcia valley,rainbow,siena district,sunrise,sunrises,tuscany,agrarian,agricultural,bow,cypresses,farmhouse,farmhouses,field,fields,hill,landscape,rainbows,rural,wheat,wheat field,Hills\,Italy\,Landscapes\,Orcia Valley\,Rainbow\,Siena district\,Sunrise\,Sunrises\,Tuscany\,agrarian\,agricultural\,bow\,cypresses\,farmhouse\,farmhouses\,field\,fields\,hill\,landscape\,rainbows\,rural\,wheat\,wheat field,hills,italy,landscapes,orcia valley,rainbow,siena district,sunrise,sunrises,tuscany,agrarian,agricultural,bow,cypresses,farmhouse,farmhouses,field,fields,hill,landscape,rainbows,rural,wheat,wheat field,Hills\,Italy\,Landscapes\,Orcia Valley\,Rainbow\,Siena district\,Sunri,hills,italy,landscapes,orcia valley,rainbow,siena district,sunrise,sunrises,tuscany,agrarian,agricultural,bow,cypresses,farmhouse,farmhouses,field,fields,hill,landscape,rainbows,rural,wheat,wheat field]"
+            dc:subject="[Hills\,Italy\,Landscapes\,Orcia Valley\,Rainbow\,Siena district\,Sunrise\,Sunrises\,Tuscany\,agrarian\,agricultural\,bow\,cypresses\,farmhouse\,farmhouses\,field\,fields\,hill\,landscape\,rainbows\,rural\,wheat\,wheat field,hills,italy,landscapes,orcia valley,rainbow,siena district,sunrise,sunrises,tuscany,agrarian,agricultural,bow,cypresses,farmhouse,farmhouses,field,fields,hill,landscape,rainbows,rural,wheat,wheat field,Hills\,Italy\,Landscapes\,Orcia Valley\,Rainbow\,Siena district\,Sunrise\,Sunrises\,Tuscany\,agrarian\,agricultural\,bow\,cypresses\,farmhouse\,farmhouses\,field\,fields\,hill\,landscape\,rainbows\,rural\,wheat\,wheat field,hills,italy,landscapes,orcia valley,rainbow,siena district,sunrise,sunrises,tuscany,agrarian,agricultural,bow,cypresses,farmhouse,farmhouses,field,fields,hill,landscape,rainbows,rural,wheat,wheat field,Hills\,Italy\,Landscapes\,Orcia Valley\,Rainbow\,Siena district\,Sunri,hills,italy,landscapes,orcia valley,rainbow,siena district,sunrise,sunrises,tuscany,agrarian,agricultural,bow,cypresses,farmhouse,farmhouses,field,fields,hill,landscape,rainbows,rural,wheat,wheat field,Hills\,Italy\,Landscapes\,Orcia Valley\,Rainbow\,Siena district\,Sunrise\,Sunrises\,Tuscany\,agrarian\,agricultural\,bow\,cypresses\,farmhouse\,farmhouses\,field\,fields\,hill\,landscape\,rainbows\,rural\,wheat\,wheat field,hills,italy,landscapes,orcia valley,rainbow,siena district,sunrise,sunrises,tuscany,agrarian,agricultural,bow,cypresses,farmhouse,farmhouses,field,fields,hill,landscape,rainbows,rural,wheat,wheat field,Hills\,Italy\,Landscapes\,Orcia Valley\,Rainbow\,Siena district\,Sunrise\,Sunrises\,Tuscany\,agrarian\,agricultural\,bow\,cypresses\,farmhouse\,farmhouses\,field\,fields\,hill\,landscape\,rainbows\,rural\,wheat\,wheat field,hills,italy,landscapes,orcia valley,rainbow,siena district,sunrise,sunrises,tuscany,agrarian,agricultural,bow,cypresses,farmhouse,farmhouses,field,fields,hill,landscape,rainbows,rural,wheat,wheat field,Hills\,Italy\,Landscapes\,Orcia Valley\,Rainbow\,Siena district\,Sunri,hills,italy,landscapes,orcia valley,rainbow,siena district,sunrise,sunrises,tuscany,agrarian,agricultural,bow,cypresses,farmhouse,farmhouses,field,fields,hill,landscape,rainbows,rural,wheat,wheat field,Hills\,Italy\,Landscapes\,Orcia Valley\,Rainbow\,Siena district\,Sunri,hills,italy,landscapes,orcia valley,rainbow,siena district,sunrise,sunrises,tuscany,agrarian,agricultural,bow,cypresses,farmhouse,farmhouses,field,fields,hill,landscape,rainbows,rural,wheat,wheat field]"
             dc:subject_xmpArrayType="rdf:Bag"
             dc:title="Italy, Tuscany, Siena District, Orcia Valley -Belvedere at sunrise"
             exif:ColorSpace="{Long}65535"
             exif:ExifVersion="0221"
             exif:PixelXDimension="{Long}1557"
             exif:PixelYDimension="{Long}1039"
+            jcr:lastModified="{Date}2019-10-25T16:47:27.841-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             jcr:title="Italy, Tuscany, Siena District, Orcia Valley -Belvedere at sunri"
@@ -70,20 +76,6 @@
             xmpMM:OriginalDocumentID="150E97299FFD150D486220129E8A5D94"
             lastTransferredForTagging="{Date}2019-10-24T15:51:06.651-07:00"
             simsearchVersion="1.0.0">
-            <xmpMM:History
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}1"
-                xmpArrayType="rdf:Seq"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:a1f75538-877e-4e24-a77e-b3bdee807b70"
-                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
-                    stEvt:when="{Date}2019-10-24T15:29:49.000-07:00"
-                    xmpNodeType="xmpStruct"/>
-            </xmpMM:History>
             <predictedTags jcr:primaryType="nt:unstructured">
                 <landscape
                     jcr:lastModified="{Date}2019-10-24T15:51:06.646-07:00"
@@ -239,6 +231,20 @@
             <imageFeatures
                 jcr:primaryType="nt:unstructured"
                 haystack0="{Binary}"/>
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}1"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:a1f75538-877e-4e24-a77e-b3bdee807b70"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
+                    stEvt:when="{Date}2019-10-24T15:29:49.000-07:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

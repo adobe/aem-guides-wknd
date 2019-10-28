@@ -8,7 +8,7 @@
         cq:name="AdobeStock_170334891.jpeg"
         cq:parentPath="/content/dam/wknd/en/adventures/downhill-skiing-wyoming"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-24T15:47:10.209-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:47:31.954-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -126,8 +126,8 @@
             crs:Whites2012="{Long}35"
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20161215"
-            dam:DigitalCreationTime="170039+0000"
-            dam:extracted="{Date}2019-10-24T15:46:09.618-07:00"
+            dam:DigitalCreationTime="170039-0800"
+            dam:extracted="{Date}2019-10-25T16:47:21.212-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -137,16 +137,16 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}18.81944465637207"
             dam:Progressive="no"
-            dam:sha1="ef6b79c2c1f91517b778121684bc2c4ef2f6ebd3"
-            dam:size="{Long}349213"
-            dam:TimeCreated="170039+0000"
-            dc:date="{Long}[20161215]"
-            dc:date_xmpArrayType="rdf:Bag"
+            dam:sha1="ad3bf9ccb439bb5cf8c691cf17cd79bebb2a803d"
+            dam:size="{Long}352491"
+            dam:TimeCreated="170039-0800"
+            dc:date="{Long}[20161215,20161215,20161215]"
+            dc:date_xmpArrayType="rdf:Seq"
             dc:description="Jackson Hole Tram"
             dc:format="image/jpeg"
             dc:modified="{Date}2019-10-24T15:47:10.120-07:00"
             dc:rights="©Finn - stock.adobe.com"
-            dc:subject="[winter,ski,snow,mountain,lift,sky,resort,mountains,skiing,blue,sport,cold,chairlift,landscape,alps,travel,nature,white,cable,chair,snowboard,forest,sun,ski lift,tree,winter,ski,snow,mountain,lift,sky,resort,mountains,skiing,blue,sport,cold,chairlift,landscape,alps,travel,nature,white,cable,chair,snowboard,forest,sun,ski lift,tree,winter,ski,snow,mountain,lift,sky,resort,mountains,skiing,blue,sport,cold,chairlift,landscape,alps,travel,nature,white,cable,chair,snowboard,forest,sun,ski lift,tree]"
+            dc:subject="[winter,ski,snow,mountain,lift,sky,resort,mountains,skiing,blue,sport,cold,chairlift,landscape,alps,travel,nature,white,cable,chair,snowboard,forest,sun,ski lift,tree,winter,ski,snow,mountain,lift,sky,resort,mountains,skiing,blue,sport,cold,chairlift,landscape,alps,travel,nature,white,cable,chair,snowboard,forest,sun,ski lift,tree,winter,ski,snow,mountain,lift,sky,resort,mountains,skiing,blue,sport,cold,chairlift,landscape,alps,travel,nature,white,cable,chair,snowboard,forest,sun,ski lift,tree,winter,ski,snow,mountain,lift,sky,resort,mountains,skiing,blue,sport,cold,chairlift,landscape,alps,travel,nature,white,cable,chair,snowboard,forest,sun,ski lift,tree,winter,ski,snow,mountain,lift,sky,resort,mountains,skiing,blue,sport,cold,chairlift,landscape,alps,travel,nature,white,cable,chair,snowboard,forest,sun,ski lift,tree,winter,ski,snow,mountain,lift,sky,resort,mountains,skiing,blue,sport,cold,chairlift,landscape,alps,travel,nature,white,cable,chair,snowboard,forest,sun,ski lift,tree,winter,ski,snow,mountain,lift,sky,resort,mountains,skiing,blue,sport,cold,chairlift,landscape,alps,travel,nature,white,cable,chair,snowboard,forest,sun,ski lift,tree]"
             dc:subject_xmpArrayType="rdf:Bag"
             dc:title="Jackson Hole Tram"
             exif:ApertureValue="10717/2018"
@@ -192,7 +192,7 @@
             exifEX:LensSpecification_xmpArrayType="rdf:Seq"
             exifEX:PhotographicSensitivity="{Long}160"
             exifEX:SensitivityType="{Long}2"
-            jcr:lastModified="{Date}2019-10-24T15:47:10.120-07:00"
+            jcr:lastModified="{Date}2019-10-25T16:47:30.196-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
@@ -233,7 +233,8 @@
             xmpMM:DocumentID="xmp.did:32c47ec9-ba51-4f09-8566-3351ac8f727e"
             xmpMM:InstanceID="xmp.iid:1840679b-8932-4efb-981a-2cd91e2f0e34"
             xmpMM:OriginalDocumentID="53DCE29592FD7112F907B560214292A6"
-            xmpRights:UsageTerms="Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  "
+            xmpRights:UsageTerms="[Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  ]"
+            xmpRights:UsageTerms_xmpArrayType="rdf:Alt"
             lastTransferredForTagging="{Date}2019-10-24T15:46:12.824-07:00"
             simsearchVersion="1.0.0">
             <exif:Flash
@@ -256,33 +257,6 @@
                 stRef:documentID="53DCE29592FD7112F907B560214292A6"
                 stRef:originalDocumentID="53DCE29592FD7112F907B560214292A6"
                 xmpNodeType="xmpStruct"/>
-            <xmpMM:History
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}3"
-                xmpArrayType="rdf:Seq"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="derived"
-                    stEvt:parameters="converted from image/x-nikon-nef to image/jpeg, saved to new location"
-                    xmpNodeType="xmpStruct"/>
-                <_x0032_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:32c47ec9-ba51-4f09-8566-3351ac8f727e"
-                    stEvt:softwareAgent="Adobe Photoshop Lightroom 5.7.1 (Macintosh)"
-                    stEvt:when="{Date}2016-12-20T12:57:56.000-08:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0033_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:1840679b-8932-4efb-981a-2cd91e2f0e34"
-                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
-                    stEvt:when="{Date}2019-10-24T15:20:12.000-07:00"
-                    xmpNodeType="xmpStruct"/>
-            </xmpMM:History>
             <predictedTags jcr:primaryType="nt:unstructured">
                 <winter
                     jcr:lastModified="{Date}2019-10-24T15:46:12.820-07:00"
@@ -439,6 +413,33 @@
                 jcr:primaryType="nt:unstructured"
                 haystack0="{Binary}"/>
             <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}3"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="converted from image/x-nikon-nef to image/jpeg, saved to new location"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:32c47ec9-ba51-4f09-8566-3351ac8f727e"
+                    stEvt:softwareAgent="Adobe Photoshop Lightroom 5.7.1 (Macintosh)"
+                    stEvt:when="{Date}2016-12-20T12:57:56.000-08:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0033_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:1840679b-8932-4efb-981a-2cd91e2f0e34"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
+                    stEvt:when="{Date}2019-10-24T15:20:12.000-07:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

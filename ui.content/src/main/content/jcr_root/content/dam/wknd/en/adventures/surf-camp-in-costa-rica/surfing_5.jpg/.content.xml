@@ -8,13 +8,13 @@
         cq:name="surfing_5.jpg"
         cq:parentPath="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-24T14:31:45.815-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:48:31.509-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         jcr:title="surfing_5.jpg">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2019-10-24T14:31:38.232-07:00"
+            dam:extracted="{Date}2019-10-25T16:47:34.814-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -24,7 +24,7 @@
             dam:Physicalwidthindpi="{Long}300"
             dam:Physicalwidthininches="{Decimal}6.400000095367432"
             dam:Progressive="no"
-            dam:sha1="50a77f871ad22f7da4658017925fe2cf1c244cbb"
+            dam:sha1="17f3f1ae2e055360bc3961969e39cbf99d5ad944"
             dam:size="{Long}445541"
             dc:format="image/jpeg"
             dc:modified="{Date}2016-01-14T14:22:19.386-08:00"
@@ -32,7 +32,7 @@
             exif:ExifVersion="0221"
             exif:PixelXDimension="{Long}1920"
             exif:PixelYDimension="{Long}1080"
-            jcr:lastModified="{Date}2019-10-24T14:31:45.662-07:00"
+            jcr:lastModified="{Date}2019-10-25T16:48:29.154-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
@@ -79,13 +79,13 @@
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
         <usages
-            dam:score="{Long}2"
+            dam:score="{Long}3"
             jcr:primaryType="nt:unstructured"
             usedBy="[aem]">
             <aem
                 jcr:primaryType="nt:unstructured"
-                count="{Long}2"
-                lastUsed="{Date}2019-10-21T11:15:59.983-07:00"/>
+                count="{Long}3"
+                lastUsed="{Date}2019-10-25T17:45:15.017-07:00"/>
         </usages>
     </jcr:content>
 </jcr:root>

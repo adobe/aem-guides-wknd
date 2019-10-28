@@ -8,7 +8,7 @@
         cq:name="AdobeStock_185234795.jpeg"
         cq:parentPath="/content/dam/wknd/en/adventures/downhill-skiing-wyoming"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-24T15:46:55.531-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:48:33.248-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -118,8 +118,8 @@
             crs:Whites2012="{Long}0"
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20160219"
-            dam:DigitalCreationTime="100401+0000"
-            dam:extracted="{Date}2019-10-24T15:46:09.642-07:00"
+            dam:DigitalCreationTime="100401-0800"
+            dam:extracted="{Date}2019-10-25T16:48:26.771-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -129,19 +129,19 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}16.38888931274414"
             dam:Progressive="no"
-            dam:sha1="e82de6e2a0d56d3db462adf8b23ecf6ec0e00158"
-            dam:size="{Long}316485"
+            dam:sha1="935d40a886132088ad337bd46614018b09455a28"
+            dam:size="{Long}319973"
             dam:Sublocation="Rolle Pass"
-            dam:TimeCreated="100401+0000"
-            dc:creator="[Gonzales Photo/Christoph Oberschneider]"
+            dam:TimeCreated="100401-0800"
+            dc:creator="[Gonzales Photo/Christoph Oberschneider,Gonzales Photo/Christoph Oberschneider,Gonzales Photo/Christoph Obersch]"
             dc:creator_xmpArrayType="rdf:Seq"
-            dc:date="{Long}[20160219]"
-            dc:date_xmpArrayType="rdf:Bag"
+            dc:date="{Long}[20160219,20160219,20160219]"
+            dc:date_xmpArrayType="rdf:Seq"
             dc:description="A skier does action skiing at the Rolle Pass in the Dolomites, Italy."
             dc:format="image/jpeg"
             dc:modified="{Date}2019-10-24T15:46:55.424-07:00"
             dc:rights="© Gonzales Photo/Christoph Oberschneider"
-            dc:subject="[Action,Alpine Skiing,Backcountry skiing,Daytime,Dolomites,Exercises,Freestyle,Landscape,Mountain,Mountain Range,Mountainside,Nature,Off-piste skiing,One Person,Outdoor,Outdoor Sports,Outside,Powder snow,Rolle Pass,Scenery,Skier,Skiing,Skiing Area,Skiing Resort,Skis,Snow,Sports,Tyrol,Winter,Winter sports,Action,Alpine Skiing,Backcountry skiing,Daytime,Dolomites,Exercises,Freestyle,Landscape,Mountain,Mountain Range,Mountainside,Nature,Off-piste skiing,One Person,Outdoor,Outdoor Sports,Outside,Powder snow,Rolle Pass,Scenery,Skier,Skiing,Skiing Area,Skiing Resort,Skis,Snow,Sports,Tyrol,Winter,Winter sports,Action,Alpine Skiing,Backcountry skiing,Daytime,Dolomites,Exercises,Freestyle,Landscape,Mountain,Mountain Range,Mountainside,Nature,Off-piste skiing,One Person,Outdoor,Outdoor Sports,Outside,Powder snow,Rolle Pass,Scenery,Skier,Skiing,Skiing Area,Skiing Resort,Skis,Snow,Sports,Tyrol,Winter,Winter sports]"
+            dc:subject="[Action,Alpine Skiing,Backcountry skiing,Daytime,Dolomites,Exercises,Freestyle,Landscape,Mountain,Mountain Range,Mountainside,Nature,Off-piste skiing,One Person,Outdoor,Outdoor Sports,Outside,Powder snow,Rolle Pass,Scenery,Skier,Skiing,Skiing Area,Skiing Resort,Skis,Snow,Sports,Tyrol,Winter,Winter sports,Action,Alpine Skiing,Backcountry skiing,Daytime,Dolomites,Exercises,Freestyle,Landscape,Mountain,Mountain Range,Mountainside,Nature,Off-piste skiing,One Person,Outdoor,Outdoor Sports,Outside,Powder snow,Rolle Pass,Scenery,Skier,Skiing,Skiing Area,Skiing Resort,Skis,Snow,Sports,Tyrol,Winter,Winter sports,Action,Alpine Skiing,Backcountry skiing,Daytime,Dolomites,Exercises,Freestyle,Landscape,Mountain,Mountain Range,Mountainside,Nature,Off-piste skiing,One Person,Outdoor,Outdoor Sports,Outside,Powder snow,Rolle Pass,Scenery,Skier,Skiing,Skiing Area,Skiing Resort,Skis,Snow,Sports,Tyrol,Winter,Winter sports,Action,Alpine Skiing,Backcountry skiing,Daytime,Dolomites,Exercises,Freestyle,Landscape,Mountain,Mountain Range,Mountainside,Nature,Off-piste skiing,One Person,Outdoor,Outdoor Sports,Outside,Powder snow,Rolle Pass,Scenery,Skier,Skiing,Skiing Area,Skiing Resort,Skis,Snow,Sports,Tyrol,Winter,Winter sports,Action,Alpine Skiing,Backcountry skiing,Daytime,Dolomites,Exercises,Freestyle,Landscape,Mountain,Mountain Range,Mountainside,Nature,Off-piste skiing,One Person,Outdoor,Outdoor Sports,Outside,Powder snow,Rolle Pass,Scenery,Skier,Skiing,Skiing Area,Skiing Resort,Skis,Snow,Sports,Tyrol,Winter,Winter sports,Action,Alpine Skiing,Backcountry skiing,Daytime,Dolomites,Exercises,Freestyle,Landscape,Mountain,Mountain Range,Mountainside,Nature,Off-piste skiing,One Person,Outdoor,Outdoor Sports,Outside,Powder snow,Rolle Pass,Scenery,Skier,Skiing,Skiing Area,Skiing Resort,Skis,Snow,Sports,Tyrol,Winter,Winter sports,Action,Alpine Skiing,Backcountry skiing,Daytime,Dolomites,Exercises,Freestyle,Landscape,Mountain,Mountain Range,Mountainside,Nature,Off-piste skiing,One Person,Outdoor,Outdoor Sports,Outside,Powder snow,Rolle Pass,Scenery,Skier,Skiing,Skiing Area,Skiing Resort,Skis,Snow,Sports,Tyrol,Winter,Winter sports]"
             dc:subject_xmpArrayType="rdf:Bag"
             dc:title="Action skiing at the Rolle Pass"
             exif:ApertureValue="8376/1481"
@@ -184,11 +184,11 @@
             exifEX:RecommendedExposureIndex="{Long}250"
             exifEX:SensitivityType="{Long}2"
             Iptc4xmpCore:Location="Rolle Pass"
-            jcr:lastModified="{Date}2019-10-24T15:46:55.424-07:00"
+            jcr:lastModified="{Date}2019-10-25T16:47:42.510-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
-            jcr:title="A skier does action skiing at the Rolle Pass in the Dolomites, I"
+            jcr:title="Action skiing at the Rolle Pass"
             lr:hierarchicalSubject="[Action,Alpine Skiing,Backcountry skiing,Daytime,Dolomites,Exercises,Freestyle,Landscape,Mountain,Mountain Range,Mountainside,Nature,Off-piste skiing,One Person,Outdoor,Outdoor Sports,Outside,Powder snow,Rolle Pass,Scenery,Skier,Skiing,Skiing Area,Skiing Resort,Skis,Snow,Sports,Tyrol,Winter,Winter sports]"
             lr:hierarchicalSubject_xmpArrayType="rdf:Bag"
             photoshop:City="Trentino"
@@ -229,7 +229,8 @@
             xmpMM:DocumentID="xmp.did:463b9099-d42e-4b7a-be47-7224361f8ef4"
             xmpMM:InstanceID="xmp.iid:d094ad8d-7ea5-49ba-ace3-7badc0810a7e"
             xmpMM:OriginalDocumentID="BA74B2401CF7F8452621E9B42AE96082"
-            xmpRights:UsageTerms="Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  "
+            xmpRights:UsageTerms="[Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  ]"
+            xmpRights:UsageTerms_xmpArrayType="rdf:Alt"
             xmpRights:WebStatement="www.gonzalesphoto.dk"
             lastTransferredForTagging="{Date}2019-10-24T15:46:12.860-07:00"
             simsearchVersion="1.0.0">
@@ -255,70 +256,6 @@
                 stRef:instanceID="xmp.iid:34738eee-b7e8-4d7a-a703-fcb3c28b1300"
                 stRef:originalDocumentID="BA74B2401CF7F8452621E9B42AE96082"
                 xmpNodeType="xmpStruct"/>
-            <xmpMM:History
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}8"
-                xmpArrayType="rdf:Seq"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="derived"
-                    stEvt:parameters="converted from image/x-sony-arw to image/tiff"
-                    xmpNodeType="xmpStruct"/>
-                <_x0032_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:463ef908-74cb-4a63-bf4b-aec33b594287"
-                    stEvt:softwareAgent="Adobe Photoshop Camera Raw 9.4 (Macintosh)"
-                    stEvt:when="{Date}2016-02-20T23:03:37.000+01:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0033_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:34738eee-b7e8-4d7a-a703-fcb3c28b1300"
-                    stEvt:softwareAgent="Adobe Photoshop CC 2015 (Macintosh)"
-                    stEvt:when="{Date}2016-02-24T15:07:46.000+01:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0034_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="derived"
-                    stEvt:parameters="converted from image/tiff to image/jpeg, saved to new location"
-                    xmpNodeType="xmpStruct"/>
-                <_x0035_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:463b9099-d42e-4b7a-be47-7224361f8ef4"
-                    stEvt:softwareAgent="Adobe Photoshop Lightroom 6.5 (Macintosh)"
-                    stEvt:when="{Date}2016-04-05T11:42:39.000+02:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0036_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/metadata"
-                    stEvt:instanceID="xmp.iid:a88d0d3d-913e-4386-afff-07e1b0a7fa95"
-                    stEvt:softwareAgent="Adobe Photoshop Lightroom 5.7.1 (Macintosh)"
-                    stEvt:when="{Date}2017-12-19T11:42:57.000+01:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0037_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/metadata"
-                    stEvt:instanceID="xmp.iid:65985be3-2115-4211-9eff-554ccd45c7f0"
-                    stEvt:softwareAgent="Adobe Photoshop Camera Raw 9.1.1 (Macintosh)"
-                    stEvt:when="{Date}2017-12-19T11:48:24.000+01:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0038_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:d094ad8d-7ea5-49ba-ace3-7badc0810a7e"
-                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
-                    stEvt:when="{Date}2019-10-24T15:19:59.000-07:00"
-                    xmpNodeType="xmpStruct"/>
-            </xmpMM:History>
             <predictedTags jcr:primaryType="nt:unstructured">
                 <snow
                     jcr:lastModified="{Date}2019-10-24T15:46:12.854-07:00"
@@ -474,7 +411,80 @@
             <imageFeatures
                 jcr:primaryType="nt:unstructured"
                 haystack0="{Binary}"/>
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}8"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="converted from image/x-sony-arw to image/tiff"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:463ef908-74cb-4a63-bf4b-aec33b594287"
+                    stEvt:softwareAgent="Adobe Photoshop Camera Raw 9.4 (Macintosh)"
+                    stEvt:when="{Date}2016-02-20T23:03:37.000+01:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0033_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:34738eee-b7e8-4d7a-a703-fcb3c28b1300"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2015 (Macintosh)"
+                    stEvt:when="{Date}2016-02-24T15:07:46.000+01:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0034_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="converted from image/tiff to image/jpeg, saved to new location"
+                    xmpNodeType="xmpStruct"/>
+                <_x0035_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:463b9099-d42e-4b7a-be47-7224361f8ef4"
+                    stEvt:softwareAgent="Adobe Photoshop Lightroom 6.5 (Macintosh)"
+                    stEvt:when="{Date}2016-04-05T11:42:39.000+02:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0036_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/metadata"
+                    stEvt:instanceID="xmp.iid:a88d0d3d-913e-4386-afff-07e1b0a7fa95"
+                    stEvt:softwareAgent="Adobe Photoshop Lightroom 5.7.1 (Macintosh)"
+                    stEvt:when="{Date}2017-12-19T11:42:57.000+01:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0037_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/metadata"
+                    stEvt:instanceID="xmp.iid:65985be3-2115-4211-9eff-554ccd45c7f0"
+                    stEvt:softwareAgent="Adobe Photoshop Camera Raw 9.1.1 (Macintosh)"
+                    stEvt:when="{Date}2017-12-19T11:48:24.000+01:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0038_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:d094ad8d-7ea5-49ba-ace3-7badc0810a7e"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
+                    stEvt:when="{Date}2019-10-24T15:19:59.000-07:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2019-10-27T16:10:41.568-07:00"/>
+        </usages>
     </jcr:content>
 </jcr:root>

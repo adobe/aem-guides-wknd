@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:exifEX="http://cipa.jp/exif/1.0/" xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/" xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:psAux="http://ns.adobe.com/exif/1.0/aux/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:prismusagerights="http://prismstandard.org/namespaces/prismusagerights/2.1/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="4a3eed65-5039-41dc-bc9f-5de0ef93b2a0">
     <jcr:content
+        cq:name="AdobeStock_21422513.jpeg"
+        cq:parentPath="/content/dam/wknd/en/adventures/ski-touring-mont-blanc"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-24T15:49:48.889-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:48:38.899-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -84,7 +87,7 @@
             crs:VignetteAmount="{Long}42"
             crs:VignetteMidpoint="{Long}50"
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2019-10-24T15:49:48.268-07:00"
+            dam:extracted="{Date}2019-10-25T16:48:33.237-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -94,17 +97,18 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}15.80555534362793"
             dam:Progressive="no"
-            dam:sha1="8271d478b903fdc2271edf49a629a97c11c2af4b"
-            dam:size="{Long}291731"
-            dam:TimeCreated="094304+0000"
-            dc:creator="[Copyrighted by ROBERTO CAUCINO,Copyrighted by ROBERTO CAUCINO,Copyrighted by ROBERTO CAUCINO]"
+            dam:sha1="d852308abfa7206744ce35dc7f43b9351d627f9a"
+            dam:size="{Long}295917"
+            dam:TimeCreated="094304-0700"
+            dc:creator="[Copyrighted by ROBERTO CAUCINO,Copyrighted by ROBERTO CAUCINO,Copyrighted by ROBERTO CAUCINO,Copyrighted by ROBERTO CAUCINO,Copyrighted by ROBERTO CAUCINO,Copyrighted by ROBERTO CAUCINO,Copyrighted by ROBERTO CAUCINO]"
             dc:creator_xmpArrayType="rdf:Seq"
-            dc:date="{Long}[20100318]"
-            dc:date_xmpArrayType="rdf:Bag"
+            dc:date="{Long}[20100318,20100318,20100318]"
+            dc:date_xmpArrayType="rdf:Seq"
             dc:description="Male skier moving down in snow powder; envers du plan, vallèe blanche, Chamonix, Mont Blanc massif, France, Europe."
             dc:format="image/jpeg"
+            dc:modified="{Date}2019-10-25T16:47:48.002-07:00"
             dc:rights="©rcaucino - stock.adobe.com"
-            dc:subject="[clear sky,day,extreme,freeride,freerider,frozen,green,horizontal,ice,man,mountain,one,scenic,ski,skier,skiing,sky,snow,snowed,sport,winter,glacier,peak,chamonix,france,europe,fun,adventure,range,mont blanc,mountain,skiing,skier,ski,man,clear sky,day,extreme,freeride,freerider,frozen,green,horizontal,ice,one,scenic,sky,snow,snowed,sport,winter,glacier,peak,chamonix,france,europe,fun,adventure,range,mont blanc,clear sky,day,extreme,freeride,freerider,frozen,green,horizontal,ice,man,mountain,one,scenic,ski,skier,skiing,sky,snow,snowed,sport,winter,glacier,peak,chamonix,france,europe,fun,adventure,range,mont blanc,mountain,skiing,skier,ski,man,clear sky,day,extreme,freeride,freerider,frozen,green,horizontal,ice,one,scenic,sky,snow,snowed,sport,winter,glacier,peak,chamonix,france,europe,fun,adventure,range,mont blanc,clear sky,day,extreme,freeride,freerider,frozen,green,horizontal,ice,man,mountain,one,scenic,ski,skier,skiing,sky,snow,snowed,sport,winter,glacier,peak,chamonix,france,europe,fun,adventure,range,mont blanc]"
+            dc:subject="[clear sky,day,extreme,freeride,freerider,frozen,green,horizontal,ice,man,mountain,one,scenic,ski,skier,skiing,sky,snow,snowed,sport,winter,glacier,peak,chamonix,france,europe,fun,adventure,range,mont blanc,mountain,skiing,skier,ski,man,clear sky,day,extreme,freeride,freerider,frozen,green,horizontal,ice,one,scenic,sky,snow,snowed,sport,winter,glacier,peak,chamonix,france,europe,fun,adventure,range,mont blanc,clear sky,day,extreme,freeride,freerider,frozen,green,horizontal,ice,man,mountain,one,scenic,ski,skier,skiing,sky,snow,snowed,sport,winter,glacier,peak,chamonix,france,europe,fun,adventure,range,mont blanc,mountain,skiing,skier,ski,man,clear sky,day,extreme,freeride,freerider,frozen,green,horizontal,ice,one,scenic,sky,snow,snowed,sport,winter,glacier,peak,chamonix,france,europe,fun,adventure,range,mont blanc,clear sky,day,extreme,freeride,freerider,frozen,green,horizontal,ice,man,mountain,one,scenic,ski,skier,skiing,sky,snow,snowed,sport,winter,glacier,peak,chamonix,france,europe,fun,adventure,range,mont blanc,clear sky,day,extreme,freeride,freerider,frozen,green,horizontal,ice,man,mountain,one,scenic,ski,skier,skiing,sky,snow,snowed,sport,winter,glacier,peak,chamonix,france,europe,fun,adventure,range,mont blanc,mountain,skiing,skier,ski,man,clear sky,day,extreme,freeride,freerider,frozen,green,horizontal,ice,one,scenic,sky,snow,snowed,sport,winter,glacier,peak,chamonix,france,europe,fun,adventure,range,mont blanc,clear sky,day,extreme,freeride,freerider,frozen,green,horizontal,ice,man,mountain,one,scenic,ski,skier,skiing,sky,snow,snowed,sport,winter,glacier,peak,chamonix,france,europe,fun,adventure,range,mont blanc,mountain,skiing,skier,ski,man,clear sky,day,extreme,freeride,freerider,frozen,green,horizontal,ice,one,scenic,sky,snow,snowed,sport,winter,glacier,peak,chamonix,france,europe,fun,adventure,range,mont blanc,clear sky,day,extreme,freeride,freerider,frozen,green,horizontal,ice,man,mountain,one,scenic,ski,skier,skiing,sky,snow,snowed,sport,winter,glacier,peak,chamonix,france,europe,fun,adventure,range,mont blanc,clear sky,day,extreme,freeride,freerider,frozen,green,horizontal,ice,man,mountain,one,scenic,ski,skier,skiing,sky,snow,snowed,sport,winter,glacier,peak,chamonix,france,europe,fun,adventure,range,mont blanc]"
             dc:subject_xmpArrayType="rdf:Bag"
             dc:title="Man's skiing"
             exif:ApertureValue="6/1"
@@ -137,8 +141,12 @@
             exif:ShutterSpeedValue="63675/7102"
             exif:WhiteBalance="{Long}0"
             exifEX:BodySerialNumber="{Long}330114526"
+            exifEX:LensModel="EF24-105mm f/4L IS USM"
             exifEX:LensSpecification="[24/1,105/1,0/0,0/0]"
             exifEX:LensSpecification_xmpArrayType="rdf:Seq"
+            exifEX:PhotographicSensitivity="{Long}125"
+            jcr:lastModified="{Date}2019-10-25T16:47:48.002-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             jcr:title="Man's skiing"
@@ -194,88 +202,12 @@
                 exif:Return="{Long}0"
                 jcr:primaryType="nt:unstructured"
                 xmpNodeType="xmpStruct"/>
-            <crs:GradientBasedCorrections
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}1"
-                xmpArrayType="rdf:Seq"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    crs:CorrectionActive="True"
-                    crs:CorrectionAmount="{Decimal}1.000000"
-                    crs:LocalBrightness="{Decimal}0.000000"
-                    crs:LocalClarity="{Decimal}0.000000"
-                    crs:LocalContrast="{Decimal}0.480000"
-                    crs:LocalExposure="{Decimal}-0.125000"
-                    crs:LocalSaturation="{Decimal}0.000000"
-                    crs:LocalSharpness="{Decimal}0.000000"
-                    crs:LocalToningHue="{Decimal}0.000000"
-                    crs:LocalToningSaturation="{Decimal}0.000000"
-                    crs:What="Correction"
-                    jcr:primaryType="nt:unstructured"
-                    xmpNodeType="xmpStruct">
-                    <crs:CorrectionMasks
-                        jcr:primaryType="nt:unstructured"
-                        xmpArraySize="{Long}1"
-                        xmpArrayType="rdf:Seq"
-                        xmpNodeType="xmpArray">
-                        <_x0031_
-                            crs:FullX="{Decimal}0.453620"
-                            crs:FullY="{Decimal}0.206620"
-                            crs:MaskValue="{Decimal}1.000000"
-                            crs:What="Mask/Gradient"
-                            crs:ZeroX="{Decimal}0.454587"
-                            crs:ZeroY="{Decimal}0.290788"
-                            jcr:primaryType="nt:unstructured"
-                            xmpNodeType="xmpStruct"/>
-                    </crs:CorrectionMasks>
-                </_x0031_>
-            </crs:GradientBasedCorrections>
             <xmpMM:DerivedFrom
                 jcr:primaryType="nt:unstructured"
                 stRef:documentID="xmp.did:E2D5124CFB35DF1192BFFBCD5BD86284"
                 stRef:instanceID="xmp.iid:E2D5124CFB35DF1192BFFBCD5BD86284"
                 stRef:originalDocumentID="xmp.did:E2D5124CFB35DF1192BFFBCD5BD86284"
                 xmpNodeType="xmpStruct"/>
-            <xmpMM:History
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}5"
-                xmpArrayType="rdf:Seq"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:E2D5124CFB35DF1192BFFBCD5BD86284"
-                    stEvt:softwareAgent="Adobe Photoshop CS4 Windows"
-                    stEvt:when="{Date}2010-03-22T22:38:47.000+01:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0032_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="converted"
-                    stEvt:parameters="from image/tiff to image/jpeg"
-                    xmpNodeType="xmpStruct"/>
-                <_x0033_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="derived"
-                    stEvt:parameters="converted from image/tiff to image/jpeg"
-                    xmpNodeType="xmpStruct"/>
-                <_x0034_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:E3D5124CFB35DF1192BFFBCD5BD86284"
-                    stEvt:softwareAgent="Adobe Photoshop CS4 Windows"
-                    stEvt:when="{Date}2010-03-22T22:38:47.000+01:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0035_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:728f62ff-f101-49fe-b9ef-55891dc7c41a"
-                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
-                    stEvt:when="{Date}2019-10-24T15:33:45.000-07:00"
-                    xmpNodeType="xmpStruct"/>
-            </xmpMM:History>
             <Iptc4xmpCore:CreatorContactInfo
                 Iptc4xmpCore:CiEmailWork="R@CAUCINO.IT"
                 Iptc4xmpCore:CiUrlWork="WWW.CAUCINO.IT"
@@ -436,7 +368,92 @@
             <imageFeatures
                 jcr:primaryType="nt:unstructured"
                 haystack0="{Binary}"/>
+            <crs:GradientBasedCorrections
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}1"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    crs:CorrectionActive="True"
+                    crs:CorrectionAmount="{Decimal}1.000000"
+                    crs:LocalBrightness="{Decimal}0.000000"
+                    crs:LocalClarity="{Decimal}0.000000"
+                    crs:LocalContrast="{Decimal}0.480000"
+                    crs:LocalExposure="{Decimal}-0.125000"
+                    crs:LocalSaturation="{Decimal}0.000000"
+                    crs:LocalSharpness="{Decimal}0.000000"
+                    crs:LocalToningHue="{Decimal}0.000000"
+                    crs:LocalToningSaturation="{Decimal}0.000000"
+                    crs:What="Correction"
+                    jcr:primaryType="nt:unstructured"
+                    xmpNodeType="xmpStruct">
+                    <crs:CorrectionMasks
+                        jcr:primaryType="nt:unstructured"
+                        xmpArraySize="{Long}1"
+                        xmpArrayType="rdf:Seq"
+                        xmpNodeType="xmpArray">
+                        <_x0031_
+                            crs:FullX="{Decimal}0.453620"
+                            crs:FullY="{Decimal}0.206620"
+                            crs:MaskValue="{Decimal}1.000000"
+                            crs:What="Mask/Gradient"
+                            crs:ZeroX="{Decimal}0.454587"
+                            crs:ZeroY="{Decimal}0.290788"
+                            jcr:primaryType="nt:unstructured"
+                            xmpNodeType="xmpStruct"/>
+                    </crs:CorrectionMasks>
+                </_x0031_>
+            </crs:GradientBasedCorrections>
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}5"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:E2D5124CFB35DF1192BFFBCD5BD86284"
+                    stEvt:softwareAgent="Adobe Photoshop CS4 Windows"
+                    stEvt:when="{Date}2010-03-22T22:38:47.000+01:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="converted"
+                    stEvt:parameters="from image/tiff to image/jpeg"
+                    xmpNodeType="xmpStruct"/>
+                <_x0033_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="converted from image/tiff to image/jpeg"
+                    xmpNodeType="xmpStruct"/>
+                <_x0034_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:E3D5124CFB35DF1192BFFBCD5BD86284"
+                    stEvt:softwareAgent="Adobe Photoshop CS4 Windows"
+                    stEvt:when="{Date}2010-03-22T22:38:47.000+01:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0035_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:728f62ff-f101-49fe-b9ef-55891dc7c41a"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
+                    stEvt:when="{Date}2019-10-24T15:33:45.000-07:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2019-10-27T16:05:38.973-07:00"/>
+        </usages>
     </jcr:content>
 </jcr:root>

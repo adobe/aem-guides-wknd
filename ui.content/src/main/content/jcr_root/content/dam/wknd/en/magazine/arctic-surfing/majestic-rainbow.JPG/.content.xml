@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:exifEX="http://cipa.jp/exif/1.0/" xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:psAux="http://ns.adobe.com/exif/1.0/aux/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="45957792-f48f-4428-a964-f8c84bc5a7ae">
     <jcr:content
+        cq:name="majestic-rainbow.JPG"
+        cq:parentPath="/content/dam/wknd/en/magazine/arctic-surfing"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-01T15:45:54.671-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:50:41.108-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -120,7 +123,7 @@
             crs:WhiteBalance="As Shot"
             crs:Whites2012="{Long}0"
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2019-10-01T15:45:54.093-07:00"
+            dam:extracted="{Date}2019-10-25T16:50:16.031-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -130,12 +133,13 @@
             dam:Physicalwidthindpi="{Long}300"
             dam:Physicalwidthininches="{Decimal}4.263333320617676"
             dam:Progressive="no"
-            dam:sha1="ee9d83b8e4765f9d1a9001e442ea881b012167b9"
+            dam:sha1="70327bcef78328aebffd5f57f0cc9f7187db4b52"
             dam:size="{Long}174041"
             dam:TimeCreated="092106+0000"
             dc:date="{Long}[20150930]"
             dc:date_xmpArrayType="rdf:Bag"
             dc:format="image/jpeg"
+            dc:modified="{Date}2019-10-25T16:50:36.365-07:00"
             exif:ApertureValue="761471/100000"
             exif:ColorSpace="{Long}65535"
             exif:CustomRendered="{Long}0"
@@ -167,6 +171,8 @@
             exifEX:PhotographicSensitivity="{Long}320"
             exifEX:RecommendedExposureIndex="{Long}320"
             exifEX:SensitivityType="{Long}2"
+            jcr:lastModified="{Date}2019-10-25T16:50:36.365-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             photoshop:ColorMode="{Long}3"
@@ -211,6 +217,12 @@
                 exif:RedEyeMode="{Boolean}false"
                 exif:Return="{Long}0"
                 jcr:primaryType="nt:unstructured"
+                xmpNodeType="xmpStruct"/>
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="adobe:docid:photoshop:5dfa9254-0fbe-1179-b2d2-b8ea086d21c9"
+                stRef:instanceID="xmp.iid:7da5a4b6-3208-4031-b0fa-33b7b6f72ac9"
+                stRef:originalDocumentID="F767613299831CE203C642825260FED4"
                 xmpNodeType="xmpStruct"/>
             <xmpMM:History
                 jcr:primaryType="nt:unstructured"
@@ -329,12 +341,6 @@
                     stEvt:when="{Date}2019-10-01T15:29:18.000-07:00"
                     xmpNodeType="xmpStruct"/>
             </xmpMM:History>
-            <xmpMM:DerivedFrom
-                jcr:primaryType="nt:unstructured"
-                stRef:documentID="adobe:docid:photoshop:5dfa9254-0fbe-1179-b2d2-b8ea086d21c9"
-                stRef:instanceID="xmp.iid:7da5a4b6-3208-4031-b0fa-33b7b6f72ac9"
-                stRef:originalDocumentID="F767613299831CE203C642825260FED4"
-                xmpNodeType="xmpStruct"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

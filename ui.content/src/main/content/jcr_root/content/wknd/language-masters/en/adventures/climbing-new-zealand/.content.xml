@@ -2,8 +2,8 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-10-25T07:53:59.766-07:00"
-        cq:lastModifiedBy="admin"
+        cq:lastModified="{Date}2019-10-27T16:31:22.622-07:00"
+        cq:lastModifiedBy="reference-adjustment-service"
         cq:tags="[wknd:season/summer,wknd:customer-journey/engage,wknd:customer-journey/convert,wknd:activity/climbing]"
         cq:template="/conf/wknd/settings/wcm/templates/adventure-page-template"
         jcr:description="Let us help you make your New Zealand climbing vacation a memory you will cherish forever! Come join us for a guided rock climbing adventure in the mountains that trained Sir Edmund Hilary. "
@@ -24,18 +24,36 @@
                     cq:styleIds="[1570236158571]"
                     jcr:created="{Date}2019-10-12T05:23:17.961-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-10-16T15:48:18.576-07:00"
+                    jcr:lastModified="{Date}2019-10-25T12:04:39.244-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/content/carousel"
                     autopauseDisabled="false"
                     autoplay="false">
                     <item_1571266094599
-                        jcr:lastModified="{Date}2019-10-18T18:45:59.294-07:00"
+                        jcr:lastModified="{Date}2019-10-25T12:05:09.606-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/content/image"
-                        fileReference="/content/dam/we-retail/en/activities/climbing/kalymnos-island-male.jpg"/>
+                        alt="climber hanging sideways"
+                        altValueFromDAM="false"
+                        displayPopupTitle="false"
+                        fileReference="/content/dam/wknd/en/activities/climbing/sport-climbing.jpg"
+                        imageCrop="0,0,1271,579"
+                        isDecorative="false"
+                        titleValueFromDAM="false"/>
+                    <item_1572024815642
+                        jcr:lastModified="{Date}2019-10-25T12:26:32.804-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/content/image"
+                        fileReference="/content/dam/wknd/en/activities/climbing/climber-gear-rope.jpg"/>
+                    <item_1572024817401
+                        jcr:lastModified="{Date}2019-10-25T10:36:38.593-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/content/image"
+                        fileReference="/content/dam/wknd/en/adventures/climbing-new-zealand/AdobeStock_277768563.jpeg"/>
                 </carousel>
                 <responsivegrid
                     cq:styleIds="[1554340406437]"
@@ -196,21 +214,39 @@
                             variationName="master">
                             <par2
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+                                sling:resourceType="wcm/foundation/components/responsivegrid">
+                                <image
+                                    jcr:created="{Date}2019-10-25T12:05:50.774-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-25T12:05:50.774-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/image"
+                                    fileReference="/content/dam/wknd/en/activities/climbing/climber-gear-outdoor.jpg"/>
+                            </par2>
                             <par1
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="dam/cfm/components/grid"/>
+                                sling:resourceType="dam/cfm/components/grid">
+                                <image
+                                    jcr:created="{Date}2019-10-25T10:36:23.239-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-25T10:36:23.239-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/image"
+                                    fileReference="/content/dam/wknd/en/adventures/climbing-new-zealand/AdobeStock_277948178.jpeg"/>
+                            </par1>
                         </item_1570890135033>
                         <item_1570890140330
                             cq:panelTitle="Itinerary"
-                            jcr:lastModified="{Date}2019-10-16T15:41:18.719-07:00"
+                            jcr:lastModified="{Date}2019-10-25T12:22:05.196-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/content/contentfragment"
                             displayMode="singleText"
                             elementNames="adventureItinerary"
                             fragmentPath="/content/dam/wknd/en/adventures/climbing-new-zealand/climbing-new-zealand"
-                            paragraphScope="all"
+                            paragraphScope="range"
                             text="Nicaragua Surf Trip Day 1 Our adventure begins! In est ante in nibh. Phasellus faucibus scelerisque eleifend donec. Ultricies mi quis hendrerit dolor magna eget. Aliquam id diam maecenas ultricies mi eget mauris pharetra. Ut aliquam purus sit amet luctus venenatis. Day 2 Forrest hike to secluded surf spot Ut sem viverra aliquet eget sit. Urna et pharetra pharetra massa massa ultricies. Sed blandit libero volutpat sed cras ornare. Nascetur ridiculus mus mauris vitae ultricies leo integer. Nibh mauris cursus mattis molestie a iaculis at erat. Day 3 Surf at sunset cliffs Posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Placerat vestibulum lectus mauris ultrices eros in. Eget dolor morbi non arcu. Magna fermentum iaculis eu non diam phasellus vestibulum lorem sed. Vulputate mi sit amet mauris commodo quis."
                             variationName="master">
                             <par9
@@ -218,21 +254,42 @@
                                 sling:resourceType="wcm/foundation/components/responsivegrid"/>
                             <par1
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="dam/cfm/components/grid"/>
+                                sling:resourceType="dam/cfm/components/grid">
+                                <image
+                                    jcr:created="{Date}2019-10-25T11:00:22.364-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-25T12:21:47.409-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/image"
+                                    fileReference="/content/dam/wknd/en/adventures/climbing-new-zealand/AdobeStock_140634652.jpeg"/>
+                            </par1>
                             <par7
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="dam/cfm/components/grid"/>
+                            <par3
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="dam/cfm/components/grid">
+                                <image
+                                    jcr:created="{Date}2019-10-25T12:22:11.596-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-25T12:22:11.596-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/image"
+                                    fileReference="/content/dam/wknd/en/adventures/climbing-new-zealand/AdobeStock_166394648.jpeg"/>
+                            </par3>
                         </item_1570890140330>
                         <item_1570890147607
                             cq:panelTitle="What to Bring"
-                            jcr:lastModified="{Date}2019-10-16T15:41:35.559-07:00"
+                            jcr:lastModified="{Date}2019-10-25T11:59:21.001-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/content/contentfragment"
                             displayMode="singleText"
                             elementNames="adventureGearList"
                             fragmentPath="/content/dam/wknd/en/adventures/climbing-new-zealand/climbing-new-zealand"
-                            paragraphScope="all"
+                            paragraphScope="range"
                             text="Nicaragua Surf Trip What to Bring Ut tellus elementum sagittis vitae et leo. Pellentesque sit amet porttitor eget. Urna duis convallis convallis tellus id interdum. Sit amet volutpat consequat mauris nunc congue nisi vitae. Urna cursus eget nunc scelerisque viverra mauris in. Libero volutpat sed cras ornare arcu dui vivamus. Packed by us Surfboards (hard top and foam) Rash guards Surf wax Life Jackets Packed by you Wetsuit (recommend 3/2 neoprene) Personal Surfboard (optional) Swim suit Closed-toed hiking shoes Day pack Rain coat Recommended Sunscreen Hat Sunglasses Water bottle Sweatshirt"
                             variationName="master">
                             <par3
@@ -244,6 +301,18 @@
                             <par1
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="dam/cfm/components/grid"/>
+                            <par0
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="dam/cfm/components/grid">
+                                <image_1323112874
+                                    jcr:created="{Date}2019-10-25T12:03:00.935-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-25T12:03:00.935-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/image"
+                                    fileReference="/content/dam/wknd/en/activities/climbing/equipment_4.jpg"/>
+                            </par0>
                         </item_1570890147607>
                     </tabs>
                 </responsivegrid>

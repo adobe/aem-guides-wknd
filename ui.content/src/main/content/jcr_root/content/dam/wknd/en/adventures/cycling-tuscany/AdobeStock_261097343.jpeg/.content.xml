@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:Iptc4xmpExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/" xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:lr="http://ns.adobe.com/lightroom/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:prismusagerights="http://prismstandard.org/namespaces/prismusagerights/2.1/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="48189f96-4c98-4951-bba9-80b817d73e02">
     <jcr:content
+        cq:name="AdobeStock_261097343.jpeg"
+        cq:parentPath="/content/dam/wknd/en/adventures/cycling-tuscany"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-24T15:51:03.905-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:48:45.708-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -13,7 +16,7 @@
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20180620"
             dam:DigitalCreationTime="150844+0000"
-            dam:extracted="{Date}2019-10-24T15:51:03.366-07:00"
+            dam:extracted="{Date}2019-10-25T16:47:21.134-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -23,7 +26,7 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}19.18055534362793"
             dam:Progressive="no"
-            dam:sha1="c437b06732cc613eed907749ed0b4cf2e00fd4a3"
+            dam:sha1="cf2bb688644798049b8fbedd3d4a4c47be549075"
             dam:size="{Long}418225"
             dam:TimeCreated="150844+0000"
             dc:creator="[Rob and Julia Campbell,Rob and Julia Campbell,Rob and Julia Campbell]"
@@ -32,6 +35,7 @@
             dc:date_xmpArrayType="rdf:Bag"
             dc:description="Action shot of cyclists riding hard."
             dc:format="image/jpeg"
+            dc:modified="{Date}2019-10-25T16:48:42.241-07:00"
             dc:rights="©Rob and Julia Campbell/Stocksy - stock.adobe.com"
             dc:subject="[speed,road,ride,recover,race,prepare,nature,morning,hill,helmet,healthy,group,fitness,fit,cycling,cycle,bike,active,boys,roadie,train,sweat,sustain,caucasian,white,man,male,person,people,adult,adults,40s,grownup,grownups,middle age,middle aged,30s,60s,mature,senior,senior citizen,senior citizens,elderly,old,venerable,elder,elders,geriatric,aged,speed,road,ride,recover,race,prepare,nature,morning,hill,helmet,healthy,group,fitness,fit,cycling,cycle,bike,active,boys,roadie,train,sweat,sustain,caucasian,white,man,male,person,people,adult,adults,40s,grownup,grownups,middle age,middle aged,30s,60s,mature,senior,senior citizen,senior citizens,elderly,old,venerable,elder,elders,geriatric,aged,speed,road,ride,recover,race,prepare,nature,morning,hill,helmet,healthy,group,fitness,fit,cycling,cycle,bike,active,boys,roadie,train,sweat,sustain,caucasian,white,man,male,person,people,adult,adults,40s,grownup,grownups,middle age,middle aged,30s,60s,mature,senior,senior citizen,senior citizens,elderly,old,venerable,elder,elders,geriatric,aged]"
             dc:subject_xmpArrayType="rdf:Bag"
@@ -45,6 +49,8 @@
             exif:PixelXDimension="{Long}1381"
             exif:PixelYDimension="{Long}920"
             Iptc4xmpExt:AddlModelInfo="53630.jpg,61149.jpg,62421.jpg"
+            jcr:lastModified="{Date}2019-10-25T16:48:42.241-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             jcr:title="Group road bike ride in nature"
@@ -83,36 +89,6 @@
             xmpMM:OriginalDocumentID="D540FBA0FF3083C3D44B087FC0128393"
             lastTransferredForTagging="{Date}2019-10-24T15:51:06.684-07:00"
             simsearchVersion="1.0.0">
-            <xmpMM:History
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}3"
-                xmpArrayType="rdf:Seq"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:9C911DBCEE2E681183D1D7BE8BC80C9F"
-                    stEvt:softwareAgent="Adobe Photoshop CS6 (Macintosh)"
-                    stEvt:when="{Date}2018-06-20T16:08:03.000-07:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0032_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/metadata"
-                    stEvt:instanceID="xmp.iid:603c018e-788e-4433-b118-83a80cc11c52"
-                    stEvt:softwareAgent="Adobe Photoshop Lightroom 5.7.1 (Macintosh)"
-                    stEvt:when="{Date}2018-07-06T14:34:12.000-07:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0033_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:6db4ecfa-0150-4cea-b503-86c0fb5aea7d"
-                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
-                    stEvt:when="{Date}2019-10-24T15:29:32.000-07:00"
-                    xmpNodeType="xmpStruct"/>
-            </xmpMM:History>
             <predictedTags jcr:primaryType="nt:unstructured">
                 <bicycle
                     jcr:lastModified="{Date}2019-10-24T15:51:06.677-07:00"
@@ -268,7 +244,46 @@
             <imageFeatures
                 jcr:primaryType="nt:unstructured"
                 haystack0="{Binary}"/>
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}3"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:9C911DBCEE2E681183D1D7BE8BC80C9F"
+                    stEvt:softwareAgent="Adobe Photoshop CS6 (Macintosh)"
+                    stEvt:when="{Date}2018-06-20T16:08:03.000-07:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/metadata"
+                    stEvt:instanceID="xmp.iid:603c018e-788e-4433-b118-83a80cc11c52"
+                    stEvt:softwareAgent="Adobe Photoshop Lightroom 5.7.1 (Macintosh)"
+                    stEvt:when="{Date}2018-07-06T14:34:12.000-07:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0033_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:6db4ecfa-0150-4cea-b503-86c0fb5aea7d"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
+                    stEvt:when="{Date}2019-10-24T15:29:32.000-07:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2019-10-25T17:49:53.119-07:00"/>
+        </usages>
     </jcr:content>
 </jcr:root>

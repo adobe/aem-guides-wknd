@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="1cb73edc-d90b-4e49-a262-45c4f8784c0e">
+    <jcr:content
+        cq:name="hiker-anapurna.jpg"
+        cq:parentPath="/content/dam/we-retail/en/activities/hiking-camping"
+        dam:relativePath="we-retail/en/activities/hiking-camping/hiker-anapurna.jpg"
+        jcr:lastModified="{Date}2016-09-12T17:17:03.274+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Hiker Anapurna">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2016-09-12T17:16:56.485+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}300"
+            dam:Physicalheightininches="{Decimal}3.5999999046325684"
+            dam:Physicalwidthindpi="{Long}300"
+            dam:Physicalwidthininches="{Decimal}5.400000095367432"
+            dam:Progressive="no"
+            dam:sha1="9fb0564e5a2f5d60a949673faffe660b36358f78"
+            dam:size="{Long}527074"
+            dc:description="Hiker on the trek in Himalayas, Anapurna valley, Nepal"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2016-03-12T12:11:36.472+01:00"
+            dc:title="Hiker Anapurna"
+            exif:ColorSpace="{Long}65535"
+            exif:ExifOffset="{Long}236"
+            exif:ExifVersion="0221"
+            exif:PixelXDimension="{Long}2880"
+            exif:PixelYDimension="{Long}1920"
+            jcr:lastModified="{Date}2016-09-12T17:17:03.133+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Hiker Anapurna"
+            photoshop:ColorMode="{Long}3"
+            tiff:BitsPerSample="[8,8,8]"
+            tiff:BitsPerSample_xmpArrayType="rdf:Seq"
+            tiff:ImageLength="{Long}1080"
+            tiff:ImageWidth="{Long}1620"
+            tiff:Orientation="{Long}1"
+            tiff:PhotometricInterpretation="{Long}2"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:SamplesPerPixel="{Long}3"
+            tiff:XResolution="300/1"
+            tiff:YResolution="300/1"
+            xmp:CreateDate="{Date}2016-03-02T16:04:25.000+01:00"
+            xmp:CreatorTool="Adobe Photoshop CC 2015 (Macintosh)"
+            xmp:MetadataDate="{Date}2016-03-08T23:49:52.000+01:00"
+            xmp:ModifyDate="{Date}2016-03-08T23:49:52.000+01:00"
+            xmpMM:DocumentID="adobe:docid:photoshop:7f4bf964-260e-1179-a410-b2db021fd2b8"
+            xmpMM:InstanceID="xmp.iid:dd954092-0c7c-4235-9976-e4a0f27cb466"
+            xmpMM:OriginalDocumentID="6F2257995DF18391D8BF5C93B2AA9D9E">
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}2"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:baeaeaa8-c3f9-4791-b383-d0201a21334a"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2015 (Macintosh)"
+                    stEvt:when="{Date}2016-03-08T23:49:52.000+01:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:dd954092-0c7c-4235-9976-e4a0f27cb466"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2015 (Macintosh)"
+                    stEvt:when="{Date}2016-03-08T23:49:52.000+01:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

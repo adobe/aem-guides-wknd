@@ -26,7 +26,7 @@ $mobile-max-height: 400px;
             margin-top: 0;
             margin-bottom: 0;
             object-fit: cover;
-            object-position: bottom;
+            object-position: center;
             width: 100%;
             height: 100%;
         }
@@ -61,6 +61,7 @@ $mobile-max-height: 400px;
              background-color: $white;
             margin-top: -180px;
             height: 180px;
+            min-height: 180px;
             float: left;
             padding-bottom: 0px;
             width: $max-width - ($gutter-padding * 2);
@@ -71,4 +72,23 @@ $mobile-max-height: 400px;
          padding-left: 0 !important;
          padding-right: 0 !important;
      }
+}
+
+/* position image from top */
+.cmp-teaser--imagetop {
+
+    .cmp-teaser__image {
+        .cmp-image__image {
+            object-position: top;
+        }
+    }
+}
+
+.cmp-teaser--imagebottom {
+
+    .cmp-teaser__image {
+        .cmp-image__image {
+            object-position: bottom;
+        }
+    }
 }

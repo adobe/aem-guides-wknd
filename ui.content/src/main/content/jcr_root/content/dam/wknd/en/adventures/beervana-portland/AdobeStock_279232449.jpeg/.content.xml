@@ -8,7 +8,7 @@
         cq:name="AdobeStock_279232449.jpeg"
         cq:parentPath="/content/dam/wknd/en/adventures/beervana-portland"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-24T15:49:05.645-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:48:26.777-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -116,8 +116,8 @@
             crs:Whites2012="{Long}0"
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20140606"
-            dam:DigitalCreationTime="164524+0000"
-            dam:extracted="{Date}2019-10-24T15:48:49.734-07:00"
+            dam:DigitalCreationTime="164524-0700"
+            dam:extracted="{Date}2019-10-25T16:47:27.802-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -127,19 +127,19 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}19.18055534362793"
             dam:Progressive="no"
-            dam:sha1="12c7aaab84e97b529fc3629cb710678ceef8fa52"
-            dam:size="{Long}335427"
+            dam:sha1="a80026b84c062e3d200aa4486ac385968a97be51"
+            dam:size="{Long}371949"
             dam:Sublocation="USA, New York State"
-            dam:TimeCreated="164524+0000"
+            dam:TimeCreated="164524-0700"
             dam:Unknown="0:0:0:000000"
-            dc:creator="[Lisa Weatherbee]"
+            dc:creator="[Lisa Weatherbee,Lisa Weatherbee,Lisa Weatherbee,Lisa Weatherbee,Lisa Weatherbee,Lisa Weatherbee,Lisa Weatherbee,Lisa Weatherbee,Lisa Weatherbee,Lisa Weatherbee,Lisa Weatherbee,Lisa Weatherbee,Lisa Weatherbee,Lisa Weatherbee,Lisa Weatherbee]"
             dc:creator_xmpArrayType="rdf:Seq"
-            dc:date="{Long}[20140606]"
-            dc:date_xmpArrayType="rdf:Bag"
+            dc:date="{Long}[20140606,20140606,20140606,20140606,20140606,20140606,20140606,20140606,20140606,20140606,20140606,20140606,20140606,20140606,20140606]"
+            dc:date_xmpArrayType="rdf:Seq"
             dc:format="image/jpeg"
             dc:modified="{Date}2019-10-24T15:49:05.535-07:00"
             dc:rights="©Cavan for Adobe - stock.adobe.com"
-            dc:subject="[Indoors,Young Adult,25 29 Years,Young Women,Three People,Young Men,Horizontal,USA,New York State,Differential Focus,Table,Looking Away,Beer,Beer Glass,Food And Drink,Drink,Sitting,Blouse,Friendship,Togetherness,Raw Food,Brewery,Brown Hair,Discussion,Laughing,African Ethnicity,Stool,Drinking,Shirt,Black Hair,Redhead,Relaxation,Happiness,Fun,Enjoyment,Standing,Youngsters,Males,People,United States,North America,North &amp;amp; Central America,America,American,Furniture,Alcohol,Beverage,Alcohols,Beverages,Drinks,Food &amp;amp; Drink,Clothing,Friend,Friends,Amity,Concept,Together,Brunet,Brunette,Features,Discussions,Conversation,Debate,Laugh,Laughter,Ethnicity,Shirts,Dark Hair,Red Hair,Redheads,Relaxing,Happy,Amusement,Concepts,Funny,Enjoying,Enjoy,Inside,Young Adults,Young People,Young Person,20 Year Old,18 Years,19 Years,20s,Twenties,20 Years,20-24,20-29,25-29,20-29 Years,20-24 Years,25 To 29 Years,25 To 29,25-30,25 30 Years,friend,man,woman,young,adult,multiethnic,african american,caucasian,sit,hold,look,drink,beer,barrel,brewery,glass,table,food,beverage,liquid,happiness,lifestyle,togetherness,friendship,refreshment,casual,group,three,people,indoors,day,new york city,new york,united states,usa,Indoors,Young Adult,25 29 Years,Young Women,Three People,Young Men,Horizontal,USA,New York State,Differential Focus,Table,Looking Away,Beer,Beer Glass,Food And Drink,Drink,Sitting,Blouse,Friendship,Togetherness,Raw Food,Brewery,Brown Hair,Discussion,Laughing,African Ethnicity,Stool,Drinking,Shirt,Black Hair,Redhead,Relaxation,Happiness,Fun,Enjoyment,Standing,Youngsters,Males,People,United States,North America,North &amp;amp; Central America,America,American,Furniture,Alcohol,Beverage,Alcohols,Beverages,Drinks,Food &amp;amp; Drink,Clothing,Friend,Friends,Amity,Concept,Together,Brunet,Brunette,Features,Discussions,Conversation,Debate,Laugh,Laughter,Ethnicity,Shirts,Dark Hair,Red Hair,Redheads,Relaxing,Happy,Amusement,Concepts,Funny,Enjoying,Enjoy]"
+            dc:subject="[Indoors,Young Adult,25 29 Years,Young Women,Three People,Young Men,Horizontal,USA,New York State,Differential Focus,Table,Looking Away,Beer,Beer Glass,Food And Drink,Drink,Sitting,Blouse,Friendship,Togetherness,Raw Food,Brewery,Brown Hair,Discussion,Laughing,African Ethnicity,Stool,Drinking,Shirt,Black Hair,Redhead,Relaxation,Happiness,Fun,Enjoyment,Standing,Youngsters,Males,People,United States,North America,North &amp;amp; Central America,America,American,Furniture,Alcohol,Beverage,Alcohols,Beverages,Drinks,Food &amp;amp; Drink,Clothing,Friend,Friends,Amity,Concept,Together,Brunet,Brunette,Features,Discussions,Conversation,Debate,Laugh,Laughter,Ethnicity,Shirts,Dark Hair,Red Hair,Redheads,Relaxing,Happy,Amusement,Concepts,Funny,Enjoying,Enjoy,Inside,Young Adults,Young People,Young Person,20 Year Old,18 Years,19 Years,20s,Twenties,20 Years,20-24,20-29,25-29,20-29 Years,20-24 Years,25 To 29 Years,25 To 29,25-30,25 30 Years,friend,man,woman,young,adult,multiethnic,african american,caucasian,sit,hold,look,drink,beer,barrel,brewery,glass,table,food,beverage,liquid,happiness,lifestyle,togetherness,friendship,refreshment,casual,group,three,people,indoors,day,new york city,new york,united states,usa,Indoors,Young Adult,25 29 Years,Young Women,Three People,Young Men,Horizontal,USA,New York State,Differential Focus,Table,Looking Away,Beer,Beer Glass,Food And Drink,Drink,Sitting,Blouse,Friendship,Togetherness,Raw Food,Brewery,Brown Hair,Discussion,Laughing,African Ethnicity,Stool,Drinking,Shirt,Black Hair,Redhead,Relaxation,Happiness,Fun,Enjoyment,Standing,Youngsters,Males,People,United States,North America,North &amp;amp; Central America,America,American,Furniture,Alcohol,Beverage,Alcohols,Beverages,Drinks,Food &amp;amp; Drink,Clothing,Friend,Friends,Amity,Concept,Together,Brunet,Brunette,Features,Discussions,Conversation,Debate,Laugh,Laughter,Ethnicity,Shirts,Dark Hair,Red Hair,Redheads,Relaxing,Happy,Amusement,Concepts,Funny,Enjoying,Enjoy,Indoors,Young Adult,25 29 Years,Young Women,Three People,Young Men,Horizontal,USA,New York State,Differential Focus,Table,Looking Away,Beer,Beer Glass,Food And Drink,Drink,Sitting,Blouse,Friendship,Togetherness,Raw Food,Brewery,Brown Hair,Discussion,Laughing,African Ethnicity,Stool,Drinking,Shirt,Black Hair,Redhead,Relaxation,Happiness,Fun,Enjoyment,Standing,Youngsters,Males,People,United States,North America,North &amp;amp; Central America,America,American,Furniture,Alcohol,Beverage,Alcohols,Beverages,Drinks,Food &amp;amp; Drink,Clothing,Friend,Friends,Amity,Concept,Together,Brunet,Brunette,Features,Discussions,Conversation,Debate,Laugh,Laughter,Ethnicity,Shirts,Dark Hair,Red Hair,Redheads,Relaxing,Happy,Amusement,Concepts,Funny,Enjoying,Enjoy,Inside,Young Adults,Young People,Young Person,20 Year Old,18 Years,19 Years,20s,Twenties,20 Years,20-24,20-29,25-29,20-29 Years,20-24 Years,25 To 29 Years,25 To 29,25-30,25 30 Years,friend,man,woman,young,adult,multiethnic,african american,caucasian,sit,hold,look,drink,beer,barrel,brewery,glass,table,food,beverage,liquid,happiness,lifestyle,togetherness,friendship,refreshment,casual,group,three,people,indoors,day,new york city,new york,united states,usa,Indoors,Young Adult,25 29 Years,Young Women,Three People,Young Men,Horizontal,USA,New York State,Differential Focus,Table,Looking Away,Beer,Beer Glass,Food And Drink,Drink,Sitting,Blouse,Friendship,Togetherness,Raw Food,Brewery,Brown Hair,Discussion,Laughing,African Ethnicity,Stool,Drinking,Shirt,Black Hair,Redhead,Relaxation,Happiness,Fun,Enjoyment,Standing,Youngsters,Males,People,United States,North America,North &amp;amp; Central America,America,American,Furniture,Alcohol,Beverage,Alcohols,Beverages,Drinks,Food &amp;amp; Drink,Clothing,Friend,Friends,Amity,Concept,Together,Brunet,Brunette,Features,Discussions,Conversation,Debate,Laugh,Laughter,Ethnicity,Shirts,Dark Hair,Red Hair,Redheads,Relaxing,Happy,Amusement,Concepts,Funny,Enjoying,Enjoy,Indoors,Young Adult,25 29 Years,Young Women,Three People,Young Men,Horizontal,USA,New York State,Differential Focus,Table,Looking Away,Beer,Beer Glass,Food And Drink,Drink,Sitting,Blouse,Friendship,Togetherness,Raw Food,Brewery,Brown Hair,Discussion,Laughing,African Ethnicity,Stool,Drinking,Shirt,Black Hair,Redhead,Relaxation,Happiness,Fun,Enjoyment,Standing,Youngsters,Males,People,United States,North America,North &amp;amp; Central America,America,American,Furniture,Alcohol,Beverage,Alcohols,Beverages,Drinks,Food &amp;amp; Drink,Clothing,Friend,Friends,Amity,Concept,Together,Brunet,Brunette,Features,Discussions,Conversation,Debate,Laugh,Laughter,Ethnicity,Shirts,Dark Hair,Red Hair,Redheads,Relaxing,Happy,Amusement,Concepts,Funny,Enjoying,Enjoy,Inside,Young Adults,Young People,Young Person,20 Year Old,18 Years,19 Years,20s,Twenties,20 Years,20-24,20-29,25-29,20-29 Years,20-24 Years,25 To 29 Years,25 To 29,25-30,25 30 Years,friend,man,woman,young,adult,multiethnic,african american,caucasian,sit,hold,look,drink,beer,barrel,brewery,glass,table,food,beverage,liquid,happiness,lifestyle,togetherness,friendship,refreshment,casual,group,three,people,indoors,day,new york city,new york,united states,usa,Indoors,Young Adult,25 29 Years,Young Women,Three People,Young Men,Horizontal,USA,New York State,Differential Focus,Table,Looking Away,Beer,Beer Glass,Food And Drink,Drink,Sitting,Blouse,Friendship,Togetherness,Raw Food,Brewery,Brown Hair,Discussion,Laughing,African Ethnicity,Stool,Drinking,Shirt,Black Hair,Redhead,Relaxation,Happiness,Fun,Enjoyment,Standing,Youngsters,Males,People,United States,North America,North &amp;amp; Central America,America,American,Furniture,Alcohol,Beverage,Alcohols,Beverages,Drinks,Food &amp;amp; Drink,Clothing,Friend,Friends,Amity,Concept,Together,Brunet,Brunette,Features,Discussions,Conversation,Debate,Laugh,Laughter,Ethnicity,Shirts,Dark Hair,Red Hair,Redheads,Relaxing,Happy,Amusement,Concepts,Funny,Enjoying,Enjoy,Inside,Young Adults,Young People,Young Person,20 Year Old,18 Years,19 Years,20s,Twenties,20 Years,20-24,20-29,25-29,20-29 Years,20-24 Years,25 To 29 Years,25 To 29,25-30,25 30 Years,friend,man,woman,young,adult,multiethnic,african american,caucasian,sit,hold,look,drink,beer,barrel,brewery,glass,table,food,beverage,liquid,happiness,lifestyle,togetherness,friendship,refreshment,casual,group,three,people,indoors,day,new york city,new york,united states,usa,Indoors,Young Adult,25 29 Years,Young Women,Three People,Young Men,Horizontal,USA,New York State,Differential Focus,Table,Looking Away,Beer,Beer Glass,Food And Drink,Drink,Sitting,Blouse,Friendship,Togetherness,Raw Food,Brewery,Brown Hair,Discussion,Laughing,African Ethnicity,Stool,Drinking,Shirt,Black Hair,Redhead,Relaxation,Happiness,Fun,Enjoyment,Standing,Youngsters,Males,People,United States,North America,North &amp;amp; Central America,America,American,Furniture,Alcohol,Beverage,Alcohols,Beverages,Drinks,Food &amp;amp; Drink,Clothing,Friend,Friends,Amity,Concept,Together,Brunet,Brunette,Features,Discussions,Conversation,Debate,Laugh,Laughter,Ethnicity,Shirts,Dark Hair,Red Hair,Redheads,Relaxing,Happy,Amusement,Concepts,Funny,Enjoying,Enjoy,Indoors,Young Adult,25 29 Years,Young Women,Three People,Young Men,Horizontal,USA,New York State,Differential Focus,Table,Looking Away,Beer,Beer Glass,Food And Drink,Drink,Sitting,Blouse,Friendship,Togetherness,Raw Food,Brewery,Brown Hair,Discussion,Laughing,African Ethnicity,Stool,Drinking,Shirt,Black Hair,Redhead,Relaxation,Happiness,Fun,Enjoyment,Standing,Youngsters,Males,People,United States,North America,North &amp;amp; Central America,America,American,Furniture,Alcohol,Beverage,Alcohols,Beverages,Drinks,Food &amp;amp; Drink,Clothing,Friend,Friends,Amity,Concept,Together,Brunet,Brunette,Features,Discussions,Conversation,Debate,Laugh,Laughter,Ethnicity,Shirts,Dark Hair,Red Hair,Redheads,Relaxing,Happy,Amusement,Concepts,Funny,Enjoying,Enjoy,Inside,Young Adults,Young People,Young Person,20 Year Old,18 Years,19 Years,20s,Twenties,20 Years,20-24,20-29,25-29,20-29 Years,20-24 Years,25 To 29 Years,25 To 29,25-30,25 30 Years,friend,man,woman,young,adult,multiethnic,african american,caucasian,sit,hold,look,drink,beer,barrel,brewery,glass,table,food,beverage,liquid,happiness,lifestyle,togetherness,friendship,refreshment,casual,group,three,people,indoors,day,new york city,new york,united states,usa,Indoors,Young Adult,25 29 Years,Young Women,Three People,Young Men,Horizontal,USA,New York State,Differential Focus,Table,Looking Away,Beer,Beer Glass,Food And Drink,Drink,Sitting,Blouse,Friendship,Togetherness,Raw Food,Brewery,Brown Hair,Discussion,Laughing,African Ethnicity,Stool,Drinking,Shirt,Black Hair,Redhead,Relaxation,Happiness,Fun,Enjoyment,Standing,Youngsters,Males,People,United States,North America,North &amp;amp; Central America,America,American,Furniture,Alcohol,Beverage,Alcohols,Beverages,Drinks,Food &amp;amp; Drink,Clothing,Friend,Friends,Amity,Concept,Together,Brunet,Brunette,Features,Discussions,Conversation,Debate,Laugh,Laughter,Ethnicity,Shirts,Dark Hair,Red Hair,Redheads,Relaxing,Happy,Amusement,Concepts,Funny,Enjoying,Enjoy,Indoors,Young Adult,25 29 Years,Young Women,Three People,Young Men,Horizontal,USA,New York State,Differential Focus,Table,Looking Away,Beer,Beer Glass,Food And Drink,Drink,Sitting,Blouse,Friendship,Togetherness,Raw Food,Brewery,Brown Hair,Discussion,Laughing,African Ethnicity,Stool,Drinking,Shirt,Black Hair,Redhead,Relaxation,Happiness,Fun,Enjoyment,Standing,Youngsters]"
             dc:subject_xmpArrayType="rdf:Bag"
             dc:title="Smiling friends enjoying beer in brewery"
             exif:ApertureValue="28165/10653"
@@ -181,7 +181,7 @@
             exifEX:RecommendedExposureIndex="{Long}800"
             exifEX:SensitivityType="{Long}2"
             Iptc4xmpCore:Location="USA, New York State"
-            jcr:lastModified="{Date}2019-10-24T15:49:05.534-07:00"
+            jcr:lastModified="{Date}2019-10-25T16:48:23.060-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
@@ -234,7 +234,8 @@
             xmpMM:DocumentID="xmp.did:68DC676F6D206811822AF6DC8FBCCF63"
             xmpMM:InstanceID="xmp.iid:ead2ae35-888e-4ed8-8180-d654d61c227b"
             xmpMM:OriginalDocumentID="D5A1E9FFBC0C2495AEFB1A4F31D7B3BF"
-            xmpRights:UsageTerms="Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  "
+            xmpRights:UsageTerms="[Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  ]"
+            xmpRights:UsageTerms_xmpArrayType="rdf:Alt"
             lastTransferredForTagging="{Date}2019-10-24T15:48:51.886-07:00"
             simsearchVersion="1.0.0">
             <exif:Flash
@@ -251,99 +252,6 @@
                 stRef:instanceID="xmp.iid:8C5E17FE25206811822AF113DAC6AC69"
                 stRef:originalDocumentID="D5A1E9FFBC0C2495AEFB1A4F31D7B3BF"
                 xmpNodeType="xmpStruct"/>
-            <xmpMM:History
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}11"
-                xmpArrayType="rdf:Seq"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="derived"
-                    stEvt:parameters="converted from image/x-canon-cr2 to image/tiff"
-                    xmpNodeType="xmpStruct"/>
-                <_x0032_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:68DC676F6D206811822AF6DC8FBCCF63"
-                    stEvt:softwareAgent="Adobe Photoshop Camera Raw 6.7 (Macintosh)"
-                    stEvt:when="{Date}2014-08-05T23:25:50.000-06:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0033_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:BAA43A456A2068118DBB97ECBAFB51A6"
-                    stEvt:softwareAgent="Adobe Photoshop CS5 Macintosh"
-                    stEvt:when="{Date}2014-08-05T23:31:50.000-06:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0034_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="converted"
-                    stEvt:parameters="from image/tiff to application/vnd.adobe.photoshop"
-                    xmpNodeType="xmpStruct"/>
-                <_x0035_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="derived"
-                    stEvt:parameters="converted from image/tiff to application/vnd.adobe.photoshop"
-                    xmpNodeType="xmpStruct"/>
-                <_x0036_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:46C142086F2068118DBB97ECBAFB51A6"
-                    stEvt:softwareAgent="Adobe Photoshop CS5 Macintosh"
-                    stEvt:when="{Date}2014-08-05T23:31:50.000-06:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0037_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:8C5E17FE25206811822AF113DAC6AC69"
-                    stEvt:softwareAgent="Adobe Photoshop CS6 (Macintosh)"
-                    stEvt:when="{Date}2014-12-10T16:21:53.000-05:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0038_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="converted"
-                    stEvt:parameters="from application/vnd.adobe.photoshop to image/jpeg"
-                    xmpNodeType="xmpStruct"/>
-                <_x0039_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="derived"
-                    stEvt:parameters="converted from application/vnd.adobe.photoshop to image/jpeg"
-                    xmpNodeType="xmpStruct"/>
-                <_x0031_0
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:8D5E17FE25206811822AF113DAC6AC69"
-                    stEvt:softwareAgent="Adobe Photoshop CS6 (Macintosh)"
-                    stEvt:when="{Date}2014-12-10T16:21:53.000-05:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0031_1
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:ead2ae35-888e-4ed8-8180-d654d61c227b"
-                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
-                    stEvt:when="{Date}2019-10-24T15:18:38.000-07:00"
-                    xmpNodeType="xmpStruct"/>
-            </xmpMM:History>
-            <Iptc4xmpExt:LocationShown
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}2"
-                xmpArrayType="rdf:Bag"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    Iptc4xmpExt:Sublocation="USA"
-                    jcr:primaryType="nt:unstructured"
-                    xmpNodeType="xmpStruct"/>
-                <_x0032_
-                    Iptc4xmpExt:Sublocation=" New York State"
-                    jcr:primaryType="nt:unstructured"
-                    xmpNodeType="xmpStruct"/>
-            </Iptc4xmpExt:LocationShown>
             <predictedTags jcr:primaryType="nt:unstructured">
                 <woman
                     jcr:lastModified="{Date}2019-10-24T15:48:51.882-07:00"
@@ -500,7 +408,109 @@
                 jcr:primaryType="nt:unstructured"
                 haystack0="{Binary}"/>
             <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}11"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="converted from image/x-canon-cr2 to image/tiff"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:68DC676F6D206811822AF6DC8FBCCF63"
+                    stEvt:softwareAgent="Adobe Photoshop Camera Raw 6.7 (Macintosh)"
+                    stEvt:when="{Date}2014-08-05T23:25:50.000-06:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0033_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:BAA43A456A2068118DBB97ECBAFB51A6"
+                    stEvt:softwareAgent="Adobe Photoshop CS5 Macintosh"
+                    stEvt:when="{Date}2014-08-05T23:31:50.000-06:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0034_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="converted"
+                    stEvt:parameters="from image/tiff to application/vnd.adobe.photoshop"
+                    xmpNodeType="xmpStruct"/>
+                <_x0035_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="converted from image/tiff to application/vnd.adobe.photoshop"
+                    xmpNodeType="xmpStruct"/>
+                <_x0036_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:46C142086F2068118DBB97ECBAFB51A6"
+                    stEvt:softwareAgent="Adobe Photoshop CS5 Macintosh"
+                    stEvt:when="{Date}2014-08-05T23:31:50.000-06:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0037_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:8C5E17FE25206811822AF113DAC6AC69"
+                    stEvt:softwareAgent="Adobe Photoshop CS6 (Macintosh)"
+                    stEvt:when="{Date}2014-12-10T16:21:53.000-05:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0038_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="converted"
+                    stEvt:parameters="from application/vnd.adobe.photoshop to image/jpeg"
+                    xmpNodeType="xmpStruct"/>
+                <_x0039_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="converted from application/vnd.adobe.photoshop to image/jpeg"
+                    xmpNodeType="xmpStruct"/>
+                <_x0031_0
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:8D5E17FE25206811822AF113DAC6AC69"
+                    stEvt:softwareAgent="Adobe Photoshop CS6 (Macintosh)"
+                    stEvt:when="{Date}2014-12-10T16:21:53.000-05:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0031_1
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:ead2ae35-888e-4ed8-8180-d654d61c227b"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
+                    stEvt:when="{Date}2019-10-24T15:18:38.000-07:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
+            <Iptc4xmpExt:LocationShown
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}2"
+                xmpArrayType="rdf:Bag"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    Iptc4xmpExt:Sublocation="USA"
+                    jcr:primaryType="nt:unstructured"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    Iptc4xmpExt:Sublocation=" New York State"
+                    jcr:primaryType="nt:unstructured"
+                    xmpNodeType="xmpStruct"/>
+            </Iptc4xmpExt:LocationShown>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}4"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}4"
+                lastUsed="{Date}2019-10-25T16:31:10.914-07:00"/>
+        </usages>
     </jcr:content>
 </jcr:root>

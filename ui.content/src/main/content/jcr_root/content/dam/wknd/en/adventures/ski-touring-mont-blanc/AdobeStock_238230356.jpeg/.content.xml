@@ -8,7 +8,7 @@
         cq:name="AdobeStock_238230356.jpeg"
         cq:parentPath="/content/dam/wknd/en/adventures/ski-touring-mont-blanc"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-24T15:50:23.317-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:48:08.089-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -134,8 +134,8 @@
             crs:Whites2012="{Long}7"
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20181204"
-            dam:DigitalCreationTime="135903+0000"
-            dam:extracted="{Date}2019-10-24T15:49:48.397-07:00"
+            dam:DigitalCreationTime="135903-0800"
+            dam:extracted="{Date}2019-10-25T16:48:02.896-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -145,17 +145,17 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}18.55555534362793"
             dam:Progressive="no"
-            dam:sha1="ca6da5ca14ee0bd96de746da787a9d78f3b4b079"
-            dam:size="{Long}356892"
-            dam:TimeCreated="135903+0000"
-            dc:creator="[JULIEN ZANNONI]"
+            dam:sha1="0a2fe33e3b01c4d6b9cde881c9e7936258b2d725"
+            dam:size="{Long}359792"
+            dam:TimeCreated="135903-0800"
+            dc:creator="[JULIEN ZANNONI,JULIEN ZANNONI,JULIEN ZANNONI]"
             dc:creator_xmpArrayType="rdf:Seq"
-            dc:date="{Long}[20181204]"
-            dc:date_xmpArrayType="rdf:Bag"
+            dc:date="{Long}[20181204,20181204,20181204]"
+            dc:date_xmpArrayType="rdf:Seq"
             dc:format="image/jpeg"
             dc:modified="{Date}2019-10-24T15:50:23.213-07:00"
             dc:rights="WWW.JULIENZANNONI.COM"
-            dc:subject="[chamonix,mont blanc,aiguille du midi,montagne,neige,paysage,ciel,hiver,alpes,pic,nature,bleu,rocher,glacier,glace,voyage,haute,alpestre,froid,blanc,ski,panorama,nuage,enneigé,vue,haut,beau,chamonix,mont blanc,aiguille du midi,montagne,neige,paysage,ciel,hiver,alpes,pic,nature,bleu,rocher,glacier,glace,voyage,haute,alpestre,froid,blanc,ski,panorama,nuage,enneigé,vue,haut,beau,chamonix,mont blanc,aiguille du midi,montagne,neige,paysage,ciel,hiver,alpes,pic,nature,bleu,rocher,glacier,glace,voyage,haute,alpestre,froid,blanc,ski,panorama,nuage,enneigé,vue,haut,beau]"
+            dc:subject="[chamonix,mont blanc,aiguille du midi,montagne,neige,paysage,ciel,hiver,alpes,pic,nature,bleu,rocher,glacier,glace,voyage,haute,alpestre,froid,blanc,ski,panorama,nuage,enneigé,vue,haut,beau,chamonix,mont blanc,aiguille du midi,montagne,neige,paysage,ciel,hiver,alpes,pic,nature,bleu,rocher,glacier,glace,voyage,haute,alpestre,froid,blanc,ski,panorama,nuage,enneigé,vue,haut,beau,chamonix,mont blanc,aiguille du midi,montagne,neige,paysage,ciel,hiver,alpes,pic,nature,bleu,rocher,glacier,glace,voyage,haute,alpestre,froid,blanc,ski,panorama,nuage,enneigé,vue,haut,beau,chamonix,mont blanc,aiguille du midi,montagne,neige,paysage,ciel,hiver,alpes,pic,nature,bleu,rocher,glacier,glace,voyage,haute,alpestre,froid,blanc,ski,panorama,nuage,enneigé,vue,haut,beau,chamonix,mont blanc,aiguille du midi,montagne,neige,paysage,ciel,hiver,alpes,pic,nature,bleu,rocher,glacier,glace,voyage,haute,alpestre,froid,blanc,ski,panorama,nuage,enneigé,vue,haut,beau,chamonix,mont blanc,aiguille du midi,montagne,neige,paysage,ciel,hiver,alpes,pic,nature,bleu,rocher,glacier,glace,voyage,haute,alpestre,froid,blanc,ski,panorama,nuage,enneigé,vue,haut,beau,chamonix,mont blanc,aiguille du midi,montagne,neige,paysage,ciel,hiver,alpes,pic,nature,bleu,rocher,glacier,glace,voyage,haute,alpestre,froid,blanc,ski,panorama,nuage,enneigé,vue,haut,beau]"
             dc:subject_xmpArrayType="rdf:Bag"
             dc:title="Aiguille du Midi Hiver 2018"
             exif:ApertureValue="13301/2002"
@@ -201,7 +201,7 @@
             exifEX:PhotographicSensitivity="{Long}100"
             exifEX:RecommendedExposureIndex="{Long}100"
             exifEX:SensitivityType="{Long}2"
-            jcr:lastModified="{Date}2019-10-24T15:50:23.213-07:00"
+            jcr:lastModified="{Date}2019-10-25T16:47:24.856-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
@@ -248,7 +248,8 @@
             xmpMM:InstanceID="xmp.iid:2b2ec309-1420-4c1d-9a75-b314e4d3ffbc"
             xmpMM:OriginalDocumentID="F3C4C9A23137A49243C838901A14F619"
             xmpRights:Marked="{Boolean}true"
-            xmpRights:UsageTerms="Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  "
+            xmpRights:UsageTerms="[Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  ]"
+            xmpRights:UsageTerms_xmpArrayType="rdf:Alt"
             xmpRights:WebStatement="WWW.JULIENZANNONI.COM"
             lastTransferredForTagging="{Date}2019-10-24T15:49:51.089-07:00"
             simsearchVersion="1.0.0">
@@ -272,33 +273,6 @@
                 stRef:documentID="F3C4C9A23137A49243C838901A14F619"
                 stRef:originalDocumentID="F3C4C9A23137A49243C838901A14F619"
                 xmpNodeType="xmpStruct"/>
-            <xmpMM:History
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}3"
-                xmpArrayType="rdf:Seq"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="derived"
-                    stEvt:parameters="converted from image/x-nikon-nef to image/jpeg, saved to new location"
-                    xmpNodeType="xmpStruct"/>
-                <_x0032_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:e2b5b784-887b-6445-824b-90fdd604fd78"
-                    stEvt:softwareAgent="Adobe Photoshop Lightroom 6.14 (Windows)"
-                    stEvt:when="{Date}2018-12-04T17:28:08.000+01:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0033_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:2b2ec309-1420-4c1d-9a75-b314e4d3ffbc"
-                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
-                    stEvt:when="{Date}2019-10-24T15:34:13.000-07:00"
-                    xmpNodeType="xmpStruct"/>
-            </xmpMM:History>
             <Iptc4xmpCore:CreatorContactInfo
                 Iptc4xmpCore:CiAdrCity="Chamonix"
                 Iptc4xmpCore:CiAdrCtry="France"
@@ -459,6 +433,33 @@
             <imageFeatures
                 jcr:primaryType="nt:unstructured"
                 haystack0="{Binary}"/>
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}3"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="converted from image/x-nikon-nef to image/jpeg, saved to new location"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:e2b5b784-887b-6445-824b-90fdd604fd78"
+                    stEvt:softwareAgent="Adobe Photoshop Lightroom 6.14 (Windows)"
+                    stEvt:when="{Date}2018-12-04T17:28:08.000+01:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0033_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:2b2ec309-1420-4c1d-9a75-b314e4d3ffbc"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
+                    stEvt:when="{Date}2019-10-24T15:34:13.000-07:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

@@ -8,13 +8,13 @@
         cq:name="man-wetsuit.jpg"
         cq:parentPath="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-24T14:31:40.593-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:47:50.569-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Man Wetsuit">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2019-10-24T14:31:39.146-07:00"
+            dam:extracted="{Date}2019-10-25T16:47:47.364-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -24,7 +24,7 @@
             dam:Physicalwidthindpi="{Long}300"
             dam:Physicalwidthininches="{Decimal}5.400000095367432"
             dam:Progressive="no"
-            dam:sha1="2b4e70f95257d2f3c2d327f86a43b1e3b4be3187"
+            dam:sha1="676d5e11c536cb0a2d547e8022ef3c2f6542dc74"
             dam:size="{Long}78242"
             dc:description="Man in wetsuit with bodyboard surfing equipment"
             dc:format="image/jpeg"
@@ -34,7 +34,7 @@
             exif:ExifVersion="0221"
             exif:PixelXDimension="{Long}2880"
             exif:PixelYDimension="{Long}1920"
-            jcr:lastModified="{Date}2019-10-24T14:31:39.841-07:00"
+            jcr:lastModified="{Date}2019-10-25T16:47:36.745-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
@@ -82,13 +82,13 @@
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
         <usages
-            dam:score="{Long}1"
+            dam:score="{Long}2"
             jcr:primaryType="nt:unstructured"
             usedBy="[aem]">
             <aem
                 jcr:primaryType="nt:unstructured"
-                count="{Long}1"
-                lastUsed="{Date}2019-10-03T17:59:38.315-07:00"/>
+                count="{Long}2"
+                lastUsed="{Date}2019-10-25T17:46:50.920-07:00"/>
         </usages>
     </jcr:content>
 </jcr:root>

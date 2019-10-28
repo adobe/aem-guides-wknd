@@ -8,7 +8,7 @@
         cq:name="AdobeStock_277761435.jpeg"
         cq:parentPath="/content/dam/wknd/en/adventures/whistler-mountain-biking"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-24T15:52:09.436-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:47:58.227-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -110,7 +110,7 @@
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20160811"
             dam:DigitalCreationTime="141210+0000"
-            dam:extracted="{Date}2019-10-24T15:51:49.771-07:00"
+            dam:extracted="{Date}2019-10-25T16:47:52.979-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -120,15 +120,15 @@
             dam:Physicalwidthindpi="{Long}61"
             dam:Physicalwidthininches="{Decimal}27.672130584716797"
             dam:Progressive="no"
-            dam:sha1="4b4cc299979965e2c61c4de0540be0dcc44d11c9"
-            dam:size="{Long}1032210"
-            dam:TimeCreated="141210+0000"
-            dc:date="{Long}[20160811]"
-            dc:date_xmpArrayType="rdf:Bag"
+            dam:sha1="b5be092b45486ea3366c074c5f994142a351aebb"
+            dam:size="{Long}1031919"
+            dam:TimeCreated="071210-0700"
+            dc:date="{Long}[20160811,20160811,20160811]"
+            dc:date_xmpArrayType="rdf:Seq"
             dc:format="image/jpeg"
             dc:modified="{Date}2019-10-24T15:52:09.268-07:00"
             dc:rights="©Cavan Images - stock.adobe.com"
-            dc:subject="[Mountains,Canada,Summer,Lake,Mountain peak,Whistler,British Columbia,Mountain lake,Alpine meadow,Meadow,Volcanic peak,Provincial park,Outdoor,Garibaldi Provincial Park,Black Tusk,Scenic,High alpine,No people,Mountains,Canada,Summer,Lake,Mountain peak,Whistler,British Columbia,Mountain lake,Alpine meadow,Meadow,Volcanic peak,Provincial park,Outdoor,Garibaldi Provincial Park,Black Tusk,Scenic,High alpine,No people,Mountains,Canada,Summer,Lake,Mountain peak,Whistler,British Columbia,Mountain lake,Alpine meadow,Meadow,Volcanic peak,Provincial park,Outdoor,Garibaldi Provincial Park,Black Tusk,Scenic,High alpine,No people,mountains,canada,summer,lake,mountain peak,whistler,british columbia,mountain lake,alpine meadow,meadow,volcanic peak,provincial park,outdoor,garibaldi provincial park,black tusk,scenic,high alpine,no people]"
+            dc:subject="[Mountains,Canada,Summer,Lake,Mountain peak,Whistler,British Columbia,Mountain lake,Alpine meadow,Meadow,Volcanic peak,Provincial park,Outdoor,Garibaldi Provincial Park,Black Tusk,Scenic,High alpine,No people,Mountains,Canada,Summer,Lake,Mountain peak,Whistler,British Columbia,Mountain lake,Alpine meadow,Meadow,Volcanic peak,Provincial park,Outdoor,Garibaldi Provincial Park,Black Tusk,Scenic,High alpine,No people,Mountains,Canada,Summer,Lake,Mountain peak,Whistler,British Columbia,Mountain lake,Alpine meadow,Meadow,Volcanic peak,Provincial park,Outdoor,Garibaldi Provincial Park,Black Tusk,Scenic,High alpine,No people,mountains,canada,summer,lake,mountain peak,whistler,british columbia,mountain lake,alpine meadow,meadow,volcanic peak,provincial park,outdoor,garibaldi provincial park,black tusk,scenic,high alpine,no people,Mountains,Canada,Summer,Lake,Mountain peak,Whistler,British Columbia,Mountain lake,Alpine meadow,Meadow,Volcanic peak,Provincial park,Outdoor,Garibaldi Provincial Park,Black Tusk,Scenic,High alpine,No people,Mountains,Canada,Summer,Lake,Mountain peak,Whistler,British Columbia,Mountain lake,Alpine meadow,Meadow,Volcanic peak,Provincial park,Outdoor,Garibaldi Provincial Park,Black Tusk,Scenic,High alpine,No people,Mountains,Canada,Summer,Lake,Mountain peak,Whistler,British Columbia,Mountain lake,Alpine meadow,Meadow,Volcanic peak,Provincial park,Outdoor,Garibaldi Provincial Park,Black Tusk,Scenic,High alpine,No people,mountains,canada,summer,lake,mountain peak,whistler,british columbia,mountain lake,alpine meadow,meadow,volcanic peak,provincial park,outdoor,garibaldi provincial park,black tusk,scenic,high alpine,no people,Mountains,Canada,Summer,Lake,Mountain peak,Whistler,British Columbia,Mountain lake,Alpine meadow,Meadow,Volcanic peak,Provincial park,Outdoor,Garibaldi Provincial Park,Black Tusk,Scenic,High alpine,No people,mountains,canada,summer,lake,mountain peak,whistler,british columbia,mountain lake,alpine meadow,meadow,volcanic peak,provincial park,outdoor,garibaldi provincial park,black tusk,scenic,high alpine,no people]"
             dc:subject_xmpArrayType="rdf:Bag"
             dc:title="Canadian Mountainscape in Summer at Garibaldi Provincial Park"
             exif:ApertureValue="4/1"
@@ -164,7 +164,7 @@
             exifEX:PhotographicSensitivity="{Long}160"
             exifEX:RecommendedExposureIndex="{Long}160"
             exifEX:SensitivityType="{Long}2"
-            jcr:lastModified="{Date}2019-10-24T15:52:09.268-07:00"
+            jcr:lastModified="{Date}2019-10-25T16:47:39.515-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
@@ -198,7 +198,8 @@
             xmpMM:DocumentID="xmp.did:c627bb0d-31b3-4a08-ad05-039f0d982ef3"
             xmpMM:InstanceID="xmp.iid:c627bb0d-31b3-4a08-ad05-039f0d982ef3"
             xmpMM:OriginalDocumentID="CF335BEBFDFEB62A2C6DC5B5250A3F73"
-            xmpRights:UsageTerms="Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  "
+            xmpRights:UsageTerms="[Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  ]"
+            xmpRights:UsageTerms_xmpArrayType="rdf:Alt"
             lastTransferredForTagging="{Date}2019-10-24T15:51:52.062-07:00"
             simsearchVersion="1.0.0">
             <xmpMM:DerivedFrom
@@ -206,25 +207,6 @@
                 stRef:documentID="CF335BEBFDFEB62A2C6DC5B5250A3F73"
                 stRef:originalDocumentID="CF335BEBFDFEB62A2C6DC5B5250A3F73"
                 xmpNodeType="xmpStruct"/>
-            <xmpMM:History
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}2"
-                xmpArrayType="rdf:Seq"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="derived"
-                    stEvt:parameters="converted from image/x-canon-cr2 to image/jpeg, saved to new location"
-                    xmpNodeType="xmpStruct"/>
-                <_x0032_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:c627bb0d-31b3-4a08-ad05-039f0d982ef3"
-                    stEvt:softwareAgent="Adobe Photoshop Lightroom 5.3 (Macintosh)"
-                    stEvt:when="{Date}2019-03-21T21:20:24.000-07:00"
-                    xmpNodeType="xmpStruct"/>
-            </xmpMM:History>
             <predictedTags jcr:primaryType="nt:unstructured">
                 <lake
                     jcr:lastModified="{Date}2019-10-24T15:51:52.058-07:00"
@@ -381,7 +363,35 @@
                 jcr:primaryType="nt:unstructured"
                 haystack0="{Binary}"/>
             <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}2"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="converted from image/x-canon-cr2 to image/jpeg, saved to new location"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:c627bb0d-31b3-4a08-ad05-039f0d982ef3"
+                    stEvt:softwareAgent="Adobe Photoshop Lightroom 5.3 (Macintosh)"
+                    stEvt:when="{Date}2019-03-21T21:20:24.000-07:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2019-10-27T16:06:15.018-07:00"/>
+        </usages>
     </jcr:content>
 </jcr:root>

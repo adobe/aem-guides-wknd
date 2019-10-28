@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:MicrosoftPhoto="http://ns.microsoft.com/photo/1.0" xmlns:prismusagerights="http://prismstandard.org/namespaces/prismusagerights/2.1/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="e44e1998-7912-4ee5-9a8a-080345398948">
     <jcr:content
+        cq:name="AdobeStock_59459597.jpeg"
+        cq:parentPath="/content/dam/wknd/en/adventures/cycling-tuscany"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-24T15:51:03.799-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:48:02.307-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2019-10-24T15:51:03.255-07:00"
+            dam:extracted="{Date}2019-10-25T16:47:44.971-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -20,12 +23,13 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}19.19444465637207"
             dam:Progressive="no"
-            dam:sha1="61136cb5456bcb1a33dcb9f36a82035741101a55"
+            dam:sha1="8a8cd0195b2f708ad273d0fe80f0a8e1b7bc6d3b"
             dam:size="{Long}772363"
             dc:creator="[Sergey Borisov,Sergey Borisov,Sergey Borisov]"
             dc:creator_xmpArrayType="rdf:Seq"
             dc:description="Aerial view over city of Siena, Italy"
             dc:format="image/jpeg"
+            dc:modified="{Date}2019-10-25T16:47:59.459-07:00"
             dc:rights="Sergey Borisov"
             dc:subject="[sienna,siena,tuscany,toscana,italy,cityscape,city,aerial,church,campanile,europe,european,landmark,famous,italian,architecture,ancient,building,bell,antique,heritage,destination,history,historic,medieval,old,renaissance,roman,roof,skyline,town,traditional,touristic,travel,tower,sky,blue,clouds,illuminated,day,piazza,view,sunlight,over,zzzakgaaaognglddfphehdfpdadbdgdbdhdhhc,sienna,siena,tuscany,toscana,italy,cityscape,city,aerial,church,campanile,europe,european,landmark,famous,italian,architecture,ancient,building,bell,antique,heritage,destination,history,historic,medieval,old,renaissance,roman,roof,skyline,town,traditional,touristic,travel,tower,sky,blue,clouds,illuminated,day,piazza,view,sunlight,over,zzzakgaaaognglddfphehdfpdadbdgdbdhdhhc,sienna,siena,tuscany,toscana,italy,cityscape,city,aerial,church,campanile,europe,european,landmark,famous,italian,architecture,ancient,building,bell,antique,heritage,destination,history,historic,medieval,old,renaissance,roman,roof,skyline,town,traditional,touristic,travel,tower,sky,blue,clouds,illuminated,day,piazza,view,sunlight,over,zzzakgaaaognglddfphehdfpdadbdgdbdhdhhc]"
             dc:subject_xmpArrayType="rdf:Bag"
@@ -34,6 +38,8 @@
             exif:ExifVersion="0221"
             exif:PixelXDimension="{Long}1382"
             exif:PixelYDimension="{Long}922"
+            jcr:lastModified="{Date}2019-10-25T16:47:59.459-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             jcr:title="Aerial view over city of Siena"
@@ -73,20 +79,6 @@
                 stRef:documentID="xmp.did:F66524EADE2EE211A772BC76527EF5C4"
                 stRef:instanceID="xmp.iid:20e018df-f94e-d04e-9fe1-8741caea984e"
                 xmpNodeType="xmpStruct"/>
-            <xmpMM:History
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}1"
-                xmpArrayType="rdf:Seq"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:674d0400-4e8c-4d8f-8f3a-52a7a693ddde"
-                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
-                    stEvt:when="{Date}2019-10-24T15:30:16.000-07:00"
-                    xmpNodeType="xmpStruct"/>
-            </xmpMM:History>
             <predictedTags jcr:primaryType="nt:unstructured">
                 <city
                     jcr:lastModified="{Date}2019-10-24T15:51:05.560-07:00"
@@ -242,7 +234,30 @@
             <imageFeatures
                 jcr:primaryType="nt:unstructured"
                 haystack0="{Binary}"/>
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}1"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:674d0400-4e8c-4d8f-8f3a-52a7a693ddde"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
+                    stEvt:when="{Date}2019-10-24T15:30:16.000-07:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2019-10-25T17:49:38.114-07:00"/>
+        </usages>
     </jcr:content>
 </jcr:root>

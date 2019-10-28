@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:exifEX="http://cipa.jp/exif/1.0/" xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:psAux="http://ns.adobe.com/exif/1.0/aux/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="17684934-32df-48d1-acae-f9aabf0f0ef2">
     <jcr:content
+        cq:name="northern-lights.JPG"
+        cq:parentPath="/content/dam/wknd/en/magazine/arctic-surfing"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-01T15:45:54.761-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:50:53.501-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -120,7 +123,7 @@
             crs:WhiteBalance="As Shot"
             crs:Whites2012="{Long}0"
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2019-10-01T15:45:54.128-07:00"
+            dam:extracted="{Date}2019-10-25T16:50:48.979-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -130,12 +133,13 @@
             dam:Physicalwidthindpi="{Long}300"
             dam:Physicalwidthininches="{Decimal}4.263333320617676"
             dam:Progressive="no"
-            dam:sha1="9a633726334d3c0c30f793cec044ac1d13701051"
-            dam:size="{Long}126914"
-            dam:TimeCreated="224437+0000"
-            dc:date="{Long}[20151002]"
-            dc:date_xmpArrayType="rdf:Bag"
+            dam:sha1="39c87e2d1e65c569276e41b998c383fa98bed072"
+            dam:size="{Long}127577"
+            dam:TimeCreated="224437-0700"
+            dc:date="{Long}[20151002,20151002,20151002]"
+            dc:date_xmpArrayType="rdf:Seq"
             dc:format="image/jpeg"
+            dc:modified="{Date}2019-10-25T16:49:34.302-07:00"
             exif:ApertureValue="3356144/1000000"
             exif:ColorSpace="{Long}65535"
             exif:CustomRendered="{Long}0"
@@ -167,6 +171,8 @@
             exifEX:PhotographicSensitivity="{Long}1600"
             exifEX:RecommendedExposureIndex="{Long}1600"
             exifEX:SensitivityType="{Long}2"
+            jcr:lastModified="{Date}2019-10-25T16:49:34.301-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             photoshop:ColorMode="{Long}3"
@@ -211,6 +217,12 @@
                 exif:RedEyeMode="{Boolean}false"
                 exif:Return="{Long}0"
                 jcr:primaryType="nt:unstructured"
+                xmpNodeType="xmpStruct"/>
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="adobe:docid:photoshop:60d44d99-0fbe-1179-b2d2-b8ea086d21c9"
+                stRef:instanceID="xmp.iid:7e257bdd-f8ce-4867-95a6-c4e2f0754f3b"
+                stRef:originalDocumentID="0CF531B352ABA1EE354529A9CD114942"
                 xmpNodeType="xmpStruct"/>
             <xmpMM:History
                 jcr:primaryType="nt:unstructured"
@@ -329,12 +341,6 @@
                     stEvt:when="{Date}2019-10-01T15:29:19.000-07:00"
                     xmpNodeType="xmpStruct"/>
             </xmpMM:History>
-            <xmpMM:DerivedFrom
-                jcr:primaryType="nt:unstructured"
-                stRef:documentID="adobe:docid:photoshop:60d44d99-0fbe-1179-b2d2-b8ea086d21c9"
-                stRef:instanceID="xmp.iid:7e257bdd-f8ce-4867-95a6-c4e2f0754f3b"
-                stRef:originalDocumentID="0CF531B352ABA1EE354529A9CD114942"
-                xmpNodeType="xmpStruct"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

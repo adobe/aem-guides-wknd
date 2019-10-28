@@ -8,7 +8,7 @@
         cq:name="AdobeStock_277948178.jpeg"
         cq:parentPath="/content/dam/wknd/en/adventures/climbing-new-zealand"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-24T15:53:25.398-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:47:57.519-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -140,8 +140,8 @@
             crs:Whites2012="{Long}10"
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20160212"
-            dam:DigitalCreationTime="095950+0000"
-            dam:extracted="{Date}2019-10-24T15:53:14.710-07:00"
+            dam:DigitalCreationTime="095950-0800"
+            dam:extracted="{Date}2019-10-25T16:47:42.695-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -151,17 +151,17 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}19.18055534362793"
             dam:Progressive="no"
-            dam:sha1="83aac902761df8866c73d34b29b0c23454888ff5"
-            dam:size="{Long}390113"
-            dam:TimeCreated="095950+0000"
-            dc:creator="[Lachlan]"
+            dam:sha1="eed64a0b6cfe389823b820ab237f49b1be272a9a"
+            dam:size="{Long}394144"
+            dam:TimeCreated="095950-0800"
+            dc:creator="[Lachlan,Lachlan,Lachlan]"
             dc:creator_xmpArrayType="rdf:Seq"
-            dc:date="{Long}[20160212]"
-            dc:date_xmpArrayType="rdf:Bag"
+            dc:date="{Long}[20160212,20160212,20160212]"
+            dc:date_xmpArrayType="rdf:Seq"
             dc:format="image/jpeg"
             dc:modified="{Date}2019-10-24T15:53:25.276-07:00"
             dc:rights="©Cavan Images - stock.adobe.com"
-            dc:subject="[new zealand,mountaineering,abseil,rappell,buttress,cliff,adventure,alpine,alps,approach,backpacking,climber,climbing,exposure,hike,hiking,landscape,mountain,mountaineer,outdoors,peak,ridge,rocks,rocky,track,trail,travel,traverse,trek,trekking,walking,wild,clouds,nz,wilderness,nature,explore,rope,decsend,new zealand,mountaineering,abseil,rappell,buttress,cliff,adventure,alpine,alps,approach,backpacking,climber,climbing,exposure,hike,hiking,landscape,mountain,mountaineer,outdoors,peak,ridge,rocks,rocky,track,trail,travel,traverse,trek,trekking,walking,wild,clouds,nz,wilderness,nature,explore,rope,decsend,new zealand,mountaineering,abseil,rappell,buttress,cliff,adventure,alpine,alps,approach,backpacking,climber,climbing,exposure,hike,hiking,landscape,mountain,mountaineer,outdoors,peak,ridge,rocks,rocky,track,trail,travel,traverse,trek,trekking,walking,wild,clouds,nz,wilderness,nature,explore,rope,decsend]"
+            dc:subject="[new zealand,mountaineering,abseil,rappell,buttress,cliff,adventure,alpine,alps,approach,backpacking,climber,climbing,exposure,hike,hiking,landscape,mountain,mountaineer,outdoors,peak,ridge,rocks,rocky,track,trail,travel,traverse,trek,trekking,walking,wild,clouds,nz,wilderness,nature,explore,rope,decsend,new zealand,mountaineering,abseil,rappell,buttress,cliff,adventure,alpine,alps,approach,backpacking,climber,climbing,exposure,hike,hiking,landscape,mountain,mountaineer,outdoors,peak,ridge,rocks,rocky,track,trail,travel,traverse,trek,trekking,walking,wild,clouds,nz,wilderness,nature,explore,rope,decsend,new zealand,mountaineering,abseil,rappell,buttress,cliff,adventure,alpine,alps,approach,backpacking,climber,climbing,exposure,hike,hiking,landscape,mountain,mountaineer,outdoors,peak,ridge,rocks,rocky,track,trail,travel,traverse,trek,trekking,walking,wild,clouds,nz,wilderness,nature,explore,rope,decsend,new zealand,mountaineering,abseil,rappell,buttress,cliff,adventure,alpine,alps,approach,backpacking,climber,climbing,exposure,hike,hiking,landscape,mountain,mountaineer,outdoors,peak,ridge,rocks,rocky,track,trail,travel,traverse,trek,trekking,walking,wild,clouds,nz,wilderness,nature,explore,rope,decsend,new zealand,mountaineering,abseil,rappell,buttress,cliff,adventure,alpine,alps,approach,backpacking,climber,climbing,exposure,hike,hiking,landscape,mountain,mountaineer,outdoors,peak,ridge,rocks,rocky,track,trail,travel,traverse,trek,trekking,walking,wild,clouds,nz,wilderness,nature,explore,rope,decsend,new zealand,mountaineering,abseil,rappell,buttress,cliff,adventure,alpine,alps,approach,backpacking,climber,climbing,exposure,hike,hiking,landscape,mountain,mountaineer,outdoors,peak,ridge,rocks,rocky,track,trail,travel,traverse,trek,trekking,walking,wild,clouds,nz,wilderness,nature,explore,rope,decsend,new zealand,mountaineering,abseil,rappell,buttress,cliff,adventure,alpine,alps,approach,backpacking,climber,climbing,exposure,hike,hiking,landscape,mountain,mountaineer,outdoors,peak,ridge,rocks,rocky,track,trail,travel,traverse,trek,trekking,walking,wild,clouds,nz,wilderness,nature,explore,rope,decsend]"
             dc:subject_xmpArrayType="rdf:Bag"
             dc:title="Low angle view of man climbing on mountain"
             exif:ApertureValue="6/1"
@@ -200,7 +200,7 @@
             exifEX:PhotographicSensitivity="{Long}100"
             exifEX:RecommendedExposureIndex="{Long}100"
             exifEX:SensitivityType="{Long}2"
-            jcr:lastModified="{Date}2019-10-24T15:53:25.276-07:00"
+            jcr:lastModified="{Date}2019-10-25T16:47:55.085-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
@@ -250,7 +250,8 @@
             xmpMM:DocumentID="xmp.did:da2939c0-7d0f-4305-920f-eca90144bc3b"
             xmpMM:InstanceID="xmp.iid:6a0f91a9-94d9-45f5-9be0-8a4a12b87f43"
             xmpMM:OriginalDocumentID="91F1DD1FECFADBA24353F5C63CA05BCF"
-            xmpRights:UsageTerms="Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  "
+            xmpRights:UsageTerms="[Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  ]"
+            xmpRights:UsageTerms_xmpArrayType="rdf:Alt"
             lastTransferredForTagging="{Date}2019-10-24T15:53:17.866-07:00"
             simsearchVersion="1.0.0">
             <exif:Flash
@@ -266,33 +267,6 @@
                 stRef:documentID="91F1DD1FECFADBA24353F5C63CA05BCF"
                 stRef:originalDocumentID="91F1DD1FECFADBA24353F5C63CA05BCF"
                 xmpNodeType="xmpStruct"/>
-            <xmpMM:History
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}3"
-                xmpArrayType="rdf:Seq"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="derived"
-                    stEvt:parameters="converted from image/x-canon-cr2 to image/jpeg, saved to new location"
-                    xmpNodeType="xmpStruct"/>
-                <_x0032_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:da2939c0-7d0f-4305-920f-eca90144bc3b"
-                    stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 8.1 (Macintosh)"
-                    stEvt:when="{Date}2019-02-05T17:58:17.000+10:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0033_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:6a0f91a9-94d9-45f5-9be0-8a4a12b87f43"
-                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
-                    stEvt:when="{Date}2019-10-24T15:21:06.000-07:00"
-                    xmpNodeType="xmpStruct"/>
-            </xmpMM:History>
             <predictedTags jcr:primaryType="nt:unstructured">
                 <rock
                     jcr:lastModified="{Date}2019-10-24T15:53:17.862-07:00"
@@ -449,6 +423,33 @@
                 jcr:primaryType="nt:unstructured"
                 haystack0="{Binary}"/>
             <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}3"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="converted from image/x-canon-cr2 to image/jpeg, saved to new location"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:da2939c0-7d0f-4305-920f-eca90144bc3b"
+                    stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 8.1 (Macintosh)"
+                    stEvt:when="{Date}2019-02-05T17:58:17.000+10:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0033_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:6a0f91a9-94d9-45f5-9be0-8a4a12b87f43"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
+                    stEvt:when="{Date}2019-10-24T15:21:06.000-07:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

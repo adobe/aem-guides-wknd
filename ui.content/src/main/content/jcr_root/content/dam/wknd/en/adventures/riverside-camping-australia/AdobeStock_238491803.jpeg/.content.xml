@@ -8,14 +8,14 @@
         cq:name="AdobeStock_238491803.jpeg"
         cq:parentPath="/content/dam/wknd/en/adventures/riverside-camping-australia"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-24T15:44:12.590-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:50:27.439-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20180813"
-            dam:DigitalCreationTime="153147+0000"
-            dam:extracted="{Date}2019-10-24T15:40:51.049-07:00"
+            dam:DigitalCreationTime="153147-0700"
+            dam:extracted="{Date}2019-10-25T16:50:20.576-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -25,19 +25,19 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}20.09722137451172"
             dam:Progressive="no"
-            dam:sha1="19aebfd151ab91f407817079081690a9e9089eb5"
-            dam:size="{Long}517643"
-            dam:TimeCreated="153147+0000"
+            dam:sha1="d66696b65535c67a48aef8817c090a2e44f58a4f"
+            dam:size="{Long}522805"
+            dam:TimeCreated="153147-0700"
             dam:Unknown="0:0:0:005609"
-            dc:creator="[Cavan Images]"
+            dc:creator="[Cavan Images,Cavan Images,Cavan Images]"
             dc:creator_xmpArrayType="rdf:Seq"
-            dc:date="{Long}[20180813]"
-            dc:date_xmpArrayType="rdf:Bag"
+            dc:date="{Long}[20180813,20180813,20180813]"
+            dc:date_xmpArrayType="rdf:Seq"
             dc:description="High angle view of hiker sitting on camping chair by campfire in forest"
             dc:format="image/jpeg"
             dc:modified="{Date}2019-10-24T15:44:12.433-07:00"
             dc:rights="©Cavan Images - stock.adobe.com"
-            dc:subject="[hiker,sitting,camping chairs,campfire,forest,burning,nature,adventure,remote,relaxation,tourist,recreation,fire,side view,woods,camping,destinations,australia,flame,carefree,exploration,hiking,casual clothing,getaway,heat,victoria,high angle view,knit hat,resting,woodland,tourism,vacation,full length,lifestyle,leisure activity,outdoors,day,one person,30-35 years old,mid adult,mid adult man,mid adult male,male,millennial,caucasian ethnicity,hiker,sitting,camping chairs,campfire,forest,burning,nature,adventure,remote,relaxation,tourist,recreation,fire,side view,woods,camping,destinations,australia,flame,carefree,exploration,hiking,casual clothing,getaway,heat,victoria,high angle view,knit hat,resting,woodland,tourism,vacation,full length,lifestyle,leisure activity,outdoors,day,one person,30-35 years old,mid adult,mid adult man,mid adult male,male,millennial,caucasian ethnicity,hiker,sitting,camping chairs,campfire,forest,burning,nature,adventure,remote,relaxation,tourist,recreation,fire,side view,woods,camping,destinations,australia,flame,carefree,exploration,hiking,casual clothing,getaway,heat,victoria,high angle view,knit hat,resting,woodland,tourism,vacation,full length,lifestyle,leisure activity,outdoors,day,one person,30-35 years old,mid adult,mid adult man,mid adult male,male,millennial,caucasian ethnicity]"
+            dc:subject="[hiker,sitting,camping chairs,campfire,forest,burning,nature,adventure,remote,relaxation,tourist,recreation,fire,side view,woods,camping,destinations,australia,flame,carefree,exploration,hiking,casual clothing,getaway,heat,victoria,high angle view,knit hat,resting,woodland,tourism,vacation,full length,lifestyle,leisure activity,outdoors,day,one person,30-35 years old,mid adult,mid adult man,mid adult male,male,millennial,caucasian ethnicity,hiker,sitting,camping chairs,campfire,forest,burning,nature,adventure,remote,relaxation,tourist,recreation,fire,side view,woods,camping,destinations,australia,flame,carefree,exploration,hiking,casual clothing,getaway,heat,victoria,high angle view,knit hat,resting,woodland,tourism,vacation,full length,lifestyle,leisure activity,outdoors,day,one person,30-35 years old,mid adult,mid adult man,mid adult male,male,millennial,caucasian ethnicity,hiker,sitting,camping chairs,campfire,forest,burning,nature,adventure,remote,relaxation,tourist,recreation,fire,side view,woods,camping,destinations,australia,flame,carefree,exploration,hiking,casual clothing,getaway,heat,victoria,high angle view,knit hat,resting,woodland,tourism,vacation,full length,lifestyle,leisure activity,outdoors,day,one person,30-35 years old,mid adult,mid adult man,mid adult male,male,millennial,caucasian ethnicity,hiker,sitting,camping chairs,campfire,forest,burning,nature,adventure,remote,relaxation,tourist,recreation,fire,side view,woods,camping,destinations,australia,flame,carefree,exploration,hiking,casual clothing,getaway,heat,victoria,high angle view,knit hat,resting,woodland,tourism,vacation,full length,lifestyle,leisure activity,outdoors,day,one person,30-35 years old,mid adult,mid adult man,mid adult male,male,millennial,caucasian ethnicity,hiker,sitting,camping chairs,campfire,forest,burning,nature,adventure,remote,relaxation,tourist,recreation,fire,side view,woods,camping,destinations,australia,flame,carefree,exploration,hiking,casual clothing,getaway,heat,victoria,high angle view,knit hat,resting,woodland,tourism,vacation,full length,lifestyle,leisure activity,outdoors,day,one person,30-35 years old,mid adult,mid adult man,mid adult male,male,millennial,caucasian ethnicity,hiker,sitting,camping chairs,campfire,forest,burning,nature,adventure,remote,relaxation,tourist,recreation,fire,side view,woods,camping,destinations,australia,flame,carefree,exploration,hiking,casual clothing,getaway,heat,victoria,high angle view,knit hat,resting,woodland,tourism,vacation,full length,lifestyle,leisure activity,outdoors,day,one person,30-35 years old,mid adult,mid adult man,mid adult male,male,millennial,caucasian ethnicity,hiker,sitting,camping chairs,campfire,forest,burning,nature,adventure,remote,relaxation,tourist,recreation,fire,side view,woods,camping,destinations,australia,flame,carefree,exploration,hiking,casual clothing,getaway,heat,victoria,high angle view,knit hat,resting,woodland,tourism,vacation,full length,lifestyle,leisure activity,outdoors,day,one person,30-35 years old,mid adult,mid adult man,mid adult male,male,millennial,caucasian ethnicity]"
             dc:subject_xmpArrayType="rdf:Bag"
             dc:title="Campfire in the forest"
             exif:ColorSpace="{Long}65535"
@@ -48,11 +48,11 @@
             exif:FlashpixVersion="0100"
             exif:PixelXDimension="{Long}1447"
             exif:PixelYDimension="{Long}964"
-            jcr:lastModified="{Date}2019-10-24T15:44:12.433-07:00"
+            jcr:lastModified="{Date}2019-10-25T16:49:02.045-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
-            jcr:title="High angle view of hiker sitting on camping chair by campfire in"
+            jcr:title="Campfire in the forest"
             ns1_1_:ColorClass="{Long}0"
             ns1_1_:PMVersion="PM5"
             ns1_1_:Tagged="False"
@@ -89,31 +89,10 @@
             xmpMM:DocumentID="adobe:docid:photoshop:c4e487c8-b114-c24c-9d29-6c9a13f5596c"
             xmpMM:InstanceID="xmp.iid:94d38546-6079-44de-9a08-b774757d6eee"
             xmpMM:OriginalDocumentID="E8CBD595DB6D3F92838ED132090D5EB6"
-            xmpRights:UsageTerms="Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  If you want to use"
+            xmpRights:UsageTerms="[Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  If you want to use]"
+            xmpRights:UsageTerms_xmpArrayType="rdf:Alt"
             lastTransferredForTagging="{Date}2019-10-24T15:40:54.285-07:00"
             simsearchVersion="1.0.0">
-            <xmpMM:History
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}2"
-                xmpArrayType="rdf:Seq"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:06208804-7adb-49e0-a842-012a436ef6e5"
-                    stEvt:softwareAgent="Adobe Photoshop CC 2018 (Macintosh)"
-                    stEvt:when="{Date}2018-08-17T09:55:58.000-04:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0032_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:94d38546-6079-44de-9a08-b774757d6eee"
-                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
-                    stEvt:when="{Date}2019-10-24T15:37:01.000-07:00"
-                    xmpNodeType="xmpStruct"/>
-            </xmpMM:History>
             <Iptc4xmpCore:CreatorContactInfo
                 Iptc4xmpCore:CiAdrCity="New York"
                 Iptc4xmpCore:CiAdrCtry="USA"
@@ -280,6 +259,28 @@
             <imageFeatures
                 jcr:primaryType="nt:unstructured"
                 haystack0="{Binary}"/>
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}2"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:06208804-7adb-49e0-a842-012a436ef6e5"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2018 (Macintosh)"
+                    stEvt:when="{Date}2018-08-17T09:55:58.000-04:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:94d38546-6079-44de-9a08-b774757d6eee"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
+                    stEvt:when="{Date}2019-10-24T15:37:01.000-07:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

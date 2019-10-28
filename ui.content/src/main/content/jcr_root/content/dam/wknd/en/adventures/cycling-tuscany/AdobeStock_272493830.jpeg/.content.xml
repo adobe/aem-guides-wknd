@@ -8,15 +8,15 @@
         cq:name="AdobeStock_272493830.jpeg"
         cq:parentPath="/content/dam/wknd/en/adventures/cycling-tuscany"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-24T15:51:20.505-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:48:35.086-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             crs:RawFileName="rjc-road-bikes-2018-112.jpg"
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20180620"
-            dam:DigitalCreationTime="150751+0000"
-            dam:extracted="{Date}2019-10-24T15:51:05.631-07:00"
+            dam:DigitalCreationTime="150751-0700"
+            dam:extracted="{Date}2019-10-25T16:48:29.116-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -26,18 +26,18 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}19.18055534362793"
             dam:Progressive="no"
-            dam:sha1="51d65dbec27217e1aa0372433ad3aa0a31b7c08f"
-            dam:size="{Long}492947"
-            dam:TimeCreated="150751+0000"
-            dc:creator="[Rob and Julia Campbell]"
+            dam:sha1="79205e1b3c3f309b1902ea54a1dfe810a9b4416a"
+            dam:size="{Long}497531"
+            dam:TimeCreated="150751-0700"
+            dc:creator="[Rob and Julia Campbell,Rob and Julia Campbell,Rob and Julia Campbell]"
             dc:creator_xmpArrayType="rdf:Seq"
-            dc:date="{Long}[20180620]"
-            dc:date_xmpArrayType="rdf:Bag"
+            dc:date="{Long}[20180620,20180620,20180620]"
+            dc:date_xmpArrayType="rdf:Seq"
             dc:description="Action shot of cyclists riding hard."
             dc:format="image/jpeg"
             dc:modified="{Date}2019-10-24T15:51:20.403-07:00"
             dc:rights="©Rob and Julia Campbell/Stocksy - stock.adobe.com"
-            dc:subject="[hill,helmet,healthy,group,fitness,fit,cycling,cycle,bike,active,boys,roadie,train,sweat,sustain,speed,road,ride,recover,race,prepare,nature,morning,caucasian,white,man,male,person,people,adult,adults,40s,grownup,grownups,middle age,middle aged,30s,60s,mature,senior,senior citizen,senior citizens,elderly,old,venerable,elder,elders,geriatric,aged,hill,helmet,healthy,group,fitness,fit,cycling,cycle,bike,active,boys,roadie,train,sweat,sustain,speed,road,ride,recover,race,prepare,nature,morning,caucasian,white,man,male,person,people,adult,adults,40s,grownup,grownups,middle age,middle aged,30s,60s,mature,senior,senior citizen,senior citizens,elderly,old,venerable,elder,elders,geriatric,aged,hill,helmet,healthy,group,fitness,fit,cycling,cycle,bike,active,boys,roadie,train,sweat,sustain,speed,road,ride,recover,race,prepare,nature,morning,caucasian,white,man,male,person,people,adult,adults,40s,grownup,grownups,middle age,middle aged,30s,60s,mature,senior,senior citizen,senior citizens,elderly,old,venerable,elder,elders,geriatric,aged]"
+            dc:subject="[hill,helmet,healthy,group,fitness,fit,cycling,cycle,bike,active,boys,roadie,train,sweat,sustain,speed,road,ride,recover,race,prepare,nature,morning,caucasian,white,man,male,person,people,adult,adults,40s,grownup,grownups,middle age,middle aged,30s,60s,mature,senior,senior citizen,senior citizens,elderly,old,venerable,elder,elders,geriatric,aged,hill,helmet,healthy,group,fitness,fit,cycling,cycle,bike,active,boys,roadie,train,sweat,sustain,speed,road,ride,recover,race,prepare,nature,morning,caucasian,white,man,male,person,people,adult,adults,40s,grownup,grownups,middle age,middle aged,30s,60s,mature,senior,senior citizen,senior citizens,elderly,old,venerable,elder,elders,geriatric,aged,hill,helmet,healthy,group,fitness,fit,cycling,cycle,bike,active,boys,roadie,train,sweat,sustain,speed,road,ride,recover,race,prepare,nature,morning,caucasian,white,man,male,person,people,adult,adults,40s,grownup,grownups,middle age,middle aged,30s,60s,mature,senior,senior citizen,senior citizens,elderly,old,venerable,elder,elders,geriatric,aged,hill,helmet,healthy,group,fitness,fit,cycling,cycle,bike,active,boys,roadie,train,sweat,sustain,speed,road,ride,recover,race,prepare,nature,morning,caucasian,white,man,male,person,people,adult,adults,40s,grownup,grownups,middle age,middle aged,30s,60s,mature,senior,senior citizen,senior citizens,elderly,old,venerable,elder,elders,geriatric,aged,hill,helmet,healthy,group,fitness,fit,cycling,cycle,bike,active,boys,roadie,train,sweat,sustain,speed,road,ride,recover,race,prepare,nature,morning,caucasian,white,man,male,person,people,adult,adults,40s,grownup,grownups,middle age,middle aged,30s,60s,mature,senior,senior citizen,senior citizens,elderly,old,venerable,elder,elders,geriatric,aged,hill,helmet,healthy,group,fitness,fit,cycling,cycle,bike,active,boys,roadie,train,sweat,sustain,speed,road,ride,recover,race,prepare,nature,morning,caucasian,white,man,male,person,people,adult,adults,40s,grownup,grownups,middle age,middle aged,30s,60s,mature,senior,senior citizen,senior citizens,elderly,old,venerable,elder,elders,geriatric,aged,hill,helmet,healthy,group,fitness,fit,cycling,cycle,bike,active,boys,roadie,train,sweat,sustain,speed,road,ride,recover,race,prepare,nature,morning,caucasian,white,man,male,person,people,adult,adults,40s,grownup,grownups,middle age,middle aged,30s,60s,mature,senior,senior citizen,senior citizens,elderly,old,venerable,elder,elders,geriatric,aged]"
             dc:subject_xmpArrayType="rdf:Bag"
             dc:title="Group road bike ride in nature"
             exif:ColorSpace="{Long}1"
@@ -49,7 +49,7 @@
             exif:PixelXDimension="{Long}1381"
             exif:PixelYDimension="{Long}920"
             Iptc4xmpExt:AddlModelInfo="53630.jpg,61149.jpg,62421.jpg"
-            jcr:lastModified="{Date}2019-10-24T15:51:20.403-07:00"
+            jcr:lastModified="{Date}2019-10-25T16:48:13.803-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
@@ -87,47 +87,10 @@
             xmpMM:DocumentID="xmp.did:ed9068ea-eb5c-441a-bd95-482c991f51bf"
             xmpMM:InstanceID="xmp.iid:343ec3a0-fea3-45ec-968a-3010d8f89f77"
             xmpMM:OriginalDocumentID="2E1DBAAE7EB97E09EBBCA2BD87945D9B"
-            xmpRights:UsageTerms="AdobeStock_59459597.jpeg AdobeStock_65986215.jpeg AdobeStock_141786166.jpeg AdobeStock_261097343.jpeg AdobeStock_268213814.jpeg AdobeStock_272493830.jpeg"
+            xmpRights:UsageTerms="[AdobeStock_59459597.jpeg AdobeStock_65986215.jpeg AdobeStock_141786166.jpeg AdobeStock_261097343.jpeg AdobeStock_268213814.jpeg AdobeStock_272493830.jpeg]"
+            xmpRights:UsageTerms_xmpArrayType="rdf:Alt"
             lastTransferredForTagging="{Date}2019-10-24T15:51:07.738-07:00"
             simsearchVersion="1.0.0">
-            <xmpMM:History
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}4"
-                xmpArrayType="rdf:Seq"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:6D06E6B1242E681183D1D7BE8BC80C9F"
-                    stEvt:softwareAgent="Adobe Photoshop CS6 (Macintosh)"
-                    stEvt:when="{Date}2018-06-20T15:43:55.000-07:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0032_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:8F045C84912F681183D1D7BE8BC80C9F"
-                    stEvt:softwareAgent="Adobe Photoshop CS6 (Macintosh)"
-                    stEvt:when="{Date}2018-06-21T11:51:22.000-07:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0033_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/metadata"
-                    stEvt:instanceID="xmp.iid:3a230051-71d8-49ce-a863-2c159258b8f0"
-                    stEvt:softwareAgent="Adobe Photoshop Lightroom 5.7.1 (Macintosh)"
-                    stEvt:when="{Date}2018-07-06T14:34:12.000-07:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0034_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:343ec3a0-fea3-45ec-968a-3010d8f89f77"
-                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
-                    stEvt:when="{Date}2019-10-24T15:29:13.000-07:00"
-                    xmpNodeType="xmpStruct"/>
-            </xmpMM:History>
             <predictedTags jcr:primaryType="nt:unstructured">
                 <bike
                     jcr:lastModified="{Date}2019-10-24T15:51:07.734-07:00"
@@ -284,6 +247,44 @@
                 jcr:primaryType="nt:unstructured"
                 haystack0="{Binary}"/>
             <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}4"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:6D06E6B1242E681183D1D7BE8BC80C9F"
+                    stEvt:softwareAgent="Adobe Photoshop CS6 (Macintosh)"
+                    stEvt:when="{Date}2018-06-20T15:43:55.000-07:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:8F045C84912F681183D1D7BE8BC80C9F"
+                    stEvt:softwareAgent="Adobe Photoshop CS6 (Macintosh)"
+                    stEvt:when="{Date}2018-06-21T11:51:22.000-07:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0033_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/metadata"
+                    stEvt:instanceID="xmp.iid:3a230051-71d8-49ce-a863-2c159258b8f0"
+                    stEvt:softwareAgent="Adobe Photoshop Lightroom 5.7.1 (Macintosh)"
+                    stEvt:when="{Date}2018-07-06T14:34:12.000-07:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0034_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:343ec3a0-fea3-45ec-968a-3010d8f89f77"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
+                    stEvt:when="{Date}2019-10-24T15:29:13.000-07:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

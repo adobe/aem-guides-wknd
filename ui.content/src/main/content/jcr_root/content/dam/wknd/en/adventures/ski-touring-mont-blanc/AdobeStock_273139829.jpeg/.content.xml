@@ -8,7 +8,7 @@
         cq:name="AdobeStock_273139829.jpeg"
         cq:parentPath="/content/dam/wknd/en/adventures/ski-touring-mont-blanc"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-24T15:50:16.680-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:47:42.516-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -138,8 +138,8 @@
             crs:Whites2012="{Long}60"
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20190319"
-            dam:DigitalCreationTime="132444+0000"
-            dam:extracted="{Date}2019-10-24T15:49:50.077-07:00"
+            dam:DigitalCreationTime="132444-0700"
+            dam:extracted="{Date}2019-10-25T16:47:37.514-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -149,18 +149,18 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}16.90277862548828"
             dam:Progressive="no"
-            dam:sha1="b3a94bae58488a2c07a4e7b8b00b3a8e3bdd6f44"
-            dam:size="{Long}237713"
-            dam:TimeCreated="132444+0000"
-            dc:creator="[Magnus Bjermo]"
+            dam:sha1="c82f577b2eebb4f8a6a019ccf54a33e7f664d1a8"
+            dam:size="{Long}242678"
+            dam:TimeCreated="132444-0700"
+            dc:creator="[Magnus Bjermo,Magnus Bjermo,Magnus Bjermo]"
             dc:creator_xmpArrayType="rdf:Seq"
-            dc:date="{Long}[20190319]"
-            dc:date_xmpArrayType="rdf:Bag"
+            dc:date="{Long}[20190319,20190319,20190319]"
+            dc:date_xmpArrayType="rdf:Seq"
             dc:description="Ski touring track leading up alpine mountain slope to ridge and pass in untouched powder snow in winter"
             dc:format="image/jpeg"
             dc:modified="{Date}2019-10-24T15:50:16.518-07:00"
             dc:rights="©2019 Magnus Bjermo. All rights reserved."
-            dc:subject="[Skiing,Snow,Track,Weather,White,Winter,activity,adventure,alpine,alps,ascent,chamonix,cold,danger,descent,downhill,effort,environment,extreme sport,first tracks,france,freeride,glacier de bron,grandes autannes,itinerary,landscape,lifestyle,mountain pass,mountain ridge,mountains,nature,outdoor pursuits,outdoors,people,powder snow,remote,risk,route,route choice,scenery,scenic,single track,ski,ski slope,ski touring,sport,untouched,views,virgin snow,winter sport,Skiing,Snow,Track,Weather,White,Winter,activity,adventure,alpine,alps,ascent,chamonix,cold,danger,descent,downhill,effort,environment,extreme sport,first tracks,france,freeride,glacier de bron,grandes autannes,itinerary,landscape,lifestyle,mountain pass,mountain ridge,mountains,nature,outdoor pursuits,outdoors,people,powder snow,remote,risk,route,route choice,scenery,scenic,single track,ski,ski slope,ski touring,sport,untouched,views,virgin snow,winter sport,Skiing,Snow,Track,Weather,White,Winter,activity,adventure,alpine,alps,ascent,chamonix,cold,danger,descent,downhill,effort,environment,extreme sport,first tracks,france,freeride,glacier de bron,grandes autannes,itinerary,landscape,lifestyle,mountain pass,mountain ridge,mountains,nature,outdoor pursuits,outdoors,people,powder snow,remote,risk,route,route choice,scenery,scenic,single track,ski,ski slope,ski touring,sport,untouched,views,virgin snow,winter sport]"
+            dc:subject="[Skiing,Snow,Track,Weather,White,Winter,activity,adventure,alpine,alps,ascent,chamonix,cold,danger,descent,downhill,effort,environment,extreme sport,first tracks,france,freeride,glacier de bron,grandes autannes,itinerary,landscape,lifestyle,mountain pass,mountain ridge,mountains,nature,outdoor pursuits,outdoors,people,powder snow,remote,risk,route,route choice,scenery,scenic,single track,ski,ski slope,ski touring,sport,untouched,views,virgin snow,winter sport,Skiing,Snow,Track,Weather,White,Winter,activity,adventure,alpine,alps,ascent,chamonix,cold,danger,descent,downhill,effort,environment,extreme sport,first tracks,france,freeride,glacier de bron,grandes autannes,itinerary,landscape,lifestyle,mountain pass,mountain ridge,mountains,nature,outdoor pursuits,outdoors,people,powder snow,remote,risk,route,route choice,scenery,scenic,single track,ski,ski slope,ski touring,sport,untouched,views,virgin snow,winter sport,Skiing,Snow,Track,Weather,White,Winter,activity,adventure,alpine,alps,ascent,chamonix,cold,danger,descent,downhill,effort,environment,extreme sport,first tracks,france,freeride,glacier de bron,grandes autannes,itinerary,landscape,lifestyle,mountain pass,mountain ridge,mountains,nature,outdoor pursuits,outdoors,people,powder snow,remote,risk,route,route choice,scenery,scenic,single track,ski,ski slope,ski touring,sport,untouched,views,virgin snow,winter sport,Skiing,Snow,Track,Weather,White,Winter,activity,adventure,alpine,alps,ascent,chamonix,cold,danger,descent,downhill,effort,environment,extreme sport,first tracks,france,freeride,glacier de bron,grandes autannes,itinerary,landscape,lifestyle,mountain pass,mountain ridge,mountains,nature,outdoor pursuits,outdoors,people,powder snow,remote,risk,route,route choice,scenery,scenic,single track,ski,ski slope,ski touring,sport,untouched,views,virgin snow,winter sport,Skiing,Snow,Track,Weather,White,Winter,activity,adventure,alpine,alps,ascent,chamonix,cold,danger,descent,downhill,effort,environment,extreme sport,first tracks,france,freeride,glacier de bron,grandes autannes,itinerary,landscape,lifestyle,mountain pass,mountain ridge,mountains,nature,outdoor pursuits,outdoors,people,powder snow,remote,risk,route,route choice,scenery,scenic,single track,ski,ski slope,ski touring,sport,untouched,views,virgin snow,winter sport,Skiing,Snow,Track,Weather,White,Winter,activity,adventure,alpine,alps,ascent,chamonix,cold,danger,descent,downhill,effort,environment,extreme sport,first tracks,france,freeride,glacier de bron,grandes autannes,itinerary,landscape,lifestyle,mountain pass,mountain ridge,mountains,nature,outdoor pursuits,outdoors,people,powder snow,remote,risk,route,route choice,scenery,scenic,single track,ski,ski slope,ski touring,sport,untouched,views,virgin snow,winter sport,Skiing,Snow,Track,Weather,White,Winter,activity,adventure,alpine,alps,ascent,chamonix,cold,danger,descent,downhill,effort,environment,extreme sport,first tracks,france,freeride,glacier de bron,grandes autannes,itinerary,landscape,lifestyle,mountain pass,mountain ridge,mountains,nature,outdoor pursuits,outdoors,people,powder snow,remote,risk,route,route choice,scenery,scenic,single track,ski,ski slope,ski touring,sport,untouched,views,virgin snow,winter sport]"
             dc:subject_xmpArrayType="rdf:Bag"
             dc:title="Single ski touring track leading up alpine mountain slope"
             exif:ApertureValue="9297/2002"
@@ -204,7 +204,7 @@
             exifEX:PhotographicSensitivity="{Long}160"
             exifEX:RecommendedExposureIndex="{Long}160"
             exifEX:SensitivityType="{Long}2"
-            jcr:lastModified="{Date}2019-10-24T15:50:16.518-07:00"
+            jcr:lastModified="{Date}2019-10-25T16:47:24.068-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
@@ -247,7 +247,8 @@
             xmpMM:InstanceID="xmp.iid:5fb4d6dc-380b-46c2-a511-c4fceff065f5"
             xmpMM:OriginalDocumentID="A695E669382BBADD98608947A3D062D5"
             xmpRights:Marked="{Boolean}true"
-            xmpRights:UsageTerms="Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  "
+            xmpRights:UsageTerms="[Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  ]"
+            xmpRights:UsageTerms_xmpArrayType="rdf:Alt"
             lastTransferredForTagging="{Date}2019-10-24T15:49:52.050-07:00"
             simsearchVersion="1.0.0">
             <exif:Flash
@@ -258,6 +259,171 @@
                 exif:Return="{Long}0"
                 jcr:primaryType="nt:unstructured"
                 xmpNodeType="xmpStruct"/>
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="A695E669382BBADD98608947A3D062D5"
+                stRef:originalDocumentID="A695E669382BBADD98608947A3D062D5"
+                xmpNodeType="xmpStruct"/>
+            <Iptc4xmpCore:CreatorContactInfo
+                Iptc4xmpCore:CiAdrCity="Cascais"
+                Iptc4xmpCore:CiAdrCtry="Portugal"
+                jcr:primaryType="nt:unstructured"
+                xmpNodeType="xmpStruct"/>
+            <predictedTags jcr:primaryType="nt:unstructured">
+                <snow
+                    jcr:lastModified="{Date}2019-10-24T15:49:52.045-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.9252138137817383"
+                    isCustom="{Boolean}false"
+                    name="snow"/>
+                <mountain
+                    jcr:lastModified="{Date}2019-10-24T15:49:52.045-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.871243417263031"
+                    isCustom="{Boolean}false"
+                    name="mountain"/>
+                <winter
+                    jcr:lastModified="{Date}2019-10-24T15:49:52.046-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.8675678968429565"
+                    isCustom="{Boolean}false"
+                    name="winter"/>
+                <landscape
+                    jcr:lastModified="{Date}2019-10-24T15:49:52.046-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.8479333519935608"
+                    isCustom="{Boolean}false"
+                    name="landscape"/>
+                <alps
+                    jcr:lastModified="{Date}2019-10-24T15:49:52.046-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7844687700271606"
+                    isCustom="{Boolean}false"
+                    name="alps"/>
+                <mountains
+                    jcr:lastModified="{Date}2019-10-24T15:49:52.046-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7611261606216431"
+                    isCustom="{Boolean}false"
+                    name="mountains"/>
+                <cold
+                    jcr:lastModified="{Date}2019-10-24T15:49:52.046-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7529407739639282"
+                    isCustom="{Boolean}false"
+                    name="cold"/>
+                <nature
+                    jcr:lastModified="{Date}2019-10-24T15:49:52.046-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7497560381889343"
+                    isCustom="{Boolean}false"
+                    name="nature"/>
+                <white
+                    jcr:lastModified="{Date}2019-10-24T15:49:52.047-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7229556441307068"
+                    isCustom="{Boolean}false"
+                    name="white"/>
+                <sky
+                    jcr:lastModified="{Date}2019-10-24T15:49:52.047-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7112865447998047"
+                    isCustom="{Boolean}false"
+                    name="sky"/>
+                <blue
+                    jcr:lastModified="{Date}2019-10-24T15:49:52.047-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.710171639919281"
+                    isCustom="{Boolean}false"
+                    name="blue"/>
+                <ice
+                    jcr:lastModified="{Date}2019-10-24T15:49:52.047-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6974987983703613"
+                    isCustom="{Boolean}false"
+                    name="ice"/>
+                <ski
+                    jcr:lastModified="{Date}2019-10-24T15:49:52.047-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6817535161972046"
+                    isCustom="{Boolean}false"
+                    name="ski"/>
+                <switzerland
+                    jcr:lastModified="{Date}2019-10-24T15:49:52.047-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6763957738876343"
+                    isCustom="{Boolean}false"
+                    name="switzerland"/>
+                <alpine
+                    jcr:lastModified="{Date}2019-10-24T15:49:52.048-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6707016229629517"
+                    isCustom="{Boolean}false"
+                    name="alpine"/>
+                <glacier
+                    jcr:lastModified="{Date}2019-10-24T15:49:52.048-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6665828227996826"
+                    isCustom="{Boolean}false"
+                    name="glacier"/>
+                <peak
+                    jcr:lastModified="{Date}2019-10-24T15:49:52.048-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6442227363586426"
+                    isCustom="{Boolean}false"
+                    name="peak"/>
+                <skiing
+                    jcr:lastModified="{Date}2019-10-24T15:49:52.048-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6406053304672241"
+                    isCustom="{Boolean}false"
+                    name="skiing"/>
+                <italy
+                    jcr:lastModified="{Date}2019-10-24T15:49:52.048-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6270614862442017"
+                    isCustom="{Boolean}false"
+                    name="italy"/>
+                <high
+                    jcr:lastModified="{Date}2019-10-24T15:49:52.049-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6261413097381592"
+                    isCustom="{Boolean}false"
+                    name="high"/>
+                <travel
+                    jcr:lastModified="{Date}2019-10-24T15:49:52.049-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6244570016860962"
+                    isCustom="{Boolean}false"
+                    name="travel"/>
+                <valley
+                    jcr:lastModified="{Date}2019-10-24T15:49:52.049-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.619376540184021"
+                    isCustom="{Boolean}false"
+                    name="valley"/>
+                <back_country_skiing
+                    jcr:lastModified="{Date}2019-10-24T15:49:52.049-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6126164197921753"
+                    isCustom="{Boolean}false"
+                    name="back country skiing"/>
+                <mountain_peak
+                    jcr:lastModified="{Date}2019-10-24T15:49:52.049-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.608708381652832"
+                    isCustom="{Boolean}false"
+                    name="mountain peak"/>
+                <clouds
+                    jcr:lastModified="{Date}2019-10-24T15:49:52.049-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6075533032417297"
+                    isCustom="{Boolean}false"
+                    name="clouds"/>
+            </predictedTags>
+            <imageFeatures
+                jcr:primaryType="nt:unstructured"
+                haystack0="{Binary}"/>
             <crs:RetouchAreas
                 jcr:primaryType="nt:unstructured"
                 xmpArraySize="{Long}21"
@@ -864,11 +1030,6 @@
                     </crs:Masks>
                 </_x0032_1>
             </crs:RetouchAreas>
-            <xmpMM:DerivedFrom
-                jcr:primaryType="nt:unstructured"
-                stRef:documentID="A695E669382BBADD98608947A3D062D5"
-                stRef:originalDocumentID="A695E669382BBADD98608947A3D062D5"
-                xmpNodeType="xmpStruct"/>
             <xmpMM:History
                 jcr:primaryType="nt:unstructured"
                 xmpArraySize="{Long}3"
@@ -896,166 +1057,6 @@
                     stEvt:when="{Date}2019-10-24T15:34:04.000-07:00"
                     xmpNodeType="xmpStruct"/>
             </xmpMM:History>
-            <Iptc4xmpCore:CreatorContactInfo
-                Iptc4xmpCore:CiAdrCity="Cascais"
-                Iptc4xmpCore:CiAdrCtry="Portugal"
-                jcr:primaryType="nt:unstructured"
-                xmpNodeType="xmpStruct"/>
-            <predictedTags jcr:primaryType="nt:unstructured">
-                <snow
-                    jcr:lastModified="{Date}2019-10-24T15:49:52.045-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.9252138137817383"
-                    isCustom="{Boolean}false"
-                    name="snow"/>
-                <mountain
-                    jcr:lastModified="{Date}2019-10-24T15:49:52.045-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.871243417263031"
-                    isCustom="{Boolean}false"
-                    name="mountain"/>
-                <winter
-                    jcr:lastModified="{Date}2019-10-24T15:49:52.046-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.8675678968429565"
-                    isCustom="{Boolean}false"
-                    name="winter"/>
-                <landscape
-                    jcr:lastModified="{Date}2019-10-24T15:49:52.046-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.8479333519935608"
-                    isCustom="{Boolean}false"
-                    name="landscape"/>
-                <alps
-                    jcr:lastModified="{Date}2019-10-24T15:49:52.046-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7844687700271606"
-                    isCustom="{Boolean}false"
-                    name="alps"/>
-                <mountains
-                    jcr:lastModified="{Date}2019-10-24T15:49:52.046-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7611261606216431"
-                    isCustom="{Boolean}false"
-                    name="mountains"/>
-                <cold
-                    jcr:lastModified="{Date}2019-10-24T15:49:52.046-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7529407739639282"
-                    isCustom="{Boolean}false"
-                    name="cold"/>
-                <nature
-                    jcr:lastModified="{Date}2019-10-24T15:49:52.046-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7497560381889343"
-                    isCustom="{Boolean}false"
-                    name="nature"/>
-                <white
-                    jcr:lastModified="{Date}2019-10-24T15:49:52.047-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7229556441307068"
-                    isCustom="{Boolean}false"
-                    name="white"/>
-                <sky
-                    jcr:lastModified="{Date}2019-10-24T15:49:52.047-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7112865447998047"
-                    isCustom="{Boolean}false"
-                    name="sky"/>
-                <blue
-                    jcr:lastModified="{Date}2019-10-24T15:49:52.047-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.710171639919281"
-                    isCustom="{Boolean}false"
-                    name="blue"/>
-                <ice
-                    jcr:lastModified="{Date}2019-10-24T15:49:52.047-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6974987983703613"
-                    isCustom="{Boolean}false"
-                    name="ice"/>
-                <ski
-                    jcr:lastModified="{Date}2019-10-24T15:49:52.047-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6817535161972046"
-                    isCustom="{Boolean}false"
-                    name="ski"/>
-                <switzerland
-                    jcr:lastModified="{Date}2019-10-24T15:49:52.047-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6763957738876343"
-                    isCustom="{Boolean}false"
-                    name="switzerland"/>
-                <alpine
-                    jcr:lastModified="{Date}2019-10-24T15:49:52.048-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6707016229629517"
-                    isCustom="{Boolean}false"
-                    name="alpine"/>
-                <glacier
-                    jcr:lastModified="{Date}2019-10-24T15:49:52.048-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6665828227996826"
-                    isCustom="{Boolean}false"
-                    name="glacier"/>
-                <peak
-                    jcr:lastModified="{Date}2019-10-24T15:49:52.048-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6442227363586426"
-                    isCustom="{Boolean}false"
-                    name="peak"/>
-                <skiing
-                    jcr:lastModified="{Date}2019-10-24T15:49:52.048-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6406053304672241"
-                    isCustom="{Boolean}false"
-                    name="skiing"/>
-                <italy
-                    jcr:lastModified="{Date}2019-10-24T15:49:52.048-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6270614862442017"
-                    isCustom="{Boolean}false"
-                    name="italy"/>
-                <high
-                    jcr:lastModified="{Date}2019-10-24T15:49:52.049-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6261413097381592"
-                    isCustom="{Boolean}false"
-                    name="high"/>
-                <travel
-                    jcr:lastModified="{Date}2019-10-24T15:49:52.049-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6244570016860962"
-                    isCustom="{Boolean}false"
-                    name="travel"/>
-                <valley
-                    jcr:lastModified="{Date}2019-10-24T15:49:52.049-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.619376540184021"
-                    isCustom="{Boolean}false"
-                    name="valley"/>
-                <back_country_skiing
-                    jcr:lastModified="{Date}2019-10-24T15:49:52.049-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6126164197921753"
-                    isCustom="{Boolean}false"
-                    name="back country skiing"/>
-                <mountain_peak
-                    jcr:lastModified="{Date}2019-10-24T15:49:52.049-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.608708381652832"
-                    isCustom="{Boolean}false"
-                    name="mountain peak"/>
-                <clouds
-                    jcr:lastModified="{Date}2019-10-24T15:49:52.049-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6075533032417297"
-                    isCustom="{Boolean}false"
-                    name="clouds"/>
-            </predictedTags>
-            <imageFeatures
-                jcr:primaryType="nt:unstructured"
-                haystack0="{Binary}"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

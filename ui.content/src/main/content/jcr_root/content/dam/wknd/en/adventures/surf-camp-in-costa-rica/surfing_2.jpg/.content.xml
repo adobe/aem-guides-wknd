@@ -8,13 +8,13 @@
         cq:name="surfing_2.jpg"
         cq:parentPath="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-24T14:31:46.509-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:48:20.202-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         jcr:title="surfing_2.jpg">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2019-10-24T14:31:46.137-07:00"
+            dam:extracted="{Date}2019-10-25T16:48:13.809-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -24,7 +24,7 @@
             dam:Physicalwidthindpi="{Long}300"
             dam:Physicalwidthininches="{Decimal}6.400000095367432"
             dam:Progressive="no"
-            dam:sha1="8ef7ac7a8c745ce76fa5a65786e59a292c7edd4f"
+            dam:sha1="1a2fe8c35826df5cb3f420cb79503b19dddc3bb8"
             dam:size="{Long}263051"
             dc:format="image/jpeg"
             dc:modified="{Date}2016-01-14T14:22:14.742-08:00"
@@ -32,7 +32,7 @@
             exif:ExifVersion="0221"
             exif:PixelXDimension="{Long}1920"
             exif:PixelYDimension="{Long}1080"
-            jcr:lastModified="{Date}2019-10-24T14:31:41.581-07:00"
+            jcr:lastModified="{Date}2019-10-25T16:47:53.628-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
@@ -78,5 +78,14 @@
             </xmpMM:History>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2019-10-25T17:47:39.468-07:00"/>
+        </usages>
     </jcr:content>
 </jcr:root>

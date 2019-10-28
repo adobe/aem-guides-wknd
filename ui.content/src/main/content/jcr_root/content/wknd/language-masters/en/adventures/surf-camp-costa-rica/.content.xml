@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-10-25T07:36:00.253-07:00"
+        cq:lastModified="{Date}2019-10-25T17:47:39.485-07:00"
         cq:lastModifiedBy="admin"
         cq:tags="[wknd:customer-journey/engage,wknd:customer-journey/convert,wknd:activity/surfing,wknd:season/summer]"
         cq:template="/conf/wknd/settings/wcm/templates/adventure-page-template"
@@ -33,23 +33,23 @@
                     <image
                         jcr:created="{Date}2019-10-16T15:48:30.149-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-18T19:38:05.501-07:00"
+                        jcr:lastModified="{Date}2019-10-25T17:43:25.200-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/content/image"
-                        fileReference="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/beach-walking.jpg"/>
+                        fileReference="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/adobestock_278302117.jpeg"/>
                     <item_1571681724898
-                        jcr:lastModified="{Date}2019-10-21T11:15:38.975-07:00"
+                        jcr:lastModified="{Date}2019-10-25T17:44:20.012-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/content/image"
-                        fileReference="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/wave-nicaragua.jpg"/>
+                        fileReference="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/adobestock_113485796.jpeg"/>
                     <item_1571681750987
-                        jcr:lastModified="{Date}2019-10-21T11:15:59.869-07:00"
+                        jcr:lastModified="{Date}2019-10-25T17:44:37.102-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/content/image"
-                        fileReference="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/surfing_5.jpg"/>
+                        fileReference="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/adobestock_113490014.jpeg"/>
                 </carousel>
                 <responsivegrid
                     cq:styleIds="[1554340406437]"
@@ -198,14 +198,14 @@
                         <item_1570890135033
                             cq:panelTitle="Overview"
                             cq:styleIds="[1571166691078]"
-                            jcr:lastModified="{Date}2019-10-16T15:32:00.255-07:00"
+                            jcr:lastModified="{Date}2019-10-25T11:37:44.680-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/content/contentfragment"
                             displayMode="singleText"
                             elementNames="adventureDescription"
                             fragmentPath="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/surf-camp-costa-rica"
-                            paragraphScope="all"
+                            paragraphScope="range"
                             text="Nicaragua Surf Trip 3-day surf camp in Nicaragua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit Sin voluptate velit esse cillum dolore eu fugiat nulla pariatur Excepteur sint occaecat cupidatat non proident Sunt in culpa qui officia deserunt mollit anim id est laborum"
                             variationName="master">
                             <par2
@@ -213,18 +213,27 @@
                                 sling:resourceType="wcm/foundation/components/responsivegrid"/>
                             <par1
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="dam/cfm/components/grid"/>
+                                sling:resourceType="dam/cfm/components/grid">
+                                <image
+                                    jcr:created="{Date}2019-10-25T11:39:59.297-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-25T17:45:14.337-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/image"
+                                    fileReference="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/surfing_5.jpg"/>
+                            </par1>
                         </item_1570890135033>
                         <item_1570890140330
                             cq:panelTitle="Itinerary"
-                            jcr:lastModified="{Date}2019-10-16T15:32:17.965-07:00"
+                            jcr:lastModified="{Date}2019-10-25T10:56:29.237-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/content/contentfragment"
                             displayMode="singleText"
                             elementNames="adventureItinerary"
                             fragmentPath="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/surf-camp-costa-rica"
-                            paragraphScope="all"
+                            paragraphScope="range"
                             text="Nicaragua Surf Trip Day 1 Our adventure begins! In est ante in nibh. Phasellus faucibus scelerisque eleifend donec. Ultricies mi quis hendrerit dolor magna eget. Aliquam id diam maecenas ultricies mi eget mauris pharetra. Ut aliquam purus sit amet luctus venenatis. Day 2 Forrest hike to secluded surf spot Ut sem viverra aliquet eget sit. Urna et pharetra pharetra massa massa ultricies. Sed blandit libero volutpat sed cras ornare. Nascetur ridiculus mus mauris vitae ultricies leo integer. Nibh mauris cursus mattis molestie a iaculis at erat. Day 3 Surf at sunset cliffs Posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Placerat vestibulum lectus mauris ultrices eros in. Eget dolor morbi non arcu. Magna fermentum iaculis eu non diam phasellus vestibulum lorem sed. Vulputate mi sit amet mauris commodo quis."
                             variationName="master">
                             <par9
@@ -236,6 +245,61 @@
                             <par7
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="dam/cfm/components/grid"/>
+                            <par2
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="dam/cfm/components/grid">
+                                <image
+                                    jcr:created="{Date}2019-10-25T10:56:43.136-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-25T17:46:31.083-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/image"
+                                    altValueFromDAM="true"
+                                    displayPopupTitle="false"
+                                    fileReference="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/adobestock_266405335.jpeg"
+                                    isDecorative="false"
+                                    titleValueFromDAM="true"/>
+                            </par2>
+                            <par10
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="dam/cfm/components/grid"/>
+                            <par6
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="dam/cfm/components/grid">
+                                <image
+                                    jcr:created="{Date}2019-10-25T17:46:43.056-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-25T17:46:43.056-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/image"
+                                    fileReference="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/adobestock_272479375.jpeg"/>
+                            </par6>
+                            <par4
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="dam/cfm/components/grid">
+                                <image
+                                    jcr:created="{Date}2019-10-25T17:46:50.922-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-25T17:46:50.922-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/image"
+                                    fileReference="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/man-wetsuit.jpg"/>
+                            </par4>
+                            <par8
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="dam/cfm/components/grid">
+                                <image
+                                    jcr:created="{Date}2019-10-25T17:47:39.470-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-25T17:47:39.470-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/image"
+                                    fileReference="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/surfing_2.jpg"/>
+                            </par8>
                         </item_1570890140330>
                         <item_1570890147607
                             cq:panelTitle="What to Bring"

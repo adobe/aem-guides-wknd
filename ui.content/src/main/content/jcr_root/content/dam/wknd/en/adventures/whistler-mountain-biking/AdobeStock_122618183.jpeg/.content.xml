@@ -8,7 +8,7 @@
         cq:name="AdobeStock_122618183.jpeg"
         cq:parentPath="/content/dam/wknd/en/adventures/whistler-mountain-biking"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-24T15:52:45.663-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:48:20.863-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -104,7 +104,7 @@
             crs:VignetteMidpoint="{Long}20"
             dam:Bitsperpixel="{Long}24"
             dam:EditStatus="MR"
-            dam:extracted="{Date}2019-10-24T15:51:47.263-07:00"
+            dam:extracted="{Date}2019-10-25T16:48:14.419-07:00"
             dam:Fileformat="JPEG"
             dam:FixtureIdentifier="Horizontal"
             dam:MIMEtype="image/jpeg"
@@ -115,21 +115,21 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}16.875"
             dam:Progressive="no"
-            dam:sha1="54a0cd9368044400b40f52b938874cb9fe5360a3"
-            dam:size="{Long}371456"
+            dam:sha1="5ff1b02d6c73b90a8cfd639f496dc90250c31516"
+            dam:size="{Long}379208"
             dam:SpecialInstructions="PRNR"
             dam:Sublocation="Carcross, Yukon, Canada"
-            dam:TimeCreated="000000+0000"
+            dam:TimeCreated="000000-0700"
             dam:Unknown="ACN-SI-001"
-            dc:creator="[Ryan Creary]"
+            dc:creator="[Ryan Creary,Ryan Creary,Ryan Creary]"
             dc:creator_xmpArrayType="rdf:Seq"
-            dc:date="{Long}[20110928]"
-            dc:date_xmpArrayType="rdf:Bag"
+            dc:date="{Long}[20110928,20110928,20110928]"
+            dc:date_xmpArrayType="rdf:Seq"
             dc:description="A male mountain biker rides the amazing trails of Carcross, Yukon during the fall colors."
             dc:format="image/jpeg"
             dc:modified="{Date}2019-10-24T15:52:45.552-07:00"
             dc:rights="©All Canada Photos - stock.adobe.com"
-            dc:subject="[carcross,dogs,south klondike highway,technical,whitehorse,winter biking,yukon,colour image,color image,Ryan Creary,horizontal,photography,People,colour,color,outdoor,outdoors,One Person,1 person,daytime,Day,leisure,recreational,recreation,activities,activity,biker,cycling,healthy  lifestyles,active,biking,bikes,bike,bicycles,bicycle,mountain bikes,mountain biking,trees,tree,selectively focused,selective-focus,selective focus,bridges,bridge,Canada,Yukon,Carcross,forests,forest,trails,trail,protective wear,safety gear,helmet,Horizontal,carcross,dogs,south klondike highway,technical,whitehorse,winter biking,yukon,colour image,color image,ryan creary,horizontal,photography,people,colour,color,outdoor,outdoors,one person,1 person,daytime,day,leisure,recreational,recreation,activities,activity,biker,cycling,healthy  lifestyles,active,biking,bikes,bike,bicycles,bicycle,mountain bikes,mountain biking,trees,tree,selectively focused,selective-focus,selective focus,bridges,bridge,canada,forests,forest,trails,trail,protective wear,safety gear,helmet,carcross,dogs,south klondike highway,technical,whitehorse,winter biking,yukon,colour image,color image,Ryan Creary,horizontal,photography,People,colour,color,outdoor,outdoors,One Person,1 person,daytime,Day,leisure,recreational,recreation,activities,activity,biker,cycling,healthy  lifestyles,active,biking,bikes,bike,bicycles,bicycle,mountain bikes,mountain biking,trees,tree,selectively focused,selective-focus,selective focus,bridges,bridge,Canada,Yukon,Carcross,forests,forest,trails,trail,protective wear,safety gear,helmet,Horizontal,carcross,dogs,south klondike highway,technical,whitehorse,winter biking,yukon,colour image,color image,ryan creary,horizontal,photography,people,colour,color,outdoor,outdoors,one person,1 person,daytime,day,leisure,recreational,recreation,activities,activity,biker,cycling,healthy  lifestyles,active,biking,bikes,bike,bicycles,bicycle,mountain bikes,mountain biking,trees,tree,selectively focused,selective-focus,selective focus,bridges,bridge,canada,forests,forest,trails,trail,protective wear,safety gear,helmet,carcross,dogs,south klondike highway,technical,whitehorse,winter biking,yukon,colour image,color image,Ryan Creary,horizontal,photography,People,colour,color,outdoor,outdoors,One Person,1 person,daytime,Day,leisure,recreational,recreation,activities,activity,biker,cycling,healthy  lifestyles,active,biking,bikes,bike,bicycles,bicycle,mountain bikes,mountain biking,trees,tree,selectively focused,selective-focus,selective focus,bridges,bridge,Canada,Yukon,Carcross,forests,forest,trails,trail,protective wear,safety gear,helmet,Horizontal,ryan creary,people,one person,day,canada]"
+            dc:subject="[carcross,dogs,south klondike highway,technical,whitehorse,winter biking,yukon,colour image,color image,Ryan Creary,horizontal,photography,People,colour,color,outdoor,outdoors,One Person,1 person,daytime,Day,leisure,recreational,recreation,activities,activity,biker,cycling,healthy  lifestyles,active,biking,bikes,bike,bicycles,bicycle,mountain bikes,mountain biking,trees,tree,selectively focused,selective-focus,selective focus,bridges,bridge,Canada,Yukon,Carcross,forests,forest,trails,trail,protective wear,safety gear,helmet,Horizontal,carcross,dogs,south klondike highway,technical,whitehorse,winter biking,yukon,colour image,color image,ryan creary,horizontal,photography,people,colour,color,outdoor,outdoors,one person,1 person,daytime,day,leisure,recreational,recreation,activities,activity,biker,cycling,healthy  lifestyles,active,biking,bikes,bike,bicycles,bicycle,mountain bikes,mountain biking,trees,tree,selectively focused,selective-focus,selective focus,bridges,bridge,canada,forests,forest,trails,trail,protective wear,safety gear,helmet,carcross,dogs,south klondike highway,technical,whitehorse,winter biking,yukon,colour image,color image,Ryan Creary,horizontal,photography,People,colour,color,outdoor,outdoors,One Person,1 person,daytime,Day,leisure,recreational,recreation,activities,activity,biker,cycling,healthy  lifestyles,active,biking,bikes,bike,bicycles,bicycle,mountain bikes,mountain biking,trees,tree,selectively focused,selective-focus,selective focus,bridges,bridge,Canada,Yukon,Carcross,forests,forest,trails,trail,protective wear,safety gear,helmet,Horizontal,carcross,dogs,south klondike highway,technical,whitehorse,winter biking,yukon,colour image,color image,ryan creary,horizontal,photography,people,colour,color,outdoor,outdoors,one person,1 person,daytime,day,leisure,recreational,recreation,activities,activity,biker,cycling,healthy  lifestyles,active,biking,bikes,bike,bicycles,bicycle,mountain bikes,mountain biking,trees,tree,selectively focused,selective-focus,selective focus,bridges,bridge,canada,forests,forest,trails,trail,protective wear,safety gear,helmet,carcross,dogs,south klondike highway,technical,whitehorse,winter biking,yukon,colour image,color image,Ryan Creary,horizontal,photography,People,colour,color,outdoor,outdoors,One Person,1 person,daytime,Day,leisure,recreational,recreation,activities,activity,biker,cycling,healthy  lifestyles,active,biking,bikes,bike,bicycles,bicycle,mountain bikes,mountain biking,trees,tree,selectively focused,selective-focus,selective focus,bridges,bridge,Canada,Yukon,Carcross,forests,forest,trails,trail,protective wear,safety gear,helmet,Horizontal,ryan creary,people,one person,day,canada,carcross,dogs,south klondike highway,technical,whitehorse,winter biking,yukon,colour image,color image,Ryan Creary,horizontal,photography,People,colour,color,outdoor,outdoors,One Person,1 person,daytime,Day,leisure,recreational,recreation,activities,activity,biker,cycling,healthy  lifestyles,active,biking,bikes,bike,bicycles,bicycle,mountain bikes,mountain biking,trees,tree,selectively focused,selective-focus,selective focus,bridges,bridge,Canada,Yukon,Carcross,forests,forest,trails,trail,protective wear,safety gear,helmet,Horizontal,carcross,dogs,south klondike highway,technical,whitehorse,winter biking,yukon,colour image,color image,ryan creary,horizontal,photography,people,colour,color,outdoor,outdoors,one person,1 person,daytime,day,leisure,recreational,recreation,activities,activity,biker,cycling,healthy  lifestyles,active,biking,bikes,bike,bicycles,bicycle,mountain bikes,mountain biking,trees,tree,selectively focused,selective-focus,selective focus,bridges,bridge,canada,forests,forest,trails,trail,protective wear,safety gear,helmet,carcross,dogs,south klondike highway,technical,whitehorse,winter biking,yukon,colour image,color image,Ryan Creary,horizontal,photography,People,colour,color,outdoor,outdoors,One Person,1 person,daytime,Day,leisure,recreational,recreation,activities,activity,biker,cycling,healthy  lifestyles,active,biking,bikes,bike,bicycles,bicycle,mountain bikes,mountain biking,trees,tree,selectively focused,selective-focus,selective focus,bridges,bridge,Canada,Yukon,Carcross,forests,forest,trails,trail,protective wear,safety gear,helmet,Horizontal,carcross,dogs,south klondike highway,technical,whitehorse,winter biking,yukon,colour image,color image,ryan creary,horizontal,photography,people,colour,color,outdoor,outdoors,one person,1 person,daytime,day,leisure,recreational,recreation,activities,activity,biker,cycling,healthy  lifestyles,active,biking,bikes,bike,bicycles,bicycle,mountain bikes,mountain biking,trees,tree,selectively focused,selective-focus,selective focus,bridges,bridge,canada,forests,forest,trails,trail,protective wear,safety gear,helmet,carcross,dogs,south klondike highway,technical,whitehorse,winter biking,yukon,colour image,color image,Ryan Creary,horizontal,photography,People,colour,color,outdoor,outdoors,One Person,1 person,daytime,Day,leisure,recreational,recreation,activities,activity,biker,cycling,healthy  lifestyles,active,biking,bikes,bike,bicycles,bicycle,mountain bikes,mountain biking,trees,tree,selectively focused,selective-focus,selective focus,bridges,bridge,Canada,Yukon,Carcross,forests,forest,trails,trail,protective wear,safety gear,helmet,Horizontal,ryan creary,people,one person,day,canada,carcross,dogs,south klondike highway,technical,whitehorse,winter biking,yukon,colour image,color image,Ryan Creary,horizontal,photography,People,colour,color,outdoor,outdoors,One Person,1 person,daytime,Day,leisure,recreational,recreation,activities,activity,biker,cycling,healthy  lifestyles,active,biking,bikes,bike,bicycles,bicycle,mountain bikes,mountain biking,trees,tree,selectively focused,selective-focus,selective focus,bridges,bridge,Canada,Yukon,Carcross,forests,forest,trails,trail,protective wear,safety gear,helmet,Horizontal,ryan creary,people,one person,day,canada]"
             dc:subject_xmpArrayType="rdf:Bag"
             dc:title="A male mountain biker rides the amazing trails of Carcross, Yukon during the fall colors."
             exif:ApertureValue="4/1"
@@ -168,7 +168,7 @@
             exifEX:PhotographicSensitivity="{Long}800"
             Iptc4xmpCore:IntellectualGenre="ACN-SI-001"
             Iptc4xmpCore:Location="Carcross, Yukon, Canada"
-            jcr:lastModified="{Date}2019-10-24T15:52:45.552-07:00"
+            jcr:lastModified="{Date}2019-10-25T16:47:49.256-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
@@ -237,48 +237,6 @@
                 exif:Return="{Long}0"
                 jcr:primaryType="nt:unstructured"
                 xmpNodeType="xmpStruct"/>
-            <xmpMM:History
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}3"
-                xmpArrayType="rdf:Seq"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="derived"
-                    stEvt:parameters="converted from image/x-canon-cr2 to image/jpeg, saved to new location"
-                    xmpNodeType="xmpStruct"/>
-                <_x0032_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:66FA681394246811822A8E87F1AA8A3D"
-                    stEvt:softwareAgent="Adobe Photoshop Lightroom 4.1 (Macintosh)"
-                    stEvt:when="{Date}2014-02-05T08:24:49.000-08:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0033_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:e9332205-2994-43fa-875b-e8f4be8a8055"
-                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
-                    stEvt:when="{Date}2019-10-24T15:31:19.000-07:00"
-                    xmpNodeType="xmpStruct"/>
-            </xmpMM:History>
-            <Iptc4xmpExt:Event
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}1"
-                xmpArrayType="rdf:Alt"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    jcr:primaryType="nt:unstructured"
-                    _x0031_="Horizontal"
-                    xmpNodeType="xmpSimple">
-                    <__Q
-                        jcr:primaryType="nt:unstructured"
-                        xml:lang="x-default"
-                        xmpNodeType="xmpQualifier"/>
-                </_x0031_>
-            </Iptc4xmpExt:Event>
             <predictedTags jcr:primaryType="nt:unstructured">
                 <nature
                     jcr:lastModified="{Date}2019-10-24T15:51:49.656-07:00"
@@ -435,6 +393,48 @@
                 jcr:primaryType="nt:unstructured"
                 haystack0="{Binary}"/>
             <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}3"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="converted from image/x-canon-cr2 to image/jpeg, saved to new location"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:66FA681394246811822A8E87F1AA8A3D"
+                    stEvt:softwareAgent="Adobe Photoshop Lightroom 4.1 (Macintosh)"
+                    stEvt:when="{Date}2014-02-05T08:24:49.000-08:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0033_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:e9332205-2994-43fa-875b-e8f4be8a8055"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
+                    stEvt:when="{Date}2019-10-24T15:31:19.000-07:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
+            <Iptc4xmpExt:Event
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}1"
+                xmpArrayType="rdf:Alt"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    _x0031_="Horizontal"
+                    xmpNodeType="xmpSimple">
+                    <__Q
+                        jcr:primaryType="nt:unstructured"
+                        xml:lang="x-default"
+                        xmpNodeType="xmpQualifier"/>
+                </_x0031_>
+            </Iptc4xmpExt:Event>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

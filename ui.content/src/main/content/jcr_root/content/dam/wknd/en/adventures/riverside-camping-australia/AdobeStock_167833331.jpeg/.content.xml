@@ -8,7 +8,7 @@
         cq:name="AdobeStock_167833331.jpeg"
         cq:parentPath="/content/dam/wknd/en/adventures/riverside-camping-australia"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-24T15:45:51.831-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:48:09.314-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -144,7 +144,7 @@
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20160709"
             dam:DigitalCreationTime="074811+0000"
-            dam:extracted="{Date}2019-10-24T15:40:53.190-07:00"
+            dam:extracted="{Date}2019-10-25T16:47:49.220-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -154,18 +154,18 @@
             dam:Physicalwidthindpi="{Long}71"
             dam:Physicalwidthininches="{Decimal}23.774648666381836"
             dam:Progressive="no"
-            dam:sha1="cb2a5da2263939a0ad136be31ba8d8ec9bde5b6b"
-            dam:size="{Long}1008758"
-            dam:TimeCreated="074811+0000"
-            dc:creator="[Gillian Vann]"
+            dam:sha1="61a8114f9d147996afcecf0200633d1729ffbfa1"
+            dam:size="{Long}1005332"
+            dam:TimeCreated="004811-0700"
+            dc:creator="[Gillian Vann,Gillian Vann,Gillian Vann]"
             dc:creator_xmpArrayType="rdf:Seq"
-            dc:date="{Long}[20160709]"
-            dc:date_xmpArrayType="rdf:Bag"
+            dc:date="{Long}[20160709,20160709,20160709]"
+            dc:date_xmpArrayType="rdf:Seq"
             dc:description="view from a tent overlooking a billabong in NT"
             dc:format="image/jpeg"
             dc:modified="{Date}2019-10-24T15:45:51.708-07:00"
             dc:rights="©Gillian Vann/Stocksy - stock.adobe.com"
-            dc:subject="[tent,camping,view,tranquil,stream,scene,river,nt,northern territory,landscape,gum tree,billabong,australia,alone,adventure,tent,camping,view,tranquil,stream,scene,river,nt,northern territory,landscape,gum tree,billabong,australia,alone,adventure,tent,camping,view,tranquil,stream,scene,river,nt,northern territory,landscape,gum tree,billabong,australia,alone,adventure]"
+            dc:subject="[tent,camping,view,tranquil,stream,scene,river,nt,northern territory,landscape,gum tree,billabong,australia,alone,adventure,tent,camping,view,tranquil,stream,scene,river,nt,northern territory,landscape,gum tree,billabong,australia,alone,adventure,tent,camping,view,tranquil,stream,scene,river,nt,northern territory,landscape,gum tree,billabong,australia,alone,adventure,tent,camping,view,tranquil,stream,scene,river,nt,northern territory,landscape,gum tree,billabong,australia,alone,adventure,tent,camping,view,tranquil,stream,scene,river,nt,northern territory,landscape,gum tree,billabong,australia,alone,adventure,tent,camping,view,tranquil,stream,scene,river,nt,northern territory,landscape,gum tree,billabong,australia,alone,adventure,tent,camping,view,tranquil,stream,scene,river,nt,northern territory,landscape,gum tree,billabong,australia,alone,adventure]"
             dc:subject_xmpArrayType="rdf:Bag"
             dc:title="view from a tent"
             exif:ApertureValue="23673/3734"
@@ -210,13 +210,13 @@
             exifEX:LensSpecification_xmpArrayType="rdf:Seq"
             exifEX:PhotographicSensitivity="{Long}320"
             exifEX:SensitivityType="{Long}2"
-            jcr:lastModified="{Date}2019-10-24T15:45:51.708-07:00"
+            jcr:lastModified="{Date}2019-10-25T16:48:08.053-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
-            jcr:title="view from a tent overlooking a billabong in NT"
+            jcr:title="view from a tent"
             photoshop:Country="Canada"
-            photoshop:Credit="Gillian Vann/Stocksy - stock.adobe.com"
+            photoshop:Credit="Gillian Vann/Stocksy - stock.ado"
             photoshop:DateCreated="{Date}2016-07-09T00:48:11.000-07:00"
             photoshop:Headline="view from a tent overlooking a billabong in NT"
             photoshop:Source="167833331"
@@ -248,7 +248,8 @@
             xmpMM:InstanceID="xmp.iid:521b5fa2-6586-41dc-a131-b645d7d0114f"
             xmpMM:OriginalDocumentID="5DA7D27F79C6B0D2112720D4B0BCE1E0"
             xmpMM:PreservedFileName="D8D_7395.NEF"
-            xmpRights:UsageTerms="Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  "
+            xmpRights:UsageTerms="[Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  ]"
+            xmpRights:UsageTerms_xmpArrayType="rdf:Alt"
             lastTransferredForTagging="{Date}2019-10-24T15:40:55.335-07:00"
             simsearchVersion="1.0.0">
             <exif:CFAPattern
@@ -258,99 +259,12 @@
                 exif:Values_xmpArrayType="rdf:Seq"
                 jcr:primaryType="nt:unstructured"
                 xmpNodeType="xmpStruct"/>
-            <crs:RetouchAreas
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}1"
-                xmpArrayType="rdf:Seq"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    crs:Feather="{Decimal}0.110000"
-                    crs:Method="gaussian"
-                    crs:OffsetY="{Decimal}0.288112"
-                    crs:Opacity="{Decimal}1.000000"
-                    crs:Seed="{Long}2"
-                    crs:SourceState="sourceAutoComputed"
-                    crs:SourceX="{Decimal}0.675155"
-                    crs:SpotType="heal"
-                    jcr:primaryType="nt:unstructured"
-                    xmpNodeType="xmpStruct">
-                    <crs:Masks
-                        jcr:primaryType="nt:unstructured"
-                        xmpArraySize="{Long}1"
-                        xmpArrayType="rdf:Seq"
-                        xmpNodeType="xmpArray">
-                        <_x0031_
-                            crs:Alpha="{Decimal}0.000000"
-                            crs:CenterValue="{Decimal}1.000000"
-                            crs:MaskValue="{Decimal}1.000000"
-                            crs:PerimeterValue="{Decimal}0.000000"
-                            crs:SizeX="{Decimal}0.007627"
-                            crs:SizeY="{Decimal}0.007627"
-                            crs:What="Mask/Ellipse"
-                            crs:X="{Decimal}0.732221"
-                            crs:Y="{Decimal}0.256149"
-                            jcr:primaryType="nt:unstructured"
-                            xmpNodeType="xmpStruct"/>
-                    </crs:Masks>
-                </_x0031_>
-            </crs:RetouchAreas>
             <xmpMM:DerivedFrom
                 jcr:primaryType="nt:unstructured"
                 stRef:documentID="5DA7D27F79C6B0D2112720D4B0BCE1E0"
                 stRef:instanceID="xmp.iid:44aa4fb7-b31b-486c-a468-021a96c30056"
                 stRef:originalDocumentID="5DA7D27F79C6B0D2112720D4B0BCE1E0"
                 xmpNodeType="xmpStruct"/>
-            <xmpMM:History
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}6"
-                xmpArrayType="rdf:Seq"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/metadata"
-                    stEvt:instanceID="xmp.iid:F1BC5A9E082068118C14C14E36DE213D"
-                    stEvt:softwareAgent="Adobe Photoshop Camera Raw 6.7 (Macintosh)"
-                    stEvt:when="{Date}2016-07-11T18:31:18.000+09:30"
-                    xmpNodeType="xmpStruct"/>
-                <_x0032_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/metadata"
-                    stEvt:instanceID="xmp.iid:44aa4fb7-b31b-486c-a468-021a96c30056"
-                    stEvt:softwareAgent="Adobe Photoshop Camera Raw 9.5 (Macintosh)"
-                    stEvt:when="{Date}2016-07-28T18:46:08.000+09:30"
-                    xmpNodeType="xmpStruct"/>
-                <_x0033_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="derived"
-                    stEvt:parameters="converted from image/x-nikon-nef to image/jpeg, saved to new location"
-                    xmpNodeType="xmpStruct"/>
-                <_x0034_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:11f169af-5430-4fc0-a335-a23b02015aa3"
-                    stEvt:softwareAgent="Adobe Photoshop Camera Raw 9.6.1 (Macintosh)"
-                    stEvt:when="{Date}2016-08-05T21:31:44.000+09:30"
-                    xmpNodeType="xmpStruct"/>
-                <_x0035_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/metadata"
-                    stEvt:instanceID="xmp.iid:3307f77f-0bfd-450c-8210-9a3d670237e7"
-                    stEvt:softwareAgent="Adobe Photoshop Camera Raw 9.6"
-                    stEvt:when="{Date}2016-08-05T21:32:04.000+09:30"
-                    xmpNodeType="xmpStruct"/>
-                <_x0036_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/metadata"
-                    stEvt:instanceID="xmp.iid:521b5fa2-6586-41dc-a131-b645d7d0114f"
-                    stEvt:softwareAgent="Adobe Photoshop Camera Raw 9.6.1 (Macintosh)"
-                    stEvt:when="{Date}2016-08-05T21:32:54.000+09:30"
-                    xmpNodeType="xmpStruct"/>
-            </xmpMM:History>
             <predictedTags jcr:primaryType="nt:unstructured">
                 <lake
                     jcr:lastModified="{Date}2019-10-24T15:40:55.329-07:00"
@@ -507,6 +421,93 @@
                 jcr:primaryType="nt:unstructured"
                 haystack0="{Binary}"/>
             <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
+            <crs:RetouchAreas
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}1"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    crs:Feather="{Decimal}0.110000"
+                    crs:Method="gaussian"
+                    crs:OffsetY="{Decimal}0.288112"
+                    crs:Opacity="{Decimal}1.000000"
+                    crs:Seed="{Long}2"
+                    crs:SourceState="sourceAutoComputed"
+                    crs:SourceX="{Decimal}0.675155"
+                    crs:SpotType="heal"
+                    jcr:primaryType="nt:unstructured"
+                    xmpNodeType="xmpStruct">
+                    <crs:Masks
+                        jcr:primaryType="nt:unstructured"
+                        xmpArraySize="{Long}1"
+                        xmpArrayType="rdf:Seq"
+                        xmpNodeType="xmpArray">
+                        <_x0031_
+                            crs:Alpha="{Decimal}0.000000"
+                            crs:CenterValue="{Decimal}1.000000"
+                            crs:MaskValue="{Decimal}1.000000"
+                            crs:PerimeterValue="{Decimal}0.000000"
+                            crs:SizeX="{Decimal}0.007627"
+                            crs:SizeY="{Decimal}0.007627"
+                            crs:What="Mask/Ellipse"
+                            crs:X="{Decimal}0.732221"
+                            crs:Y="{Decimal}0.256149"
+                            jcr:primaryType="nt:unstructured"
+                            xmpNodeType="xmpStruct"/>
+                    </crs:Masks>
+                </_x0031_>
+            </crs:RetouchAreas>
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}6"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/metadata"
+                    stEvt:instanceID="xmp.iid:F1BC5A9E082068118C14C14E36DE213D"
+                    stEvt:softwareAgent="Adobe Photoshop Camera Raw 6.7 (Macintosh)"
+                    stEvt:when="{Date}2016-07-11T18:31:18.000+09:30"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/metadata"
+                    stEvt:instanceID="xmp.iid:44aa4fb7-b31b-486c-a468-021a96c30056"
+                    stEvt:softwareAgent="Adobe Photoshop Camera Raw 9.5 (Macintosh)"
+                    stEvt:when="{Date}2016-07-28T18:46:08.000+09:30"
+                    xmpNodeType="xmpStruct"/>
+                <_x0033_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="converted from image/x-nikon-nef to image/jpeg, saved to new location"
+                    xmpNodeType="xmpStruct"/>
+                <_x0034_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:11f169af-5430-4fc0-a335-a23b02015aa3"
+                    stEvt:softwareAgent="Adobe Photoshop Camera Raw 9.6.1 (Macintosh)"
+                    stEvt:when="{Date}2016-08-05T21:31:44.000+09:30"
+                    xmpNodeType="xmpStruct"/>
+                <_x0035_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/metadata"
+                    stEvt:instanceID="xmp.iid:3307f77f-0bfd-450c-8210-9a3d670237e7"
+                    stEvt:softwareAgent="Adobe Photoshop Camera Raw 9.6"
+                    stEvt:when="{Date}2016-08-05T21:32:04.000+09:30"
+                    xmpNodeType="xmpStruct"/>
+                <_x0036_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/metadata"
+                    stEvt:instanceID="xmp.iid:521b5fa2-6586-41dc-a131-b645d7d0114f"
+                    stEvt:softwareAgent="Adobe Photoshop Camera Raw 9.6.1 (Macintosh)"
+                    stEvt:when="{Date}2016-08-05T21:32:54.000+09:30"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

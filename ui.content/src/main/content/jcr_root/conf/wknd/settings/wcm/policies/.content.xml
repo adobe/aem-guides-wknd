@@ -36,7 +36,7 @@
                             mergeList="{Boolean}true"/>
                     </content-default>
                     <policy_213106331986985
-                        jcr:lastModified="{Date}2019-10-17T10:55:57.620-07:00"
+                        jcr:lastModified="{Date}2019-10-25T15:03:12.535-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Content"
@@ -186,6 +186,16 @@
                             </item0>
                         </cq:styleGroups>
                     </policy_70911755464249>
+                    <policy_245021219904493
+                        jcr:description="Components for hero spaces on landing pages."
+                        jcr:lastModified="{Date}2019-10-25T15:02:34.705-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Hero Content"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/wknd/components/content/carousel,/apps/wknd/components/content/image,/apps/wknd/components/content/teaser,/apps/wknd/components/content/title]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_245021219904493>
                 </responsivegrid>
             </components>
         </foundation>
@@ -206,7 +216,7 @@
             <content jcr:primaryType="nt:unstructured">
                 <title jcr:primaryType="nt:unstructured">
                     <policy_349626543823562
-                        jcr:lastModified="{Date}2019-10-17T10:59:11.421-07:00"
+                        jcr:lastModified="{Date}2019-10-25T13:44:39.378-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Title - Global Styles"
@@ -869,12 +879,12 @@
                         </cq:styleGroups>
                     </policy_126406575098243>
                     <policy_1571339767041
-                        jcr:lastModified="{Date}2019-10-17T12:17:33.464-07:00"
+                        jcr:lastModified="{Date}2019-10-25T13:38:26.916-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Image - Carousel"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        allowedRenditionWidths="[100,200,300,400,500,600,700,800,900,1000,1100,1200,1600]"
+                        allowedRenditionWidths="[100,200,300,400,500,600,700,800,900,1000,1100,1200,1600,1800]"
                         allowUpload="true"
                         altValueFromDAM="true"
                         disableLazyLoading="true"
@@ -910,6 +920,10 @@
                                         jcr:primaryType="nt:unstructured"
                                         name="Portrait"
                                         ratio="1.6180"/>
+                                    <item4
+                                        jcr:primaryType="nt:unstructured"
+                                        name="Super Wide Landscape"
+                                        ratio="0.333"/>
                                 </aspectRatios>
                             </crop>
                         </plugins>
@@ -952,7 +966,7 @@
                 <byline jcr:primaryType="nt:unstructured"/>
                 <teaser jcr:primaryType="nt:unstructured">
                     <policy_1555539430196
-                        jcr:lastModified="{Date}2019-10-22T14:38:28.182-07:00"
+                        jcr:lastModified="{Date}2019-10-25T13:38:38.126-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Teaser"
@@ -974,14 +988,24 @@
                                         cq:styleLabel="Featured"
                                         jcr:primaryType="nt:unstructured"/>
                                     <item1
+                                        cq:styleClasses="cmp-teaser--list"
+                                        cq:styleId="1571334427914"
+                                        cq:styleLabel="List"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item2
                                         cq:styleClasses="cmp-teaser--hero"
                                         cq:styleId="1555543212672"
                                         cq:styleLabel="Hero"
                                         jcr:primaryType="nt:unstructured"/>
-                                    <item2
-                                        cq:styleClasses="cmp-teaser--list"
-                                        cq:styleId="1571334427914"
-                                        cq:styleLabel="List"
+                                    <item3
+                                        cq:styleClasses="cmp-teaser--hero cmp-teaser--imagetop"
+                                        cq:styleId="1572035118854"
+                                        cq:styleLabel="Hero Image Top"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item4
+                                        cq:styleClasses="cmp-teaser--hero cmp-teaser--imagebottom"
+                                        cq:styleId="1572035150600"
+                                        cq:styleLabel="Hero Image Bottom"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item0>
@@ -994,6 +1018,9 @@
                                         cq:styleId="1571779921857"
                                         cq:styleLabel="Secure"
                                         jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleId="1572035106443"
+                                        jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item1>
                         </cq:styleGroups>
@@ -1001,7 +1028,7 @@
                 </teaser>
                 <carousel jcr:primaryType="nt:unstructured">
                     <policy_1555540352044
-                        jcr:lastModified="{Date}2019-10-17T11:00:52.403-07:00"
+                        jcr:lastModified="{Date}2019-10-25T13:37:48.735-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Carousel"
@@ -1061,7 +1088,7 @@
                 </contentfragment>
                 <button jcr:primaryType="nt:unstructured">
                     <policy_1568591661081
-                        jcr:lastModified="{Date}2019-10-17T11:01:39.995-07:00"
+                        jcr:lastModified="{Date}2019-10-25T18:01:22.226-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Button"
@@ -1211,7 +1238,7 @@
                 </accordion>
                 <separator jcr:primaryType="nt:unstructured">
                     <policy_1571075710034
-                        jcr:lastModified="{Date}2019-10-14T15:17:33.627-07:00"
+                        jcr:lastModified="{Date}2019-10-25T15:29:28.024-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Separator"

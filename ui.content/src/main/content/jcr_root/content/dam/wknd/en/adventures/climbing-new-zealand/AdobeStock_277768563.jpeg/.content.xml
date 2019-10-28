@@ -8,14 +8,14 @@
         cq:name="AdobeStock_277768563.jpeg"
         cq:parentPath="/content/dam/wknd/en/adventures/climbing-new-zealand"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-24T15:53:31.867-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:47:46.133-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20190608"
-            dam:DigitalCreationTime="191058+0000"
-            dam:extracted="{Date}2019-10-24T15:53:14.664-07:00"
+            dam:DigitalCreationTime="191058-0700"
+            dam:extracted="{Date}2019-10-25T16:47:43.558-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -25,18 +25,18 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}20.09722137451172"
             dam:Progressive="no"
-            dam:sha1="fbc14a9e24e793395e2a3bca0eb8d6013729f259"
-            dam:size="{Long}169851"
-            dam:TimeCreated="191058+0000"
-            dc:creator="[Fran Mares]"
+            dam:sha1="d7cb8e901b0af156f572843ad43479d667bb1ed4"
+            dam:size="{Long}174300"
+            dam:TimeCreated="191058-0700"
+            dc:creator="[Fran Mares,Fran Mares,Fran Mares]"
             dc:creator_xmpArrayType="rdf:Seq"
-            dc:date="{Long}[20190608]"
-            dc:date_xmpArrayType="rdf:Bag"
+            dc:date="{Long}[20190608,20190608,20190608]"
+            dc:date_xmpArrayType="rdf:Seq"
             dc:description="Back view of woman in hat and coat standing on high peak holding hands apart against majestic terrain with lake and mountains"
             dc:format="image/jpeg"
             dc:modified="{Date}2019-10-24T15:53:31.793-07:00"
             dc:rights="Fran Mares"
-            dc:subject="[woman,mountain,freedom,peak,hands apart,travel,trekking,sky,adventure,nature,landscape,posture,explore,happy,rock,tourist,view,hat,activity,peace,vacation,height,altitude,achievement,coat,top,climb,hike,journey,tourism,destination,valley,gesture,standing,back view,copy space,anonymous,unrecognizable,blurred background,horizontal,new zealand,rosy peak,fm,woman,mountain,freedom,peak,hands apart,travel,trekking,sky,adventure,nature,landscape,posture,explore,happy,rock,tourist,view,hat,activity,peace,vacation,height,altitude,achievement,coat,top,climb,hike,journey,tourism,destination,valley,gesture,standing,back view,copy space,anonymous,unrecognizable,blurred background,horizontal,new zealand,rosy peak,fm,woman,mountain,freedom,peak,hands apart,travel,trekking,sky,adventure,nature,landscape,posture,explore,happy,rock,tourist,view,hat,activity,peace,vacation,height,altitude,achievement,coat,top,climb,hike,journey,tourism,destination,valley,gesture,standing,back view,copy space,anonymous,unrecognizable,blurred background,horizontal,new zealand,rosy peak,fm]"
+            dc:subject="[woman,mountain,freedom,peak,hands apart,travel,trekking,sky,adventure,nature,landscape,posture,explore,happy,rock,tourist,view,hat,activity,peace,vacation,height,altitude,achievement,coat,top,climb,hike,journey,tourism,destination,valley,gesture,standing,back view,copy space,anonymous,unrecognizable,blurred background,horizontal,new zealand,rosy peak,fm,woman,mountain,freedom,peak,hands apart,travel,trekking,sky,adventure,nature,landscape,posture,explore,happy,rock,tourist,view,hat,activity,peace,vacation,height,altitude,achievement,coat,top,climb,hike,journey,tourism,destination,valley,gesture,standing,back view,copy space,anonymous,unrecognizable,blurred background,horizontal,new zealand,rosy peak,fm,woman,mountain,freedom,peak,hands apart,travel,trekking,sky,adventure,nature,landscape,posture,explore,happy,rock,tourist,view,hat,activity,peace,vacation,height,altitude,achievement,coat,top,climb,hike,journey,tourism,destination,valley,gesture,standing,back view,copy space,anonymous,unrecognizable,blurred background,horizontal,new zealand,rosy peak,fm,woman,mountain,freedom,peak,hands apart,travel,trekking,sky,adventure,nature,landscape,posture,explore,happy,rock,tourist,view,hat,activity,peace,vacation,height,altitude,achievement,coat,top,climb,hike,journey,tourism,destination,valley,gesture,standing,back view,copy space,anonymous,unrecognizable,blurred background,horizontal,new zealand,rosy peak,fm,woman,mountain,freedom,peak,hands apart,travel,trekking,sky,adventure,nature,landscape,posture,explore,happy,rock,tourist,view,hat,activity,peace,vacation,height,altitude,achievement,coat,top,climb,hike,journey,tourism,destination,valley,gesture,standing,back view,copy space,anonymous,unrecognizable,blurred background,horizontal,new zealand,rosy peak,fm,woman,mountain,freedom,peak,hands apart,travel,trekking,sky,adventure,nature,landscape,posture,explore,happy,rock,tourist,view,hat,activity,peace,vacation,height,altitude,achievement,coat,top,climb,hike,journey,tourism,destination,valley,gesture,standing,back view,copy space,anonymous,unrecognizable,blurred background,horizontal,new zealand,rosy peak,fm,woman,mountain,freedom,peak,hands apart,travel,trekking,sky,adventure,nature,landscape,posture,explore,happy,rock,tourist,view,hat,activity,peace,vacation,height,altitude,achievement,coat,top,climb,hike,journey,tourism,destination,valley,gesture,standing,back view,copy space,anonymous,unrecognizable,blurred background,horizontal,new zealand,rosy peak,fm]"
             dc:subject_xmpArrayType="rdf:Bag"
             dc:title="Woman with hands apart against mountain valley"
             exif:ColorSpace="{Long}1"
@@ -48,7 +48,7 @@
             exif:PixelXDimension="{Long}1447"
             exif:PixelYDimension="{Long}964"
             Iptc4xmpExt:AddlModelInfo="MR_MartaRipoll.jpg, MR_MariaGarcia.jpg, MR_FranMares.jpg, MR_SaraAntolin.jpg"
-            jcr:lastModified="{Date}2019-10-24T15:53:31.792-07:00"
+            jcr:lastModified="{Date}2019-10-25T16:47:38.855-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
@@ -84,39 +84,10 @@
             xmpMM:InstanceID="xmp.iid:e0415e2c-f6cf-47d0-b763-a3bcb8479783"
             xmpMM:OriginalDocumentID="607C45A48854FB1E132F7C2692696052"
             xmpRights:Marked="{Boolean}true"
-            xmpRights:UsageTerms="Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  "
+            xmpRights:UsageTerms="[Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  ]"
+            xmpRights:UsageTerms_xmpArrayType="rdf:Alt"
             lastTransferredForTagging="{Date}2019-10-24T15:53:16.614-07:00"
             simsearchVersion="1.0.0">
-            <xmpMM:History
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}3"
-                xmpArrayType="rdf:Seq"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/metadata"
-                    stEvt:instanceID="xmp.iid:e5843507-ee15-4367-a475-26fb681c4b2c"
-                    stEvt:softwareAgent="Adobe Photoshop Camera Raw 11.3"
-                    stEvt:when="{Date}2019-06-21T13:42:34.000+02:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0032_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/metadata"
-                    stEvt:instanceID="xmp.iid:41bd3897-1dd6-490b-8222-b482298d89cb"
-                    stEvt:softwareAgent="Adobe Photoshop Camera Raw 11.3.1 (Macintosh)"
-                    stEvt:when="{Date}2019-06-21T13:42:34.000+02:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0033_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:e0415e2c-f6cf-47d0-b763-a3bcb8479783"
-                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
-                    stEvt:when="{Date}2019-10-24T15:21:40.000-07:00"
-                    xmpNodeType="xmpStruct"/>
-            </xmpMM:History>
             <predictedTags jcr:primaryType="nt:unstructured">
                 <man
                     jcr:lastModified="{Date}2019-10-24T15:53:16.609-07:00"
@@ -273,6 +244,36 @@
                 jcr:primaryType="nt:unstructured"
                 haystack0="{Binary}"/>
             <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}3"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/metadata"
+                    stEvt:instanceID="xmp.iid:e5843507-ee15-4367-a475-26fb681c4b2c"
+                    stEvt:softwareAgent="Adobe Photoshop Camera Raw 11.3"
+                    stEvt:when="{Date}2019-06-21T13:42:34.000+02:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/metadata"
+                    stEvt:instanceID="xmp.iid:41bd3897-1dd6-490b-8222-b482298d89cb"
+                    stEvt:softwareAgent="Adobe Photoshop Camera Raw 11.3.1 (Macintosh)"
+                    stEvt:when="{Date}2019-06-21T13:42:34.000+02:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0033_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:e0415e2c-f6cf-47d0-b763-a3bcb8479783"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
+                    stEvt:when="{Date}2019-10-24T15:21:40.000-07:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

@@ -8,7 +8,7 @@
         cq:name="AdobeStock_243954373.JPG"
         cq:parentPath="/content/dam/wknd/en/magazine/la-skateparks"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-24T15:39:38.559-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:50:58.007-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -127,8 +127,8 @@
             crs:Whites2012="{Long}60"
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20180120"
-            dam:DigitalCreationTime="104317+0000"
-            dam:extracted="{Date}2019-10-24T15:39:03.242-07:00"
+            dam:DigitalCreationTime="104317-0800"
+            dam:extracted="{Date}2019-10-25T16:50:51.585-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -138,16 +138,16 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}25.13888931274414"
             dam:Progressive="no"
-            dam:sha1="b02e69c9c0312732b78733d3e17bea7ef3c245f8"
-            dam:size="{Long}713216"
-            dam:TimeCreated="104317+0000"
-            dc:date="{Long}[20180120]"
-            dc:date_xmpArrayType="rdf:Bag"
+            dam:sha1="ed19de139a19658b5a20aaecac353dc14b55236d"
+            dam:size="{Long}717743"
+            dam:TimeCreated="104317-0800"
+            dc:date="{Long}[20180120,20180120,20180120]"
+            dc:date_xmpArrayType="rdf:Seq"
             dc:description="June 10, 2018. Los Angeles, USA. Venice beach skate park by the ocean. People skating at the skatepark showing different tricks."
             dc:format="image/jpeg"
             dc:modified="{Date}2019-10-24T15:39:38.418-07:00"
             dc:rights="©ingusk - stock.adobe.com"
-            dc:subject="[beach,sea,water,pool,blue,sky,ocean,travel,landscape,resort,vacation,island,boat,sand,summer,swimming,tropical,hotel,nature,view,city,river,holiday,coast,relax,venice,skate,park,skatepark,california,los,angeles,skateboard,palm,skateboarding,usa,skater,la,board,america,sport,bowl,ca,boardwalk,fun,sunset,beach,sea,water,pool,blue,sky,ocean,travel,landscape,resort,vacation,island,boat,sand,summer,swimming,tropical,hotel,nature,view,city,river,holiday,coast,relax,venice,skate,park,skatepark,california,los,angeles,skateboard,palm,skateboarding,usa,skater,la,board,america,sport,bowl,ca,boardwalk,fun,sunset,beach,sea,water,pool,blue,sky,ocean,travel,landscape,resort,vacation,island,boat,sand,summer,swimming,tropical,hotel,nature,view,city,river,holiday,coast,relax,venice,skate,park,skatepark,california,los,angeles,skateboard,palm,skateboarding,usa,skater,la,board,america,sport,bowl,ca,boardwalk,fun,sunset]"
+            dc:subject="[beach,sea,water,pool,blue,sky,ocean,travel,landscape,resort,vacation,island,boat,sand,summer,swimming,tropical,hotel,nature,view,city,river,holiday,coast,relax,venice,skate,park,skatepark,california,los,angeles,skateboard,palm,skateboarding,usa,skater,la,board,america,sport,bowl,ca,boardwalk,fun,sunset,beach,sea,water,pool,blue,sky,ocean,travel,landscape,resort,vacation,island,boat,sand,summer,swimming,tropical,hotel,nature,view,city,river,holiday,coast,relax,venice,skate,park,skatepark,california,los,angeles,skateboard,palm,skateboarding,usa,skater,la,board,america,sport,bowl,ca,boardwalk,fun,sunset,beach,sea,water,pool,blue,sky,ocean,travel,landscape,resort,vacation,island,boat,sand,summer,swimming,tropical,hotel,nature,view,city,river,holiday,coast,relax,venice,skate,park,skatepark,california,los,angeles,skateboard,palm,skateboarding,usa,skater,la,board,america,sport,bowl,ca,boardwalk,fun,sunset,beach,sea,water,pool,blue,sky,ocean,travel,landscape,resort,vacation,island,boat,sand,summer,swimming,tropical,hotel,nature,view,city,river,holiday,coast,relax,venice,skate,park,skatepark,california,los,angeles,skateboard,palm,skateboarding,usa,skater,la,board,america,sport,bowl,ca,boardwalk,fun,sunset,beach,sea,water,pool,blue,sky,ocean,travel,landscape,resort,vacation,island,boat,sand,summer,swimming,tropical,hotel,nature,view,city,river,holiday,coast,relax,venice,skate,park,skatepark,california,los,angeles,skateboard,palm,skateboarding,usa,skater,la,board,america,sport,bowl,ca,boardwalk,fun,sunset,beach,sea,water,pool,blue,sky,ocean,travel,landscape,resort,vacation,island,boat,sand,summer,swimming,tropical,hotel,nature,view,city,river,holiday,coast,relax,venice,skate,park,skatepark,california,los,angeles,skateboard,palm,skateboarding,usa,skater,la,board,america,sport,bowl,ca,boardwalk,fun,sunset,beach,sea,water,pool,blue,sky,ocean,travel,landscape,resort,vacation,island,boat,sand,summer,swimming,tropical,hotel,nature,view,city,river,holiday,coast,relax,venice,skate,park,skatepark,california,los,angeles,skateboard,palm,skateboarding,usa,skater,la,board,america,sport,bowl,ca,boardwalk,fun,sunset]"
             dc:subject_xmpArrayType="rdf:Bag"
             dc:title="Venice beach skate park by the ocean"
             exif:ApertureValue="6/1"
@@ -191,11 +191,11 @@
             exifEX:PhotographicSensitivity="{Long}100"
             exifEX:RecommendedExposureIndex="{Long}100"
             exifEX:SensitivityType="{Long}2"
-            jcr:lastModified="{Date}2019-10-24T15:39:38.418-07:00"
+            jcr:lastModified="{Date}2019-10-25T16:49:34.727-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
-            jcr:title="June 10, 2018. Los Angeles, USA. Venice beach skate park by the "
+            jcr:title="Venice beach skate park by the ocean"
             photoshop:ColorMode="{Long}3"
             photoshop:Country="Latvia"
             photoshop:Credit="ingusk - stock.adobe.com"
@@ -241,72 +241,11 @@
                 exif:Return="{Long}0"
                 jcr:primaryType="nt:unstructured"
                 xmpNodeType="xmpStruct"/>
-            <crs:RetouchAreas
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}1"
-                xmpArrayType="rdf:Seq"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    crs:Feather="{Decimal}0.000000"
-                    crs:Method="gaussian"
-                    crs:OffsetY="{Decimal}0.128636"
-                    crs:Opacity="{Decimal}1.000000"
-                    crs:Seed="{Long}2"
-                    crs:SourceState="sourceAutoComputed"
-                    crs:SourceX="{Decimal}0.919787"
-                    crs:SpotType="heal"
-                    jcr:primaryType="nt:unstructured"
-                    xmpNodeType="xmpStruct">
-                    <crs:Masks
-                        jcr:primaryType="nt:unstructured"
-                        xmpArraySize="{Long}1"
-                        xmpArrayType="rdf:Seq"
-                        xmpNodeType="xmpArray">
-                        <_x0031_
-                            crs:CenterWeight="{Decimal}0.500000"
-                            crs:Dabs="[d 0.945064 0.128825,d 0.945061 0.128013,d 0.945050 0.124632,d 0.945047 0.124392,d 0.945008 0.121012,d 0.944970 0.119100,d 0.944949 0.118126,d 0.944931 0.117339,d 0.944916 0.116696,d 0.944913 0.116572,d 0.944835 0.113194,d 0.944870 0.112359,d 0.944928 0.110468,d 0.944940 0.109773,d 0.944948 0.109312]"
-                            crs:Dabs_xmpArrayType="rdf:Seq"
-                            crs:Flow="{Decimal}1.000000"
-                            crs:MaskValue="{Decimal}1.000000"
-                            crs:Radius="{Decimal}0.007516"
-                            crs:What="Mask/Paint"
-                            jcr:primaryType="nt:unstructured"
-                            xmpNodeType="xmpStruct"/>
-                    </crs:Masks>
-                </_x0031_>
-            </crs:RetouchAreas>
             <xmpMM:DerivedFrom
                 jcr:primaryType="nt:unstructured"
                 stRef:documentID="A403F24B98EECF3EAAE44090E1F246EB"
                 stRef:originalDocumentID="A403F24B98EECF3EAAE44090E1F246EB"
                 xmpNodeType="xmpStruct"/>
-            <xmpMM:History
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}3"
-                xmpArrayType="rdf:Seq"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="derived"
-                    stEvt:parameters="converted from image/x-sony-arw to image/jpeg, saved to new location"
-                    xmpNodeType="xmpStruct"/>
-                <_x0032_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:3af22f4d-84ac-4bd4-9a7a-229081acd198"
-                    stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 8.1 (Macintosh)"
-                    stEvt:when="{Date}2019-01-18T00:49:44.000+02:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0033_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:2ff022c1-b8fa-4c86-b8f1-faf4c3b1bdb8"
-                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
-                    stEvt:when="{Date}2019-10-24T15:11:07.000-07:00"
-                    xmpNodeType="xmpStruct"/>
-            </xmpMM:History>
             <predictedTags jcr:primaryType="nt:unstructured">
                 <sea
                     jcr:lastModified="{Date}2019-10-24T15:39:05.233-07:00"
@@ -463,7 +402,77 @@
                 jcr:primaryType="nt:unstructured"
                 haystack0="{Binary}"/>
             <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
+            <crs:RetouchAreas
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}1"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    crs:Feather="{Decimal}0.000000"
+                    crs:Method="gaussian"
+                    crs:OffsetY="{Decimal}0.128636"
+                    crs:Opacity="{Decimal}1.000000"
+                    crs:Seed="{Long}2"
+                    crs:SourceState="sourceAutoComputed"
+                    crs:SourceX="{Decimal}0.919787"
+                    crs:SpotType="heal"
+                    jcr:primaryType="nt:unstructured"
+                    xmpNodeType="xmpStruct">
+                    <crs:Masks
+                        jcr:primaryType="nt:unstructured"
+                        xmpArraySize="{Long}1"
+                        xmpArrayType="rdf:Seq"
+                        xmpNodeType="xmpArray">
+                        <_x0031_
+                            crs:CenterWeight="{Decimal}0.500000"
+                            crs:Dabs="[d 0.945064 0.128825,d 0.945061 0.128013,d 0.945050 0.124632,d 0.945047 0.124392,d 0.945008 0.121012,d 0.944970 0.119100,d 0.944949 0.118126,d 0.944931 0.117339,d 0.944916 0.116696,d 0.944913 0.116572,d 0.944835 0.113194,d 0.944870 0.112359,d 0.944928 0.110468,d 0.944940 0.109773,d 0.944948 0.109312]"
+                            crs:Dabs_xmpArrayType="rdf:Seq"
+                            crs:Flow="{Decimal}1.000000"
+                            crs:MaskValue="{Decimal}1.000000"
+                            crs:Radius="{Decimal}0.007516"
+                            crs:What="Mask/Paint"
+                            jcr:primaryType="nt:unstructured"
+                            xmpNodeType="xmpStruct"/>
+                    </crs:Masks>
+                </_x0031_>
+            </crs:RetouchAreas>
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}3"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="converted from image/x-sony-arw to image/jpeg, saved to new location"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:3af22f4d-84ac-4bd4-9a7a-229081acd198"
+                    stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 8.1 (Macintosh)"
+                    stEvt:when="{Date}2019-01-18T00:49:44.000+02:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0033_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:2ff022c1-b8fa-4c86-b8f1-faf4c3b1bdb8"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
+                    stEvt:when="{Date}2019-10-24T15:11:07.000-07:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2019-10-27T16:02:55.545-07:00"/>
+        </usages>
     </jcr:content>
 </jcr:root>

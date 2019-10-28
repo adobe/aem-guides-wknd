@@ -8,7 +8,7 @@
         cq:name="AdobeStock_140634652.jpeg"
         cq:parentPath="/content/dam/wknd/en/adventures/climbing-new-zealand"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-24T15:53:45.547-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:48:05.857-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -139,8 +139,8 @@
             crs:Whites2012="{Long}15"
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20160330"
-            dam:DigitalCreationTime="194003+0000"
-            dam:extracted="{Date}2019-10-24T15:53:14.604-07:00"
+            dam:DigitalCreationTime="194003-0700"
+            dam:extracted="{Date}2019-10-25T16:47:54.370-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -150,15 +150,15 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}17.95833396911621"
             dam:Progressive="no"
-            dam:sha1="6a6f426c74b910ce9441d052d85784b542071f6f"
-            dam:size="{Long}682077"
-            dam:TimeCreated="194003+0000"
-            dc:date="{Long}[20160330]"
-            dc:date_xmpArrayType="rdf:Bag"
+            dam:sha1="877fa94e4d740eac66714cbce898afd59c3b5ebd"
+            dam:size="{Long}684878"
+            dam:TimeCreated="194003-0700"
+            dc:date="{Long}[20160330,20160330,20160330]"
+            dc:date_xmpArrayType="rdf:Seq"
             dc:format="image/jpeg"
             dc:modified="{Date}2019-10-24T15:53:45.379-07:00"
             dc:rights="©Ben Read - stock.adobe.com"
-            dc:subject="[rock climbing,bouldering,action sports,adventure,landscape,horizontal,epic,new zealand,tropical,mountains,lakes,orange tee,one person,extreme sports,no ropes,big landscape,small person,lifestyle,fitness,rock climbing,bouldering,action sports,adventure,landscape,horizontal,epic,new zealand,tropical,mountains,lakes,orange tee,one person,extreme sports,no ropes,big landscape,small person,lifestyle,fitness,rock climbing,bouldering,action sports,adventure,landscape,horizontal,epic,new zealand,tropical,mountains,lakes,orange tee,one person,extreme sports,no ropes,big landscape,small person,lifestyle,fitness]"
+            dc:subject="[rock climbing,bouldering,action sports,adventure,landscape,horizontal,epic,new zealand,tropical,mountains,lakes,orange tee,one person,extreme sports,no ropes,big landscape,small person,lifestyle,fitness,rock climbing,bouldering,action sports,adventure,landscape,horizontal,epic,new zealand,tropical,mountains,lakes,orange tee,one person,extreme sports,no ropes,big landscape,small person,lifestyle,fitness,rock climbing,bouldering,action sports,adventure,landscape,horizontal,epic,new zealand,tropical,mountains,lakes,orange tee,one person,extreme sports,no ropes,big landscape,small person,lifestyle,fitness,rock climbing,bouldering,action sports,adventure,landscape,horizontal,epic,new zealand,tropical,mountains,lakes,orange tee,one person,extreme sports,no ropes,big landscape,small person,lifestyle,fitness,rock climbing,bouldering,action sports,adventure,landscape,horizontal,epic,new zealand,tropical,mountains,lakes,orange tee,one person,extreme sports,no ropes,big landscape,small person,lifestyle,fitness,rock climbing,bouldering,action sports,adventure,landscape,horizontal,epic,new zealand,tropical,mountains,lakes,orange tee,one person,extreme sports,no ropes,big landscape,small person,lifestyle,fitness,rock climbing,bouldering,action sports,adventure,landscape,horizontal,epic,new zealand,tropical,mountains,lakes,orange tee,one person,extreme sports,no ropes,big landscape,small person,lifestyle,fitness]"
             dc:subject_xmpArrayType="rdf:Bag"
             dc:title="Rock Climbing and Bouldering above the lake and mountains"
             exif:ApertureValue="4/1"
@@ -197,7 +197,7 @@
             exifEX:PhotographicSensitivity="{Long}640"
             exifEX:RecommendedExposureIndex="{Long}640"
             exifEX:SensitivityType="{Long}2"
-            jcr:lastModified="{Date}2019-10-24T15:53:45.379-07:00"
+            jcr:lastModified="{Date}2019-10-25T16:48:03.511-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
@@ -243,7 +243,8 @@
             xmpMM:DocumentID="xmp.did:f150a9be-f4fe-4146-a8df-6ec7cfae6147"
             xmpMM:InstanceID="xmp.iid:76ecb02d-ef0f-43e8-a7b2-6dd3920a9bf9"
             xmpMM:OriginalDocumentID="83EDB18542AB56E920407EF8487FA0B5"
-            xmpRights:UsageTerms="Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  "
+            xmpRights:UsageTerms="[Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  ]"
+            xmpRights:UsageTerms_xmpArrayType="rdf:Alt"
             lastTransferredForTagging="{Date}2019-10-24T15:53:17.719-07:00"
             simsearchVersion="1.0.0">
             <exif:Flash
@@ -254,6 +255,167 @@
                 exif:Return="{Long}0"
                 jcr:primaryType="nt:unstructured"
                 xmpNodeType="xmpStruct"/>
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="83EDB18542AB56E920407EF8487FA0B5"
+                stRef:originalDocumentID="83EDB18542AB56E920407EF8487FA0B5"
+                xmpNodeType="xmpStruct"/>
+            <predictedTags jcr:primaryType="nt:unstructured">
+                <mountain
+                    jcr:lastModified="{Date}2019-10-24T15:53:17.715-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7924668192863464"
+                    isCustom="{Boolean}false"
+                    name="mountain"/>
+                <landscape
+                    jcr:lastModified="{Date}2019-10-24T15:53:17.715-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.757290244102478"
+                    isCustom="{Boolean}false"
+                    name="landscape"/>
+                <water
+                    jcr:lastModified="{Date}2019-10-24T15:53:17.715-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7416633367538452"
+                    isCustom="{Boolean}false"
+                    name="water"/>
+                <nature
+                    jcr:lastModified="{Date}2019-10-24T15:53:17.716-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7408576607704163"
+                    isCustom="{Boolean}false"
+                    name="nature"/>
+                <blue
+                    jcr:lastModified="{Date}2019-10-24T15:53:17.716-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7352101802825928"
+                    isCustom="{Boolean}false"
+                    name="blue"/>
+                <lake
+                    jcr:lastModified="{Date}2019-10-24T15:53:17.716-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7277572751045227"
+                    isCustom="{Boolean}false"
+                    name="lake"/>
+                <sea
+                    jcr:lastModified="{Date}2019-10-24T15:53:17.716-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7226889729499817"
+                    isCustom="{Boolean}false"
+                    name="sea"/>
+                <coast
+                    jcr:lastModified="{Date}2019-10-24T15:53:17.716-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6973159313201904"
+                    isCustom="{Boolean}false"
+                    name="coast"/>
+                <mountains
+                    jcr:lastModified="{Date}2019-10-24T15:53:17.716-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6863020062446594"
+                    isCustom="{Boolean}false"
+                    name="mountains"/>
+                <sky
+                    jcr:lastModified="{Date}2019-10-24T15:53:17.717-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6803537011146545"
+                    isCustom="{Boolean}false"
+                    name="sky"/>
+                <travel
+                    jcr:lastModified="{Date}2019-10-24T15:53:17.717-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6782629489898682"
+                    isCustom="{Boolean}false"
+                    name="travel"/>
+                <rock
+                    jcr:lastModified="{Date}2019-10-24T15:53:17.717-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6624879240989685"
+                    isCustom="{Boolean}false"
+                    name="rock"/>
+                <summer
+                    jcr:lastModified="{Date}2019-10-24T15:53:17.717-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.642336905002594"
+                    isCustom="{Boolean}false"
+                    name="summer"/>
+                <green
+                    jcr:lastModified="{Date}2019-10-24T15:53:17.717-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6390171051025391"
+                    isCustom="{Boolean}false"
+                    name="green"/>
+                <hill
+                    jcr:lastModified="{Date}2019-10-24T15:53:17.717-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6186604499816895"
+                    isCustom="{Boolean}false"
+                    name="hill"/>
+                <beautiful
+                    jcr:lastModified="{Date}2019-10-24T15:53:17.718-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6171958446502686"
+                    isCustom="{Boolean}false"
+                    name="beautiful"/>
+                <island
+                    jcr:lastModified="{Date}2019-10-24T15:53:17.718-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6160755157470703"
+                    isCustom="{Boolean}false"
+                    name="island"/>
+                <bay
+                    jcr:lastModified="{Date}2019-10-24T15:53:17.718-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5985470414161682"
+                    isCustom="{Boolean}false"
+                    name="bay"/>
+                <beach
+                    jcr:lastModified="{Date}2019-10-24T15:53:17.718-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5976041555404663"
+                    isCustom="{Boolean}false"
+                    name="beach"/>
+                <coastline
+                    jcr:lastModified="{Date}2019-10-24T15:53:17.718-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.595418393611908"
+                    isCustom="{Boolean}false"
+                    name="coastline"/>
+                <view
+                    jcr:lastModified="{Date}2019-10-24T15:53:17.718-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5776767134666443"
+                    isCustom="{Boolean}false"
+                    name="view"/>
+                <hiking
+                    jcr:lastModified="{Date}2019-10-24T15:53:17.718-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5750616788864136"
+                    isCustom="{Boolean}false"
+                    name="hiking"/>
+                <clouds
+                    jcr:lastModified="{Date}2019-10-24T15:53:17.719-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.571403980255127"
+                    isCustom="{Boolean}false"
+                    name="clouds"/>
+                <day
+                    jcr:lastModified="{Date}2019-10-24T15:53:17.719-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.571010410785675"
+                    isCustom="{Boolean}false"
+                    name="day"/>
+                <italy
+                    jcr:lastModified="{Date}2019-10-24T15:53:17.719-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5701255798339844"
+                    isCustom="{Boolean}false"
+                    name="italy"/>
+            </predictedTags>
+            <imageFeatures
+                jcr:primaryType="nt:unstructured"
+                haystack0="{Binary}"/>
+            <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
             <crs:GradientBasedCorrections
                 jcr:primaryType="nt:unstructured"
                 xmpArraySize="{Long}2"
@@ -732,11 +894,6 @@
                     </crs:CorrectionMasks>
                 </_x0039_>
             </crs:PaintBasedCorrections>
-            <xmpMM:DerivedFrom
-                jcr:primaryType="nt:unstructured"
-                stRef:documentID="83EDB18542AB56E920407EF8487FA0B5"
-                stRef:originalDocumentID="83EDB18542AB56E920407EF8487FA0B5"
-                xmpNodeType="xmpStruct"/>
             <xmpMM:History
                 jcr:primaryType="nt:unstructured"
                 xmpArraySize="{Long}3"
@@ -764,163 +921,16 @@
                     stEvt:when="{Date}2019-10-24T15:28:16.000-07:00"
                     xmpNodeType="xmpStruct"/>
             </xmpMM:History>
-            <predictedTags jcr:primaryType="nt:unstructured">
-                <mountain
-                    jcr:lastModified="{Date}2019-10-24T15:53:17.715-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7924668192863464"
-                    isCustom="{Boolean}false"
-                    name="mountain"/>
-                <landscape
-                    jcr:lastModified="{Date}2019-10-24T15:53:17.715-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.757290244102478"
-                    isCustom="{Boolean}false"
-                    name="landscape"/>
-                <water
-                    jcr:lastModified="{Date}2019-10-24T15:53:17.715-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7416633367538452"
-                    isCustom="{Boolean}false"
-                    name="water"/>
-                <nature
-                    jcr:lastModified="{Date}2019-10-24T15:53:17.716-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7408576607704163"
-                    isCustom="{Boolean}false"
-                    name="nature"/>
-                <blue
-                    jcr:lastModified="{Date}2019-10-24T15:53:17.716-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7352101802825928"
-                    isCustom="{Boolean}false"
-                    name="blue"/>
-                <lake
-                    jcr:lastModified="{Date}2019-10-24T15:53:17.716-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7277572751045227"
-                    isCustom="{Boolean}false"
-                    name="lake"/>
-                <sea
-                    jcr:lastModified="{Date}2019-10-24T15:53:17.716-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7226889729499817"
-                    isCustom="{Boolean}false"
-                    name="sea"/>
-                <coast
-                    jcr:lastModified="{Date}2019-10-24T15:53:17.716-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6973159313201904"
-                    isCustom="{Boolean}false"
-                    name="coast"/>
-                <mountains
-                    jcr:lastModified="{Date}2019-10-24T15:53:17.716-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6863020062446594"
-                    isCustom="{Boolean}false"
-                    name="mountains"/>
-                <sky
-                    jcr:lastModified="{Date}2019-10-24T15:53:17.717-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6803537011146545"
-                    isCustom="{Boolean}false"
-                    name="sky"/>
-                <travel
-                    jcr:lastModified="{Date}2019-10-24T15:53:17.717-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6782629489898682"
-                    isCustom="{Boolean}false"
-                    name="travel"/>
-                <rock
-                    jcr:lastModified="{Date}2019-10-24T15:53:17.717-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6624879240989685"
-                    isCustom="{Boolean}false"
-                    name="rock"/>
-                <summer
-                    jcr:lastModified="{Date}2019-10-24T15:53:17.717-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.642336905002594"
-                    isCustom="{Boolean}false"
-                    name="summer"/>
-                <green
-                    jcr:lastModified="{Date}2019-10-24T15:53:17.717-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6390171051025391"
-                    isCustom="{Boolean}false"
-                    name="green"/>
-                <hill
-                    jcr:lastModified="{Date}2019-10-24T15:53:17.717-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6186604499816895"
-                    isCustom="{Boolean}false"
-                    name="hill"/>
-                <beautiful
-                    jcr:lastModified="{Date}2019-10-24T15:53:17.718-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6171958446502686"
-                    isCustom="{Boolean}false"
-                    name="beautiful"/>
-                <island
-                    jcr:lastModified="{Date}2019-10-24T15:53:17.718-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6160755157470703"
-                    isCustom="{Boolean}false"
-                    name="island"/>
-                <bay
-                    jcr:lastModified="{Date}2019-10-24T15:53:17.718-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5985470414161682"
-                    isCustom="{Boolean}false"
-                    name="bay"/>
-                <beach
-                    jcr:lastModified="{Date}2019-10-24T15:53:17.718-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5976041555404663"
-                    isCustom="{Boolean}false"
-                    name="beach"/>
-                <coastline
-                    jcr:lastModified="{Date}2019-10-24T15:53:17.718-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.595418393611908"
-                    isCustom="{Boolean}false"
-                    name="coastline"/>
-                <view
-                    jcr:lastModified="{Date}2019-10-24T15:53:17.718-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5776767134666443"
-                    isCustom="{Boolean}false"
-                    name="view"/>
-                <hiking
-                    jcr:lastModified="{Date}2019-10-24T15:53:17.718-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5750616788864136"
-                    isCustom="{Boolean}false"
-                    name="hiking"/>
-                <clouds
-                    jcr:lastModified="{Date}2019-10-24T15:53:17.719-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.571403980255127"
-                    isCustom="{Boolean}false"
-                    name="clouds"/>
-                <day
-                    jcr:lastModified="{Date}2019-10-24T15:53:17.719-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.571010410785675"
-                    isCustom="{Boolean}false"
-                    name="day"/>
-                <italy
-                    jcr:lastModified="{Date}2019-10-24T15:53:17.719-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5701255798339844"
-                    isCustom="{Boolean}false"
-                    name="italy"/>
-            </predictedTags>
-            <imageFeatures
-                jcr:primaryType="nt:unstructured"
-                haystack0="{Binary}"/>
-            <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2019-10-27T16:11:54.625-07:00"/>
+        </usages>
     </jcr:content>
 </jcr:root>

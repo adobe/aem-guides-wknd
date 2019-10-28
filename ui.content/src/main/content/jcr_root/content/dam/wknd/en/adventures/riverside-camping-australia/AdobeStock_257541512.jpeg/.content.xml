@@ -8,14 +8,14 @@
         cq:name="AdobeStock_257541512.jpeg"
         cq:parentPath="/content/dam/wknd/en/adventures/riverside-camping-australia"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-24T15:44:46.474-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:48:12.604-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20150218"
-            dam:DigitalCreationTime="153344+0000"
-            dam:extracted="{Date}2019-10-24T15:40:53.162-07:00"
+            dam:DigitalCreationTime="153344-0800"
+            dam:extracted="{Date}2019-10-25T16:48:08.658-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -25,18 +25,18 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}19.15277862548828"
             dam:Progressive="no"
-            dam:sha1="fb7eed3fada52b76e9dcad3d3f1572bd950c50ec"
-            dam:size="{Long}267464"
-            dam:TimeCreated="153344+0000"
-            dc:creator="[Kamil Sustiak]"
+            dam:sha1="99e5aeee57a0633655d00c0077c2253f9e21b2a8"
+            dam:size="{Long}270213"
+            dam:TimeCreated="153344-0800"
+            dc:creator="[Kamil Sustiak,Kamil Sustiak,Kamil Sustiak]"
             dc:creator_xmpArrayType="rdf:Seq"
-            dc:date="{Long}[20150218]"
-            dc:date_xmpArrayType="rdf:Bag"
+            dc:date="{Long}[20150218,20150218,20150218]"
+            dc:date_xmpArrayType="rdf:Seq"
             dc:description="Sky at moody dawn visible from inside of tent pitched on top of Frenchman's Cap in Franklin-Gordon Wild Rivers National Park, Tasmania, Australia"
             dc:format="image/jpeg"
             dc:modified="{Date}2019-10-24T15:44:46.382-07:00"
             dc:rights="Aurora Photos, USA"
-            dc:subject="[Australia,Beauty In Nature,Camping,Cloud,dawn,Focus On Background,Franklin-Gordon Wild Rivers National Park,Frenchman's Cap,Horizontal,indoors,majestic,Moody Sky,mountain,Nature,Non Urban Scene,no people,Tasmania,Tent,tranquility,Australia,Beauty In Nature,Camping,Cloud,dawn,Focus On Background,Franklin-Gordon Wild Rivers National Park,Frenchman's Cap,Horizontal,indoors,majestic,Moody Sky,mountain,Nature,Non Urban Scene,no people,Tasmania,Tent,tranquility,Australia,Beauty In Nature,Camping,Cloud,dawn,Focus On Background,Franklin-Gordon Wild Rivers National Park,Frenchman's Cap,Horizontal,indoors,majestic,Moody Sky,mountain,Nature,Non Urban Scene,no people,Tasmania,Tent,tranquility]"
+            dc:subject="[Australia,Beauty In Nature,Camping,Cloud,dawn,Focus On Background,Franklin-Gordon Wild Rivers National Park,Frenchman's Cap,Horizontal,indoors,majestic,Moody Sky,mountain,Nature,Non Urban Scene,no people,Tasmania,Tent,tranquility,Australia,Beauty In Nature,Camping,Cloud,dawn,Focus On Background,Franklin-Gordon Wild Rivers National Park,Frenchman's Cap,Horizontal,indoors,majestic,Moody Sky,mountain,Nature,Non Urban Scene,no people,Tasmania,Tent,tranquility,Australia,Beauty In Nature,Camping,Cloud,dawn,Focus On Background,Franklin-Gordon Wild Rivers National Park,Frenchman's Cap,Horizontal,indoors,majestic,Moody Sky,mountain,Nature,Non Urban Scene,no people,Tasmania,Tent,tranquility,Australia,Beauty In Nature,Camping,Cloud,dawn,Focus On Background,Franklin-Gordon Wild Rivers National Park,Frenchman's Cap,Horizontal,indoors,majestic,Moody Sky,mountain,Nature,Non Urban Scene,no people,Tasmania,Tent,tranquility,Australia,Beauty In Nature,Camping,Cloud,dawn,Focus On Background,Franklin-Gordon Wild Rivers National Park,Frenchman's Cap,Horizontal,indoors,majestic,Moody Sky,mountain,Nature,Non Urban Scene,no people,Tasmania,Tent,tranquility,Australia,Beauty In Nature,Camping,Cloud,dawn,Focus On Background,Franklin-Gordon Wild Rivers National Park,Frenchman's Cap,Horizontal,indoors,majestic,Moody Sky,mountain,Nature,Non Urban Scene,no people,Tasmania,Tent,tranquility,Australia,Beauty In Nature,Camping,Cloud,dawn,Focus On Background,Franklin-Gordon Wild Rivers National Park,Frenchman's Cap,Horizontal,indoors,majestic,Moody Sky,mountain,Nature,Non Urban Scene,no people,Tasmania,Tent,tranquility]"
             dc:subject_xmpArrayType="rdf:Bag"
             dc:title="Skay at dawn"
             exif:ColorSpace="{Long}65535"
@@ -47,11 +47,11 @@
             exif:FlashpixVersion="0100"
             exif:PixelXDimension="{Long}1379"
             exif:PixelYDimension="{Long}776"
-            jcr:lastModified="{Date}2019-10-24T15:44:46.382-07:00"
+            jcr:lastModified="{Date}2019-10-25T16:47:58.236-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
-            jcr:title="SUKA000023"
+            jcr:title="Skay at dawn"
             photoshop:CaptionWriter="Aurora Photos"
             photoshop:City="Frenchmans Cap"
             photoshop:ColorMode="{Long}3"
@@ -87,23 +87,10 @@
             xmpMM:InstanceID="xmp.iid:f1e81064-b6bb-4961-817e-4026974504f1"
             xmpMM:OriginalDocumentID="CF8B55C67151EE9FB0E224C3E2DF9F57"
             xmpRights:Marked="{Boolean}true"
-            xmpRights:UsageTerms="Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  If you want to use"
+            xmpRights:UsageTerms="[Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  If you want to use]"
+            xmpRights:UsageTerms_xmpArrayType="rdf:Alt"
             lastTransferredForTagging="{Date}2019-10-24T15:40:55.670-07:00"
             simsearchVersion="1.0.0">
-            <xmpMM:History
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}1"
-                xmpArrayType="rdf:Seq"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:f1e81064-b6bb-4961-817e-4026974504f1"
-                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
-                    stEvt:when="{Date}2019-10-24T15:36:54.000-07:00"
-                    xmpNodeType="xmpStruct"/>
-            </xmpMM:History>
             <Iptc4xmpCore:CreatorContactInfo
                 Iptc4xmpCore:CiUrlWork="www.auroraphotos.com"
                 jcr:primaryType="nt:unstructured"
@@ -263,7 +250,30 @@
             <imageFeatures
                 jcr:primaryType="nt:unstructured"
                 haystack0="{Binary}"/>
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}1"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:f1e81064-b6bb-4961-817e-4026974504f1"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
+                    stEvt:when="{Date}2019-10-24T15:36:54.000-07:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2019-10-25T17:51:20.201-07:00"/>
+        </usages>
     </jcr:content>
 </jcr:root>

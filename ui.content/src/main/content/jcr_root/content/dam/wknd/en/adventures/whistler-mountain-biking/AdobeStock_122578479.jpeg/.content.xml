@@ -8,7 +8,7 @@
         cq:name="AdobeStock_122578479.jpeg"
         cq:parentPath="/content/dam/wknd/en/adventures/whistler-mountain-biking"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-24T15:53:01.920-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:48:43.390-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -105,7 +105,7 @@
             crs:VignetteAmount="{Long}0"
             dam:Bitsperpixel="{Long}24"
             dam:EditStatus="MR"
-            dam:extracted="{Date}2019-10-24T15:51:47.201-07:00"
+            dam:extracted="{Date}2019-10-25T16:48:35.074-07:00"
             dam:Fileformat="JPEG"
             dam:FixtureIdentifier="Horizontal"
             dam:MIMEtype="image/jpeg"
@@ -116,20 +116,21 @@
             dam:Physicalwidthindpi="{Long}60"
             dam:Physicalwidthininches="{Decimal}28.233333587646484"
             dam:Progressive="no"
-            dam:sha1="43627b0f0d1d843c684f54a68100d40dc1c80f28"
-            dam:size="{Long}1306747"
+            dam:sha1="86be67a8b4634155d55b613f11072b36aa048547"
+            dam:size="{Long}1307165"
             dam:SpecialInstructions="PRNR"
-            dam:Sublocation="Kootenay Lake, British Columbia, Canada"
+            dam:Sublocation="Kootenay Lake, British Columbia,"
+            dam:TimeCreated="000000-0700"
             dam:Unknown="ACN-SI-001"
-            dc:creator="[Steve Ogle]"
+            dc:creator="[Steve Ogle,Steve Ogle,Steve Ogle]"
             dc:creator_xmpArrayType="rdf:Seq"
-            dc:date="{Long}[20110910]"
-            dc:date_xmpArrayType="rdf:Bag"
+            dc:date="{Long}[20110910,20110910,20110910]"
+            dc:date_xmpArrayType="rdf:Seq"
             dc:description="A mountain biker rides high above Kootenay Lake in the Purcell Mountains of British Columbia"
             dc:format="image/jpeg"
             dc:modified="{Date}2019-10-24T15:53:01.648-07:00"
             dc:rights="©All Canada Photos - stock.adobe.com"
-            dc:subject="[Columbia Mountains,Kootenays,Purcell Mountains,Purcells,fire lookout,Steve Ogle,colour image,color image,photography,People,outdoor,outdoors,Canada,British Columbia,Kootenay Lake,One Person,1 person,daytime,Day,leisure,recreational,recreation,activities,activity,biker,cycling,healthy  lifestyles,active,biking,bikes,bike,bicycles,bicycle,mountain bikes,mountain biker,mountain bikers,trees,tree,backpacks,backpack,Model released,30-35 years,Mid-adult man,30-34 Years,Mid Adult Men,high angle view,landscapes,landscape,tbckr,Horizontal,blue skies,blue sky,water,fresh water,lakes,lake,Columbia Mountains,Kootenays,Purcell Mountains,Purcells,fire lookout,Steve Ogle,colour image,color image,photography,People,outdoor,outdoors,Canada,British Columbia,Kootenay Lake,One Person,1 person,daytime,Day,leisure,recreational,recreation,activities,activity,biker,cycling,healthy  lifestyles,active,biking,bikes,bike,bicycles,bicycle,mountain bikes,mountain biker,mountain bikers,trees,tree,backpacks,backpack,Model released,30-35 years,Mid-adult man,30-34 Years,Mid Adult Men,high angle view,landscapes,landscape,tbckr,Horizontal,blue skies,blue sky,water,fresh water,lakes,lake,Columbia Mountains,Kootenays,Purcell Mountains,Purcells,fire lookout,Steve Ogle,colour image,color image,photography,People,outdoor,outdoors,Canada,British Columbia,Kootenay Lake,One Person,1 person,daytime,Day,leisure,recreational,recreation,activities,activity,biker,cycling,healthy  lifestyles,active,biking,bikes,bike,bicycles,bicycle,mountain bikes,mountain biker,mountain bikers,trees,tree,backpacks,backpack,Model released,30-35 years,Mid-adult man,30-34 Years,Mid Adult Men,high angle view,landscapes,landscape,tbckr,Horizontal,blue skies,blue sky,water,fresh water,lakes,lake,columbia mountains,kootenays,purcell mountains,purcells,steve ogle,people,canada,british columbia,kootenay lake,one person,day,model released,mid-adult man,30-34 years,mid adult men,horizontal]"
+            dc:subject="[Columbia Mountains,Kootenays,Purcell Mountains,Purcells,fire lookout,Steve Ogle,colour image,color image,photography,People,outdoor,outdoors,Canada,British Columbia,Kootenay Lake,One Person,1 person,daytime,Day,leisure,recreational,recreation,activities,activity,biker,cycling,healthy  lifestyles,active,biking,bikes,bike,bicycles,bicycle,mountain bikes,mountain biker,mountain bikers,trees,tree,backpacks,backpack,Model released,30-35 years,Mid-adult man,30-34 Years,Mid Adult Men,high angle view,landscapes,landscape,tbckr,Horizontal,blue skies,blue sky,water,fresh water,lakes,lake,Columbia Mountains,Kootenays,Purcell Mountains,Purcells,fire lookout,Steve Ogle,colour image,color image,photography,People,outdoor,outdoors,Canada,British Columbia,Kootenay Lake,One Person,1 person,daytime,Day,leisure,recreational,recreation,activities,activity,biker,cycling,healthy  lifestyles,active,biking,bikes,bike,bicycles,bicycle,mountain bikes,mountain biker,mountain bikers,trees,tree,backpacks,backpack,Model released,30-35 years,Mid-adult man,30-34 Years,Mid Adult Men,high angle view,landscapes,landscape,tbckr,Horizontal,blue skies,blue sky,water,fresh water,lakes,lake,Columbia Mountains,Kootenays,Purcell Mountains,Purcells,fire lookout,Steve Ogle,colour image,color image,photography,People,outdoor,outdoors,Canada,British Columbia,Kootenay Lake,One Person,1 person,daytime,Day,leisure,recreational,recreation,activities,activity,biker,cycling,healthy  lifestyles,active,biking,bikes,bike,bicycles,bicycle,mountain bikes,mountain biker,mountain bikers,trees,tree,backpacks,backpack,Model released,30-35 years,Mid-adult man,30-34 Years,Mid Adult Men,high angle view,landscapes,landscape,tbckr,Horizontal,blue skies,blue sky,water,fresh water,lakes,lake,columbia mountains,kootenays,purcell mountains,purcells,steve ogle,people,canada,british columbia,kootenay lake,one person,day,model released,mid-adult man,30-34 years,mid adult men,horizontal,Columbia Mountains,Kootenays,Purcell Mountains,Purcells,fire lookout,Steve Ogle,colour image,color image,photography,People,outdoor,outdoors,Canada,British Columbia,Kootenay Lake,One Person,1 person,daytime,Day,leisure,recreational,recreation,activities,activity,biker,cycling,healthy  lifestyles,active,biking,bikes,bike,bicycles,bicycle,mountain bikes,mountain biker,mountain bikers,trees,tree,backpacks,backpack,Model released,30-35 years,Mid-adult man,30-34 Years,Mid Adult Men,high angle view,landscapes,landscape,tbckr,Horizontal,blue skies,blue sky,water,fresh water,lakes,lake,Columbia Mountains,Kootenays,Purcell Mountains,Purcells,fire lookout,Steve Ogle,colour image,color image,photography,People,outdoor,outdoors,Canada,British Columbia,Kootenay Lake,One Person,1 person,daytime,Day,leisure,recreational,recreation,activities,activity,biker,cycling,healthy  lifestyles,active,biking,bikes,bike,bicycles,bicycle,mountain bikes,mountain biker,mountain bikers,trees,tree,backpacks,backpack,Model released,30-35 years,Mid-adult man,30-34 Years,Mid Adult Men,high angle view,landscapes,landscape,tbckr,Horizontal,blue skies,blue sky,water,fresh water,lakes,lake,Columbia Mountains,Kootenays,Purcell Mountains,Purcells,fire lookout,Steve Ogle,colour image,color image,photography,People,outdoor,outdoors,Canada,British Columbia,Kootenay Lake,One Person,1 person,daytime,Day,leisure,recreational,recreation,activities,activity,biker,cycling,healthy  lifestyles,active,biking,bikes,bike,bicycles,bicycle,mountain bikes,mountain biker,mountain bikers,trees,tree,backpacks,backpack,Model released,30-35 years,Mid-adult man,30-34 Years,Mid Adult Men,high angle view,landscapes,landscape,tbckr,Horizontal,blue skies,blue sky,water,fresh water,lakes,lake,columbia mountains,kootenays,purcell mountains,purcells,steve ogle,people,canada,british columbia,kootenay lake,one person,day,model released,mid-adult man,30-34 years,mid adult men,horizontal,Columbia Mountains,Kootenays,Purcell Mountains,Purcells,fire lookout,Steve Ogle,colour image,color image,photography,People,outdoor,outdoors,Canada,British Columbia,Kootenay Lake,One Person,1 person,daytime,Day,leisure,recreational,recreation,activities,activity,biker,cycling,healthy  lifestyles,active,biking,bikes,bike,bicycles,bicycle,mountain bikes,mountain biker,mountain bikers,trees,tree,backpacks,backpack,Model released,30-35 years,Mid-adult man,30-34 Years,Mid Adult Men,high angle view,landscapes,landscape,tbckr,Horizontal,blue skies,blue sky,water,fresh water,lakes,lake,columbia mountains,kootenays,purcell mountains,purcells,steve ogle,people,canada,british columbia,kootenay lake,one person,day,model released,mid-adult man,30-34 years,mid adult men,horizontal]"
             dc:subject_xmpArrayType="rdf:Bag"
             dc:title="Digital"
             exif:ApertureValue="6/1"
@@ -177,21 +178,21 @@
             exifEX:SensitivityType="{Long}2"
             Iptc4xmpCore:IntellectualGenre="ACN-SI-001"
             Iptc4xmpCore:Location="Kootenay Lake, British Columbia, Canada"
-            jcr:lastModified="{Date}2019-10-24T15:53:01.648-07:00"
+            jcr:lastModified="{Date}2019-10-25T16:48:20.251-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
-            jcr:title="A mountain biker rides high above Kootenay Lake in the Purcell Mountains of British Columbia"
+            jcr:title="Digital"
             mediapro:Status="MR"
             mediapro:UserFields="[Orientation=horizontal]"
             mediapro:UserFields_xmpArrayType="rdf:Bag"
             MicrosoftPhoto:Rating="{Long}0"
             photoshop:CaptionWriter="RM"
-            photoshop:Category="Color"
+            photoshop:Category="Col"
             photoshop:City="C1"
             photoshop:ColorMode="{Long}3"
             photoshop:Country="Canada"
-            photoshop:Credit="All Canada Photos - stock.adobe.com"
+            photoshop:Credit="All Canada Photos - stock.adobe."
             photoshop:DateCreated="{Date}2011-09-10T00:00:00.000-07:00"
             photoshop:Headline="Unknown"
             photoshop:ICCProfile="Adobe RGB (1998)"
@@ -242,40 +243,6 @@
                 Iptc4xmpCore:CiUrlWork="www.steveogle.ca"
                 jcr:primaryType="nt:unstructured"
                 xmpNodeType="xmpStruct"/>
-            <xmpMM:History
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}2"
-                xmpArrayType="rdf:Seq"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="derived"
-                    stEvt:parameters="converted from image/dng to image/jpeg, saved to new location"
-                    xmpNodeType="xmpStruct"/>
-                <_x0032_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:ab34e01a-4176-498e-9003-910f3774f2f1"
-                    stEvt:softwareAgent="Adobe Photoshop Lightroom 4.4 (Macintosh)"
-                    stEvt:when="{Date}2014-07-22T10:41:42.000-07:00"
-                    xmpNodeType="xmpStruct"/>
-            </xmpMM:History>
-            <Iptc4xmpExt:Event
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}1"
-                xmpArrayType="rdf:Alt"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    jcr:primaryType="nt:unstructured"
-                    _x0031_="Horizontal"
-                    xmpNodeType="xmpSimple">
-                    <__Q
-                        jcr:primaryType="nt:unstructured"
-                        xml:lang="x-default"
-                        xmpNodeType="xmpQualifier"/>
-                </_x0031_>
-            </Iptc4xmpExt:Event>
             <predictedTags jcr:primaryType="nt:unstructured">
                 <mountain
                     jcr:lastModified="{Date}2019-10-24T15:51:50.833-07:00"
@@ -431,6 +398,40 @@
             <imageFeatures
                 jcr:primaryType="nt:unstructured"
                 haystack0="{Binary}"/>
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}2"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="converted from image/dng to image/jpeg, saved to new location"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:ab34e01a-4176-498e-9003-910f3774f2f1"
+                    stEvt:softwareAgent="Adobe Photoshop Lightroom 4.4 (Macintosh)"
+                    stEvt:when="{Date}2014-07-22T10:41:42.000-07:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
+            <Iptc4xmpExt:Event
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}1"
+                xmpArrayType="rdf:Alt"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    _x0031_="Horizontal"
+                    xmpNodeType="xmpSimple">
+                    <__Q
+                        jcr:primaryType="nt:unstructured"
+                        xml:lang="x-default"
+                        xmpNodeType="xmpQualifier"/>
+                </_x0031_>
+            </Iptc4xmpExt:Event>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

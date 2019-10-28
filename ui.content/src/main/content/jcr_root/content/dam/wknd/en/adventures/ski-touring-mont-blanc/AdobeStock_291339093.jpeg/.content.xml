@@ -8,7 +8,7 @@
         cq:name="AdobeStock_291339093.jpeg"
         cq:parentPath="/content/dam/wknd/en/adventures/ski-touring-mont-blanc"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-24T15:50:10.084-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:47:53.579-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -140,7 +140,8 @@
             crs:Whites2012="{Long}0"
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20190904"
-            dam:extracted="{Date}2019-10-24T15:49:50.162-07:00"
+            dam:DigitalCreationTime="100232-0700"
+            dam:extracted="{Date}2019-10-25T16:47:40.948-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -150,17 +151,17 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}10.0"
             dam:Progressive="no"
-            dam:sha1="defcce3b5748e69f892f924f3a208b50740a29dc"
-            dam:size="{Long}103083"
-            dam:TimeCreated="100232+0000"
-            dc:creator="[bgs Phtography]"
+            dam:sha1="55f7acb757d1ea7ac230d94fb1651fae41d82a4e"
+            dam:size="{Long}105135"
+            dam:TimeCreated="100232-0700"
+            dc:creator="[bgs Phtography,bgs Phtography,bgs Phtography]"
             dc:creator_xmpArrayType="rdf:Seq"
-            dc:date="{Long}[20190904]"
-            dc:date_xmpArrayType="rdf:Bag"
+            dc:date="{Long}[20190904,20190904,20190904]"
+            dc:date_xmpArrayType="rdf:Seq"
             dc:format="image/jpeg"
             dc:modified="{Date}2019-10-24T15:50:09.975-07:00"
             dc:rights="©bgspix - stock.adobe.com"
-            dc:subject="[alpinisme,alpiniste,mont-blanc,ascension,4810m,goûter,arrête des bosses,chamonix,glacier,sport,aventure,alpinisme,alpiniste,mont-blanc,ascension,4810m,goûter,arrête des bosses,chamonix,glacier,sport,aventure,alpinisme,alpiniste,mont-blanc,ascension,4810m,goûter,arrête des bosses,chamonix,glacier,sport,aventure]"
+            dc:subject="[alpinisme,alpiniste,mont-blanc,ascension,4810m,goûter,arrête des bosses,chamonix,glacier,sport,aventure,alpinisme,alpiniste,mont-blanc,ascension,4810m,goûter,arrête des bosses,chamonix,glacier,sport,aventure,alpinisme,alpiniste,mont-blanc,ascension,4810m,goûter,arrête des bosses,chamonix,glacier,sport,aventure,alpinisme,alpiniste,mont-blanc,ascension,4810m,goûter,arrête des bosses,chamonix,glacier,sport,aventure,alpinisme,alpiniste,mont-blanc,ascension,4810m,goûter,arrête des bosses,chamonix,glacier,sport,aventure,alpinisme,alpiniste,mont-blanc,ascension,4810m,goûter,arrête des bosses,chamonix,glacier,sport,aventure,alpinisme,alpiniste,mont-blanc,ascension,4810m,goûter,arrête des bosses,chamonix,glacier,sport,aventure]"
             dc:subject_xmpArrayType="rdf:Bag"
             dc:title="Alpiniste sur l'ascension du Mont-Blanc (4810m) au niveau du dôme du Goûter"
             exif:ApertureValue="23673/3734"
@@ -199,7 +200,7 @@
             exifEX:PhotographicSensitivity="{Long}100"
             exifEX:RecommendedExposureIndex="{Long}100"
             exifEX:SensitivityType="{Long}2"
-            jcr:lastModified="{Date}2019-10-24T15:50:09.975-07:00"
+            jcr:lastModified="{Date}2019-10-25T16:47:51.285-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
@@ -246,7 +247,8 @@
             xmpMM:DocumentID="adobe:docid:photoshop:20e8207c-174e-ce40-a498-bd8c50cfc68a"
             xmpMM:InstanceID="xmp.iid:e7fd7c6d-25dc-485b-b284-1f7f0c9efb16"
             xmpMM:OriginalDocumentID="D0D7692833B929513BA26B7C28932F19"
-            xmpRights:UsageTerms="Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  "
+            xmpRights:UsageTerms="[Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  ]"
+            xmpRights:UsageTerms_xmpArrayType="rdf:Alt"
             lastTransferredForTagging="{Date}2019-10-24T15:49:52.050-07:00"
             simsearchVersion="1.0.0">
             <exif:Flash
@@ -257,205 +259,12 @@
                 exif:Return="{Long}0"
                 jcr:primaryType="nt:unstructured"
                 xmpNodeType="xmpStruct"/>
-            <crs:RetouchAreas
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}5"
-                xmpArrayType="rdf:Seq"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    crs:Feather="{Decimal}1.000000"
-                    crs:Method="gaussian"
-                    crs:OffsetY="{Decimal}0.117888"
-                    crs:Opacity="{Decimal}1.000000"
-                    crs:Seed="{Long}2"
-                    crs:SourceState="sourceAutoComputed"
-                    crs:SourceX="{Decimal}0.324066"
-                    crs:SpotType="heal"
-                    jcr:primaryType="nt:unstructured"
-                    xmpNodeType="xmpStruct">
-                    <crs:Masks
-                        jcr:primaryType="nt:unstructured"
-                        xmpArraySize="{Long}1"
-                        xmpArrayType="rdf:Seq"
-                        xmpNodeType="xmpArray">
-                        <_x0031_
-                            crs:CenterWeight="{Decimal}0.500000"
-                            crs:Dabs="[d 0.320197 0.045790,d 0.318416 0.042231,d 0.316870 0.038434,d 0.314883 0.035129,d 0.313399 0.031276,d 0.311630 0.027704,d 0.310078 0.023912,d 0.308148 0.020531,d 0.306602 0.016734,d 0.304965 0.013022,d 0.303542 0.009119,d 0.302574 0.004913,d 0.301632 0.000693,d 0.299680 -0.002658]"
-                            crs:Dabs_xmpArrayType="rdf:Seq"
-                            crs:Flow="{Decimal}1.000000"
-                            crs:MaskValue="{Decimal}1.000000"
-                            crs:Radius="{Decimal}0.014838"
-                            crs:What="Mask/Paint"
-                            jcr:primaryType="nt:unstructured"
-                            xmpNodeType="xmpStruct"/>
-                    </crs:Masks>
-                </_x0031_>
-                <_x0032_
-                    crs:Feather="{Decimal}1.000000"
-                    crs:Method="gaussian"
-                    crs:OffsetY="{Decimal}0.216131"
-                    crs:Opacity="{Decimal}1.000000"
-                    crs:Seed="{Long}2"
-                    crs:SourceState="sourceAutoComputed"
-                    crs:SourceX="{Decimal}0.350257"
-                    crs:SpotType="heal"
-                    jcr:primaryType="nt:unstructured"
-                    xmpNodeType="xmpStruct">
-                    <crs:Masks
-                        jcr:primaryType="nt:unstructured"
-                        xmpArraySize="{Long}1"
-                        xmpArrayType="rdf:Seq"
-                        xmpNodeType="xmpArray">
-                        <_x0031_
-                            crs:Alpha="{Decimal}0.000000"
-                            crs:CenterValue="{Decimal}1.000000"
-                            crs:MaskValue="{Decimal}1.000000"
-                            crs:PerimeterValue="{Decimal}0.000000"
-                            crs:SizeX="{Decimal}0.014838"
-                            crs:SizeY="{Decimal}0.014838"
-                            crs:What="Mask/Ellipse"
-                            crs:X="{Decimal}0.377340"
-                            crs:Y="{Decimal}0.192024"
-                            jcr:primaryType="nt:unstructured"
-                            xmpNodeType="xmpStruct"/>
-                    </crs:Masks>
-                </_x0032_>
-                <_x0033_
-                    crs:Feather="{Decimal}1.000000"
-                    crs:Method="gaussian"
-                    crs:OffsetY="{Decimal}0.064842"
-                    crs:Opacity="{Decimal}1.000000"
-                    crs:Seed="{Long}2"
-                    crs:SourceState="sourceSetExplicitly"
-                    crs:SourceX="{Decimal}0.274850"
-                    crs:SpotType="heal"
-                    jcr:primaryType="nt:unstructured"
-                    xmpNodeType="xmpStruct">
-                    <crs:Masks
-                        jcr:primaryType="nt:unstructured"
-                        xmpArraySize="{Long}1"
-                        xmpArrayType="rdf:Seq"
-                        xmpNodeType="xmpArray">
-                        <_x0031_
-                            crs:CenterWeight="{Decimal}0.500000"
-                            crs:Dabs="[d 0.326108 0.039882,d 0.324328 0.036322,d 0.322356 0.032998,d 0.319962 0.030367,d 0.318279 0.026703,d 0.316189 0.023544,d 0.313714 0.021090,d 0.311951 0.017510,d 0.309526 0.014947,d 0.308485 0.010781,d 0.306477 0.007504,d 0.304381 0.004355,d 0.302746 0.000642,d 0.301101 -0.003062,d 0.299123 -0.006378,d 0.297596 -0.010193]"
-                            crs:Dabs_xmpArrayType="rdf:Seq"
-                            crs:Flow="{Decimal}1.000000"
-                            crs:MaskValue="{Decimal}1.000000"
-                            crs:Radius="{Decimal}0.014838"
-                            crs:What="Mask/Paint"
-                            jcr:primaryType="nt:unstructured"
-                            xmpNodeType="xmpStruct"/>
-                    </crs:Masks>
-                </_x0033_>
-                <_x0034_
-                    crs:Feather="{Decimal}1.000000"
-                    crs:Method="gaussian"
-                    crs:OffsetY="{Decimal}0.098843"
-                    crs:Opacity="{Decimal}1.000000"
-                    crs:Seed="{Long}2"
-                    crs:SourceState="sourceAutoComputed"
-                    crs:SourceX="{Decimal}0.391733"
-                    crs:SpotType="heal"
-                    jcr:primaryType="nt:unstructured"
-                    xmpNodeType="xmpStruct">
-                    <crs:Masks
-                        jcr:primaryType="nt:unstructured"
-                        xmpArraySize="{Long}1"
-                        xmpArrayType="rdf:Seq"
-                        xmpNodeType="xmpArray">
-                        <_x0031_
-                            crs:Alpha="{Decimal}0.000000"
-                            crs:CenterValue="{Decimal}1.000000"
-                            crs:MaskValue="{Decimal}1.000000"
-                            crs:PerimeterValue="{Decimal}0.000000"
-                            crs:SizeX="{Decimal}0.014838"
-                            crs:SizeY="{Decimal}0.014838"
-                            crs:What="Mask/Ellipse"
-                            crs:X="{Decimal}0.383251"
-                            crs:Y="{Decimal}0.035451"
-                            jcr:primaryType="nt:unstructured"
-                            xmpNodeType="xmpStruct"/>
-                    </crs:Masks>
-                </_x0034_>
-                <_x0035_
-                    crs:Feather="{Decimal}1.000000"
-                    crs:Method="gaussian"
-                    crs:OffsetY="{Decimal}0.130684"
-                    crs:Opacity="{Decimal}1.000000"
-                    crs:Seed="{Long}2"
-                    crs:SourceState="sourceAutoComputed"
-                    crs:SourceX="{Decimal}0.328079"
-                    crs:SpotType="heal"
-                    jcr:primaryType="nt:unstructured"
-                    xmpNodeType="xmpStruct">
-                    <crs:Masks
-                        jcr:primaryType="nt:unstructured"
-                        xmpArraySize="{Long}1"
-                        xmpArrayType="rdf:Seq"
-                        xmpNodeType="xmpArray">
-                        <_x0031_
-                            crs:CenterWeight="{Decimal}0.500000"
-                            crs:Dabs="[d 0.328079 0.056130,d 0.326977 0.051999,d 0.325539 0.048107,d 0.323811 0.044490,d 0.322082 0.040873,d 0.320354 0.037256,d 0.319003 0.033295,d 0.316850 0.030233,d 0.314696 0.027172,d 0.312593 0.024033,d 0.310489 0.020895,d 0.308662 0.017389,d 0.306835 0.013883,d 0.305008 0.010378,d 0.303405 0.006633,d 0.301443 0.003294,d 0.299651 -0.000251,d 0.297858 -0.003797,d 0.296192 -0.007479,d 0.294749 -0.011366,d 0.293120 -0.015086,d 0.291701 -0.018994,d 0.290065 -0.022705]"
-                            crs:Dabs_xmpArrayType="rdf:Seq"
-                            crs:Flow="{Decimal}1.000000"
-                            crs:MaskValue="{Decimal}1.000000"
-                            crs:Radius="{Decimal}0.014838"
-                            crs:What="Mask/Paint"
-                            jcr:primaryType="nt:unstructured"
-                            xmpNodeType="xmpStruct"/>
-                    </crs:Masks>
-                </_x0035_>
-            </crs:RetouchAreas>
             <xmpMM:DerivedFrom
                 jcr:primaryType="nt:unstructured"
                 stRef:documentID="D0D7692833B929513BA26B7C28932F19"
                 stRef:instanceID="xmp.iid:13d121d8-a209-4166-987b-c19443b39d32"
                 stRef:originalDocumentID="D0D7692833B929513BA26B7C28932F19"
                 xmpNodeType="xmpStruct"/>
-            <xmpMM:History
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}5"
-                xmpArrayType="rdf:Seq"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/metadata"
-                    stEvt:instanceID="xmp.iid:5fd8a1a9-8c3c-4605-9d03-3377ebd474f8"
-                    stEvt:softwareAgent="Adobe Photoshop Camera Raw 10.4 (Macintosh)"
-                    stEvt:when="{Date}2019-09-07T20:32:23.000+02:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0032_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/metadata"
-                    stEvt:instanceID="xmp.iid:13d121d8-a209-4166-987b-c19443b39d32"
-                    stEvt:softwareAgent="Adobe Photoshop Camera Raw 10.4 (Macintosh)"
-                    stEvt:when="{Date}2019-09-07T23:47:28.000+02:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0033_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="derived"
-                    stEvt:parameters="converted from image/x-canon-cr2 to image/jpeg, saved to new location"
-                    xmpNodeType="xmpStruct"/>
-                <_x0034_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:939719e5-a30c-4ce8-99e0-eb4e5068fb46"
-                    stEvt:softwareAgent="Adobe Photoshop Camera Raw 10.4 (Macintosh)"
-                    stEvt:when="{Date}2019-09-08T10:08:38.000+02:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0035_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:e7fd7c6d-25dc-485b-b284-1f7f0c9efb16"
-                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
-                    stEvt:when="{Date}2019-10-24T15:33:54.000-07:00"
-                    xmpNodeType="xmpStruct"/>
-            </xmpMM:History>
             <predictedTags jcr:primaryType="nt:unstructured">
                 <mountain
                     jcr:lastModified="{Date}2019-10-24T15:49:52.045-07:00"
@@ -612,6 +421,199 @@
                 jcr:primaryType="nt:unstructured"
                 haystack0="{Binary}"/>
             <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
+            <crs:RetouchAreas
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}5"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    crs:Feather="{Decimal}1.000000"
+                    crs:Method="gaussian"
+                    crs:OffsetY="{Decimal}0.117888"
+                    crs:Opacity="{Decimal}1.000000"
+                    crs:Seed="{Long}2"
+                    crs:SourceState="sourceAutoComputed"
+                    crs:SourceX="{Decimal}0.324066"
+                    crs:SpotType="heal"
+                    jcr:primaryType="nt:unstructured"
+                    xmpNodeType="xmpStruct">
+                    <crs:Masks
+                        jcr:primaryType="nt:unstructured"
+                        xmpArraySize="{Long}1"
+                        xmpArrayType="rdf:Seq"
+                        xmpNodeType="xmpArray">
+                        <_x0031_
+                            crs:CenterWeight="{Decimal}0.500000"
+                            crs:Dabs="[d 0.320197 0.045790,d 0.318416 0.042231,d 0.316870 0.038434,d 0.314883 0.035129,d 0.313399 0.031276,d 0.311630 0.027704,d 0.310078 0.023912,d 0.308148 0.020531,d 0.306602 0.016734,d 0.304965 0.013022,d 0.303542 0.009119,d 0.302574 0.004913,d 0.301632 0.000693,d 0.299680 -0.002658]"
+                            crs:Dabs_xmpArrayType="rdf:Seq"
+                            crs:Flow="{Decimal}1.000000"
+                            crs:MaskValue="{Decimal}1.000000"
+                            crs:Radius="{Decimal}0.014838"
+                            crs:What="Mask/Paint"
+                            jcr:primaryType="nt:unstructured"
+                            xmpNodeType="xmpStruct"/>
+                    </crs:Masks>
+                </_x0031_>
+                <_x0032_
+                    crs:Feather="{Decimal}1.000000"
+                    crs:Method="gaussian"
+                    crs:OffsetY="{Decimal}0.216131"
+                    crs:Opacity="{Decimal}1.000000"
+                    crs:Seed="{Long}2"
+                    crs:SourceState="sourceAutoComputed"
+                    crs:SourceX="{Decimal}0.350257"
+                    crs:SpotType="heal"
+                    jcr:primaryType="nt:unstructured"
+                    xmpNodeType="xmpStruct">
+                    <crs:Masks
+                        jcr:primaryType="nt:unstructured"
+                        xmpArraySize="{Long}1"
+                        xmpArrayType="rdf:Seq"
+                        xmpNodeType="xmpArray">
+                        <_x0031_
+                            crs:Alpha="{Decimal}0.000000"
+                            crs:CenterValue="{Decimal}1.000000"
+                            crs:MaskValue="{Decimal}1.000000"
+                            crs:PerimeterValue="{Decimal}0.000000"
+                            crs:SizeX="{Decimal}0.014838"
+                            crs:SizeY="{Decimal}0.014838"
+                            crs:What="Mask/Ellipse"
+                            crs:X="{Decimal}0.377340"
+                            crs:Y="{Decimal}0.192024"
+                            jcr:primaryType="nt:unstructured"
+                            xmpNodeType="xmpStruct"/>
+                    </crs:Masks>
+                </_x0032_>
+                <_x0033_
+                    crs:Feather="{Decimal}1.000000"
+                    crs:Method="gaussian"
+                    crs:OffsetY="{Decimal}0.064842"
+                    crs:Opacity="{Decimal}1.000000"
+                    crs:Seed="{Long}2"
+                    crs:SourceState="sourceSetExplicitly"
+                    crs:SourceX="{Decimal}0.274850"
+                    crs:SpotType="heal"
+                    jcr:primaryType="nt:unstructured"
+                    xmpNodeType="xmpStruct">
+                    <crs:Masks
+                        jcr:primaryType="nt:unstructured"
+                        xmpArraySize="{Long}1"
+                        xmpArrayType="rdf:Seq"
+                        xmpNodeType="xmpArray">
+                        <_x0031_
+                            crs:CenterWeight="{Decimal}0.500000"
+                            crs:Dabs="[d 0.326108 0.039882,d 0.324328 0.036322,d 0.322356 0.032998,d 0.319962 0.030367,d 0.318279 0.026703,d 0.316189 0.023544,d 0.313714 0.021090,d 0.311951 0.017510,d 0.309526 0.014947,d 0.308485 0.010781,d 0.306477 0.007504,d 0.304381 0.004355,d 0.302746 0.000642,d 0.301101 -0.003062,d 0.299123 -0.006378,d 0.297596 -0.010193]"
+                            crs:Dabs_xmpArrayType="rdf:Seq"
+                            crs:Flow="{Decimal}1.000000"
+                            crs:MaskValue="{Decimal}1.000000"
+                            crs:Radius="{Decimal}0.014838"
+                            crs:What="Mask/Paint"
+                            jcr:primaryType="nt:unstructured"
+                            xmpNodeType="xmpStruct"/>
+                    </crs:Masks>
+                </_x0033_>
+                <_x0034_
+                    crs:Feather="{Decimal}1.000000"
+                    crs:Method="gaussian"
+                    crs:OffsetY="{Decimal}0.098843"
+                    crs:Opacity="{Decimal}1.000000"
+                    crs:Seed="{Long}2"
+                    crs:SourceState="sourceAutoComputed"
+                    crs:SourceX="{Decimal}0.391733"
+                    crs:SpotType="heal"
+                    jcr:primaryType="nt:unstructured"
+                    xmpNodeType="xmpStruct">
+                    <crs:Masks
+                        jcr:primaryType="nt:unstructured"
+                        xmpArraySize="{Long}1"
+                        xmpArrayType="rdf:Seq"
+                        xmpNodeType="xmpArray">
+                        <_x0031_
+                            crs:Alpha="{Decimal}0.000000"
+                            crs:CenterValue="{Decimal}1.000000"
+                            crs:MaskValue="{Decimal}1.000000"
+                            crs:PerimeterValue="{Decimal}0.000000"
+                            crs:SizeX="{Decimal}0.014838"
+                            crs:SizeY="{Decimal}0.014838"
+                            crs:What="Mask/Ellipse"
+                            crs:X="{Decimal}0.383251"
+                            crs:Y="{Decimal}0.035451"
+                            jcr:primaryType="nt:unstructured"
+                            xmpNodeType="xmpStruct"/>
+                    </crs:Masks>
+                </_x0034_>
+                <_x0035_
+                    crs:Feather="{Decimal}1.000000"
+                    crs:Method="gaussian"
+                    crs:OffsetY="{Decimal}0.130684"
+                    crs:Opacity="{Decimal}1.000000"
+                    crs:Seed="{Long}2"
+                    crs:SourceState="sourceAutoComputed"
+                    crs:SourceX="{Decimal}0.328079"
+                    crs:SpotType="heal"
+                    jcr:primaryType="nt:unstructured"
+                    xmpNodeType="xmpStruct">
+                    <crs:Masks
+                        jcr:primaryType="nt:unstructured"
+                        xmpArraySize="{Long}1"
+                        xmpArrayType="rdf:Seq"
+                        xmpNodeType="xmpArray">
+                        <_x0031_
+                            crs:CenterWeight="{Decimal}0.500000"
+                            crs:Dabs="[d 0.328079 0.056130,d 0.326977 0.051999,d 0.325539 0.048107,d 0.323811 0.044490,d 0.322082 0.040873,d 0.320354 0.037256,d 0.319003 0.033295,d 0.316850 0.030233,d 0.314696 0.027172,d 0.312593 0.024033,d 0.310489 0.020895,d 0.308662 0.017389,d 0.306835 0.013883,d 0.305008 0.010378,d 0.303405 0.006633,d 0.301443 0.003294,d 0.299651 -0.000251,d 0.297858 -0.003797,d 0.296192 -0.007479,d 0.294749 -0.011366,d 0.293120 -0.015086,d 0.291701 -0.018994,d 0.290065 -0.022705]"
+                            crs:Dabs_xmpArrayType="rdf:Seq"
+                            crs:Flow="{Decimal}1.000000"
+                            crs:MaskValue="{Decimal}1.000000"
+                            crs:Radius="{Decimal}0.014838"
+                            crs:What="Mask/Paint"
+                            jcr:primaryType="nt:unstructured"
+                            xmpNodeType="xmpStruct"/>
+                    </crs:Masks>
+                </_x0035_>
+            </crs:RetouchAreas>
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}5"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/metadata"
+                    stEvt:instanceID="xmp.iid:5fd8a1a9-8c3c-4605-9d03-3377ebd474f8"
+                    stEvt:softwareAgent="Adobe Photoshop Camera Raw 10.4 (Macintosh)"
+                    stEvt:when="{Date}2019-09-07T20:32:23.000+02:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/metadata"
+                    stEvt:instanceID="xmp.iid:13d121d8-a209-4166-987b-c19443b39d32"
+                    stEvt:softwareAgent="Adobe Photoshop Camera Raw 10.4 (Macintosh)"
+                    stEvt:when="{Date}2019-09-07T23:47:28.000+02:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0033_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="converted from image/x-canon-cr2 to image/jpeg, saved to new location"
+                    xmpNodeType="xmpStruct"/>
+                <_x0034_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:939719e5-a30c-4ce8-99e0-eb4e5068fb46"
+                    stEvt:softwareAgent="Adobe Photoshop Camera Raw 10.4 (Macintosh)"
+                    stEvt:when="{Date}2019-09-08T10:08:38.000+02:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0035_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:e7fd7c6d-25dc-485b-b284-1f7f0c9efb16"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
+                    stEvt:when="{Date}2019-10-24T15:33:54.000-07:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

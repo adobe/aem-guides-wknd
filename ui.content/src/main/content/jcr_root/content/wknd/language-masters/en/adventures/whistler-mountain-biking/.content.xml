@@ -2,8 +2,8 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-10-25T07:50:07.924-07:00"
-        cq:lastModifiedBy="admin"
+        cq:lastModified="{Date}2019-10-27T16:34:37.507-07:00"
+        cq:lastModifiedBy="reference-adjustment-service"
         cq:tags="[wknd:customer-journey/engage,wknd:customer-journey/convert,wknd:region/nam/canada,wknd:season/summer,wknd:activity/cycling]"
         cq:template="/conf/wknd/settings/wcm/templates/adventure-page-template"
         jcr:description="Whistler is often considered North America’s preeminent mountain bike destination.  Let us show you why."
@@ -24,20 +24,32 @@
                     cq:styleIds="[1570236158571]"
                     jcr:created="{Date}2019-10-12T05:23:17.961-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-10-15T15:54:52.063-07:00"
+                    jcr:lastModified="{Date}2019-10-25T11:48:34.037-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/content/carousel"
                     autopauseDisabled="false"
                     autoplay="false">
-                    <image
-                        jcr:created="{Date}2019-10-16T15:48:37.045-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-18T19:38:52.282-07:00"
+                    <item_1572023290053
+                        jcr:lastModified="{Date}2019-10-25T10:09:53.460-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/content/image"
-                        fileReference="/content/dam/we-retail/en/activities/biking/mountain-biking.jpg"/>
+                        fileReference="/content/dam/wknd/en/adventures/whistler-mountain-biking/AdobeStock_122578479.jpeg"/>
+                    <item_1572028926848
+                        jcr:lastModified="{Date}2019-10-25T11:42:21.367-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/content/image"
+                        fileReference="/content/dam/wknd/en/activities/cycling/mountain-biking.jpg"/>
+                    <image
+                        jcr:created="{Date}2019-10-16T15:48:37.045-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-10-25T11:48:23.874-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/content/image"
+                        fileReference="/content/dam/wknd/en/adventures/whistler-mountain-biking/AdobeStock_122615840.jpeg"/>
                 </carousel>
                 <responsivegrid
                     cq:styleIds="[1554340406437]"
@@ -186,33 +198,52 @@
                         <item_1570890135033
                             cq:panelTitle="Overview"
                             cq:styleIds="[1571166691078]"
-                            jcr:lastModified="{Date}2019-10-16T15:35:20.639-07:00"
+                            jcr:lastModified="{Date}2019-10-25T11:45:16.549-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/content/contentfragment"
                             displayMode="singleText"
                             elementNames="adventureDescription"
                             fragmentPath="/content/dam/wknd/en/adventures/whistler-mountain-biking/whistler-mountain-biking"
-                            paragraphScope="all"
+                            paragraphScope="range"
                             text="Nicaragua Surf Trip 3-day surf camp in Nicaragua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit Sin voluptate velit esse cillum dolore eu fugiat nulla pariatur Excepteur sint occaecat cupidatat non proident Sunt in culpa qui officia deserunt mollit anim id est laborum"
                             variationName="master">
                             <par2
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+                                sling:resourceType="wcm/foundation/components/responsivegrid">
+                                <image
+                                    jcr:created="{Date}2019-10-25T11:45:21.276-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-25T11:45:21.276-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/image"
+                                    fileReference="/content/dam/wknd/en/activities/cycling/forest-trail.jpg"/>
+                            </par2>
                             <par1
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="dam/cfm/components/grid"/>
+                                sling:resourceType="dam/cfm/components/grid">
+                                <image
+                                    jcr:created="{Date}2019-10-25T10:12:30.188-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-25T10:12:30.188-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/image"
+                                    fileReference="/content/dam/wknd/en/adventures/whistler-mountain-biking/AdobeStock_122618183.jpeg"/>
+                            </par1>
                         </item_1570890135033>
                         <item_1570890140330
                             cq:panelTitle="Itinerary"
-                            jcr:lastModified="{Date}2019-10-16T15:35:36.502-07:00"
+                            jcr:lastModified="{Date}2019-10-25T10:58:37.873-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/content/contentfragment"
                             displayMode="singleText"
                             elementNames="adventureItinerary"
                             fragmentPath="/content/dam/wknd/en/adventures/whistler-mountain-biking/whistler-mountain-biking"
-                            paragraphScope="all"
+                            paragraphHeadings="true"
+                            paragraphScope="range"
                             text="Nicaragua Surf Trip Day 1 Our adventure begins! In est ante in nibh. Phasellus faucibus scelerisque eleifend donec. Ultricies mi quis hendrerit dolor magna eget. Aliquam id diam maecenas ultricies mi eget mauris pharetra. Ut aliquam purus sit amet luctus venenatis. Day 2 Forrest hike to secluded surf spot Ut sem viverra aliquet eget sit. Urna et pharetra pharetra massa massa ultricies. Sed blandit libero volutpat sed cras ornare. Nascetur ridiculus mus mauris vitae ultricies leo integer. Nibh mauris cursus mattis molestie a iaculis at erat. Day 3 Surf at sunset cliffs Posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Placerat vestibulum lectus mauris ultrices eros in. Eget dolor morbi non arcu. Magna fermentum iaculis eu non diam phasellus vestibulum lorem sed. Vulputate mi sit amet mauris commodo quis."
                             variationName="master">
                             <par9
@@ -220,21 +251,42 @@
                                 sling:resourceType="wcm/foundation/components/responsivegrid"/>
                             <par1
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="dam/cfm/components/grid"/>
+                                sling:resourceType="dam/cfm/components/grid">
+                                <image
+                                    jcr:created="{Date}2019-10-25T10:13:06.385-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-25T10:13:06.385-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/image"
+                                    fileReference="/content/dam/wknd/en/adventures/whistler-mountain-biking/AdobeStock_257501643.jpeg"/>
+                            </par1>
                             <par7
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="dam/cfm/components/grid"/>
+                            <par3
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="dam/cfm/components/grid">
+                                <image
+                                    jcr:created="{Date}2019-10-25T10:58:42.214-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-25T10:58:42.214-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/image"
+                                    fileReference="/content/dam/wknd/en/adventures/whistler-mountain-biking/AdobeStock_277761435.jpeg"/>
+                            </par3>
                         </item_1570890140330>
                         <item_1570890147607
                             cq:panelTitle="What to Bring"
-                            jcr:lastModified="{Date}2019-10-16T15:36:06.603-07:00"
+                            jcr:lastModified="{Date}2019-10-25T11:52:04.599-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/content/contentfragment"
                             displayMode="singleText"
                             elementNames="adventureGearList"
                             fragmentPath="/content/dam/wknd/en/adventures/whistler-mountain-biking/whistler-mountain-biking"
-                            paragraphScope="all"
+                            paragraphScope="range"
                             text="Nicaragua Surf Trip What to Bring Ut tellus elementum sagittis vitae et leo. Pellentesque sit amet porttitor eget. Urna duis convallis convallis tellus id interdum. Sit amet volutpat consequat mauris nunc congue nisi vitae. Urna cursus eget nunc scelerisque viverra mauris in. Libero volutpat sed cras ornare arcu dui vivamus. Packed by us Surfboards (hard top and foam) Rash guards Surf wax Life Jackets Packed by you Wetsuit (recommend 3/2 neoprene) Personal Surfboard (optional) Swim suit Closed-toed hiking shoes Day pack Rain coat Recommended Sunscreen Hat Sunglasses Water bottle Sweatshirt"
                             variationName="master">
                             <par3
@@ -244,6 +296,55 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="dam/cfm/components/grid"/>
                             <par1
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="dam/cfm/components/grid">
+                                <image
+                                    jcr:created="{Date}2019-10-25T11:55:05.436-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-25T11:56:04.288-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/image"
+                                    fileReference="/content/dam/wknd/en/activities/cycling/sequoiaside.jpg">
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <default
+                                            jcr:primaryType="nt:unstructured"
+                                            offset="0"
+                                            width="4"/>
+                                    </cq:responsive>
+                                </image>
+                                <image_916512861
+                                    jcr:created="{Date}2019-10-25T11:55:14.982-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-25T11:56:10.777-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/image"
+                                    fileReference="/content/dam/wknd/en/activities/cycling/blast.jpg">
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <default
+                                            jcr:primaryType="nt:unstructured"
+                                            offset="0"
+                                            width="4"/>
+                                    </cq:responsive>
+                                </image_916512861>
+                                <image_833101704
+                                    jcr:created="{Date}2019-10-25T11:55:22.228-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-25T11:55:49.030-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/image"
+                                    fileReference="/content/dam/wknd/en/activities/cycling/mx121.jpg">
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <default
+                                            jcr:primaryType="nt:unstructured"
+                                            offset="0"
+                                            width="4"/>
+                                    </cq:responsive>
+                                </image_833101704>
+                            </par1>
+                            <par0
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="dam/cfm/components/grid"/>
                         </item_1570890147607>

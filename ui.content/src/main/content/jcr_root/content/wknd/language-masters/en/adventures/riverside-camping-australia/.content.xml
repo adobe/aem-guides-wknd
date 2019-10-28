@@ -2,17 +2,18 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-10-25T07:32:07.883-07:00"
-        cq:lastModifiedBy="admin"
+        cq:lastModified="{Date}2019-10-27T16:46:41.773-07:00"
+        cq:lastModifiedBy="reference-adjustment-service"
         cq:tags="[wknd:customer-journey/engage,wknd:customer-journey/convert,wknd:region/apac/australia,wknd:season/summer,wknd:activity/hiking,wknd:activity/camping,wknd:activity/hunting-fishing]"
         cq:template="/conf/wknd/settings/wcm/templates/adventure-page-template"
         jcr:description="Learn how to pitch a tent by the Siegel River, catch local cod, and spot unique Australian wildlife on this retreat. Or, you can sit back in the shade with a cool beverage and a book until it's too dark to read, then tell stories around a campfire. "
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Riverside Camping in Australia"
+        jcr:title="Riverside Camping"
         jcr:uuid="8cb55441-f8d2-46ef-9c49-803f52efd635"
         sling:resourceType="wknd/components/structure/page"
+        shortDescription="Siegel River Australia"
         socialMedia="[facebook,pinterest]">
         <root
             jcr:primaryType="nt:unstructured"
@@ -33,26 +34,25 @@
                     <image
                         jcr:created="{Date}2019-10-12T08:40:15.120-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-15T15:32:57.433-07:00"
+                        jcr:lastModified="{Date}2019-10-25T12:17:46.727-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/content/image"
-                        fileReference="/content/dam/wknd/en/magazine/western-australia/Adobe_WAAdobe_WA_B6A6978.JPG"
-                        imageCrop="34,171,1248,841"/>
+                        fileReference="/content/dam/wknd/en/adventures/riverside-camping-australia/adobe_waadobe_wa_mg_2466.jpg"/>
                     <item_1571168419252
-                        jcr:lastModified="{Date}2019-10-15T15:33:16.398-07:00"
+                        jcr:lastModified="{Date}2019-10-25T09:58:54.256-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/content/image"
-                        fileReference="/content/dam/wknd/en/magazine/western-australia/Adobe_WAAdobe_WA_MG_2466.JPG"/>
+                        fileReference="/content/dam/wknd/en/adventures/riverside-camping-australia/AdobeStock_216674449.jpeg"/>
                     <item_1571168422510
-                        jcr:lastModified="{Date}2019-10-15T15:37:13.223-07:00"
+                        jcr:lastModified="{Date}2019-10-25T16:23:25.853-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/content/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd/en/magazine/fly-fishing-amazon/amazon-river-02.JPG"
+                        fileReference="/content/dam/wknd/en/adventures/whistler-mountain-biking/AdobeStock_257501643.jpeg"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                 </carousel>
@@ -159,7 +159,7 @@
                     <tabs
                         jcr:created="{Date}2019-10-12T07:16:40.797-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-15T12:27:53.757-07:00"
+                        jcr:lastModified="{Date}2019-10-25T09:58:11.924-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/content/tabs"
@@ -191,45 +191,95 @@
                             variationName="master">
                             <par2
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wcm/foundation/components/responsivegrid">
+                                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+                            <par0
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="dam/cfm/components/grid">
                                 <image
-                                    jcr:created="{Date}2019-10-15T15:42:33.733-07:00"
+                                    jcr:created="{Date}2019-10-25T09:58:18.907-07:00"
                                     jcr:createdBy="admin"
-                                    jcr:lastModified="{Date}2019-10-15T15:42:33.733-07:00"
+                                    jcr:lastModified="{Date}2019-10-25T09:58:23.040-07:00"
                                     jcr:lastModifiedBy="admin"
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="wknd/components/content/image"
-                                    fileReference="/content/dam/we-retail/en/experiences/wester-australia-by-camper-van/camping-in-western-australia.jpg"/>
-                            </par2>
-                            <par0
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="dam/cfm/components/grid"/>
+                                    fileReference="/content/dam/wknd/en/adventures/riverside-camping-australia/AdobeStock_238491803.jpeg"/>
+                            </par0>
                         </item_1570890135033>
                         <item_1570890140330
                             cq:panelTitle="Itinerary"
-                            jcr:lastModified="{Date}2019-10-16T10:50:09.871-07:00"
+                            jcr:lastModified="{Date}2019-10-25T12:18:48.247-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/content/contentfragment"
                             displayMode="singleText"
                             elementNames="adventureItinerary"
                             fragmentPath="/content/dam/wknd/en/adventures/riverside-camping-australia/riverside-camping-australia"
+                            paragraphScope="range"
                             text="Nicaragua Surf Trip Day 1 Our adventure begins! In est ante in nibh. Phasellus faucibus scelerisque eleifend donec. Ultricies mi quis hendrerit dolor magna eget. Aliquam id diam maecenas ultricies mi eget mauris pharetra. Ut aliquam purus sit amet luctus venenatis. Day 2 Forrest hike to secluded surf spot Ut sem viverra aliquet eget sit. Urna et pharetra pharetra massa massa ultricies. Sed blandit libero volutpat sed cras ornare. Nascetur ridiculus mus mauris vitae ultricies leo integer. Nibh mauris cursus mattis molestie a iaculis at erat. Day 3 Surf at sunset cliffs Posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Placerat vestibulum lectus mauris ultrices eros in. Eget dolor morbi non arcu. Magna fermentum iaculis eu non diam phasellus vestibulum lorem sed. Vulputate mi sit amet mauris commodo quis."
                             variationName="master">
                             <par9
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wcm/foundation/components/responsivegrid"/>
+                            <par5
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="dam/cfm/components/grid">
+                                <image
+                                    jcr:created="{Date}2019-10-25T09:59:13.345-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-25T09:59:13.345-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/image"
+                                    fileReference="/content/dam/wknd/en/adventures/riverside-camping-australia/AdobeStock_178022573.jpeg"/>
+                            </par5>
+                            <par2
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="dam/cfm/components/grid"/>
+                            <par1 jcr:primaryType="nt:unstructured">
+                                <image
+                                    jcr:created="{Date}2019-10-25T09:59:26.858-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-25T09:59:26.858-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/image"
+                                    fileReference="/content/dam/wknd/en/adventures/riverside-camping-australia/AdobeStock_167833331.jpeg"/>
+                            </par1>
+                            <par7
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="dam/cfm/components/grid">
+                                <image
+                                    jcr:created="{Date}2019-10-25T11:36:30.081-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-25T11:36:30.081-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/image"
+                                    fileReference="/content/dam/wknd/en/activities/hiking/hiker-anapurna.jpg"/>
+                            </par7>
+                            <par4
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="dam/cfm/components/grid">
+                                <image
+                                    jcr:created="{Date}2019-10-25T12:18:58.403-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-25T17:51:20.075-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/image"
+                                    fileReference="/content/dam/wknd/en/adventures/riverside-camping-australia/AdobeStock_257541512.jpeg"/>
+                            </par4>
                         </item_1570890140330>
                         <item_1570890147607
                             cq:panelTitle="What to Bring"
-                            jcr:lastModified="{Date}2019-10-16T10:50:38.454-07:00"
+                            jcr:lastModified="{Date}2019-10-25T11:34:30.381-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/content/contentfragment"
                             displayMode="singleText"
                             elementNames="adventureGearList"
                             fragmentPath="/content/dam/wknd/en/adventures/riverside-camping-australia/riverside-camping-australia"
-                            paragraphScope="all"
+                            paragraphScope="range"
                             text="Nicaragua Surf Trip What to Bring Ut tellus elementum sagittis vitae et leo. Pellentesque sit amet porttitor eget. Urna duis convallis convallis tellus id interdum. Sit amet volutpat consequat mauris nunc congue nisi vitae. Urna cursus eget nunc scelerisque viverra mauris in. Libero volutpat sed cras ornare arcu dui vivamus. Packed by us Surfboards (hard top and foam) Rash guards Surf wax Life Jackets Packed by you Wetsuit (recommend 3/2 neoprene) Personal Surfboard (optional) Swim suit Closed-toed hiking shoes Day pack Rain coat Recommended Sunscreen Hat Sunglasses Water bottle Sweatshirt"
                             variationName="master">
                             <par3
@@ -238,6 +288,18 @@
                             <par2
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="dam/cfm/components/grid"/>
+                            <par0
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="dam/cfm/components/grid">
+                                <image
+                                    jcr:created="{Date}2019-10-25T11:34:35.015-07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-10-25T11:34:35.015-07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wknd/components/content/image"
+                                    fileReference="/content/dam/wknd/en/activities/hiking/equipment_6.jpg"/>
+                            </par0>
                         </item_1570890147607>
                     </tabs>
                 </responsivegrid>

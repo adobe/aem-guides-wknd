@@ -8,7 +8,7 @@
         cq:name="AdobeStock_216674449.jpeg"
         cq:parentPath="/content/dam/wknd/en/adventures/riverside-camping-australia"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-24T15:43:42.029-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:48:30.868-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -139,7 +139,8 @@
             crs:Whites2012="{Long}24"
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20180726"
-            dam:extracted="{Date}2019-10-24T15:40:50.941-07:00"
+            dam:DigitalCreationTime="155445-0700"
+            dam:extracted="{Date}2019-10-25T16:48:10.997-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -149,16 +150,16 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}19.19444465637207"
             dam:Progressive="no"
-            dam:sha1="3a67f4926fa5ca1f38f613d63b088e75ced127ef"
-            dam:size="{Long}641399"
-            dam:TimeCreated="155445+0000"
-            dc:date="{Long}[20180726]"
-            dc:date_xmpArrayType="rdf:Bag"
+            dam:sha1="946a7f624f12545ad3c62042fae41a109b99aba5"
+            dam:size="{Long}646118"
+            dam:TimeCreated="155445-0700"
+            dc:date="{Long}[20180726,20180726,20180726]"
+            dc:date_xmpArrayType="rdf:Seq"
             dc:description="Female sitting on a large rock relaxing in afternoon dappled light the Australian bushland with views over the river"
             dc:format="image/jpeg"
             dc:modified="{Date}2019-10-24T15:43:41.918-07:00"
             dc:rights="©  Leah-Anne Thompson, all rights reserved.  Review your image licence for grant of usage rights and limitations   Images used "
-            dc:subject="[female,wilderness,travel,relax,sitting,views,scenic,tourism,bushwalk,hike,adventure,explore,female,woman,chillax,unwind,river,nature,bushland,water,pretty,dappled,landscape,mountains,rock,outdoors,outside,fresh air,wilderness,Australia,thisisAustralia,trees,high,cliffs,water views,place,destination,holiday,vacation,camping,wellness,wellbeing,healthy lifestyle,lifestyle,active,bush,bushland,remote,countryside,vista,female,wilderness,travel,relax,sitting,views,scenic,tourism,bushwalk,hike,adventure,explore,female,woman,chillax,unwind,river,nature,bushland,water,pretty,dappled,landscape,mountains,rock,outdoors,outside,fresh air,wilderness,Australia,thisisAustralia,trees,high,cliffs,water views,place,destination,holiday,vacation,camping,wellness,wellbeing,healthy lifestyle,lifestyle,active,bush,bushland,remote,countryside,vista,female,wilderness,travel,relax,sitting,views,scenic,tourism,bushwalk,hike,adventure,explore,woman,chillax,unwind,river,nature,bushland,water,pretty,dappled,landscape,mountains,rock,outdoors,outside,fresh air,Australia,thisisAustralia,trees,high,cliffs,water views,place,destination,holiday,vacation,camping,wellness,wellbeing,healthy lifestyle,lifestyle,active,bush,remote,countryside,vista]"
+            dc:subject="[female,wilderness,travel,relax,sitting,views,scenic,tourism,bushwalk,hike,adventure,explore,female,woman,chillax,unwind,river,nature,bushland,water,pretty,dappled,landscape,mountains,rock,outdoors,outside,fresh air,wilderness,Australia,thisisAustralia,trees,high,cliffs,water views,place,destination,holiday,vacation,camping,wellness,wellbeing,healthy lifestyle,lifestyle,active,bush,bushland,remote,countryside,vista,female,wilderness,travel,relax,sitting,views,scenic,tourism,bushwalk,hike,adventure,explore,female,woman,chillax,unwind,river,nature,bushland,water,pretty,dappled,landscape,mountains,rock,outdoors,outside,fresh air,wilderness,Australia,thisisAustralia,trees,high,cliffs,water views,place,destination,holiday,vacation,camping,wellness,wellbeing,healthy lifestyle,lifestyle,active,bush,bushland,remote,countryside,vista,female,wilderness,travel,relax,sitting,views,scenic,tourism,bushwalk,hike,adventure,explore,woman,chillax,unwind,river,nature,bushland,water,pretty,dappled,landscape,mountains,rock,outdoors,outside,fresh air,Australia,thisisAustralia,trees,high,cliffs,water views,place,destination,holiday,vacation,camping,wellness,wellbeing,healthy lifestyle,lifestyle,active,bush,remote,countryside,vista,female,wilderness,travel,relax,sitting,views,scenic,tourism,bushwalk,hike,adventure,explore,female,woman,chillax,unwind,river,nature,bushland,water,pretty,dappled,landscape,mountains,rock,outdoors,outside,fresh air,wilderness,Australia,thisisAustralia,trees,high,cliffs,water views,place,destination,holiday,vacation,camping,wellness,wellbeing,healthy lifestyle,lifestyle,active,bush,bushland,remote,countryside,vista,female,wilderness,travel,relax,sitting,views,scenic,tourism,bushwalk,hike,adventure,explore,female,woman,chillax,unwind,river,nature,bushland,water,pretty,dappled,landscape,mountains,rock,outdoors,outside,fresh air,wilderness,Australia,thisisAustralia,trees,high,cliffs,water views,place,destination,holiday,vacation,camping,wellness,wellbeing,healthy lifestyle,lifestyle,active,bush,bushland,remote,countryside,vista,female,wilderness,travel,relax,sitting,views,scenic,tourism,bushwalk,hike,adventure,explore,woman,chillax,unwind,river,nature,bushland,water,pretty,dappled,landscape,mountains,rock,outdoors,outside,fresh air,Australia,thisisAustralia,trees,high,cliffs,water views,place,destination,holiday,vacation,camping,wellness,wellbeing,healthy lifestyle,lifestyle,active,bush,remote,countryside,vista,female,wilderness,travel,relax,sitting,views,scenic,tourism,bushwalk,hike,adventure,explore,woman,chillax,unwind,river,nature,bushland,water,pretty,dappled,landscape,mountains,rock,outdoors,outside,fresh air,Australia,thisisAustralia,trees,high,cliffs,water views,place,destination,holiday,vacation,camping,wellness,wellbeing,healthy lifestyle,lifestyle,active,bush,remote,countryside,vista]"
             dc:subject_xmpArrayType="rdf:Bag"
             dc:title="Woman chillaxing with river views in Australian bushland"
             exif:ApertureValue="20197/2729"
@@ -197,7 +198,7 @@
             exifEX:PhotographicSensitivity="{Long}200"
             exifEX:RecommendedExposureIndex="{Long}200"
             exifEX:SensitivityType="{Long}2"
-            jcr:lastModified="{Date}2019-10-24T15:43:41.918-07:00"
+            jcr:lastModified="{Date}2019-10-25T16:48:27.997-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
@@ -248,7 +249,8 @@
             xmpMM:InstanceID="xmp.iid:be7b8265-2789-412f-9252-a88d67cd2fcb"
             xmpMM:OriginalDocumentID="228BCBD67F66377C3DE07ED5DE7E50E6"
             xmpRights:Marked="{Boolean}true"
-            xmpRights:UsageTerms="Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  If you want to use"
+            xmpRights:UsageTerms="[Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  If you want to use]"
+            xmpRights:UsageTerms_xmpArrayType="rdf:Alt"
             lastTransferredForTagging="{Date}2019-10-24T15:40:54.252-07:00"
             simsearchVersion="1.0.0">
             <exif:Flash
@@ -259,108 +261,12 @@
                 exif:Return="{Long}0"
                 jcr:primaryType="nt:unstructured"
                 xmpNodeType="xmpStruct"/>
-            <crs:GradientBasedCorrections
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}1"
-                xmpArrayType="rdf:Seq"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    crs:CorrectionActive="True"
-                    crs:CorrectionAmount="{Decimal}1.000000"
-                    crs:LocalBrightness="{Decimal}0.000000"
-                    crs:LocalClarity2012="{Decimal}0.089290"
-                    crs:LocalContrast2012="{Decimal}0.000000"
-                    crs:LocalDefringe="{Decimal}0.000000"
-                    crs:LocalExposure2012="{Decimal}-0.098250"
-                    crs:LocalHighlights2012="{Decimal}0.000000"
-                    crs:LocalLuminanceNoise="{Decimal}0.004520"
-                    crs:LocalMoire="{Decimal}0.000000"
-                    crs:LocalSaturation="{Decimal}0.098210"
-                    crs:LocalShadows2012="{Decimal}-0.008930"
-                    crs:LocalSharpness="{Decimal}0.000000"
-                    crs:LocalTemperature="{Decimal}-0.008930"
-                    crs:LocalTint="{Decimal}0.223210"
-                    crs:LocalToningHue="{Decimal}0.000000"
-                    crs:LocalToningSaturation="{Decimal}0.000000"
-                    crs:What="Correction"
-                    jcr:primaryType="nt:unstructured"
-                    xmpNodeType="xmpStruct">
-                    <crs:CorrectionMasks
-                        jcr:primaryType="nt:unstructured"
-                        xmpArraySize="{Long}1"
-                        xmpArrayType="rdf:Seq"
-                        xmpNodeType="xmpArray">
-                        <_x0031_
-                            crs:FullX="{Decimal}0.549559"
-                            crs:FullY="{Decimal}0.209917"
-                            crs:MaskValue="{Decimal}1.000000"
-                            crs:What="Mask/Gradient"
-                            crs:ZeroX="{Decimal}0.552863"
-                            crs:ZeroY="{Decimal}0.474380"
-                            jcr:primaryType="nt:unstructured"
-                            xmpNodeType="xmpStruct"/>
-                    </crs:CorrectionMasks>
-                </_x0031_>
-            </crs:GradientBasedCorrections>
             <xmpMM:DerivedFrom
                 jcr:primaryType="nt:unstructured"
                 stRef:documentID="xmp.did:dc867b42-42f2-4e4f-87f5-b04f8dfa3bd5"
                 stRef:instanceID="xmp.iid:015A56DF4D95E811BB2AB99D1412D015"
                 stRef:originalDocumentID="228BCBD67F66377C3DE07ED5DE7E50E6"
                 xmpNodeType="xmpStruct"/>
-            <xmpMM:History
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}7"
-                xmpArrayType="rdf:Seq"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="derived"
-                    stEvt:parameters="converted from image/x-canon-cr2 to image/tiff, saved to new location"
-                    xmpNodeType="xmpStruct"/>
-                <_x0032_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:dc867b42-42f2-4e4f-87f5-b04f8dfa3bd5"
-                    stEvt:softwareAgent="Adobe Photoshop Lightroom 6.14 (Windows)"
-                    stEvt:when="{Date}2018-07-27T17:01:13.000+10:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0033_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:015A56DF4D95E811BB2AB99D1412D015"
-                    stEvt:softwareAgent="Adobe Photoshop CS6 (Windows)"
-                    stEvt:when="{Date}2018-08-01T16:26:07.000+10:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0034_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="converted"
-                    stEvt:parameters="from image/tiff to image/jpeg"
-                    xmpNodeType="xmpStruct"/>
-                <_x0035_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="derived"
-                    stEvt:parameters="converted from image/tiff to image/jpeg"
-                    xmpNodeType="xmpStruct"/>
-                <_x0036_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:025A56DF4D95E811BB2AB99D1412D015"
-                    stEvt:softwareAgent="Adobe Photoshop CS6 (Windows)"
-                    stEvt:when="{Date}2018-08-01T16:26:07.000+10:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0037_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:be7b8265-2789-412f-9252-a88d67cd2fcb"
-                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
-                    stEvt:when="{Date}2019-10-24T15:37:10.000-07:00"
-                    xmpNodeType="xmpStruct"/>
-            </xmpMM:History>
             <predictedTags jcr:primaryType="nt:unstructured">
                 <nature
                     jcr:lastModified="{Date}2019-10-24T15:40:54.244-07:00"
@@ -517,7 +423,112 @@
                 jcr:primaryType="nt:unstructured"
                 haystack0="{Binary}"/>
             <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
+            <crs:GradientBasedCorrections
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}1"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    crs:CorrectionActive="True"
+                    crs:CorrectionAmount="{Decimal}1.000000"
+                    crs:LocalBrightness="{Decimal}0.000000"
+                    crs:LocalClarity2012="{Decimal}0.089290"
+                    crs:LocalContrast2012="{Decimal}0.000000"
+                    crs:LocalDefringe="{Decimal}0.000000"
+                    crs:LocalExposure2012="{Decimal}-0.098250"
+                    crs:LocalHighlights2012="{Decimal}0.000000"
+                    crs:LocalLuminanceNoise="{Decimal}0.004520"
+                    crs:LocalMoire="{Decimal}0.000000"
+                    crs:LocalSaturation="{Decimal}0.098210"
+                    crs:LocalShadows2012="{Decimal}-0.008930"
+                    crs:LocalSharpness="{Decimal}0.000000"
+                    crs:LocalTemperature="{Decimal}-0.008930"
+                    crs:LocalTint="{Decimal}0.223210"
+                    crs:LocalToningHue="{Decimal}0.000000"
+                    crs:LocalToningSaturation="{Decimal}0.000000"
+                    crs:What="Correction"
+                    jcr:primaryType="nt:unstructured"
+                    xmpNodeType="xmpStruct">
+                    <crs:CorrectionMasks
+                        jcr:primaryType="nt:unstructured"
+                        xmpArraySize="{Long}1"
+                        xmpArrayType="rdf:Seq"
+                        xmpNodeType="xmpArray">
+                        <_x0031_
+                            crs:FullX="{Decimal}0.549559"
+                            crs:FullY="{Decimal}0.209917"
+                            crs:MaskValue="{Decimal}1.000000"
+                            crs:What="Mask/Gradient"
+                            crs:ZeroX="{Decimal}0.552863"
+                            crs:ZeroY="{Decimal}0.474380"
+                            jcr:primaryType="nt:unstructured"
+                            xmpNodeType="xmpStruct"/>
+                    </crs:CorrectionMasks>
+                </_x0031_>
+            </crs:GradientBasedCorrections>
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}7"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="converted from image/x-canon-cr2 to image/tiff, saved to new location"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:dc867b42-42f2-4e4f-87f5-b04f8dfa3bd5"
+                    stEvt:softwareAgent="Adobe Photoshop Lightroom 6.14 (Windows)"
+                    stEvt:when="{Date}2018-07-27T17:01:13.000+10:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0033_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:015A56DF4D95E811BB2AB99D1412D015"
+                    stEvt:softwareAgent="Adobe Photoshop CS6 (Windows)"
+                    stEvt:when="{Date}2018-08-01T16:26:07.000+10:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0034_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="converted"
+                    stEvt:parameters="from image/tiff to image/jpeg"
+                    xmpNodeType="xmpStruct"/>
+                <_x0035_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="converted from image/tiff to image/jpeg"
+                    xmpNodeType="xmpStruct"/>
+                <_x0036_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:025A56DF4D95E811BB2AB99D1412D015"
+                    stEvt:softwareAgent="Adobe Photoshop CS6 (Windows)"
+                    stEvt:when="{Date}2018-08-01T16:26:07.000+10:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0037_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:be7b8265-2789-412f-9252-a88d67cd2fcb"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
+                    stEvt:when="{Date}2019-10-24T15:37:10.000-07:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2019-10-27T16:00:05.789-07:00"/>
+        </usages>
     </jcr:content>
 </jcr:root>

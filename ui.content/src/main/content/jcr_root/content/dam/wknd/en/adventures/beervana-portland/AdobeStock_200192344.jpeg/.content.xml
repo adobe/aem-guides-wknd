@@ -8,7 +8,7 @@
         cq:name="AdobeStock_200192344.jpeg"
         cq:parentPath="/content/dam/wknd/en/adventures/beervana-portland"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-24T15:49:32.557-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:48:06.411-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -132,8 +132,8 @@
             crs:Whites2012="{Long}0"
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20161117"
-            dam:DigitalCreationTime="112556+0000"
-            dam:extracted="{Date}2019-10-24T15:48:49.656-07:00"
+            dam:DigitalCreationTime="112556-0800"
+            dam:extracted="{Date}2019-10-25T16:47:39.522-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -143,15 +143,15 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}24.44444465637207"
             dam:Progressive="no"
-            dam:sha1="433833c5e4a3303552eab8ba29889649e06a0c1f"
-            dam:size="{Long}493886"
-            dam:TimeCreated="112556+0000"
-            dc:date="{Long}[20161117]"
-            dc:date_xmpArrayType="rdf:Bag"
+            dam:sha1="02d7659839cad49512ba39289a0dc9c97e1f637d"
+            dam:size="{Long}507228"
+            dam:TimeCreated="112556-0800"
+            dc:date="{Long}[20161117,20161117,20161117,20161117,20161117,20161117,20161117]"
+            dc:date_xmpArrayType="rdf:Seq"
             dc:format="image/jpeg"
             dc:modified="{Date}2019-10-24T15:49:32.438-07:00"
             dc:rights="©Wavebreak Media - stock.adobe.com"
-            dc:subject="[20s,young adult,man,male,caucasian,woman,female,chinese,bar,pub,food and drink industry,business,winter clothing,warm clothing,woolly hat,sitting,holding,alcoholic,alcohol,drink,beverage,refreshment,beer,ale,beer glass,enjoyment,enjoying,toast,toasting,celebrating,celebration,table,food,plate,bread,meal,smiling,happy,cheerful,friend,friendship,together,togetherness,fun,leisure,lifestyle,vacation,winter,cold,attractive,beautiful,pretty,handsome,20s,young adult,man,male,caucasian,woman,female,chinese,bar,pub,food and drink industry,business,winter clothing,warm clothing,woolly hat,sitting,holding,alcoholic,alcohol,drink,beverage,refreshment,beer,ale,beer glass,enjoyment,enjoying,toast,toasting,celebrating,celebration,table,food,plate,bread,meal,smiling,happy,cheerful,friend,friendship,together,togetherness,fun,leisure,lifestyle,vacation,winter,cold,attractive,beautiful,pretty,handsome,20s,young adult,man,male,caucasian,woman,female,chinese,bar,pub,food and drink industry,business,winter clothing,warm clothing,woolly hat,sitting,holding,alcoholic,alcohol,drink,beverage,refreshment,beer,ale,beer glass,enjoyment,enjoying,toast,toasting,celebrating,celebration,table,food,plate,bread,meal,smiling,happy,cheerful,friend,friendship,together,togetherness,fun,leisure,lifestyle,vacation,winter,cold,attractive,beautiful,pretty,handsome]"
+            dc:subject="[20s,young adult,man,male,caucasian,woman,female,chinese,bar,pub,food and drink industry,business,winter clothing,warm clothing,woolly hat,sitting,holding,alcoholic,alcohol,drink,beverage,refreshment,beer,ale,beer glass,enjoyment,enjoying,toast,toasting,celebrating,celebration,table,food,plate,bread,meal,smiling,happy,cheerful,friend,friendship,together,togetherness,fun,leisure,lifestyle,vacation,winter,cold,attractive,beautiful,pretty,handsome,20s,young adult,man,male,caucasian,woman,female,chinese,bar,pub,food and drink industry,business,winter clothing,warm clothing,woolly hat,sitting,holding,alcoholic,alcohol,drink,beverage,refreshment,beer,ale,beer glass,enjoyment,enjoying,toast,toasting,celebrating,celebration,table,food,plate,bread,meal,smiling,happy,cheerful,friend,friendship,together,togetherness,fun,leisure,lifestyle,vacation,winter,cold,attractive,beautiful,pretty,handsome,20s,young adult,man,male,caucasian,woman,female,chinese,bar,pub,food and drink industry,business,winter clothing,warm clothing,woolly hat,sitting,holding,alcoholic,alcohol,drink,beverage,refreshment,beer,ale,beer glass,enjoyment,enjoying,toast,toasting,celebrating,celebration,table,food,plate,bread,meal,smiling,happy,cheerful,friend,friendship,together,togetherness,fun,leisure,lifestyle,vacation,winter,cold,attractive,beautiful,pretty,handsome,20s,young adult,man,male,caucasian,woman,female,chinese,bar,pub,food and drink industry,business,winter clothing,warm clothing,woolly hat,sitting,holding,alcoholic,alcohol,drink,beverage,refreshment,beer,ale,beer glass,enjoyment,enjoying,toast,toasting,celebrating,celebration,table,food,plate,bread,meal,smiling,happy,cheerful,friend,friendship,together,togetherness,fun,leisure,lifestyle,vacation,winter,cold,attractive,beautiful,pretty,handsome,20s,young adult,man,male,caucasian,woman,female,chinese,bar,pub,food and drink industry,business,winter clothing,warm clothing,woolly hat,sitting,holding,alcoholic,alcohol,drink,beverage,refreshment,beer,ale,beer glass,enjoyment,enjoying,toast,toasting,celebrating,celebration,table,food,plate,bread,meal,smiling,happy,cheerful,friend,friendship,together,togetherness,fun,leisure,lifestyle,vacation,winter,cold,attractive,beautiful,pretty,handsome,20s,young adult,man,male,caucasian,woman,female,chinese,bar,pub,food and drink industry,business,winter clothing,warm clothing,woolly hat,sitting,holding,alcoholic,alcohol,drink,beverage,refreshment,beer,ale,beer glass,enjoyment,enjoying,toast,toasting,celebrating,celebration,table,food,plate,bread,meal,smiling,happy,cheerful,friend,friendship,together,togetherness,fun,leisure,lifestyle,vacation,winter,cold,attractive,beautiful,pretty,handsome,20s,young adult,man,male,caucasian,woman,female,chinese,bar,pub,food and drink industry,business,winter clothing,warm clothing,woolly hat,sitting,holding,alcoholic,alcohol,drink,beverage,refreshment,beer,ale,beer glass,enjoyment,enjoying,toast,toasting,celebrating,celebration,table,food,plate,bread,meal,smiling,happy,cheerful,friend,friendship,together,togetherness,fun,leisure,lifestyle,vacation,winter,cold,attractive,beautiful,pretty,handsome,20s,young adult,man,male,caucasian,woman,female,chinese,bar,pub,food and drink industry,business,winter clothing,warm clothing,woolly hat,sitting,holding,alcoholic,alcohol,drink,beverage,refreshment,beer,ale,beer glass,enjoyment,enjoying,toast,toasting,celebrating,celebration,table,food,plate,bread,meal,smiling,happy,cheerful,friend,friendship,together,togetherness,fun,leisure,lifestyle,vacation,winter,cold,attractive,beautiful,pretty,handsome,20s,young adult,man,male,caucasian,woman,female,chinese,bar,pub,food and drink industry,business,winter clothing,warm clothing,woolly hat,sitting,holding,alcoholic,alcohol,drink,beverage,refreshment,beer,ale,beer glass,enjoyment,enjoying,toast,toasting,celebrating,celebration,table,food,plate,bread,meal,smiling,happy,cheerful,friend,friendship,together,togetherness,fun,leisure,lifestyle,vacation,winter,cold,attractive,beautiful,pretty,handsome,20s,young adult,man,male,caucasian,woman,female,chinese,bar,pub,food and drink industry,business,winter clothing,warm clothing,woolly hat,sitting,holding,alcoholic,alcohol,drink,beverage,refreshment,beer,ale,beer glass,enjoyment,enjoying,toast,toasting,celebrating,celebration,table,food,plate,bread,meal,smiling,happy,cheerful,friend,friendship,together,togetherness,fun,leisure,lifestyle,vacation,winter,cold,attractive,beautiful,pretty,handsome,20s,young adult,man,male,caucasian,woman,female,chinese,bar,pub,food and drink industry,business,winter clothing,warm clothing,woolly hat,sitting,holding,alcoholic,alcohol,drink,beverage,refreshment,beer,ale,beer glass,enjoyment,enjoying,toast,toasting,celebrating,celebration,table,food,plate,bread,meal,smiling,happy,cheerful,friend,friendship,together,togetherness,fun,leisure,lifestyle,vacation,winter,cold,attractive,beautiful,pretty,handsome,20s,young adult,man,male,caucasian,woman,female,chinese,bar,pub,food and drink industry,business,winter clothing,warm clothing,woolly hat,sitting,holding,alcoholic,alcohol,drink,beverage,refreshment,beer,ale,beer glass,enjoyment,enjoying,toast,toasting,celebrating,celebration,table,food,plate,bread,meal,smiling,happy,cheerful,friend,friendship,together,togetherness,fun,leisure,lifestyle,vacation,winter,cold,attractive,beautiful,pretty,handsome,20s,young adult,man,male,caucasian,woman,female,chinese,bar,pub,food and drink industry,business,winter clothing,warm clothing,woolly hat,sitting,holding,alcoholic,alcohol,drink,beverage,refreshment,beer,ale,beer glass,enjoyment,enjoying,toast,toasting,celebrating,celebration,table,food,plate,bread,meal,smiling,happy,cheerful,friend,friendship,together,togetherness,fun,leisure,lifestyle,vacation,winter,cold,attractive,beautiful,pretty,handsome,20s,young adult,man,male,caucasian,woman,female,chinese,bar,pub,food and drink industry,business,winter clothing,warm clothing,woolly hat,sitting,holding,alcoholic,alcohol,drink,beverage,refreshment,beer,ale,beer glass,enjoyment,enjoying,toast,toasting,celebrating,celebration,table,food,plate,bread,meal,smiling,happy,cheerful,friend,friendship,together,togetherness,fun,leisure,lifestyle,vacation,winter,cold,attractive,beautiful,pretty,handsome,20s,young adult,man,male,caucasian,woman,female,chinese,bar,pub,food and drink industry,business,winter clothing,warm clothing,woolly hat,sitting,holding,alcoholic,alcohol,drink,beverage,refreshment,beer,ale,beer glass,enjoyment,enjoying,toast,toasting,celebrating,celebration,table,food,plate,bread,meal,smiling,happy,cheerful,friend,friendship,together,togetherness,fun,leisure,lifestyle,vacation,winter,cold,attractive,beautiful,pretty,handsome]"
             dc:subject_xmpArrayType="rdf:Bag"
             dc:title="Friends toasting with beer glasses in bar"
             exif:ApertureValue="24361/8200"
@@ -197,7 +197,7 @@
             exifEX:LensSpecification_xmpArrayType="rdf:Seq"
             exifEX:PhotographicSensitivity="{Long}1250"
             exifEX:SensitivityType="{Long}2"
-            jcr:lastModified="{Date}2019-10-24T15:49:32.438-07:00"
+            jcr:lastModified="{Date}2019-10-25T16:48:04.129-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
@@ -240,7 +240,8 @@
             xmpMM:DocumentID="xmp.did:4603b174-bafc-cb42-b851-e09222c4a076"
             xmpMM:InstanceID="xmp.iid:b504ba38-7340-4617-b402-1c736eac50bc"
             xmpMM:OriginalDocumentID="61F2064F0EB4783F953D1883A6DC2DCF"
-            xmpRights:UsageTerms="Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  "
+            xmpRights:UsageTerms="[Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  ]"
+            xmpRights:UsageTerms_xmpArrayType="rdf:Alt"
             lastTransferredForTagging="{Date}2019-10-24T15:48:53.133-07:00"
             simsearchVersion="1.0.0">
             <exif:Flash
@@ -264,114 +265,6 @@
                 stRef:instanceID="xmp.iid:1B243354CDD1E611B302E784C4D532AE"
                 stRef:originalDocumentID="61F2064F0EB4783F953D1883A6DC2DCF"
                 xmpNodeType="xmpStruct"/>
-            <xmpMM:History
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}15"
-                xmpArrayType="rdf:Seq"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="derived"
-                    stEvt:parameters="converted from image/x-nikon-nef to image/jpeg, saved to new location"
-                    xmpNodeType="xmpStruct"/>
-                <_x0032_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:8948d78a-36c1-ba42-9fbe-89977a6076ee"
-                    stEvt:softwareAgent="Adobe Photoshop Lightroom 6.7 (Windows)"
-                    stEvt:when="{Date}2016-12-16T10:46:34.000+05:30"
-                    xmpNodeType="xmpStruct"/>
-                <_x0033_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:0EB75A2F12CDE611B7BEAC250F86A644"
-                    stEvt:softwareAgent="Adobe Photoshop CS5.1 Windows"
-                    stEvt:when="{Date}2016-12-28T21:06:49.000+05:30"
-                    xmpNodeType="xmpStruct"/>
-                <_x0034_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="converted"
-                    stEvt:parameters="from image/jpeg to image/tiff"
-                    xmpNodeType="xmpStruct"/>
-                <_x0035_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="derived"
-                    stEvt:parameters="converted from image/jpeg to image/tiff"
-                    xmpNodeType="xmpStruct"/>
-                <_x0036_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:0FB75A2F12CDE611B7BEAC250F86A644"
-                    stEvt:softwareAgent="Adobe Photoshop CS5.1 Windows"
-                    stEvt:when="{Date}2016-12-28T21:06:49.000+05:30"
-                    xmpNodeType="xmpStruct"/>
-                <_x0037_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:10B75A2F12CDE611B7BEAC250F86A644"
-                    stEvt:softwareAgent="Adobe Photoshop CS5.1 Windows"
-                    stEvt:when="{Date}2016-12-28T21:06:53.000+05:30"
-                    xmpNodeType="xmpStruct"/>
-                <_x0038_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="converted"
-                    stEvt:parameters="from image/tiff to image/jpeg"
-                    xmpNodeType="xmpStruct"/>
-                <_x0039_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="derived"
-                    stEvt:parameters="converted from image/tiff to image/jpeg"
-                    xmpNodeType="xmpStruct"/>
-                <_x0031_0
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:11B75A2F12CDE611B7BEAC250F86A644"
-                    stEvt:softwareAgent="Adobe Photoshop CS5.1 Windows"
-                    stEvt:when="{Date}2016-12-28T21:06:53.000+05:30"
-                    xmpNodeType="xmpStruct"/>
-                <_x0031_1
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:85FC16C7F3D0E6118339C43979DDE951"
-                    stEvt:softwareAgent="Adobe Photoshop CS5.1 Windows"
-                    stEvt:when="{Date}2017-01-02T19:58:22.000+05:30"
-                    xmpNodeType="xmpStruct"/>
-                <_x0031_2
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:1B243354CDD1E611B302E784C4D532AE"
-                    stEvt:softwareAgent="Adobe Photoshop CS5.1 Windows"
-                    stEvt:when="{Date}2017-01-03T21:30:40.000+05:30"
-                    xmpNodeType="xmpStruct"/>
-                <_x0031_3
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="derived"
-                    stEvt:parameters="saved to new location"
-                    xmpNodeType="xmpStruct"/>
-                <_x0031_4
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:4603b174-bafc-cb42-b851-e09222c4a076"
-                    stEvt:softwareAgent="Adobe Photoshop Lightroom 6.8 (Windows)"
-                    stEvt:when="{Date}2017-01-05T16:26:10.000Z"
-                    xmpNodeType="xmpStruct"/>
-                <_x0031_5
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:b504ba38-7340-4617-b402-1c736eac50bc"
-                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
-                    stEvt:when="{Date}2019-10-24T15:19:15.000-07:00"
-                    xmpNodeType="xmpStruct"/>
-            </xmpMM:History>
             <predictedTags jcr:primaryType="nt:unstructured">
                 <woman
                     jcr:lastModified="{Date}2019-10-24T15:48:53.128-07:00"
@@ -528,7 +421,124 @@
                 jcr:primaryType="nt:unstructured"
                 haystack0="{Binary}"/>
             <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}15"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="converted from image/x-nikon-nef to image/jpeg, saved to new location"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:8948d78a-36c1-ba42-9fbe-89977a6076ee"
+                    stEvt:softwareAgent="Adobe Photoshop Lightroom 6.7 (Windows)"
+                    stEvt:when="{Date}2016-12-16T10:46:34.000+05:30"
+                    xmpNodeType="xmpStruct"/>
+                <_x0033_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:0EB75A2F12CDE611B7BEAC250F86A644"
+                    stEvt:softwareAgent="Adobe Photoshop CS5.1 Windows"
+                    stEvt:when="{Date}2016-12-28T21:06:49.000+05:30"
+                    xmpNodeType="xmpStruct"/>
+                <_x0034_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="converted"
+                    stEvt:parameters="from image/jpeg to image/tiff"
+                    xmpNodeType="xmpStruct"/>
+                <_x0035_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="converted from image/jpeg to image/tiff"
+                    xmpNodeType="xmpStruct"/>
+                <_x0036_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:0FB75A2F12CDE611B7BEAC250F86A644"
+                    stEvt:softwareAgent="Adobe Photoshop CS5.1 Windows"
+                    stEvt:when="{Date}2016-12-28T21:06:49.000+05:30"
+                    xmpNodeType="xmpStruct"/>
+                <_x0037_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:10B75A2F12CDE611B7BEAC250F86A644"
+                    stEvt:softwareAgent="Adobe Photoshop CS5.1 Windows"
+                    stEvt:when="{Date}2016-12-28T21:06:53.000+05:30"
+                    xmpNodeType="xmpStruct"/>
+                <_x0038_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="converted"
+                    stEvt:parameters="from image/tiff to image/jpeg"
+                    xmpNodeType="xmpStruct"/>
+                <_x0039_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="converted from image/tiff to image/jpeg"
+                    xmpNodeType="xmpStruct"/>
+                <_x0031_0
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:11B75A2F12CDE611B7BEAC250F86A644"
+                    stEvt:softwareAgent="Adobe Photoshop CS5.1 Windows"
+                    stEvt:when="{Date}2016-12-28T21:06:53.000+05:30"
+                    xmpNodeType="xmpStruct"/>
+                <_x0031_1
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:85FC16C7F3D0E6118339C43979DDE951"
+                    stEvt:softwareAgent="Adobe Photoshop CS5.1 Windows"
+                    stEvt:when="{Date}2017-01-02T19:58:22.000+05:30"
+                    xmpNodeType="xmpStruct"/>
+                <_x0031_2
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:1B243354CDD1E611B302E784C4D532AE"
+                    stEvt:softwareAgent="Adobe Photoshop CS5.1 Windows"
+                    stEvt:when="{Date}2017-01-03T21:30:40.000+05:30"
+                    xmpNodeType="xmpStruct"/>
+                <_x0031_3
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="saved to new location"
+                    xmpNodeType="xmpStruct"/>
+                <_x0031_4
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:4603b174-bafc-cb42-b851-e09222c4a076"
+                    stEvt:softwareAgent="Adobe Photoshop Lightroom 6.8 (Windows)"
+                    stEvt:when="{Date}2017-01-05T16:26:10.000Z"
+                    xmpNodeType="xmpStruct"/>
+                <_x0031_5
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:b504ba38-7340-4617-b402-1c736eac50bc"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
+                    stEvt:when="{Date}2019-10-24T15:19:15.000-07:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}2"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}2"
+                lastUsed="{Date}2019-10-25T16:02:18.194-07:00"/>
+        </usages>
     </jcr:content>
 </jcr:root>

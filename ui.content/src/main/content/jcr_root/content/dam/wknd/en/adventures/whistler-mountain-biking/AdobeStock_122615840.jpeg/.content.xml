@@ -8,7 +8,7 @@
         cq:name="AdobeStock_122615840.jpeg"
         cq:parentPath="/content/dam/wknd/en/adventures/whistler-mountain-biking"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-24T15:52:53.146-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:48:20.239-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -85,7 +85,7 @@
             crs:VignetteAmount="{Long}0"
             dam:Bitsperpixel="{Long}24"
             dam:EditStatus="MR"
-            dam:extracted="{Date}2019-10-24T15:51:47.223-07:00"
+            dam:extracted="{Date}2019-10-25T16:47:34.034-07:00"
             dam:Fileformat="JPEG"
             dam:FixtureIdentifier="horizontal"
             dam:MIMEtype="image/jpeg"
@@ -96,21 +96,21 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}16.875"
             dam:Progressive="no"
-            dam:sha1="4df4eab261920a1379aaa2bfaf6ba7263b3bcdc6"
-            dam:size="{Long}541878"
+            dam:sha1="35432474baceb7ddae74cc95b018ccf8232c0b1c"
+            dam:size="{Long}548025"
             dam:SpecialInstructions="PRNR"
             dam:Sublocation="Golden, British Columbia, Canada"
-            dam:TimeCreated="055540+0000"
+            dam:TimeCreated="055540-0700"
             dam:Unknown="ACN-SI-001"
-            dc:creator="[Ryan Creary]"
+            dc:creator="[Ryan Creary,Ryan Creary,Ryan Creary]"
             dc:creator_xmpArrayType="rdf:Seq"
-            dc:date="{Long}[20110607]"
-            dc:date_xmpArrayType="rdf:Bag"
+            dc:date="{Long}[20110607,20110607,20110607]"
+            dc:date_xmpArrayType="rdf:Seq"
             dc:description="A young male mountain biker riding the Moonraker cross country trail system near Golden, BC"
             dc:format="image/jpeg"
             dc:modified="{Date}2019-10-24T15:52:53.032-07:00"
             dc:rights="©All Canada Photos - stock.adobe.com"
-            dc:subject="[all mountain,cedar lake,moonraker trails,mountain bikes,rain,washing bikes,colour image,color image,horizontal,photography,Ryan Creary,People,Model released,Canada,British Columbia,Golden,outdoor,outdoors,Daytime,Day,bikes,bike,leisure,recreational,recreation,activities,activity,bikers,biker,riding,healthy lifestyles,active,bike riding,biking,cycling,trail,trails,natural world,nature,pristine,back country,Wilderness,bicycles,bicycle,mountain biking,landscapes,landscape,safety gear,protective wear,helmets,helmet,forests,forest,trees,tree,B.C.,BC,One Person,1 person,canyon,canyons,cliffs,cliff,action sports,action sport,people,unrecognizable people,all mountain,cedar lake,moonraker trails,mountain bikes,rain,washing bikes,colour image,color image,horizontal,photography,ryan creary,people,model released,canada,british columbia,golden,outdoor,outdoors,daytime,day,bikes,bike,leisure,recreational,recreation,activities,activity,bikers,biker,riding,healthy lifestyles,active,bike riding,biking,cycling,trail,trails,natural world,nature,pristine,back country,wilderness,bicycles,bicycle,mountain biking,landscapes,landscape,safety gear,protective wear,helmets,helmet,forests,forest,trees,tree,b c,bc,one person,1 person,canyon,canyons,cliffs,cliff,action sports,action sport,unrecognizable people,all mountain,cedar lake,moonraker trails,mountain bikes,rain,washing bikes,colour image,color image,horizontal,photography,Ryan Creary,People,Model released,Canada,British Columbia,Golden,outdoor,outdoors,Daytime,Day,bikes,bike,leisure,recreational,recreation,activities,activity,bikers,biker,riding,healthy lifestyles,active,bike riding,biking,cycling,trail,trails,natural world,nature,pristine,back country,Wilderness,bicycles,bicycle,mountain biking,landscapes,landscape,safety gear,protective wear,helmets,helmet,forests,forest,trees,tree,B.C.,BC,One Person,1 person,canyon,canyons,cliffs,cliff,action sports,action sport,people,unrecognizable people,all mountain,cedar lake,moonraker trails,mountain bikes,rain,washing bikes,colour image,color image,horizontal,photography,ryan creary,people,model released,canada,british columbia,golden,outdoor,outdoors,daytime,day,bikes,bike,leisure,recreational,recreation,activities,activity,bikers,biker,riding,healthy lifestyles,active,bike riding,biking,cycling,trail,trails,natural world,nature,pristine,back country,wilderness,bicycles,bicycle,mountain biking,landscapes,landscape,safety gear,protective wear,]"
+            dc:subject="[all mountain,cedar lake,moonraker trails,mountain bikes,rain,washing bikes,colour image,color image,horizontal,photography,Ryan Creary,People,Model released,Canada,British Columbia,Golden,outdoor,outdoors,Daytime,Day,bikes,bike,leisure,recreational,recreation,activities,activity,bikers,biker,riding,healthy lifestyles,active,bike riding,biking,cycling,trail,trails,natural world,nature,pristine,back country,Wilderness,bicycles,bicycle,mountain biking,landscapes,landscape,safety gear,protective wear,helmets,helmet,forests,forest,trees,tree,B.C.,BC,One Person,1 person,canyon,canyons,cliffs,cliff,action sports,action sport,people,unrecognizable people,all mountain,cedar lake,moonraker trails,mountain bikes,rain,washing bikes,colour image,color image,horizontal,photography,ryan creary,people,model released,canada,british columbia,golden,outdoor,outdoors,daytime,day,bikes,bike,leisure,recreational,recreation,activities,activity,bikers,biker,riding,healthy lifestyles,active,bike riding,biking,cycling,trail,trails,natural world,nature,pristine,back country,wilderness,bicycles,bicycle,mountain biking,landscapes,landscape,safety gear,protective wear,helmets,helmet,forests,forest,trees,tree,b c,bc,one person,1 person,canyon,canyons,cliffs,cliff,action sports,action sport,unrecognizable people,all mountain,cedar lake,moonraker trails,mountain bikes,rain,washing bikes,colour image,color image,horizontal,photography,Ryan Creary,People,Model released,Canada,British Columbia,Golden,outdoor,outdoors,Daytime,Day,bikes,bike,leisure,recreational,recreation,activities,activity,bikers,biker,riding,healthy lifestyles,active,bike riding,biking,cycling,trail,trails,natural world,nature,pristine,back country,Wilderness,bicycles,bicycle,mountain biking,landscapes,landscape,safety gear,protective wear,helmets,helmet,forests,forest,trees,tree,B.C.,BC,One Person,1 person,canyon,canyons,cliffs,cliff,action sports,action sport,people,unrecognizable people,all mountain,cedar lake,moonraker trails,mountain bikes,rain,washing bikes,colour image,color image,horizontal,photography,ryan creary,people,model released,canada,british columbia,golden,outdoor,outdoors,daytime,day,bikes,bike,leisure,recreational,recreation,activities,activity,bikers,biker,riding,healthy lifestyles,active,bike riding,biking,cycling,trail,trails,natural world,nature,pristine,back country,wilderness,bicycles,bicycle,mountain biking,landscapes,landscape,safety gear,protective wear,all mountain,cedar lake,moonraker trails,mountain bikes,rain,washing bikes,colour image,color image,horizontal,photography,Ryan Creary,People,Model released,Canada,British Columbia,Golden,outdoor,outdoors,Daytime,Day,bikes,bike,leisure,recreational,recreation,activities,activity,bikers,biker,riding,healthy lifestyles,active,bike riding,biking,cycling,trail,trails,natural world,nature,pristine,back country,Wilderness,bicycles,bicycle,mountain biking,landscapes,landscape,safety gear,protective wear,helmets,helmet,forests,forest,trees,tree,B.C.,BC,One Person,1 person,canyon,canyons,cliffs,cliff,action sports,action sport,people,unrecognizable people,all mountain,cedar lake,moonraker trails,mountain bikes,rain,washing bikes,colour image,color image,horizontal,photography,ryan creary,people,model released,canada,british columbia,golden,outdoor,outdoors,daytime,day,bikes,bike,leisure,recreational,recreation,activities,activity,bikers,biker,riding,healthy lifestyles,active,bike riding,biking,cycling,trail,trails,natural world,nature,pristine,back country,wilderness,bicycles,bicycle,mountain biking,landscapes,landscape,safety gear,protective wear,helmets,helmet,forests,forest,trees,tree,b c,bc,one person,1 person,canyon,canyons,cliffs,cliff,action sports,action sport,unrecognizable people,all mountain,cedar lake,moonraker trails,mountain bikes,rain,washing bikes,colour image,color image,horizontal,photography,Ryan Creary,People,Model released,Canada,British Columbia,Golden,outdoor,outdoors,Daytime,Day,bikes,bike,leisure,recreational,recreation,activities,activity,bikers,biker,riding,healthy lifestyles,active,bike riding,biking,cycling,trail,trails,natural world,nature,pristine,back country,Wilderness,bicycles,bicycle,mountain biking,landscapes,landscape,safety gear,protective wear,helmets,helmet,forests,forest,trees,tree,B.C.,BC,One Person,1 person,canyon,canyons,cliffs,cliff,action sports,action sport,people,unrecognizable people,all mountain,cedar lake,moonraker trails,mountain bikes,rain,washing bikes,colour image,color image,horizontal,photography,ryan creary,people,model released,canada,british columbia,golden,outdoor,outdoors,daytime,day,bikes,bike,leisure,recreational,recreation,activities,activity,bikers,biker,riding,healthy lifestyles,active,bike riding,biking,cycling,trail,trails,natural world,nature,pristine,back country,wilderness,bicycles,bicycle,mountain biking,landscapes,landscape,safety gear,protective wear,all mountain,cedar lake,moonraker trails,mountain bikes,rain,washing bikes,colour image,color image,horizontal,photography,Ryan Creary,People,Model released,Canada,British Columbia,Golden,outdoor,outdoors,Daytime,Day,bikes,bike,leisure,recreational,recreation,activities,activity,bikers,biker,riding,healthy lifestyles,active,bike riding,biking,cycling,trail,trails,natural world,nature,pristine,back country,Wilderness,bicycles,bicycle,mountain biking,landscapes,landscape,safety gear,protective wear,helmets,helmet,forests,forest,trees,tree,B.C.,BC,One Person,1 person,canyon,canyons,cliffs,cliff,action sports,action sport,people,unrecognizable people,ryan creary,model released,canada,british columbia,golden,daytime,day,wilderness,b c,bc,one person,action sports,action sport]"
             dc:subject_xmpArrayType="rdf:Bag"
             dc:title="A young male mountain biker riding the Moonraker cross country trail system near Golden, BC"
             exif:ApertureValue="4/1"
@@ -143,11 +143,13 @@
             exif:ShutterSpeedValue="37325/4004"
             exif:WhiteBalance="{Long}0"
             exifEX:BodySerialNumber="{Long}520301738"
+            exifEX:LensModel="EF28mm f/1.8 USM"
             exifEX:LensSpecification="[28/1,28/1,0/0,0/0]"
             exifEX:LensSpecification_xmpArrayType="rdf:Seq"
+            exifEX:PhotographicSensitivity="{Long}400"
             Iptc4xmpCore:IntellectualGenre="ACN-SI-001"
             Iptc4xmpCore:Location="Golden, British Columbia, Canada"
-            jcr:lastModified="{Date}2019-10-24T15:52:53.032-07:00"
+            jcr:lastModified="{Date}2019-10-25T16:48:16.550-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
@@ -215,35 +217,6 @@
                 exif:Return="{Long}0"
                 jcr:primaryType="nt:unstructured"
                 xmpNodeType="xmpStruct"/>
-            <xmpMM:History
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}1"
-                xmpArrayType="rdf:Seq"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:c77288cc-4757-4f38-8202-5913a0628159"
-                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
-                    stEvt:when="{Date}2019-10-24T15:31:31.000-07:00"
-                    xmpNodeType="xmpStruct"/>
-            </xmpMM:History>
-            <Iptc4xmpExt:Event
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}1"
-                xmpArrayType="rdf:Alt"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    jcr:primaryType="nt:unstructured"
-                    _x0031_="horizontal"
-                    xmpNodeType="xmpSimple">
-                    <__Q
-                        jcr:primaryType="nt:unstructured"
-                        xml:lang="x-default"
-                        xmpNodeType="xmpQualifier"/>
-                </_x0031_>
-            </Iptc4xmpExt:Event>
             <predictedTags jcr:primaryType="nt:unstructured">
                 <nature
                     jcr:lastModified="{Date}2019-10-24T15:51:49.687-07:00"
@@ -400,6 +373,35 @@
                 jcr:primaryType="nt:unstructured"
                 haystack0="{Binary}"/>
             <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}1"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:c77288cc-4757-4f38-8202-5913a0628159"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
+                    stEvt:when="{Date}2019-10-24T15:31:31.000-07:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
+            <Iptc4xmpExt:Event
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}1"
+                xmpArrayType="rdf:Alt"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    _x0031_="horizontal"
+                    xmpNodeType="xmpSimple">
+                    <__Q
+                        jcr:primaryType="nt:unstructured"
+                        xml:lang="x-default"
+                        xmpNodeType="xmpQualifier"/>
+                </_x0031_>
+            </Iptc4xmpExt:Event>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

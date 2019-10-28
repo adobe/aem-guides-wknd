@@ -8,7 +8,7 @@
         cq:name="AdobeStock_227565072.jpeg"
         cq:parentPath="/content/dam/wknd/en/adventures/whistler-mountain-biking"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-24T15:52:38.791-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:47:27.699-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -126,8 +126,8 @@
             crs:Whites2012="{Long}10"
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20170822"
-            dam:DigitalCreationTime="193439+0000"
-            dam:extracted="{Date}2019-10-24T15:51:47.348-07:00"
+            dam:DigitalCreationTime="193439-0700"
+            dam:extracted="{Date}2019-10-25T16:47:21.194-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -137,17 +137,17 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}21.36111068725586"
             dam:Progressive="no"
-            dam:sha1="31ded487a3ecfd1fca58b19e057b0cb1c183cfc6"
-            dam:size="{Long}547551"
-            dam:TimeCreated="193439+0000"
-            dc:creator="[CHRISTIAN TISDALE]"
+            dam:sha1="c10e9dbd50dd31b71040028f4e65a3052ab484bf"
+            dam:size="{Long}551259"
+            dam:TimeCreated="193439-0700"
+            dc:creator="[CHRISTIAN TISDALE,CHRISTIAN TISDALE,CHRISTIAN TISDALE]"
             dc:creator_xmpArrayType="rdf:Seq"
-            dc:date="{Long}[20170822]"
-            dc:date_xmpArrayType="rdf:Bag"
+            dc:date="{Long}[20170822,20170822,20170822]"
+            dc:date_xmpArrayType="rdf:Seq"
             dc:format="image/jpeg"
             dc:modified="{Date}2019-10-24T15:52:38.651-07:00"
             dc:rights="©christiantisdalephoto/Stocksy - stock.adobe.com"
-            dc:subject="[BC Ferries,British columbia,aquatic,bc,boat,canada,coast,cruise,cruise ship,dock,evening,explore,ferry,ferry boat,forest,government,harbour,horseshoe bay,marine,mariner,mountains,provincial,safe,ship,shipping,summer,sunset,transport,transportation,travel,vancouver,voyage,west coast,BC Ferries,British columbia,aquatic,bc,boat,canada,coast,cruise,cruise ship,dock,evening,explore,ferry,ferry boat,forest,government,harbour,horseshoe bay,marine,mariner,mountains,provincial,safe,ship,shipping,summer,sunset,transport,transportation,travel,vancouver,voyage,west coast,BC Ferries,British columbia,aquatic,bc,boat,canada,coast,cruise,cruise ship,dock,evening,explore,ferry,ferry boat,forest,government,harbour,horseshoe bay,marine,mariner,mountains,provincial,safe,ship,shipping,summer,sunset,transport,transportation,travel,vancouver,voyage,west coast]"
+            dc:subject="[BC Ferries,British columbia,aquatic,bc,boat,canada,coast,cruise,cruise ship,dock,evening,explore,ferry,ferry boat,forest,government,harbour,horseshoe bay,marine,mariner,mountains,provincial,safe,ship,shipping,summer,sunset,transport,transportation,travel,vancouver,voyage,west coast,BC Ferries,British columbia,aquatic,bc,boat,canada,coast,cruise,cruise ship,dock,evening,explore,ferry,ferry boat,forest,government,harbour,horseshoe bay,marine,mariner,mountains,provincial,safe,ship,shipping,summer,sunset,transport,transportation,travel,vancouver,voyage,west coast,BC Ferries,British columbia,aquatic,bc,boat,canada,coast,cruise,cruise ship,dock,evening,explore,ferry,ferry boat,forest,government,harbour,horseshoe bay,marine,mariner,mountains,provincial,safe,ship,shipping,summer,sunset,transport,transportation,travel,vancouver,voyage,west coast,BC Ferries,British columbia,aquatic,bc,boat,canada,coast,cruise,cruise ship,dock,evening,explore,ferry,ferry boat,forest,government,harbour,horseshoe bay,marine,mariner,mountains,provincial,safe,ship,shipping,summer,sunset,transport,transportation,travel,vancouver,voyage,west coast,BC Ferries,British columbia,aquatic,bc,boat,canada,coast,cruise,cruise ship,dock,evening,explore,ferry,ferry boat,forest,government,harbour,horseshoe bay,marine,mariner,mountains,provincial,safe,ship,shipping,summer,sunset,transport,transportation,travel,vancouver,voyage,west coast,BC Ferries,British columbia,aquatic,bc,boat,canada,coast,cruise,cruise ship,dock,evening,explore,ferry,ferry boat,forest,government,harbour,horseshoe bay,marine,mariner,mountains,provincial,safe,ship,shipping,summer,sunset,transport,transportation,travel,vancouver,voyage,west coast,BC Ferries,British columbia,aquatic,bc,boat,canada,coast,cruise,cruise ship,dock,evening,explore,ferry,ferry boat,forest,government,harbour,horseshoe bay,marine,mariner,mountains,provincial,safe,ship,shipping,summer,sunset,transport,transportation,travel,vancouver,voyage,west coast]"
             dc:subject_xmpArrayType="rdf:Bag"
             dc:title="Two ferries at sunset passing eachother on the British Columbia coast"
             exif:ApertureValue="40761/8200"
@@ -191,7 +191,7 @@
             exifEX:PhotographicSensitivity="{Long}320"
             exifEX:RecommendedExposureIndex="{Long}320"
             exifEX:SensitivityType="{Long}2"
-            jcr:lastModified="{Date}2019-10-24T15:52:38.651-07:00"
+            jcr:lastModified="{Date}2019-10-25T16:47:24.897-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
@@ -236,7 +236,8 @@
             xmpMM:DocumentID="xmp.did:97aed78e-0a64-452d-9f79-ddc7402dae6e"
             xmpMM:InstanceID="xmp.iid:ea6fe069-f905-457e-8d21-6cc271e431cd"
             xmpMM:OriginalDocumentID="D3F963DC2264F012730B3BBE090B5C9C"
-            xmpRights:UsageTerms="Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  "
+            xmpRights:UsageTerms="[Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  ]"
+            xmpRights:UsageTerms_xmpArrayType="rdf:Alt"
             lastTransferredForTagging="{Date}2019-10-24T15:51:50.840-07:00"
             simsearchVersion="1.0.0">
             <exif:Flash
@@ -247,6 +248,168 @@
                 exif:Return="{Long}0"
                 jcr:primaryType="nt:unstructured"
                 xmpNodeType="xmpStruct"/>
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="adobe:docid:photoshop:b6a8b65e-c8bf-117a-bc8f-e754002ce1b2"
+                stRef:instanceID="xmp.iid:a94e5cb6-d6df-4ca2-8589-0d8ae9162111"
+                stRef:originalDocumentID="D3F963DC2264F012730B3BBE090B5C9C"
+                xmpNodeType="xmpStruct"/>
+            <predictedTags jcr:primaryType="nt:unstructured">
+                <tree
+                    jcr:lastModified="{Date}2019-10-24T15:51:50.833-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7981668710708618"
+                    isCustom="{Boolean}false"
+                    name="tree"/>
+                <landscape
+                    jcr:lastModified="{Date}2019-10-24T15:51:50.833-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7870776057243347"
+                    isCustom="{Boolean}false"
+                    name="landscape"/>
+                <water
+                    jcr:lastModified="{Date}2019-10-24T15:51:50.833-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7820525169372559"
+                    isCustom="{Boolean}false"
+                    name="water"/>
+                <lake
+                    jcr:lastModified="{Date}2019-10-24T15:51:50.834-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.764144241809845"
+                    isCustom="{Boolean}false"
+                    name="lake"/>
+                <nature
+                    jcr:lastModified="{Date}2019-10-24T15:51:50.834-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7425158023834229"
+                    isCustom="{Boolean}false"
+                    name="nature"/>
+                <beach
+                    jcr:lastModified="{Date}2019-10-24T15:51:50.834-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7344847917556763"
+                    isCustom="{Boolean}false"
+                    name="beach"/>
+                <sea
+                    jcr:lastModified="{Date}2019-10-24T15:51:50.835-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7280803322792053"
+                    isCustom="{Boolean}false"
+                    name="sea"/>
+                <sky
+                    jcr:lastModified="{Date}2019-10-24T15:51:50.835-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7162916660308838"
+                    isCustom="{Boolean}false"
+                    name="sky"/>
+                <blue
+                    jcr:lastModified="{Date}2019-10-24T15:51:50.835-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.698935866355896"
+                    isCustom="{Boolean}false"
+                    name="blue"/>
+                <sunset
+                    jcr:lastModified="{Date}2019-10-24T15:51:50.835-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.687536358833313"
+                    isCustom="{Boolean}false"
+                    name="sunset"/>
+                <sunrise
+                    jcr:lastModified="{Date}2019-10-24T15:51:50.836-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6761956214904785"
+                    isCustom="{Boolean}false"
+                    name="sunrise"/>
+                <forest
+                    jcr:lastModified="{Date}2019-10-24T15:51:50.836-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6501969695091248"
+                    isCustom="{Boolean}false"
+                    name="forest"/>
+                <trees
+                    jcr:lastModified="{Date}2019-10-24T15:51:50.836-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6419346332550049"
+                    isCustom="{Boolean}false"
+                    name="trees"/>
+                <mountain
+                    jcr:lastModified="{Date}2019-10-24T15:51:50.837-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6300436854362488"
+                    isCustom="{Boolean}false"
+                    name="mountain"/>
+                <river
+                    jcr:lastModified="{Date}2019-10-24T15:51:50.837-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6289364099502563"
+                    isCustom="{Boolean}false"
+                    name="river"/>
+                <travel
+                    jcr:lastModified="{Date}2019-10-24T15:51:50.837-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6233358383178711"
+                    isCustom="{Boolean}false"
+                    name="travel"/>
+                <ocean
+                    jcr:lastModified="{Date}2019-10-24T15:51:50.837-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6225603818893433"
+                    isCustom="{Boolean}false"
+                    name="ocean"/>
+                <horizon
+                    jcr:lastModified="{Date}2019-10-24T15:51:50.838-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6214139461517334"
+                    isCustom="{Boolean}false"
+                    name="horizon"/>
+                <coast
+                    jcr:lastModified="{Date}2019-10-24T15:51:50.838-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6206704378128052"
+                    isCustom="{Boolean}false"
+                    name="coast"/>
+                <morning
+                    jcr:lastModified="{Date}2019-10-24T15:51:50.838-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6187705397605896"
+                    isCustom="{Boolean}false"
+                    name="morning"/>
+                <island
+                    jcr:lastModified="{Date}2019-10-24T15:51:50.839-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.617224395275116"
+                    isCustom="{Boolean}false"
+                    name="island"/>
+                <cloud
+                    jcr:lastModified="{Date}2019-10-24T15:51:50.839-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5988925695419312"
+                    isCustom="{Boolean}false"
+                    name="cloud"/>
+                <beautiful
+                    jcr:lastModified="{Date}2019-10-24T15:51:50.839-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5983641147613525"
+                    isCustom="{Boolean}false"
+                    name="beautiful"/>
+                <shore
+                    jcr:lastModified="{Date}2019-10-24T15:51:50.840-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5971094965934753"
+                    isCustom="{Boolean}false"
+                    name="shore"/>
+                <pine
+                    jcr:lastModified="{Date}2019-10-24T15:51:50.840-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5855854749679565"
+                    isCustom="{Boolean}false"
+                    name="pine"/>
+            </predictedTags>
+            <imageFeatures
+                jcr:primaryType="nt:unstructured"
+                haystack0="{Binary}"/>
+            <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
             <crs:CircularGradientBasedCorrections
                 jcr:primaryType="nt:unstructured"
                 xmpArraySize="{Long}1"
@@ -516,12 +679,6 @@
                     </crs:Masks>
                 </_x0035_>
             </crs:RetouchAreas>
-            <xmpMM:DerivedFrom
-                jcr:primaryType="nt:unstructured"
-                stRef:documentID="adobe:docid:photoshop:b6a8b65e-c8bf-117a-bc8f-e754002ce1b2"
-                stRef:instanceID="xmp.iid:a94e5cb6-d6df-4ca2-8589-0d8ae9162111"
-                stRef:originalDocumentID="D3F963DC2264F012730B3BBE090B5C9C"
-                xmpNodeType="xmpStruct"/>
             <xmpMM:History
                 jcr:primaryType="nt:unstructured"
                 xmpArraySize="{Long}6"
@@ -570,162 +727,6 @@
                     stEvt:when="{Date}2019-10-24T15:31:08.000-07:00"
                     xmpNodeType="xmpStruct"/>
             </xmpMM:History>
-            <predictedTags jcr:primaryType="nt:unstructured">
-                <tree
-                    jcr:lastModified="{Date}2019-10-24T15:51:50.833-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7981668710708618"
-                    isCustom="{Boolean}false"
-                    name="tree"/>
-                <landscape
-                    jcr:lastModified="{Date}2019-10-24T15:51:50.833-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7870776057243347"
-                    isCustom="{Boolean}false"
-                    name="landscape"/>
-                <water
-                    jcr:lastModified="{Date}2019-10-24T15:51:50.833-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7820525169372559"
-                    isCustom="{Boolean}false"
-                    name="water"/>
-                <lake
-                    jcr:lastModified="{Date}2019-10-24T15:51:50.834-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.764144241809845"
-                    isCustom="{Boolean}false"
-                    name="lake"/>
-                <nature
-                    jcr:lastModified="{Date}2019-10-24T15:51:50.834-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7425158023834229"
-                    isCustom="{Boolean}false"
-                    name="nature"/>
-                <beach
-                    jcr:lastModified="{Date}2019-10-24T15:51:50.834-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7344847917556763"
-                    isCustom="{Boolean}false"
-                    name="beach"/>
-                <sea
-                    jcr:lastModified="{Date}2019-10-24T15:51:50.835-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7280803322792053"
-                    isCustom="{Boolean}false"
-                    name="sea"/>
-                <sky
-                    jcr:lastModified="{Date}2019-10-24T15:51:50.835-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7162916660308838"
-                    isCustom="{Boolean}false"
-                    name="sky"/>
-                <blue
-                    jcr:lastModified="{Date}2019-10-24T15:51:50.835-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.698935866355896"
-                    isCustom="{Boolean}false"
-                    name="blue"/>
-                <sunset
-                    jcr:lastModified="{Date}2019-10-24T15:51:50.835-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.687536358833313"
-                    isCustom="{Boolean}false"
-                    name="sunset"/>
-                <sunrise
-                    jcr:lastModified="{Date}2019-10-24T15:51:50.836-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6761956214904785"
-                    isCustom="{Boolean}false"
-                    name="sunrise"/>
-                <forest
-                    jcr:lastModified="{Date}2019-10-24T15:51:50.836-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6501969695091248"
-                    isCustom="{Boolean}false"
-                    name="forest"/>
-                <trees
-                    jcr:lastModified="{Date}2019-10-24T15:51:50.836-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6419346332550049"
-                    isCustom="{Boolean}false"
-                    name="trees"/>
-                <mountain
-                    jcr:lastModified="{Date}2019-10-24T15:51:50.837-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6300436854362488"
-                    isCustom="{Boolean}false"
-                    name="mountain"/>
-                <river
-                    jcr:lastModified="{Date}2019-10-24T15:51:50.837-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6289364099502563"
-                    isCustom="{Boolean}false"
-                    name="river"/>
-                <travel
-                    jcr:lastModified="{Date}2019-10-24T15:51:50.837-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6233358383178711"
-                    isCustom="{Boolean}false"
-                    name="travel"/>
-                <ocean
-                    jcr:lastModified="{Date}2019-10-24T15:51:50.837-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6225603818893433"
-                    isCustom="{Boolean}false"
-                    name="ocean"/>
-                <horizon
-                    jcr:lastModified="{Date}2019-10-24T15:51:50.838-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6214139461517334"
-                    isCustom="{Boolean}false"
-                    name="horizon"/>
-                <coast
-                    jcr:lastModified="{Date}2019-10-24T15:51:50.838-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6206704378128052"
-                    isCustom="{Boolean}false"
-                    name="coast"/>
-                <morning
-                    jcr:lastModified="{Date}2019-10-24T15:51:50.838-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6187705397605896"
-                    isCustom="{Boolean}false"
-                    name="morning"/>
-                <island
-                    jcr:lastModified="{Date}2019-10-24T15:51:50.839-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.617224395275116"
-                    isCustom="{Boolean}false"
-                    name="island"/>
-                <cloud
-                    jcr:lastModified="{Date}2019-10-24T15:51:50.839-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5988925695419312"
-                    isCustom="{Boolean}false"
-                    name="cloud"/>
-                <beautiful
-                    jcr:lastModified="{Date}2019-10-24T15:51:50.839-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5983641147613525"
-                    isCustom="{Boolean}false"
-                    name="beautiful"/>
-                <shore
-                    jcr:lastModified="{Date}2019-10-24T15:51:50.840-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5971094965934753"
-                    isCustom="{Boolean}false"
-                    name="shore"/>
-                <pine
-                    jcr:lastModified="{Date}2019-10-24T15:51:50.840-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5855854749679565"
-                    isCustom="{Boolean}false"
-                    name="pine"/>
-            </predictedTags>
-            <imageFeatures
-                jcr:primaryType="nt:unstructured"
-                haystack0="{Binary}"/>
-            <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

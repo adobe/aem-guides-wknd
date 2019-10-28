@@ -8,7 +8,7 @@
         cq:name="AdobeStock_93049279.jpeg"
         cq:parentPath="/content/dam/wknd/en/adventures/downhill-skiing-wyoming"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-24T15:48:01.150-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:47:48.023-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -118,8 +118,8 @@
             crs:VignetteAmount="{Long}0"
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20100214"
-            dam:DigitalCreationTime="072432-0700"
-            dam:extracted="{Date}2019-10-24T15:46:09.533-07:00"
+            dam:DigitalCreationTime="072432-0800"
+            dam:extracted="{Date}2019-10-25T16:47:44.301-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -129,18 +129,18 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}18.68055534362793"
             dam:Progressive="no"
-            dam:sha1="841a40c325f5648956b08f0c8b0deb9062529dc9"
-            dam:size="{Long}575155"
-            dam:TimeCreated="072432-0700"
-            dc:creator="[Photographer:  Eric J. Nelson]"
+            dam:sha1="76bef11d742a7d1f3b396f0a7995ea2d5fa4a982"
+            dam:size="{Long}577096"
+            dam:TimeCreated="062432-0800"
+            dc:creator="[Photographer:  Eric J. Nelson,Photographer:  Eric J. Nelson,Photographer:  Eric J. Nelson]"
             dc:creator_xmpArrayType="rdf:Seq"
-            dc:date="{Long}[20100214]"
-            dc:date_xmpArrayType="rdf:Bag"
+            dc:date="{Long}[20100214,20100214,20100214]"
+            dc:date_xmpArrayType="rdf:Seq"
             dc:description="Snowy Winter Dawn on the Teton Range, Grand Teton National Park"
             dc:format="image/jpeg"
             dc:modified="{Date}2019-10-24T15:48:01.034-07:00"
             dc:rights="Copyright:  Eric J. Nelson"
-            dc:subject="[Grand Teton NP,HDR,National Parks,Photo Types,Grand Teton NP,HDR,National Parks,Photo Types,Grand Teton NP,HDR,National Parks,Photo Types]"
+            dc:subject="[Grand Teton NP,HDR,National Parks,Photo Types,Grand Teton NP,HDR,National Parks,Photo Types,Grand Teton NP,HDR,National Parks,Photo Types,Grand Teton NP,HDR,National Parks,Photo Types,Grand Teton NP,HDR,National Parks,Photo Types,Grand Teton NP,HDR,National Parks,Photo Types,Grand Teton NP,HDR,National Parks,Photo Types]"
             dc:subject_xmpArrayType="rdf:Bag"
             dc:title="Snowy Winter Dawn"
             exif:ApertureValue="6/1"
@@ -163,11 +163,11 @@
             exif:ShutterSpeedValue="9297/2002"
             exifEX:Gamma="7/10"
             exifEX:PhotographicSensitivity="{Long}100"
-            jcr:lastModified="{Date}2019-10-24T15:48:01.034-07:00"
+            jcr:lastModified="{Date}2019-10-25T16:47:42.803-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
-            jcr:title="Snowy Winter Dawn on the Teton Range, Grand Teton National Park"
+            jcr:title="Snowy Winter Dawn"
             photoshop:ColorMode="{Long}3"
             photoshop:Country="United States of America"
             photoshop:Credit="ejnelson314 - stock.adobe.com"
@@ -198,9 +198,166 @@
             xmpMM:DocumentID="xmp.did:dbcc3825-ef0e-6a4f-a1a2-e1c8933cf07a"
             xmpMM:InstanceID="xmp.iid:590ecd69-4b10-4874-8f49-b996e459bd04"
             xmpMM:OriginalDocumentID="xmp.did:dbcc3825-ef0e-6a4f-a1a2-e1c8933cf07a"
-            xmpRights:UsageTerms="Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  "
+            xmpRights:UsageTerms="[Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  ]"
+            xmpRights:UsageTerms_xmpArrayType="rdf:Alt"
             lastTransferredForTagging="{Date}2019-10-24T15:46:11.758-07:00"
             simsearchVersion="1.0.0">
+            <predictedTags jcr:primaryType="nt:unstructured">
+                <snow
+                    jcr:lastModified="{Date}2019-10-24T15:46:11.752-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.8639432787895203"
+                    isCustom="{Boolean}false"
+                    name="snow"/>
+                <mountain
+                    jcr:lastModified="{Date}2019-10-24T15:46:11.752-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.8552672863006592"
+                    isCustom="{Boolean}false"
+                    name="mountain"/>
+                <winter
+                    jcr:lastModified="{Date}2019-10-24T15:46:11.753-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7806122899055481"
+                    isCustom="{Boolean}false"
+                    name="winter"/>
+                <landscape
+                    jcr:lastModified="{Date}2019-10-24T15:46:11.753-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.77241051197052"
+                    isCustom="{Boolean}false"
+                    name="landscape"/>
+                <nature
+                    jcr:lastModified="{Date}2019-10-24T15:46:11.753-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7527675032615662"
+                    isCustom="{Boolean}false"
+                    name="nature"/>
+                <blue
+                    jcr:lastModified="{Date}2019-10-24T15:46:11.753-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7429808378219604"
+                    isCustom="{Boolean}false"
+                    name="blue"/>
+                <peak
+                    jcr:lastModified="{Date}2019-10-24T15:46:11.753-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7375600337982178"
+                    isCustom="{Boolean}false"
+                    name="peak"/>
+                <ice
+                    jcr:lastModified="{Date}2019-10-24T15:46:11.753-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7372178435325623"
+                    isCustom="{Boolean}false"
+                    name="ice"/>
+                <cold
+                    jcr:lastModified="{Date}2019-10-24T15:46:11.754-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7285351157188416"
+                    isCustom="{Boolean}false"
+                    name="cold"/>
+                <glacier
+                    jcr:lastModified="{Date}2019-10-24T15:46:11.754-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7083868384361267"
+                    isCustom="{Boolean}false"
+                    name="glacier"/>
+                <sky
+                    jcr:lastModified="{Date}2019-10-24T15:46:11.754-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6940606832504272"
+                    isCustom="{Boolean}false"
+                    name="sky"/>
+                <travel
+                    jcr:lastModified="{Date}2019-10-24T15:46:11.754-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6801789402961731"
+                    isCustom="{Boolean}false"
+                    name="travel"/>
+                <alps
+                    jcr:lastModified="{Date}2019-10-24T15:46:11.754-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6710388660430908"
+                    isCustom="{Boolean}false"
+                    name="alps"/>
+                <mountains
+                    jcr:lastModified="{Date}2019-10-24T15:46:11.755-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6596114635467529"
+                    isCustom="{Boolean}false"
+                    name="mountains"/>
+                <high
+                    jcr:lastModified="{Date}2019-10-24T15:46:11.755-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6378825902938843"
+                    isCustom="{Boolean}false"
+                    name="high"/>
+                <ski
+                    jcr:lastModified="{Date}2019-10-24T15:46:11.755-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.636020839214325"
+                    isCustom="{Boolean}false"
+                    name="ski"/>
+                <summit
+                    jcr:lastModified="{Date}2019-10-24T15:46:11.755-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6346023082733154"
+                    isCustom="{Boolean}false"
+                    name="summit"/>
+                <beautiful
+                    jcr:lastModified="{Date}2019-10-24T15:46:11.756-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6318424940109253"
+                    isCustom="{Boolean}false"
+                    name="beautiful"/>
+                <mount
+                    jcr:lastModified="{Date}2019-10-24T15:46:11.756-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6238395571708679"
+                    isCustom="{Boolean}false"
+                    name="mount"/>
+                <white
+                    jcr:lastModified="{Date}2019-10-24T15:46:11.756-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.619102954864502"
+                    isCustom="{Boolean}false"
+                    name="white"/>
+                <alpine
+                    jcr:lastModified="{Date}2019-10-24T15:46:11.756-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5966523885726929"
+                    isCustom="{Boolean}false"
+                    name="alpine"/>
+                <frozen
+                    jcr:lastModified="{Date}2019-10-24T15:46:11.757-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5937610268592834"
+                    isCustom="{Boolean}false"
+                    name="frozen"/>
+                <cloud
+                    jcr:lastModified="{Date}2019-10-24T15:46:11.757-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5925514698028564"
+                    isCustom="{Boolean}false"
+                    name="cloud"/>
+                <clouds
+                    jcr:lastModified="{Date}2019-10-24T15:46:11.757-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5813475251197815"
+                    isCustom="{Boolean}false"
+                    name="clouds"/>
+                <snowy
+                    jcr:lastModified="{Date}2019-10-24T15:46:11.757-07:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5782883763313293"
+                    isCustom="{Boolean}false"
+                    name="snowy"/>
+            </predictedTags>
+            <imageFeatures
+                jcr:primaryType="nt:unstructured"
+                haystack0="{Binary}"/>
+            <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
             <crs:RetouchAreas
                 jcr:primaryType="nt:unstructured"
                 xmpArraySize="{Long}7"
@@ -444,163 +601,16 @@
                     stEvt:when="{Date}2019-10-24T15:20:34.000-07:00"
                     xmpNodeType="xmpStruct"/>
             </xmpMM:History>
-            <predictedTags jcr:primaryType="nt:unstructured">
-                <snow
-                    jcr:lastModified="{Date}2019-10-24T15:46:11.752-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.8639432787895203"
-                    isCustom="{Boolean}false"
-                    name="snow"/>
-                <mountain
-                    jcr:lastModified="{Date}2019-10-24T15:46:11.752-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.8552672863006592"
-                    isCustom="{Boolean}false"
-                    name="mountain"/>
-                <winter
-                    jcr:lastModified="{Date}2019-10-24T15:46:11.753-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7806122899055481"
-                    isCustom="{Boolean}false"
-                    name="winter"/>
-                <landscape
-                    jcr:lastModified="{Date}2019-10-24T15:46:11.753-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.77241051197052"
-                    isCustom="{Boolean}false"
-                    name="landscape"/>
-                <nature
-                    jcr:lastModified="{Date}2019-10-24T15:46:11.753-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7527675032615662"
-                    isCustom="{Boolean}false"
-                    name="nature"/>
-                <blue
-                    jcr:lastModified="{Date}2019-10-24T15:46:11.753-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7429808378219604"
-                    isCustom="{Boolean}false"
-                    name="blue"/>
-                <peak
-                    jcr:lastModified="{Date}2019-10-24T15:46:11.753-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7375600337982178"
-                    isCustom="{Boolean}false"
-                    name="peak"/>
-                <ice
-                    jcr:lastModified="{Date}2019-10-24T15:46:11.753-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7372178435325623"
-                    isCustom="{Boolean}false"
-                    name="ice"/>
-                <cold
-                    jcr:lastModified="{Date}2019-10-24T15:46:11.754-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7285351157188416"
-                    isCustom="{Boolean}false"
-                    name="cold"/>
-                <glacier
-                    jcr:lastModified="{Date}2019-10-24T15:46:11.754-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7083868384361267"
-                    isCustom="{Boolean}false"
-                    name="glacier"/>
-                <sky
-                    jcr:lastModified="{Date}2019-10-24T15:46:11.754-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6940606832504272"
-                    isCustom="{Boolean}false"
-                    name="sky"/>
-                <travel
-                    jcr:lastModified="{Date}2019-10-24T15:46:11.754-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6801789402961731"
-                    isCustom="{Boolean}false"
-                    name="travel"/>
-                <alps
-                    jcr:lastModified="{Date}2019-10-24T15:46:11.754-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6710388660430908"
-                    isCustom="{Boolean}false"
-                    name="alps"/>
-                <mountains
-                    jcr:lastModified="{Date}2019-10-24T15:46:11.755-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6596114635467529"
-                    isCustom="{Boolean}false"
-                    name="mountains"/>
-                <high
-                    jcr:lastModified="{Date}2019-10-24T15:46:11.755-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6378825902938843"
-                    isCustom="{Boolean}false"
-                    name="high"/>
-                <ski
-                    jcr:lastModified="{Date}2019-10-24T15:46:11.755-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.636020839214325"
-                    isCustom="{Boolean}false"
-                    name="ski"/>
-                <summit
-                    jcr:lastModified="{Date}2019-10-24T15:46:11.755-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6346023082733154"
-                    isCustom="{Boolean}false"
-                    name="summit"/>
-                <beautiful
-                    jcr:lastModified="{Date}2019-10-24T15:46:11.756-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6318424940109253"
-                    isCustom="{Boolean}false"
-                    name="beautiful"/>
-                <mount
-                    jcr:lastModified="{Date}2019-10-24T15:46:11.756-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6238395571708679"
-                    isCustom="{Boolean}false"
-                    name="mount"/>
-                <white
-                    jcr:lastModified="{Date}2019-10-24T15:46:11.756-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.619102954864502"
-                    isCustom="{Boolean}false"
-                    name="white"/>
-                <alpine
-                    jcr:lastModified="{Date}2019-10-24T15:46:11.756-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5966523885726929"
-                    isCustom="{Boolean}false"
-                    name="alpine"/>
-                <frozen
-                    jcr:lastModified="{Date}2019-10-24T15:46:11.757-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5937610268592834"
-                    isCustom="{Boolean}false"
-                    name="frozen"/>
-                <cloud
-                    jcr:lastModified="{Date}2019-10-24T15:46:11.757-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5925514698028564"
-                    isCustom="{Boolean}false"
-                    name="cloud"/>
-                <clouds
-                    jcr:lastModified="{Date}2019-10-24T15:46:11.757-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5813475251197815"
-                    isCustom="{Boolean}false"
-                    name="clouds"/>
-                <snowy
-                    jcr:lastModified="{Date}2019-10-24T15:46:11.757-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5782883763313293"
-                    isCustom="{Boolean}false"
-                    name="snowy"/>
-            </predictedTags>
-            <imageFeatures
-                jcr:primaryType="nt:unstructured"
-                haystack0="{Binary}"/>
-            <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2019-10-27T16:07:45.276-07:00"/>
+        </usages>
     </jcr:content>
 </jcr:root>

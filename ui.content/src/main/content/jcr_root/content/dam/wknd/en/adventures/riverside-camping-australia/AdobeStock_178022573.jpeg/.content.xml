@@ -8,7 +8,7 @@
         cq:name="AdobeStock_178022573.jpeg"
         cq:parentPath="/content/dam/wknd/en/adventures/riverside-camping-australia"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-24T15:42:46.016-07:00"
+        jcr:lastModified="{Date}2019-10-25T16:50:11.413-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -111,8 +111,8 @@
             crs:Whites2012="{Long}49"
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20140822"
-            dam:DigitalCreationTime="090851+0000"
-            dam:extracted="{Date}2019-10-24T15:40:50.896-07:00"
+            dam:DigitalCreationTime="090851-0700"
+            dam:extracted="{Date}2019-10-25T16:49:12.116-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -122,18 +122,18 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}19.18055534362793"
             dam:Progressive="no"
-            dam:sha1="9c3e644c39f93ad3944a8cc828d82f1150414fcf"
-            dam:size="{Long}504585"
-            dam:TimeCreated="090851+0000"
-            dc:creator="[Cue the Sun]"
+            dam:sha1="1d665c3496ede7333ecaae7adcc169f313a08b36"
+            dam:size="{Long}508565"
+            dam:TimeCreated="090851-0700"
+            dc:creator="[Cue the Sun,Cue the Sun,Cue the Sun]"
             dc:creator_xmpArrayType="rdf:Seq"
-            dc:date="{Long}[20140822]"
-            dc:date_xmpArrayType="rdf:Bag"
+            dc:date="{Long}[20140822,20140822,20140822]"
+            dc:date_xmpArrayType="rdf:Seq"
             dc:description="Overhead view of meats, pineapple and corn on grill above campfire"
             dc:format="image/jpeg"
             dc:modified="{Date}2019-10-24T15:42:45.875-07:00"
             dc:rights="Ben Ryan"
-            dc:subject="[senior,food preparation,steak,sausage,pineapple,outdoors,meat,food,corn cob,cooking,cook,campfire,camp,bush,barbecue,australia,caucasian,white,middle easternman,male,person,people,adult,adults,60s,mature,senior citizen,senior citizens,elderly,old,venerable,elder,elders,geriatric,aged,woman,female,lady,senior,food preparation,steak,sausage,pineapple,outdoors,meat,food,corn cob,cooking,cook,campfire,camp,bush,barbecue,australia,caucasian,white,middle easternman,male,person,people,adult,adults,60s,mature,senior citizen,senior citizens,elderly,old,venerable,elder,elders,geriatric,aged,woman,female,lady,senior,food preparation,steak,sausage,pineapple,outdoors,meat,food,corn cob,cooking,cook,campfire,camp,bush,barbecue,australia,caucasian,white,middle easternman,male,person,people,adult,adults,60s,mature,senior citizen,senior citizens,elderly,old,venerable,elder,elders,geriatric,aged,woman,female,lady]"
+            dc:subject="[senior,food preparation,steak,sausage,pineapple,outdoors,meat,food,corn cob,cooking,cook,campfire,camp,bush,barbecue,australia,caucasian,white,middle easternman,male,person,people,adult,adults,60s,mature,senior citizen,senior citizens,elderly,old,venerable,elder,elders,geriatric,aged,woman,female,lady,senior,food preparation,steak,sausage,pineapple,outdoors,meat,food,corn cob,cooking,cook,campfire,camp,bush,barbecue,australia,caucasian,white,middle easternman,male,person,people,adult,adults,60s,mature,senior citizen,senior citizens,elderly,old,venerable,elder,elders,geriatric,aged,woman,female,lady,senior,food preparation,steak,sausage,pineapple,outdoors,meat,food,corn cob,cooking,cook,campfire,camp,bush,barbecue,australia,caucasian,white,middle easternman,male,person,people,adult,adults,60s,mature,senior citizen,senior citizens,elderly,old,venerable,elder,elders,geriatric,aged,woman,female,lady,senior,food preparation,steak,sausage,pineapple,outdoors,meat,food,corn cob,cooking,cook,campfire,camp,bush,barbecue,australia,caucasian,white,middle easternman,male,person,people,adult,adults,60s,mature,senior citizen,senior citizens,elderly,old,venerable,elder,elders,geriatric,aged,woman,female,lady,senior,food preparation,steak,sausage,pineapple,outdoors,meat,food,corn cob,cooking,cook,campfire,camp,bush,barbecue,australia,caucasian,white,middle easternman,male,person,people,adult,adults,60s,mature,senior citizen,senior citizens,elderly,old,venerable,elder,elders,geriatric,aged,woman,female,lady,senior,food preparation,steak,sausage,pineapple,outdoors,meat,food,corn cob,cooking,cook,campfire,camp,bush,barbecue,australia,caucasian,white,middle easternman,male,person,people,adult,adults,60s,mature,senior citizen,senior citizens,elderly,old,venerable,elder,elders,geriatric,aged,woman,female,lady,senior,food preparation,steak,sausage,pineapple,outdoors,meat,food,corn cob,cooking,cook,campfire,camp,bush,barbecue,australia,caucasian,white,middle easternman,male,person,people,adult,adults,60s,mature,senior citizen,senior citizens,elderly,old,venerable,elder,elders,geriatric,aged,woman,female,lady]"
             dc:subject_xmpArrayType="rdf:Bag"
             dc:title="Grilled Campfire"
             exif:ApertureValue="11285/1482"
@@ -172,11 +172,11 @@
             exifEX:PhotographicSensitivity="{Long}200"
             exifEX:RecommendedExposureIndex="{Long}200"
             exifEX:SensitivityType="{Long}2"
-            jcr:lastModified="{Date}2019-10-24T15:42:45.875-07:00"
+            jcr:lastModified="{Date}2019-10-25T16:50:05.765-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
-            jcr:title="Overhead view of meats, pineapple and corn on grill above campfi"
+            jcr:title="Grilled Campfire"
             photoshop:ColorMode="{Long}3"
             photoshop:Country="Canada"
             photoshop:Credit="Cue the Sun/Stocksy - stock.adob"
@@ -221,7 +221,8 @@
             xmpMM:InstanceID="xmp.iid:9f5056c3-5673-408b-b4e6-34656c8d91de"
             xmpMM:OriginalDocumentID="04EB3A5FEF5182F005BA3DDD630D2FD4"
             xmpRights:Marked="{Boolean}true"
-            xmpRights:UsageTerms="Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  If you want to use"
+            xmpRights:UsageTerms="[Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  If you want to use]"
+            xmpRights:UsageTerms_xmpArrayType="rdf:Alt"
             xmpRights:WebStatement="http://www.cue-the-sun.com/copyright.html"
             lastTransferredForTagging="{Date}2019-10-24T15:40:53.088-07:00"
             simsearchVersion="1.0.0">
@@ -239,64 +240,6 @@
                 stRef:instanceID="xmp.iid:652059711C236811822AD88E08BCA570"
                 stRef:originalDocumentID="04EB3A5FEF5182F005BA3DDD630D2FD4"
                 xmpNodeType="xmpStruct"/>
-            <xmpMM:History
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}8"
-                xmpArrayType="rdf:Seq"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="derived"
-                    stEvt:parameters="converted from image/x-canon-cr2 to image/vnd.adobe.photoshop, saved to new location"
-                    xmpNodeType="xmpStruct"/>
-                <_x0032_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:3ae58897-f6f3-4d42-bc1a-a8b547179d5b"
-                    stEvt:softwareAgent="Adobe Photoshop Lightroom 4.4 (Macintosh)"
-                    stEvt:when="{Date}2014-09-14T22:55:28.000+10:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0033_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="converted"
-                    stEvt:parameters="from image/vnd.adobe.photoshop to application/vnd.adobe.photoshop"
-                    xmpNodeType="xmpStruct"/>
-                <_x0034_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:652059711C236811822AD88E08BCA570"
-                    stEvt:softwareAgent="Adobe Photoshop CS6 (Macintosh)"
-                    stEvt:when="{Date}2014-09-24T06:23:12.000+10:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0035_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="converted"
-                    stEvt:parameters="from image/vnd.adobe.photoshop to image/jpeg"
-                    xmpNodeType="xmpStruct"/>
-                <_x0036_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="derived"
-                    stEvt:parameters="converted from application/vnd.adobe.photoshop to image/jpeg"
-                    xmpNodeType="xmpStruct"/>
-                <_x0037_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:662059711C236811822AD88E08BCA570"
-                    stEvt:softwareAgent="Adobe Photoshop CS6 (Macintosh)"
-                    stEvt:when="{Date}2014-09-24T06:23:12.000+10:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0038_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:9f5056c3-5673-408b-b4e6-34656c8d91de"
-                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
-                    stEvt:when="{Date}2019-10-24T15:37:18.000-07:00"
-                    xmpNodeType="xmpStruct"/>
-            </xmpMM:History>
             <Iptc4xmpCore:CreatorContactInfo
                 Iptc4xmpCore:CiAdrCity="Pascoe Vale South"
                 Iptc4xmpCore:CiAdrCtry="Australia"
@@ -463,6 +406,64 @@
             <imageFeatures
                 jcr:primaryType="nt:unstructured"
                 haystack0="{Binary}"/>
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}8"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="converted from image/x-canon-cr2 to image/vnd.adobe.photoshop, saved to new location"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:3ae58897-f6f3-4d42-bc1a-a8b547179d5b"
+                    stEvt:softwareAgent="Adobe Photoshop Lightroom 4.4 (Macintosh)"
+                    stEvt:when="{Date}2014-09-14T22:55:28.000+10:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0033_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="converted"
+                    stEvt:parameters="from image/vnd.adobe.photoshop to application/vnd.adobe.photoshop"
+                    xmpNodeType="xmpStruct"/>
+                <_x0034_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:652059711C236811822AD88E08BCA570"
+                    stEvt:softwareAgent="Adobe Photoshop CS6 (Macintosh)"
+                    stEvt:when="{Date}2014-09-24T06:23:12.000+10:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0035_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="converted"
+                    stEvt:parameters="from image/vnd.adobe.photoshop to image/jpeg"
+                    xmpNodeType="xmpStruct"/>
+                <_x0036_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="converted from application/vnd.adobe.photoshop to image/jpeg"
+                    xmpNodeType="xmpStruct"/>
+                <_x0037_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:662059711C236811822AD88E08BCA570"
+                    stEvt:softwareAgent="Adobe Photoshop CS6 (Macintosh)"
+                    stEvt:when="{Date}2014-09-24T06:23:12.000+10:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0038_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:9f5056c3-5673-408b-b4e6-34656c8d91de"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
+                    stEvt:when="{Date}2019-10-24T15:37:18.000-07:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
