@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-10-25T17:47:39.485-07:00"
+        cq:lastModified="{Date}2019-10-27T21:01:14.136-07:00"
         cq:lastModifiedBy="admin"
         cq:tags="[wknd:customer-journey/engage,wknd:customer-journey/convert,wknd:activity/surfing,wknd:season/summer]"
         cq:template="/conf/wknd/settings/wcm/templates/adventure-page-template"
@@ -282,11 +282,17 @@
                                 <image
                                     jcr:created="{Date}2019-10-25T17:46:50.922-07:00"
                                     jcr:createdBy="admin"
-                                    jcr:lastModified="{Date}2019-10-25T17:46:50.922-07:00"
+                                    jcr:lastModified="{Date}2019-10-27T21:01:14.129-07:00"
                                     jcr:lastModifiedBy="admin"
                                     jcr:primaryType="nt:unstructured"
+                                    jcr:title="A student hangs 10 in Costa Rica's famous surf breaks"
                                     sling:resourceType="wknd/components/content/image"
-                                    fileReference="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/man-wetsuit.jpg"/>
+                                    alt="A student hangs 10 in Costa Rica's famous surf breaks"
+                                    altValueFromDAM="false"
+                                    displayPopupTitle="false"
+                                    fileReference="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/Selvaraj_Surfing.JPG"
+                                    isDecorative="false"
+                                    titleValueFromDAM="false"/>
                             </par4>
                             <par8
                                 jcr:primaryType="nt:unstructured"

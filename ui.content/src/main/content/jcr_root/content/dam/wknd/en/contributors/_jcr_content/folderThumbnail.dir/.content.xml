@@ -2,7 +2,7 @@
 <jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="nt:file">
     <jcr:content
-        dam:folderThumbnailPaths="[/content/dam/wknd/en/contributors/ian_provo.jpg,/content/dam/wknd/en/contributors/sofia_sjoeberg.jpg,/content/dam/wknd/en/contributors/stacey-roswells.jpg]"
+        dam:folderThumbnailPaths="[/content/dam/wknd/en/contributors/ian_provo.jpg,/content/dam/wknd/en/contributors/Kumar_Selvaraj.JPG,/content/dam/wknd/en/contributors/ayo-ogunseinde-237739.jpg]"
         jcr:primaryType="nt:unstructured"
         bgcolor="{Long}-1"
         height="{Long}240"

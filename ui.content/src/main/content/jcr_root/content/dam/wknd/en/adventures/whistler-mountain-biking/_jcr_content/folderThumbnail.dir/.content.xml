@@ -5,6 +5,6 @@
         dam:folderThumbnailPaths="[/content/dam/wknd/en/adventures/whistler-mountain-biking/AdobeStock_122618183.jpeg,/content/dam/wknd/en/adventures/whistler-mountain-biking/AdobeStock_122615840.jpeg,/content/dam/wknd/en/adventures/whistler-mountain-biking/AdobeStock_122578479.jpeg]"
         jcr:primaryType="nt:unstructured"
         bgcolor="{Long}-1"
-        height="{Long}200"
-        width="{Long}240"/>
+        height="{Long}240"
+        width="{Long}280"/>
 </jcr:root>

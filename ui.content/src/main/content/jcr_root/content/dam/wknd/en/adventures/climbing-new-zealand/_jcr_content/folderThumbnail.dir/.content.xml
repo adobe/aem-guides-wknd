@@ -5,6 +5,6 @@
         dam:folderThumbnailPaths="[/content/dam/wknd/en/adventures/climbing-new-zealand/AdobeStock_166394648.jpeg,/content/dam/wknd/en/adventures/climbing-new-zealand/AdobeStock_277768563.jpeg,/content/dam/wknd/en/adventures/climbing-new-zealand/AdobeStock_140634652.jpeg]"
         jcr:primaryType="nt:unstructured"
         bgcolor="{Long}-1"
-        height="{Long}200"
-        width="{Long}240"/>
+        height="{Long}240"
+        width="{Long}280"/>
 </jcr:root>

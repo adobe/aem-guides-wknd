@@ -5,6 +5,6 @@
         dam:folderThumbnailPaths="[/content/dam/wknd/en/activities/camping/camp-summer-night.jpg]"
         jcr:primaryType="nt:unstructured"
         bgcolor="{Long}-1"
-        height="{Long}140"
-        width="{Long}240"/>
+        height="{Long}240"
+        width="{Long}280"/>
 </jcr:root>

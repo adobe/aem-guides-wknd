@@ -5,6 +5,6 @@
         dam:folderThumbnailPaths="[/content/dam/wknd/en/activities/hiking/hiking-campaign.jpg,/content/dam/wknd/en/activities/hiking/alpinists-himalayas.jpg,/content/dam/wknd/en/activities/hiking/hiker-anapurna.jpg]"
         jcr:primaryType="nt:unstructured"
         bgcolor="{Long}-1"
-        height="{Long}200"
-        width="{Long}240"/>
+        height="{Long}240"
+        width="{Long}280"/>
 </jcr:root>
