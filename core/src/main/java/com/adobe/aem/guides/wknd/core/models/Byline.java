@@ -1,5 +1,5 @@
 /*
- *  Copyright 2015 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe Systems Incorporated
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -13,7 +13,28 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-@Version("1.0")
-package com.adobe.aem.guides.wknd.core;
+package com.adobe.aem.guides.wknd.core.models;
 
-import org.osgi.annotation.versioning.Version;
+import java.util.List;
+
+/**
+ * Represents the Byline AEM Component for the WKND Site project.
+ **/
+public interface Byline {
+	/***
+	 * @return a string to display as the name.
+	 */
+	String getName();
+
+	/***
+	 * Occupations are to be sorted alphabetically in a descending order.
+	 *
+	 * @return a list of occupations.
+	 */
+	List<String> getOccupations();
+
+	/***
+	 * @return a boolean if the component has content to display.
+	 */
+	boolean isEmpty();
+}

@@ -13,7 +13,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package com.adobe.aem.guides.wknd.core.components.impl;
+package com.adobe.aem.guides.wknd.core.models.impl;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -30,7 +30,7 @@ import org.apache.sling.models.annotations.injectorspecific.Self;
 import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
 import org.apache.sling.models.factory.ModelFactory;
 
-import com.adobe.aem.guides.wknd.core.components.Byline;
+import com.adobe.aem.guides.wknd.core.models.Byline;
 import com.adobe.cq.wcm.core.components.models.Image;
 
 @Model(

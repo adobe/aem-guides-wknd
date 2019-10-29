@@ -13,9 +13,9 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package com.adobe.aem.guides.wknd.core.components.impl;
+package com.adobe.aem.guides.wknd.core.models.impl;
 
-import com.adobe.aem.guides.wknd.core.components.ImageList;
+import com.adobe.aem.guides.wknd.core.models.ImageList;
 import com.adobe.cq.wcm.core.components.models.Image;
 import com.day.cq.commons.jcr.JcrConstants;
 import com.day.cq.search.Predicate;

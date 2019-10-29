@@ -45,7 +45,7 @@
                             <bnd><![CDATA[
 Bundle-Category: WKND.Content
 -exportcontents: ${packages;VERSIONED}
-Sling-Model-Packages: com.adobe.aem.guides.wknd.core
+Sling-Model-Packages: com.adobe.aem.guides.wknd.core.models
 -snapshot: ${tstamp;yyyyMMddHHmmssSSS}
 Bundle-DocURL:
                                 ]]></bnd>

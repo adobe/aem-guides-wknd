@@ -13,7 +13,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package com.adobe.aem.guides.wknd.core.components.impl;
+package com.adobe.aem.guides.wknd.core.models.impl;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -23,7 +23,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 
-import com.adobe.aem.guides.wknd.core.components.Byline;
+import com.adobe.aem.guides.wknd.core.models.Byline;
 import com.adobe.cq.wcm.core.components.models.Image;
 import com.google.common.collect.ImmutableList;
 
@@ -52,7 +52,7 @@ class BylineImplTest {
 	@BeforeEach
 	void setUp() throws Exception {
 		ctx.addModelsForClasses(BylineImpl.class);
-	    ctx.load().json("/com/adobe/aem/guides/wknd/core/components/impl/BylineImplTest.json", "/content");
+	    ctx.load().json("/com/adobe/aem/guides/wknd/core/models/impl/BylineImplTest.json", "/content");
 	    
 	    lenient().when(modelFactory.getModelFromWrappedRequest(eq(ctx.request()),
 	    	       any(Resource.class),

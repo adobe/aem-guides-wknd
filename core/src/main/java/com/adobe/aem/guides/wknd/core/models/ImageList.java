@@ -1,4 +1,4 @@
-package com.adobe.aem.guides.wknd.core.components;
+package com.adobe.aem.guides.wknd.core.models;
 
 import org.apache.sling.api.resource.Resource;
 
