@@ -34,7 +34,7 @@
                         jcr:lastModified="{Date}2019-10-21T20:28:42.774-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/sign-in-buttons"
+                        sling:resourceType="wknd/components/form/sign-in-buttons"
                         greetingLabel="Welcome"
                         signInLabel="Sign In"
                         signInXfPath="/content/experience-fragments/wknd/language-masters/en/site/sign-in/master"
@@ -62,7 +62,7 @@
                         jcr:lastModified="{Date}2019-09-16T13:42:32.191-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/languagenavigation"
+                        sling:resourceType="wknd/components/structure/languagenavigation"
                         navigationRoot="/content/wknd"
                         structureDepth="2">
                         <cq:responsive jcr:primaryType="nt:unstructured">

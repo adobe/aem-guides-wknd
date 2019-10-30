@@ -1134,35 +1134,6 @@
                         </cq:styleGroups>
                     </policy_1568591661081>
                 </button>
-                <languagenavigation jcr:primaryType="nt:unstructured">
-                    <policy_1568591782049
-                        cq:styleDefaultClasses="cmp-languagenavigation--default"
-                        jcr:lastModified="{Date}2019-09-15T16:57:57.019-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="WKND Language Navigation"
-                        sling:resourceType="wcm/core/components/policy/policy"
-                        navigationRoot="/content/wknd"
-                        structureDepth="1">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
-                        <cq:styleGroups jcr:primaryType="nt:unstructured">
-                            <item0 jcr:primaryType="nt:unstructured">
-                                <cq:styles jcr:primaryType="nt:unstructured">
-                                    <item0
-                                        cq:styleClasses="cmp-languagenavigation--default"
-                                        cq:styleId="1568591859961"
-                                        cq:styleLabel="Default"
-                                        jcr:primaryType="nt:unstructured"/>
-                                    <item1
-                                        cq:styleClasses="cmp-languagenavigation--default cmp-languagenavigation--dark cmp-languagenavigation--header"
-                                        cq:styleId="1568591864735"
-                                        cq:styleLabel="Dark Header"
-                                        jcr:primaryType="nt:unstructured"/>
-                                </cq:styles>
-                            </item0>
-                        </cq:styleGroups>
-                    </policy_1568591782049>
-                </languagenavigation>
                 <experiencefragment jcr:primaryType="nt:unstructured">
                     <policy_1568592468447
                         jcr:lastModified="{Date}2019-10-03T15:00:04.275-07:00"
@@ -1297,6 +1268,35 @@
                 </separator>
             </content>
             <structure jcr:primaryType="nt:unstructured">
+                <languagenavigation jcr:primaryType="nt:unstructured">
+                    <policy_1568591782049
+                        cq:styleDefaultClasses="cmp-languagenavigation--default"
+                        jcr:lastModified="{Date}2019-09-15T16:57:57.019-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Language Navigation"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        navigationRoot="/content/wknd"
+                        structureDepth="1">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-languagenavigation--default"
+                                        cq:styleId="1568591859961"
+                                        cq:styleLabel="Default"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="cmp-languagenavigation--default cmp-languagenavigation--dark cmp-languagenavigation--header"
+                                        cq:styleId="1568591864735"
+                                        cq:styleLabel="Dark Header"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1568591782049>
+                </languagenavigation>
                 <navigation jcr:primaryType="nt:unstructured">
                     <policy_1555431038157
                         jcr:lastModified="{Date}2019-04-16T09:13:14.351-07:00"

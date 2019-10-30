@@ -22,10 +22,6 @@
                                 cq:policy="wknd/components/content/button/policy_1568591661081"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wcm/core/components/policies/mapping"/>
-                            <languagenavigation
-                                cq:policy="wknd/components/content/languagenavigation/policy_1568591782049"
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wcm/core/components/policies/mapping"/>
                             <image
                                 cq:policy="wknd/components/content/image/policy_126406575098243"
                                 jcr:primaryType="nt:unstructured"
@@ -56,6 +52,10 @@
                                 sling:resourceType="wcm/core/components/policies/mapping"/>
                         </content>
                         <structure jcr:primaryType="nt:unstructured">
+                            <languagenavigation
+                                cq:policy="wknd/components/structure/languagenavigation/policy_1568591782049"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/core/components/policies/mapping"/>
                             <navigation
                                 cq:policy="wknd/components/structure/navigation/policy_126213313123863"
                                 jcr:primaryType="nt:unstructured"
