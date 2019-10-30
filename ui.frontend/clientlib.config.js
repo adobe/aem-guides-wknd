@@ -10,27 +10,20 @@ module.exports = {
             name: "clientlib-site",
             allowProxy: true,
             categories: ["wknd.site"],
+            dependencies: ["wknd.dependencies"],
             serializationFormat: "xml",
             cssProcessor : ["default:none", "min:none"],
             jsProcessor: ["default:none", "min:none"],
             assets: {
                 js: [
-                    "dist/vendors~site.*.js",
-                    "dist/site.*.js"
+                    "dist/clientlib-site/*.js",
                 ],
                 css: [
-                    "dist/vendors~site.*.css",
-                    "dist/site.*.css"
+                    "dist/clientlib-site/*.css"
                 ],
                 resources: [
-                    {
-                        src: "dist/resources/fonts/*.{eot,svg,ttf,woff,woff2}",
-                        dest: "fonts"
-                    },
-                    {
-                        src: "dist/resources/images/country-flags/*.svg",
-                        dest: "images/country-flags"
-                    }
+                    {src: "dist/clientlib-site/resources/images/*.*", dest: "images/"}, 
+                    {src: "dist/clientlib-site/resources/fonts/*.*", dest: "fonts/"}, 
                 ]
             }
         }
