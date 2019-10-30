@@ -52,13 +52,13 @@
                     <name>aem-guides-wknd.ui.content</name>
                     <packageType>content</packageType>
                     <accessControlHandling>merge</accessControlHandling>
-                    <dependencies>
+                    <!--<dependencies>
                         <dependency>
                             <groupId>com.adobe.aem.guides</groupId>
                             <artifactId>aem-guides-wknd.ui.apps</artifactId>
                             <version>0.0.1-SNAPSHOT</version>
                         </dependency>
-                    </dependencies>
+                    </dependencies>-->
                 </configuration>
             </plugin>
             <plugin>
