@@ -5,8 +5,8 @@ const webpack                 = require('webpack');
 const MiniCssExtractPlugin    = require("mini-css-extract-plugin");
 const TSConfigPathsPlugin     = require('tsconfig-paths-webpack-plugin');
 const TSLintPlugin            = require('tslint-webpack-plugin');
-const CopyWebpackPlugin       = require('copy-webpack-plugin');
 const { CleanWebpackPlugin }  = require('clean-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const SOURCE_ROOT = __dirname + '/src/main/webpack';
 
@@ -21,7 +21,7 @@ module.exports = {
             site: SOURCE_ROOT + '/site/main.js'
         },
         output: {
-            filename: 'clientlib-site/[name].bundle.js',
+            filename: '[name].bundle.js',
             path: path.resolve(__dirname, 'dist')
         },
         optimization: {
@@ -90,22 +90,22 @@ module.exports = {
                         name: '[path][name].[ext]'
                       }
                     }
-                }
+                },
             ]
         },
         plugins: [
             new CleanWebpackPlugin(),
+            new CopyWebpackPlugin([
+                { from: path.resolve(__dirname, SOURCE_ROOT + '/resources'), to: 'resources' }
+            ]),
             new webpack.NoEmitOnErrorsPlugin(),
             new MiniCssExtractPlugin({
-                filename: 'clientlib-site/[name].bundle.css'
+                filename: '[name].bundle.css',
             }),
             new TSLintPlugin({
                 files: [SOURCE_ROOT + '/**/*.ts', SOURCE_ROOT + '/**/*.tsx'],
                 config: './tslint.json'
-            }),
-            new CopyWebpackPlugin([
-                { from: path.resolve(__dirname, SOURCE_ROOT + '/resources'), to: './clientlib-site/resources' }
-            ]) 
+            })
         ],
         stats: {
             assetsSort: "chunks",
