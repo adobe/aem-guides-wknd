@@ -75,12 +75,6 @@
                             <type>zip</type>
                             <target>/apps/wknd-vendor-packages/content/install</target>
                         </embedded>
-                        <embedded>
-                            <groupId>com.adobe.cq</groupId>
-                            <artifactId>core.wcm.components.examples</artifactId>
-                            <type>zip</type>
-                            <target>/apps/wknd-vendor-packages/content/install</target>
-                        </embedded>
                     </embeddeds>
                 </configuration>
             </plugin>
