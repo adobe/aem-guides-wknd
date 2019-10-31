@@ -73,7 +73,7 @@
                             <groupId>com.adobe.cq</groupId>
                             <artifactId>core.wcm.components.config</artifactId>
                             <type>zip</type>
-                            <target>/apps/wknd-vendor-packages/application/install</target>
+                            <target>/apps/wknd-vendor-packages/content/install</target>
                         </embedded>
                         <embedded>
                             <groupId>com.adobe.cq</groupId>

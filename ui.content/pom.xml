@@ -51,6 +51,9 @@
                     <group>com.adobe.aem.guides</group>
                     <name>aem-guides-wknd.ui.content</name>
                     <packageType>content</packageType>
+                    <properties>
+                         <cloudManagerTarget>none</cloudManagerTarget>
+                     </properties>
                     <accessControlHandling>merge</accessControlHandling>
                     <!--<dependencies>
                         <dependency>
