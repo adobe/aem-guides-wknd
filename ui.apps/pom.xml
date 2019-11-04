@@ -115,6 +115,13 @@
 
         <dependency>
             <groupId>com.adobe.aem.guides</groupId>
+            <artifactId>aem-guides-wknd.ui.frontend</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <type>POM</type>
+        </dependency>
+
+        <dependency>
+            <groupId>com.adobe.aem.guides</groupId>
             <artifactId>aem-guides-wknd.repository-structure</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <type>zip</type>
