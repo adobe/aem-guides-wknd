@@ -112,14 +112,12 @@
             <artifactId>aem-guides-wknd.core</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
-    <!--
         <dependency>
             <groupId>com.adobe.aem.guides</groupId>
             <artifactId>aem-guides-wknd.ui.frontend</artifactId>
             <version>0.0.1-SNAPSHOT</version>
-            <type>POM</type>
+            <type>zip</type>
         </dependency>
--->
         <dependency>
             <groupId>com.adobe.aem.guides</groupId>
             <artifactId>aem-guides-wknd.repository-structure</artifactId>
