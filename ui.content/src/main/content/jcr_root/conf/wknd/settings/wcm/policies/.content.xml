@@ -117,12 +117,12 @@
                             jcr:primaryType="nt:unstructured"/>
                     </policy_4792148308882>
                     <policy_70911755464249
-                        jcr:lastModified="{Date}2019-10-18T13:43:29.689-07:00"
+                        jcr:lastModified="{Date}2019-10-30T11:33:44.827-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Experience Fragment"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/cq/experience-fragments/editor/components/buildingblock,/libs/wcm/foundation/components/responsivegrid,group:WKND.Content,group:WKND.Content Form,group:WKND.Structure]">
+                        components="[/libs/cq/experience-fragments/editor/components/buildingblock,/libs/wcm/foundation/components/responsivegrid,group:WKND.Content,group:WKND.Form,group:WKND.Structure]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -1134,35 +1134,6 @@
                         </cq:styleGroups>
                     </policy_1568591661081>
                 </button>
-                <languagenavigation jcr:primaryType="nt:unstructured">
-                    <policy_1568591782049
-                        cq:styleDefaultClasses="cmp-languagenavigation--default"
-                        jcr:lastModified="{Date}2019-09-15T16:57:57.019-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="WKND Language Navigation"
-                        sling:resourceType="wcm/core/components/policy/policy"
-                        navigationRoot="/content/wknd"
-                        structureDepth="1">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
-                        <cq:styleGroups jcr:primaryType="nt:unstructured">
-                            <item0 jcr:primaryType="nt:unstructured">
-                                <cq:styles jcr:primaryType="nt:unstructured">
-                                    <item0
-                                        cq:styleClasses="cmp-languagenavigation--default"
-                                        cq:styleId="1568591859961"
-                                        cq:styleLabel="Default"
-                                        jcr:primaryType="nt:unstructured"/>
-                                    <item1
-                                        cq:styleClasses="cmp-languagenavigation--default cmp-languagenavigation--dark cmp-languagenavigation--header"
-                                        cq:styleId="1568591864735"
-                                        cq:styleLabel="Dark Header"
-                                        jcr:primaryType="nt:unstructured"/>
-                                </cq:styles>
-                            </item0>
-                        </cq:styleGroups>
-                    </policy_1568591782049>
-                </languagenavigation>
                 <experiencefragment jcr:primaryType="nt:unstructured">
                     <policy_1568592468447
                         jcr:lastModified="{Date}2019-10-03T15:00:04.275-07:00"
@@ -1297,6 +1268,35 @@
                 </separator>
             </content>
             <structure jcr:primaryType="nt:unstructured">
+                <languagenavigation jcr:primaryType="nt:unstructured">
+                    <policy_1568591782049
+                        cq:styleDefaultClasses="cmp-languagenavigation--default"
+                        jcr:lastModified="{Date}2019-09-15T16:57:57.019-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Language Navigation"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        navigationRoot="/content/wknd"
+                        structureDepth="1">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-languagenavigation--default"
+                                        cq:styleId="1568591859961"
+                                        cq:styleLabel="Default"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="cmp-languagenavigation--default cmp-languagenavigation--dark cmp-languagenavigation--header"
+                                        cq:styleId="1568591864735"
+                                        cq:styleLabel="Dark Header"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1568591782049>
+                </languagenavigation>
                 <navigation jcr:primaryType="nt:unstructured">
                     <policy_1555431038157
                         jcr:lastModified="{Date}2019-04-16T09:13:14.351-07:00"
@@ -1415,12 +1415,13 @@
                 </search>
                 <page jcr:primaryType="nt:unstructured">
                     <policy_1555624447675
-                        jcr:lastModified="{Date}2019-10-28T11:27:25.807-07:00"
+                        jcr:lastModified="{Date}2019-10-30T11:54:53.444-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Landing Page"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        clientlibs="wknd.site">
+                        clientlibs="wknd.site"
+                        clientlibsJsHead="wknd.dependencies">
                         <jcr:content
                             cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
                             cq:lastReplicatedBy="admin"
@@ -1452,12 +1453,13 @@
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_654239029509196>
                     <policy_1570140199406
-                        jcr:lastModified="{Date}2019-10-03T15:03:31.427-07:00"
+                        jcr:lastModified="{Date}2019-10-30T11:57:54.326-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Site Theme"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        clientlibs="wknd.site">
+                        clientlibs="wknd.site"
+                        clientlibsJsHead="wknd.dependencies">
                         <jcr:content
                             cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
                             cq:lastReplicatedBy="admin"
@@ -1466,6 +1468,17 @@
                             jcr:primaryType="nt:unstructured"/>
                     </policy_1570140199406>
                 </page>
+                <xfpage jcr:primaryType="nt:unstructured">
+                    <policy_1572461714642
+                        jcr:lastModified="{Date}2019-10-30T11:55:59.699-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Experience Fragment Web"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        clientlibs="wknd.site">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1572461714642>
+                </xfpage>
             </structure>
         </components>
     </wknd>

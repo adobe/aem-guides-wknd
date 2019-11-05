@@ -33,7 +33,7 @@
                     type="h3"/>
                 <sign_in_form
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/content/sign-in-form"
+                    sling:resourceType="wknd/components/form/sign-in-form"
                     actionUrl="/system/sling/login/j_security_check"
                     redirectUrl="/content/wknd/us/en.html">
                     <responsivegrid

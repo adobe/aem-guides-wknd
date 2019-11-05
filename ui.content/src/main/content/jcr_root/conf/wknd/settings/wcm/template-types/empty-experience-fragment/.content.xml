@@ -6,5 +6,5 @@
     <jcr:content
         jcr:description="Generic template for empty experience fragments variations"
         jcr:primaryType="cq:PageContent"
-        jcr:title="WKND Empty Experience Fragment"/>
+        jcr:title="WKND Site Empty Experience Fragment"/>
 </jcr:root>

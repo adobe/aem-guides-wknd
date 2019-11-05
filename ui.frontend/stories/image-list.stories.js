@@ -1,5 +1,5 @@
 import {storiesOf} from '@storybook/html';
-import '../src/site/main.scss';
+import '../src/main/webpack/site/main.scss';
 import '../.storybook/story-styles.css';
 
 storiesOf('Image List', module)

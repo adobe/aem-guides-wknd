@@ -42,7 +42,7 @@
                     jcr:lastModified="{Date}2019-10-22T16:14:17.180-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/content/sign-in-form"
+                    sling:resourceType="wknd/components/form/sign-in-form"
                     actionUrl="/system/sling/logout">
                     <responsivegrid
                         jcr:primaryType="nt:unstructured"

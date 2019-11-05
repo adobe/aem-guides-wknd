@@ -8,7 +8,7 @@ const TSLintPlugin            = require('tslint-webpack-plugin');
 const { CleanWebpackPlugin }  = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
-const SOURCE_ROOT = __dirname + '/src';
+const SOURCE_ROOT = __dirname + '/src/main/webpack';
 
 module.exports = {
         resolve: {
@@ -103,7 +103,7 @@ module.exports = {
                 filename: '[name].bundle.css',
             }),
             new TSLintPlugin({
-                files: ['./src/**/*.ts', './src/**/*.tsx'],
+                files: [SOURCE_ROOT + '/**/*.ts', SOURCE_ROOT + '/**/*.tsx'],
                 config: './tslint.json'
             })
         ],

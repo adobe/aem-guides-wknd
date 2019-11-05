@@ -22,15 +22,17 @@
     <artifactId>aem-guides-wknd</artifactId>
     <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
-    <description>WKND Sites Project</description>
+   <description>WKND Sites Project</description>
 
     <modules>
+        <module>all</module>
         <module>core</module>
         <module>ui.frontend</module>
         <module>ui.apps</module>
         <module>ui.content</module>
         <module>it.tests</module>
         <module>it.launcher</module>
+        <module>repository-structure</module>
         <module>dispatcher</module>
     </modules>
 
@@ -238,11 +240,6 @@
                         <userId>${vault.user}</userId>
                         <password>${vault.password}</password>
                     </configuration>
-                </plugin>
-                <plugin>
-                    <groupId>biz.aQute.bnd</groupId>
-                    <artifactId>bnd-maven-plugin</artifactId>
-                    <version>${bnd.version}</version>
                 </plugin>
                 <!-- Maven Enforcer Plugin -->
                 <plugin>
@@ -495,10 +492,7 @@
                 </pluginManagement>
             </build>
         </profile>
-
     </profiles>
-
-
     <!-- ====================================================================== -->
     <!-- D E P E N D E N C I E S -->
     <!-- ====================================================================== -->
@@ -582,15 +576,20 @@
             </dependency>
             <dependency>
                 <groupId>com.adobe.cq</groupId>
-                <artifactId>core.wcm.components.all</artifactId>
+                <artifactId>core.wcm.components.core</artifactId>
+                <version>${core.wcm.components.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.adobe.cq</groupId>
+                <artifactId>core.wcm.components.content</artifactId>
                 <type>zip</type>
                 <version>${core.wcm.components.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.adobe.cq</groupId>
-                <artifactId>core.wcm.components.core</artifactId>
+                <artifactId>core.wcm.components.config</artifactId>
+                <type>zip</type>
                 <version>${core.wcm.components.version}</version>
-                <scope>provided</scope>
             </dependency>
             <dependency>
                 <groupId>com.adobe.cq</groupId>
@@ -679,5 +678,4 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
 </project>

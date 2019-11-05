@@ -2,6 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const merge = require('webpack-merge');
 const common = require('./webpack.common.js');
+const SOURCE_ROOT = __dirname + '/src/main/webpack';
 
 module.exports = merge(common, {
    mode: 'development',
@@ -9,7 +10,7 @@ module.exports = merge(common, {
    performance: { hints: "warning" },
    plugins: [
       new HtmlWebpackPlugin({
-         template: path.resolve(__dirname, './src/static/article.html')
+         template: path.resolve(__dirname, SOURCE_ROOT + '/static/index.html')
       })
    ],
    devServer: {
