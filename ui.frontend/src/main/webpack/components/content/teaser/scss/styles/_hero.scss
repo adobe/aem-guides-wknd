@@ -15,6 +15,7 @@ $mobile-max-height: 400px;
         flex: 1;
         width: 100%;
         height: $mobile-max-height;
+        max-height: $mobile-max-height;
         overflow: hidden;
 
         .cmp-image {
@@ -55,16 +56,20 @@ $mobile-max-height: 400px;
 
         .cmp-teaser__image {
             height: $desktop-max-height;
+            max-height: $desktop-max-height;
          }
 
         .cmp-teaser__content {
-             background-color: $white;
+            background-color: $white;
             margin-top: -180px;
             height: 180px;
             min-height: 180px;
             float: left;
             padding-bottom: 0px;
             width: $max-width - ($gutter-padding * 2);
+            position: relative;
+            padding-left: $gutter-padding * 2;
+            padding-right: $gutter-padding * 2;
         }
      }
     

@@ -16,24 +16,26 @@
 
 var jQuery = require("jquery");
 
-   (function (element, $) {
-       'use strict';
-       var target = $(element),
-           className = "scrolly",
-           scroll,
-           mobileBreakpoint = 992;
+(function (element, $) {
+    'use strict';
+    var target = $(element),
+        className = "scrolly",
+        scroll;
 
-       if($(window).scrollTop() > 15) {
-           target.addClass(className);
-       }
+    if ($(window).scrollTop() > 15) {
+        target.addClass(className);
+    }
 
-       $(window).scroll(function(){
-
-            scroll = $(window).scrollTop();
-       if(scroll > 15 ) {
-           target.addClass(className);
-       } else {
-           target.removeClass(className);
-       }
+    document.addEventListener('scroll', (evt) => {
+        scroll = $(window).scrollTop();
+        if (scroll > 15) {
+            target.addClass(className);
+        } else {
+            target.removeClass(className);
+        }
+    }, {
+        capture: false,
+        passive: true
     });
-   }('body',jQuery));
+
+}('body', jQuery));
