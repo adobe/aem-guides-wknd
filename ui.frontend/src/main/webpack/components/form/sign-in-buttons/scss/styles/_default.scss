@@ -18,6 +18,9 @@
 
 .wknd-sign-in-buttons {
   text-align: right;
+  float: left;
+  width: 100%;
+  min-height: 1px;
   
   @media (max-width: $screen-large) {
     text-align: left;
@@ -33,6 +36,5 @@
 
 .wknd-sign-in-buttons__button--greeting {
   text-align: left;
-  float: left;
   padding-right: $gutter-padding;
 }

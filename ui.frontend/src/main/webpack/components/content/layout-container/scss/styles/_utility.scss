@@ -1,9 +1,8 @@
 .cmp-layoutcontainer--utility {
+    min-height: $utility-nav-height;
     background-color: $black;
     color:$gray-lighter;
     font-size: $font-size-small;
-    -webkit-transition: margin-top 0.5s ease;
-    transition: margin-top 0.5s ease;
 
     .aem-Grid {
 
@@ -20,14 +19,4 @@
     }
 
 }
-
-/*
-.scrolly {
-    @media (min-width: $screen-large + 1) {
-        .cmp-layoutcontainer--utility {
-            margin-top: -($utility-nav-height);
-        }
-    }
-    
-}*/
 

@@ -20,20 +20,20 @@ var jQuery = require("jquery");
        'use strict';
        var target = $(element),
            className = "scrolly",
-           scroll,
-           mobileBreakpoint = 992;
+           scroll;
 
        if($(window).scrollTop() > 15) {
            target.addClass(className);
        }
 
-       $(window).scroll(function(){
-
-            scroll = $(window).scrollTop();
+       document.addEventListener( 'scroll', ( evt ) => {
+        console.log("Scroll : " + scroll);
+        scroll = $(window).scrollTop();
        if(scroll > 15 ) {
            target.addClass(className);
        } else {
            target.removeClass(className);
        }
-    });
+    }, { capture: false, passive: true });
+
    }('body',jQuery));

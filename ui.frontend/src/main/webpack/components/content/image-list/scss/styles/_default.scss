@@ -23,7 +23,7 @@
   align-items: flex-start;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: normal;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -32,6 +32,7 @@
   .cmp-image-list__item {
     flex-basis: $item-width;
     margin: 0 0 2rem 0;
+    padding-right: $gutter-padding;
   }
 
   /** For embed of AEM WCM Core Components Image Component **/
@@ -68,4 +69,13 @@
       font-size: $font-size-small;
     }
   }
+
+  @media (max-width: $screen-small) {
+    justify-content: space-between;
+
+    .cmp-image-list__item {
+      padding-right:0;
+    }
+  }
+  
 }
