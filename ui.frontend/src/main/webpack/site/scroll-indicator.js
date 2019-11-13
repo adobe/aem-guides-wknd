@@ -16,24 +16,26 @@
 
 var jQuery = require("jquery");
 
-   (function (element, $) {
-       'use strict';
-       var target = $(element),
-           className = "scrolly",
-           scroll;
+(function (element, $) {
+    'use strict';
+    var target = $(element),
+        className = "scrolly",
+        scroll;
 
-       if($(window).scrollTop() > 15) {
-           target.addClass(className);
-       }
+    if ($(window).scrollTop() > 15) {
+        target.addClass(className);
+    }
 
-       document.addEventListener( 'scroll', ( evt ) => {
-        console.log("Scroll : " + scroll);
+    document.addEventListener('scroll', (evt) => {
         scroll = $(window).scrollTop();
-       if(scroll > 15 ) {
-           target.addClass(className);
-       } else {
-           target.removeClass(className);
-       }
-    }, { capture: false, passive: true });
+        if (scroll > 15) {
+            target.addClass(className);
+        } else {
+            target.removeClass(className);
+        }
+    }, {
+        capture: false,
+        passive: true
+    });
 
-   }('body',jQuery));
+}('body', jQuery));
