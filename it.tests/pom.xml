@@ -58,7 +58,7 @@
                         </goals>
                         <configuration>
                             <bnd><![CDATA[
-Bundle-Category: WKND.Content
+Bundle-Category: WKND
 -exportcontents: ${packages;VERSIONED}
 -snapshot: ${tstamp;yyyyMMddHHmmssSSS}
 Bundle-DocURL:

@@ -15,20 +15,20 @@ module.exports = {
             jsProcessor: ["default:none", "min:none"],
             assets: {
                 js: [
-                    "dist/vendors~site.*.js",
-                    "dist/site.*.js"
+                    "dist/clientlib-site/js/vendors~site.*.js",
+                    "dist/clientlib-site/js/site.*.js"
                 ],
                 css: [
-                    "dist/vendors~site.*.css",
-                    "dist/site.*.css"
+                    "dist/clientlib-site/css/vendors~site.*.css",
+                    "dist/clientlib-site/css/site.*.css"
                 ],
                 resources: [
                     {
-                        src: "dist/resources/fonts/*.{eot,svg,ttf,woff,woff2}",
+                        src: "dist/clientlib-site/resources/fonts/*.{eot,svg,ttf,woff,woff2}",
                         dest: "fonts"
                     },
                     {
-                        src: "dist/resources/images/country-flags/*.svg",
+                        src: "dist/clientlib-site/resources/images/country-flags/*.svg",
                         dest: "images/country-flags"
                     }
                 ]

@@ -17,53 +17,55 @@
 var jQuery = require("jquery");
 
 // Wrap bindings in anonymous namespace to prevent collisions
-   jQuery(function($) {
-       "use strict";
+jQuery(function ($) {
+    "use strict";
 
-    function displayCurrentLanague() {
+    function displayCurrentLanguage() {
         var CMP_SELECTOR = '.cmp-languagenavigation--header',
             CMP_PROCESSED = 'data-lang-nav-processed',
             ACTIVE_LINK_SELECTOR = '.cmp-languagenavigation__item--active > .cmp-languagenavigation__item-link',
             ACTIVE_COUNTRY_SELECTOR = '.cmp-languagenavigation__item--level-0.cmp-languagenavigation__item--active',
-            langNav =  $(CMP_SELECTOR).not('[' + CMP_PROCESSED + '=\'true\']'),
+            langNav = $(CMP_SELECTOR).not('[' + CMP_PROCESSED + '=\'true\']'),
             activeCountryImg,
             activeLanguage,
             toggleButton,
             displayPosition;
-            
-            //Top Level Navigation (expected to only be one of these)
-            if(langNav != undefined && langNav.length == 1) {
 
-                //insert current lnaguage in header
-                $(langNav).attr(CMP_PROCESSED, true);
-                activeLanguage= $(CMP_SELECTOR + ' ' + ACTIVE_LINK_SELECTOR).attr('title');
-                activeLanguage = activeLanguage !== undefined ? activeLanguage : 'Language';
+        //Top Level Navigation (expected to only be one of these)
+        if (langNav != undefined && langNav.length == 1) {
 
-                activeCountryImg = $(CMP_SELECTOR + ' ' + ACTIVE_COUNTRY_SELECTOR).css('background-image');
-                activeCountryImg = activeCountryImg !== undefined ? activeCountryImg.replace("\"", "\'").replace("\"", "\'") : 'none';
+            //insert current lnaguage in header
+            $(langNav).attr(CMP_PROCESSED, true);
+            activeLanguage = $(CMP_SELECTOR + ' ' + ACTIVE_LINK_SELECTOR).attr('title');
+            activeLanguage = activeLanguage !== undefined ? activeLanguage : 'Language';
 
-                toggleButton = '<div class="cmp-languagenavigation--langnavtoggle"><a id="langNavToggleHeader" style="background-image:' +activeCountryImg+ '" href="#langNavToggle" aria-label="Toggle Language">' + activeLanguage + '</a></div>';
-                $(langNav).prepend(toggleButton);
+            activeCountryImg = $(CMP_SELECTOR + ' ' + ACTIVE_COUNTRY_SELECTOR)
+                               .css('background-image');
+            activeCountryImg = activeCountryImg !== undefined ? activeCountryImg.replace("\"", "\'").replace("\"", "\'") : 'none';
 
-                //attach toggle to change languages
-                $('#langNavToggleHeader').click(function() {
-                    displayPosition = $(this).position().left - 240;
-                    $(CMP_SELECTOR + ' .cmp-languagenavigation').css({left: displayPosition});
-                    $(CMP_SELECTOR + ' .cmp-languagenavigation').toggleClass('showMenu');
-                    $('#langNavToggleHeader').toggleClass('open');
-                });
+            toggleButton = '<div class="cmp-languagenavigation--langnavtoggle">' +
+                                '<a id="langNavToggleHeader" style="background-image:' + activeCountryImg + 
+                                '" href="#langNavToggle" aria-label="Toggle Language">' + activeLanguage + '</a></div>';
+            $(langNav).prepend(toggleButton);
 
-                //allow users to click anywhere to close language switcher
-                window.onclick = function(event) {
-                    if(!event.target.matches('#langNavToggleHeader') && $('#langNavToggleHeader').hasClass('open')) {
-                        $(CMP_SELECTOR + ' .cmp-languagenavigation').removeClass('showMenu');
-                        $('#langNavToggleHeader').removeClass('open');
-                    }
+            //attach toggle to change languages
+            $('#langNavToggleHeader').click(function () {
+                displayPosition = $(this).position().left - 240;
+                $(CMP_SELECTOR + ' .cmp-languagenavigation').css({ left: displayPosition });
+                $(CMP_SELECTOR + ' .cmp-languagenavigation').toggleClass('showMenu');
+                $('#langNavToggleHeader').toggleClass('open');
+            });
+
+            //allow users to click anywhere to close language switcher
+            window.onclick = function (event) {
+                if (!event.target.matches('#langNavToggleHeader') && $('#langNavToggleHeader').hasClass('open')) {
+                    $(CMP_SELECTOR + ' .cmp-languagenavigation').removeClass('showMenu');
+                    $('#langNavToggleHeader').removeClass('open');
                 }
-                
             }
-       }
 
-       displayCurrentLanague();
-     
-   });
+        }
+    }
+
+    displayCurrentLanguage();
+});
