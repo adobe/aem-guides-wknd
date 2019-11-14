@@ -15,12 +15,12 @@ module.exports = {
             jsProcessor: ["default:none", "min:none"],
             assets: {
                 js: [
-                    "dist/clientlib-site/vendors~site.*.js",
-                    "dist/clientlib-site/site.*.js"
+                    "dist/clientlib-site/js/vendors~site.*.js",
+                    "dist/clientlib-site/js/site.*.js"
                 ],
                 css: [
-                    "dist/clientlib-site/vendors~site.*.css",
-                    "dist/clientlib-site/site.*.css"
+                    "dist/clientlib-site/css/vendors~site.*.css",
+                    "dist/clientlib-site/css/site.*.css"
                 ],
                 resources: [
                     {

@@ -46,5 +46,19 @@
         @media (max-width: $screen-medium) {
             text-align: right;
         }
+
+        @media (max-width: $screen-xsmall) {
+            a {
+                font-size: 0;
+                height: $utility-nav-height;
+                float: right;
+
+                &::after {
+                    font-size: $font-size-small;
+                }
+            }   
+        }
+
+
     }
 }

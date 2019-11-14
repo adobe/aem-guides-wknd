@@ -21,7 +21,7 @@ module.exports = {
             site: SOURCE_ROOT + '/site/main.js'
         },
         output: {
-            filename: 'clientlib-site/[name].bundle.js',
+            filename: 'clientlib-site/js/[name].bundle.js',
             path: path.resolve(__dirname, 'dist')
         },
         optimization: {
@@ -97,7 +97,7 @@ module.exports = {
             new CleanWebpackPlugin(),
             new webpack.NoEmitOnErrorsPlugin(),
             new MiniCssExtractPlugin({
-                filename: 'clientlib-site/[name].bundle.css',
+                filename: 'clientlib-site/css/[name].bundle.css',
             }),
             new TSLintPlugin({
                 files: [SOURCE_ROOT + '/**/*.ts', SOURCE_ROOT + '/**/*.tsx'],
