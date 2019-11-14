@@ -51,17 +51,17 @@
                     <group>com.adobe.aem.guides</group>
                     <name>aem-guides-wknd.ui.content</name>
                     <packageType>content</packageType>
-                    <properties>
-                         <cloudManagerTarget>none</cloudManagerTarget>
-                     </properties>
                     <accessControlHandling>merge</accessControlHandling>
-                    <!--<dependencies>
+                    <properties>
+                        <cloudManagerTarget>none</cloudManagerTarget>>
+                    </properties>
+                    <dependencies>
                         <dependency>
                             <groupId>com.adobe.aem.guides</groupId>
                             <artifactId>aem-guides-wknd.ui.apps</artifactId>
                             <version>0.0.1-SNAPSHOT</version>
                         </dependency>
-                    </dependencies>-->
+                    </dependencies>
                 </configuration>
             </plugin>
             <plugin>

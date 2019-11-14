@@ -54,7 +54,7 @@
                     <packageType>application</packageType>
                     <accessControlHandling>merge</accessControlHandling>
                     <properties>
-                        <cloudManagerTarget>none</cloudManagerTarget>
+                        <cloudManagerTarget>none</cloudManagerTarget>>
                     </properties>
                     <repositoryStructurePackages>
                         <repositoryStructurePackage>
@@ -112,12 +112,19 @@
             <artifactId>aem-guides-wknd.core</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+
         <dependency>
             <groupId>com.adobe.aem.guides</groupId>
             <artifactId>aem-guides-wknd.ui.frontend</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <type>zip</type>
         </dependency>
+
+        <dependency>
+            <groupId>com.adobe.cq</groupId>
+            <artifactId>core.wcm.components.core</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>com.adobe.aem.guides</groupId>
             <artifactId>aem-guides-wknd.repository-structure</artifactId>

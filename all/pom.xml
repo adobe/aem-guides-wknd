@@ -73,6 +73,12 @@
                             <groupId>com.adobe.cq</groupId>
                             <artifactId>core.wcm.components.config</artifactId>
                             <type>zip</type>
+                            <target>/apps/wknd-vendor-packages/application/install</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.adobe.cq</groupId>
+                            <artifactId>core.wcm.components.examples</artifactId>
+                            <type>zip</type>
                             <target>/apps/wknd-vendor-packages/content/install</target>
                         </embedded>
                     </embeddeds>
@@ -89,10 +95,11 @@
             </plugin>
             <plugin>
                 <artifactId>maven-clean-plugin</artifactId>
+                <version>2.4.1</version>
                 <executions>
                     <execution>
                         <id>auto-clean</id>
-                        <phase>initialize</phase>
+                        <phase>install</phase>
                         <goals>
                             <goal>clean</goal>
                         </goals>
