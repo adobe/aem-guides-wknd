@@ -13,7 +13,7 @@
         jcr:language="de_de"
         jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync,cq:PropertyLiveSyncCancelled]"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Deustsch"
+        jcr:title="Deutsch"
         sling:resourceType="wknd/components/structure/page"
         pageTitle="English">
         <root
