@@ -18,6 +18,28 @@
 var jQuery = require("jquery");
 (function($) {
 
+    /* adding special handlers for passive events https://github.com/WICG/EventListenerOptions */
+
+    jQuery.event.special.touchstart = {
+		setup: function( _, ns, handle ){
+			if ( ns.includes("noPreventDefault") ) {
+			  this.addEventListener("touchstart", handle, { passive: true });
+			} else {
+				return false;
+			}
+		}
+    };
+
+    jQuery.event.special.touchmove = {
+		setup: function( _, ns, handle ){
+			if ( ns.includes("noPreventDefault") ) {
+			  this.addEventListener("touchmove", handle, { passive: true });
+			} else {
+				return false;
+			}
+		}
+    };
+    
     /**
      * Generate an indented list of links from a nav. Meant for use with panel().
      * @return {jQuery} jQuery object.
@@ -195,16 +217,16 @@ var jQuery = require("jquery");
 
                 }
 
-                /*
+                
             // Event: Touch stuff.
-                $this.on('touchstart', function(event) {
-
+                $this.on('touchstart.noPreventDefault', function(event) {
+                    
                     $this.touchPosX = event.originalEvent.touches[0].pageX;
                     $this.touchPosY = event.originalEvent.touches[0].pageY;
 
                 })
-
-                $this.on('touchmove', function(event) {
+                
+                $this.on('touchmove.noPreventDefault', function(event) {
 
                     if ($this.touchPosX === null
                     ||  $this.touchPosY === null)
@@ -267,11 +289,11 @@ var jQuery = require("jquery");
                         }
 
                 });
-
+                
             // Event: Prevent certain events inside the panel from bubbling.
                 $this.on('click touchend touchstart touchmove', function(event) {
                     event.stopPropagation();
-                });*/
+                });
 
             // Event: Hide panel if a child anchor tag pointing to its ID is clicked.
                 $this.on('click', 'a[href="#' + id + '"]', function(event) {
