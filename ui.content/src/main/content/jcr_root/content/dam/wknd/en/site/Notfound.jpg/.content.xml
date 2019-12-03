@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="ffdc67de-a543-4eaa-b975-1e56d8d971cb">
+    <jcr:content
+        cq:name="Notfound.jpg"
+        cq:parentPath="/content/dam/wknd/en/site"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2019-12-02T15:26:15.142-08:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2019-12-02T15:25:34.500-08:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}29.65277862548828"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}29.66666603088379"
+            dam:Progressive="no"
+            dam:sha1="614671a34cfa6c5305a4234ddd9fa8d98bb66d63"
+            dam:size="{Long}400730"
+            dc:description="Dog playing fetch but cannot find the ball."
+            dc:format="image/jpeg"
+            dc:modified="{Date}2019-12-02T15:26:15.023-08:00"
+            dc:title="Not Found"
+            exif:ColorSpace="{Long}65535"
+            exif:PixelXDimension="{Long}2136"
+            exif:PixelYDimension="{Long}2135"
+            jcr:lastModified="{Date}2019-12-02T15:26:15.023-08:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            photoshop:ColorMode="{Long}3"
+            photoshop:ICCProfile="Display P3"
+            tiff:ImageLength="{Long}2135"
+            tiff:ImageWidth="{Long}2136"
+            tiff:Orientation="{Long}1"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:XResolution="720000/10000"
+            tiff:YResolution="720000/10000"
+            xmp:CreateDate="{Date}2019-12-02T15:24:35.000-08:00"
+            xmp:CreatorTool="Adobe Photoshop CC 2019 (Macintosh)"
+            xmp:MetadataDate="{Date}2019-12-02T15:25:04.000-08:00"
+            xmp:ModifyDate="{Date}2019-12-02T15:25:04.000-08:00"
+            xmpMM:DocumentID="adobe:docid:photoshop:faf5233d-7952-d84c-8804-cb17e842db33"
+            xmpMM:InstanceID="xmp.iid:d487bfd9-f254-4d6a-8a20-86b9c3f559a2"
+            xmpMM:OriginalDocumentID="xmp.did:85d5975f-d1d4-42f6-a2e2-676d4a5bc163">
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}5"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="created"
+                    stEvt:instanceID="xmp.iid:85d5975f-d1d4-42f6-a2e2-676d4a5bc163"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
+                    stEvt:when="{Date}2019-12-02T15:24:35.000-08:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:53b406e4-b50d-45cd-92a0-b47103317262"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
+                    stEvt:when="{Date}2019-12-02T15:25:04.000-08:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0033_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="converted"
+                    stEvt:parameters="from application/vnd.adobe.photoshop to image/jpeg"
+                    xmpNodeType="xmpStruct"/>
+                <_x0034_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="converted from application/vnd.adobe.photoshop to image/jpeg"
+                    xmpNodeType="xmpStruct"/>
+                <_x0035_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:d487bfd9-f254-4d6a-8a20-86b9c3f559a2"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
+                    stEvt:when="{Date}2019-12-02T15:25:04.000-08:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="xmp.did:85d5975f-d1d4-42f6-a2e2-676d4a5bc163"
+                stRef:instanceID="xmp.iid:53b406e4-b50d-45cd-92a0-b47103317262"
+                stRef:originalDocumentID="xmp.did:85d5975f-d1d4-42f6-a2e2-676d4a5bc163"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2019-12-02T15:26:39.610-08:00"/>
+        </usages>
+    </jcr:content>
+</jcr:root>
