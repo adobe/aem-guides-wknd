@@ -1,0 +1,41 @@
+.cmp-layoutcontainer--header {
+    background-color: $body-bg;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 0px;
+    -webkit-transition: padding-bottom 0s ease, padding-top 0s ;
+    -moz-transition:  padding-bottom 0s ease, padding-top 0s ;
+    -o-transition:  padding-bottom 0s ease, padding-top 0s ;
+    transition:  padding-bottom 0s ease-out, padding-top 0s ease 0s ease-out;
+
+
+    .aem-Grid {
+        @include container-content();
+    }
+
+     /* Tablet */
+     @media (max-width: $screen-medium) {
+        padding-top: 15px;
+        padding-bottom: 15px;
+     }
+}
+
+/* Add Drop shadow on scroll */
+
+.scrolly {
+    .cmp-layoutcontainer--header {
+    
+      -webkit-box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.26);
+      -moz-box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.26);
+      box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.26);
+      -webkit-transition: padding-bottom 0.5s ease, padding-top 0.5s ;
+      -moz-transition:  padding-bottom 0.5s ease, padding-top 0.5s ;
+      -o-transition:  padding-bottom 0.5s ease, padding-top 0.5s ;
+      transition:  padding-bottom 0.5s ease-out, padding-top 0.5s ease 0.25s ease-out;
+        @media (min-width: $screen-medium +1) {
+            padding-top: 15px;
+            padding-bottom: 5px;
+        }
+    }
+
+}

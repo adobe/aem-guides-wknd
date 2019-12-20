@@ -1,0 +1,29 @@
+/* Light */
+.cmp-title--white {
+    .cmp-title__text {
+        color: $text-color-inverse;
+    }
+}
+
+/* Gray */
+.cmp-title--gray {
+    .cmp-title__text {
+        color: $gray;
+    }
+}
+
+/* Black */
+.cmp-title--black {
+    .cmp-title__text {
+        color: $black;
+    }
+}
+
+/* Bold */
+.cmp-title--bold {
+    .cmp-title__text {
+        font-weight: 600;
+    }
+}
+
+

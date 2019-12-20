@@ -1,0 +1,20 @@
+.cmp-languagenavigation--dark {
+
+    .cmp-languagenavigation {
+        background: $black;
+        float:left;
+        color: $gray-light;
+    }
+
+    .cmp-languagenavigation__item-title {
+        color: $gray-light;
+    }
+
+    .cmp-languagenavigation__item-link {
+        color: $gray-lighter;
+    }
+
+    .cmp-languagenavigation__item--level-0 {
+        border-bottom-color: $gray;
+    }
+}

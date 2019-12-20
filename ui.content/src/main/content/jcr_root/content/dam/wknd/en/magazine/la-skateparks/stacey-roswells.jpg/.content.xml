@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="7c2c9e9e-87fa-4a95-b159-466d59d77234">
+    <jcr:content
+        cq:name="stacey-roswells.jpg"
+        cq:parentPath="/content/dam/wknd/en/magazine/la-skateparks"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2019-10-25T16:51:13.509-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2019-10-25T16:51:02.256-07:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}46.44444274902344"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}69.66666412353516"
+            dam:Progressive="no"
+            dam:sha1="7a1fd1f3e785c13efc1fe5c21298eb4d994d3e34"
+            dam:size="{Long}1679050"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2019-09-17T21:00:37.303-07:00"
+            jcr:lastModified="{Date}2019-10-25T16:50:19.894-07:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}3344"
+            tiff:ImageWidth="{Long}5016"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

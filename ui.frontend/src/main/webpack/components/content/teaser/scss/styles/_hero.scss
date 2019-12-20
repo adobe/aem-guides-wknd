@@ -1,0 +1,99 @@
+
+$desktop-max-height: 640px;
+$mobile-max-height: 400px;
+
+.cmp-teaser--hero {
+
+    .cmp-teaser {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .cmp-teaser__image {
+        flex: 1;
+        width: 100%;
+        height: $mobile-max-height;
+        max-height: $mobile-max-height;
+        overflow: hidden;
+
+        .cmp-image {
+            width: 100%;
+            height: 100%;
+        }
+
+        .cmp-image__image {
+            margin-top: 0;
+            margin-bottom: 0;
+            object-fit: cover;
+            object-position: center;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .cmp-teaser__content {
+        flex: 1;
+        padding-left: $gutter-padding;
+        padding-right: $gutter-padding;
+    }
+
+    .cmp-teaser__title {
+        margin-bottom: 0em;
+    }
+
+    .cmp-teaser__description {
+        margin-bottom: 0em;
+
+        p {
+            margin-bottom: 0em;
+        }
+    }
+
+    /* desktop view */
+     @media (min-width: $max-width +1 ) {
+
+        .cmp-teaser__image {
+            height: $desktop-max-height;
+            max-height: $desktop-max-height;
+         }
+
+        .cmp-teaser__content {
+            background-color: $white;
+            margin-top: -180px;
+            height: 180px;
+            min-height: 180px;
+            float: left;
+            padding-bottom: 0px;
+            width: $max-width - ($gutter-padding * 2);
+            position: relative;
+            padding-left: $gutter-padding * 2;
+            padding-right: $gutter-padding * 2;
+        }
+     }
+    
+     &.aem-GridColumn--default--12 {
+         padding-left: 0 !important;
+         padding-right: 0 !important;
+     }
+}
+
+/* position image from top */
+.cmp-teaser--imagetop {
+
+    .cmp-teaser__image {
+        .cmp-image__image {
+            object-position: top;
+        }
+    }
+}
+
+.cmp-teaser--imagebottom {
+
+    .cmp-teaser__image {
+        .cmp-image__image {
+            object-position: bottom;
+        }
+    }
+}

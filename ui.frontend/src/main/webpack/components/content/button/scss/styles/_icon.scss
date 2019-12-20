@@ -1,0 +1,44 @@
+
+/* Default icons */
+
+.cmp-button {
+
+    .cmp-button__icon {
+        float: left;
+        padding-top: 18px;
+        padding-left: 14px;
+        font-size: 1.25em;
+    }
+    
+    .cmp-button__icon--facebook {
+        &:before {
+            content: $wkndicon-facebook; 
+        }
+    }
+    .cmp-button__icon--twitter {
+        &:before {
+            content: $wkndicon-twitter; 
+        }
+    }
+    .cmp-button__icon--instagram {
+        &:before {
+            content: $wkndicon-instagram; 
+        }
+    }
+}
+
+.cmp-button--icononly {
+
+    .cmp-button {
+        width: $button-size;
+        height: $button-size;
+    
+        .cmp-button__icon {
+            float: left;
+        }
+
+        .cmp-button__text {
+            display: none;
+        }
+    }
+}

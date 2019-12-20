@@ -1,0 +1,35 @@
+.cmp-title--label {
+
+    .cmp-title {
+        padding-top: ($gutter-padding / 2 );
+        text-align: right;
+        
+        & h1 {
+            font-size: 4rem;
+        }
+
+        & h2 {
+            font-size: 3rem;
+        }
+
+        & h3 {
+            font-size: 1rem;
+        }
+
+        & h4 {
+            font-size: 0.75rem;
+        }
+    }
+
+    .cmp-title__text {
+        font-family: $font-family-sans-serif;
+        text-transform: uppercase;
+    }
+
+     /* Mobile View */
+     @media (max-width: $screen-medium) {
+        .cmp-title {
+            text-align: unset;
+        }
+    }
+}

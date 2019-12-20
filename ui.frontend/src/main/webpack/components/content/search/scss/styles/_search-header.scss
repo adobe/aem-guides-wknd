@@ -1,0 +1,125 @@
+/*
+ *  Copyright 2019 Adobe Systems Incorporated
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+
+/* WKND Search Header styles */
+
+$search-max-width: 10rem;
+$search-max-mobile-width: 6rem;
+$offset: 3.5rem;
+$search-results-width: 20rem;
+
+
+
+.cmp-search--header {
+    
+    .cmp-search {
+        padding-top: 10px;
+    }
+
+    .cmp-search__clear-icon, .cmp-search__icon  {
+        top: 0.8rem;
+    }
+
+    .cmp-search__input {
+        background-color: #ebebeb8a;
+        color: $text-color;
+        font-size: $font-size-xsmall;
+        border-radius: 0px;
+        border: none;
+        height: 40px;
+        width: #{'calc(100% - 4rem)'};
+
+        &:focus {
+            background-color: $body-bg;
+            outline: none !important;
+            border: 1px solid $text-color;
+            box-shadow: none;
+        }
+
+        &::placeholder {
+            text-transform: uppercase;
+        }
+
+    }
+
+    .cmp-search__results {
+        margin-top: 0.75em;
+        background: $black;
+        width: $search-results-width;
+        left: unset;
+        right:0;
+        max-height: unset;
+        @include boxShadow();
+    }
+
+    a.cmp-search__item {
+        color: $brand-third;
+        font-size: $font-size-small;
+        height: 50px;
+        text-overflow: ellipsis;
+        padding: 0.5em;
+        margin-top: 0.25em;
+    }
+
+    a.cmp-search__item:hover {
+        text-decoration: underline;
+    }
+
+    .cmp-search__item-mark {
+        color: $text-color;
+        background-color: $gray-lighter;
+    }
+
+    /* Tablet */
+    @media (max-width: $screen-medium) {
+
+        .cmp-search__input {
+            max-width: $search-max-width;
+            position: absolute;
+            right: $gutter-padding;
+        }
+        .cmp-search__results {
+            right: 0.75rem;
+        }
+        
+        .cmp-search__icon,.cmp-search__loading-indicator {
+            left: unset;
+            right: $search-max-width + $offset;
+            z-index: 1;
+        }
+
+        .cmp-search__clear-icon {
+            right: 1.5rem;
+        }
+    }
+
+    /* Mobile */
+    @media (max-width: $screen-small) {
+        padding-right: 0;
+        position: absolute;
+        right: 0;
+        z-index: 100;
+        
+        .cmp-search__input {
+            width: $search-max-mobile-width;
+        }
+
+        .cmp-search__icon,.cmp-search__loading-indicator  {
+            right: 9.5rem;
+        }
+        
+    }
+}

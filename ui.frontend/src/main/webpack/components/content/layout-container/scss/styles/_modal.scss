@@ -1,0 +1,101 @@
+.cmp-layout-container--modal {
+  background: $black;
+  box-shadow: 0px 10px 20px $gray;
+  box-sizing: border-box;
+  margin: 2rem;
+  max-width: 450px;
+  // AEM Responsive Grid collides with strong selectors; thus !important
+  padding: 2rem 1.75rem !important;
+
+  .container {
+    margin-bottom: 1rem;
+  }
+
+  *, .cmp-text {
+    color: white;
+    font-family: $font-family-sans-serif;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .cmp-form-text__text {
+    background-color: $black;
+    color: $white;
+  }
+
+  // Title components
+  .cmp-title__text {
+    font-family: $font-family-serif;
+  }
+
+  .cmp-text {
+    p {
+      line-height: normal;
+    }
+  }
+
+  // Modal Button
+  .cmp-button,
+  .cmp-form-button {
+    color: $text-color;
+    background: $brand-primary 0% 0% no-repeat padding-box;
+    border: 0;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: $font-size-base;
+    font-family: $font-family-sans-serif;
+    font-weight: $font-weight-bold;
+    padding: .75rem 1rem;
+    min-width: 180px;
+    text-align: center;
+    text-transform: uppercase;
+
+    &:hover {
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .cmp-button__text {
+      color: $text-color;
+    }
+
+    .cmp-text__text {
+      line-height: 1rem;
+    }
+  }
+
+  // Modal Separator
+  .cmp-separator {
+    margin: 1rem 0;
+  }
+
+  .cmp-separator__horizontal-rule {
+    background: $gray;
+    background-image: linear-gradient(to bottom, $gray, $black);
+    border: 0;
+    height: 2px;
+  }
+
+  // Responsive adjustments
+  @media (max-width: $screen-small) {
+    padding: .5rem .25rem;
+    margin: 0;
+    max-width: 340px;
+  }
+
+  @media (max-width: $screen-medium) {
+    padding: 1rem .5rem;
+  }
+}
+
+#wknd-modal {
+  display: none;
+  position: fixed;
+  width: 450px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999999;
+}

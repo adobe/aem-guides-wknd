@@ -1,0 +1,14 @@
+.cmp-buildingblock--btn-list {
+
+    > .aem-Grid > .aem-GridColumn.cmp-button--icononly {
+        float: left;
+        width: unset !important;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    @media (max-width: $screen-medium) {
+        padding-left: $gutter-padding !important;
+        padding-right: $gutter-padding !important;
+    }
+}

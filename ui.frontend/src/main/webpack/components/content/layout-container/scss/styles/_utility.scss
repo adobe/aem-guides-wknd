@@ -1,0 +1,22 @@
+.cmp-layoutcontainer--utility {
+    min-height: $utility-nav-height;
+    background-color: $black;
+    color:$gray-lighter;
+    font-size: $font-size-small;
+
+    .aem-Grid {
+
+        @media (min-width: $screen-large + 1) {
+            @include container-content();
+           
+        }
+    }
+
+    a {
+        color: $gray-light;
+        font-size: $font-size-small;
+        text-transform: uppercase;
+    }
+
+}
+

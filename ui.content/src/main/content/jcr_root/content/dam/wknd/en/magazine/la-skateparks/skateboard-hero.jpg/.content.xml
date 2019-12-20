@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="caaa4a8c-1612-461e-a949-0fad1ee44adf">
+    <jcr:content
+        cq:name="skateboard-hero.jpg"
+        cq:parentPath="/content/dam/wknd/en/magazine/la-skateparks"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2019-10-25T16:50:54.889-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2019-10-25T16:49:45.465-07:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="e1321ebc10051399fd891aad55d11e8f7e941ac5"
+            dam:size="{Long}74390"
+            dc:contributor="[unsplash.com]"
+            dc:contributor_xmpArrayType="rdf:Bag"
+            dc:creator="[Chris Brignola,Chris Brignola,Chris Brignola,Chris Brignola,Chris Brignola,Chris Brignola,Chris Brignola]"
+            dc:creator_xmpArrayType="rdf:Seq"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2018-11-15T15:18:16.548-05:00"
+            exif:PixelXDimension="{Long}1366"
+            exif:PixelYDimension="{Long}800"
+            jcr:lastModified="{Date}2019-10-25T16:50:54.188-07:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}749"
+            tiff:ImageWidth="{Long}1280">
+            <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

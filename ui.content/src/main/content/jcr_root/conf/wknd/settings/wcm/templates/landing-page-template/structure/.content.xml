@@ -1,30 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2019-04-16T14:26:02.122-07:00"
+        cq:lastModified="{Date}2019-10-25T13:36:37.886-07:00"
         cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
         cq:template="/conf/wknd/settings/wcm/templates/landing-page-template"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
+        jcr:uuid="609a373f-cf11-44a0-92a2-70a440f6a50d"
         sling:resourceType="wknd/components/structure/page">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
-            <header
-                jcr:created="{Date}2019-04-16T09:13:01.806-07:00"
+            <experiencefragment
+                cq:styleIds="[1568592491109]"
+                jcr:created="{Date}2019-09-15T17:10:36.311-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2019-04-16T09:13:01.806-07:00"
+                jcr:lastModified="{Date}2019-09-16T13:47:28.147-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wknd/components/structure/header">
-                <navigation
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/structure/navigation"/>
-                <search
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/structure/search"/>
-            </header>
+                sling:resourceType="wknd/components/content/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/wknd/language-masters/en/site/header/master"/>
+            <responsivegrid_933431667
+                jcr:created="{Date}2019-10-25T13:36:37.883-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-10-25T13:36:37.883-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"
+                editable="{Boolean}true">
+                <cq:responsive jcr:primaryType="nt:unstructured"/>
+            </responsivegrid_933431667>
             <responsivegrid
                 jcr:created="{Date}2019-03-19T13:22:52.385-07:00"
                 jcr:createdBy="admin"
@@ -35,22 +46,15 @@
                 editable="{Boolean}true">
                 <cq:responsive jcr:primaryType="nt:unstructured"/>
             </responsivegrid>
-            <responsivegrid_604542534
-                jcr:created="{Date}2019-04-16T14:25:49.281-07:00"
+            <experiencefragment_1327121818
+                cq:styleIds="[1568592503946]"
+                jcr:created="{Date}2019-09-18T14:30:22.985-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2019-04-16T14:25:49.281-07:00"
+                jcr:lastModified="{Date}2019-09-18T14:30:37.537-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid">
-                <cq:responsive jcr:primaryType="nt:unstructured"/>
-                <navigation
-                    jcr:created="{Date}2019-04-16T14:26:02.119-07:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-04-16T14:26:02.119-07:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/structure/navigation"/>
-            </responsivegrid_604542534>
+                sling:resourceType="wknd/components/content/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/wknd/language-masters/en/site/footer/master"/>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">

@@ -1,0 +1,64 @@
+#
+# This is the WKND publish virtualhost definition for Apache.
+#
+# It has been modified to let Apache handle errors 400, 500
+# It uses error pages created in AEM as the 404 and 500x pages defined by variables in custom.vars
+# 
+
+# Include customer defined variables
+Include conf.d/variables/custom.vars
+
+<VirtualHost *:80>
+	ServerName	"publish"
+	# Put names of which domains are used for your published site/content here
+	ServerAlias	 "*"
+	# Use a document root that matches the one in conf.dispatcher.d/default.farm
+	DocumentRoot "${DOCROOT}"
+	# Add header breadcrumbs for help in troubleshooting
+	<IfModule mod_headers.c>
+		Header add X-Vhost "publish"
+	</IfModule>
+	<Directory />
+		<IfModule disp_apache2.c>
+			# Some items cache with the wrong mime type
+			# Use this option to use the name to auto-detect mime types when cached improperly
+			ModMimeUsePathInfo On
+			# Use this option to avoid cache poisioning
+			# Sling will return /content/image.jpg as well as /content/image.jpg/ but apache can't search /content/image.jpg/ as a file
+			# Apache will treat that like a directory.  This assures the last slash is never stored in cache
+			DirectorySlash Off
+			# Enable the dispatcher file handler for apache to fetch files from AEM
+			SetHandler dispatcher-handler
+		</IfModule>
+		Options FollowSymLinks
+		AllowOverride None
+		# Insert filter
+		SetOutputFilter DEFLATE
+		# Don't compress images
+		SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip dont-vary
+		# Make sure proxies don't deliver the wrong content
+		Header append Vary User-Agent env=!dont-vary
+		# Prevent clickjacking
+		Header always append X-Frame-Options SAMEORIGIN
+	</Directory>
+	<Directory "${DOCROOT}">
+		AllowOverride None
+		Require all granted
+	</Directory>
+	<IfModule disp_apache2.c>
+		# Enabled to allow rewrites to take affect and not be ignored by the dispatcher module
+		DispatcherUseProcessedURL	On
+		# Default setting to allow all errors to come from the aem instance
+		DispatcherPassError		1
+	</IfModule>
+	<IfModule mod_rewrite.c>
+		RewriteEngine	on
+		Include conf.d/rewrites/rewrite.rules
+	</IfModule>
+    ErrorDocument 404 ${404_PAGE}
+    ErrorDocument 500 ${500_PAGE}
+    ErrorDocument 502 ${500_PAGE}
+    ErrorDocument 503 ${500_PAGE}
+    ErrorDocument 504 ${500_PAGE}
+
+</VirtualHost>

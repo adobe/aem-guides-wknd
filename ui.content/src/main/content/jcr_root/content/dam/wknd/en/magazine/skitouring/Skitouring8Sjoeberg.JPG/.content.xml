@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="741ed388-d5f8-4797-8095-10c896dc9f1d">
+    <jcr:content
+        cq:name="Skitouring8Sjoeberg.JPG"
+        cq:parentPath="/content/dam/wknd/en/magazine/skitouring"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2019-10-25T16:50:02.629-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2019-10-25T16:49:37.710-07:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}11.847222328186035"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}17.76388931274414"
+            dam:Progressive="no"
+            dam:sha1="d52e7558b9f1e4ac881a7f583de3b94fa36c8dad"
+            dam:size="{Long}197250"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2019-10-25T16:49:59.562-07:00"
+            exif:ColorSpace="{Long}65535"
+            exif:ExifVersion="0221"
+            exif:PixelXDimension="{Long}1279"
+            exif:PixelYDimension="{Long}853"
+            jcr:lastModified="{Date}2019-10-25T16:49:59.562-07:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            photoshop:ColorMode="{Long}3"
+            tiff:BitsPerSample="{Long}[8,8,8]"
+            tiff:BitsPerSample_xmpArrayType="rdf:Seq"
+            tiff:ImageLength="{Long}853"
+            tiff:ImageWidth="{Long}1279"
+            tiff:Orientation="{Long}1"
+            tiff:PhotometricInterpretation="{Long}2"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:SamplesPerPixel="{Long}3"
+            tiff:XResolution="720000/10000"
+            tiff:YResolution="720000/10000"
+            xmp:CreateDate="{Date}2019-09-26T06:19:47.000-07:00"
+            xmp:CreatorTool="Adobe Photoshop CC 2019 (Macintosh)"
+            xmp:MetadataDate="{Date}2019-10-01T15:24:47.000-07:00"
+            xmp:ModifyDate="{Date}2019-10-01T15:24:47.000-07:00"
+            xmpMM:DocumentID="BC4DD3380BD9847FDDB9B202E8EE6102"
+            xmpMM:InstanceID="xmp.iid:bb03e0e7-c453-4136-97e8-b290de448260"
+            xmpMM:OriginalDocumentID="BC4DD3380BD9847FDDB9B202E8EE6102">
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}1"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:bb03e0e7-c453-4136-97e8-b290de448260"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
+                    stEvt:when="{Date}2019-10-01T15:24:47.000-07:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

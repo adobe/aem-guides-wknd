@@ -1,0 +1,64 @@
+.cmp-languagenavigation--header {
+
+    .cmp-languagenavigation {
+        position:fixed;
+        top: 38px;
+        z-index: 999;
+        width: 360px;
+        right: 0;
+        display: none;
+        @include boxShadow();
+        
+        &.showMenu {
+            display: block;
+        }
+    }
+
+    .cmp-languagenavigation--langnavtoggle {
+        a {
+            padding-right: $gutter-padding;
+            background-repeat: no-repeat;
+            background-size: $country-flag-size;
+            padding-left: 35px;
+            background-position-x: 0px;
+            background-position-y: -1px;
+    
+            &::after {
+                border-style: solid;
+                border-width: 0.10em 0.10em 0 0;
+                content: '';
+                display: inline-block;
+                height: 0.45em;
+                left: 0.45em;
+                position: relative;
+                top: 0.35em;
+                transform: rotate(135deg); 
+              
+                vertical-align: top;
+                width: 0.45em;
+            }
+    
+            &.open::after {
+                top: 0.65em;
+                transform: rotate(-45deg);
+            }
+        }
+        @media (max-width: $screen-medium) {
+            text-align: right;
+        }
+
+        @media (max-width: $screen-xsmall) {
+            a {
+                font-size: 0;
+                height: $utility-nav-height;
+                float: right;
+
+                &::after {
+                    font-size: $font-size-small;
+                }
+            }   
+        }
+
+
+    }
+}

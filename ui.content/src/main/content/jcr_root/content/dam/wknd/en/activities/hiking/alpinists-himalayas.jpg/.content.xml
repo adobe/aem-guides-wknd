@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="921a99f7-421f-487b-87ef-0c2e16677ff4">
+    <jcr:content
+        cq:name="alpinists-himalayas.jpg"
+        cq:parentPath="/content/dam/we-retail/en/activities/hiking-camping"
+        dam:relativePath="we-retail/en/activities/hiking-camping/alpinists-himalayas.jpg"
+        jcr:lastModified="{Date}2016-09-12T17:16:08.969+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Alpinists Himalayas">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2016-09-12T17:15:59.035+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}300"
+            dam:Physicalheightininches="{Decimal}3.5999999046325684"
+            dam:Physicalwidthindpi="{Long}300"
+            dam:Physicalwidthininches="{Decimal}5.400000095367432"
+            dam:Progressive="no"
+            dam:sha1="afcc59b1fd81dbdd8f9088537f64440787c4a56e"
+            dam:size="{Long}256590"
+            dc:description="Group of climbers reaching the summit. Nepal"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2016-03-04T15:01:02.236+01:00"
+            dc:title="Alpinists Himalayas"
+            exif:ColorSpace="{Long}65535"
+            exif:ExifOffset="{Long}236"
+            exif:ExifVersion="0221"
+            exif:PixelXDimension="{Long}2880"
+            exif:PixelYDimension="{Long}1920"
+            jcr:lastModified="{Date}2016-09-12T17:16:08.875+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Alpinists Himalayas"
+            photoshop:ColorMode="{Long}3"
+            tiff:BitsPerSample="[8,8,8]"
+            tiff:BitsPerSample_xmpArrayType="rdf:Seq"
+            tiff:ImageLength="{Long}1080"
+            tiff:ImageWidth="{Long}1620"
+            tiff:Orientation="{Long}1"
+            tiff:PhotometricInterpretation="{Long}2"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:SamplesPerPixel="{Long}3"
+            tiff:XResolution="300/1"
+            tiff:YResolution="300/1"
+            xmp:CreateDate="{Date}2016-03-02T15:57:16.000+01:00"
+            xmp:CreatorTool="Adobe Photoshop CC 2015 (Macintosh)"
+            xmp:MetadataDate="{Date}2016-03-04T12:38:44.000+01:00"
+            xmp:ModifyDate="{Date}2016-03-04T12:38:44.000+01:00"
+            xmpMM:DocumentID="adobe:docid:photoshop:133acc4e-228c-1179-9fe2-dd6814746362"
+            xmpMM:InstanceID="xmp.iid:0e4ef9f1-d0aa-49d1-ac64-2d2d712c7363"
+            xmpMM:OriginalDocumentID="F2902B9C50258EC30EABD288A9C8955B">
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}2"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:e52a4079-46a9-47e6-829c-24cd32e3f441"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2015 (Macintosh)"
+                    stEvt:when="{Date}2016-03-04T12:38:44.000+01:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:0e4ef9f1-d0aa-49d1-ac64-2d2d712c7363"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2015 (Macintosh)"
+                    stEvt:when="{Date}2016-03-04T12:38:44.000+01:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

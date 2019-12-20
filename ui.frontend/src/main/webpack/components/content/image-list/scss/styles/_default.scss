@@ -1,0 +1,81 @@
+/*
+ *  Copyright 2019 Adobe Systems Incorporated
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+
+/* WKND Image List Default Style */
+
+.cmp-image-list {
+  $image-height: 200px;
+  $item-width: 260px;
+
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: normal;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+  .cmp-image-list__item {
+    flex-basis: $item-width;
+    margin: 0 0 2rem 0;
+    padding-right: $gutter-padding;
+  }
+
+  /** For embed of AEM WCM Core Components Image Component **/
+  .cmp-image__image {
+    height: $image-height;
+    width: 100%;
+    margin: 0;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+  }
+
+  /** Title w/ Hyperlink */
+  .cmp-image-list__item-title {
+    color: $text-color;
+    font-size: $font-size-medium;
+    font-family: $font-family-sans-serif;
+    font-weight: $font-weight-bold;
+    text-transform: uppercase;
+  }
+
+  /** Description with ellipsis **/
+  .cmp-image-list__item-description {
+    color: $gray;
+    display: block;
+    font-size: $font-size-small;
+    margin-top: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width: $item-width;
+    p {
+      font-size: $font-size-small;
+    }
+  }
+
+  @media (max-width: $screen-small) {
+    justify-content: space-between;
+
+    .cmp-image-list__item {
+      padding-right:0;
+    }
+  }
+  
+}

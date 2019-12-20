@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="da70970c-a5f5-4f13-8f0a-9936a3fd04e4">
+    <jcr:content
+        cq:name="robson-hatsukami-morgan-280159.jpg"
+        cq:parentPath="/content/dam/wknd/en/magazine/la-skateparks"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2019-10-25T16:50:24.875-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2019-10-25T16:49:34.587-07:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="876c272f5183e7d8d0464a3acbf94029e683cba4"
+            dam:size="{Long}125649"
+            dc:creator="[Robson Hatsukami Morgan,Robson Hatsukami Morgan,Robson Hatsukami Morgan,Robson Hatsukami Morgan,Robson Hatsukami Morgan,Robson Hatsukami Morgan,Robson Hatsukami Morgan]"
+            dc:creator_xmpArrayType="rdf:Seq"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2018-02-04T13:44:40.049-05:00"
+            jcr:lastModified="{Date}2019-10-25T16:50:23.169-07:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}853"
+            tiff:ImageWidth="{Long}1280">
+            <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2019-10-01T17:05:46.604-07:00"/>
+        </usages>
+    </jcr:content>
+</jcr:root>

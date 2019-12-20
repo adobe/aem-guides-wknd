@@ -3,5 +3,6 @@
     jcr:primaryType="cq:Page">
     <templates/>
     <policies/>
+    <segments/>
     <template-types/>
 </jcr:root>

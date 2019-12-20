@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="142658f8-4029-4299-9cd6-51afd52345c0">
+    <jcr:content
+        cq:name="stacey-roswells.jpg"
+        cq:parentPath="/content/dam/wknd/en/contributors"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2019-10-25T16:49:51.650-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="stacey-roswells.jpg">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2019-10-25T16:49:43.820-07:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}46.44444274902344"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}69.66666412353516"
+            dam:Progressive="no"
+            dam:sha1="317fb6e5d4ab85f1265f2421628d2b21c9137dfe"
+            dam:size="{Long}1679050"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2019-09-17T21:00:37.303-07:00"
+            jcr:lastModified="{Date}2019-10-25T16:49:28.813-07:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}3344"
+            tiff:ImageWidth="{Long}5016"/>
+        <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2019-10-02T12:21:08.379-07:00"/>
+        </usages>
+    </jcr:content>
+</jcr:root>

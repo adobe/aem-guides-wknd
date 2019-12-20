@@ -1,0 +1,14 @@
+.cmp-form-button {
+  color: $text-color;
+  background: $brand-primary 0% 0% no-repeat padding-box;
+  border: 0;
+  box-sizing: border-box;
+  font-size: $font-size-base;
+  font-family: $font-family-sans-serif;
+  min-width: 180px;
+  text-transform: uppercase;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
