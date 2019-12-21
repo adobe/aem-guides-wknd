@@ -51,8 +51,10 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
-    <scm>
-        <developerConnection>scm:git:git@github.com:adobe/aem-guides-wknd.git</developerConnection>
+     <scm>
+        <connection>scm:git:https://github.com/adobe/aem-guides-wknd.git</connection>
+        <developerConnection>scm:git:https://github.com/adobe/aem-guides-wknd.git</developerConnection>
+        <url>https://github.com/adobe/aem-guides-wknd/tree/master</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -60,17 +62,22 @@
         <plugins>
             <!-- Maven Release Plugin -->
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
-                <version>2.5.3</version>
+                <version>3.0-r1585899</version>
                 <configuration>
-                     <autoVersionSubmodules>true</autoVersionSubmodules>
-                    <projectVersionPolicyId>OddEvenVersionPolicy</projectVersionPolicyId>
-                    <scmCommentPrefix>[maven-scm] :</scmCommentPrefix>
                     <preparationGoals>clean install</preparationGoals>
-                    <goals>install</goals>
+                    <goals>deploy</goals>
                     <releaseProfiles>release</releaseProfiles>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
+                    <projectVersionPolicyId>OddEvenVersionPolicy</projectVersionPolicyId>
                 </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.apache.maven.release</groupId>
+                        <artifactId>maven-release-oddeven-policy</artifactId>
+                        <version>3.0-r1585899</version>
+                    </dependency>
+                </dependencies>
             </plugin>
             <!-- Maven Source Plugin -->
             <plugin>
