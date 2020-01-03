@@ -1,0 +1,20 @@
+{
+    "short_name": "WKND",
+    "name": "WKND Site",
+    "icons": [
+      {
+        "src": "/etc.clientlibs/wknd/clientlibs/clientlib-site/resources/images/favicons/favicon-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/etc.clientlibs/wknd/clientlibs/clientlib-site/resources/images/favicons/favicon-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/content/wknd/us/en.html",
+    "background_color": "#FFEA00",
+    "scope": "/content/wknd",
+    "theme_color": "#FFEA00"
+  }
