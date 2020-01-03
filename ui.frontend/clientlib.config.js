@@ -22,16 +22,11 @@ module.exports = {
                     "dist/clientlib-site/css/vendors~site.*.css",
                     "dist/clientlib-site/css/site.*.css"
                 ],
-                resources: [
-                    {
-                        src: "dist/clientlib-site/resources/fonts/*.{eot,svg,ttf,woff,woff2}",
-                        dest: "fonts"
-                    },
-                    {
-                        src: "dist/clientlib-site/resources/images/country-flags/*.svg",
-                        dest: "images/country-flags"
-                    }
-                ]
+                resources: {
+                    cwd: "./dist/clientlib-site/resources",
+                    flatten: false,
+                    files: ["**/*.*"]
+                }
             }
         }
     ]
