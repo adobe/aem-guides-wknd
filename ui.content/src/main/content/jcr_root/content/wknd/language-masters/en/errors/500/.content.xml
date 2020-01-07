@@ -8,9 +8,10 @@
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
-        jcr:title="500"
+        jcr:title="Internal Server Error"
         jcr:uuid="5254a88a-e521-4e35-9b51-927a3e9c19db"
-        sling:resourceType="wknd/components/structure/page">
+        sling:resourceType="wknd/components/structure/page"
+        pageTitle="500">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
