@@ -6,8 +6,9 @@
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/content-page-template"
         jcr:primaryType="cq:PageContent"
-        jcr:title="404"
-        sling:resourceType="wknd/components/structure/page">
+        jcr:title="Page not found"
+        sling:resourceType="wknd/components/structure/page"
+        pageTitle="404">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">

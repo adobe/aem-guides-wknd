@@ -11,9 +11,9 @@
         jcr:description="WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world."
         jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync]"
         jcr:primaryType="cq:PageContent"
-        jcr:title="English"
+        jcr:title="WKND Adventures and Travel"
         sling:resourceType="wknd/components/structure/page"
-        pageTitle="English">
+        pageTitle="Home">
         <root
             cq:lastRolledout="{Date}2019-10-28T11:02:41.032-07:00"
             cq:lastRolledoutBy="admin"
@@ -219,7 +219,7 @@
                         sling:resourceType="wknd/components/content/image-list"
                         childDepth="1"
                         listFrom="static"
-                        pages="[/content/wknd/ca/en/magazine/guide-la-skateparks,/content/wknd/ca/en/magazine/skiitouring,/content/wknd/ca/en/magazine/arctic-surfing,/content/wknd/ca/en/magazine/san-diego-surf]"
+                        pages="[/content/wknd/ca/en/magazine/guide-la-skateparks,/content/wknd/ca/en/magazine/ski-touring,/content/wknd/ca/en/magazine/arctic-surfing,/content/wknd/ca/en/magazine/san-diego-surf]"
                         parentPage="/content/wknd/ca/en/magazine"
                         sortOrder="desc"
                         tagsMatch="any"/>

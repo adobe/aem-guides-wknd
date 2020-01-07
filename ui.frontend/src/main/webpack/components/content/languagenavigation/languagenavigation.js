@@ -36,7 +36,7 @@ jQuery(function ($) {
 
             //insert current lnaguage in header
             $(langNav).attr(CMP_PROCESSED, true);
-            activeLanguage = $(CMP_SELECTOR + ' ' + ACTIVE_LINK_SELECTOR).attr('title');
+            activeLanguage = $(CMP_SELECTOR + ' ' + ACTIVE_LINK_SELECTOR).attr('lang');
             activeLanguage = activeLanguage !== undefined ? activeLanguage : 'Language';
 
             activeCountryImg = $(CMP_SELECTOR + ' ' + ACTIVE_COUNTRY_SELECTOR)
