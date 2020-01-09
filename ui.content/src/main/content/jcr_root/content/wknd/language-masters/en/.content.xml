@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
+    <errors/>
     <jcr:content
         cq:lastModified="{Date}2019-10-27T16:44:32.639-07:00"
         cq:lastModifiedBy="reference-adjustment-service"
@@ -14,86 +15,6 @@
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
-            <responsivegrid_169559958
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid">
-                <carousel
-                    cq:styleIds="[1555545421827]"
-                    jcr:created="{Date}2019-04-17T15:36:28.849-07:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-10-18T19:56:02.698-07:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/content/carousel"
-                    accessibilityLabel="Hero Carousel"
-                    autopauseDisabled="false"
-                    autoplay="false"
-                    delay="5000">
-                    <teaser
-                        cq:panelTitle="LA Skateparks"
-                        cq:styleIds="[1555543212672]"
-                        jcr:created="{Date}2019-04-17T15:43:55.322-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-18T20:00:24.078-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/teaser"
-                        actionsEnabled="true"
-                        descriptionFromPage="true"
-                        fileReference="/content/dam/wknd/en/magazine/la-skateparks/skateboard-hero.jpg"
-                        textIsRich="true"
-                        titleFromPage="true">
-                        <actions jcr:primaryType="nt:unstructured">
-                            <item0
-                                jcr:primaryType="nt:unstructured"
-                                link="/content/wknd/language-masters/en/magazine/guide-la-skateparks"
-                                text="Read More"/>
-                        </actions>
-                    </teaser>
-                    <item_1571453564159
-                        cq:panelTitle="Surfing"
-                        cq:styleIds="[1555543212672]"
-                        jcr:description="&lt;p>Experienced local surf guides will take care of all the logistics and find the best spots for you to experience the best surfing Costa Rica has to offer.&lt;/p>&#xd;&#xa;"
-                        jcr:lastModified="{Date}2019-10-18T19:54:20.274-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Surf Camp in Costa Rica"
-                        sling:resourceType="wknd/components/content/teaser"
-                        actionsEnabled="true"
-                        descriptionFromPage="false"
-                        fileReference="/content/dam/wknd/en/magazine/san-diego-surf-spots/beach-walking.jpg"
-                        textIsRich="true"
-                        titleFromPage="false">
-                        <actions jcr:primaryType="nt:unstructured">
-                            <item0
-                                jcr:primaryType="nt:unstructured"
-                                link="/content/wknd/language-masters/en/adventures/surf-camp-costa-rica"
-                                text="Read More"/>
-                        </actions>
-                    </item_1571453564159>
-                    <item_1571453742228
-                        cq:panelTitle="Skiing"
-                        cq:styleIds="[1555543212672]"
-                        jcr:description="&lt;p>The fjords of norway are bjadi fjis fjaff lorem ipsu solum dolor ipsum.&lt;/p>&#xd;&#xa;"
-                        jcr:lastModified="{Date}2019-10-18T19:58:51.931-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Skiitouring Norway"
-                        sling:resourceType="wknd/components/content/teaser"
-                        actionsEnabled="true"
-                        descriptionFromPage="false"
-                        fileReference="/content/dam/wknd/en/activities/hiking/hiking-campaign.jpg"
-                        textIsRich="true"
-                        titleFromPage="false">
-                        <actions jcr:primaryType="nt:unstructured">
-                            <item0
-                                jcr:primaryType="nt:unstructured"
-                                link="/content/wknd/language-masters/en/magazine/skiitouring"
-                                text="Read More"/>
-                        </actions>
-                    </item_1571453742228>
-                </carousel>
-            </responsivegrid_169559958>
             <responsivegrid
                 jcr:created="{Date}2019-03-19T13:22:52.385-07:00"
                 jcr:createdBy="admin"
