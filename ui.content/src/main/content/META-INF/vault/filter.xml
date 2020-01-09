@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/conf/wknd"/>
-    <filter root="/content/wknd"/>
-    <filter root="/content/dam/wknd"/>
-    <filter root="/content/experience-fragments/wknd"/>
-    <filter root="/content/cq:tags/wknd"/>
+
+    <filter root="/conf/wknd" mode="update" />
+    <filter root="/content/wknd" mode="update"/>
+    <filter root="/content/dam/wknd" mode="update"/>
+    <filter root="/content/experience-fragments/wknd" mode="update"/>
+    <filter root="/content/cq:tags/wknd" mode="update"/>
 
     <!-- WKND Member Group-->
     <filter root="/home/groups/wknd" mode="merge" />
