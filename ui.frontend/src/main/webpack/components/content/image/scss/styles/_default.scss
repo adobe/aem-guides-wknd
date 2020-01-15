@@ -30,5 +30,13 @@
 		font-family: $font-family-sans-serif;
 		font-weight: $font-weight-bold;
 	}
+
+	.cmp-image__image--is-loading {
+		background-color: $gray-light;
+		background-image: url('../resources/images/pulse-1s-200px.gif');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 100px 100px;
+	}
 	
 }

@@ -10,9 +10,10 @@
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[cq:LiveRelationship,mix:versionable]"
         jcr:primaryType="cq:PageContent"
-        jcr:title="500"
+        jcr:title="Internal Server Error"
         jcr:uuid="ba2fe7e5-60b6-412f-bb6a-8ac2403929bd"
-        sling:resourceType="wknd/components/structure/page">
+        sling:resourceType="wknd/components/structure/page"
+        pageTitle="500">
         <root
             cq:lastRolledout="{Date}2019-12-02T15:34:38.988-08:00"
             cq:lastRolledoutBy="admin"

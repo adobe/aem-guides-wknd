@@ -183,7 +183,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/content/text"
-                        text="&lt;p>Ⓒ 2019, WKND Demo Site. Intended only as a demonstration of Adobe Experience Manager&lt;/p>&#xd;&#xa;"
+                        text="&lt;p>Ⓒ 2019,&amp;nbsp;&amp;nbsp;WKND Site.&lt;/p>&#xa;&lt;p>WKND is a fictitious adventure and travel website created by Adobe to demonstrate how anyone can use Adobe Experience Manager to build a beautiful, feature-rich website over a single weekend. This site is built entirely with Adobe Experience Manager&amp;nbsp;&lt;a href=&quot;https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html&quot;>Core Components&lt;/a>&amp;nbsp;and&amp;nbsp;&lt;a href=&quot;https://github.com/adobe/aem-project-archetype&quot;>Archetype&lt;/a>&amp;nbsp;that are available as open source code to the public. The entire&amp;nbsp;&lt;a href=&quot;https://github.com/adobe/aem-guides-wknd/&quot;>site source code&lt;/a>&amp;nbsp;is available as open source as well and is accompanied with a&amp;nbsp;&lt;a href=&quot;https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html&quot;>detailed tutorial&lt;/a>&amp;nbsp;on how to recreate the site.&lt;/p>&#xa;&lt;p>Many of the beautiful images in the WKND site are available for purchase via&amp;nbsp;&lt;a href=&quot;https://stock.adobe.com/&quot;>Adobe Stock&lt;/a>.&lt;/p>&#xa;"
                         textIsRich="true"/>
                 </responsivegrid>
             </responsivegrid>
