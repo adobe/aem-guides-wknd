@@ -32,6 +32,7 @@
         <module>it.launcher</module>
         <module>repository-structure</module>
         <module>dispatcher</module>
+        <module>samplecontent</module>
     </modules>
 
     <properties>
