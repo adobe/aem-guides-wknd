@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:file">
+    <jcr:content
+        dam:folderThumbnailPaths="[/content/dam/wknd/en/adventures/downhill-skiing-wyoming/AdobeStock_166718157.jpeg,/content/dam/wknd/en/adventures/downhill-skiing-wyoming/AdobeStock_93049279.jpeg,/content/dam/wknd/en/adventures/downhill-skiing-wyoming/AdobeStock_170334891.jpeg]"
+        jcr:primaryType="nt:unstructured"
+        bgcolor="{Long}-1"
+        height="{Long}240"
+        width="{Long}280"/>
+</jcr:root>

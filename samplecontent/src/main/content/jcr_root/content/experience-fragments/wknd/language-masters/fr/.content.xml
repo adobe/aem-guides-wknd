@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    cq:adobeTargetExportFormat="html"
+    cq:cloudserviceconfigs="[/libs/settings/cloudconfigs/translation/translationcfg/default_translation]"
+    cq:conf="/conf/wknd"
+    cq:isLanguageRoot="{Boolean}true"
+    jcr:language="fr"
+    jcr:primaryType="sling:OrderedFolder"
+    jcr:title="French"/>

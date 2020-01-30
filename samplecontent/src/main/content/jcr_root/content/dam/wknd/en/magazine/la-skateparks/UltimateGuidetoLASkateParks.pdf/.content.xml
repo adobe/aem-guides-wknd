@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="8b070548-46c1-4249-9b92-7805629fbb8f">
+    <jcr:content
+        cq:name="UltimateGuidetoLASkateParks.pdf"
+        cq:parentPath="/content/dam/wknd/en/magazine/la-skateparks"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2019-10-25T16:51:11.189-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2019-10-25T16:51:00.999-07:00"
+            dam:numPages="{Long}2"
+            dam:Physicalheightininches="{Decimal}11.0"
+            dam:Physicalwidthininches="{Decimal}8.5"
+            dam:Producer="macOS Version 10.14.5 (Build 18F132) Quartz PDFContext"
+            dam:sha1="22fc7f7ab7bd3d09ca716ab728e7648a39b26a7f"
+            dam:size="{Long}143191"
+            dc:format="application/pdf"
+            dc:modified="{Date}2019-10-14T15:12:05.066-07:00"
+            dc:title="Ultimate Guide To LA Skateparks PDF"
+            jcr:lastModified="{Date}2019-10-25T16:49:47.212-07:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Ultimate Guide To LA Skateparks PDF"
+            pdf:Producer="macOS Version 10.14.5 (Build 18F132) Quartz PDFContext"
+            xmp:CreateDate="{Date}2019-10-14T15:10:46.000-07:00"
+            xmp:CreatorTool="Word"
+            xmp:MetadataDate="{Date}2019-10-25T16:49:48.000-07:00"
+            xmp:ModifyDate="{Date}2019-10-25T16:49:48.000-07:00"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

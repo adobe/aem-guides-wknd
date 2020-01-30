@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="1f576d62-a6b7-4f96-a1e2-3e328e63b585">
+    <jcr:content
+        cq:name="WA_camping_Adobe.pdf"
+        cq:parentPath="/content/dam/wknd/en/magazine/western-australia"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2019-10-25T16:50:03.297-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2019-10-25T16:49:52.286-07:00"
+            dam:numPages="{Long}3"
+            dam:Physicalheightininches="{Decimal}11.692916666666667"
+            dam:Physicalwidthininches="{Decimal}8.266666666666667"
+            dam:Producer="macOS Version 10.14.5 (Build 18F132) Quartz PDFContext"
+            dam:sha1="49c56453e01ff99abbc64cac0d98c077d35242ae"
+            dam:size="{Long}46669"
+            dc:description="PDF version of article"
+            dc:format="application/pdf"
+            dc:language="[en]"
+            dc:language_xmpArrayType="rdf:Bag"
+            dc:modified="{Date}2019-10-14T15:13:46.165-07:00"
+            dc:title="Western Australia by camper van"
+            jcr:lastModified="{Date}2019-10-25T16:49:42.422-07:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Western Australia by camper van"
+            pdf:Producer="macOS Version 10.14.5 (Build 18F132) Quartz PDFContext"
+            xmp:CreateDate="{Date}2019-10-14T15:07:16.000-07:00"
+            xmp:CreatorTool="Word"
+            xmp:MetadataDate="{Date}2019-10-25T16:49:43.000-07:00"
+            xmp:ModifyDate="{Date}2019-10-25T16:49:43.000-07:00"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
