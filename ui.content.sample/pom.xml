@@ -30,9 +30,9 @@
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>aem-guides-wknd.samplecontent</artifactId>
+    <artifactId>aem-guides-wknd.ui.content.sample</artifactId>
     <packaging>content-package</packaging>
-    <name>WKND Sites Project - Sample Content</name>
+    <name>WKND Sites Project - UI sample content</name>
     <description>Sample Content for WKND Sites Project</description>
 
     <!-- ====================================================================== -->
@@ -49,7 +49,7 @@
                 <extensions>true</extensions>
                 <configuration>
                     <group>com.adobe.aem.guides</group>
-                    <name>aem-guides-wknd.samplecontent</name>
+                    <name>aem-guides-wknd.ui.content.sample</name>
                     <packageType>content</packageType>
                     <accessControlHandling>merge</accessControlHandling>
                     <properties>

@@ -63,7 +63,7 @@
                         </embedded>
                         <embedded>
                             <groupId>com.adobe.aem.guides</groupId>
-                            <artifactId>aem-guides-wknd.samplecontent</artifactId>
+                            <artifactId>aem-guides-wknd.ui.content.sample</artifactId>
                             <type>zip</type>
                             <target>/apps/wknd-packages/content/install</target>
                         </embedded>
@@ -190,7 +190,7 @@
 
         <dependency>
             <groupId>com.adobe.aem.guides</groupId>
-            <artifactId>aem-guides-wknd.samplecontent</artifactId>
+            <artifactId>aem-guides-wknd.ui.content.sample</artifactId>
             <version>0.0.3-SNAPSHOT</version>
             <type>zip</type>
         </dependency>
