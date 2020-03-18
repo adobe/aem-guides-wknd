@@ -1458,6 +1458,7 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Site Theme"
                         sling:resourceType="wcm/core/components/policy/policy"
+                        ampMode="pairedAmp"
                         clientlibs="wknd.site"
                         clientlibsJsHead="wknd.dependencies">
                         <jcr:content

@@ -3,5 +3,5 @@
     cq:isContainer="true"
     jcr:primaryType="cq:Component"
     jcr:title="Carousel"
-    sling:resourceSuperType="core/wcm/components/carousel/v1/carousel"
+    sling:resourceSuperType="core/wcm/extensions/amp/components/carousel/v1/carousel"
     componentGroup="WKND.Content"/>
