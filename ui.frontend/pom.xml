@@ -55,6 +55,16 @@
                             <arguments>run prod</arguments>
                         </configuration>
                     </execution>
+                    <execution>
+                        <id>npm run amp</id>
+                        <phase>generate-resources</phase>
+                        <goals>
+                            <goal>npm</goal>
+                        </goals>
+                        <configuration>
+                            <arguments>run amp</arguments>
+                        </configuration>
+                    </execution>
                 </executions>
             </plugin>
             <plugin>
@@ -99,6 +109,16 @@
                                 </goals>
                                 <configuration>
                                     <arguments>run dev</arguments>
+                                </configuration>
+                            </execution>
+                            <execution>
+                                <id>npm run amp</id>
+                                <phase>generate-resources</phase>
+                                <goals>
+                                    <goal>npm</goal>
+                                </goals>
+                                <configuration>
+                                    <arguments>run amp</arguments>
                                 </configuration>
                             </execution>
                         </executions>

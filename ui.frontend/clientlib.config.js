@@ -28,6 +28,29 @@ module.exports = {
                     files: ["**/*.*"]
                 }
             }
+        },
+        {
+            name: "clientlib-amp",
+            allowProxy: true,
+            categories: ["wknd.site.amp"],
+            serializationFormat: "xml",
+            cssProcessor : ["default:none", "min:none"],
+            jsProcessor: ["default:none", "min:none"],
+            assets: {
+                js: [
+                    "dist/clientlib-amp/js/vendors~site.*.js",
+                    "dist/clientlib-amp/js/site.*.js"
+                ],
+                css: [
+                    "dist/clientlib-amp/css/vendors~site.*.css",
+                    "dist/clientlib-amp/css/site.*.css"
+                ],
+                resources: {
+                    cwd: "./dist/clientlib-amp/resources",
+                    flatten: false,
+                    files: ["**/*.*"]
+                }
+            }
         }
     ]
 };

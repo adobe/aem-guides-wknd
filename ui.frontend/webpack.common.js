@@ -9,6 +9,7 @@ const CopyWebpackPlugin       = require('copy-webpack-plugin');
 const { CleanWebpackPlugin }  = require('clean-webpack-plugin');
 
 const SOURCE_ROOT = __dirname + '/src/main/webpack';
+const CLIENT_LIB = 'clientlib-site';
 
 module.exports = {
         resolve: {
@@ -21,7 +22,7 @@ module.exports = {
             site: SOURCE_ROOT + '/site/main.js'
         },
         output: {
-            filename: 'clientlib-site/js/[name].bundle.js',
+            filename: CLIENT_LIB + '/js/[name].bundle.js',
             path: path.resolve(__dirname, 'dist')
         },
         optimization: {
@@ -97,14 +98,14 @@ module.exports = {
             new CleanWebpackPlugin(),
             new webpack.NoEmitOnErrorsPlugin(),
             new MiniCssExtractPlugin({
-                filename: 'clientlib-site/css/[name].bundle.css',
+                filename: CLIENT_LIB + '/css/[name].bundle.css',
             }),
             new TSLintPlugin({
                 files: [SOURCE_ROOT + '/**/*.ts', SOURCE_ROOT + '/**/*.tsx'],
                 config: './tslint.json'
             }),
             new CopyWebpackPlugin([
-                { from: path.resolve(__dirname, SOURCE_ROOT + '/resources'), to: './clientlib-site/resources' }
+                { from: path.resolve(__dirname, SOURCE_ROOT + '/resources'), to: './' + CLIENT_LIB + '/resources' }
             ])
         ],
         stats: {
