@@ -1,5 +1,5 @@
-@import '~normalize-scss/sass/normalize';
-@import '~animate.css/animate.css';
+//@import '~normalize-scss/sass/normalize';
+//@import '~animate.css/animate.css';
 
 @import '../../webpack/base/sass/shared';
 
@@ -8,3 +8,29 @@
 @import '../../webpack/site/elements.scss';
 
 /* Components */
+@import '../../webpack/components/content/accordion/scss/accordion.scss';
+@import '../../webpack/components/content/breadcrumb/scss/breadcrumb.scss';
+@import '../../webpack/components/content/byline/scss/byline.scss';
+@import '../../webpack/components/content/button/scss/button.scss';
+@import '../../webpack/components/content/carousel/scss/carousel.scss';
+@import '../../webpack/components/content/contentfragment/scss/contentfragment.scss';
+@import '../../webpack/components/content/download/scss/download.scss';
+@import '../../webpack/components/content/experiencefragment/scss/experiencefragment.scss';
+@import '../../webpack/components/content/image/scss/image.scss';
+@import '../../webpack/components/content/image-list/scss/image-list.scss';
+@import '../../webpack/components/content/layout-container/scss/layout-container.scss';
+@import '../../webpack/components/content/languagenavigation/scss/languagenavigation.scss';
+@import '../../webpack/components/content/list/scss/list.scss';
+@import '../../webpack/components/content/navigation/scss/navigation.scss';
+@import '../../webpack/components/content/search/scss/search.scss';
+@import '../../webpack/components/content/separator/scss/separator.scss';
+@import '../../webpack/components/content/tabs/scss/tabs.scss';
+@import '../../webpack/components/content/teaser/scss/teaser.scss';
+@import '../../webpack/components/content/text/scss/text.scss';
+@import '../../webpack/components/content/title/scss/title.scss';
+
+/* Form */
+@import '../../webpack/components/form/sign-in-form/scss/sign-in-form.scss';
+@import '../../webpack/components/form/sign-in-buttons/scss/sign-in-buttons.scss';
+@import '../../webpack/components/form/text/scss/text.scss';
+@import '../../webpack/components/form/button/scss/button.scss';
