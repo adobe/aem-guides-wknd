@@ -38,15 +38,15 @@ module.exports = {
             jsProcessor: ["default:none", "min:none"],
             assets: {
                 js: [
-                    "dist/clientlib-amp/js/vendors~site.*.js",
-                    "dist/clientlib-amp/js/site.*.js"
+                    "dist-amp/clientlib-amp/js/vendors~site.*.js",
+                    "dist-amp/clientlib-amp/js/site.*.js"
                 ],
                 css: [
-                    "dist/clientlib-amp/css/vendors~site.*.css",
-                    "dist/clientlib-amp/css/site.*.css"
+                    "dist-amp/clientlib-amp/css/vendors~site.*.css",
+                    "dist-amp/clientlib-amp/css/site.*.css"
                 ],
                 resources: {
-                    cwd: "./dist/clientlib-amp/resources",
+                    cwd: "./dist-amp/clientlib-amp/resources",
                     flatten: false,
                     files: ["**/*.*"]
                 }

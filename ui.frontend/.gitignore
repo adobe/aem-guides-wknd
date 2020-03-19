@@ -6,3 +6,4 @@ npm-debug.log
 package-lock.json
 install.js
 dist/
+dist-amp/
