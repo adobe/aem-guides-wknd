@@ -38,8 +38,8 @@ module.exports = {
             jsProcessor: ["default:none", "min:none"],
             assets: {
                 js: [
-                    "dist-amp/clientlib-amp/js/vendors~site.*.js",
-                    "dist-amp/clientlib-amp/js/site.*.js"
+                    // "dist-amp/clientlib-amp/js/vendors~site.*.js",
+                    // "dist-amp/clientlib-amp/js/site.*.js"
                 ],
                 css: [
                     "dist-amp/clientlib-amp/css/vendors~site.*.css",

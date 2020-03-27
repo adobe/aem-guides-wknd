@@ -13,5 +13,11 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 */-->
-<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html"
-     data-sly-call="${clientlib.all @ categories=['wknd.base', 'wknd.site.amp']}"/>
+
+<sly data-sly-use.clientlibAmp="${'com.adobe.cq.wcm.core.extensions.amp.models.ClientLibrary' @ type='css', primaryPath='clientlibs/amp', fallbackPath='clientlibs/site', categories='wknd.site.amp'}"/>
+<sly data-sly-use.clientlibGrid="${'com.adobe.cq.wcm.core.extensions.amp.models.ClientLibrary' @ type='css', primaryPath='clientlibs/amp', fallbackPath='clientlibs/site', categories='wknd.grid'}"/>
+
+<style amp-custom data-sly-test="${clientlibAmp.inlineLimited && clientlibGrid.inlineLimited}">
+    ${clientlibAmp.inlineLimited @ context = 'unsafe'}
+    ${clientlibGrid.inlineLimited @ context = 'unsafe'}
+</style>

@@ -1,6 +1,7 @@
+'use strict';
+
 const path                    = require('path');
 const webpack                 = require('webpack');
-
 const MiniCssExtractPlugin    = require("mini-css-extract-plugin");
 const TSConfigPathsPlugin     = require('tsconfig-paths-webpack-plugin');
 const TSLintPlugin            = require('tslint-webpack-plugin');
@@ -11,16 +12,6 @@ const SOURCE_ROOT = __dirname + '/src/main/amp';
 const CLIENT_LIB = 'clientlib-amp';
 
 module.exports = {
-   mode: 'development',
-   devtool: 'inline-source-map',
-   performance: {hints: "warning"},
-   devServer: {
-      inline: true,
-      proxy: [{
-         context: ['/content', '/etc.clientlibs'],
-         target: 'http://localhost:4502',
-      }]
-   },
    resolve: {
       extensions: ['.js', '.ts'],
       plugins: [new TSConfigPathsPlugin({

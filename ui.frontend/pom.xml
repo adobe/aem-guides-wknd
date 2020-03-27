@@ -46,6 +46,16 @@
                 <artifactId>frontend-maven-plugin</artifactId>
                 <executions>
                     <execution>
+                        <id>npm run prod-amp</id>
+                        <phase>generate-resources</phase>
+                        <goals>
+                            <goal>npm</goal>
+                        </goals>
+                        <configuration>
+                            <arguments>run prod-amp</arguments>
+                        </configuration>
+                    </execution>
+                    <execution>
                         <id>npm run prod</id>
                         <phase>generate-resources</phase>
                         <goals>
@@ -53,16 +63,6 @@
                         </goals>
                         <configuration>
                             <arguments>run prod</arguments>
-                        </configuration>
-                    </execution>
-                    <execution>
-                        <id>npm run amp</id>
-                        <phase>generate-resources</phase>
-                        <goals>
-                            <goal>npm</goal>
-                        </goals>
-                        <configuration>
-                            <arguments>run amp</arguments>
                         </configuration>
                     </execution>
                 </executions>
@@ -102,16 +102,6 @@
                         <artifactId>frontend-maven-plugin</artifactId>
                         <executions>
                             <execution>
-                                <id>npm run dev</id>
-                                <phase>generate-resources</phase>
-                                <goals>
-                                    <goal>npm</goal>
-                                </goals>
-                                <configuration>
-                                    <arguments>run dev</arguments>
-                                </configuration>
-                            </execution>
-                            <execution>
                                 <id>npm run amp</id>
                                 <phase>generate-resources</phase>
                                 <goals>
@@ -119,6 +109,16 @@
                                 </goals>
                                 <configuration>
                                     <arguments>run amp</arguments>
+                                </configuration>
+                            </execution>
+                            <execution>
+                                <id>npm run dev</id>
+                                <phase>generate-resources</phase>
+                                <goals>
+                                    <goal>npm</goal>
+                                </goals>
+                                <configuration>
+                                    <arguments>run dev</arguments>
                                 </configuration>
                             </execution>
                         </executions>
