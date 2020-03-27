@@ -15,9 +15,9 @@
 */-->
 
 <sly data-sly-use.clientlibAmp="${'com.adobe.cq.wcm.core.extensions.amp.models.ClientLibrary' @ type='css', primaryPath='clientlibs/amp', fallbackPath='clientlibs/site', categories='wknd.site.amp'}"/>
-<sly data-sly-use.clientlibGrid="${'com.adobe.cq.wcm.core.extensions.amp.models.ClientLibrary' @ type='css', primaryPath='clientlibs/amp', fallbackPath='clientlibs/site', categories='wknd.grid'}"/>
+<sly data-sly-use.clientlibGrid="${'com.adobe.cq.wcm.core.extensions.amp.models.ClientLibrary' @ type='css', primaryPath='clientlibs/amp', fallbackPath='clientlibs/site', categories='wknd.grid.amp'}"/>
 
 <style amp-custom data-sly-test="${clientlibAmp.inlineLimited && clientlibGrid.inlineLimited}">
-    ${clientlibAmp.inlineLimited @ context = 'unsafe'}
     ${clientlibGrid.inlineLimited @ context = 'unsafe'}
+    ${clientlibAmp.inlineLimited @ context = 'unsafe'}
 </style>
