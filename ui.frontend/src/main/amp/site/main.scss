@@ -1,8 +1,8 @@
 // @import '~normalize-scss/sass/normalize';
 //@import '~animate.css/animate.css';
 
-@import '../../webpack/base/sass/shared';
-
+@import 'grid.scss';
+@import 'structure.scss';
 
 /* Elements */
 @import '../../webpack/site/elements.scss';
@@ -29,5 +29,3 @@
 @import '../components/teaser/teaser.scss';
 @import '../components/text/text.scss';
 @import '../components/title/title.scss';
-
-@import 'structure.scss';
