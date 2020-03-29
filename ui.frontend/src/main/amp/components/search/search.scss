@@ -14,5 +14,6 @@
  *  limitations under the License.
  */
 
-@import '../../../webpack/components/content/search/scss/search.scss';
+@import '../../../webpack/components/content/search/scss/styles/_default.scss';
+@import '_search-header.scss';
 @import 'overrides.scss';

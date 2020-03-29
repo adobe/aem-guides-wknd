@@ -14,6 +14,20 @@
  *  limitations under the License.
  */
 
-@import '_default';
-@import '../../../webpack/components/content/text/scss/styles/_quote.scss';
-@import '../../../webpack/components/content/text/scss/styles/_size.scss';
+.cmp-image {
+    .cmp-image__image--is-loading {
+        background-image: url('#{$resources-path}/images/pulse-1s-200px.gif');
+    }
+}
+
+.cmp-experiencefragment--header .aem-Grid {
+    .aem-GridColumn.cmp-image--logo {
+        overflow: hidden;
+        min-width: 100px;
+        width: 33.333%;
+
+        .cmp-image__image {
+            margin-left: 0;
+        }
+    }
+}

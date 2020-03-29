@@ -15,19 +15,21 @@
  */
 
 .cmp-navigation--header {
-    overflow: hidden;
-    min-width: 100px;
-    
-    @media (min-width: ($screen-medium + 1)) and (max-width: $screen-large) {
-        width: 60%;
-    }
+    float: left;
+    clear: none;
+    width: 66.666%;
 
     .cmp-navigation {
-        float: right;
+        padding-top: 13px;
     }
-    
-    /* only highlight level 1 */
-    .cmp-navigation__item--level-1.cmp-navigation__item--active .cmp-navigation__item-link {
-        background-color: $brand-primary;
+
+    .cmp-navigation__item-link {
+        padding: 5px 10px;
+        display: block;
+        font-size: 14px;
+    }
+
+    .cmp-navigation__item.cmp-navigation__item--level-0 > .cmp-navigation__item-link {
+        display: none;
     }
 }

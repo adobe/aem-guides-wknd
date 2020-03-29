@@ -14,11 +14,26 @@
  *  limitations under the License.
  */
 
-.cmp-search__field {
-    height: 3rem;
-}
+.cmp-experiencefragment--header .aem-Grid {
+    .aem-GridColumn.cmp-search--header {
+        width: calc(100% - 15px);
+        position: static;
+    }
 
-.cmp-search--header {
-    width: 100%;
-    position: static;
+    .cmp-search__field {
+        height: 2.5rem;
+        width: 100%;
+    }
+
+    .cmp-search__input {
+        width: calc(100% - 4rem);
+        height: 1.5rem;
+        position: static;
+        max-width: none;
+    }
+
+    .cmp-search__form .cmp-search__field .cmp-search__icon {
+        right: 15px;
+        top: 11px;
+    }
 }

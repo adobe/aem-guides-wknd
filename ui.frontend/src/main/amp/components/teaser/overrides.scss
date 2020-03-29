@@ -17,6 +17,22 @@
 .cmp-teaser--featured {
     .cmp-teaser__image {
         width: 100%;
-        margin-top: -2em;
+    }
+}
+
+.cmp-carousel {
+    .cmp-teaser__content {
+        position: absolute;
+        bottom: -60px;
+        background: white;
+        font-size: 10px;
+    }
+
+    .cmp-teaser__title {
+        font-size: $font-size-large;
+    }
+
+    .cmp-teaser__description {
+        font-sze: $font-size-base;
     }
 }

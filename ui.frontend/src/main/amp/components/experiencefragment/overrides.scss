@@ -15,16 +15,23 @@
  */
 
 .cmp-buildingblock--btn-list {
+    &.aem-GridColumn {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 
     > .aem-Grid > .aem-GridColumn.cmp-button--icononly {
         float: left;
-        width: unset !important;
+        // AMP removed !imporant
+        width: unset;
         padding-left: 0;
         padding-right: 0;
     }
 
     @media (max-width: $screen-medium) {
-        padding-left: $gutter-padding !important;
-        padding-right: $gutter-padding !important;
+        // AMP removed !imporant
+        padding-left: $gutter-padding;
+        // AMP removed !imporant
+        padding-right: $gutter-padding;
     }
 }

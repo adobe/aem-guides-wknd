@@ -1,5 +1,7 @@
-// @import '~normalize-scss/sass/normalize';
-//@import '~animate.css/animate.css';
+
+$resources-path: "/etc.clientlibs/wknd/clientlibs/clientlib-amp/resources" !default;
+
+@import '../base/shared';
 
 @import 'grid.scss';
 @import 'structure.scss';

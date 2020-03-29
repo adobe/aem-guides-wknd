@@ -14,5 +14,14 @@
  *  limitations under the License.
  */
 
-@import '../../../webpack/components/content/teaser/scss/teaser.scss';
+$teaser-light-color: #fff;
+$teaser-dark-color: $text-color;
+
+@import '../../../webpack/components/content/teaser/scss/styles/_default.scss';
+@import '../../../webpack/components/content/teaser/scss/styles/_featured.scss';
+@import '../../../webpack/components/content/teaser/scss/styles/_list.scss';
+@import '../../../webpack/components/content/teaser/scss/styles/_secure.scss';
+@import '../../../webpack/components/content/teaser/scss/styles/_slide.scss';
+@import '_card';
+@import '_hero';
 @import 'overrides.scss';
