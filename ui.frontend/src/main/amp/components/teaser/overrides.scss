@@ -36,3 +36,11 @@
         font-sze: $font-size-base;
     }
 }
+
+.cmp-teaser--list {
+     .cmp-teaser__image {
+        .cmp-image__image {
+            max-height: none;
+        }
+    }
+}
