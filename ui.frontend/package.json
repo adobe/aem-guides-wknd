@@ -13,7 +13,7 @@
     "dev": "webpack -d --env dev --config ./webpack.dev.js && clientlib --verbose",
     "amp": "webpack -d --env amp --config ./webpack.amp.js && clientlib --verbose",
     "prod": "webpack -p --config ./webpack.prod.js && clientlib --verbose",
-    "prod-amp": "webpack -p --config ./webpack.prod-amp.js && clientlib --verbose",
+    "prod-amp": "webpack -p --config ./webpack.prod-amp.js && clientlib --verbose && sed -i '' 's/@charset \"utf-8\";//g' dist-amp/clientlib-amp/css/site.bundle.css",
     "start": "webpack-dev-server --open --config ./webpack.dev.js",
     "storybook": "start-storybook -p 6006"
   },
