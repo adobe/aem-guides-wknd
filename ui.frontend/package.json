@@ -13,7 +13,7 @@
     "dev": "webpack -d --env dev --config ./webpack.dev.js && clientlib --verbose",
     "amp": "webpack -d --env amp --config ./webpack.amp.js && clientlib --verbose",
     "prod": "webpack -p --config ./webpack.prod.js && clientlib --verbose",
-    "prod-amp": "webpack -p --config ./webpack.prod-amp.js && clientlib --verbose && sed -i '' 's/@charset \"utf-8\";//g' dist-amp/clientlib-amp/css/site.bundle.css",
+    "prod-amp": "webpack -p --config ./webpack.prod-amp.js && clientlib --verbose",
     "start": "webpack-dev-server --open --config ./webpack.dev.js",
     "storybook": "start-storybook -p 6006"
   },
@@ -36,6 +36,7 @@
     "node-sass": "^4.11.0",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
     "postcss-loader": "^3.0.0",
+    "replace-in-file-webpack-plugin": "^1.0.6",
     "sass": "^1.17.2",
     "sass-loader": "^7.1.0",
     "source-map-loader": "^0.2.4",
