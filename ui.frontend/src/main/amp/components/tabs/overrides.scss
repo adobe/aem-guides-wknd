@@ -14,5 +14,25 @@
  *  limitations under the License.
  */
 
-@import '../../../webpack/components/content/tabs/scss/tabs.scss';
-@import 'overrides.scss';
+.cmp-tabs {
+    display: flex;
+
+    .cmp-tabs__tab {
+        order: 1;
+
+        &[selected] {
+            border: none;
+            background-color: $black;
+            color: $white;
+
+            & + .cmp-tabs__tabpanel {
+                display: block;
+            }
+        }
+    }
+
+    .cmp-tabs__tabpanel {
+        display: none;
+        order: 2;
+    }
+}
