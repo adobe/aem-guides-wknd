@@ -16,6 +16,7 @@
 
 .cmp-tabs {
     display: flex;
+    flex-wrap: wrap;
 
     .cmp-tabs__tab {
         order: 1;
@@ -32,6 +33,7 @@
     }
 
     .cmp-tabs__tabpanel {
+        margin-top: 20px;
         display: none;
         order: 2;
     }
