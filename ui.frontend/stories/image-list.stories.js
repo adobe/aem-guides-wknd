@@ -1,17 +1,19 @@
-import {storiesOf} from '@storybook/html';
 import '../src/main/webpack/site/main.scss';
 import '../.storybook/story-styles.css';
 
-storiesOf('Image List', module)
-    .add('Default', () => new DefaultImageList("cmp-image-list").markup)
+export default {
+  title: 'Image List',
+};
+
+export const Default = () => new DefaultImageList('cmp-image-list').markup;
 
 class DefaultImageList {
-    constructor(styleClass) {
-        this.styleClass = styleClass;
-    }
+  constructor(styleClass) {
+    this.styleClass = styleClass;
+  }
 
-    get markup() {
-        return `<div class="image-list list aem-GridColumn aem-GridColumn--default--12">
+  get markup() {
+    return `<div class="image-list list aem-GridColumn aem-GridColumn--default--12">
                     <ul class="cmp-image-list">
                         <li class="cmp-image-list__item">
                             <article class="cmp-image-list__item-content">
@@ -104,5 +106,5 @@ class DefaultImageList {
                         </li>
                     </ul>
                 </div>`;
-    }
+  }
 }
