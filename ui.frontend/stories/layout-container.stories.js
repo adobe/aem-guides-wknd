@@ -1,18 +1,29 @@
-import {storiesOf} from '@storybook/html';
 import '../src/main/webpack/site/main.scss';
 import '../.storybook/story-styles.css';
 
-storiesOf('Layout Container', module)
-    .add('Modal (Sign In)', () => new SignInLayoutContainer("cmp-layout-container--modal").markup)
-    .add('Modal (Sign Out)', () => new SignOutLayoutContainer("cmp-layout-container--modal").markup);
+export default {
+  title: 'Layout Container',
+};
+
+export const ModalSignIn = () => new SignInLayoutContainer('cmp-layout-container--modal').markup;
+
+ModalSignIn.story = {
+  name: 'Modal (Sign In)',
+};
+
+export const ModalSignOut = () => new SignOutLayoutContainer('cmp-layout-container--modal').markup;
+
+ModalSignOut.story = {
+  name: 'Modal (Sign Out)',
+};
 
 class SignInLayoutContainer {
-    constructor(styleClass) {
-        this.styleClass = styleClass;
-    }
+  constructor(styleClass) {
+    this.styleClass = styleClass;
+  }
 
-    get markup() {
-        return `<div class="xf-web-container">                    
+  get markup() {
+    return `<div class="xf-web-container">                    
                     <div class="container">
                         <div class="root responsivegrid">
                             <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
@@ -84,18 +95,16 @@ class SignInLayoutContainer {
                         </div>
                     </div>
                  </div>`;
-
-    }
+  }
 }
 
-
 class SignOutLayoutContainer {
-    constructor(styleClass) {
-        this.styleClass = styleClass;
-    }
+  constructor(styleClass) {
+    this.styleClass = styleClass;
+  }
 
-    get markup() {
-        return `<div class="xf-web-container">                    
+  get markup() {
+    return `<div class="xf-web-container">                    
                    <div class="container">
                         <div class="root responsivegrid">
                             <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
@@ -140,8 +149,5 @@ class SignOutLayoutContainer {
                         </div>
                     </div>
                  </div>`;
-
-    }
+  }
 }
-
-
