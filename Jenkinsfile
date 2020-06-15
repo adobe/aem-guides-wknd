@@ -12,7 +12,7 @@ node {
         stage('Push to Cloud Manager Repository') {
             sh """
                          echo "Adding CM git repo remote"
-                         git remote set-url cm-repo "https://$user:$pass@git.cloudmanager.adobe.com/emeaaem/Hackathon-EMEAAEMConsultingProgram-p13954"
+                         git remote add cm-repo "https://$user:$pass@git.cloudmanager.adobe.com/emeaaem/Hackathon-EMEAAEMConsultingProgram-p13954"
 
                          echo "Pushing to CM repo"
                          git push -f cm-repo ${env.BRANCH_NAME}:master
