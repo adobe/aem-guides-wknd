@@ -40,11 +40,11 @@ If you have a running AEM instance you can build and package the whole project u
 Depending on your maven configuration, you may find it helpful to force the resolution of the Adobe public repo with
 
     mvn clean install -PautoInstallSinglePackage -Padobe-public
-    
+
 Or to deploy it to a publish instance, run
 
     mvn clean install -PautoInstallSinglePackagePublish
-    
+
 Or alternatively
 
     mvn clean install -PautoInstallSinglePackage -Daem.port=4503
@@ -59,6 +59,11 @@ Or to deploy only the bundle to the author, run
     cd core
     mvn clean install -PautoInstallBundle
 
+### Building for AEM 6.x.x
+
+The project has been designed for **AEM as a Cloud Service**. The project is also backward compatible with AEM **6.4.8** and **6.5.5** by adding the `classic` profile when executing a build, i.e:
+
+    mvn clean install -PautoInstallSinglePackage -Pclassic
 
 ## Testing
 

@@ -153,6 +153,57 @@
                 </plugins>
             </build>
         </profile>
+        <!-- AEM 6.x Profile to include Core Components-->
+        <profile>
+            <id>classic</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.jackrabbit</groupId>
+                        <artifactId>filevault-package-maven-plugin</artifactId>
+                        <extensions>true</extensions>
+                        <configuration>
+                            <group>com.adobe.aem.guides</group>
+                            <embeddeds>
+                                <embedded>
+                                    <groupId>com.adobe.aem.guides</groupId>
+                                    <artifactId>aem-guides-wknd.ui.apps</artifactId>
+                                    <type>zip</type>
+                                    <target>/apps/wknd-packages/application/install</target>
+                                </embedded>
+                                <embedded>
+                                    <groupId>com.adobe.aem.guides</groupId>
+                                    <artifactId>aem-guides-wknd.ui.content</artifactId>
+                                    <type>zip</type>
+                                    <target>/apps/wknd-packages/content/install</target>
+                                </embedded>
+                                <embedded>
+                                    <groupId>com.adobe.aem.guides</groupId>
+                                    <artifactId>aem-guides-wknd.ui.content.sample</artifactId>
+                                    <type>zip</type>
+                                    <target>/apps/wknd-packages/content/install</target>
+                                </embedded>
+                                <embedded>
+                                    <groupId>com.adobe.cq</groupId>
+                                    <artifactId>core.wcm.components.content</artifactId>
+                                    <type>zip</type>
+                                    <target>/apps/wknd-vendor-packages/application/install</target>
+                                </embedded>
+                                <embedded>
+                                    <groupId>com.adobe.cq</groupId>
+                                    <artifactId>core.wcm.components.config</artifactId>
+                                    <type>zip</type>
+                                    <target>/apps/wknd-vendor-packages/application/install</target>
+                                </embedded>
+                            </embeddeds>
+                        </configuration>
+                    </plugin>
+            </plugins>
+            </build>
+         </profile>
     </profiles>
 
     <!-- ====================================================================== -->
@@ -183,6 +234,16 @@
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>
-
+        <!-- Core Component Dependency (6.x only)-->
+        <dependency>
+            <groupId>com.adobe.cq</groupId>
+            <artifactId>core.wcm.components.content</artifactId>
+            <type>zip</type>
+        </dependency>
+        <dependency>
+            <groupId>com.adobe.cq</groupId>
+            <artifactId>core.wcm.components.config</artifactId>
+            <type>zip</type>
+        </dependency>
     </dependencies>
 </project>
