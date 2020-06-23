@@ -50,6 +50,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <aem.sdk.api>2020.6.3766.20200619T110731Z-200604</aem.sdk.api>
         <core.wcm.components.version>2.10.0</core.wcm.components.version>
+        <uber.jar.version>6.4.4</uber.jar.version>
     </properties>
 
      <scm>
@@ -572,16 +573,7 @@ Bundle-DocURL:
                 <type>zip</type>
                 <version>${core.wcm.components.version}</version>
             </dependency>
-
-            <!-- Adobe 6.x.x Dependencies -->
-            <dependency>
-                <groupId>com.adobe.aem</groupId>
-                <artifactId>uber-jar</artifactId>
-                <version>6.4.4</version>
-                <classifier>apis</classifier>
-                <scope>provided</scope>
-            </dependency>
-
+            
             <!-- Testing -->
             <dependency>
                 <groupId>org.junit</groupId>
@@ -715,7 +707,7 @@ Bundle-DocURL:
             <dependency>
                 <groupId>com.adobe.aem</groupId>
                 <artifactId>uber-jar</artifactId>
-                <version>$aemVersion</version>
+                <version>${uber.jar.version}</version>
                 <classifier>apis</classifier>
                 <scope>provided</scope>
             </dependency>
