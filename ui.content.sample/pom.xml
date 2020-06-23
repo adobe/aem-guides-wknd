@@ -84,10 +84,5 @@
             <version>0.0.3-SNAPSHOT</version>
             <type>zip</type>
         </dependency>
-        <dependency>
-            <groupId>com.adobe.aem</groupId>
-            <artifactId>uber-jar</artifactId>
-            <classifier>apis</classifier>
-        </dependency>
     </dependencies>
 </project>
