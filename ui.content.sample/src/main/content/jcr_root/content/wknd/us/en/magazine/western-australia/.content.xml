@@ -14,7 +14,7 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="Western Australia"
         jcr:uuid="a330b8d4-38b8-4fe5-8151-3e4c5352f3a0"
-        sling:resourceType="wknd/components/structure/page"
+        sling:resourceType="wknd/components/page"
         socialMedia="[facebook,pinterest]">
         <root
             cq:lastRolledout="{Date}2019-10-28T11:02:08.343-07:00"
@@ -42,7 +42,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/content/image"
+                    sling:resourceType="wknd/components/image"
                     fileReference="/content/dam/wknd/en/magazine/western-australia/adobestock_156407519.jpeg"/>
                 <responsivegrid
                     cq:lastRolledout="{Date}2019-10-28T11:02:08.355-07:00"
@@ -64,7 +64,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Western Australia by Camper Van"
-                        sling:resourceType="wknd/components/content/title"
+                        sling:resourceType="wknd/components/title"
                         type="h1"/>
                     <title_875115054
                         cq:lastRolledout="{Date}2019-10-28T11:02:08.362-07:00"
@@ -76,7 +76,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="By Sofia Sjöberg"
-                        sling:resourceType="wknd/components/content/title"
+                        sling:resourceType="wknd/components/title"
                         type="h4"/>
                     <contentfragment
                         cq:lastRolledout="{Date}2019-10-28T11:02:08.367-07:00"
@@ -87,7 +87,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/contentfragment"
+                        sling:resourceType="wknd/components/contentfragment"
                         displayMode="singleText"
                         elementNames="main"
                         fragmentPath="/content/dam/wknd/en/magazine/western-australia/western-australia-by-camper-van"
@@ -109,7 +109,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/text"
+                                sling:resourceType="wknd/components/text"
                                 text="&lt;blockquote>&lt;b>Wanderlust&amp;nbsp;\\ˈwɒndəlʌst\\&amp;nbsp;&lt;br>&#xa; &lt;b>a strong desire to travel.&lt;/b>&lt;/b>&lt;/blockquote>&#xa;&lt;p>&lt;b>&lt;i>&lt;u>noun&lt;/u>&lt;/i>&lt;/b>&lt;/p>&#xa;"
                                 textIsRich="true"/>
                         </par1>
@@ -130,7 +130,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Hiking and camping on the coast"
-                                sling:resourceType="wknd/components/content/title"
+                                sling:resourceType="wknd/components/title"
                                 type="h2"/>
                             <image
                                 cq:lastRolledout="{Date}2019-10-28T11:02:08.382-07:00"
@@ -141,7 +141,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/image"
+                                sling:resourceType="wknd/components/image"
                                 fileReference="/content/dam/wknd/en/magazine/western-australia/Adobe_WAAdobe_WA_B6A7083.JPG"/>
                         </par2>
                         <par3
@@ -161,7 +161,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="A trusty vehicle"
-                                sling:resourceType="wknd/components/content/title"
+                                sling:resourceType="wknd/components/title"
                                 type="h2"/>
                             <image
                                 cq:lastRolledout="{Date}2019-10-28T11:02:08.390-07:00"
@@ -172,7 +172,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/image"
+                                sling:resourceType="wknd/components/image"
                                 fileReference="/content/dam/wknd/en/magazine/western-australia/Adobe_WAAdobe_WA_MG_3094.JPG"/>
                         </par3>
                         <par4
@@ -192,7 +192,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Surfing is a must do"
-                                sling:resourceType="wknd/components/content/title"
+                                sling:resourceType="wknd/components/title"
                                 type="h2"/>
                             <image
                                 cq:lastRolledout="{Date}2019-10-28T11:02:08.408-07:00"
@@ -203,7 +203,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/image"
+                                sling:resourceType="wknd/components/image"
                                 fileReference="/content/dam/wknd/en/magazine/western-australia/Adobe_WAAdobe_WA_MG_3851.JPG"/>
                         </par4>
                     </contentfragment>
@@ -216,7 +216,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/experiencefragment"
+                        sling:resourceType="wknd/components/experiencefragment"
                         fragmentVariationPath="/content/experience-fragments/wknd/language-masters/en/contributors/sofia-sjoeberg/byline"/>
                 </responsivegrid>
                 <responsivegrid_223059690
@@ -240,7 +240,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="SHARE THIS STORY"
-                        sling:resourceType="wknd/components/content/title"
+                        sling:resourceType="wknd/components/title"
                         type="h5"/>
                     <sharing
                         cq:lastRolledout="{Date}2019-10-28T11:02:08.422-07:00"
@@ -251,7 +251,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/sharing"/>
+                        sling:resourceType="wknd/components/sharing"/>
                     <separator
                         cq:lastRolledout="{Date}2019-10-28T11:02:08.425-07:00"
                         cq:lastRolledoutBy="admin"
@@ -262,7 +262,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/separator"/>
+                        sling:resourceType="wknd/components/separator"/>
                     <download
                         cq:lastRolledout="{Date}2019-10-28T11:02:08.430-07:00"
                         cq:lastRolledoutBy="admin"
@@ -274,7 +274,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Download PDF"
-                        sling:resourceType="wknd/components/content/download"
+                        sling:resourceType="wknd/components/download"
                         actionText="Download PDF"
                         descriptionFromAsset="false"
                         fileReference="/content/dam/wknd/en/magazine/western-australia/WA_camping_Adobe.pdf"
@@ -291,7 +291,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/list"
+                        sling:resourceType="wknd/components/list"
                         childDepth="1"
                         linkItems="true"
                         listFrom="children"

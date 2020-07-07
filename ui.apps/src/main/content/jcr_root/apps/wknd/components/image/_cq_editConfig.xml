@@ -9,7 +9,7 @@
             propertyName="./fileReference">
             <parameters
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wknd/components/content/image"
+                sling:resourceType="wknd/components/image"
                 imageCrop=""
                 imageMap=""
                 imageRotate=""/>

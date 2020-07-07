@@ -13,7 +13,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:uuid="609a373f-cf11-44a0-92a2-70a440f6a50d"
-        sling:resourceType="wknd/components/structure/page">
+        sling:resourceType="wknd/components/page">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
@@ -24,7 +24,7 @@
                 jcr:lastModified="{Date}2019-09-16T13:47:28.147-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wknd/components/content/experiencefragment"
+                sling:resourceType="wknd/components/experiencefragment"
                 fragmentVariationPath="/content/experience-fragments/wknd/language-masters/en/site/header/master"/>
             <responsivegrid_933431667
                 jcr:created="{Date}2019-10-25T13:36:37.883-07:00"
@@ -53,7 +53,7 @@
                 jcr:lastModified="{Date}2019-09-18T14:30:37.537-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wknd/components/content/experiencefragment"
+                sling:resourceType="wknd/components/experiencefragment"
                 fragmentVariationPath="/content/experience-fragments/wknd/language-masters/en/site/footer/master"/>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">

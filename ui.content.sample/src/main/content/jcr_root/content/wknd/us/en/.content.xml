@@ -13,7 +13,7 @@
         jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync]"
         jcr:primaryType="cq:PageContent"
         jcr:title="WKND Adventures and Travel"
-        sling:resourceType="wknd/components/structure/page"
+        sling:resourceType="wknd/components/page"
         pageTitle="Home">
         <root
             cq:lastRolledout="{Date}2020-01-09T12:46:59.404-08:00"
@@ -59,7 +59,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Camping in Western Australia"
-                        sling:resourceType="wknd/components/content/teaser"
+                        sling:resourceType="wknd/components/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="false"
                         fileReference="/content/dam/wknd/en/magazine/western-australia/adobestock_156407519.jpeg"
@@ -90,7 +90,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Recent Articles"
-                        sling:resourceType="wknd/components/content/title"
+                        sling:resourceType="wknd/components/title"
                         type="h2"/>
                     <image_list
                         cq:lastRolledout="{Date}2020-01-09T12:46:59.437-08:00"
@@ -101,7 +101,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/image-list"
+                        sling:resourceType="wknd/components/image-list"
                         childDepth="1"
                         listFrom="static"
                         pages="[/content/wknd/us/en/magazine/guide-la-skateparks,/content/wknd/us/en/magazine/ski-touring,/content/wknd/us/en/magazine/arctic-surfing,/content/wknd/us/en/magazine/san-diego-surf]"
@@ -119,7 +119,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="View All"
-                        sling:resourceType="wknd/components/content/button"
+                        sling:resourceType="wknd/components/button"
                         accessibilityLabel="read our articles"
                         link="/content/wknd/us/en/magazine"/>
                     <separator
@@ -131,7 +131,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/separator"/>
+                        sling:resourceType="wknd/components/separator"/>
                     <title_15771435
                         cq:lastRolledout="{Date}2020-01-09T12:46:59.448-08:00"
                         cq:lastRolledoutBy="admin"
@@ -143,7 +143,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Next Adventures"
-                        sling:resourceType="wknd/components/content/title"
+                        sling:resourceType="wknd/components/title"
                         type="h2"/>
                 </responsivegrid>
                 <teaser
@@ -158,7 +158,7 @@
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Experience the world with us"
-                    sling:resourceType="wknd/components/content/teaser"
+                    sling:resourceType="wknd/components/teaser"
                     actionsEnabled="true"
                     descriptionFromPage="true"
                     fileReference="/content/dam/wknd/en/adventures/climbing-new-zealand/AdobeStock_140634652.jpeg"
@@ -204,7 +204,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Where do you want to go?"
-                        sling:resourceType="wknd/components/content/title"
+                        sling:resourceType="wknd/components/title"
                         type="h3"/>
                     <image_list
                         cq:lastRolledout="{Date}2020-01-09T12:46:59.483-08:00"
@@ -215,7 +215,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/image-list"
+                        sling:resourceType="wknd/components/image-list"
                         childDepth="1"
                         listFrom="children"
                         maxItems="4"
@@ -234,7 +234,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Explore All"
-                        sling:resourceType="wknd/components/content/button"
+                        sling:resourceType="wknd/components/button"
                         accessibilityLabel="explore our adventures"
                         link="/content/wknd/us/en/adventures"/>
                     <separator
@@ -246,7 +246,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/separator"/>
+                        sling:resourceType="wknd/components/separator"/>
                 </responsivegrid_1679842506>
             </responsivegrid>
             <responsivegrid_933431667
@@ -264,7 +264,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/content/carousel"
+                    sling:resourceType="wknd/components/carousel"
                     autopauseDisabled="false"
                     autoplay="false"
                     delay="5000">
@@ -279,7 +279,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Adventures"
-                        sling:resourceType="wknd/components/content/teaser"
+                        sling:resourceType="wknd/components/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="true"
                         fileReference="/content/dam/wknd/en/adventures/riverside-camping-australia/AdobeStock_216674449.jpeg"
@@ -308,7 +308,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/teaser"
+                        sling:resourceType="wknd/components/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="true"
                         fileReference="/content/dam/wknd/en/magazine/san-diego-surf-spots/beach-walking.jpg"
@@ -340,7 +340,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/teaser"
+                        sling:resourceType="wknd/components/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="false"
                         fileReference="/content/dam/wknd/en/adventures/downhill-skiing-wyoming/AdobeStock_185234795.jpeg"

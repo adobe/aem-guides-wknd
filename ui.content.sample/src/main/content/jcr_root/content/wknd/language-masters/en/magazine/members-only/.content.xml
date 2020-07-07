@@ -14,7 +14,7 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="Members Only"
         jcr:uuid="f6ec735e-bb05-4440-b63a-07587fda1369"
-        sling:resourceType="wknd/components/structure/page">
+        sling:resourceType="wknd/components/page">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
@@ -30,14 +30,14 @@
                     jcr:lastModified="{Date}2019-10-22T14:29:16.755-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/content/title"/>
+                    sling:resourceType="wknd/components/title"/>
                 <image_list
                     jcr:created="{Date}2019-10-22T14:29:25.934-07:00"
                     jcr:createdBy="admin"
                     jcr:lastModified="{Date}2019-10-22T14:29:34.090-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/content/image-list"
+                    sling:resourceType="wknd/components/image-list"
                     childDepth="1"
                     listFrom="children"
                     sortOrder="asc"

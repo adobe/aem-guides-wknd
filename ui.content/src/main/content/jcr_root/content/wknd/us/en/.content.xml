@@ -13,7 +13,7 @@
         jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync]"
         jcr:primaryType="cq:PageContent"
         jcr:title="WKND Adventures and Travel"
-        sling:resourceType="wknd/components/structure/page"
+        sling:resourceType="wknd/components/page"
         pageTitle="Home">
         <root
             cq:lastRolledout="{Date}2020-01-09T12:46:59.404-08:00"

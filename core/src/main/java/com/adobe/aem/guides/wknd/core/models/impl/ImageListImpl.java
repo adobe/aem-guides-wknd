@@ -65,7 +65,7 @@ import java.util.stream.Collectors;
 public class ImageListImpl implements ImageList {
     private static final Logger log = LoggerFactory.getLogger(ImageListImpl.class);
 
-    protected static final String RESOURCE_TYPE = "wknd/components/content/image-list";
+    protected static final String RESOURCE_TYPE = "wknd/components/image-list";
 
     @Self
     @Required
@@ -112,7 +112,7 @@ public class ImageListImpl implements ImageList {
     }
 
     private class ImageListItemImpl implements ImageList.ListItem {
-        private static final String IMAGE_RESOURCE_TYPE = "wknd/components/content/image";
+        private static final String IMAGE_RESOURCE_TYPE = "wknd/components/image";
 
         private final com.adobe.cq.wcm.core.components.models.ListItem wrappedListItem;
         private final Resource image;

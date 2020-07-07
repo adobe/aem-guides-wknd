@@ -14,7 +14,7 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="Ski Touring Mont Blanc"
         jcr:uuid="6f25b4f3-c4ac-4b98-912d-483d815fcd8f"
-        sling:resourceType="wknd/components/structure/page"
+        sling:resourceType="wknd/components/page"
         socialMedia="[facebook,pinterest]">
         <root
             cq:lastRolledout="{Date}2019-10-28T11:02:42.121-07:00"
@@ -38,7 +38,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/content/carousel"
+                    sling:resourceType="wknd/components/carousel"
                     autopauseDisabled="false"
                     autoplay="false">
                     <item_1571168419252
@@ -48,7 +48,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/image"
+                        sling:resourceType="wknd/components/image"
                         fileReference="/content/dam/wknd/en/adventures/ski-touring-mont-blanc/AdobeStock_238230356.jpeg"/>
                     <item_1571168422510
                         cq:lastRolledout="{Date}2019-10-28T11:02:42.137-07:00"
@@ -57,7 +57,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/image"
+                        sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
                         fileReference="/content/dam/wknd/en/adventures/ski-touring-mont-blanc/AdobeStock_21422513.jpeg"
@@ -71,7 +71,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/image"
+                        sling:resourceType="wknd/components/image"
                         fileReference="/content/dam/wknd/en/adventures/ski-touring-mont-blanc/AdobeStock_291339093.jpeg"/>
                 </carousel>
                 <responsivegrid
@@ -95,7 +95,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/title"/>
+                        sling:resourceType="wknd/components/title"/>
                     <responsivegrid
                         cq:lastRolledout="{Date}2019-10-28T11:02:42.152-07:00"
                         cq:lastRolledoutBy="admin"
@@ -143,7 +143,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wknd/components/content/contentfragment"
+                            sling:resourceType="wknd/components/contentfragment"
                             displayMode="multi"
                             elementNames="[adventureActivity,adventureType,adventureTripLength,adventureGroupSize,adventureDifficulty,adventurePrice]"
                             fragmentPath="/content/dam/wknd/en/adventures/ski-touring-mont-blanc/ski-touring-mont-blanc"
@@ -180,7 +180,7 @@
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Share this Adventure"
-                            sling:resourceType="wknd/components/content/title"
+                            sling:resourceType="wknd/components/title"
                             type="h5">
                             <cq:responsive
                                 cq:lastRolledout="{Date}2019-10-28T11:02:42.173-07:00"
@@ -212,7 +212,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wknd/components/content/sharing">
+                            sling:resourceType="wknd/components/sharing">
                             <cq:responsive
                                 cq:lastRolledout="{Date}2019-10-28T11:02:42.180-07:00"
                                 cq:lastRolledoutBy="admin"
@@ -244,7 +244,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/tabs"
+                        sling:resourceType="wknd/components/tabs"
                         accessibilityLabel="adventure trip details">
                         <cq:responsive
                             cq:lastRolledout="{Date}2019-10-28T11:02:42.190-07:00"
@@ -281,7 +281,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wknd/components/content/contentfragment"
+                            sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
                             elementNames="adventureDescription"
                             fragmentPath="/content/dam/wknd/en/adventures/ski-touring-mont-blanc/ski-touring-mont-blanc"
@@ -303,7 +303,7 @@
                                     jcr:lastModifiedBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="wknd/components/content/image"
+                                    sling:resourceType="wknd/components/image"
                                     fileReference="/content/dam/wknd/en/activities/skiing/skitouring.jpg"/>
                             </par2>
                             <par1
@@ -319,7 +319,7 @@
                                     jcr:lastModifiedBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="wknd/components/content/image"
+                                    sling:resourceType="wknd/components/image"
                                     fileReference="/content/dam/wknd/en/activities/climbing/ice-climbing.jpg"/>
                             </par1>
                             <par0
@@ -337,7 +337,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wknd/components/content/contentfragment"
+                            sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
                             elementNames="adventureItinerary"
                             fragmentPath="/content/dam/wknd/en/adventures/ski-touring-mont-blanc/ski-touring-mont-blanc"
@@ -359,7 +359,7 @@
                                     jcr:lastModifiedBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="wknd/components/content/image"
+                                    sling:resourceType="wknd/components/image"
                                     fileReference="/content/dam/wknd/en/activities/hiking/hiking-campaign.jpg"/>
                             </par9>
                             <par1
@@ -375,7 +375,7 @@
                                     jcr:lastModifiedBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="wknd/components/content/image"
+                                    sling:resourceType="wknd/components/image"
                                     fileReference="/content/dam/wknd/en/adventures/ski-touring-mont-blanc/AdobeStock_75620750.jpeg"/>
                             </par1>
                             <par7
@@ -393,7 +393,7 @@
                                     jcr:lastModifiedBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="wknd/components/content/image"
+                                    sling:resourceType="wknd/components/image"
                                     fileReference="/content/dam/wknd/en/activities/skiing/alpinists-rochefort-ridge.jpg"/>
                             </par7>
                             <par5
@@ -428,7 +428,7 @@
                                     jcr:lastModifiedBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="wknd/components/content/image"
+                                    sling:resourceType="wknd/components/image"
                                     fileReference="/content/dam/wknd/en/adventures/ski-touring-mont-blanc/AdobeStock_291339093.jpeg"/>
                             </par4>
                         </item_1570890140330>
@@ -440,7 +440,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wknd/components/content/contentfragment"
+                            sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
                             elementNames="adventureGearList"
                             fragmentPath="/content/dam/wknd/en/adventures/ski-touring-mont-blanc/ski-touring-mont-blanc"
@@ -468,7 +468,7 @@
                                     jcr:lastModifiedBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="wknd/components/content/image"
+                                    sling:resourceType="wknd/components/image"
                                     fileReference="/content/dam/wknd/en/activities/hiking/alpinists-himalayas.jpg"/>
                             </par2>
                             <par1

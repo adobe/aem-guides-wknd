@@ -9,7 +9,7 @@
         jcr:description="Join us on one of our next adventures.  Browse our list of curated experiences and sign up for one when you're ready to explore with us."
         jcr:primaryType="cq:PageContent"
         jcr:title="Adventures"
-        sling:resourceType="wknd/components/structure/page">
+        sling:resourceType="wknd/components/page">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
@@ -29,7 +29,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Current Adventures"
-                    sling:resourceType="wknd/components/content/title"
+                    sling:resourceType="wknd/components/title"
                     type="h2"/>
                 <tabs
                     jcr:created="{Date}2019-10-25T14:15:37.019-07:00"
@@ -37,13 +37,13 @@
                     jcr:lastModified="{Date}2019-10-25T14:17:01.893-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/content/tabs">
+                    sling:resourceType="wknd/components/tabs">
                     <item_1572038174181
                         cq:panelTitle="All"
                         jcr:lastModified="{Date}2019-10-25T14:17:28.831-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/image-list"
+                        sling:resourceType="wknd/components/image-list"
                         childDepth="1"
                         listFrom="children"
                         orderBy="title"
@@ -54,7 +54,7 @@
                         jcr:lastModified="{Date}2019-10-25T14:18:21.522-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/image-list"
+                        sling:resourceType="wknd/components/image-list"
                         childDepth="1"
                         listFrom="tags"
                         orderBy="title"
@@ -66,7 +66,7 @@
                         jcr:lastModified="{Date}2019-10-25T14:18:58.369-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/image-list"
+                        sling:resourceType="wknd/components/image-list"
                         childDepth="1"
                         listFrom="tags"
                         sortOrder="asc"
@@ -77,7 +77,7 @@
                         jcr:lastModified="{Date}2019-10-25T14:20:12.141-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/image-list"
+                        sling:resourceType="wknd/components/image-list"
                         childDepth="1"
                         listFrom="tags"
                         orderBy="title"
@@ -89,7 +89,7 @@
                         jcr:lastModified="{Date}2019-10-25T14:21:01.172-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/image-list"
+                        sling:resourceType="wknd/components/image-list"
                         childDepth="1"
                         listFrom="tags"
                         orderBy="title"
@@ -101,7 +101,7 @@
                         jcr:lastModified="{Date}2019-10-25T14:21:38.767-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/image-list"
+                        sling:resourceType="wknd/components/image-list"
                         childDepth="1"
                         listFrom="tags"
                         orderBy="title"
@@ -115,7 +115,7 @@
                     jcr:lastModified="{Date}2019-10-25T15:05:25.511-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/content/separator"/>
+                    sling:resourceType="wknd/components/separator"/>
             </responsivegrid>
             <responsivegrid_933431667
                 jcr:primaryType="nt:unstructured"
@@ -135,7 +135,7 @@
                         jcr:lastModified="{Date}2019-10-25T15:03:29.925-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/title"/>
+                        sling:resourceType="wknd/components/title"/>
                 </responsivegrid>
                 <teaser
                     cq:styleIds="[1555543212672]"
@@ -146,7 +146,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Experience the world with us"
-                    sling:resourceType="wknd/components/content/teaser"
+                    sling:resourceType="wknd/components/teaser"
                     actionsEnabled="false"
                     descriptionFromPage="false"
                     fileReference="/content/dam/wknd/en/adventures/riverside-camping-australia/AdobeStock_216674449.jpeg"

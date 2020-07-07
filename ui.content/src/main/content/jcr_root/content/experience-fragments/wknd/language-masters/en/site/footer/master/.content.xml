@@ -10,7 +10,7 @@
         cq:xfVariantType="web"
         jcr:primaryType="cq:PageContent"
         jcr:title="Footer"
-        sling:resourceType="wknd/components/structure/xfpage">
+        sling:resourceType="wknd/components/xfpage">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
@@ -37,7 +37,7 @@
                         jcr:lastModified="{Date}2019-09-26T07:06:19.291-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/image"
+                        sling:resourceType="wknd/components/image"
                         alt="WKND Logo"
                         altValueFromDAM="false"
                         displayPopupTitle="false"
@@ -65,7 +65,7 @@
                         jcr:lastModified="{Date}2019-09-19T15:08:37.621-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/structure/navigation"
+                        sling:resourceType="wknd/components/navigation"
                         accessibilityLabel="Footer navigation"
                         collectAllPages="false"
                         navigationRoot="/content/wknd/language-masters/en"
@@ -92,7 +92,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Follow Us"
-                        sling:resourceType="wknd/components/content/title"
+                        sling:resourceType="wknd/components/title"
                         type="h4">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
@@ -124,7 +124,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Facebook"
-                            sling:resourceType="wknd/components/content/button"
+                            sling:resourceType="wknd/components/button"
                             accessibilityLabel="Facebook WKND Button"
                             icon="facebook"
                             link="#facebookwknd"/>
@@ -136,7 +136,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Twitter"
-                            sling:resourceType="wknd/components/content/button"
+                            sling:resourceType="wknd/components/button"
                             accessibilityLabel="Twitter WKND Button"
                             icon="twitter"
                             link="#twitterWKND"/>
@@ -148,7 +148,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Instagram"
-                            sling:resourceType="wknd/components/content/button"
+                            sling:resourceType="wknd/components/button"
                             accessibilityLabel="Instagram WKND"
                             icon="instagram"
                             link="#instagramwknd"/>
@@ -174,7 +174,7 @@
                         jcr:lastModified="{Date}2019-10-14T13:47:14.489-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/separator"/>
+                        sling:resourceType="wknd/components/separator"/>
                     <text
                         cq:styleIds="[1571074021746]"
                         jcr:created="{Date}2019-09-18T14:00:08.666-07:00"
@@ -182,7 +182,7 @@
                         jcr:lastModified="{Date}2019-10-02T16:33:25.423-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/text"
+                        sling:resourceType="wknd/components/text"
                         text="&lt;p>Ⓒ 2019,&amp;nbsp;&amp;nbsp;WKND Site.&lt;/p>&#xa;&lt;p>WKND is a fictitious adventure and travel website created by Adobe to demonstrate how anyone can use Adobe Experience Manager to build a beautiful, feature-rich website over a single weekend. This site is built entirely with Adobe Experience Manager&amp;nbsp;&lt;a href=&quot;https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html&quot;>Core Components&lt;/a>&amp;nbsp;and&amp;nbsp;&lt;a href=&quot;https://github.com/adobe/aem-project-archetype&quot;>Archetype&lt;/a>&amp;nbsp;that are available as open source code to the public. The entire&amp;nbsp;&lt;a href=&quot;https://github.com/adobe/aem-guides-wknd/&quot;>site source code&lt;/a>&amp;nbsp;is available as open source as well and is accompanied with a&amp;nbsp;&lt;a href=&quot;https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html&quot;>detailed tutorial&lt;/a>&amp;nbsp;on how to recreate the site.&lt;/p>&#xa;&lt;p>Many of the beautiful images in the WKND site are available for purchase via&amp;nbsp;&lt;a href=&quot;https://stock.adobe.com/&quot;>Adobe Stock&lt;/a>.&lt;/p>&#xa;"
                         textIsRich="true"/>
                 </responsivegrid>

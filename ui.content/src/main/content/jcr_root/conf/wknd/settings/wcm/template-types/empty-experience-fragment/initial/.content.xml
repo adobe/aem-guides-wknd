@@ -6,5 +6,5 @@
         cq:template="/conf/wknd/settings/wcm/templates/empty-experience-fragment"
         cq:xfVariantType="web"
         jcr:primaryType="cq:PageContent"
-        sling:resourceType="wknd/components/structure/xfpage"/>
+        sling:resourceType="wknd/components/xfpage"/>
 </jcr:root>

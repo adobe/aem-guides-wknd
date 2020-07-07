@@ -14,7 +14,7 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="Surf Camp in Costa Rica"
         jcr:uuid="1d07f738-6759-479f-b739-ba61cf36d00b"
-        sling:resourceType="wknd/components/structure/page"
+        sling:resourceType="wknd/components/page"
         socialMedia="[facebook,pinterest]">
         <root
             cq:lastRolledout="{Date}2019-10-28T11:02:09.499-07:00"
@@ -38,7 +38,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/content/carousel"
+                    sling:resourceType="wknd/components/carousel"
                     autopauseDisabled="false"
                     autoplay="false">
                     <image
@@ -50,7 +50,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/image"
+                        sling:resourceType="wknd/components/image"
                         fileReference="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/adobestock_278302117.jpeg"/>
                     <item_1571681724898
                         cq:lastRolledout="{Date}2019-10-28T11:02:09.514-07:00"
@@ -59,7 +59,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/image"
+                        sling:resourceType="wknd/components/image"
                         fileReference="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/adobestock_113485796.jpeg"/>
                     <item_1571681750987
                         cq:lastRolledout="{Date}2019-10-28T11:02:09.516-07:00"
@@ -68,7 +68,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/image"
+                        sling:resourceType="wknd/components/image"
                         fileReference="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/adobestock_113490014.jpeg"/>
                 </carousel>
                 <responsivegrid
@@ -92,7 +92,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/title"/>
+                        sling:resourceType="wknd/components/title"/>
                     <responsivegrid
                         cq:lastRolledout="{Date}2019-10-28T11:02:09.528-07:00"
                         cq:lastRolledoutBy="admin"
@@ -140,7 +140,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wknd/components/content/contentfragment"
+                            sling:resourceType="wknd/components/contentfragment"
                             displayMode="multi"
                             elementNames="[adventureActivity,adventureType,adventureTripLength,adventureGroupSize,adventureDifficulty,adventurePrice]"
                             fragmentPath="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/surf-camp-costa-rica"
@@ -177,7 +177,7 @@
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Share this Adventure"
-                            sling:resourceType="wknd/components/content/title"
+                            sling:resourceType="wknd/components/title"
                             type="h5">
                             <cq:responsive
                                 cq:lastRolledout="{Date}2019-10-28T11:02:09.548-07:00"
@@ -209,7 +209,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wknd/components/content/sharing">
+                            sling:resourceType="wknd/components/sharing">
                             <cq:responsive
                                 cq:lastRolledout="{Date}2019-10-28T11:02:09.555-07:00"
                                 cq:lastRolledoutBy="admin"
@@ -241,7 +241,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/tabs"
+                        sling:resourceType="wknd/components/tabs"
                         accessibilityLabel="adventure trip details">
                         <cq:responsive
                             cq:lastRolledout="{Date}2019-10-28T11:02:09.565-07:00"
@@ -279,7 +279,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wknd/components/content/contentfragment"
+                            sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
                             elementNames="adventureDescription"
                             fragmentPath="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/surf-camp-costa-rica"
@@ -307,7 +307,7 @@
                                     jcr:lastModifiedBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="wknd/components/content/image"
+                                    sling:resourceType="wknd/components/image"
                                     fileReference="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/surfing_5.jpg"/>
                             </par1>
                         </item_1570890135033>
@@ -319,7 +319,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wknd/components/content/contentfragment"
+                            sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
                             elementNames="adventureItinerary"
                             fragmentPath="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/surf-camp-costa-rica"
@@ -359,7 +359,7 @@
                                     jcr:lastModifiedBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="wknd/components/content/image"
+                                    sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="false"
                                     fileReference="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/adobestock_266405335.jpeg"
@@ -387,7 +387,7 @@
                                     jcr:lastModifiedBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="wknd/components/content/image"
+                                    sling:resourceType="wknd/components/image"
                                     fileReference="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/adobestock_272479375.jpeg"/>
                             </par6>
                             <par4
@@ -406,7 +406,7 @@
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="A student hangs 10 in Costa Rica's famous surf breaks"
-                                    sling:resourceType="wknd/components/content/image"
+                                    sling:resourceType="wknd/components/image"
                                     alt="A student hangs 10 in Costa Rica's famous surf breaks"
                                     altValueFromDAM="false"
                                     displayPopupTitle="false"
@@ -429,7 +429,7 @@
                                     jcr:lastModifiedBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="wknd/components/content/image"
+                                    sling:resourceType="wknd/components/image"
                                     fileReference="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/surfing_2.jpg"/>
                             </par8>
                         </item_1570890140330>
@@ -441,7 +441,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wknd/components/content/contentfragment"
+                            sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
                             elementNames="adventureGearList"
                             fragmentPath="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/surf-camp-costa-rica"

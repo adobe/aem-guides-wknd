@@ -12,7 +12,7 @@
         jcr:mixinTypes="[cq:LiveRelationship]"
         jcr:primaryType="cq:PageContent"
         jcr:title="San Diego Surf Spots"
-        sling:resourceType="wknd/components/structure/page"
+        sling:resourceType="wknd/components/page"
         shortDescription="Best beach breaks"
         socialMedia="[facebook,pinterest]">
         <root
@@ -41,7 +41,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/content/image"
+                    sling:resourceType="wknd/components/image"
                     fileReference="/content/dam/wknd/en/magazine/san-diego-surf-spots/beach-walking.jpg"/>
                 <responsivegrid
                     cq:lastRolledout="{Date}2019-10-28T11:02:08.824-07:00"
@@ -62,7 +62,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/title"
+                        sling:resourceType="wknd/components/title"
                         type="h1"/>
                     <title_875115054
                         cq:lastRolledout="{Date}2019-10-28T11:02:08.830-07:00"
@@ -74,7 +74,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="By Justin Barr"
-                        sling:resourceType="wknd/components/content/title"
+                        sling:resourceType="wknd/components/title"
                         type="h4"/>
                     <contentfragment
                         cq:lastRolledout="{Date}2019-10-28T11:02:08.834-07:00"
@@ -85,7 +85,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/contentfragment"
+                        sling:resourceType="wknd/components/contentfragment"
                         displayMode="singleText"
                         elementNames="main"
                         fragmentPath="/content/dam/wknd/en/magazine/san-diego-surf-spots/san-diego-surfspots"
@@ -107,7 +107,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/image"
+                                sling:resourceType="wknd/components/image"
                                 fileReference="/content/dam/wknd/en/magazine/san-diego-surf-spots/AdobeStock_166388792.jpeg"/>
                         </par2>
                         <par1
@@ -126,7 +126,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Gorgeous beach point breaks"
-                                sling:resourceType="wknd/components/content/image"
+                                sling:resourceType="wknd/components/image"
                                 altValueFromDAM="true"
                                 displayPopupTitle="false"
                                 fileReference="/content/dam/wknd/en/magazine/san-diego-surf-spots/AdobeStock_164735399.jpeg"
@@ -148,7 +148,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/image"
+                                sling:resourceType="wknd/components/image"
                                 fileReference="/content/dam/wknd/en/magazine/san-diego-surf-spots/AdobeStock_266406767.jpeg"/>
                         </par4>
                         <par5
@@ -166,7 +166,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/image"
+                                sling:resourceType="wknd/components/image"
                                 fileReference="/content/dam/wknd/en/magazine/san-diego-surf-spots/AdobeStock_272184938.jpeg"/>
                         </par5>
                     </contentfragment>
@@ -179,7 +179,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/experiencefragment"
+                        sling:resourceType="wknd/components/experiencefragment"
                         fragmentVariationPath="/content/experience-fragments/wknd/language-masters/en/contributors/justin-barr/byline"/>
                 </responsivegrid>
                 <responsivegrid_223059690
@@ -203,7 +203,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="SHARE THIS STORY"
-                        sling:resourceType="wknd/components/content/title"
+                        sling:resourceType="wknd/components/title"
                         type="h5"/>
                     <sharing
                         cq:lastRolledout="{Date}2019-10-28T11:02:08.864-07:00"
@@ -214,7 +214,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/sharing"/>
+                        sling:resourceType="wknd/components/sharing"/>
                     <separator
                         cq:lastRolledout="{Date}2019-10-28T11:02:08.867-07:00"
                         cq:lastRolledoutBy="admin"
@@ -225,7 +225,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/separator"/>
+                        sling:resourceType="wknd/components/separator"/>
                     <list
                         cq:lastRolledout="{Date}2019-10-28T11:02:08.873-07:00"
                         cq:lastRolledoutBy="admin"
@@ -236,7 +236,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/list"
+                        sling:resourceType="wknd/components/list"
                         childDepth="1"
                         linkItems="true"
                         listFrom="children"

@@ -15,7 +15,7 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="Fly Fishing the Amazon"
         jcr:uuid="62ab60db-f3fa-4697-a94b-c7dbd4c4f57a"
-        sling:resourceType="wknd/components/structure/page"
+        sling:resourceType="wknd/components/page"
         socialMedia="[facebook,pinterest]">
         <root
             jcr:primaryType="nt:unstructured"
@@ -34,7 +34,7 @@
                     jcr:lastModified="{Date}2019-10-01T20:48:59.832-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/content/image"
+                    sling:resourceType="wknd/components/image"
                     fileReference="/content/dam/wknd/en/magazine/fly-fishing-amazon/amazon-river-02.JPG"
                     imageCrop="0,0,1279,791"/>
                 <responsivegrid
@@ -50,7 +50,7 @@
                         jcr:lastModified="{Date}2019-10-01T19:14:00.887-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/title"
+                        sling:resourceType="wknd/components/title"
                         type="h1"/>
                     <title_1878931237
                         jcr:created="{Date}2019-09-25T15:03:01.614-07:00"
@@ -59,7 +59,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="By Jake Hammer"
-                        sling:resourceType="wknd/components/content/title"
+                        sling:resourceType="wknd/components/title"
                         type="h4"/>
                     <contentfragment
                         jcr:created="{Date}2019-04-03T18:35:18.394-07:00"
@@ -67,7 +67,7 @@
                         jcr:lastModified="{Date}2019-10-01T20:46:28.329-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/contentfragment"
+                        sling:resourceType="wknd/components/contentfragment"
                         displayMode="singleText"
                         elementNames="main"
                         fragmentPath="/content/dam/wknd/en/magazine/fly-fishing-amazon/fly-fishing"
@@ -82,7 +82,7 @@
                                 jcr:lastModified="{Date}2019-10-01T20:46:54.353-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/image"
+                                sling:resourceType="wknd/components/image"
                                 fileReference="/content/dam/wknd/en/magazine/fly-fishing-amazon/amazon-river-01.JPG"/>
                         </par1>
                         <par4
@@ -94,7 +94,7 @@
                                 jcr:lastModified="{Date}2019-10-01T20:47:14.963-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/image"
+                                sling:resourceType="wknd/components/image"
                                 fileReference="/content/dam/wknd/en/magazine/fly-fishing-amazon/dorado-fish-03.JPG"/>
                         </par4>
                         <par8
@@ -106,7 +106,7 @@
                                 jcr:lastModified="{Date}2019-10-01T20:47:23.004-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/image"
+                                sling:resourceType="wknd/components/image"
                                 fileReference="/content/dam/wknd/en/magazine/fly-fishing-amazon/milkyway-amazon.JPG"/>
                         </par8>
                     </contentfragment>
@@ -116,7 +116,7 @@
                         jcr:lastModified="{Date}2019-10-02T13:14:17.797-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/experiencefragment"
+                        sling:resourceType="wknd/components/experiencefragment"
                         fragmentVariationPath="/content/experience-fragments/wknd/language-masters/en/contributors/jake-hammer/byline"/>
                 </responsivegrid>
                 <responsivegrid_223059690
@@ -133,7 +133,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="SHARE THIS STORY"
-                        sling:resourceType="wknd/components/content/title"
+                        sling:resourceType="wknd/components/title"
                         type="h5"/>
                     <sharing
                         jcr:created="{Date}2019-09-25T15:04:53.325-07:00"
@@ -141,7 +141,7 @@
                         jcr:lastModified="{Date}2019-09-25T15:04:53.325-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/sharing"/>
+                        sling:resourceType="wknd/components/sharing"/>
                     <list
                         cq:styleIds="[1554340350631]"
                         jcr:created="{Date}2019-04-03T18:35:24.854-07:00"
@@ -149,7 +149,7 @@
                         jcr:lastModified="{Date}2019-10-01T20:55:50.451-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/list"
+                        sling:resourceType="wknd/components/list"
                         childDepth="1"
                         linkItems="true"
                         listFrom="children"

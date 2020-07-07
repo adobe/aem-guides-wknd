@@ -7,7 +7,7 @@
         cq:template="/conf/wknd/settings/wcm/templates/landing-page-template"
         jcr:primaryType="cq:PageContent"
         jcr:title="Language Masters"
-        sling:resourceType="wknd/components/structure/page"
+        sling:resourceType="wknd/components/page"
         hideInNav="true">
         <root
             jcr:primaryType="nt:unstructured"

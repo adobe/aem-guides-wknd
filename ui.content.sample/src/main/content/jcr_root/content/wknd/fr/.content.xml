@@ -8,7 +8,7 @@
         jcr:language="fr_fr"
         jcr:primaryType="cq:PageContent"
         jcr:title="France"
-        sling:resourceType="wknd/components/structure/page">
+        sling:resourceType="wknd/components/page">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">

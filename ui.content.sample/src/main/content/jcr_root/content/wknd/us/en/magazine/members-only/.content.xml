@@ -13,7 +13,7 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="Members Only"
         jcr:uuid="79c5dad9-d3d6-4a7f-ad48-5dd25501662d"
-        sling:resourceType="wknd/components/structure/page">
+        sling:resourceType="wknd/components/page">
         <root
             cq:lastRolledout="{Date}2019-10-28T11:02:08.560-07:00"
             cq:lastRolledoutBy="admin"
@@ -38,7 +38,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/content/title"/>
+                    sling:resourceType="wknd/components/title"/>
                 <image_list
                     cq:lastRolledout="{Date}2019-10-28T11:02:08.570-07:00"
                     cq:lastRolledoutBy="admin"
@@ -48,7 +48,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/content/image-list"
+                    sling:resourceType="wknd/components/image-list"
                     childDepth="1"
                     listFrom="children"
                     sortOrder="asc"

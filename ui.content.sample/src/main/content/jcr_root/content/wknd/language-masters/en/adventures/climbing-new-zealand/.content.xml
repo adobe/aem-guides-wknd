@@ -12,7 +12,7 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="Climbing New Zealand"
         jcr:uuid="47a08ee3-667d-4f16-929a-6b29ffaf0f28"
-        sling:resourceType="wknd/components/structure/page"
+        sling:resourceType="wknd/components/page"
         socialMedia="[facebook,pinterest]">
         <root
             jcr:primaryType="nt:unstructured"
@@ -27,14 +27,14 @@
                     jcr:lastModified="{Date}2019-10-25T12:04:39.244-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/content/carousel"
+                    sling:resourceType="wknd/components/carousel"
                     autopauseDisabled="false"
                     autoplay="false">
                     <item_1571266094599
                         jcr:lastModified="{Date}2019-10-25T12:05:09.606-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/image"
+                        sling:resourceType="wknd/components/image"
                         alt="climber hanging sideways"
                         altValueFromDAM="false"
                         displayPopupTitle="false"
@@ -46,13 +46,13 @@
                         jcr:lastModified="{Date}2019-10-25T12:26:32.804-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/image"
+                        sling:resourceType="wknd/components/image"
                         fileReference="/content/dam/wknd/en/activities/climbing/climber-gear-rope.jpg"/>
                     <item_1572024817401
                         jcr:lastModified="{Date}2019-10-25T10:36:38.593-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/image"
+                        sling:resourceType="wknd/components/image"
                         fileReference="/content/dam/wknd/en/adventures/climbing-new-zealand/AdobeStock_277768563.jpeg"/>
                 </carousel>
                 <responsivegrid
@@ -70,7 +70,7 @@
                         jcr:lastModified="{Date}2019-10-12T07:07:58.674-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/title"/>
+                        sling:resourceType="wknd/components/title"/>
                     <responsivegrid
                         jcr:created="{Date}2019-10-12T07:08:06.110-07:00"
                         jcr:createdBy="admin"
@@ -99,7 +99,7 @@
                             jcr:lastModified="{Date}2019-10-16T15:40:36.556-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wknd/components/content/contentfragment"
+                            sling:resourceType="wknd/components/contentfragment"
                             displayMode="multi"
                             elementNames="[adventureActivity,adventureType,adventureTripLength,adventureGroupSize,adventureDifficulty,adventurePrice]"
                             fragmentPath="/content/dam/wknd/en/adventures/climbing-new-zealand/climbing-new-zealand"
@@ -123,7 +123,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Share this Adventure"
-                            sling:resourceType="wknd/components/content/title"
+                            sling:resourceType="wknd/components/title"
                             type="h5">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <tablet
@@ -142,7 +142,7 @@
                             jcr:lastModified="{Date}2019-10-12T07:12:20.354-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wknd/components/content/sharing">
+                            sling:resourceType="wknd/components/sharing">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <tablet
                                     jcr:primaryType="nt:unstructured"
@@ -161,7 +161,7 @@
                         jcr:lastModified="{Date}2019-10-15T15:23:29.323-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/tabs"
+                        sling:resourceType="wknd/components/tabs"
                         accessibilityLabel="adventure trip details">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
@@ -183,7 +183,7 @@
                             jcr:lastModified="{Date}2019-10-16T15:41:01.718-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wknd/components/content/contentfragment"
+                            sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
                             elementNames="adventureDescription"
                             fragmentPath="/content/dam/wknd/en/adventures/climbing-new-zealand/climbing-new-zealand"
@@ -199,7 +199,7 @@
                                     jcr:lastModified="{Date}2019-10-25T12:05:50.774-07:00"
                                     jcr:lastModifiedBy="admin"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="wknd/components/content/image"
+                                    sling:resourceType="wknd/components/image"
                                     fileReference="/content/dam/wknd/en/activities/climbing/climber-gear-outdoor.jpg"/>
                             </par2>
                             <par1
@@ -211,7 +211,7 @@
                                     jcr:lastModified="{Date}2019-10-25T10:36:23.239-07:00"
                                     jcr:lastModifiedBy="admin"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="wknd/components/content/image"
+                                    sling:resourceType="wknd/components/image"
                                     fileReference="/content/dam/wknd/en/adventures/climbing-new-zealand/AdobeStock_277948178.jpeg"/>
                             </par1>
                         </item_1570890135033>
@@ -220,7 +220,7 @@
                             jcr:lastModified="{Date}2019-10-25T12:22:05.196-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wknd/components/content/contentfragment"
+                            sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
                             elementNames="adventureItinerary"
                             fragmentPath="/content/dam/wknd/en/adventures/climbing-new-zealand/climbing-new-zealand"
@@ -239,7 +239,7 @@
                                     jcr:lastModified="{Date}2019-10-25T12:21:47.409-07:00"
                                     jcr:lastModifiedBy="admin"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="wknd/components/content/image"
+                                    sling:resourceType="wknd/components/image"
                                     fileReference="/content/dam/wknd/en/adventures/climbing-new-zealand/AdobeStock_140634652.jpeg"/>
                             </par1>
                             <par7
@@ -254,7 +254,7 @@
                                     jcr:lastModified="{Date}2019-10-25T12:22:11.596-07:00"
                                     jcr:lastModifiedBy="admin"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="wknd/components/content/image"
+                                    sling:resourceType="wknd/components/image"
                                     fileReference="/content/dam/wknd/en/adventures/climbing-new-zealand/AdobeStock_166394648.jpeg"/>
                             </par3>
                         </item_1570890140330>
@@ -263,7 +263,7 @@
                             jcr:lastModified="{Date}2019-10-25T11:59:21.001-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wknd/components/content/contentfragment"
+                            sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
                             elementNames="adventureGearList"
                             fragmentPath="/content/dam/wknd/en/adventures/climbing-new-zealand/climbing-new-zealand"
@@ -288,7 +288,7 @@
                                     jcr:lastModified="{Date}2019-10-25T12:03:00.935-07:00"
                                     jcr:lastModifiedBy="admin"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="wknd/components/content/image"
+                                    sling:resourceType="wknd/components/image"
                                     fileReference="/content/dam/wknd/en/activities/climbing/equipment_4.jpg"/>
                             </par0>
                         </item_1570890147607>

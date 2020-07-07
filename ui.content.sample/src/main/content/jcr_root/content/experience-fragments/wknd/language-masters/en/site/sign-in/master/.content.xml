@@ -12,7 +12,7 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="Sign In (Modal)"
         jcr:uuid="f59734c1-f6b3-4bc6-9d6e-db061746fea4"
-        sling:resourceType="wknd/components/structure/xfpage">
+        sling:resourceType="wknd/components/xfpage">
         <root
             cq:styleIds="[1569614530122]"
             jcr:primaryType="nt:unstructured"
@@ -25,11 +25,11 @@
                     cq:styleIds="[1568996484405]"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Sign In"
-                    sling:resourceType="wknd/components/content/title"/>
+                    sling:resourceType="wknd/components/title"/>
                 <title_1943245182
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Welcome Back"
-                    sling:resourceType="wknd/components/content/title"
+                    sling:resourceType="wknd/components/title"
                     type="h3"/>
                 <sign_in_form
                     jcr:primaryType="nt:unstructured"
@@ -63,7 +63,7 @@
                             usePlaceholder="true"/>
                         <text-1
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wknd/components/content/text"
+                            sling:resourceType="wknd/components/text"
                             text="&lt;p>&lt;a href=&quot;#&quot;>FORGOT YOUR PASSWORD?&lt;/a>&lt;/p>&#xa;"
                             textIsRich="true"/>
                         <button-1
@@ -85,7 +85,7 @@
                 </sign_in_form>
                 <separator
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/content/separator"/>
+                    sling:resourceType="wknd/components/separator"/>
             </responsivegrid>
         </root>
         <cq:metadata jcr:primaryType="nt:unstructured"/>

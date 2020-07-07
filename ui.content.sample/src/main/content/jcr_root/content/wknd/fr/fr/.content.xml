@@ -14,7 +14,7 @@
         jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync,cq:PropertyLiveSyncCancelled]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Français"
-        sling:resourceType="wknd/components/structure/page"
+        sling:resourceType="wknd/components/page"
         pageTitle="Français">
         <root
             cq:lastRolledout="{Date}2020-01-09T12:56:54.271-08:00"
@@ -57,7 +57,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/separator"/>
+                        sling:resourceType="wknd/components/separator"/>
                 </responsivegrid_1679842506>
             </responsivegrid>
             <responsivegrid_933431667
@@ -75,7 +75,7 @@
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="WKND Adventures and Travel - Coming Soon!"
-                    sling:resourceType="wknd/components/content/teaser"
+                    sling:resourceType="wknd/components/teaser"
                     actionsEnabled="false"
                     descriptionFromPage="false"
                     fileReference="/content/dam/wknd/en/adventures/riverside-camping-australia/AdobeStock_216674449.jpeg"

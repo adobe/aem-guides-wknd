@@ -15,7 +15,7 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="Ski Touring"
         jcr:uuid="8fb2f658-f540-4a00-9c67-a1b6a782182d"
-        sling:resourceType="wknd/components/structure/page"
+        sling:resourceType="wknd/components/page"
         socialMedia="[facebook,pinterest]">
         <root
             jcr:primaryType="nt:unstructured"
@@ -34,7 +34,7 @@
                     jcr:lastModified="{Date}2019-10-01T20:41:54.807-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/content/image"
+                    sling:resourceType="wknd/components/image"
                     fileReference="/content/dam/wknd/en/magazine/skitouring/Skitouring1Sjoeberg.JPG"/>
                 <responsivegrid
                     jcr:created="{Date}2019-04-03T18:31:10.416-07:00"
@@ -49,7 +49,7 @@
                         jcr:lastModified="{Date}2019-10-01T19:14:00.887-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/title"
+                        sling:resourceType="wknd/components/title"
                         type="h1"/>
                     <title_1878931237
                         jcr:created="{Date}2019-09-25T15:03:01.614-07:00"
@@ -58,7 +58,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="By Sofia Sjöberg"
-                        sling:resourceType="wknd/components/content/title"
+                        sling:resourceType="wknd/components/title"
                         type="h4"/>
                     <contentfragment
                         jcr:created="{Date}2019-04-03T18:35:18.394-07:00"
@@ -66,7 +66,7 @@
                         jcr:lastModified="{Date}2019-10-01T20:40:33.528-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/contentfragment"
+                        sling:resourceType="wknd/components/contentfragment"
                         displayMode="singleText"
                         elementNames="main"
                         fragmentPath="/content/dam/wknd/en/magazine/skitouring/skitouring"
@@ -81,7 +81,7 @@
                                 jcr:lastModified="{Date}2019-10-01T20:42:09.417-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/image"
+                                sling:resourceType="wknd/components/image"
                                 fileReference="/content/dam/wknd/en/magazine/skitouring/Skitouring5Sjoeberg.JPG"/>
                             <text
                                 cq:styleIds="[1554340301154]"
@@ -90,7 +90,7 @@
                                 jcr:lastModified="{Date}2019-10-13T19:07:49.214-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/text"
+                                sling:resourceType="wknd/components/text"
                                 text="&lt;blockquote>&amp;quot;...a mountain face stretching out for a thousand meters covered by a smooth blanket of powder, with the evening sun replicated thousand-fold in the uncountable snow crystals&amp;quot;&lt;/blockquote>&#xd;&#xa;&lt;p>&lt;u>- Sofia Sjöberg&lt;/u>&lt;/p>&#xd;&#xa;"
                                 textIsRich="true"/>
                         </par1>
@@ -103,7 +103,7 @@
                                 jcr:lastModified="{Date}2019-10-01T20:42:20.319-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/image"
+                                sling:resourceType="wknd/components/image"
                                 fileReference="/content/dam/wknd/en/magazine/skitouring/Skitouring3Sjoeberg.JPG"/>
                         </par2>
                         <par3
@@ -115,7 +115,7 @@
                                 jcr:lastModified="{Date}2019-10-01T20:42:38.543-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/image"
+                                sling:resourceType="wknd/components/image"
                                 fileReference="/content/dam/wknd/en/magazine/skitouring/Skitouring6Sjoeberg.JPG"/>
                         </par3>
                         <par4
@@ -127,7 +127,7 @@
                                 jcr:lastModified="{Date}2019-10-01T20:45:28.123-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/image"
+                                sling:resourceType="wknd/components/image"
                                 fileReference="/content/dam/wknd/en/magazine/skitouring/Skitouring8Sjoeberg.JPG"/>
                         </par4>
                     </contentfragment>
@@ -137,7 +137,7 @@
                         jcr:lastModified="{Date}2019-10-02T13:12:42.688-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/experiencefragment"
+                        sling:resourceType="wknd/components/experiencefragment"
                         fragmentVariationPath="/content/experience-fragments/wknd/language-masters/en/contributors/sofia-sjoeberg/byline"/>
                 </responsivegrid>
                 <responsivegrid_223059690
@@ -154,7 +154,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="SHARE THIS STORY"
-                        sling:resourceType="wknd/components/content/title"
+                        sling:resourceType="wknd/components/title"
                         type="h5"/>
                     <sharing
                         jcr:created="{Date}2019-09-25T15:04:53.325-07:00"
@@ -162,7 +162,7 @@
                         jcr:lastModified="{Date}2019-09-25T15:04:53.325-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/sharing"/>
+                        sling:resourceType="wknd/components/sharing"/>
                     <list
                         cq:styleIds="[1554340350631]"
                         jcr:created="{Date}2019-04-03T18:35:24.854-07:00"
@@ -170,7 +170,7 @@
                         jcr:lastModified="{Date}2019-10-01T20:59:46.334-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/list"
+                        sling:resourceType="wknd/components/list"
                         childDepth="1"
                         linkItems="true"
                         listFrom="children"

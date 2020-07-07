@@ -8,7 +8,7 @@
         cq:template="/conf/wknd/settings/wcm/templates/content-page-template"
         jcr:primaryType="cq:PageContent"
         jcr:title="Error Handler Pages"
-        sling:resourceType="wknd/components/structure/page"
+        sling:resourceType="wknd/components/page"
         hideInNav="true">
         <root
             jcr:primaryType="nt:unstructured"

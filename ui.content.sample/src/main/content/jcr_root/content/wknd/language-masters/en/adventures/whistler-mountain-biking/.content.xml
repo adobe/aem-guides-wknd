@@ -12,7 +12,7 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="Whistler Mountain Biking"
         jcr:uuid="3e330851-2b73-4535-a9c3-14bc9a07327e"
-        sling:resourceType="wknd/components/structure/page"
+        sling:resourceType="wknd/components/page"
         socialMedia="[facebook,pinterest]">
         <root
             jcr:primaryType="nt:unstructured"
@@ -27,20 +27,20 @@
                     jcr:lastModified="{Date}2019-10-25T11:48:34.037-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/content/carousel"
+                    sling:resourceType="wknd/components/carousel"
                     autopauseDisabled="false"
                     autoplay="false">
                     <item_1572023290053
                         jcr:lastModified="{Date}2019-10-25T10:09:53.460-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/image"
+                        sling:resourceType="wknd/components/image"
                         fileReference="/content/dam/wknd/en/adventures/whistler-mountain-biking/AdobeStock_122578479.jpeg"/>
                     <item_1572028926848
                         jcr:lastModified="{Date}2019-10-25T11:42:21.367-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/image"
+                        sling:resourceType="wknd/components/image"
                         fileReference="/content/dam/wknd/en/activities/cycling/mountain-biking.jpg"/>
                     <image
                         jcr:created="{Date}2019-10-16T15:48:37.045-07:00"
@@ -48,7 +48,7 @@
                         jcr:lastModified="{Date}2019-10-25T11:48:23.874-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/image"
+                        sling:resourceType="wknd/components/image"
                         fileReference="/content/dam/wknd/en/adventures/whistler-mountain-biking/AdobeStock_122615840.jpeg"/>
                 </carousel>
                 <responsivegrid
@@ -66,7 +66,7 @@
                         jcr:lastModified="{Date}2019-10-12T07:07:58.674-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/title"/>
+                        sling:resourceType="wknd/components/title"/>
                     <responsivegrid
                         jcr:created="{Date}2019-10-12T07:08:06.110-07:00"
                         jcr:createdBy="admin"
@@ -95,7 +95,7 @@
                             jcr:lastModified="{Date}2019-10-16T15:35:05.347-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wknd/components/content/contentfragment"
+                            sling:resourceType="wknd/components/contentfragment"
                             displayMode="multi"
                             elementNames="[adventureActivity,adventureType,adventureTripLength,adventureGroupSize,adventureDifficulty,adventurePrice]"
                             fragmentPath="/content/dam/wknd/en/adventures/whistler-mountain-biking/whistler-mountain-biking"
@@ -119,7 +119,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Share this Adventure"
-                            sling:resourceType="wknd/components/content/title"
+                            sling:resourceType="wknd/components/title"
                             type="h5">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <tablet
@@ -138,7 +138,7 @@
                             jcr:lastModified="{Date}2019-10-12T07:12:20.354-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wknd/components/content/sharing">
+                            sling:resourceType="wknd/components/sharing">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <tablet
                                     jcr:primaryType="nt:unstructured"
@@ -157,7 +157,7 @@
                         jcr:lastModified="{Date}2019-10-15T15:23:29.323-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/tabs"
+                        sling:resourceType="wknd/components/tabs"
                         accessibilityLabel="adventure trip details">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
@@ -179,7 +179,7 @@
                             jcr:lastModified="{Date}2019-10-25T11:45:16.549-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wknd/components/content/contentfragment"
+                            sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
                             elementNames="adventureDescription"
                             fragmentPath="/content/dam/wknd/en/adventures/whistler-mountain-biking/whistler-mountain-biking"
@@ -195,7 +195,7 @@
                                     jcr:lastModified="{Date}2019-10-25T11:45:21.276-07:00"
                                     jcr:lastModifiedBy="admin"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="wknd/components/content/image"
+                                    sling:resourceType="wknd/components/image"
                                     fileReference="/content/dam/wknd/en/activities/cycling/forest-trail.jpg"/>
                             </par2>
                             <par1
@@ -207,7 +207,7 @@
                                     jcr:lastModified="{Date}2019-10-25T10:12:30.188-07:00"
                                     jcr:lastModifiedBy="admin"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="wknd/components/content/image"
+                                    sling:resourceType="wknd/components/image"
                                     fileReference="/content/dam/wknd/en/adventures/whistler-mountain-biking/AdobeStock_122618183.jpeg"/>
                             </par1>
                         </item_1570890135033>
@@ -216,7 +216,7 @@
                             jcr:lastModified="{Date}2019-10-25T10:58:37.873-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wknd/components/content/contentfragment"
+                            sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
                             elementNames="adventureItinerary"
                             fragmentPath="/content/dam/wknd/en/adventures/whistler-mountain-biking/whistler-mountain-biking"
@@ -236,7 +236,7 @@
                                     jcr:lastModified="{Date}2019-10-25T10:13:06.385-07:00"
                                     jcr:lastModifiedBy="admin"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="wknd/components/content/image"
+                                    sling:resourceType="wknd/components/image"
                                     fileReference="/content/dam/wknd/en/adventures/whistler-mountain-biking/AdobeStock_257501643.jpeg"/>
                             </par1>
                             <par7
@@ -251,7 +251,7 @@
                                     jcr:lastModified="{Date}2019-10-25T10:58:42.214-07:00"
                                     jcr:lastModifiedBy="admin"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="wknd/components/content/image"
+                                    sling:resourceType="wknd/components/image"
                                     fileReference="/content/dam/wknd/en/adventures/whistler-mountain-biking/AdobeStock_277761435.jpeg"/>
                             </par3>
                         </item_1570890140330>
@@ -260,7 +260,7 @@
                             jcr:lastModified="{Date}2019-10-25T11:52:04.599-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wknd/components/content/contentfragment"
+                            sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
                             elementNames="adventureGearList"
                             fragmentPath="/content/dam/wknd/en/adventures/whistler-mountain-biking/whistler-mountain-biking"
@@ -282,7 +282,7 @@
                                     jcr:lastModified="{Date}2019-10-25T11:56:04.288-07:00"
                                     jcr:lastModifiedBy="admin"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="wknd/components/content/image"
+                                    sling:resourceType="wknd/components/image"
                                     fileReference="/content/dam/wknd/en/activities/cycling/sequoiaside.jpg">
                                     <cq:responsive jcr:primaryType="nt:unstructured">
                                         <default
@@ -297,7 +297,7 @@
                                     jcr:lastModified="{Date}2019-10-25T11:56:10.777-07:00"
                                     jcr:lastModifiedBy="admin"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="wknd/components/content/image"
+                                    sling:resourceType="wknd/components/image"
                                     fileReference="/content/dam/wknd/en/activities/cycling/blast.jpg">
                                     <cq:responsive jcr:primaryType="nt:unstructured">
                                         <default
@@ -312,7 +312,7 @@
                                     jcr:lastModified="{Date}2019-10-25T11:55:49.030-07:00"
                                     jcr:lastModifiedBy="admin"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="wknd/components/content/image"
+                                    sling:resourceType="wknd/components/image"
                                     fileReference="/content/dam/wknd/en/activities/cycling/mx121.jpg">
                                     <cq:responsive jcr:primaryType="nt:unstructured">
                                         <default

@@ -15,7 +15,7 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="Alaskan Adventure"
         jcr:uuid="8c2630d6-b2e9-4dc7-a5d2-aef6a7b5c3fd"
-        sling:resourceType="wknd/components/structure/page"
+        sling:resourceType="wknd/components/page"
         socialMedia="[facebook,pinterest]">
         <root
             jcr:primaryType="nt:unstructured"
@@ -34,7 +34,7 @@
                     jcr:lastModified="{Date}2019-10-01T20:31:38.417-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/content/image"
+                    sling:resourceType="wknd/components/image"
                     fileReference="/content/dam/wknd/en/magazine/alaska-adventure/camp-alaska.JPG"
                     imageCrop="0,62,1279,852"/>
                 <responsivegrid
@@ -50,7 +50,7 @@
                         jcr:lastModified="{Date}2019-10-01T19:14:00.887-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/title"
+                        sling:resourceType="wknd/components/title"
                         type="h1"/>
                     <title_1878931237
                         jcr:created="{Date}2019-09-25T15:03:01.614-07:00"
@@ -59,7 +59,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="By Ian Provo"
-                        sling:resourceType="wknd/components/content/title"
+                        sling:resourceType="wknd/components/title"
                         type="h4"/>
                     <contentfragment
                         jcr:created="{Date}2019-04-03T18:35:18.394-07:00"
@@ -67,7 +67,7 @@
                         jcr:lastModified="{Date}2019-10-01T20:31:09.366-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/contentfragment"
+                        sling:resourceType="wknd/components/contentfragment"
                         displayMode="singleText"
                         elementNames="main"
                         fragmentPath="/content/dam/wknd/en/magazine/alaska-adventure/alaskan-adventures"
@@ -82,7 +82,7 @@
                                 jcr:lastModified="{Date}2019-10-01T20:32:07.509-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/image"
+                                sling:resourceType="wknd/components/image"
                                 fileReference="/content/dam/wknd/en/magazine/alaska-adventure/alaskan-landscape-01.JPG"/>
                         </par1>
                         <par2
@@ -96,7 +96,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Some places are only accessible by plane"
-                                sling:resourceType="wknd/components/content/title"
+                                sling:resourceType="wknd/components/title"
                                 type="h2"/>
                             <image
                                 jcr:created="{Date}2019-10-01T20:32:16.431-07:00"
@@ -104,7 +104,7 @@
                                 jcr:lastModified="{Date}2019-10-01T20:32:16.431-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/image"
+                                sling:resourceType="wknd/components/image"
                                 fileReference="/content/dam/wknd/en/magazine/alaska-adventure/plane.JPG"/>
                         </par2>
                         <par3
@@ -117,7 +117,7 @@
                                 jcr:lastModified="{Date}2019-10-01T20:33:26.757-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/text"
+                                sling:resourceType="wknd/components/text"
                                 text="&lt;blockquote>For 18 days we lived on a glacier, 50 miles by plane from the nearest anything...&lt;/blockquote>&#xd;&#xa;&lt;p>&lt;u>Neil Provo&lt;/u>&lt;/p>&#xd;&#xa;"
                                 textIsRich="true"/>
                         </par3>
@@ -132,7 +132,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Fishing in the village of Yakutat"
-                                sling:resourceType="wknd/components/content/title"
+                                sling:resourceType="wknd/components/title"
                                 type="h2"/>
                             <image
                                 jcr:created="{Date}2019-10-01T20:34:02.452-07:00"
@@ -140,7 +140,7 @@
                                 jcr:lastModified="{Date}2019-10-01T20:34:02.452-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/image"
+                                sling:resourceType="wknd/components/image"
                                 fileReference="/content/dam/wknd/en/magazine/alaska-adventure/alaskan-grizzly.jpg"/>
                         </par4>
                         <par5
@@ -152,7 +152,7 @@
                                 jcr:lastModified="{Date}2019-10-01T20:35:51.476-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/image"
+                                sling:resourceType="wknd/components/image"
                                 fileReference="/content/dam/wknd/en/magazine/alaska-adventure/fish.JPG"/>
                         </par5>
                     </contentfragment>
@@ -162,7 +162,7 @@
                         jcr:lastModified="{Date}2019-10-02T13:16:36.355-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/experiencefragment"
+                        sling:resourceType="wknd/components/experiencefragment"
                         fragmentVariationPath="/content/experience-fragments/wknd/language-masters/en/contributors/ian-provo/byline"/>
                 </responsivegrid>
                 <responsivegrid_223059690
@@ -179,7 +179,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="SHARE THIS STORY"
-                        sling:resourceType="wknd/components/content/title"
+                        sling:resourceType="wknd/components/title"
                         type="h5"/>
                     <sharing
                         jcr:created="{Date}2019-09-25T15:04:53.325-07:00"
@@ -187,7 +187,7 @@
                         jcr:lastModified="{Date}2019-09-25T15:04:53.325-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/sharing"/>
+                        sling:resourceType="wknd/components/sharing"/>
                     <list
                         cq:styleIds="[1554340350631]"
                         jcr:created="{Date}2019-04-03T18:35:24.854-07:00"
@@ -195,7 +195,7 @@
                         jcr:lastModified="{Date}2019-10-01T20:59:12.931-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/list"
+                        sling:resourceType="wknd/components/list"
                         childDepth="1"
                         linkItems="true"
                         listFrom="children"

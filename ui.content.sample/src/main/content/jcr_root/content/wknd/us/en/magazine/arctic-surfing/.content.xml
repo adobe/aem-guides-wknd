@@ -14,7 +14,7 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="Arctic Surfing"
         jcr:uuid="d2e4723f-9587-40f0-9880-7528a9b7c57c"
-        sling:resourceType="wknd/components/structure/page"
+        sling:resourceType="wknd/components/page"
         socialMedia="[facebook,pinterest]">
         <root
             cq:lastRolledout="{Date}2019-10-28T11:02:08.234-07:00"
@@ -42,7 +42,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/content/image"
+                    sling:resourceType="wknd/components/image"
                     fileReference="/content/dam/wknd/en/magazine/arctic-surfing/surfer-back-from-the-ocean.JPG"
                     imageCrop="14,45,1256,813"/>
                 <responsivegrid
@@ -65,7 +65,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Aloha Spirits in Northern Norway"
-                        sling:resourceType="wknd/components/content/title"
+                        sling:resourceType="wknd/components/title"
                         type="h1"/>
                     <title_875115054
                         cq:lastRolledout="{Date}2019-10-28T11:02:08.254-07:00"
@@ -77,7 +77,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="By Jacob Wester"
-                        sling:resourceType="wknd/components/content/title"
+                        sling:resourceType="wknd/components/title"
                         type="h4"/>
                     <contentfragment
                         cq:lastRolledout="{Date}2019-10-28T11:02:08.259-07:00"
@@ -88,7 +88,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/contentfragment"
+                        sling:resourceType="wknd/components/contentfragment"
                         displayMode="singleText"
                         elementNames="main"
                         fragmentPath="/content/dam/wknd/en/magazine/arctic-surfing/aloha-spirits-in-northern-norway"
@@ -111,7 +111,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/text"
+                                sling:resourceType="wknd/components/text"
                                 text="&lt;blockquote>&amp;quot;When rare sunrays pierce through the low clouds, the scenery revelas its vibrancy&amp;quot;&lt;/blockquote>&#xd;&#xa;"
                                 textIsRich="true"/>
                             <image
@@ -123,7 +123,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/image"
+                                sling:resourceType="wknd/components/image"
                                 fileReference="/content/dam/wknd/en/magazine/arctic-surfing/surfer-wave-02.JPG"/>
                             <title_copy
                                 cq:lastRolledout="{Date}2019-10-28T11:02:08.271-07:00"
@@ -136,7 +136,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="The front"
-                                sling:resourceType="wknd/components/content/title"
+                                sling:resourceType="wknd/components/title"
                                 type="h2"/>
                         </par1>
                         <par2
@@ -156,7 +156,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Clear skies"
-                                sling:resourceType="wknd/components/content/title"
+                                sling:resourceType="wknd/components/title"
                                 type="h2"/>
                             <image
                                 cq:lastRolledout="{Date}2019-10-28T11:02:08.280-07:00"
@@ -167,7 +167,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/image"
+                                sling:resourceType="wknd/components/image"
                                 fileReference="/content/dam/wknd/en/magazine/arctic-surfing/majestic-rainbow.JPG"/>
                         </par2>
                         <par4
@@ -185,7 +185,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/image"
+                                sling:resourceType="wknd/components/image"
                                 fileReference="/content/dam/wknd/en/magazine/arctic-surfing/northern-lights.JPG"/>
                         </par4>
                         <par3
@@ -205,7 +205,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Mythical northern lights"
-                                sling:resourceType="wknd/components/content/title"
+                                sling:resourceType="wknd/components/title"
                                 type="h2"/>
                         </par3>
                     </contentfragment>
@@ -218,7 +218,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/experiencefragment"
+                        sling:resourceType="wknd/components/experiencefragment"
                         fragmentVariationPath="/content/experience-fragments/wknd/language-masters/en/contributors/jacob-wester/byline"/>
                 </responsivegrid>
                 <responsivegrid_223059690
@@ -242,7 +242,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="SHARE THIS STORY"
-                        sling:resourceType="wknd/components/content/title"
+                        sling:resourceType="wknd/components/title"
                         type="h5"/>
                     <sharing
                         cq:lastRolledout="{Date}2019-10-28T11:02:08.301-07:00"
@@ -253,7 +253,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/sharing"/>
+                        sling:resourceType="wknd/components/sharing"/>
                     <list
                         cq:lastRolledout="{Date}2019-10-28T11:02:08.307-07:00"
                         cq:lastRolledoutBy="admin"
@@ -264,7 +264,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/list"
+                        sling:resourceType="wknd/components/list"
                         childDepth="1"
                         linkItems="true"
                         listFrom="children"

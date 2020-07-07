@@ -10,7 +10,7 @@
         jcr:mixinTypes="[cq:LiveRelationship]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Page not found"
-        sling:resourceType="wknd/components/structure/page"
+        sling:resourceType="wknd/components/page"
         pageTitle="404">
         <root
             cq:lastRolledout="{Date}2019-12-02T15:30:46.223-08:00"
@@ -67,7 +67,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/separator">
+                        sling:resourceType="wknd/components/separator">
                         <cq:responsive
                             cq:lastRolledout="{Date}2019-12-02T15:30:46.253-08:00"
                             cq:lastRolledoutBy="admin"
@@ -91,7 +91,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Ruh-Roh! Page Not Found"
-                        sling:resourceType="wknd/components/content/title"
+                        sling:resourceType="wknd/components/title"
                         type="h1">
                         <cq:responsive
                             cq:lastRolledout="{Date}2019-12-02T15:30:46.259-08:00"
@@ -123,7 +123,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/text"
+                        sling:resourceType="wknd/components/text"
                         text="&lt;p>We're sorry, we are unable to fetch this page!&lt;/p>&#xd;&#xa;"
                         textIsRich="true">
                         <cq:responsive
@@ -150,7 +150,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/content/image"
+                    sling:resourceType="wknd/components/image"
                     fileReference="/content/dam/wknd/en/site/Notfound.jpg">
                     <cq:responsive
                         cq:lastRolledout="{Date}2019-12-02T15:30:46.274-08:00"

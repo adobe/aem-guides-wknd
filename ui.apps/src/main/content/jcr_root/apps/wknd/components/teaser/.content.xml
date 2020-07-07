@@ -5,4 +5,4 @@
     jcr:title="Teaser"
     sling:resourceSuperType="core/wcm/components/teaser/v1/teaser"
     componentGroup="WKND.Content"
-    imageDelegate="wknd/components/content/image"/>
+    imageDelegate="wknd/components/image"/>

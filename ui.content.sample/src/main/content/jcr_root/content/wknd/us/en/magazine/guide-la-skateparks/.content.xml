@@ -14,7 +14,7 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="Ultimate Guide to LA Skateparks"
         jcr:uuid="1d55fd8f-677e-4eaa-9bb2-b09f3ca37f53"
-        sling:resourceType="wknd/components/structure/page"
+        sling:resourceType="wknd/components/page"
         socialMedia="[facebook,pinterest]">
         <root
             cq:lastRolledout="{Date}2019-10-28T11:02:08.109-07:00"
@@ -42,7 +42,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/content/image"
+                    sling:resourceType="wknd/components/image"
                     fileReference="/content/dam/wknd/en/magazine/la-skateparks/article_01_hero.png"/>
                 <responsivegrid
                     cq:lastRolledout="{Date}2019-10-28T11:02:08.120-07:00"
@@ -63,7 +63,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/title"
+                        sling:resourceType="wknd/components/title"
                         type="h1"/>
                     <title_875115054
                         cq:lastRolledout="{Date}2019-10-28T11:02:08.127-07:00"
@@ -75,7 +75,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="By Stacey Roswells"
-                        sling:resourceType="wknd/components/content/title"
+                        sling:resourceType="wknd/components/title"
                         type="h4"/>
                     <contentfragment
                         cq:lastRolledout="{Date}2019-10-28T11:02:08.132-07:00"
@@ -86,7 +86,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/contentfragment"
+                        sling:resourceType="wknd/components/contentfragment"
                         displayMode="singleText"
                         elementNames="main"
                         fragmentPath="/content/dam/wknd/en/magazine/la-skateparks/ultimate-guide-to-la-skateparks"
@@ -109,7 +109,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/text"
+                                sling:resourceType="wknd/components/text"
                                 text="&lt;blockquote>&amp;quot;There is no better place to shred then Los Angeles&amp;quot;&lt;/blockquote>&#xd;&#xa;&lt;p>&lt;u>Jacob Wester - Pro Skater&lt;/u>&lt;/p>&#xd;&#xa;"
                                 textIsRich="true"/>
                             <title
@@ -123,7 +123,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Vans Off the Wall Skatepark"
-                                sling:resourceType="wknd/components/content/title"
+                                sling:resourceType="wknd/components/title"
                                 type="h2"/>
                         </par1>
                         <par2
@@ -141,7 +141,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/image"
+                                sling:resourceType="wknd/components/image"
                                 fileReference="/content/dam/wknd/en/magazine/la-skateparks/article_01_picture_01.png"/>
                         </par2>
                         <par3
@@ -161,7 +161,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Moorpark skate park"
-                                sling:resourceType="wknd/components/content/title"
+                                sling:resourceType="wknd/components/title"
                                 type="h2"/>
                         </par3>
                         <par5
@@ -181,7 +181,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Venice Beach Skatepark"
-                                sling:resourceType="wknd/components/content/title"
+                                sling:resourceType="wknd/components/title"
                                 type="h2"/>
                             <image
                                 cq:lastRolledout="{Date}2019-10-28T11:02:08.171-07:00"
@@ -192,7 +192,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/image"
+                                sling:resourceType="wknd/components/image"
                                 fileReference="/content/dam/wknd/en/magazine/la-skateparks/robson-hatsukami-morgan-280159.jpg"/>
                         </par5>
                     </contentfragment>
@@ -205,7 +205,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/experiencefragment"
+                        sling:resourceType="wknd/components/experiencefragment"
                         fragmentVariationPath="/content/experience-fragments/wknd/language-masters/en/contributors/stacey-roswells/byline"/>
                 </responsivegrid>
                 <responsivegrid_223059690
@@ -229,7 +229,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="SHARE THIS STORY"
-                        sling:resourceType="wknd/components/content/title"
+                        sling:resourceType="wknd/components/title"
                         type="h5"/>
                     <sharing
                         cq:lastRolledout="{Date}2019-10-28T11:02:08.184-07:00"
@@ -240,7 +240,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/sharing"/>
+                        sling:resourceType="wknd/components/sharing"/>
                     <separator
                         cq:lastRolledout="{Date}2019-10-28T11:02:08.187-07:00"
                         cq:lastRolledoutBy="admin"
@@ -251,7 +251,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/separator"/>
+                        sling:resourceType="wknd/components/separator"/>
                     <download
                         cq:lastRolledout="{Date}2019-10-28T11:02:08.192-07:00"
                         cq:lastRolledoutBy="admin"
@@ -263,7 +263,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Download PDF"
-                        sling:resourceType="wknd/components/content/download"
+                        sling:resourceType="wknd/components/download"
                         actionText="Download PDF"
                         descriptionFromAsset="false"
                         fileReference="/content/dam/wknd/en/magazine/la-skateparks/UltimateGuidetoLASkateParks.pdf"
@@ -280,7 +280,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/list"
+                        sling:resourceType="wknd/components/list"
                         childDepth="1"
                         linkItems="true"
                         listFrom="children"

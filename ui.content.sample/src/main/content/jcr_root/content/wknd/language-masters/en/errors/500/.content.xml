@@ -10,7 +10,7 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="Internal Server Error"
         jcr:uuid="5254a88a-e521-4e35-9b51-927a3e9c19db"
-        sling:resourceType="wknd/components/structure/page"
+        sling:resourceType="wknd/components/page"
         pageTitle="500">
         <root
             jcr:primaryType="nt:unstructured"
@@ -45,7 +45,7 @@
                         jcr:lastModified="{Date}2019-12-02T15:28:42.933-08:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/separator">
+                        sling:resourceType="wknd/components/separator">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <phone
                                 jcr:primaryType="nt:unstructured"
@@ -59,7 +59,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Ruh-Roh!"
-                        sling:resourceType="wknd/components/content/title"
+                        sling:resourceType="wknd/components/title"
                         type="h1">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
@@ -78,7 +78,7 @@
                         jcr:lastModified="{Date}2019-12-02T15:34:20.935-08:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/text"
+                        sling:resourceType="wknd/components/text"
                         text="&lt;p>Something went wrong. We're sorry, we are unable to fetch this page!&lt;/p>&#xd;&#xa;"
                         textIsRich="true">
                         <cq:responsive jcr:primaryType="nt:unstructured">
@@ -95,7 +95,7 @@
                     jcr:lastModified="{Date}2019-12-02T15:26:39.608-08:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/content/image"
+                    sling:resourceType="wknd/components/image"
                     fileReference="/content/dam/wknd/en/site/Notfound.jpg">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
