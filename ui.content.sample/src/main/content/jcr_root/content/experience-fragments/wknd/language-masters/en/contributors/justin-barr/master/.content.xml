@@ -49,7 +49,7 @@
                     sling:resourceType="wknd/components/title"
                     type="h5"/>
                 <buildingblock
-                    cq:masterBuildingBlockPath="/content/experience-fragments/wknd/language-masters/en/contributors/justin-barr/byline/jcr:content/root/responsivegrid/button"
+                    cq:masterBuildingBlockPath="/content/experience-fragments/wknd/language-masters/en/contributors/justin-barr/byline/jcr:content/root/container/button"
                     cq:styleIds="[1571358661842]"
                     jcr:created="{Date}2019-10-18T13:22:08.696-07:00"
                     jcr:createdBy="admin"

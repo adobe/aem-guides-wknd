@@ -454,18 +454,18 @@
             </list>
             <image jcr:primaryType="nt:unstructured">
                 <policy_1568423036289
-                    jcr:lastModified="{Date}2020-07-09T08:10:19.789-07:00"
+                    jcr:lastModified="{Date}2020-07-09T15:37:47.229-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="WKND Image"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    allowedRenditionWidths="[300,400,500,600,700,800,900,1000,1280,1600]"
+                    allowedRenditionWidths="[300,400,500,600,700,800,900,1000,1280]"
                     allowUpload="true"
                     altValueFromDAM="true"
                     disableLazyLoading="false"
                     displayPopupTitle="true"
                     isDecorative="false"
-                    jpegQuality="{Long}75"
+                    jpegQuality="{Long}90"
                     titleValueFromDAM="true"
                     uuidDisabled="true">
                     <plugins jcr:primaryType="nt:unstructured">

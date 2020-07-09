@@ -54,7 +54,7 @@
                     </cq:responsive>
                 </byline_copy>
                 <buildingblock
-                    cq:masterBuildingBlockPath="/content/experience-fragments/wknd/language-masters/en/contributors/kumar-selveraj/master/jcr:content/root/responsivegrid/button51191422088661"
+                    cq:masterBuildingBlockPath="/content/experience-fragments/wknd/language-masters/en/contributors/kumar-selveraj/master/jcr:content/root/container/button51191422088661"
                     cq:styleIds="[1571358661842]"
                     jcr:created="{Date}2019-10-28T10:42:46.667-07:00"
                     jcr:createdBy="admin"

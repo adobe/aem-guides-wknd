@@ -8,7 +8,7 @@
             <container jcr:primaryType="nt:unstructured">
                 <content-default
                     jcr:description="Policy for editable layout containers"
-                    jcr:lastModified="{Date}2019-03-19T13:18:46.128-07:00"
+                    jcr:lastModified="{Date}2020-07-09T08:11:09.069-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="WKND Site Default"
@@ -454,18 +454,18 @@
             </list>
             <image jcr:primaryType="nt:unstructured">
                 <policy_1568423036289
-                    jcr:lastModified="{Date}2020-07-09T08:10:19.789-07:00"
+                    jcr:lastModified="{Date}2020-07-09T15:37:47.229-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="WKND Image"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    allowedRenditionWidths="[300,400,500,600,700,800,900,1000,1280,1600]"
+                    allowedRenditionWidths="[300,400,500,600,700,800,900,1000,1280]"
                     allowUpload="true"
                     altValueFromDAM="true"
                     disableLazyLoading="false"
                     displayPopupTitle="true"
                     isDecorative="false"
-                    jpegQuality="{Long}75"
+                    jpegQuality="{Long}90"
                     titleValueFromDAM="true"
                     uuidDisabled="true">
                     <plugins jcr:primaryType="nt:unstructured">
@@ -947,7 +947,7 @@
             </languagenavigation>
             <navigation jcr:primaryType="nt:unstructured">
                 <policy_1555431038157
-                    jcr:lastModified="{Date}2019-04-16T09:13:14.351-07:00"
+                    jcr:lastModified="{Date}2020-07-09T08:11:09.069-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="WKND Navigation - Header "
@@ -965,7 +965,7 @@
                 </policy_1555431038157>
                 <policy_4825943207134
                     cq:styleDefaultClasses="cmp-navigation--footer"
-                    jcr:lastModified="{Date}2019-04-16T09:14:47.572-07:00"
+                    jcr:lastModified="{Date}2020-07-09T08:11:09.069-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="WKND Navigation - Footer"
@@ -982,7 +982,7 @@
                         jcr:primaryType="nt:unstructured"/>
                 </policy_4825943207134>
                 <policy_126213313123863
-                    jcr:lastModified="{Date}2019-09-15T16:56:12.401-07:00"
+                    jcr:lastModified="{Date}2020-07-09T08:11:09.069-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="WKND Navigation"
@@ -1014,7 +1014,7 @@
             </navigation>
             <search jcr:primaryType="nt:unstructured">
                 <policy_1555431088440
-                    jcr:lastModified="{Date}2019-09-15T17:04:29.101-07:00"
+                    jcr:lastModified="{Date}2020-07-09T08:11:09.069-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="WKND Search - Header"
@@ -1047,7 +1047,7 @@
             </search>
             <page jcr:primaryType="nt:unstructured">
                 <policy_1555624447675
-                    jcr:lastModified="{Date}2019-10-30T11:54:53.444-07:00"
+                    jcr:lastModified="{Date}2020-07-09T08:11:09.069-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="WKND Landing Page"
@@ -1062,7 +1062,7 @@
                         jcr:primaryType="nt:unstructured"/>
                 </policy_1555624447675>
                 <policy_654210257255105
-                    jcr:lastModified="{Date}2019-09-26T15:03:52.447-07:00"
+                    jcr:lastModified="{Date}2020-07-09T08:11:09.069-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="WKND Article"
@@ -1076,7 +1076,7 @@
                         jcr:primaryType="nt:unstructured"/>
                 </policy_654210257255105>
                 <policy_654239029509196
-                    jcr:lastModified="{Date}2019-09-26T15:04:18.519-07:00"
+                    jcr:lastModified="{Date}2020-07-09T08:11:09.069-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="WKND Experience Fragment"
@@ -1085,7 +1085,7 @@
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_654239029509196>
                 <policy_1570140199406
-                    jcr:lastModified="{Date}2019-10-30T11:57:54.326-07:00"
+                    jcr:lastModified="{Date}2020-07-09T08:11:09.069-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="WKND Site Theme"
@@ -1102,7 +1102,7 @@
             </page>
             <xfpage jcr:primaryType="nt:unstructured">
                 <policy_1572461714642
-                    jcr:lastModified="{Date}2019-10-30T11:55:59.699-07:00"
+                    jcr:lastModified="{Date}2020-07-09T08:11:09.069-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Experience Fragment Web"
@@ -1144,7 +1144,7 @@
                 <components jcr:primaryType="nt:unstructured">
                     <buildingblock jcr:primaryType="nt:unstructured">
                         <policy_1571358645901
-                            jcr:lastModified="{Date}2019-10-17T17:31:34.361-07:00"
+                            jcr:lastModified="{Date}2020-07-09T08:11:09.069-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="WKND Building Block"

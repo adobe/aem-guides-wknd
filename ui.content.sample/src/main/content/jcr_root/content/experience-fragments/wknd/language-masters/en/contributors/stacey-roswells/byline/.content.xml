@@ -54,7 +54,7 @@
                     </cq:responsive>
                 </byline_copy>
                 <buildingblock
-                    cq:masterBuildingBlockPath="/content/experience-fragments/wknd/language-masters/en/contributors/stacey-roswells/master/jcr:content/root/responsivegrid/button"
+                    cq:masterBuildingBlockPath="/content/experience-fragments/wknd/language-masters/en/contributors/stacey-roswells/master/jcr:content/root/container/button"
                     cq:styleIds="[1571358661842]"
                     jcr:created="{Date}2019-10-18T08:42:32.452-07:00"
                     jcr:createdBy="admin"
@@ -101,6 +101,14 @@
                             jcr:primaryType="nt:unstructured"
                             offset="0"
                             width="3"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
                     </cq:responsive>
                 </buildingblock>
             </container>
