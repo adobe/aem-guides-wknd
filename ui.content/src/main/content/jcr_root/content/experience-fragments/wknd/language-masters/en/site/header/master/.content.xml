@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2020-07-07T16:22:17.673-07:00"
+        cq:lastModified="{Date}2020-07-07T17:35:40.226-07:00"
         cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/wknd/settings/wcm/templates/experience-fragment-web-variation-template"
@@ -25,10 +25,11 @@
                     cq:styleIds="[1568592113898]"
                     jcr:created="{Date}2019-09-15T16:50:18.496-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-09-15T16:50:18.496-07:00"
+                    jcr:lastModified="{Date}2020-07-07T17:35:40.156-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/container">
+                    sling:resourceType="wknd/components/container"
+                    layout="responsiveGrid">
                     <cq:responsive jcr:primaryType="nt:unstructured"/>
                     <sign-in-buttons
                         jcr:lastModified="{Date}2019-10-21T20:28:42.774-07:00"
@@ -84,10 +85,11 @@
                     cq:styleIds="[1568592140003]"
                     jcr:created="{Date}2019-09-15T16:51:57.924-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-09-15T16:51:57.924-07:00"
+                    jcr:lastModified="{Date}2020-07-07T17:35:30.806-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/container">
+                    sling:resourceType="wknd/components/container"
+                    layout="responsiveGrid">
                     <cq:responsive jcr:primaryType="nt:unstructured"/>
                     <image
                         cq:styleIds="[1568592012684]"

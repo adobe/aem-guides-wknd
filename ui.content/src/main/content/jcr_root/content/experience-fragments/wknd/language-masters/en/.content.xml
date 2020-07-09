@@ -4,5 +4,4 @@
     jcr:primaryType="sling:OrderedFolder"
     jcr:title="English">
     <site/>
-    <contributors/>
 </jcr:root>

@@ -7,7 +7,7 @@
         cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
         cq:lastReplicatedBy="admin"
         cq:lastReplicationAction="Activate"
-        cq:tags="[wknd:customer-journey/attract,wknd:customer-journey/engage,wknd:activity/camping,wknd:activity/hunting-fishing,wknd:season/summer]"
+        cq:tags="[]"
         cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
         jcr:description="Deep within the heart of the Amazon we had an unforgettable cultural experience with spectacular wildlife, all in a remote, beautiful setting with strange fish of all shapes and sizes."
         jcr:isCheckedOut="{Boolean}true"

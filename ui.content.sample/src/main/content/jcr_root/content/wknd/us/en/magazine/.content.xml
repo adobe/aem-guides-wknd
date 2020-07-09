@@ -7,7 +7,7 @@
         cq:lastModifiedBy="admin"
         cq:lastRolledout="{Date}2020-07-09T08:54:51.181-07:00"
         cq:lastRolledoutBy="admin"
-        cq:tags="[wknd:customer-journey/attract]"
+        cq:tags="[]"
         cq:template="/conf/wknd/settings/wcm/templates/landing-page-template"
         jcr:description="Read articles about adventures and activities that we've recently experienced and would love to share with our community."
         jcr:isCheckedOut="{Boolean}true"

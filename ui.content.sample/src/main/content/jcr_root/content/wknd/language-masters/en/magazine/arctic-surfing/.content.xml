@@ -7,7 +7,7 @@
         cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
         cq:lastReplicatedBy="admin"
         cq:lastReplicationAction="Activate"
-        cq:tags="[wknd:customer-journey/attract,wknd:customer-journey/engage,wknd:region/emea/norway,wknd:season/winter,wknd:activity/surfing]"
+        cq:tags="[]"
         cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
         jcr:description="We traveled to Northern Norway to document the joy of surfing in extreme, but breathtakingly beautiful conditions."
         jcr:isCheckedOut="{Boolean}true"

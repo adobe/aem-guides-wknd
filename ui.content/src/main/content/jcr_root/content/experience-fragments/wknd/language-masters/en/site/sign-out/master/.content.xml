@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-10-22T16:16:32.661-07:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/wknd/settings/wcm/templates/experience-fragment-web-variation-template"
+        cq:xfMasterVariation="{Boolean}true"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Sign Out (Modal)"
+        jcr:uuid="8e96567f-ac03-465a-bc6c-194a0ee39b23"
+        sling:resourceType="wknd/components/xfpage">
+        <root
+            cq:styleIds="[1569614530122]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd/components/container">
+            <container
+                cq:styleIds="[1569950941796]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/container">
+                <title
+                    cq:styleIds="[1568996484405]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Sign Out"
+                    sling:resourceType="wknd/components/title"/>
+                <title_1943245182
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Sure you want to sign out?"
+                    sling:resourceType="wknd/components/title"
+                    type="h3"/>
+                <text-1
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/text"
+                    text="&lt;p>There's a bunch of great content only available to signed in users you'll miss out on!&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                    textIsRich="true"/>
+                <separator
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/separator"/>
+                <sign_in_form
+                    jcr:lastModified="{Date}2019-10-22T16:14:17.180-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/form/sign-in-form"
+                    actionUrl="/system/sling/logout">
+                    <container
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/container">
+                        <button-1
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="YES, SIGN ME OUT"
+                            sling:resourceType="wknd/components/form/button"
+                            type="submit"/>
+                        <hidden
+                            jcr:created="{Date}2019-10-22T16:16:02.334-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-10-22T16:16:32.627-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wknd/components/form/hidden"
+                            id="sling-auth-redirect-signout"
+                            name="sling.auth.redirect"
+                            value="/"/>
+                    </container>
+                </sign_in_form>
+            </container>
+        </root>
+        <cq:metadata jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

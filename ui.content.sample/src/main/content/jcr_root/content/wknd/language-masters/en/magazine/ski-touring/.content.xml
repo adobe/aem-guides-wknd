@@ -2,12 +2,12 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2020-07-07T18:28:09.642-07:00"
+        cq:lastModified="{Date}2020-07-09T13:17:37.255-07:00"
         cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
         cq:lastReplicatedBy="admin"
         cq:lastReplicationAction="Activate"
-        cq:tags="[wknd:season/winter,wknd:customer-journey/attract,wknd:customer-journey/engage,wknd:activity/skiing]"
+        cq:tags="[]"
         cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
         jcr:description="Learn about our ski touring experience and how it differs from traditional downhill skiing and even backcountry skiing."
         jcr:isCheckedOut="{Boolean}true"
@@ -84,7 +84,7 @@
                                 sling:resourceType="wknd/components/image"
                                 fileReference="/content/dam/wknd/en/magazine/skitouring/Skitouring5Sjoeberg.JPG"/>
                             <text
-                                cq:styleIds="[1554340301154]"
+                                cq:styleIds="[1570746601923]"
                                 jcr:created="{Date}2019-10-01T20:43:10.528-07:00"
                                 jcr:createdBy="admin"
                                 jcr:lastModified="{Date}2019-10-13T19:07:49.214-07:00"

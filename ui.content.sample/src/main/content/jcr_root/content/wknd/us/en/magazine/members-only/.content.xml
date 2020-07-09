@@ -2,6 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
     jcr:mixinTypes="[rep:CugMixin]"
     jcr:primaryType="cq:Page">
+    <rep:cugPolicy/>
     <jcr:content
         cq:lastModified="{Date}2020-07-09T08:54:51.772-07:00"
         cq:lastModifiedBy="admin"

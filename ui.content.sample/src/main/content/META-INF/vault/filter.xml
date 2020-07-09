@@ -2,10 +2,13 @@
 <workspaceFilter version="1.0">
 
     <!-- Content Filters -->
-    <filter root="/content/wknd" mode="update" />
+    <filter root="/content/wknd" />
     <filter root="/content/dam/wknd" mode="update"/>
-    <filter root="/content/experience-fragments/wknd" mode="update"/>
+    <filter root="/content/experience-fragments/wknd"/>
     <filter root="/content/cq:tags/wknd" mode="update"/>
+
+    <!-- Force Policy and Template Updates -->
+    <filter root="/conf/wknd/settings/wcm" />
 
     <!-- WKND Member Group-->
     <filter root="/home/groups/wknd" mode="merge" />

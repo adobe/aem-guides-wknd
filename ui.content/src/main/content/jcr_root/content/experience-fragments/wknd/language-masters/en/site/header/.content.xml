@@ -10,5 +10,4 @@
         jcr:title="Header"
         sling:resourceType="cq/experience-fragments/components/experiencefragment"/>
     <master/>
-    <header2/>
 </jcr:root>

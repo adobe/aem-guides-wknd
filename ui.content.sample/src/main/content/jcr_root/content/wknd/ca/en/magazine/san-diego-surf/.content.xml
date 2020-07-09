@@ -6,7 +6,7 @@
         cq:lastModifiedBy="admin"
         cq:lastRolledout="{Date}2020-07-09T08:56:37.355-07:00"
         cq:lastRolledoutBy="admin"
-        cq:tags="[wknd:activity/surfing,wknd:season/summer,wknd:region/nam/united-states,wknd:customer-journey/attract,wknd:customer-journey/engage]"
+        cq:tags="[]"
         cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
         jcr:description="From the hippie beaches of Ocean Beach to the ritzy shores of La Jolla and everywhere in between. Discover the San Diego surf scene."
         jcr:mixinTypes="[cq:LiveRelationship]"
