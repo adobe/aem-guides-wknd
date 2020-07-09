@@ -3,27 +3,31 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:lastModified="{Date}2019-10-14T14:57:56.514-07:00"
+        cq:lastModified="{Date}2020-07-07T17:50:56.733-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="wknd/components/page">
         <root
+            jcr:lastModified="{Date}2020-07-07T17:32:08.299-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid">
+            sling:resourceType="wknd/components/container"
+            layout="simple">
             <experiencefragment-header
                 cq:styleIds="[1568592491109]"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wknd/components/experiencefragment"
                 fragmentVariationPath="/content/experience-fragments/wknd/language-masters/en/site/header/master"/>
-            <responsivegrid
+            <container
                 cq:styleIds="[1554340406437]"
                 jcr:created="{Date}2019-03-19T13:19:35.891-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2019-04-03T18:28:52.706-07:00"
+                jcr:lastModified="{Date}2020-07-07T17:33:05.662-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid">
+                sling:resourceType="wknd/components/container"
+                layout="responsiveGrid">
                 <image
                     jcr:created="{Date}2019-04-03T18:29:05.193-07:00"
                     jcr:createdBy="admin"
@@ -32,13 +36,20 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/image"
                     editable="{Boolean}true"/>
-                <responsivegrid
+                <breadcrumb
+                    jcr:created="{Date}2020-07-07T17:50:56.730-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-07-07T17:50:56.730-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/breadcrumb"/>
+                <container
                     jcr:created="{Date}2019-04-03T18:31:10.416-07:00"
                     jcr:createdBy="admin"
                     jcr:lastModified="{Date}2019-04-03T18:31:10.416-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/foundation/components/responsivegrid"
+                    sling:resourceType="wknd/components/container"
                     editable="{Boolean}true">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
@@ -54,14 +65,14 @@
                             offset="0"
                             width="12"/>
                     </cq:responsive>
-                </responsivegrid>
-                <responsivegrid_223059690
+                </container>
+                <container_223059690
                     jcr:created="{Date}2019-04-03T18:32:31.547-07:00"
                     jcr:createdBy="admin"
                     jcr:lastModified="{Date}2019-04-03T18:32:31.547-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/foundation/components/responsivegrid"
+                    sling:resourceType="wknd/components/container"
                     editable="{Boolean}true">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
@@ -77,8 +88,8 @@
                             offset="0"
                             width="12"/>
                     </cq:responsive>
-                </responsivegrid_223059690>
-            </responsivegrid>
+                </container_223059690>
+            </container>
             <experiencefragment-footer
                 cq:styleIds="[1568592503946]"
                 jcr:primaryType="nt:unstructured"

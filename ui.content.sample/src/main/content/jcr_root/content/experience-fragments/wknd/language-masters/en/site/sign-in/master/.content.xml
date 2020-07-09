@@ -16,11 +16,11 @@
         <root
             cq:styleIds="[1569614530122]"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid">
-            <responsivegrid
+            sling:resourceType="wknd/components/container">
+            <container
                 cq:styleIds="[1569950941796]"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid">
+                sling:resourceType="wknd/components/container">
                 <title
                     cq:styleIds="[1568996484405]"
                     jcr:primaryType="nt:unstructured"
@@ -36,9 +36,9 @@
                     sling:resourceType="wknd/components/form/sign-in-form"
                     actionUrl="/system/sling/login/j_security_check"
                     redirectUrl="/content/wknd/us/en.html">
-                    <responsivegrid
+                    <container
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        sling:resourceType="wknd/components/container">
                         <field-1
                             jcr:lastModified="{Date}2019-10-21T20:09:51.128-07:00"
                             jcr:lastModifiedBy="admin"
@@ -81,12 +81,12 @@
                             id="sling-auth-redirect-signin"
                             name="sling.auth.redirect"
                             value="/"/>
-                    </responsivegrid>
+                    </container>
                 </sign_in_form>
                 <separator
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/separator"/>
-            </responsivegrid>
+            </container>
         </root>
         <cq:metadata jcr:primaryType="nt:unstructured"/>
     </jcr:content>

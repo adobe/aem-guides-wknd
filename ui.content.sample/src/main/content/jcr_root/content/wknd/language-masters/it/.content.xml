@@ -16,47 +16,14 @@
         pageTitle="Italiano">
         <root
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid">
-            <responsivegrid
+            sling:resourceType="wknd/components/container">
+            <container
                 jcr:created="{Date}2019-03-19T13:22:52.385-07:00"
                 jcr:createdBy="admin"
                 jcr:lastModified="{Date}2019-10-28T11:26:48.965-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid">
-                <responsivegrid_1679842506
-                    cq:lastRolledout="{Date}2019-10-28T11:26:49.013-07:00"
-                    cq:lastRolledoutBy="admin"
-                    cq:styleIds="[1554340406437]"
-                    jcr:created="{Date}2019-10-21T11:34:41.155-07:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-10-21T11:34:41.155-07:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:mixinTypes="[cq:LiveRelationship]"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/foundation/components/responsivegrid">
-                    <cq:responsive
-                        cq:lastRolledout="{Date}2019-10-28T11:26:49.014-07:00"
-                        cq:lastRolledoutBy="admin"
-                        jcr:mixinTypes="[cq:LiveRelationship]"
-                        jcr:primaryType="nt:unstructured"/>
-                    <separator
-                        cq:lastRolledout="{Date}2019-10-28T11:26:49.030-07:00"
-                        cq:lastRolledoutBy="admin"
-                        jcr:created="{Date}2019-10-21T11:37:59.604-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-28T11:26:49.028-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:mixinTypes="[cq:LiveRelationship]"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/separator"/>
-                </responsivegrid_1679842506>
-            </responsivegrid>
-            <responsivegrid_933431667
-                cq:lastRolledout="{Date}2019-10-28T11:26:49.040-07:00"
-                cq:lastRolledoutBy="admin"
-                jcr:mixinTypes="[cq:LiveRelationship]"
-                jcr:primaryType="nt:unstructured">
+                sling:resourceType="wknd/components/container">
                 <item_1571954853062
                     cq:lastRolledout="{Date}2019-10-28T11:26:49.049-07:00"
                     cq:lastRolledoutBy="admin"
@@ -87,7 +54,34 @@
                             text="View Trips"/>
                     </actions>
                 </item_1571954853062>
-            </responsivegrid_933431667>
+                <container_1679842506
+                    cq:lastRolledout="{Date}2019-10-28T11:26:49.013-07:00"
+                    cq:lastRolledoutBy="admin"
+                    cq:styleIds="[1554340406437]"
+                    jcr:created="{Date}2019-10-21T11:34:41.155-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-10-21T11:34:41.155-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:mixinTypes="[cq:LiveRelationship]"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/container">
+                    <cq:responsive
+                        cq:lastRolledout="{Date}2019-10-28T11:26:49.014-07:00"
+                        cq:lastRolledoutBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
+                        jcr:primaryType="nt:unstructured"/>
+                    <separator
+                        cq:lastRolledout="{Date}2019-10-28T11:26:49.030-07:00"
+                        cq:lastRolledoutBy="admin"
+                        jcr:created="{Date}2019-10-21T11:37:59.604-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-10-28T11:26:49.028-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/separator"/>
+                </container_1679842506>
+            </container>
         </root>
     </jcr:content>
 </jcr:root>

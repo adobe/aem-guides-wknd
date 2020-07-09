@@ -22,41 +22,14 @@
         pageTitle="Deutsch">
         <root
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid">
-            <responsivegrid
+            sling:resourceType="wknd/components/container">
+            <container
                 jcr:created="{Date}2019-03-19T13:22:52.385-07:00"
                 jcr:createdBy="admin"
                 jcr:lastModified="{Date}2019-10-28T11:25:59.199-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid">
-                <responsivegrid
-                    cq:styleIds="[1554340406437]"
-                    jcr:created="{Date}2019-04-17T14:31:50.612-07:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-10-28T11:25:59.202-07:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/foundation/components/responsivegrid">
-                    <cq:responsive jcr:primaryType="nt:unstructured"/>
-                    <separator
-                        cq:lastRolledout="{Date}2019-10-28T11:25:59.226-07:00"
-                        cq:lastRolledoutBy="admin"
-                        jcr:created="{Date}2019-10-27T16:13:09.680-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-27T16:13:09.680-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:mixinTypes="[cq:LiveRelationship]"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/separator"/>
-                </responsivegrid>
-            </responsivegrid>
-            <responsivegrid_933431667
-                cq:lastRolledout="{Date}2019-10-28T11:25:59.275-07:00"
-                cq:lastRolledoutBy="admin"
-                jcr:mixinTypes="[cq:LiveRelationship]"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid">
+                sling:resourceType="wknd/components/container">
                 <teaser
                     cq:styleIds="[1555543212672]"
                     jcr:created="{Date}2020-01-09T11:21:04.718-08:00"
@@ -71,7 +44,27 @@
                     fileReference="/content/dam/wknd/en/adventures/riverside-camping-australia/AdobeStock_216674449.jpeg"
                     textIsRich="true"
                     titleFromPage="false"/>
-            </responsivegrid_933431667>
+                <container
+                    cq:styleIds="[1554340406437]"
+                    jcr:created="{Date}2019-04-17T14:31:50.612-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-10-28T11:25:59.202-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/container">
+                    <cq:responsive jcr:primaryType="nt:unstructured"/>
+                    <separator
+                        cq:lastRolledout="{Date}2019-10-28T11:25:59.226-07:00"
+                        cq:lastRolledoutBy="admin"
+                        jcr:created="{Date}2019-10-27T16:13:09.680-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-10-27T16:13:09.680-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/separator"/>
+                </container>
+            </container>
         </root>
     </jcr:content>
 </jcr:root>

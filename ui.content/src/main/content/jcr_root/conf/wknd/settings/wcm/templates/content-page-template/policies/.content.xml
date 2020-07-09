@@ -2,13 +2,13 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-10-30T11:56:45.640-07:00"
+        cq:lastModified="{Date}2020-07-07T17:55:26.478-07:00"
         cq:lastModifiedBy="admin"
         cq:policy="wknd/components/page/policy_1570140199406"
         jcr:primaryType="nt:unstructured"
         sling:resourceType="wcm/core/components/policies/mappings">
         <root
-            cq:policy="wcm/foundation/components/responsivegrid/content-default"
+            cq:policy="wknd/components/container/content-default"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/core/components/policies/mapping">
             <experiencefragment-header
@@ -19,8 +19,8 @@
                 cq:policy="wknd/components/experiencefragment/policy_1568592468447"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/core/components/policies/mapping"/>
-            <responsivegrid
-                cq:policy="wcm/foundation/components/responsivegrid/policy_213106331986985"
+            <container
+                cq:policy="wknd/components/container/policy_213106331986985"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/core/components/policies/mapping">
                 <wknd jcr:primaryType="nt:unstructured">
@@ -70,14 +70,14 @@
                 <wcm jcr:primaryType="nt:unstructured">
                     <foundation jcr:primaryType="nt:unstructured">
                         <components jcr:primaryType="nt:unstructured">
-                            <responsivegrid
-                                cq:policy="wcm/foundation/components/responsivegrid/policy_213106331986985"
+                            <container
+                                cq:policy="wknd/components/container/policy_213106331986985"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wcm/core/components/policies/mapping"/>
                         </components>
                     </foundation>
                 </wcm>
-            </responsivegrid>
+            </container>
         </root>
     </jcr:content>
 </jcr:root>

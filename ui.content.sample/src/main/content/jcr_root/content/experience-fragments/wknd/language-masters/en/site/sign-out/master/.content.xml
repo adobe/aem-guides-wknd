@@ -15,11 +15,11 @@
         <root
             cq:styleIds="[1569614530122]"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid">
-            <responsivegrid
+            sling:resourceType="wknd/components/container">
+            <container
                 cq:styleIds="[1569950941796]"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid">
+                sling:resourceType="wknd/components/container">
                 <title
                     cq:styleIds="[1568996484405]"
                     jcr:primaryType="nt:unstructured"
@@ -44,9 +44,9 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/form/sign-in-form"
                     actionUrl="/system/sling/logout">
-                    <responsivegrid
+                    <container
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        sling:resourceType="wknd/components/container">
                         <button-1
                             jcr:primaryType="nt:unstructured"
                             jcr:title="YES, SIGN ME OUT"
@@ -62,9 +62,9 @@
                             id="sling-auth-redirect-signout"
                             name="sling.auth.redirect"
                             value="/"/>
-                    </responsivegrid>
+                    </container>
                 </sign_in_form>
-            </responsivegrid>
+            </container>
         </root>
         <cq:metadata jcr:primaryType="nt:unstructured"/>
     </jcr:content>

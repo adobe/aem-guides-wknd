@@ -3,8 +3,8 @@
     jcr:primaryType="cq:Page">
     <errors/>
     <jcr:content
-        cq:lastModified="{Date}2019-10-27T16:44:32.639-07:00"
-        cq:lastModifiedBy="reference-adjustment-service"
+        cq:lastModified="{Date}2020-07-09T08:15:27.859-07:00"
+        cq:lastModifiedBy="admin"
         cq:tags="[wknd:customer-journey/attract]"
         cq:template="/conf/wknd/settings/wcm/templates/landing-page-template"
         jcr:description="WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world."
@@ -14,172 +14,14 @@
         pageTitle="Home">
         <root
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid">
-            <responsivegrid
+            sling:resourceType="wknd/components/container">
+            <container
                 jcr:created="{Date}2019-03-19T13:22:52.385-07:00"
                 jcr:createdBy="admin"
                 jcr:lastModified="{Date}2019-03-19T13:23:39.376-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid">
-                <responsivegrid
-                    cq:styleIds="[1554340406437]"
-                    jcr:created="{Date}2019-04-17T14:31:50.612-07:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-04-17T14:31:50.612-07:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/foundation/components/responsivegrid">
-                    <cq:responsive jcr:primaryType="nt:unstructured"/>
-                    <teaser
-                        cq:styleIds="[1555539443529]"
-                        jcr:created="{Date}2019-10-18T20:00:41.430-07:00"
-                        jcr:createdBy="admin"
-                        jcr:description="&lt;p>A vibrant red, dusty highway stretches out before us into what seems like infinity, at the far reach of our sights it distorts and shimmers from the afternoon heat, fading into the blue of the horizon.&lt;/p>&#xd;&#xa;"
-                        jcr:lastModified="{Date}2019-10-25T14:00:36.074-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Camping in Western Australia"
-                        sling:resourceType="wknd/components/teaser"
-                        actionsEnabled="true"
-                        descriptionFromPage="false"
-                        fileReference="/content/dam/wknd/en/magazine/western-australia/adobestock_156407519.jpeg"
-                        textIsRich="true"
-                        titleFromPage="false">
-                        <actions jcr:primaryType="nt:unstructured">
-                            <item0
-                                jcr:primaryType="nt:unstructured"
-                                link="/content/wknd/language-masters/en/magazine/western-australia"
-                                text="Read More"/>
-                        </actions>
-                    </teaser>
-                    <title
-                        cq:styleIds="[1568996484405]"
-                        jcr:created="{Date}2019-10-21T10:52:07.675-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-21T10:52:21.030-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Recent Articles"
-                        sling:resourceType="wknd/components/title"
-                        type="h2"/>
-                    <image_list
-                        jcr:created="{Date}2019-10-18T19:42:10.049-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-25T17:59:48.145-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/image-list"
-                        childDepth="1"
-                        listFrom="static"
-                        pages="[/content/wknd/language-masters/en/magazine/guide-la-skateparks,/content/wknd/language-masters/en/magazine/ski-touring,/content/wknd/language-masters/en/magazine/arctic-surfing,/content/wknd/language-masters/en/magazine/san-diego-surf]"
-                        parentPage="/content/wknd/language-masters/en/magazine"
-                        sortOrder="desc"
-                        tagsMatch="any"/>
-                    <button_copy
-                        cq:styleIds="[1570236090914]"
-                        jcr:created="{Date}2019-10-25T18:00:29.618-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-25T18:02:20.123-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="View All"
-                        sling:resourceType="wknd/components/button"
-                        accessibilityLabel="read our articles"
-                        link="/content/wknd/language-masters/en/magazine"/>
-                    <separator
-                        jcr:created="{Date}2019-10-27T16:13:09.680-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-27T16:13:09.680-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/separator"/>
-                    <title_15771435
-                        cq:styleIds="[1568996484405]"
-                        jcr:created="{Date}2019-10-21T11:30:37.023-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-21T11:30:47.328-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Next Adventures"
-                        sling:resourceType="wknd/components/title"
-                        type="h2"/>
-                </responsivegrid>
-                <teaser
-                    cq:styleIds="[1572035150600]"
-                    jcr:created="{Date}2019-10-21T11:31:11.525-07:00"
-                    jcr:createdBy="admin"
-                    jcr:description="&lt;p>With WKND Adventures, you don't just see the world-- you experience its cultures, flavors and wonders.&lt;/p>&#xd;&#xa;"
-                    jcr:lastModified="{Date}2019-10-27T16:12:59.312-07:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    jcr:title="Experience the world with us"
-                    sling:resourceType="wknd/components/teaser"
-                    actionsEnabled="true"
-                    descriptionFromPage="true"
-                    fileReference="/content/dam/wknd/en/adventures/climbing-new-zealand/AdobeStock_140634652.jpeg"
-                    textIsRich="true"
-                    titleFromPage="true">
-                    <actions jcr:primaryType="nt:unstructured">
-                        <item0
-                            jcr:primaryType="nt:unstructured"
-                            link="/content/wknd/language-masters/en/adventures/climbing-new-zealand"
-                            text="See Trip"/>
-                    </actions>
-                </teaser>
-                <responsivegrid_1679842506
-                    cq:styleIds="[1554340406437]"
-                    jcr:created="{Date}2019-10-21T11:34:41.155-07:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-10-21T11:34:41.155-07:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/foundation/components/responsivegrid">
-                    <cq:responsive jcr:primaryType="nt:unstructured"/>
-                    <title
-                        jcr:created="{Date}2019-10-21T11:34:50.251-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-21T11:35:03.383-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Where do you want to go?"
-                        sling:resourceType="wknd/components/title"
-                        type="h3"/>
-                    <image_list
-                        jcr:created="{Date}2019-10-21T11:36:26.114-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-25T18:00:14.772-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/image-list"
-                        childDepth="1"
-                        listFrom="children"
-                        maxItems="4"
-                        orderBy="title"
-                        parentPage="/content/wknd/language-masters/en/adventures"
-                        sortOrder="desc"
-                        tagsMatch="any"/>
-                    <button
-                        cq:styleIds="[1570236090914]"
-                        jcr:created="{Date}2019-10-25T18:00:29.618-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-25T18:01:42.735-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Explore All"
-                        sling:resourceType="wknd/components/button"
-                        accessibilityLabel="explore our adventures"
-                        link="/content/wknd/language-masters/en/adventures"/>
-                    <separator
-                        jcr:created="{Date}2019-10-21T11:37:59.604-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-21T11:37:59.604-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/separator"/>
-                </responsivegrid_1679842506>
-            </responsivegrid>
-            <responsivegrid_933431667 jcr:primaryType="nt:unstructured">
+                sling:resourceType="wknd/components/container">
                 <carousel
                     cq:styleIds="[1555545421827]"
                     jcr:created="{Date}2019-10-24T14:45:16.689-07:00"
@@ -254,7 +96,164 @@
                         </actions>
                     </teaser>
                 </carousel>
-            </responsivegrid_933431667>
+                <container
+                    cq:styleIds="[1554340406437]"
+                    jcr:created="{Date}2019-04-17T14:31:50.612-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-07-09T08:15:27.853-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/container"
+                    layout="simple">
+                    <cq:responsive jcr:primaryType="nt:unstructured"/>
+                    <teaser
+                        cq:styleIds="[1555539443529]"
+                        jcr:created="{Date}2019-10-18T20:00:41.430-07:00"
+                        jcr:createdBy="admin"
+                        jcr:description="&lt;p>A vibrant red, dusty highway stretches out before us into what seems like infinity, at the far reach of our sights it distorts and shimmers from the afternoon heat, fading into the blue of the horizon.&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2019-10-25T14:00:36.074-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Camping in Western Australia"
+                        sling:resourceType="wknd/components/teaser"
+                        actionsEnabled="true"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/wknd/en/magazine/western-australia/adobestock_156407519.jpeg"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <actions jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                link="/content/wknd/language-masters/en/magazine/western-australia"
+                                text="Read More"/>
+                        </actions>
+                    </teaser>
+                    <title
+                        cq:styleIds="[1568996484405]"
+                        jcr:created="{Date}2019-10-21T10:52:07.675-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-10-21T10:52:21.030-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Recent Articles"
+                        sling:resourceType="wknd/components/title"
+                        type="h2"/>
+                    <image_list
+                        jcr:created="{Date}2019-10-18T19:42:10.049-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-10-25T17:59:48.145-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/image-list"
+                        childDepth="1"
+                        listFrom="static"
+                        pages="[/content/wknd/language-masters/en/magazine/guide-la-skateparks,/content/wknd/language-masters/en/magazine/ski-touring,/content/wknd/language-masters/en/magazine/arctic-surfing,/content/wknd/language-masters/en/magazine/san-diego-surf]"
+                        parentPage="/content/wknd/language-masters/en/magazine"
+                        sortOrder="desc"
+                        tagsMatch="any"/>
+                    <button_copy
+                        cq:styleIds="[1570236090914]"
+                        jcr:created="{Date}2019-10-25T18:00:29.618-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-10-25T18:02:20.123-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="View All"
+                        sling:resourceType="wknd/components/button"
+                        accessibilityLabel="read our articles"
+                        link="/content/wknd/language-masters/en/magazine"/>
+                    <separator
+                        jcr:created="{Date}2019-10-27T16:13:09.680-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-10-27T16:13:09.680-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/separator"/>
+                    <title_15771435
+                        cq:styleIds="[1568996484405]"
+                        jcr:created="{Date}2019-10-21T11:30:37.023-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-10-21T11:30:47.328-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Next Adventures"
+                        sling:resourceType="wknd/components/title"
+                        type="h2"/>
+                </container>
+                <teaser
+                    cq:styleIds="[1572035150600]"
+                    jcr:created="{Date}2019-10-21T11:31:11.525-07:00"
+                    jcr:createdBy="admin"
+                    jcr:description="&lt;p>With WKND Adventures, you don't just see the world-- you experience its cultures, flavors and wonders.&lt;/p>&#xd;&#xa;"
+                    jcr:lastModified="{Date}2019-10-27T16:12:59.312-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Experience the world with us"
+                    sling:resourceType="wknd/components/teaser"
+                    actionsEnabled="true"
+                    descriptionFromPage="true"
+                    fileReference="/content/dam/wknd/en/adventures/climbing-new-zealand/AdobeStock_140634652.jpeg"
+                    textIsRich="true"
+                    titleFromPage="true">
+                    <actions jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            link="/content/wknd/language-masters/en/adventures/climbing-new-zealand"
+                            text="See Trip"/>
+                    </actions>
+                </teaser>
+                <container_1679842506
+                    cq:styleIds="[1554340406437]"
+                    jcr:created="{Date}2019-10-21T11:34:41.155-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-10-21T11:34:41.155-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/container">
+                    <cq:responsive jcr:primaryType="nt:unstructured"/>
+                    <title
+                        jcr:created="{Date}2019-10-21T11:34:50.251-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-10-21T11:35:03.383-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Where do you want to go?"
+                        sling:resourceType="wknd/components/title"
+                        type="h3"/>
+                    <image_list
+                        jcr:created="{Date}2019-10-21T11:36:26.114-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-10-25T18:00:14.772-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/image-list"
+                        childDepth="1"
+                        listFrom="children"
+                        maxItems="4"
+                        orderBy="title"
+                        parentPage="/content/wknd/language-masters/en/adventures"
+                        sortOrder="desc"
+                        tagsMatch="any"/>
+                    <button
+                        cq:styleIds="[1570236090914]"
+                        jcr:created="{Date}2019-10-25T18:00:29.618-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-10-25T18:01:42.735-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Explore All"
+                        sling:resourceType="wknd/components/button"
+                        accessibilityLabel="explore our adventures"
+                        link="/content/wknd/language-masters/en/adventures"/>
+                    <separator
+                        jcr:created="{Date}2019-10-21T11:37:59.604-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-10-21T11:37:59.604-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/separator"/>
+                </container_1679842506>
+            </container>
         </root>
     </jcr:content>
     <magazine/>

@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-10-28T10:55:14.513-07:00"
+        cq:lastModified="{Date}2020-07-07T17:36:12.141-07:00"
         cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/wknd/settings/wcm/templates/experience-fragment-web-variation-template"
@@ -13,22 +13,23 @@
         sling:resourceType="wknd/components/xfpage">
         <root
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid">
-            <responsivegrid
+            sling:resourceType="wknd/components/container">
+            <container
                 jcr:created="{Date}2019-09-13T14:22:51.213-07:00"
                 jcr:createdBy="admin"
                 jcr:lastModified="{Date}2019-09-13T14:23:01.260-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid">
-                <responsivegrid
+                sling:resourceType="wknd/components/container">
+                <container
                     cq:styleIds="[1568839620471]"
                     jcr:created="{Date}2019-09-18T13:56:04.094-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-09-18T13:56:04.094-07:00"
+                    jcr:lastModified="{Date}2020-07-07T17:36:12.071-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    sling:resourceType="wknd/components/container"
+                    layout="responsiveGrid">
                     <cq:responsive jcr:primaryType="nt:unstructured"/>
                     <image
                         cq:styleIds="[1568592012684]"
@@ -185,8 +186,8 @@
                         sling:resourceType="wknd/components/text"
                         text="&lt;p>Ⓒ 2019,&amp;nbsp;&amp;nbsp;WKND Site.&lt;/p>&#xa;&lt;p>WKND is a fictitious adventure and travel website created by Adobe to demonstrate how anyone can use Adobe Experience Manager to build a beautiful, feature-rich website over a single weekend. This site is built entirely with Adobe Experience Manager&amp;nbsp;&lt;a href=&quot;https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html&quot;>Core Components&lt;/a>&amp;nbsp;and&amp;nbsp;&lt;a href=&quot;https://github.com/adobe/aem-project-archetype&quot;>Archetype&lt;/a>&amp;nbsp;that are available as open source code to the public. The entire&amp;nbsp;&lt;a href=&quot;https://github.com/adobe/aem-guides-wknd/&quot;>site source code&lt;/a>&amp;nbsp;is available as open source as well and is accompanied with a&amp;nbsp;&lt;a href=&quot;https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html&quot;>detailed tutorial&lt;/a>&amp;nbsp;on how to recreate the site.&lt;/p>&#xa;&lt;p>Many of the beautiful images in the WKND site are available for purchase via&amp;nbsp;&lt;a href=&quot;https://stock.adobe.com/&quot;>Adobe Stock&lt;/a>.&lt;/p>&#xa;"
                         textIsRich="true"/>
-                </responsivegrid>
-            </responsivegrid>
+                </container>
+            </container>
         </root>
     </jcr:content>
 </jcr:root>

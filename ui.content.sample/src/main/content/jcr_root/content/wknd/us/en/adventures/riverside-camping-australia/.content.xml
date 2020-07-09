@@ -2,9 +2,9 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-10-28T11:02:09.298-07:00"
+        cq:lastModified="{Date}2020-07-09T08:54:52.881-07:00"
         cq:lastModifiedBy="admin"
-        cq:lastRolledout="{Date}2019-10-28T11:02:09.299-07:00"
+        cq:lastRolledout="{Date}2020-07-09T08:54:52.883-07:00"
         cq:lastRolledoutBy="admin"
         cq:tags="[wknd:customer-journey/engage,wknd:customer-journey/convert,wknd:region/apac/australia,wknd:season/summer,wknd:activity/hiking,wknd:activity/camping,wknd:activity/hunting-fishing]"
         cq:template="/conf/wknd/settings/wcm/templates/adventure-page-template"
@@ -13,29 +13,48 @@
         jcr:mixinTypes="[cq:LiveRelationship,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Riverside Camping"
-        jcr:uuid="6faf32a9-f00c-4297-969f-923f44873fb5"
+        jcr:uuid="cb45b201-8839-4610-bfda-5fa47b4c872d"
         sling:resourceType="wknd/components/page"
         shortDescription="Siegel River Australia"
         socialMedia="[facebook,pinterest]">
         <root
-            cq:lastRolledout="{Date}2019-10-28T11:02:09.183-07:00"
+            cq:lastRolledout="{Date}2020-07-09T08:54:52.620-07:00"
             cq:lastRolledoutBy="admin"
             jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid">
-            <responsivegrid
-                cq:lastRolledout="{Date}2019-10-28T11:02:09.188-07:00"
+            sling:resourceType="wknd/components/container">
+            <container
+                cq:lastRolledout="{Date}2020-07-09T08:54:52.634-07:00"
                 cq:lastRolledoutBy="admin"
+                jcr:created="{Date}2019-10-12T05:25:59.821-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-07-09T08:54:52.622-07:00"
+                jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid">
+                sling:resourceType="wknd/components/container">
+                <breadcrumb
+                    cq:lastRolledout="{Date}2020-07-09T08:54:52.640-07:00"
+                    cq:lastRolledoutBy="admin"
+                    cq:styleIds="[1570236596118]"
+                    jcr:created="{Date}2020-07-08T14:27:23.042-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-07-09T08:54:52.637-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:mixinTypes="[cq:LiveRelationship]"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/breadcrumb"
+                    disableShadowing="false"
+                    hideCurrent="false"
+                    showHidden="false"
+                    startLevel="4"/>
                 <carousel
-                    cq:lastRolledout="{Date}2019-10-28T11:02:09.192-07:00"
+                    cq:lastRolledout="{Date}2020-07-09T08:54:52.674-07:00"
                     cq:lastRolledoutBy="admin"
                     cq:styleIds="[1570236158571]"
                     jcr:created="{Date}2019-10-12T05:23:17.961-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-10-28T11:02:09.190-07:00"
+                    jcr:lastModified="{Date}2020-07-09T08:54:52.641-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
@@ -43,29 +62,37 @@
                     autopauseDisabled="false"
                     autoplay="false">
                     <image
-                        cq:lastRolledout="{Date}2019-10-28T11:02:09.195-07:00"
+                        cq:lastRolledout="{Date}2020-07-09T08:54:52.679-07:00"
                         cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2019-10-12T08:40:15.120-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-28T11:02:09.194-07:00"
+                        jcr:lastModified="{Date}2020-07-09T08:54:52.677-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/image"
-                        fileReference="/content/dam/wknd/en/adventures/riverside-camping-australia/adobe_waadobe_wa_mg_2466.jpg"/>
+                        altValueFromDAM="true"
+                        displayPopupTitle="true"
+                        fileReference="/content/dam/wknd/en/adventures/riverside-camping-australia/adobe_waadobe_wa_mg_2466.jpg"
+                        isDecorative="false"
+                        titleValueFromDAM="true"/>
                     <item_1571168419252
-                        cq:lastRolledout="{Date}2019-10-28T11:02:09.197-07:00"
+                        cq:lastRolledout="{Date}2020-07-09T08:54:52.685-07:00"
                         cq:lastRolledoutBy="admin"
-                        jcr:lastModified="{Date}2019-10-28T11:02:09.196-07:00"
+                        jcr:lastModified="{Date}2020-07-09T08:54:52.681-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/image"
-                        fileReference="/content/dam/wknd/en/adventures/riverside-camping-australia/AdobeStock_216674449.jpeg"/>
+                        altValueFromDAM="true"
+                        displayPopupTitle="true"
+                        fileReference="/content/dam/wknd/en/adventures/riverside-camping-australia/AdobeStock_216674449.jpeg"
+                        isDecorative="false"
+                        titleValueFromDAM="true"/>
                     <item_1571168422510
-                        cq:lastRolledout="{Date}2019-10-28T11:02:09.200-07:00"
+                        cq:lastRolledout="{Date}2020-07-09T08:54:52.689-07:00"
                         cq:lastRolledoutBy="admin"
-                        jcr:lastModified="{Date}2019-10-28T11:02:09.198-07:00"
+                        jcr:lastModified="{Date}2020-07-09T08:54:52.686-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
@@ -76,59 +103,60 @@
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                 </carousel>
-                <responsivegrid
-                    cq:lastRolledout="{Date}2019-10-28T11:02:09.205-07:00"
+                <container
+                    cq:lastRolledout="{Date}2020-07-09T08:54:52.700-07:00"
                     cq:lastRolledoutBy="admin"
                     cq:styleIds="[1554340406437]"
                     jcr:created="{Date}2019-10-12T05:25:59.821-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-10-28T11:02:09.201-07:00"
+                    jcr:lastModified="{Date}2020-07-09T08:54:52.690-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    sling:resourceType="wknd/components/container"
+                    layout="responsiveGrid">
                     <title
-                        cq:lastRolledout="{Date}2019-10-28T11:02:09.209-07:00"
+                        cq:lastRolledout="{Date}2020-07-09T08:54:52.705-07:00"
                         cq:lastRolledoutBy="admin"
                         cq:styleIds="[1568996484405]"
                         jcr:created="{Date}2019-10-12T07:07:58.674-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-28T11:02:09.207-07:00"
+                        jcr:lastModified="{Date}2020-07-09T08:54:52.703-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/title"/>
-                    <responsivegrid
-                        cq:lastRolledout="{Date}2019-10-28T11:02:09.212-07:00"
+                    <container
+                        cq:lastRolledout="{Date}2020-07-09T08:54:52.717-07:00"
                         cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2019-10-12T07:08:06.110-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-28T11:02:09.210-07:00"
+                        jcr:lastModified="{Date}2020-07-09T08:54:52.706-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        sling:resourceType="wknd/components/container">
                         <cq:responsive
-                            cq:lastRolledout="{Date}2019-10-28T11:02:09.214-07:00"
+                            cq:lastRolledout="{Date}2020-07-09T08:54:52.725-07:00"
                             cq:lastRolledoutBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured">
                             <default
-                                cq:lastRolledout="{Date}2019-10-28T11:02:09.217-07:00"
+                                cq:lastRolledout="{Date}2020-07-09T08:54:52.728-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
                                 width="3"/>
                             <tablet
-                                cq:lastRolledout="{Date}2019-10-28T11:02:09.218-07:00"
+                                cq:lastRolledout="{Date}2020-07-09T08:54:52.729-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
                                 width="12"/>
                             <phone
-                                cq:lastRolledout="{Date}2019-10-28T11:02:09.220-07:00"
+                                cq:lastRolledout="{Date}2020-07-09T08:54:52.731-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
@@ -136,12 +164,12 @@
                                 width="12"/>
                         </cq:responsive>
                         <contentfragment
-                            cq:lastRolledout="{Date}2019-10-28T11:02:09.224-07:00"
+                            cq:lastRolledout="{Date}2020-07-09T08:54:52.737-07:00"
                             cq:lastRolledoutBy="admin"
                             cq:styleIds="[1571166694176]"
                             jcr:created="{Date}2019-10-12T07:12:10.375-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-10-28T11:02:09.221-07:00"
+                            jcr:lastModified="{Date}2020-07-09T08:54:52.734-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
@@ -149,22 +177,22 @@
                             displayMode="multi"
                             elementNames="[adventureActivity,adventureType,adventureTripLength,adventureGroupSize,adventureDifficulty,adventurePrice]"
                             fragmentPath="/content/dam/wknd/en/adventures/riverside-camping-australia/riverside-camping-australia"
-                            text="Nicaragua Surf Trip Activity Surfing Adventure Type Overnight Trip Trip Length 3 Days Group Size 6-8 Difficulty Intermediate Price $2400 USD"
+                            text="Riverside Camping Australia Activity Camping Adventure Type Overnight Trip Trip Length 3 Days Group Size 5-6 Difficulty Beginner Price $500 USD"
                             variationName="master">
                             <cq:responsive
-                                cq:lastRolledout="{Date}2019-10-28T11:02:09.225-07:00"
+                                cq:lastRolledout="{Date}2020-07-09T08:54:52.741-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured">
                                 <phone
-                                    cq:lastRolledout="{Date}2019-10-28T11:02:09.227-07:00"
+                                    cq:lastRolledout="{Date}2020-07-09T08:54:52.744-07:00"
                                     cq:lastRolledoutBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
                                     offset="0"
                                     width="7"/>
                                 <tablet
-                                    cq:lastRolledout="{Date}2019-10-28T11:02:09.229-07:00"
+                                    cq:lastRolledout="{Date}2020-07-09T08:54:52.745-07:00"
                                     cq:lastRolledoutBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
@@ -173,11 +201,11 @@
                             </cq:responsive>
                         </contentfragment>
                         <title
-                            cq:lastRolledout="{Date}2019-10-28T11:02:09.232-07:00"
+                            cq:lastRolledout="{Date}2020-07-09T08:54:52.750-07:00"
                             cq:lastRolledoutBy="admin"
                             jcr:created="{Date}2019-10-12T07:12:15.915-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-10-28T11:02:09.230-07:00"
+                            jcr:lastModified="{Date}2020-07-09T08:54:52.747-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
@@ -185,19 +213,19 @@
                             sling:resourceType="wknd/components/title"
                             type="h5">
                             <cq:responsive
-                                cq:lastRolledout="{Date}2019-10-28T11:02:09.233-07:00"
+                                cq:lastRolledout="{Date}2020-07-09T08:54:52.755-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured">
                                 <tablet
-                                    cq:lastRolledout="{Date}2019-10-28T11:02:09.235-07:00"
+                                    cq:lastRolledout="{Date}2020-07-09T08:54:52.757-07:00"
                                     cq:lastRolledoutBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
                                     offset="0"
                                     width="3"/>
                                 <phone
-                                    cq:lastRolledout="{Date}2019-10-28T11:02:09.236-07:00"
+                                    cq:lastRolledout="{Date}2020-07-09T08:54:52.759-07:00"
                                     cq:lastRolledoutBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
@@ -206,29 +234,29 @@
                             </cq:responsive>
                         </title>
                         <sharing
-                            cq:lastRolledout="{Date}2019-10-28T11:02:09.238-07:00"
+                            cq:lastRolledout="{Date}2020-07-09T08:54:52.761-07:00"
                             cq:lastRolledoutBy="admin"
                             jcr:created="{Date}2019-10-12T07:12:20.354-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-10-28T11:02:09.237-07:00"
+                            jcr:lastModified="{Date}2020-07-09T08:54:52.760-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/sharing">
                             <cq:responsive
-                                cq:lastRolledout="{Date}2019-10-28T11:02:09.239-07:00"
+                                cq:lastRolledout="{Date}2020-07-09T08:54:52.767-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured">
                                 <tablet
-                                    cq:lastRolledout="{Date}2019-10-28T11:02:09.242-07:00"
+                                    cq:lastRolledout="{Date}2020-07-09T08:54:52.769-07:00"
                                     cq:lastRolledoutBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
                                     offset="0"
                                     width="3"/>
                                 <phone
-                                    cq:lastRolledout="{Date}2019-10-28T11:02:09.243-07:00"
+                                    cq:lastRolledout="{Date}2020-07-09T08:54:52.771-07:00"
                                     cq:lastRolledoutBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
@@ -236,39 +264,39 @@
                                     width="5"/>
                             </cq:responsive>
                         </sharing>
-                    </responsivegrid>
+                    </container>
                     <tabs
-                        cq:lastRolledout="{Date}2019-10-28T11:02:09.247-07:00"
+                        cq:lastRolledout="{Date}2020-07-09T08:54:52.780-07:00"
                         cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2019-10-12T07:16:40.797-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-28T11:02:09.244-07:00"
+                        jcr:lastModified="{Date}2020-07-09T08:54:52.771-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/tabs"
                         accessibilityLabel="adventure trip details">
                         <cq:responsive
-                            cq:lastRolledout="{Date}2019-10-28T11:02:09.249-07:00"
+                            cq:lastRolledout="{Date}2020-07-09T08:54:52.789-07:00"
                             cq:lastRolledoutBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured">
                             <default
-                                cq:lastRolledout="{Date}2019-10-28T11:02:09.251-07:00"
+                                cq:lastRolledout="{Date}2020-07-09T08:54:52.792-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
                                 width="9"/>
                             <tablet
-                                cq:lastRolledout="{Date}2019-10-28T11:02:09.252-07:00"
+                                cq:lastRolledout="{Date}2020-07-09T08:54:52.794-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
                                 width="12"/>
                             <phone
-                                cq:lastRolledout="{Date}2019-10-28T11:02:09.254-07:00"
+                                cq:lastRolledout="{Date}2020-07-09T08:54:52.795-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
@@ -276,10 +304,10 @@
                                 width="12"/>
                         </cq:responsive>
                         <item_1570890135033
-                            cq:lastRolledout="{Date}2019-10-28T11:02:09.257-07:00"
+                            cq:lastRolledout="{Date}2020-07-09T08:54:52.803-07:00"
                             cq:lastRolledoutBy="admin"
                             cq:panelTitle="Overview"
-                            jcr:lastModified="{Date}2019-10-28T11:02:09.255-07:00"
+                            jcr:lastModified="{Date}2020-07-09T08:54:52.796-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
@@ -287,38 +315,42 @@
                             displayMode="singleText"
                             elementNames="adventureDescription"
                             fragmentPath="/content/dam/wknd/en/adventures/riverside-camping-australia/riverside-camping-australia"
-                            text="Nicaragua Surf Trip 3-day surf camp in Nicaragua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit Sin voluptate velit esse cillum dolore eu fugiat nulla pariatur Excepteur sint occaecat cupidatat non proident Sunt in culpa qui officia deserunt mollit anim id est laborum"
+                            text="Riverside Camping Australia Escape the hustle and bustle of city life and recharge with a couple of peaceful days and return with tons of memories of camping in the bush and experiences that will last a lifetime. Learn how to pitch a tent by the Siegel River, catch local cod, and spot unique Australian wildlife on this retreat. Or, you can sit back in the shade with a cool beverage and a book until it's too dark to read, then tell stories around a campfire."
                             variationName="master">
-                            <par2
-                                cq:lastRolledout="{Date}2019-10-28T11:02:09.259-07:00"
-                                cq:lastRolledoutBy="admin"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wcm/foundation/components/responsivegrid"/>
                             <par0
-                                cq:lastRolledout="{Date}2019-10-28T11:02:09.260-07:00"
+                                cq:lastRolledout="{Date}2020-07-09T08:54:52.805-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="dam/cfm/components/grid">
                                 <image
-                                    cq:lastRolledout="{Date}2019-10-28T11:02:09.263-07:00"
+                                    cq:lastRolledout="{Date}2020-07-09T08:54:52.810-07:00"
                                     cq:lastRolledoutBy="admin"
                                     jcr:created="{Date}2019-10-25T09:58:18.907-07:00"
                                     jcr:createdBy="admin"
-                                    jcr:lastModified="{Date}2019-10-28T11:02:09.261-07:00"
+                                    jcr:lastModified="{Date}2020-07-09T08:54:52.807-07:00"
                                     jcr:lastModifiedBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="wknd/components/image"
-                                    fileReference="/content/dam/wknd/en/adventures/riverside-camping-australia/AdobeStock_238491803.jpeg"/>
+                                    altValueFromDAM="true"
+                                    displayPopupTitle="true"
+                                    fileReference="/content/dam/wknd/en/adventures/riverside-camping-australia/AdobeStock_238491803.jpeg"
+                                    isDecorative="false"
+                                    titleValueFromDAM="true"/>
                             </par0>
+                            <par1
+                                cq:lastRolledout="{Date}2020-07-09T08:54:52.811-07:00"
+                                cq:lastRolledoutBy="admin"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/foundation/components/responsivegrid"/>
                         </item_1570890135033>
                         <item_1570890140330
-                            cq:lastRolledout="{Date}2019-10-28T11:02:09.267-07:00"
+                            cq:lastRolledout="{Date}2020-07-09T08:54:52.827-07:00"
                             cq:lastRolledoutBy="admin"
                             cq:panelTitle="Itinerary"
-                            jcr:lastModified="{Date}2019-10-28T11:02:09.264-07:00"
+                            jcr:lastModified="{Date}2020-07-09T08:54:52.813-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
@@ -327,97 +359,112 @@
                             elementNames="adventureItinerary"
                             fragmentPath="/content/dam/wknd/en/adventures/riverside-camping-australia/riverside-camping-australia"
                             paragraphScope="range"
-                            text="Nicaragua Surf Trip Day 1 Our adventure begins! In est ante in nibh. Phasellus faucibus scelerisque eleifend donec. Ultricies mi quis hendrerit dolor magna eget. Aliquam id diam maecenas ultricies mi eget mauris pharetra. Ut aliquam purus sit amet luctus venenatis. Day 2 Forrest hike to secluded surf spot Ut sem viverra aliquet eget sit. Urna et pharetra pharetra massa massa ultricies. Sed blandit libero volutpat sed cras ornare. Nascetur ridiculus mus mauris vitae ultricies leo integer. Nibh mauris cursus mattis molestie a iaculis at erat. Day 3 Surf at sunset cliffs Posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Placerat vestibulum lectus mauris ultrices eros in. Eget dolor morbi non arcu. Magna fermentum iaculis eu non diam phasellus vestibulum lorem sed. Vulputate mi sit amet mauris commodo quis."
                             variationName="master">
                             <par9
-                                cq:lastRolledout="{Date}2019-10-28T11:02:09.270-07:00"
+                                cq:lastRolledout="{Date}2020-07-09T08:54:52.832-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+                                sling:resourceType="wknd/components/container"/>
                             <par5
-                                cq:lastRolledout="{Date}2019-10-28T11:02:09.271-07:00"
+                                cq:lastRolledout="{Date}2020-07-09T08:54:52.834-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="dam/cfm/components/grid">
                                 <image
-                                    cq:lastRolledout="{Date}2019-10-28T11:02:09.274-07:00"
+                                    cq:lastRolledout="{Date}2020-07-09T08:54:52.840-07:00"
                                     cq:lastRolledoutBy="admin"
                                     jcr:created="{Date}2019-10-25T09:59:13.345-07:00"
                                     jcr:createdBy="admin"
-                                    jcr:lastModified="{Date}2019-10-28T11:02:09.272-07:00"
+                                    jcr:lastModified="{Date}2020-07-09T08:54:52.837-07:00"
                                     jcr:lastModifiedBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="wknd/components/image"
-                                    fileReference="/content/dam/wknd/en/adventures/riverside-camping-australia/AdobeStock_178022573.jpeg"/>
+                                    altValueFromDAM="true"
+                                    displayPopupTitle="true"
+                                    fileReference="/content/dam/wknd/en/adventures/riverside-camping-australia/AdobeStock_178022573.jpeg"
+                                    isDecorative="false"
+                                    titleValueFromDAM="true"/>
                             </par5>
                             <par2
-                                cq:lastRolledout="{Date}2019-10-28T11:02:09.275-07:00"
+                                cq:lastRolledout="{Date}2020-07-09T08:54:52.841-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="dam/cfm/components/grid"/>
                             <par1
-                                cq:lastRolledout="{Date}2019-10-28T11:02:09.276-07:00"
+                                cq:lastRolledout="{Date}2020-07-09T08:54:52.842-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured">
                                 <image
-                                    cq:lastRolledout="{Date}2019-10-28T11:02:09.279-07:00"
+                                    cq:lastRolledout="{Date}2020-07-09T08:54:52.846-07:00"
                                     cq:lastRolledoutBy="admin"
                                     jcr:created="{Date}2019-10-25T09:59:26.858-07:00"
                                     jcr:createdBy="admin"
-                                    jcr:lastModified="{Date}2019-10-28T11:02:09.277-07:00"
+                                    jcr:lastModified="{Date}2020-07-09T08:54:52.844-07:00"
                                     jcr:lastModifiedBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="wknd/components/image"
-                                    fileReference="/content/dam/wknd/en/adventures/riverside-camping-australia/AdobeStock_167833331.jpeg"/>
+                                    altValueFromDAM="true"
+                                    displayPopupTitle="true"
+                                    fileReference="/content/dam/wknd/en/adventures/riverside-camping-australia/AdobeStock_167833331.jpeg"
+                                    isDecorative="false"
+                                    titleValueFromDAM="true"/>
                             </par1>
                             <par7
-                                cq:lastRolledout="{Date}2019-10-28T11:02:09.281-07:00"
+                                cq:lastRolledout="{Date}2020-07-09T08:54:52.848-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="dam/cfm/components/grid">
                                 <image
-                                    cq:lastRolledout="{Date}2019-10-28T11:02:09.283-07:00"
+                                    cq:lastRolledout="{Date}2020-07-09T08:54:52.854-07:00"
                                     cq:lastRolledoutBy="admin"
                                     jcr:created="{Date}2019-10-25T11:36:30.081-07:00"
                                     jcr:createdBy="admin"
-                                    jcr:lastModified="{Date}2019-10-28T11:02:09.282-07:00"
+                                    jcr:lastModified="{Date}2020-07-09T08:54:52.850-07:00"
                                     jcr:lastModifiedBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="wknd/components/image"
-                                    fileReference="/content/dam/wknd/en/activities/hiking/hiker-anapurna.jpg"/>
+                                    altValueFromDAM="true"
+                                    displayPopupTitle="true"
+                                    fileReference="/content/dam/wknd/en/activities/hiking/hiker-anapurna.jpg"
+                                    isDecorative="false"
+                                    titleValueFromDAM="true"/>
                             </par7>
                             <par4
-                                cq:lastRolledout="{Date}2019-10-28T11:02:09.285-07:00"
+                                cq:lastRolledout="{Date}2020-07-09T08:54:52.857-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="dam/cfm/components/grid">
                                 <image
-                                    cq:lastRolledout="{Date}2019-10-28T11:02:09.288-07:00"
+                                    cq:lastRolledout="{Date}2020-07-09T08:54:52.861-07:00"
                                     cq:lastRolledoutBy="admin"
                                     jcr:created="{Date}2019-10-25T12:18:58.403-07:00"
                                     jcr:createdBy="admin"
-                                    jcr:lastModified="{Date}2019-10-28T11:02:09.286-07:00"
+                                    jcr:lastModified="{Date}2020-07-09T08:54:52.859-07:00"
                                     jcr:lastModifiedBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="wknd/components/image"
-                                    fileReference="/content/dam/wknd/en/adventures/riverside-camping-australia/AdobeStock_257541512.jpeg"/>
+                                    altValueFromDAM="true"
+                                    displayPopupTitle="true"
+                                    fileReference="/content/dam/wknd/en/adventures/riverside-camping-australia/AdobeStock_257541512.jpeg"
+                                    isDecorative="false"
+                                    titleValueFromDAM="true"/>
                             </par4>
                         </item_1570890140330>
                         <item_1570890147607
-                            cq:lastRolledout="{Date}2019-10-28T11:02:09.292-07:00"
+                            cq:lastRolledout="{Date}2020-07-09T08:54:52.871-07:00"
                             cq:lastRolledoutBy="admin"
                             cq:panelTitle="What to Bring"
-                            jcr:lastModified="{Date}2019-10-28T11:02:09.289-07:00"
+                            jcr:lastModified="{Date}2020-07-09T08:54:52.863-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
@@ -426,42 +473,45 @@
                             elementNames="adventureGearList"
                             fragmentPath="/content/dam/wknd/en/adventures/riverside-camping-australia/riverside-camping-australia"
                             paragraphScope="range"
-                            text="Nicaragua Surf Trip What to Bring Ut tellus elementum sagittis vitae et leo. Pellentesque sit amet porttitor eget. Urna duis convallis convallis tellus id interdum. Sit amet volutpat consequat mauris nunc congue nisi vitae. Urna cursus eget nunc scelerisque viverra mauris in. Libero volutpat sed cras ornare arcu dui vivamus. Packed by us Surfboards (hard top and foam) Rash guards Surf wax Life Jackets Packed by you Wetsuit (recommend 3/2 neoprene) Personal Surfboard (optional) Swim suit Closed-toed hiking shoes Day pack Rain coat Recommended Sunscreen Hat Sunglasses Water bottle Sweatshirt"
                             variationName="master">
                             <par3
-                                cq:lastRolledout="{Date}2019-10-28T11:02:09.294-07:00"
+                                cq:lastRolledout="{Date}2020-07-09T08:54:52.874-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+                                sling:resourceType="wknd/components/container"/>
                             <par2
-                                cq:lastRolledout="{Date}2019-10-28T11:02:09.295-07:00"
+                                cq:lastRolledout="{Date}2020-07-09T08:54:52.875-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="dam/cfm/components/grid"/>
                             <par0
-                                cq:lastRolledout="{Date}2019-10-28T11:02:09.296-07:00"
+                                cq:lastRolledout="{Date}2020-07-09T08:54:52.876-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="dam/cfm/components/grid">
                                 <image
-                                    cq:lastRolledout="{Date}2019-10-28T11:02:09.299-07:00"
+                                    cq:lastRolledout="{Date}2020-07-09T08:54:52.883-07:00"
                                     cq:lastRolledoutBy="admin"
                                     jcr:created="{Date}2019-10-25T11:34:35.015-07:00"
                                     jcr:createdBy="admin"
-                                    jcr:lastModified="{Date}2019-10-28T11:02:09.298-07:00"
+                                    jcr:lastModified="{Date}2020-07-09T08:54:52.878-07:00"
                                     jcr:lastModifiedBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="wknd/components/image"
-                                    fileReference="/content/dam/wknd/en/activities/hiking/equipment_6.jpg"/>
+                                    altValueFromDAM="true"
+                                    displayPopupTitle="true"
+                                    fileReference="/content/dam/wknd/en/activities/hiking/equipment_6.jpg"
+                                    isDecorative="false"
+                                    titleValueFromDAM="true"/>
                             </par0>
                         </item_1570890147607>
                     </tabs>
-                </responsivegrid>
-            </responsivegrid>
+                </container>
+            </container>
         </root>
     </jcr:content>
 </jcr:root>

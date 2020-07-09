@@ -3,6 +3,7 @@
     cq:adobeTargetExportFormat="html"
     jcr:primaryType="sling:OrderedFolder"
     jcr:title="Contributors">
+    <kumar-selveraj/>
     <stacey-roswells/>
     <jacob-wester/>
     <ian-provo/>
