@@ -2,38 +2,39 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-10-21T11:49:11.153-07:00"
+        cq:lastModified="{Date}2020-07-09T08:39:51.597-07:00"
         cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/wknd/settings/wcm/templates/experience-fragment-web-variation-template"
         cq:xfVariantType="web"
         jcr:primaryType="cq:PageContent"
         jcr:title="Byline"
-        sling:resourceType="wknd/components/structure/xfpage">
+        sling:resourceType="wknd/components/xfpage">
         <root
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid">
-            <responsivegrid
+            sling:resourceType="wknd/components/container">
+            <container
                 jcr:created="{Date}2019-09-13T14:22:51.213-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2019-09-13T14:23:01.260-07:00"
+                jcr:lastModified="{Date}2020-07-09T08:39:51.526-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid">
+                sling:resourceType="wknd/components/container"
+                layout="responsiveGrid">
                 <separator_copy
                     jcr:created="{Date}2019-09-25T14:33:55.691-07:00"
                     jcr:createdBy="admin"
                     jcr:lastModified="{Date}2019-09-25T14:33:55.691-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/content/separator"/>
+                    sling:resourceType="wknd/components/separator"/>
                 <byline_copy
                     jcr:created="{Date}2019-09-25T14:32:57.008-07:00"
                     jcr:createdBy="admin"
                     jcr:lastModified="{Date}2019-10-18T13:17:24.730-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/content/byline"
+                    sling:resourceType="wknd/components/byline"
                     fileReference="/content/dam/wknd/en/contributors/stacey-roswells.jpg"
                     name="Stacey Roswells"
                     occupations="[Photographer,Artist,Traveler]">
@@ -53,7 +54,7 @@
                     </cq:responsive>
                 </byline_copy>
                 <buildingblock
-                    cq:masterBuildingBlockPath="/content/experience-fragments/wknd/language-masters/en/contributors/stacey-roswells/master/jcr:content/root/responsivegrid/button"
+                    cq:masterBuildingBlockPath="/content/experience-fragments/wknd/language-masters/en/contributors/stacey-roswells/master/jcr:content/root/container/button"
                     cq:styleIds="[1571358661842]"
                     jcr:created="{Date}2019-10-18T08:42:32.452-07:00"
                     jcr:createdBy="admin"
@@ -67,7 +68,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Facebook"
-                        sling:resourceType="wknd/components/content/button"
+                        sling:resourceType="wknd/components/button"
                         accessibilityLabel="Facebook Social Media"
                         icon="facebook"
                         link="#facebook-staceyroswell"/>
@@ -79,7 +80,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Twitter"
-                        sling:resourceType="wknd/components/content/button"
+                        sling:resourceType="wknd/components/button"
                         accessibilityLabel="Twitter Social Media"
                         icon="twitter"
                         link="#twitter-staceyroswells"/>
@@ -91,7 +92,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Instagram"
-                        sling:resourceType="wknd/components/content/button"
+                        sling:resourceType="wknd/components/button"
                         accessibilityLabel="Instagram Social Media"
                         icon="instagram"
                         link="#insta-staceyroswells"/>
@@ -100,9 +101,17 @@
                             jcr:primaryType="nt:unstructured"
                             offset="0"
                             width="3"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
                     </cq:responsive>
                 </buildingblock>
-            </responsivegrid>
+            </container>
         </root>
     </jcr:content>
 </jcr:root>

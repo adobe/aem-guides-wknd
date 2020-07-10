@@ -65,6 +65,15 @@ The project has been designed for **AEM as a Cloud Service**. The project is als
 
     mvn clean install -PautoInstallSinglePackage -Pclassic
 
+### Building sample content
+
+By default, sample content from `ui.content.sample` will be deployed and will overwrite (reset) any authored content during each build. If you wish to turn this behavior off, modify the [filter.xml](ui.content.sample/src/main/content/META-INF/vault/filter.xml) file and add the `mode=merge` attribute for the paths you don't want overwritten:
+
+```diff
+- <filter root="/content/wknd" />
++ <filter root="/content/wknd" mode="merge"/>
+```
+
 ## Testing
 
 There are three levels of testing contained in the project:

@@ -13,25 +13,25 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="Stacey Roswells"
         jcr:uuid="726e286c-a7f7-4f5a-868f-7609ddaa73ca"
-        sling:resourceType="wknd/components/structure/xfpage">
+        sling:resourceType="wknd/components/xfpage">
         <root
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid">
-            <responsivegrid
+            sling:resourceType="wknd/components/container">
+            <container
                 cq:styleIds="[1570043787082]"
                 jcr:created="{Date}2019-09-13T14:22:51.213-07:00"
                 jcr:createdBy="admin"
                 jcr:lastModified="{Date}2019-09-13T14:23:01.260-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid">
+                sling:resourceType="wknd/components/container">
                 <image
                     jcr:created="{Date}2019-10-02T12:20:59.582-07:00"
                     jcr:createdBy="admin"
                     jcr:lastModified="{Date}2019-10-02T12:21:08.253-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/content/image"
+                    sling:resourceType="wknd/components/image"
                     fileReference="/content/dam/wknd/en/contributors/stacey-roswells.jpg"/>
                 <title
                     jcr:created="{Date}2019-10-02T12:21:16.916-07:00"
@@ -40,7 +40,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Stacey Roswells"
-                    sling:resourceType="wknd/components/content/title"
+                    sling:resourceType="wknd/components/title"
                     type="h3"/>
                 <title_2061073292
                     cq:styleIds="[1568996420379]"
@@ -50,7 +50,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Artist | Photographer | Traveler"
-                    sling:resourceType="wknd/components/content/title"
+                    sling:resourceType="wknd/components/title"
                     type="h5"/>
                 <button
                     cq:masterBuildingBlock="{Boolean}true"
@@ -68,7 +68,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Facebook"
-                        sling:resourceType="wknd/components/content/button"
+                        sling:resourceType="wknd/components/button"
                         accessibilityLabel="Facebook Social Media"
                         icon="facebook"
                         link="#facebook-staceyroswell"/>
@@ -80,7 +80,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Twitter"
-                        sling:resourceType="wknd/components/content/button"
+                        sling:resourceType="wknd/components/button"
                         accessibilityLabel="Twitter Social Media"
                         icon="twitter"
                         link="#twitter-staceyroswells"/>
@@ -92,12 +92,12 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Instagram"
-                        sling:resourceType="wknd/components/content/button"
+                        sling:resourceType="wknd/components/button"
                         accessibilityLabel="Instagram Social Media"
                         icon="instagram"
                         link="#insta-staceyroswells"/>
                 </button>
-            </responsivegrid>
+            </container>
         </root>
     </jcr:content>
 </jcr:root>

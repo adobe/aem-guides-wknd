@@ -1,89 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:conf="/conf/wknd"
-        cq:lastModified="{Date}2020-01-09T12:56:28.930-08:00"
+        cq:lastModified="{Date}2020-07-09T09:01:07.071-07:00"
         cq:lastModifiedBy="admin"
-        cq:lastRolledout="{Date}2020-01-09T12:56:28.932-08:00"
+        cq:lastRolledout="{Date}2020-07-09T09:01:07.072-07:00"
         cq:lastRolledoutBy="admin"
+        cq:lastTranslationDone="{Date}2020-01-09T11:55:53.352-08:00"
         cq:lastTranslationUpdate="{Date}2019-10-28T11:20:22.314-07:00"
-        cq:propertyInheritanceCancelled="[jcr:language]"
         cq:template="/conf/wknd/settings/wcm/templates/landing-page-template"
-        jcr:language="de_de"
-        jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync,cq:PropertyLiveSyncCancelled]"
+        cq:translationMethod="MACHINE_TRANSLATION"
+        cq:translationProject="[/content/projects/wknd-translation,/content/projects/test,/content/projects/german,/content/projects/test2]"
+        cq:translationProviderCloudConfig="/libs/settings/cloudconfigs/translation/msft-translation/msft_trial"
+        cq:translationProviderName="microsoft"
+        cq:translationStatus="APPROVED"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Deutsch"
-        sling:resourceType="wknd/components/structure/page"
+        jcr:uuid="71ff6948-c702-4016-9ee2-82eaece86fca"
+        sling:resourceType="wknd/components/page"
         pageTitle="Deutsch">
         <root
-            cq:lastRolledout="{Date}2020-01-09T12:56:28.906-08:00"
+            cq:lastRolledout="{Date}2020-07-09T09:01:07.055-07:00"
             cq:lastRolledoutBy="admin"
             jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid">
-            <responsivegrid
-                cq:lastRolledout="{Date}2020-01-09T12:56:28.912-08:00"
+            sling:resourceType="wknd/components/container">
+            <container
+                cq:lastRolledout="{Date}2020-07-09T09:01:07.059-07:00"
                 cq:lastRolledoutBy="admin"
                 jcr:created="{Date}2019-03-19T13:22:52.385-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2020-01-09T12:56:28.910-08:00"
+                jcr:lastModified="{Date}2020-07-09T09:01:07.056-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid">
-                <responsivegrid
-                    cq:lastRolledout="{Date}2020-01-09T12:56:28.917-08:00"
-                    cq:lastRolledoutBy="admin"
-                    cq:styleIds="[1554340406437]"
-                    jcr:created="{Date}2019-04-17T14:31:50.612-07:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2020-01-09T12:56:28.914-08:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:mixinTypes="[cq:LiveRelationship]"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/foundation/components/responsivegrid">
-                    <cq:responsive
-                        cq:lastRolledout="{Date}2020-01-09T12:56:28.919-08:00"
-                        cq:lastRolledoutBy="admin"
-                        jcr:mixinTypes="[cq:LiveRelationship]"
-                        jcr:primaryType="nt:unstructured"/>
-                    <separator
-                        cq:lastRolledout="{Date}2020-01-09T12:56:28.923-08:00"
-                        cq:lastRolledoutBy="admin"
-                        jcr:created="{Date}2019-10-27T16:13:09.680-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2020-01-09T12:56:28.920-08:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:mixinTypes="[cq:LiveRelationship]"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/separator"/>
-                </responsivegrid>
-            </responsivegrid>
-            <responsivegrid_933431667
-                cq:lastRolledout="{Date}2020-01-09T12:56:28.925-08:00"
-                cq:lastRolledoutBy="admin"
-                jcr:mixinTypes="[cq:LiveRelationship]"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid">
+                sling:resourceType="wknd/components/container">
                 <teaser
-                    cq:lastRolledout="{Date}2020-01-09T12:56:28.932-08:00"
+                    cq:lastRolledout="{Date}2020-07-09T09:01:07.064-07:00"
                     cq:lastRolledoutBy="admin"
                     cq:styleIds="[1555543212672]"
                     jcr:created="{Date}2020-01-09T11:21:04.718-08:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2020-01-09T12:56:28.928-08:00"
+                    jcr:lastModified="{Date}2020-07-09T09:01:07.061-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="WKND Adventures and Travel - Coming Soon!"
-                    sling:resourceType="wknd/components/content/teaser"
+                    sling:resourceType="wknd/components/teaser"
                     actionsEnabled="false"
                     descriptionFromPage="false"
                     fileReference="/content/dam/wknd/en/adventures/riverside-camping-australia/AdobeStock_216674449.jpeg"
                     textIsRich="true"
                     titleFromPage="false"/>
-            </responsivegrid_933431667>
+                <container
+                    cq:lastRolledout="{Date}2020-07-09T09:01:07.067-07:00"
+                    cq:lastRolledoutBy="admin"
+                    cq:styleIds="[1554340406437]"
+                    jcr:created="{Date}2019-04-17T14:31:50.612-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-07-09T09:01:07.065-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:mixinTypes="[cq:LiveRelationship]"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/container">
+                    <cq:responsive
+                        cq:lastRolledout="{Date}2020-07-09T09:01:07.069-07:00"
+                        cq:lastRolledoutBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
+                        jcr:primaryType="nt:unstructured"/>
+                    <separator
+                        cq:lastRolledout="{Date}2020-07-09T09:01:07.071-07:00"
+                        cq:lastRolledoutBy="admin"
+                        jcr:created="{Date}2019-10-27T16:13:09.680-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-07-09T09:01:07.070-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/separator"/>
+                </container>
+            </container>
         </root>
         <cq:LiveSyncConfig
             cq:isDeep="{Boolean}true"

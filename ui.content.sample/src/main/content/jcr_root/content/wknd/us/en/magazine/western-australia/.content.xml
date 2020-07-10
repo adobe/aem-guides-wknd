@@ -2,279 +2,279 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-10-28T11:02:08.434-07:00"
+        cq:lastModified="{Date}2020-07-09T13:16:42.476-07:00"
         cq:lastModifiedBy="admin"
-        cq:lastRolledout="{Date}2019-10-28T11:02:08.436-07:00"
+        cq:lastRolledout="{Date}2020-07-09T13:16:42.479-07:00"
         cq:lastRolledoutBy="admin"
-        cq:tags="[wknd:customer-journey/attract,wknd:customer-journey/engage,wknd:region/apac/australia,wknd:season/summer,wknd:activity/camping,wknd:activity/social,wknd:activity/hunting-fishing]"
+        cq:tags="[]"
         cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
         jcr:description="The Australian West coast is a camper’s heaven. Endless miles of desert roads leading to secret beaches, vast canyons and crystal clear rivers, and the very few people you are likely to meet on your journey will be some of the most easy-going characters you’ll find anywhere in the world. "
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[cq:LiveRelationship,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Western Australia"
-        jcr:uuid="a330b8d4-38b8-4fe5-8151-3e4c5352f3a0"
-        sling:resourceType="wknd/components/structure/page"
+        jcr:uuid="81ba1fcf-260c-43e0-96b8-2c31b490a455"
+        sling:resourceType="wknd/components/page"
         socialMedia="[facebook,pinterest]">
         <root
-            cq:lastRolledout="{Date}2019-10-28T11:02:08.343-07:00"
+            cq:lastRolledout="{Date}2020-07-09T13:16:42.341-07:00"
             cq:lastRolledoutBy="admin"
             jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid">
-            <responsivegrid
-                cq:lastRolledout="{Date}2019-10-28T11:02:08.347-07:00"
+            sling:resourceType="wknd/components/container">
+            <container
+                cq:lastRolledout="{Date}2020-07-09T13:16:42.350-07:00"
                 cq:lastRolledoutBy="admin"
                 cq:styleIds="[1554340406437]"
                 jcr:created="{Date}2019-03-19T13:19:35.891-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2019-10-28T11:02:08.344-07:00"
+                jcr:lastModified="{Date}2020-07-09T13:16:42.343-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid">
+                sling:resourceType="wknd/components/container">
                 <image
-                    cq:lastRolledout="{Date}2019-10-28T11:02:08.352-07:00"
+                    cq:lastRolledout="{Date}2020-07-09T13:16:42.355-07:00"
                     cq:lastRolledoutBy="admin"
                     jcr:created="{Date}2019-04-03T18:29:05.193-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-10-28T11:02:08.349-07:00"
+                    jcr:lastModified="{Date}2020-07-09T13:16:42.353-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/content/image"
+                    sling:resourceType="wknd/components/image"
                     fileReference="/content/dam/wknd/en/magazine/western-australia/adobestock_156407519.jpeg"/>
-                <responsivegrid
-                    cq:lastRolledout="{Date}2019-10-28T11:02:08.355-07:00"
+                <container
+                    cq:lastRolledout="{Date}2020-07-09T13:16:42.363-07:00"
                     cq:lastRolledoutBy="admin"
                     jcr:created="{Date}2019-04-03T18:31:10.416-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-10-28T11:02:08.352-07:00"
+                    jcr:lastModified="{Date}2020-07-09T13:16:42.356-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    sling:resourceType="wknd/components/container">
                     <title
-                        cq:lastRolledout="{Date}2019-10-28T11:02:08.360-07:00"
+                        cq:lastRolledout="{Date}2020-07-09T13:16:42.369-07:00"
                         cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2019-10-14T14:58:22.934-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-28T11:02:08.358-07:00"
+                        jcr:lastModified="{Date}2020-07-09T13:16:42.367-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Western Australia by Camper Van"
-                        sling:resourceType="wknd/components/content/title"
+                        sling:resourceType="wknd/components/title"
                         type="h1"/>
                     <title_875115054
-                        cq:lastRolledout="{Date}2019-10-28T11:02:08.362-07:00"
+                        cq:lastRolledout="{Date}2020-07-09T13:16:42.373-07:00"
                         cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2019-10-14T14:58:29.031-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-28T11:02:08.361-07:00"
+                        jcr:lastModified="{Date}2020-07-09T13:16:42.371-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="By Sofia Sjöberg"
-                        sling:resourceType="wknd/components/content/title"
+                        sling:resourceType="wknd/components/title"
                         type="h4"/>
                     <contentfragment
-                        cq:lastRolledout="{Date}2019-10-28T11:02:08.367-07:00"
+                        cq:lastRolledout="{Date}2020-07-09T13:16:42.382-07:00"
                         cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2019-04-03T18:35:18.394-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-28T11:02:08.364-07:00"
+                        jcr:lastModified="{Date}2020-07-09T13:16:42.374-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/contentfragment"
+                        sling:resourceType="wknd/components/contentfragment"
                         displayMode="singleText"
                         elementNames="main"
                         fragmentPath="/content/dam/wknd/en/magazine/western-australia/western-australia-by-camper-van"
                         text=""
                         variationName="master">
                         <par1
-                            cq:lastRolledout="{Date}2019-10-28T11:02:08.370-07:00"
+                            cq:lastRolledout="{Date}2020-07-09T13:16:42.387-07:00"
                             cq:lastRolledoutBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/components/grid">
                             <text
-                                cq:lastRolledout="{Date}2019-10-28T11:02:08.374-07:00"
+                                cq:lastRolledout="{Date}2020-07-09T13:16:42.391-07:00"
                                 cq:lastRolledoutBy="admin"
-                                cq:styleIds="[1554340301154]"
+                                cq:styleIds="[1570746601923]"
                                 jcr:created="{Date}2019-10-01T19:08:13.812-07:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-10-28T11:02:08.371-07:00"
+                                jcr:lastModified="{Date}2020-07-09T13:16:42.389-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/text"
+                                sling:resourceType="wknd/components/text"
                                 text="&lt;blockquote>&lt;b>Wanderlust&amp;nbsp;\\ˈwɒndəlʌst\\&amp;nbsp;&lt;br>&#xa; &lt;b>a strong desire to travel.&lt;/b>&lt;/b>&lt;/blockquote>&#xa;&lt;p>&lt;b>&lt;i>&lt;u>noun&lt;/u>&lt;/i>&lt;/b>&lt;/p>&#xa;"
                                 textIsRich="true"/>
                         </par1>
                         <par2
-                            cq:lastRolledout="{Date}2019-10-28T11:02:08.375-07:00"
+                            cq:lastRolledout="{Date}2020-07-09T13:16:42.397-07:00"
                             cq:lastRolledoutBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/components/grid">
                             <title
-                                cq:lastRolledout="{Date}2019-10-28T11:02:08.379-07:00"
+                                cq:lastRolledout="{Date}2020-07-09T13:16:42.402-07:00"
                                 cq:lastRolledoutBy="admin"
                                 cq:styleIds="[1568996484405]"
                                 jcr:created="{Date}2019-10-01T19:11:05.477-07:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-10-28T11:02:08.377-07:00"
+                                jcr:lastModified="{Date}2020-07-09T13:16:42.400-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Hiking and camping on the coast"
-                                sling:resourceType="wknd/components/content/title"
+                                sling:resourceType="wknd/components/title"
                                 type="h2"/>
                             <image
-                                cq:lastRolledout="{Date}2019-10-28T11:02:08.382-07:00"
+                                cq:lastRolledout="{Date}2020-07-09T13:16:42.405-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:created="{Date}2019-10-01T19:10:16.842-07:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-10-28T11:02:08.380-07:00"
+                                jcr:lastModified="{Date}2020-07-09T13:16:42.403-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/image"
+                                sling:resourceType="wknd/components/image"
                                 fileReference="/content/dam/wknd/en/magazine/western-australia/Adobe_WAAdobe_WA_B6A7083.JPG"/>
                         </par2>
                         <par3
-                            cq:lastRolledout="{Date}2019-10-28T11:02:08.383-07:00"
+                            cq:lastRolledout="{Date}2020-07-09T13:16:42.412-07:00"
                             cq:lastRolledoutBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/components/grid">
                             <title
-                                cq:lastRolledout="{Date}2019-10-28T11:02:08.387-07:00"
+                                cq:lastRolledout="{Date}2020-07-09T13:16:42.417-07:00"
                                 cq:lastRolledoutBy="admin"
                                 cq:styleIds="[1568996484405]"
                                 jcr:created="{Date}2019-10-01T19:11:47.044-07:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-10-28T11:02:08.385-07:00"
+                                jcr:lastModified="{Date}2020-07-09T13:16:42.415-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="A trusty vehicle"
-                                sling:resourceType="wknd/components/content/title"
+                                sling:resourceType="wknd/components/title"
                                 type="h2"/>
                             <image
-                                cq:lastRolledout="{Date}2019-10-28T11:02:08.390-07:00"
+                                cq:lastRolledout="{Date}2020-07-09T13:16:42.422-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:created="{Date}2019-10-01T19:10:30.095-07:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-10-28T11:02:08.388-07:00"
+                                jcr:lastModified="{Date}2020-07-09T13:16:42.418-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/image"
+                                sling:resourceType="wknd/components/image"
                                 fileReference="/content/dam/wknd/en/magazine/western-australia/Adobe_WAAdobe_WA_MG_3094.JPG"/>
                         </par3>
                         <par4
-                            cq:lastRolledout="{Date}2019-10-28T11:02:08.391-07:00"
+                            cq:lastRolledout="{Date}2020-07-09T13:16:42.427-07:00"
                             cq:lastRolledoutBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/components/grid">
                             <title
-                                cq:lastRolledout="{Date}2019-10-28T11:02:08.404-07:00"
+                                cq:lastRolledout="{Date}2020-07-09T13:16:42.433-07:00"
                                 cq:lastRolledoutBy="admin"
                                 cq:styleIds="[1568996484405]"
                                 jcr:created="{Date}2019-10-01T19:12:07.936-07:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-10-28T11:02:08.393-07:00"
+                                jcr:lastModified="{Date}2020-07-09T13:16:42.430-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Surfing is a must do"
-                                sling:resourceType="wknd/components/content/title"
+                                sling:resourceType="wknd/components/title"
                                 type="h2"/>
                             <image
-                                cq:lastRolledout="{Date}2019-10-28T11:02:08.408-07:00"
+                                cq:lastRolledout="{Date}2020-07-09T13:16:42.436-07:00"
                                 cq:lastRolledoutBy="admin"
                                 jcr:created="{Date}2019-10-01T19:10:37.845-07:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-10-28T11:02:08.405-07:00"
+                                jcr:lastModified="{Date}2020-07-09T13:16:42.434-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wknd/components/content/image"
+                                sling:resourceType="wknd/components/image"
                                 fileReference="/content/dam/wknd/en/magazine/western-australia/Adobe_WAAdobe_WA_MG_3851.JPG"/>
                         </par4>
                     </contentfragment>
                     <experiencefragment
-                        cq:lastRolledout="{Date}2019-10-28T11:02:08.411-07:00"
+                        cq:lastRolledout="{Date}2020-07-09T13:16:42.440-07:00"
                         cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2019-10-02T13:05:02.480-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-28T11:02:08.409-07:00"
+                        jcr:lastModified="{Date}2020-07-09T13:16:42.438-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/experiencefragment"
+                        sling:resourceType="wknd/components/experiencefragment"
                         fragmentVariationPath="/content/experience-fragments/wknd/language-masters/en/contributors/sofia-sjoeberg/byline"/>
-                </responsivegrid>
-                <responsivegrid_223059690
-                    cq:lastRolledout="{Date}2019-10-28T11:02:08.414-07:00"
+                </container>
+                <container_223059690
+                    cq:lastRolledout="{Date}2020-07-09T13:16:42.451-07:00"
                     cq:lastRolledoutBy="admin"
                     jcr:created="{Date}2019-04-03T18:32:31.547-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-10-28T11:02:08.412-07:00"
+                    jcr:lastModified="{Date}2020-07-09T13:16:42.441-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    sling:resourceType="wknd/components/container">
                     <title
-                        cq:lastRolledout="{Date}2019-10-28T11:02:08.419-07:00"
+                        cq:lastRolledout="{Date}2020-07-09T13:16:42.460-07:00"
                         cq:lastRolledoutBy="admin"
                         cq:styleIds="[1569449156797,1568996420379,1569448853340]"
                         jcr:created="{Date}2019-09-25T15:04:58.771-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-28T11:02:08.416-07:00"
+                        jcr:lastModified="{Date}2020-07-09T13:16:42.457-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="SHARE THIS STORY"
-                        sling:resourceType="wknd/components/content/title"
+                        sling:resourceType="wknd/components/title"
                         type="h5"/>
                     <sharing
-                        cq:lastRolledout="{Date}2019-10-28T11:02:08.422-07:00"
+                        cq:lastRolledout="{Date}2020-07-09T13:16:42.463-07:00"
                         cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2019-09-25T15:04:53.325-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-28T11:02:08.420-07:00"
+                        jcr:lastModified="{Date}2020-07-09T13:16:42.461-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/sharing"/>
+                        sling:resourceType="wknd/components/sharing"/>
                     <separator
-                        cq:lastRolledout="{Date}2019-10-28T11:02:08.425-07:00"
+                        cq:lastRolledout="{Date}2020-07-09T13:16:42.466-07:00"
                         cq:lastRolledoutBy="admin"
                         cq:styleIds="[1571075919520,1571075910473]"
                         jcr:created="{Date}2019-10-14T15:16:54.810-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-28T11:02:08.423-07:00"
+                        jcr:lastModified="{Date}2020-07-09T13:16:42.464-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/separator"/>
+                        sling:resourceType="wknd/components/separator"/>
                     <download
-                        cq:lastRolledout="{Date}2019-10-28T11:02:08.430-07:00"
+                        cq:lastRolledout="{Date}2020-07-09T13:16:42.472-07:00"
                         cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2019-10-14T15:14:04.888-07:00"
                         jcr:createdBy="admin"
                         jcr:description="&lt;p>Get the Full Story&lt;/p>&#xd;&#xa;"
-                        jcr:lastModified="{Date}2019-10-28T11:02:08.427-07:00"
+                        jcr:lastModified="{Date}2020-07-09T13:16:42.468-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Download PDF"
-                        sling:resourceType="wknd/components/content/download"
+                        sling:resourceType="wknd/components/download"
                         actionText="Download PDF"
                         descriptionFromAsset="false"
                         fileReference="/content/dam/wknd/en/magazine/western-australia/WA_camping_Adobe.pdf"
@@ -282,16 +282,16 @@
                         textIsRich="true"
                         titleFromAsset="false"/>
                     <list
-                        cq:lastRolledout="{Date}2019-10-28T11:02:08.436-07:00"
+                        cq:lastRolledout="{Date}2020-07-09T13:16:42.478-07:00"
                         cq:lastRolledoutBy="admin"
                         cq:styleIds="[1554340350631]"
                         jcr:created="{Date}2019-04-03T18:35:24.854-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-10-28T11:02:08.432-07:00"
+                        jcr:lastModified="{Date}2020-07-09T13:16:42.474-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/list"
+                        sling:resourceType="wknd/components/list"
                         childDepth="1"
                         linkItems="true"
                         listFrom="children"
@@ -302,8 +302,8 @@
                         showModificationDate="true"
                         sortOrder="desc"
                         tagsMatch="any"/>
-                </responsivegrid_223059690>
-            </responsivegrid>
+                </container_223059690>
+            </container>
         </root>
     </jcr:content>
 </jcr:root>

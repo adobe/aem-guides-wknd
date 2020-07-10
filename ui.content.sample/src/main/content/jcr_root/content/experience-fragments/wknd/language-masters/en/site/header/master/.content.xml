@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-10-28T10:53:59.039-07:00"
+        cq:lastModified="{Date}2020-07-07T17:35:40.226-07:00"
         cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/wknd/settings/wcm/templates/experience-fragment-web-variation-template"
@@ -10,25 +10,26 @@
         cq:xfVariantType="web"
         jcr:primaryType="cq:PageContent"
         jcr:title="Header"
-        sling:resourceType="wknd/components/structure/xfpage">
+        sling:resourceType="wknd/components/xfpage">
         <root
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid">
-            <responsivegrid
+            sling:resourceType="wknd/components/container">
+            <container
                 jcr:created="{Date}2019-09-13T14:22:51.213-07:00"
                 jcr:createdBy="admin"
                 jcr:lastModified="{Date}2019-09-13T14:23:01.260-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid">
-                <responsivegrid
+                sling:resourceType="wknd/components/container">
+                <container
                     cq:styleIds="[1568592113898]"
                     jcr:created="{Date}2019-09-15T16:50:18.496-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-09-15T16:50:18.496-07:00"
+                    jcr:lastModified="{Date}2020-07-07T17:35:40.156-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    sling:resourceType="wknd/components/container"
+                    layout="responsiveGrid">
                     <cq:responsive jcr:primaryType="nt:unstructured"/>
                     <sign-in-buttons
                         jcr:lastModified="{Date}2019-10-21T20:28:42.774-07:00"
@@ -62,7 +63,7 @@
                         jcr:lastModified="{Date}2019-09-16T13:42:32.191-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/structure/languagenavigation"
+                        sling:resourceType="wknd/components/languagenavigation"
                         navigationRoot="/content/wknd"
                         structureDepth="2">
                         <cq:responsive jcr:primaryType="nt:unstructured">
@@ -79,15 +80,16 @@
                                 width="4"/>
                         </cq:responsive>
                     </languagenavigation>
-                </responsivegrid>
-                <responsivegrid_1195249223
+                </container>
+                <container_1195249223
                     cq:styleIds="[1568592140003]"
                     jcr:created="{Date}2019-09-15T16:51:57.924-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-09-15T16:51:57.924-07:00"
+                    jcr:lastModified="{Date}2020-07-07T17:35:30.806-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    sling:resourceType="wknd/components/container"
+                    layout="responsiveGrid">
                     <cq:responsive jcr:primaryType="nt:unstructured"/>
                     <image
                         cq:styleIds="[1568592012684]"
@@ -96,7 +98,7 @@
                         jcr:lastModified="{Date}2019-09-26T07:05:59.066-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/image"
+                        sling:resourceType="wknd/components/image"
                         alt="WKND Logo"
                         altValueFromDAM="false"
                         displayPopupTitle="false"
@@ -124,7 +126,7 @@
                         jcr:lastModified="{Date}2019-09-18T13:03:47.581-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/structure/navigation"
+                        sling:resourceType="wknd/components/navigation"
                         collectAllPages="false"
                         navigationRoot="/content/wknd/language-masters/en"
                         skipNavigationRoot="false"
@@ -145,7 +147,7 @@
                         jcr:lastModified="{Date}2019-09-15T17:05:56.342-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/structure/search"
+                        sling:resourceType="wknd/components/search"
                         searchRoot="/content/wknd/en">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
@@ -159,8 +161,8 @@
                                 width="6"/>
                         </cq:responsive>
                     </search>
-                </responsivegrid_1195249223>
-            </responsivegrid>
+                </container_1195249223>
+            </container>
         </root>
     </jcr:content>
 </jcr:root>

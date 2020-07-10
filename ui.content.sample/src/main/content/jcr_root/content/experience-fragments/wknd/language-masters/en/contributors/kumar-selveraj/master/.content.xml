@@ -9,25 +9,25 @@
         cq:xfVariantType="web"
         jcr:primaryType="cq:PageContent"
         jcr:title="Master"
-        sling:resourceType="wknd/components/structure/xfpage">
+        sling:resourceType="wknd/components/xfpage">
         <root
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid">
-            <responsivegrid
+            sling:resourceType="wknd/components/container">
+            <container
                 cq:styleIds="[1570043787082]"
                 jcr:created="{Date}2019-09-13T14:22:51.213-07:00"
                 jcr:createdBy="admin"
                 jcr:lastModified="{Date}2019-09-13T14:23:01.260-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid">
+                sling:resourceType="wknd/components/container">
                 <image
                     jcr:created="{Date}2019-10-02T12:35:30.244-07:00"
                     jcr:createdBy="admin"
                     jcr:lastModified="{Date}2019-10-28T10:43:37.107-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/content/image"
+                    sling:resourceType="wknd/components/image"
                     fileReference="/content/dam/wknd/en/contributors/Kumar_Selvaraj.JPG"/>
                 <title
                     jcr:created="{Date}2019-10-02T12:35:47.243-07:00"
@@ -36,7 +36,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Kumar Selveraj"
-                    sling:resourceType="wknd/components/content/title"
+                    sling:resourceType="wknd/components/title"
                     type="h3"/>
                 <title_1524355411
                     jcr:created="{Date}2019-10-02T12:36:01.744-07:00"
@@ -45,7 +45,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Photographer | Surfer"
-                    sling:resourceType="wknd/components/content/title"
+                    sling:resourceType="wknd/components/title"
                     type="h5"/>
                 <button51191422088661
                     cq:masterBuildingBlock="{Boolean}true"
@@ -61,7 +61,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Facebook"
-                        sling:resourceType="wknd/components/content/button"
+                        sling:resourceType="wknd/components/button"
                         accessibilityLabel="Facebook"
                         icon="facebook"
                         link="#selveraj">
@@ -80,7 +80,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Instagram"
-                        sling:resourceType="wknd/components/content/button"
+                        sling:resourceType="wknd/components/button"
                         accessibilityLabel="instagram"
                         icon="instagram"
                         link="#selveraj">
@@ -99,7 +99,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Twitter"
-                        sling:resourceType="wknd/components/content/button"
+                        sling:resourceType="wknd/components/button"
                         accessibilityLabel="Twitter"
                         icon="twitter"
                         link="#selveraj">
@@ -111,7 +111,7 @@
                         </cq:responsive>
                     </item47937380827328>
                 </button51191422088661>
-            </responsivegrid>
+            </container>
         </root>
     </jcr:content>
 </jcr:root>
