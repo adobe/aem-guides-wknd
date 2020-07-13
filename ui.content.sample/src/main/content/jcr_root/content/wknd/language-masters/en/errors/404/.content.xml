@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-07-07T18:04:00.781-07:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/wknd/settings/wcm/templates/content-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Page not found"
+        sling:resourceType="wknd/components/page"
+        pageTitle="404">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd/components/container">
+            <container
+                cq:styleIds="[1554340406437]"
+                jcr:lastModified="{Date}2020-07-07T18:03:21.327-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/container"
+                layout="responsiveGrid">
+                <container
+                    jcr:created="{Date}2019-12-02T15:27:40.272-08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-12-02T15:27:40.272-08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/container">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="6"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                    </cq:responsive>
+                    <separator
+                        cq:styleIds="[1571075919520]"
+                        jcr:created="{Date}2019-12-02T15:28:42.933-08:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-12-02T15:28:42.933-08:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/separator">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                behavior="hide"/>
+                        </cq:responsive>
+                    </separator>
+                    <title
+                        jcr:created="{Date}2019-12-02T14:45:18.641-08:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-12-02T15:27:00.702-08:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Ruh-Roh! Page Not Found"
+                        sling:resourceType="wknd/components/title"
+                        type="h1">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
+                        </cq:responsive>
+                    </title>
+                    <text
+                        jcr:created="{Date}2019-12-02T14:45:36.225-08:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-12-02T15:27:15.256-08:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/text"
+                        text="&lt;p>We're sorry, we are unable to fetch this page!&lt;/p>&#xd;&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
+                        </cq:responsive>
+                    </text>
+                </container>
+                <image
+                    jcr:created="{Date}2019-12-02T15:26:39.608-08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-12-02T15:26:39.608-08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/image"
+                    fileReference="/content/dam/wknd/en/site/Notfound.jpg">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="6"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                    </cq:responsive>
+                </image>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,84 @@
+.download {
+    float: left;
+}
+
+.cmp-download {
+    float:left;
+    line-height: 1;
+
+    .cmp-download__title {
+        font-family: $font-family-sans-serif;
+        text-transform: uppercase;
+        font-size: $font-size-small;
+        margin-top: 0.5em;
+        margin-bottom: 0;
+        font-weight: $font-weight-bold;
+    }
+
+    .cmp-download__title-link {
+        &:after {
+            content: none;
+        }
+    }
+
+    .cmp-download__description {
+
+        font-weight: $font-weight-bold;
+        font-size: $font-size-h4;
+
+        p {
+            font-weight: $font-weight-bold;
+            font-size: $font-size-h4;
+            text-transform: uppercase;
+            margin: 0;
+
+        }
+    }
+
+    .cmp-download__properties {
+        float: left;
+        width: 100%;
+        margin-top: 0.25em;
+    }
+    .cmp-download__property {
+        text-transform: uppercase;
+        font-size: $font-size-xsmall;
+        color: $gray;
+        float: left;
+    } 
+    
+    .cmp-download__property-label {
+        display: none;
+    }
+
+    .cmp-download__property-content {
+        margin-inline-start: 0;
+        margin-right: 1em;
+
+    }
+
+    .cmp-download__action {
+        background-color: $black;
+        color: $white;
+        float: left;
+        height: $button-size;
+    }
+
+    .cmp-download__action-text {
+        padding-top: 16px;
+        padding-left: 2.25em;
+        padding-right: 2.5em;
+        float: left;
+        font-size: $font-size-small;
+        text-transform: uppercase;
+
+        &:before {
+            @include wkndiconstyle();
+            content: $wkndicon-download;
+            padding-right: 0.5em;
+            margin-top: -0.1em;
+            font-size: 1.1rem;
+            float: left;
+        }
+    }
+}
