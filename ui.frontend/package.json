@@ -52,7 +52,6 @@
     "webpack-merge": "^4.2.1"
   },
   "dependencies": {
-    "animate.css": "^3.7.2",
     "jquery": "^3.4.1",
     "normalize-scss": "^7.0.1"
   },

@@ -3,9 +3,9 @@
           xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
           jcr:primaryType="nt:unstructured"
           actionUrl="/system/sling/login/j_security_check">
-    <responsivegrid
+    <container
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid">
+            sling:resourceType="wknd/components/container">
         <field-1
                 jcr:primaryType="nt:unstructured"
                 jcr:title="EMAIL"
@@ -30,12 +30,12 @@
                 usePlaceholder="{Boolean}true"/>
         <text
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wknd/components/content/text"
+                sling:resourceType="wknd/components/text"
                 textIsRich="{Boolean}true"/>
         <button
                 jcr:primaryType="nt:unstructured"
                 jcr:title="SIGN IN"
                 sling:resourceType="wknd/components/form/button"
                 type="submit"/>
-    </responsivegrid>
+    </container>
 </jcr:root>

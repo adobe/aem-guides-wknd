@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-
-    <!-- Conf Filters -->
-    <filter root="/conf/wknd/settings/cloudconfigs" mode="merge" />
-    <filter root="/conf/wknd/settings/dam" mode="update" />
-    <filter root="/conf/wknd/settings/wcm" mode="update" />
-
-    <!-- Content Filters -->
-    <filter root="/content/wknd" mode="merge" />
+    <filter root="/conf/wknd" mode="merge"/>
+    <filter root="/content/wknd" mode="merge"/>
     <filter root="/content/dam/wknd" mode="merge"/>
     <filter root="/content/experience-fragments/wknd" mode="merge"/>
-    <filter root="/content/cq:tags/wknd" mode="merge"/>
-
-    <!-- WKND Member Group-->
-    <filter root="/home/groups/wknd" mode="merge" />
-    <!-- Sample User-->
-    <filter root="/home/users/wknd" />
 </workspaceFilter>

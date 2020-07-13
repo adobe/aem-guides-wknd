@@ -4,7 +4,6 @@
     <jcr:content
         cq:allowedTemplates="[/conf/wknd/settings/wcm/templates/landing-page-template,/conf/wknd/settings/wcm/templates/article-page-template,/conf/wknd/settings/wcm/templates/content-page-template,/conf/wknd/settings/wcm/templates/adventure-page-template]"
         cq:conf="/conf/wknd"
-        cq:deviceGroups="[/etc/mobile/groups/responsive]"
         cq:lastModified="{Date}2020-01-06T15:53:34.296-08:00"
         cq:lastModifiedBy="admin"
         jcr:primaryType="cq:PageContent"
@@ -19,10 +18,4 @@
     </jcr:content>
     <language-masters/>
     <us/>
-    <ca/>
-    <ch/>
-    <de/>
-    <fr/>
-    <es/>
-    <it/>
 </jcr:root>

@@ -1,0 +1,32 @@
+
+.cmp-tabs {
+
+    .cmp-tabs__tablist {
+
+    }
+
+    .cmp-tabs__tab {
+        font-size: $font-size-small;
+        text-transform: uppercase;
+        padding: 1em 1.5em;
+        max-height: $button-size;
+        min-width: $button-size;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .cmp-tabs__tab--active {
+        border: none;
+        background-color: $black;
+        color: $white;
+    }
+
+    .cmp-tabs__tabpanel {
+        .aem-GridColumn{
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+}

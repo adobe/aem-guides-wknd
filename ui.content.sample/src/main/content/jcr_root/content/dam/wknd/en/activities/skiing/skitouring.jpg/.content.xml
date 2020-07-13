@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="3a2643d7-7e75-4eec-85c0-1d4ce35f613a">
+    <jcr:content
+        cq:name="skitouring.jpg"
+        cq:parentPath="/content/dam/we-retail/en/activities/skiing"
+        dam:relativePath="we-retail/en/activities/skiing/ski touring.jpg"
+        jcr:lastModified="{Date}2016-09-12T17:16:44.247+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="skitouring.jpg">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2016-09-12T17:16:23.852+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}300"
+            dam:Physicalheightininches="{Decimal}3.5999999046325684"
+            dam:Physicalwidthindpi="{Long}300"
+            dam:Physicalwidthininches="{Decimal}5.400000095367432"
+            dam:Progressive="no"
+            dam:sha1="057c8d913037cb16dd9d5b3d47d5421e04547c4d"
+            dam:size="{Long}196310"
+            dc:description="Ski touring hiking uphill in the mountains."
+            dc:format="image/jpeg"
+            dc:modified="{Date}2016-09-12T17:16:44.059+05:30"
+            dc:title="Skitouring Uphill"
+            exif:ColorSpace="{Long}65535"
+            exif:ExifOffset="{Long}236"
+            exif:ExifVersion="0221"
+            exif:PixelXDimension="{Long}2880"
+            exif:PixelYDimension="{Long}1920"
+            jcr:lastModified="{Date}2016-09-12T17:16:44.059+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            photoshop:ColorMode="{Long}3"
+            tiff:BitsPerSample="[8,8,8]"
+            tiff:BitsPerSample_xmpArrayType="rdf:Seq"
+            tiff:ImageLength="{Long}1080"
+            tiff:ImageWidth="{Long}1620"
+            tiff:Orientation="{Long}1"
+            tiff:PhotometricInterpretation="{Long}2"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:SamplesPerPixel="{Long}3"
+            tiff:XResolution="300/1"
+            tiff:YResolution="300/1"
+            xmp:CreateDate="{Date}2016-03-03T13:20:33.000+01:00"
+            xmp:CreatorTool="Adobe Photoshop CC 2015 (Macintosh)"
+            xmp:MetadataDate="{Date}2016-03-08T23:50:30.000+01:00"
+            xmp:ModifyDate="{Date}2016-03-08T23:50:30.000+01:00"
+            xmpMM:DocumentID="adobe:docid:photoshop:960e4806-260e-1179-a410-b2db021fd2b8"
+            xmpMM:InstanceID="xmp.iid:95eed9f5-0904-489d-aecf-b8c901b8fb7b"
+            xmpMM:OriginalDocumentID="C1001D294641E5F15068617AA397F7FC">
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}2"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:bbe9d94e-6387-4174-a63c-997515686c30"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2015 (Macintosh)"
+                    stEvt:when="{Date}2016-03-08T23:50:30.000+01:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:95eed9f5-0904-489d-aecf-b8c901b8fb7b"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2015 (Macintosh)"
+                    stEvt:when="{Date}2016-03-08T23:50:30.000+01:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
+            <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

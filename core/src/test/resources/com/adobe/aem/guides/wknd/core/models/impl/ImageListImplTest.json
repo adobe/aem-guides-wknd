@@ -1,7 +1,7 @@
 {
   "image-list": {
     "jcr:primaryType": "nt:unstructured",
-    "sling:resourceType": "wknd/components/content/image-list"
+    "sling:resourceType": "wknd/components/image-list"
   },
   "pages": {
     "jcr:primaryType": "nt:folder",
@@ -17,7 +17,7 @@
             "jcr:primaryType": "nt:unstructured",
             "page-1-image-component": {
               "jcr:primaryType": "nt:unstructured",
-              "sling:resourceType": "wknd/components/content/image"
+              "sling:resourceType": "wknd/components/image"
             }
           }
         }
@@ -35,7 +35,7 @@
             "jcr:primaryType": "nt:unstructured",
             "page-2-image-component": {
               "jcr:primaryType": "nt:unstructured",
-              "sling:resourceType": "wknd/components/content/image"
+              "sling:resourceType": "wknd/components/image"
             }
           }
         }
@@ -61,7 +61,7 @@
   },
   "image": {
     "jcr:primaryType": "nt:unstructured",
-    "sling:resourceType": "wknd/components/content/image",
+    "sling:resourceType": "wknd/components/image",
     "fileReference": "/content/dam/test.png",
     "alt": "Wrapped alt"
   }

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:lastModified="{Date}2019-09-26T07:17:33.905-07:00"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content
+        cq:conf="/conf/wknd"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="WKND Site">
+        <folderThumbnail/>
+    </jcr:content>
+    <en/>
+</jcr:root>

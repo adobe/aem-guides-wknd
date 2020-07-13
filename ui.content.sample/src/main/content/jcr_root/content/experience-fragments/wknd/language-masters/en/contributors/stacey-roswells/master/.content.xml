@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-10-18T13:17:32.756-07:00"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/conf/wknd/settings/wcm/templates/experience-fragment-web-variation-template"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Stacey Roswells"
+        jcr:uuid="726e286c-a7f7-4f5a-868f-7609ddaa73ca"
+        sling:resourceType="wknd/components/xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd/components/container">
+            <container
+                cq:styleIds="[1570043787082]"
+                jcr:created="{Date}2019-09-13T14:22:51.213-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-09-13T14:23:01.260-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/container">
+                <image
+                    jcr:created="{Date}2019-10-02T12:20:59.582-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-10-02T12:21:08.253-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/image"
+                    fileReference="/content/dam/wknd/en/contributors/stacey-roswells.jpg"/>
+                <title
+                    jcr:created="{Date}2019-10-02T12:21:16.916-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-10-17T17:36:01.084-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Stacey Roswells"
+                    sling:resourceType="wknd/components/title"
+                    type="h3"/>
+                <title_2061073292
+                    cq:styleIds="[1568996420379]"
+                    jcr:created="{Date}2019-10-02T12:21:38.958-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-10-18T13:17:32.707-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Artist | Photographer | Traveler"
+                    sling:resourceType="wknd/components/title"
+                    type="h5"/>
+                <button
+                    cq:masterBuildingBlock="{Boolean}true"
+                    cq:styleIds="[1571358661842]"
+                    jcr:created="{Date}2019-10-17T17:44:18.272-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-10-17T17:47:16.279-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Stacey Roswell Social Media Buttons"
+                    sling:resourceType="cq/experience-fragments/editor/components/buildingblock">
+                    <button34118634274966
+                        cq:styleIds="[1570758781253,1568839776757]"
+                        jcr:lastModified="{Date}2019-10-18T09:13:42.911-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Facebook"
+                        sling:resourceType="wknd/components/button"
+                        accessibilityLabel="Facebook Social Media"
+                        icon="facebook"
+                        link="#facebook-staceyroswell"/>
+                    <item34118634619135
+                        cq:styleIds="[1568839776757,1570758781253]"
+                        jcr:created="{Date}2019-10-17T17:45:02.668-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-10-18T09:13:52.098-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Twitter"
+                        sling:resourceType="wknd/components/button"
+                        accessibilityLabel="Twitter Social Media"
+                        icon="twitter"
+                        link="#twitter-staceyroswells"/>
+                    <item34118635370474
+                        cq:styleIds="[1568839776757,1570758781253]"
+                        jcr:created="{Date}2019-10-17T17:45:02.668-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-10-18T09:14:01.558-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Instagram"
+                        sling:resourceType="wknd/components/button"
+                        accessibilityLabel="Instagram Social Media"
+                        icon="instagram"
+                        link="#insta-staceyroswells"/>
+                </button>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>
