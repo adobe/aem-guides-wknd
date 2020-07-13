@@ -27,6 +27,13 @@
     <url>https://github.com/adobe/aem-guides-wknd</url>
     <inceptionYear>2019</inceptionYear>
 
+    <licenses>
+		<license>
+			<name>MIT License</name>
+			<url>http://www.opensource.org/licenses/mit-license.php</url>
+		</license>
+	</licenses>
+
     <modules>
         <module>all</module>
         <module>core</module>
