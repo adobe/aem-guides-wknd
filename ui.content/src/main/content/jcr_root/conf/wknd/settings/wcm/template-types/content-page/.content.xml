@@ -6,5 +6,5 @@
     <jcr:content
         jcr:description="Start with a Header and Footer"
         jcr:primaryType="cq:PageContent"
-        jcr:title="WKND Site Content Page"/>
+        jcr:title="WKND Site Empty Page"/>
 </jcr:root>

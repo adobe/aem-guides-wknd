@@ -5,10 +5,10 @@
         cq:deviceGroups="[mobile/groups/responsive]"
         cq:template="/conf/wknd/settings/wcm/templates/empty-experience-fragment"
         jcr:primaryType="cq:PageContent"
-        sling:resourceType="wknd/components/page">
+        sling:resourceType="wknd/components/structure/page">
         <root
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wknd/components/container"/>
+            sling:resourceType="wcm/foundation/components/responsivegrid"/>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">
                 <phone

@@ -59,18 +59,31 @@
                     <repositoryStructurePackages>
                         <repositoryStructurePackage>
                             <groupId>com.adobe.aem.guides</groupId>
-                            <artifactId>aem-guides-wknd.ui.apps.structure</artifactId>
+                            <artifactId>aem-guides-wknd.repository-structure</artifactId>
                         </repositoryStructurePackage>
                     </repositoryStructurePackages>
                     <embeddeds>
+                        <embedded>
+                            <groupId>com.adobe.cq</groupId>
+                            <artifactId>core.wcm.components.core</artifactId>
+                            <target>/apps/wknd/install</target>
+                        </embedded>
                         <embedded>
                             <groupId>com.adobe.aem.guides</groupId>
                             <artifactId>aem-guides-wknd.core</artifactId>
                             <target>/apps/wknd/install</target>
                         </embedded>
                     </embeddeds>
-                    <subPackages>
-                    </subPackages>
+                    <dependencies>
+                        <dependency>
+                            <groupId>com.adobe.cq</groupId>
+                            <artifactId>core.wcm.components.content</artifactId>
+                        </dependency>
+                        <dependency>
+                            <groupId>com.adobe.cq</groupId>
+                            <artifactId>core.wcm.components.config</artifactId>
+                        </dependency>
+                    </dependencies>
                 </configuration>
             </plugin>
             <plugin>
@@ -86,25 +99,6 @@
             <plugin>
                 <groupId>org.apache.sling</groupId>
                 <artifactId>htl-maven-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>validate-htl-scripts</id>
-                        <goals>
-                            <goal>validate</goal>
-                        </goals>
-                        <phase>generate-sources</phase>
-                        <configuration>
-                            <generateJavaClasses>true</generateJavaClasses>
-                            <generatedJavaClassesPrefix>org.apache.sling.scripting.sightly</generatedJavaClassesPrefix>
-                            <allowedExpressionOptions>
-                                <allowedExpressionOption>cssClassName</allowedExpressionOption>
-                                <allowedExpressionOption>decoration</allowedExpressionOption>
-                                <allowedExpressionOption>decorationTagName</allowedExpressionOption>
-                                <allowedExpressionOption>wcmmode</allowedExpressionOption>
-                            </allowedExpressionOptions>
-                        </configuration>
-                    </execution>
-                </executions>
             </plugin>
         </plugins>
     </build>
@@ -116,114 +110,59 @@
         <dependency>
             <groupId>com.adobe.aem.guides</groupId>
             <artifactId>aem-guides-wknd.core</artifactId>
-            <version>${project.version}</version>
+            <version>0.0.3-SNAPSHOT</version>
         </dependency>
 
         <dependency>
             <groupId>com.adobe.aem.guides</groupId>
             <artifactId>aem-guides-wknd.ui.frontend</artifactId>
-            <version>${project.version}</version>
+            <version>0.0.3-SNAPSHOT</version>
             <type>zip</type>
+        </dependency>
+
+        <dependency>
+            <groupId>com.adobe.cq</groupId>
+            <artifactId>core.wcm.components.core</artifactId>
         </dependency>
 
         <dependency>
             <groupId>com.adobe.aem.guides</groupId>
-            <artifactId>aem-guides-wknd.ui.apps.structure</artifactId>
-            <version>${project.version}</version>
+            <artifactId>aem-guides-wknd.repository-structure</artifactId>
+            <version>0.0.3-SNAPSHOT</version>
             <type>zip</type>
         </dependency>
 
-        <dependency>
-            <groupId>com.adobe.aem</groupId>
-            <artifactId>aem-sdk-api</artifactId>
-        </dependency>
-
-        <!-- HTL dependencies needed for the HTL Maven Plugin source code generation -->
-        <dependency>
-            <groupId>org.apache.sling</groupId>
-            <artifactId>org.apache.sling.scripting.sightly.compiler</artifactId>
-            <version>1.2.4-1.4.0</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.sling</groupId>
-            <artifactId>org.apache.sling.scripting.sightly.runtime</artifactId>
-            <version>1.2.0-1.4.0</version>
-            <scope>provided</scope>
-        </dependency>
-
-         <!-- Core Component Dependency (6.x only)-->
-         <dependency>
-            <groupId>com.adobe.cq</groupId>
-            <artifactId>core.wcm.components.core</artifactId>
-        </dependency>
         <dependency>
             <groupId>com.adobe.cq</groupId>
             <artifactId>core.wcm.components.content</artifactId>
             <type>zip</type>
         </dependency>
+
         <dependency>
             <groupId>com.adobe.cq</groupId>
             <artifactId>core.wcm.components.config</artifactId>
             <type>zip</type>
         </dependency>
 
-    </dependencies>
+        <dependency>
+            <groupId>com.adobe.aem</groupId>
+            <artifactId>uber-jar</artifactId>
+            <classifier>apis</classifier>
+        </dependency>
 
-    <!-- Additional profile to support AEM 6.x -->
-    <profiles>
-        <profile>
-         <id>classic</id>
-            <activation>
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <build>
-                <plugins>
-                    <plugin>
-                        <groupId>org.apache.jackrabbit</groupId>
-                        <artifactId>filevault-package-maven-plugin</artifactId>
-                        <extensions>true</extensions>
-                        <configuration>
-                            <group>com.adobe.aem.guides</group>
-                            <name>aem-guides-wknd.ui.apps</name>
-                            <packageType>application</packageType>
-                            <accessControlHandling>merge</accessControlHandling>
-                            <properties>
-                                <cloudManagerTarget>none</cloudManagerTarget>
-                            </properties>
-                            <repositoryStructurePackages>
-                                <repositoryStructurePackage>
-                                    <groupId>com.adobe.aem.guides</groupId>
-                                    <artifactId>aem-guides-wknd.ui.apps.structure</artifactId>
-                                </repositoryStructurePackage>
-                            </repositoryStructurePackages>
-                            <embeddeds>
-                                <embedded>
-                                    <groupId>com.adobe.aem.guides</groupId>
-                                    <artifactId>aem-guides-wknd.core</artifactId>
-                                    <target>/apps/wknd/install</target>
-                                </embedded>
-                                <!-- Embed Core Component dependency 6.x -->
-                                <embedded>
-                                    <groupId>com.adobe.cq</groupId>
-                                    <artifactId>core.wcm.components.core</artifactId>
-                                    <target>/apps/wknd/install</target>
-                                </embedded>
-                            </embeddeds>
-                            <dependencies>
-                                <dependency>
-                                    <groupId>com.adobe.cq</groupId>
-                                    <artifactId>core.wcm.components.content</artifactId>
-                                </dependency>
-                                <dependency>
-                                    <groupId>com.adobe.cq</groupId>
-                                    <artifactId>core.wcm.components.config</artifactId>
-                                </dependency>
-                            </dependencies>
-                        </configuration>
-                    </plugin>
-                </plugins>
-            </build>
-        </profile>
-    </profiles>
+        <dependency>
+            <groupId>javax.jcr</groupId>
+            <artifactId>jcr</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.day.cq.wcm</groupId>
+            <artifactId>cq-wcm-taglib</artifactId>
+        </dependency>
+    </dependencies>
 </project>

@@ -59,7 +59,7 @@
                         <dependency>
                             <groupId>com.adobe.aem.guides</groupId>
                             <artifactId>aem-guides-wknd.ui.apps</artifactId>
-                            <version>${project.version}</version>
+                            <version>0.0.1-SNAPSHOT</version>
                         </dependency>
                     </dependencies>
                 </configuration>
@@ -83,17 +83,18 @@
         <dependency>
             <groupId>com.adobe.aem.guides</groupId>
             <artifactId>aem-guides-wknd.core</artifactId>
-            <version>${project.version}</version>
+            <version>0.0.3-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.adobe.aem.guides</groupId>
             <artifactId>aem-guides-wknd.ui.apps</artifactId>
-            <version>${project.version}</version>
+            <version>0.0.3-SNAPSHOT</version>
             <type>zip</type>
         </dependency>
         <dependency>
             <groupId>com.adobe.aem</groupId>
-            <artifactId>aem-sdk-api</artifactId>
+            <artifactId>uber-jar</artifactId>
+            <classifier>apis</classifier>
         </dependency>
     </dependencies>
 </project>

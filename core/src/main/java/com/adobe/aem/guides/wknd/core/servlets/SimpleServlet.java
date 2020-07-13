@@ -22,7 +22,6 @@ import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.servlets.HttpConstants;
 import org.apache.sling.api.servlets.SlingAllMethodsServlet;
 import org.apache.sling.api.servlets.SlingSafeMethodsServlet;
-import org.apache.sling.servlets.annotations.SlingServletResourceTypes;
 import org.osgi.service.component.annotations.Component;
 import org.osgi.service.component.propertytypes.ServiceDescription;
 
@@ -36,11 +35,12 @@ import java.io.IOException;
  * {@link SlingSafeMethodsServlet} shall be used for HTTP methods that are
  * idempotent. For write operations use the {@link SlingAllMethodsServlet}.
  */
-@Component(service = { Servlet.class })
-@SlingServletResourceTypes(
-        resourceTypes="wknd/components/page",
-        methods=HttpConstants.METHOD_GET,
-        extensions="txt")
+@Component(service=Servlet.class,
+           property={
+                   "sling.servlet.methods=" + HttpConstants.METHOD_GET,
+                   "sling.servlet.resourceTypes="+ "wknd/components/structure/page",
+                   "sling.servlet.extensions=" + "txt"
+           })
 @ServiceDescription("Simple Demo Servlet")
 public class SimpleServlet extends SlingSafeMethodsServlet {
 

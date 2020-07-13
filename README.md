@@ -17,15 +17,11 @@ There is also a corresponding tutorial where you can learn how to implement a we
 
 The main parts of the project are:
 
-* **core**: Java bundle containing all core functionality like OSGi services, listeners or schedulers, as well as component-related Java code such as servlets or request filters.
-* **ui.apps**: contains the /apps (and /etc) parts of the project, ie JS & CSS clientlibs, components, templates, runmode specific configs as well as Hobbes-tests
-* **ui.content**: contains mutable content (not /apps) that is integral to the running of the WKND site. This include template types, templates, policies and base-line organization page and asset structures.
-* **ui.content.sample**: WKND is often used as a pre-built reference site for demos and training; making it useful to have a full sample site with content and assets. HOWEVER the storage of authored content (pages, assets) in git is rare and not recommended for real-world implementations.
-* **ui.tests**: Java bundle containing JUnit tests that are executed server-side. This bundle is not to be deployed onto production.
-* **ui.launcher**: contains glue code that deploys the ui.tests bundle (and dependent bundles) to the server and triggers the remote JUnit execution
-* **dispatcher**: contains dispatcher configurations for AEM as a Cloud Service
-* **repository-structure**:  Empty package that defines the structure of the Adobe Experience Manager repository the Code packages in this project deploy into.
-* **all**: An empty module that embeds the above sub-modules and any vendor dependencies into a single deployable package.
+* core: Java bundle containing all core functionality like OSGi services, listeners or schedulers, as well as component-related Java code such as servlets or request filters.
+* ui.apps: contains the /apps (and /etc) parts of the project, ie JS&CSS clientlibs, components, templates, runmode specific configs as well as Hobbes-tests
+* ui.content: contains sample content using the components from the ui.apps
+* ui.tests: Java bundle containing JUnit tests that are executed server-side. This bundle is not to be deployed onto production.
+* ui.launcher: contains glue code that deploys the ui.tests bundle (and dependent bundles) to the server and triggers the remote JUnit execution
 
 ## How to build
 
@@ -33,46 +29,25 @@ To build all the modules run in the project root directory the following command
 
     mvn clean install
 
-If you have a running AEM instance you can build and package the whole project using the `all` module with:
+If you have a running AEM instance you can build and package the whole project and deploy into AEM with  
 
-    mvn clean install -PautoInstallSinglePackage
+    mvn clean install -PautoInstallPackage
 
 Depending on your maven configuration, you may find it helpful to force the resolution of the Adobe public repo with
 
-    mvn clean install -PautoInstallSinglePackage -Padobe-public
-
+    mvn clean install -PautoInstallPackage -Padobe-public
+    
 Or to deploy it to a publish instance, run
 
-    mvn clean install -PautoInstallSinglePackagePublish
-
+    mvn clean install -PautoInstallPackagePublish
+    
 Or alternatively
 
-    mvn clean install -PautoInstallSinglePackage -Daem.port=4503
-
-Or to deploy only `ui.apps` to the author, run
-
-    cd ui.apps
-    mvn clean install-PautoInstallPackage
+    mvn clean install -PautoInstallPackage -Daem.port=4503
 
 Or to deploy only the bundle to the author, run
 
-    cd core
     mvn clean install -PautoInstallBundle
-
-### Building for AEM 6.x.x
-
-The project has been designed for **AEM as a Cloud Service**. The project is also backward compatible with AEM **6.4.8** and **6.5.5** by adding the `classic` profile when executing a build, i.e:
-
-    mvn clean install -PautoInstallSinglePackage -Pclassic
-
-### Building sample content
-
-By default, sample content from `ui.content.sample` will be deployed and will overwrite (reset) any authored content during each build. If you wish to turn this behavior off, modify the [filter.xml](ui.content.sample/src/main/content/META-INF/vault/filter.xml) file and add the `mode=merge` attribute for the paths you don't want overwritten:
-
-```diff
-- <filter root="/content/wknd" />
-+ <filter root="/content/wknd" mode="merge"/>
-```
 
 ## Testing
 
