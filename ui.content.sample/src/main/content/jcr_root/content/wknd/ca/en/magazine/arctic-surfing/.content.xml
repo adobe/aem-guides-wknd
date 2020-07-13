@@ -230,7 +230,8 @@
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/container">
+                    sling:resourceType="wknd/components/container"
+                    layout="responsiveGrid">
                     <title
                         cq:lastRolledout="{Date}2020-07-09T08:56:36.800-07:00"
                         cq:lastRolledoutBy="admin"

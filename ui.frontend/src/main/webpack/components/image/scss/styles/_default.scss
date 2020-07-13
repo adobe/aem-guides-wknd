@@ -32,11 +32,12 @@
 	}
 
 	.cmp-image__image--is-loading {
+		display: flex;
 		background-color: $gray-light;
-		background-image: url('../resources/images/pulse-1s-200px.gif');
+		background-image: url('../resources/images/loading-icon.svg');
 		background-repeat: no-repeat;
 		background-position: center;
-		background-size: 100px 100px;
+		background-size: 60px 60px;
 	}
 	
 }

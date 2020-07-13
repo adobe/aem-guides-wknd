@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:exifEX="http://cipa.jp/exif/1.0/" xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/" xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:psAux="http://ns.adobe.com/exif/1.0/aux/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:prismusagerights="http://prismstandard.org/namespaces/prismusagerights/2.1/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:isCheckedOut="{Boolean}true"
-    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+<jcr:root xmlns:exifEX="http://cipa.jp/exif/1.0/" xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:psAux="http://ns.adobe.com/exif/1.0/aux/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:prismusagerights="http://prismstandard.org/namespaces/prismusagerights/2.1/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="ba22ab6e-c211-40d3-bfcc-a7a9286bd32c">
+    jcr:uuid="e96f1714-9c9e-422c-be61-60ed41d065d1">
     <jcr:content
-        cq:name="AdobeStock_216674449.jpeg"
-        cq:parentPath="/content/dam/wknd/en/adventures/riverside-camping-australia"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-25T16:48:30.868-07:00"
+        jcr:lastModified="{Date}2020-07-11T14:04:15.304-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -31,6 +28,7 @@
             crs:DefringePurpleAmount="{Long}0"
             crs:DefringePurpleHueHi="{Long}70"
             crs:DefringePurpleHueLo="{Long}30"
+            crs:Dehaze="{Long}0"
             crs:Exposure2012="{Decimal}0.00"
             crs:GrainAmount="{Long}0"
             crs:GreenHue="{Long}0"
@@ -79,6 +77,8 @@
             crs:PerspectiveScale="{Long}100"
             crs:PerspectiveUpright="{Long}0"
             crs:PerspectiveVertical="{Long}0"
+            crs:PerspectiveX="{Decimal}0.00"
+            crs:PerspectiveY="{Decimal}0.00"
             crs:PostCropVignetteAmount="{Long}-10"
             crs:PostCropVignetteFeather="{Long}50"
             crs:PostCropVignetteHighlightContrast="{Long}0"
@@ -106,6 +106,7 @@
             crs:SplitToningHighlightSaturation="{Long}0"
             crs:SplitToningShadowHue="{Long}0"
             crs:SplitToningShadowSaturation="{Long}0"
+            crs:Temperature="{Long}5500"
             crs:Tint="{Long}10"
             crs:ToneCurve="[0\, 0,255\, 255]"
             crs:ToneCurve_xmpArrayType="rdf:Seq"
@@ -125,11 +126,13 @@
             crs:ToneCurvePV2012Red_xmpArrayType="rdf:Seq"
             crs:ToneCurveRed="[0\, 0,255\, 255]"
             crs:ToneCurveRed_xmpArrayType="rdf:Seq"
+            crs:ToneMapStrength="{Long}0"
             crs:UprightCenterMode="{Long}0"
             crs:UprightCenterNormX="{Decimal}0.5"
             crs:UprightCenterNormY="{Decimal}0.5"
             crs:UprightFocalLength35mm="{Long}35"
             crs:UprightFocalMode="{Long}0"
+            crs:UprightFourSegmentsCount="{Long}0"
             crs:UprightPreview="False"
             crs:UprightTransformCount="{Long}6"
             crs:UprightVersion="{Long}151388160"
@@ -139,31 +142,29 @@
             crs:Whites2012="{Long}24"
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20180726"
-            dam:DigitalCreationTime="155445-0700"
-            dam:extracted="{Date}2019-10-25T16:48:10.997-07:00"
+            dam:extracted="{Date}2020-07-11T14:04:14.114-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
             dam:Numberoftextualcomments="{Long}0"
-            dam:Physicalheightindpi="{Long}72"
-            dam:Physicalheightininches="{Decimal}12.80555534362793"
-            dam:Physicalwidthindpi="{Long}72"
-            dam:Physicalwidthininches="{Decimal}19.19444465637207"
-            dam:Progressive="no"
-            dam:sha1="946a7f624f12545ad3c62042fae41a109b99aba5"
-            dam:size="{Long}646118"
-            dam:TimeCreated="155445-0700"
-            dc:date="{Long}[20180726,20180726,20180726]"
-            dc:date_xmpArrayType="rdf:Seq"
+            dam:Physicalheightindpi="{Long}300"
+            dam:Physicalheightininches="{Decimal}3.0"
+            dam:Physicalwidthindpi="{Long}300"
+            dam:Physicalwidthininches="{Decimal}5.333333492279053"
+            dam:Progressive="yes"
+            dam:sha1="b27fea2c0209c71321172cd9700ac8e71c3b57a9"
+            dam:size="{Long}461713"
+            dam:TimeCreated="155445+0000"
+            dc:date="{Long}[20180726]"
+            dc:date_xmpArrayType="rdf:Bag"
             dc:description="Female sitting on a large rock relaxing in afternoon dappled light the Australian bushland with views over the river"
             dc:format="image/jpeg"
-            dc:modified="{Date}2019-10-24T15:43:41.918-07:00"
             dc:rights="©  Leah-Anne Thompson, all rights reserved.  Review your image licence for grant of usage rights and limitations   Images used "
-            dc:subject="[female,wilderness,travel,relax,sitting,views,scenic,tourism,bushwalk,hike,adventure,explore,female,woman,chillax,unwind,river,nature,bushland,water,pretty,dappled,landscape,mountains,rock,outdoors,outside,fresh air,wilderness,Australia,thisisAustralia,trees,high,cliffs,water views,place,destination,holiday,vacation,camping,wellness,wellbeing,healthy lifestyle,lifestyle,active,bush,bushland,remote,countryside,vista,female,wilderness,travel,relax,sitting,views,scenic,tourism,bushwalk,hike,adventure,explore,female,woman,chillax,unwind,river,nature,bushland,water,pretty,dappled,landscape,mountains,rock,outdoors,outside,fresh air,wilderness,Australia,thisisAustralia,trees,high,cliffs,water views,place,destination,holiday,vacation,camping,wellness,wellbeing,healthy lifestyle,lifestyle,active,bush,bushland,remote,countryside,vista,female,wilderness,travel,relax,sitting,views,scenic,tourism,bushwalk,hike,adventure,explore,woman,chillax,unwind,river,nature,bushland,water,pretty,dappled,landscape,mountains,rock,outdoors,outside,fresh air,Australia,thisisAustralia,trees,high,cliffs,water views,place,destination,holiday,vacation,camping,wellness,wellbeing,healthy lifestyle,lifestyle,active,bush,remote,countryside,vista,female,wilderness,travel,relax,sitting,views,scenic,tourism,bushwalk,hike,adventure,explore,female,woman,chillax,unwind,river,nature,bushland,water,pretty,dappled,landscape,mountains,rock,outdoors,outside,fresh air,wilderness,Australia,thisisAustralia,trees,high,cliffs,water views,place,destination,holiday,vacation,camping,wellness,wellbeing,healthy lifestyle,lifestyle,active,bush,bushland,remote,countryside,vista,female,wilderness,travel,relax,sitting,views,scenic,tourism,bushwalk,hike,adventure,explore,female,woman,chillax,unwind,river,nature,bushland,water,pretty,dappled,landscape,mountains,rock,outdoors,outside,fresh air,wilderness,Australia,thisisAustralia,trees,high,cliffs,water views,place,destination,holiday,vacation,camping,wellness,wellbeing,healthy lifestyle,lifestyle,active,bush,bushland,remote,countryside,vista,female,wilderness,travel,relax,sitting,views,scenic,tourism,bushwalk,hike,adventure,explore,woman,chillax,unwind,river,nature,bushland,water,pretty,dappled,landscape,mountains,rock,outdoors,outside,fresh air,Australia,thisisAustralia,trees,high,cliffs,water views,place,destination,holiday,vacation,camping,wellness,wellbeing,healthy lifestyle,lifestyle,active,bush,remote,countryside,vista,female,wilderness,travel,relax,sitting,views,scenic,tourism,bushwalk,hike,adventure,explore,woman,chillax,unwind,river,nature,bushland,water,pretty,dappled,landscape,mountains,rock,outdoors,outside,fresh air,Australia,thisisAustralia,trees,high,cliffs,water views,place,destination,holiday,vacation,camping,wellness,wellbeing,healthy lifestyle,lifestyle,active,bush,remote,countryside,vista]"
+            dc:subject="[female,wilderness,travel,relax,sitting,views,scenic,tourism,bushwalk,hike,adventure,explore,female,woman,chillax,unwind,river,nature,bushland,water,pretty,dappled,landscape,mountains,rock,outdoors,outside,fresh air,wilderness,Australia,thisisAustralia,trees,high,cliffs,water views,place,destination,holiday,vacation,camping,wellness,wellbeing,healthy lifestyle,lifestyle,active,bush,bushland,remote,countryside,vista]"
             dc:subject_xmpArrayType="rdf:Bag"
             dc:title="Woman chillaxing with river views in Australian bushland"
             exif:ApertureValue="20197/2729"
-            exif:ColorSpace="{Long}1"
+            exif:ColorSpace="{Long}65535"
             exif:ComponentsConfiguration="{Long}[1,2,3,0]"
             exif:ComponentsConfiguration_xmpArrayType="rdf:Seq"
             exif:CustomRendered="{Long}0"
@@ -183,8 +184,8 @@
             exif:ISOSpeedRatings_xmpArrayType="rdf:Seq"
             exif:MaxApertureValue="4/1"
             exif:MeteringMode="{Long}5"
-            exif:PixelXDimension="{Long}1382"
-            exif:PixelYDimension="{Long}922"
+            exif:PixelXDimension="{Long}1600"
+            exif:PixelYDimension="{Long}900"
             exif:Saturation="{Long}2"
             exif:SceneCaptureType="{Long}0"
             exif:Sharpness="{Long}2"
@@ -198,8 +199,6 @@
             exifEX:PhotographicSensitivity="{Long}200"
             exifEX:RecommendedExposureIndex="{Long}200"
             exifEX:SensitivityType="{Long}2"
-            jcr:lastModified="{Date}2019-10-25T16:48:27.997-07:00"
-            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             jcr:title="Woman chillaxing with river views in Australian bushland"
@@ -228,31 +227,27 @@
             psAux:VignetteCorrectionAlreadyApplied="True"
             tiff:BitsPerSample="{Long}[8,8,8]"
             tiff:BitsPerSample_xmpArrayType="rdf:Seq"
-            tiff:ImageLength="{Long}922"
-            tiff:ImageWidth="{Long}1382"
+            tiff:ImageLength="{Long}900"
+            tiff:ImageWidth="{Long}1600"
             tiff:Make="Canon"
             tiff:Model="Canon EOS 5D Mark III"
             tiff:Orientation="{Long}1"
             tiff:PhotometricInterpretation="{Long}2"
             tiff:ResolutionUnit="{Long}2"
             tiff:SamplesPerPixel="{Long}3"
-            tiff:XResolution="720000/10000"
+            tiff:XResolution="3000000/10000"
             tiff:YCbCrPositioning="{Long}1"
             tiff:YCbCrSubSampling="{Long}[0]"
             tiff:YCbCrSubSampling_xmpArrayType="rdf:Seq"
-            tiff:YResolution="720000/10000"
+            tiff:YResolution="3000000/10000"
             xmp:CreateDate="{Date}2018-07-26T15:54:45.000-07:00"
             xmp:CreatorTool="Adobe Photoshop CC 2019 (Macintosh)"
-            xmp:MetadataDate="{Date}2019-10-24T15:37:10.000-07:00"
-            xmp:ModifyDate="{Date}2019-10-24T15:37:10.000-07:00"
-            xmpMM:DocumentID="xmp.did:dc867b42-42f2-4e4f-87f5-b04f8dfa3bd5"
-            xmpMM:InstanceID="xmp.iid:be7b8265-2789-412f-9252-a88d67cd2fcb"
+            xmp:MetadataDate="{Date}2020-07-11T10:00:44.000-07:00"
+            xmp:ModifyDate="{Date}2020-07-11T10:00:44.000-07:00"
+            xmpMM:DocumentID="adobe:docid:photoshop:f7d3c82a-7963-a346-bdd6-dc8251b6085f"
+            xmpMM:InstanceID="xmp.iid:d43d1b5a-85f5-45bd-a97c-2090d4babc43"
             xmpMM:OriginalDocumentID="228BCBD67F66377C3DE07ED5DE7E50E6"
-            xmpRights:Marked="{Boolean}true"
-            xmpRights:UsageTerms="[Thank you for your interest in Adobe’s products and services! The images in this demo website are from Adobe Stock and are Third Party Material as  defined in the Demo Asset Additional Terms   at https://www.adobe.com/legal/terms.html.  If you want to use]"
-            xmpRights:UsageTerms_xmpArrayType="rdf:Alt"
-            lastTransferredForTagging="{Date}2019-10-24T15:40:54.252-07:00"
-            simsearchVersion="1.0.0">
+            xmpRights:Marked="{Boolean}true">
             <exif:Flash
                 exif:Fired="{Boolean}false"
                 exif:Function="{Boolean}false"
@@ -261,168 +256,6 @@
                 exif:Return="{Long}0"
                 jcr:primaryType="nt:unstructured"
                 xmpNodeType="xmpStruct"/>
-            <xmpMM:DerivedFrom
-                jcr:primaryType="nt:unstructured"
-                stRef:documentID="xmp.did:dc867b42-42f2-4e4f-87f5-b04f8dfa3bd5"
-                stRef:instanceID="xmp.iid:015A56DF4D95E811BB2AB99D1412D015"
-                stRef:originalDocumentID="228BCBD67F66377C3DE07ED5DE7E50E6"
-                xmpNodeType="xmpStruct"/>
-            <predictedTags jcr:primaryType="nt:unstructured">
-                <nature
-                    jcr:lastModified="{Date}2019-10-24T15:40:54.244-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.8018614649772644"
-                    isCustom="{Boolean}false"
-                    name="nature"/>
-                <water
-                    jcr:lastModified="{Date}2019-10-24T15:40:54.245-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7956404685974121"
-                    isCustom="{Boolean}false"
-                    name="water"/>
-                <landscape
-                    jcr:lastModified="{Date}2019-10-24T15:40:54.245-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7892953753471375"
-                    isCustom="{Boolean}false"
-                    name="landscape"/>
-                <sea
-                    jcr:lastModified="{Date}2019-10-24T15:40:54.246-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7788304090499878"
-                    isCustom="{Boolean}false"
-                    name="sea"/>
-                <coast
-                    jcr:lastModified="{Date}2019-10-24T15:40:54.246-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7551639080047607"
-                    isCustom="{Boolean}false"
-                    name="coast"/>
-                <beach
-                    jcr:lastModified="{Date}2019-10-24T15:40:54.246-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7536890506744385"
-                    isCustom="{Boolean}false"
-                    name="beach"/>
-                <ocean
-                    jcr:lastModified="{Date}2019-10-24T15:40:54.247-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7267907857894897"
-                    isCustom="{Boolean}false"
-                    name="ocean"/>
-                <blue
-                    jcr:lastModified="{Date}2019-10-24T15:40:54.247-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7200266122817993"
-                    isCustom="{Boolean}false"
-                    name="blue"/>
-                <sky
-                    jcr:lastModified="{Date}2019-10-24T15:40:54.247-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7147183418273926"
-                    isCustom="{Boolean}false"
-                    name="sky"/>
-                <rock
-                    jcr:lastModified="{Date}2019-10-24T15:40:54.247-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7029945254325867"
-                    isCustom="{Boolean}false"
-                    name="rock"/>
-                <lake
-                    jcr:lastModified="{Date}2019-10-24T15:40:54.248-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6990424990653992"
-                    isCustom="{Boolean}false"
-                    name="lake"/>
-                <island
-                    jcr:lastModified="{Date}2019-10-24T15:40:54.248-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6898638010025024"
-                    isCustom="{Boolean}false"
-                    name="island"/>
-                <shore
-                    jcr:lastModified="{Date}2019-10-24T15:40:54.248-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6836971044540405"
-                    isCustom="{Boolean}false"
-                    name="shore"/>
-                <stone
-                    jcr:lastModified="{Date}2019-10-24T15:40:54.248-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6733700037002563"
-                    isCustom="{Boolean}false"
-                    name="stone"/>
-                <tree
-                    jcr:lastModified="{Date}2019-10-24T15:40:54.249-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.669979989528656"
-                    isCustom="{Boolean}false"
-                    name="tree"/>
-                <coastline
-                    jcr:lastModified="{Date}2019-10-24T15:40:54.249-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6618583798408508"
-                    isCustom="{Boolean}false"
-                    name="coastline"/>
-                <rocks
-                    jcr:lastModified="{Date}2019-10-24T15:40:54.249-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6600831747055054"
-                    isCustom="{Boolean}false"
-                    name="rocks"/>
-                <clouds
-                    jcr:lastModified="{Date}2019-10-24T15:40:54.250-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6529247760772705"
-                    isCustom="{Boolean}false"
-                    name="clouds"/>
-                <summer
-                    jcr:lastModified="{Date}2019-10-24T15:40:54.250-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6450058221817017"
-                    isCustom="{Boolean}false"
-                    name="summer"/>
-                <trees
-                    jcr:lastModified="{Date}2019-10-24T15:40:54.250-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6433840990066528"
-                    isCustom="{Boolean}false"
-                    name="trees"/>
-                <travel
-                    jcr:lastModified="{Date}2019-10-24T15:40:54.250-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6421711444854736"
-                    isCustom="{Boolean}false"
-                    name="travel"/>
-                <forest
-                    jcr:lastModified="{Date}2019-10-24T15:40:54.251-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6394469141960144"
-                    isCustom="{Boolean}false"
-                    name="forest"/>
-                <beautiful
-                    jcr:lastModified="{Date}2019-10-24T15:40:54.251-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.627105712890625"
-                    isCustom="{Boolean}false"
-                    name="beautiful"/>
-                <green
-                    jcr:lastModified="{Date}2019-10-24T15:40:54.251-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6268209218978882"
-                    isCustom="{Boolean}false"
-                    name="green"/>
-                <river
-                    jcr:lastModified="{Date}2019-10-24T15:40:54.252-07:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.620059072971344"
-                    isCustom="{Boolean}false"
-                    name="river"/>
-            </predictedTags>
-            <imageFeatures
-                jcr:primaryType="nt:unstructured"
-                haystack0="{Binary}"/>
-            <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
             <crs:GradientBasedCorrections
                 jcr:primaryType="nt:unstructured"
                 xmpArraySize="{Long}1"
@@ -466,6 +299,12 @@
                     </crs:CorrectionMasks>
                 </_x0031_>
             </crs:GradientBasedCorrections>
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="xmp.did:dc867b42-42f2-4e4f-87f5-b04f8dfa3bd5"
+                stRef:instanceID="xmp.iid:015A56DF4D95E811BB2AB99D1412D015"
+                stRef:originalDocumentID="228BCBD67F66377C3DE07ED5DE7E50E6"
+                xmpNodeType="xmpStruct"/>
             <xmpMM:History
                 jcr:primaryType="nt:unstructured"
                 xmpArraySize="{Long}7"
@@ -514,9 +353,9 @@
                     jcr:primaryType="nt:unstructured"
                     stEvt:action="saved"
                     stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:be7b8265-2789-412f-9252-a88d67cd2fcb"
+                    stEvt:instanceID="xmp.iid:d43d1b5a-85f5-45bd-a97c-2090d4babc43"
                     stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"
-                    stEvt:when="{Date}2019-10-24T15:37:10.000-07:00"
+                    stEvt:when="{Date}2020-07-11T10:00:44.000-07:00"
                     xmpNodeType="xmpStruct"/>
             </xmpMM:History>
         </metadata>
@@ -528,7 +367,7 @@
             <aem
                 jcr:primaryType="nt:unstructured"
                 count="{Long}1"
-                lastUsed="{Date}2019-10-27T16:00:05.789-07:00"/>
+                lastUsed="{Date}2020-07-11T14:05:37.578-07:00"/>
         </usages>
     </jcr:content>
 </jcr:root>

@@ -24,16 +24,9 @@
     }
 
     .cmp-tabs__tabpanel {
-        padding-left: $gutter-padding;
-        padding-right: $gutter-padding;
-
         .aem-GridColumn{
             padding-left: 0;
             padding-right: 0;
         }
-    }
-
-    .cmp-tabs__tabpanel--active {
-
     }
 }

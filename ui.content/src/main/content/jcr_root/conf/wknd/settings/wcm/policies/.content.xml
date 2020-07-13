@@ -459,13 +459,13 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="WKND Image"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    allowedRenditionWidths="[300,400,500,600,700,800,900,1000,1280]"
+                    allowedRenditionWidths="[100,200,300,400,500,600,700,800,900,1000,1100,1200,1600]"
                     allowUpload="true"
                     altValueFromDAM="true"
                     disableLazyLoading="false"
                     displayPopupTitle="true"
                     isDecorative="false"
-                    jpegQuality="{Long}90"
+                    jpegQuality="{Long}60"
                     titleValueFromDAM="true"
                     uuidDisabled="true">
                     <plugins jcr:primaryType="nt:unstructured">
