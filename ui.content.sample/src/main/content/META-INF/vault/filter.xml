@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
 
-    <!-- Content Filters
-    <filter root="/content/wknd" /> -->
+    <!-- Content Filters -->
+    <filter root="/content/wknd" />
     <!-- Changing the filter mode to merge will preserve any existing content on the target environment
     <filter root="/content/wknd" mode="merge"/>
     -->
