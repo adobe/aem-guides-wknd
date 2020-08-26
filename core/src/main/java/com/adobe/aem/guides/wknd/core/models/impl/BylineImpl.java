@@ -18,7 +18,7 @@ package com.adobe.aem.guides.wknd.core.models.impl;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-
+import java.util.stream.Collectors;
 import javax.annotation.PostConstruct;
 
 import org.apache.commons.lang3.StringUtils;
@@ -69,8 +69,18 @@ public class BylineImpl implements Byline {
     @Override
     public List<String> getOccupations() {
          if (occupations != null) {
+
+            String str = "Hello\nJava11\nWorld";
+
+            return str.lines().collect(Collectors.toList());
+
+            /*
+            List<String> lowercaseList = occupations.stream()
+                .map(var s -> s.toUpperCase())
+                .collect(Collectors.toList());
+
              Collections.sort(occupations);
-             return new ArrayList<String>(occupations);
+             return new ArrayList<String>(occupations);*/
          } else {
              return Collections.emptyList();
          }
@@ -96,7 +106,7 @@ public class BylineImpl implements Byline {
     }
 
     /**
-     * @return the Image Sling Model of this resource, or null if the resource cannot create a valid Image Sling Model. 
+     * @return the Image Sling Model of this resource, or null if the resource cannot create a valid Image Sling Model.
      */
     private Image getImage() {
         return image;

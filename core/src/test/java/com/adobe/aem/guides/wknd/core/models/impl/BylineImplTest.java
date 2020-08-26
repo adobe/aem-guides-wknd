@@ -39,9 +39,9 @@ import io.wcm.testing.mock.aem.junit5.AemContextExtension;
 
 @ExtendWith({AemContextExtension.class, MockitoExtension.class})
 class BylineImplTest {
-	
+
 	private final AemContext ctx = new AemContext();
-	
+
 	@Mock
 	private Image image;
 
@@ -53,7 +53,7 @@ class BylineImplTest {
 	void setUp() throws Exception {
 		ctx.addModelsForClasses(BylineImpl.class);
 	    ctx.load().json("/com/adobe/aem/guides/wknd/core/models/impl/BylineImplTest.json", "/content");
-	    
+
 	    lenient().when(modelFactory.getModelFromWrappedRequest(eq(ctx.request()),
 	    	       any(Resource.class),
 	    	       eq(Image.class))).thenReturn(image);
@@ -77,9 +77,9 @@ class BylineImplTest {
 	@Test
 	   public void testGetOccupations() {
 	       List<String> expected = new ImmutableList.Builder<String>()
-	                               .add("Blogger")
-	                               .add("Photographer")
-	                               .add("YouTuber")
+	                               .add("Hello")
+	                               .add("Java11")
+	                               .add("World")
 	                               .build();
 
 	       ctx.currentResource("/content/byline");
@@ -120,9 +120,9 @@ class BylineImplTest {
 	   @Test
 	   public void testIsEmpty_WithoutImage() {
 	       ctx.currentResource("/content/byline");
-	       
+
 	       //ModelFactory modelFactory = mock(ModelFactory.class, withSettings().lenient());
-	       
+
 	       lenient().when(modelFactory.getModelFromWrappedRequest(eq(ctx.request()),
 	           any(Resource.class),
 	           eq(Image.class))).thenReturn(null);
@@ -131,7 +131,7 @@ class BylineImplTest {
 
 	       assertTrue(byline.isEmpty());
 	   }
-	   
+
 	   @Test
 	   public void testIsEmpty_WithoutImageSrc() {
 	       ctx.currentResource("/content/byline");
@@ -142,7 +142,7 @@ class BylineImplTest {
 
 	       assertTrue(byline.isEmpty());
 	   }
-	   
+
 	   @Test
 	   public void testIsNotEmpty() {
 	    ctx.currentResource("/content/byline");
@@ -152,7 +152,7 @@ class BylineImplTest {
 
 	    assertFalse(byline.isEmpty());
 	   }
-	   
+
 	   @Test
 	   public void testGetOccupations_WithoutOccupations() {
 	       List<String> expected = Collections.emptyList();
@@ -164,7 +164,7 @@ class BylineImplTest {
 
 	       assertEquals(expected, actual);
 	   }
-	   
+
 	   @Test
 	   public void testIsEmpty_WithEmptyArrayOfOccupations() {
 	       ctx.currentResource("/content/without-occupations-empty-array");
@@ -172,6 +172,6 @@ class BylineImplTest {
 	       Byline byline = ctx.request().adaptTo(Byline.class);
 
 	       assertTrue(byline.isEmpty());
-	   } 
+	   }
 
 }

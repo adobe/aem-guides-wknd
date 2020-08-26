@@ -127,8 +127,8 @@
                                 </requireMavenVersion>
                                 <requireJavaVersion>
                                     <message>Project must be compiled
-                                        with Java 8 or higher</message>
-                                    <version>1.8.0</version>
+                                        with Java 11 or higher</message>
+                                    <version>1.11.0</version>
                                 </requireJavaVersion>
                             </rules>
                         </configuration>
@@ -154,7 +154,7 @@
                     <!-- manually release in https://oss.sonatype.org/#stagingRepositories after the Maven release build -->
                     <autoReleaseAfterClose>false</autoReleaseAfterClose>
                 </configuration>
-            </plugin> 
+            </plugin>
         </plugins>
         <pluginManagement>
             <plugins>
@@ -706,7 +706,7 @@ Bundle-DocURL:
                 <type>zip</type>
                 <version>${core.wcm.components.version}</version>
             </dependency>
-            
+
             <!-- Testing -->
             <dependency>
                 <groupId>org.junit</groupId>
