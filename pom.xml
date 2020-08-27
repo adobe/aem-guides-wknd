@@ -127,8 +127,8 @@
                                 </requireMavenVersion>
                                 <requireJavaVersion>
                                     <message>Project must be compiled
-                                        with Java 11 or higher</message>
-                                    <version>1.11.0</version>
+                                        with Java 8 or higher</message>
+                                    <version>1.8.0</version>
                                 </requireJavaVersion>
                             </rules>
                         </configuration>
