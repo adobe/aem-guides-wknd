@@ -16,7 +16,8 @@
         sling:resourceType="wknd/components/page">
         <root
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wknd/components/container">
+            sling:resourceType="wknd/components/container"
+            layout="responsiveGrid">
             <experiencefragment
                 cq:styleIds="[1568592491109]"
                 jcr:created="{Date}2019-09-15T17:10:36.311-07:00"
@@ -33,7 +34,8 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wknd/components/container"
-                editable="{Boolean}true">
+                editable="{Boolean}true"
+                layout="responsiveGrid">
                 <cq:responsive jcr:primaryType="nt:unstructured"/>
             </container>
             <experiencefragment_1327121818
