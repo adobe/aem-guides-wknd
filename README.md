@@ -67,12 +67,16 @@ The project has been designed for **AEM as a Cloud Service**. The project is als
 
 ### Building sample content
 
-By default, sample content from `ui.content.sample` will be deployed and will overwrite (reset) any authored content during each build. If you wish to turn this behavior off, modify the [filter.xml](ui.content.sample/src/main/content/META-INF/vault/filter.xml) file and add the `mode=merge` attribute for the paths you don't want overwritten:
+By default, sample content from `ui.content.sample` will be deployed and will merge with any authored content during each build. If you wish to cleanly re-set an environment, modify the [filter.xml](ui.content.sample/src/main/content/META-INF/vault/filter.xml) file and remove the `mode=merge` attribute to cleanly overwrite the paths.
 
 ```diff
-- <filter root="/content/wknd" />
-+ <filter root="/content/wknd" mode="merge"/>
+- <filter root="/content/wknd" mode="merge"/>
++ <filter root="/content/wknd" />
 ```
+
+### Upgrading versions
+
+If upgrading to a new version of WKND, it is recommended up modify the filters in `ui.content.sample` to remove the `mode="merge"` attribute prior to deploying.
 
 ## Testing
 
