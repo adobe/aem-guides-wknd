@@ -4,7 +4,8 @@
     cq:allowedTemplates="[/conf/(.*)/settings/wcm/templates/experience-fragment(.*)?,/conf/(.*)/settings/wcm/templates/xf(.*)?]"
     jcr:primaryType="sling:OrderedFolder"
     jcr:title="WKND Site Fragments"
-    cq:conf="/conf/wknd">
+    cq:conf="/conf/wknd"
+    sling:configRef="/conf/wknd">
     <language-masters/>
     <us/>
 </jcr:root>

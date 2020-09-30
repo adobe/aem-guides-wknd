@@ -8,7 +8,6 @@
     -->
     <filter root="/content/dam/wknd" mode="merge"/>
     <filter root="/content/experience-fragments/wknd" mode="merge"/>
-    <filter root="/content/cq:tags/wknd" mode="merge"/>
 
     <!-- Force Policy and Template Updates -->
     <filter root="/conf/wknd/settings/wcm" mode="update" />
