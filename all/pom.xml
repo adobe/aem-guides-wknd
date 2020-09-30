@@ -13,7 +13,9 @@
  |  See the License for the specific language governing permissions and
  |  limitations under the License.
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <!-- ====================================================================== -->
@@ -48,6 +50,12 @@
                 <extensions>true</extensions>
                 <configuration>
                     <group>com.adobe.aem.guides</group>
+                    <packageType>container</packageType>
+                    <properties>
+                        <cloudManagerTarget>all</cloudManagerTarget>
+                    </properties>
+                    <!-- skip sub package validation for now as some vendor packages like CIF apps will not pass -->
+                    <skipSubPackageValidation>true</skipSubPackageValidation>
                     <embeddeds>
                         <embedded>
                             <groupId>com.adobe.aem.guides</groupId>
@@ -57,9 +65,20 @@
                         </embedded>
                         <embedded>
                             <groupId>com.adobe.aem.guides</groupId>
+                            <artifactId>aem-guides-wknd.core</artifactId>
+                            <target>/apps/wknd-packages/application/install</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.adobe.aem.guides</groupId>
                             <artifactId>aem-guides-wknd.ui.content</artifactId>
                             <type>zip</type>
                             <target>/apps/wknd-packages/content/install</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.adobe.aem.guides</groupId>
+                            <artifactId>aem-guides-wknd.ui.config</artifactId>
+                            <type>zip</type>
+                            <target>/apps/wknd-packages/application/install</target>
                         </embedded>
                         <embedded>
                             <groupId>com.adobe.aem.guides</groupId>
@@ -81,7 +100,6 @@
             </plugin>
             <plugin>
                 <artifactId>maven-clean-plugin</artifactId>
-                <version>2.4.1</version>
                 <executions>
                     <execution>
                         <id>auto-clean</id>
@@ -174,9 +192,20 @@
                                 </embedded>
                                 <embedded>
                                     <groupId>com.adobe.aem.guides</groupId>
+                                    <artifactId>aem-guides-wknd.core</artifactId>
+                                    <target>/apps/wknd-packages/application/install</target>
+                                </embedded>
+                                <embedded>
+                                    <groupId>com.adobe.aem.guides</groupId>
                                     <artifactId>aem-guides-wknd.ui.content</artifactId>
                                     <type>zip</type>
                                     <target>/apps/wknd-packages/content/install</target>
+                                </embedded>
+                                <embedded>
+                                    <groupId>com.adobe.aem.guides</groupId>
+                                    <artifactId>aem-guides-wknd.ui.config</artifactId>
+                                    <type>zip</type>
+                                    <target>/apps/wknd-packages/application/install</target>
                                 </embedded>
                                 <embedded>
                                     <groupId>com.adobe.aem.guides</groupId>
@@ -194,6 +223,11 @@
                                     <groupId>com.adobe.cq</groupId>
                                     <artifactId>core.wcm.components.config</artifactId>
                                     <type>zip</type>
+                                    <target>/apps/wknd-vendor-packages/application/install</target>
+                                </embedded>
+                                <embedded>
+                                    <groupId>com.adobe.cq</groupId>
+                                    <artifactId>core.wcm.components.core</artifactId>
                                     <target>/apps/wknd-vendor-packages/application/install</target>
                                 </embedded>
                             </embeddeds>
@@ -216,13 +250,13 @@
         </dependency>
         <dependency>
             <groupId>com.adobe.aem.guides</groupId>
-            <artifactId>aem-guides-wknd.ui.apps.structure</artifactId>
+            <artifactId>aem-guides-wknd.ui.content</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>
         <dependency>
             <groupId>com.adobe.aem.guides</groupId>
-            <artifactId>aem-guides-wknd.ui.content</artifactId>
+            <artifactId>aem-guides-wknd.ui.config</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>
@@ -232,7 +266,7 @@
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>
-        <!-- Core Component Dependency (6.x only)-->
+         <!-- Core Component Dependency (6.x only)-->
         <dependency>
             <groupId>com.adobe.cq</groupId>
             <artifactId>core.wcm.components.content</artifactId>
@@ -242,6 +276,10 @@
             <groupId>com.adobe.cq</groupId>
             <artifactId>core.wcm.components.config</artifactId>
             <type>zip</type>
+        </dependency>
+        <dependency>
+            <groupId>com.adobe.cq</groupId>
+            <artifactId>core.wcm.components.core</artifactId>                
         </dependency>
     </dependencies>
 </project>

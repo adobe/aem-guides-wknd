@@ -38,10 +38,12 @@
         <module>ui.frontend</module>
         <module>ui.apps</module>
         <module>ui.apps.structure</module>
+        <module>ui.config</module>
         <module>ui.content</module>
         <module>ui.content.sample</module>
         <module>it.tests</module>
         <module>dispatcher</module>
+        <module>ui.tests</module>
     </modules>
 
     <properties>
@@ -53,11 +55,12 @@
         <sling.password>admin</sling.password>
         <vault.user>admin</vault.user>
         <vault.password>admin</vault.password>
-        <bnd.version>5.0.0</bnd.version>
+        <bnd.version>5.1.2</bnd.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <aem.sdk.api>2020.6.3766.20200619T110731Z-200604</aem.sdk.api>
-        <core.wcm.components.version>2.10.0</core.wcm.components.version>
+        <aem.sdk.api>2020.9.4277.20200929T030741Z-200924</aem.sdk.api>
+        <componentGroupName>WKND Site</componentGroupName>
+        <core.wcm.components.version>2.11.1</core.wcm.components.version>
         <uber.jar.version>6.4.4</uber.jar.version>
     </properties>
 
@@ -126,8 +129,7 @@
                                     <version>[3.3.9,)</version>
                                 </requireMavenVersion>
                                 <requireJavaVersion>
-                                    <message>Project must be compiled
-                                        with Java 8 or higher</message>
+                                    <message>Maven must be executed with a Java 8 JRE or higher.</message>
                                     <version>1.8.0</version>
                                 </requireJavaVersion>
                             </rules>
@@ -144,7 +146,7 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
-            <!-- Staging Maven Plugin -->
+             <!-- Staging Maven Plugin -->
             <plugin>
                 <groupId>org.sonatype.plugins</groupId>
                 <artifactId>nexus-staging-maven-plugin</artifactId>
@@ -164,8 +166,8 @@
                     <artifactId>frontend-maven-plugin</artifactId>
                     <version>1.7.6</version>
                     <configuration>
-                        <nodeVersion>v13.7.0</nodeVersion>
-                        <npmVersion>6.13.6</npmVersion>
+                        <nodeVersion>v10.13.0</nodeVersion>
+                        <npmVersion>6.9.0</npmVersion>
                     </configuration>
                     <executions>
                         <execution>
@@ -207,7 +209,7 @@
                             </goals>
                             <configuration>
                                 <bnd><![CDATA[
-Bundle-Category: adobe,sample
+Bundle-Category: ${componentGroupName}
 
 # export all versioned packages except for conditional ones (https://github.com/bndtools/bnd/issues/3721#issuecomment-579026778)
 -exportcontents: ${removeall;${packages;VERSIONED};${packages;CONDITIONAL}}
@@ -303,10 +305,29 @@ Bundle-DocURL:
                 <plugin>
                     <groupId>org.apache.jackrabbit</groupId>
                     <artifactId>filevault-package-maven-plugin</artifactId>
-                    <version>1.0.3</version>
+                    <extensions>true</extensions>
+                    <version>1.1.4</version>
                     <configuration>
                         <filterSource>src/main/content/META-INF/vault/filter.xml</filterSource>
+                        <properties>
+                            <cloudManagerTarget>none</cloudManagerTarget>
+                        </properties>
+                        <validatorsSettings>
+                            <jackrabbit-nodetypes>
+                                <options>
+                                    <!-- use the nodetypes and namespaces from the aem-nodetypes.jar provided in the plugin dependencies -->
+                                    <cnds>tccl:aem.cnd</cnds>
+                                </options>
+                            </jackrabbit-nodetypes>
+                        </validatorsSettings>
                     </configuration>
+                    <dependencies>
+                        <dependency>
+                            <groupId>biz.netcentric.aem</groupId>
+                            <artifactId>aem-nodetypes</artifactId>
+                            <version>6.5.5.0</version>
+                        </dependency>
+                    </dependencies>
                 </plugin>
                 <!-- Content Package Plugin -->
                 <plugin>
@@ -324,7 +345,7 @@ Bundle-DocURL:
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-enforcer-plugin</artifactId>
-                    <version>1.4.1</version>
+                    <version>3.0.0-M3</version>
                 </plugin>
                 <!-- Maven Dependency Plugin -->
                 <plugin>
@@ -576,7 +597,7 @@ Bundle-DocURL:
                 </pluginManagement>
             </build>
         </profile>
-        <profile>
+         <profile>
             <id>release</id>
             <activation>
                 <property>
@@ -675,25 +696,25 @@ Bundle-DocURL:
                 <type>zip</type>
                 <version>${core.wcm.components.version}</version>
             </dependency>
-            
+
             <!-- Testing -->
             <dependency>
                 <groupId>org.junit</groupId>
                 <artifactId>junit-bom</artifactId>
-                <version>5.5.2</version>
+                <version>5.6.2</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
             <dependency>
                 <groupId>org.mockito</groupId>
                 <artifactId>mockito-core</artifactId>
-                <version>2.25.1</version>
+                <version>3.3.3</version>
                 <scope>test</scope>
             </dependency>
             <dependency>
                 <groupId>org.mockito</groupId>
                 <artifactId>mockito-junit-jupiter</artifactId>
-                <version>2.25.1</version>
+                <version>3.3.3</version>
                 <scope>test</scope>
             </dependency>
             <dependency>
@@ -705,7 +726,7 @@ Bundle-DocURL:
             <dependency>
                 <groupId>io.wcm</groupId>
                 <artifactId>io.wcm.testing.aem-mock.junit5</artifactId>
-                <version>2.5.2</version>
+                <version>3.0.2</version>
                 <scope>test</scope>
             </dependency>
             <dependency>
