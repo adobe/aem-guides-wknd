@@ -33,13 +33,9 @@ To build all the modules run in the project root directory the following command
 
     mvn clean install
 
-If you have a running AEM instance you can build and package the whole project using the `all` module with:
+To build all the modules and deploy the `all` package to a local instance of AEM, run in the project root directory the following command:
 
     mvn clean install -PautoInstallSinglePackage
-
-Depending on your maven configuration, you may find it helpful to force the resolution of the Adobe public repo with
-
-    mvn clean install -PautoInstallSinglePackage -Padobe-public
 
 Or to deploy it to a publish instance, run
 
@@ -49,15 +45,13 @@ Or alternatively
 
     mvn clean install -PautoInstallSinglePackage -Daem.port=4503
 
-Or to deploy only `ui.apps` to the author, run
-
-    cd ui.apps
-    mvn clean install-PautoInstallPackage
-
 Or to deploy only the bundle to the author, run
 
-    cd core
     mvn clean install -PautoInstallBundle
+
+Or to deploy only a single content package, run in the sub-module directory (i.e `ui.apps`)
+
+    mvn clean install -PautoInstallPackage
 
 ### Building for AEM 6.x.x
 
@@ -67,12 +61,16 @@ The project has been designed for **AEM as a Cloud Service**. The project is als
 
 ### Building sample content
 
-By default, sample content from `ui.content.sample` will be deployed and will overwrite (reset) any authored content during each build. If you wish to turn this behavior off, modify the [filter.xml](ui.content.sample/src/main/content/META-INF/vault/filter.xml) file and add the `mode=merge` attribute for the paths you don't want overwritten:
+By default, sample content from `ui.content.sample` will be deployed and will merge with any authored content during each build. If you wish to cleanly re-set an environment, modify the [filter.xml](ui.content.sample/src/main/content/META-INF/vault/filter.xml) file and remove the `mode=merge` attribute to cleanly overwrite the paths.
 
 ```diff
-- <filter root="/content/wknd" />
-+ <filter root="/content/wknd" mode="merge"/>
+- <filter root="/content/wknd" mode="merge"/>
++ <filter root="/content/wknd" />
 ```
+
+### Upgrading versions
+
+If upgrading to a new version of WKND, it is recommended up modify the filters in `ui.content.sample` to remove the `mode="merge"` attribute prior to deploying.
 
 ## Testing
 
