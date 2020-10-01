@@ -49,6 +49,14 @@ Make sure that all issues assigned to the current milestone have been closed and
 
 2. Run the release: `mvn release:prepare` followed by `mvn release:perform`. You may need to pass `-Dgpg.passphrase=****` if your passphrase is not persisted in your `settings.xml`.
 
+> Note* for MacOS it may be necessary to include the following in your `~/.bash_profile` if you get an error like "Inappropriate ioctl for device macO"
+
+```
+GPG_TTY=$(tty)
+export GPG_TTY
+```
+
+
 3. Go to https://github.com/adobe/aem-guides-wknd/releases and edit the release tag and update the release text. Add compiled AEM Packages for AEM as a Cloud Service (default build) and special classic build for 6.x.x.
 
 4. Log into https://oss.sonatype.org/ and close the staging repository. Closing the staging repo will automatically push the artifacts to Maven Central after a small delay (4 hours for all mirrors to catch up)
