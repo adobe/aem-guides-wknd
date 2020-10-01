@@ -9,9 +9,6 @@
     <filter root="/content/dam/wknd" mode="merge"/>
     <filter root="/content/experience-fragments/wknd" mode="merge"/>
 
-    <!-- Force Policy and Template Updates -->
-    <filter root="/conf/wknd/settings/wcm" mode="update" />
-
     <!-- WKND Member Group-->
     <filter root="/home/groups/wknd" mode="merge" />
     <!-- Sample User-->

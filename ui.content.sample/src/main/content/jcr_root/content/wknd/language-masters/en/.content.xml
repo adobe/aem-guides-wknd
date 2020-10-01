@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <errors/>
     <jcr:content
-        cq:lastModified="{Date}2020-09-30T15:19:39.844-07:00"
+        cq:lastModified="{Date}2020-09-30T17:28:29.020-07:00"
         cq:lastModifiedBy="admin"
         cq:tags="[wknd:customer-journey/attract]"
         cq:template="/conf/wknd/settings/wcm/templates/landing-page-template"
@@ -18,10 +18,11 @@
             <container
                 jcr:created="{Date}2019-03-19T13:22:52.385-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2019-03-19T13:23:39.376-07:00"
+                jcr:lastModified="{Date}2020-09-30T17:28:07.353-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wknd/components/container">
+                sling:resourceType="wknd/components/container"
+                layout="responsiveGrid">
                 <carousel
                     cq:styleIds="[1555545421827]"
                     jcr:created="{Date}2019-10-24T14:45:16.689-07:00"
@@ -100,11 +101,11 @@
                     cq:styleIds="[1554340406437]"
                     jcr:created="{Date}2019-04-17T14:31:50.612-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2020-07-09T08:15:27.853-07:00"
+                    jcr:lastModified="{Date}2020-09-30T17:28:16.548-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/container"
-                    layout="simple">
+                    layout="responsiveGrid">
                     <cq:responsive jcr:primaryType="nt:unstructured"/>
                     <teaser
                         cq:styleIds="[1555539443529]"
@@ -124,7 +125,7 @@
                         titleFromPage="false">
                         <actions jcr:primaryType="nt:unstructured">
                             <item0
-                        jcr:primaryType="nt:unstructured"
+                                jcr:primaryType="nt:unstructured"
                                 link="/content/wknd/language-masters/en/magazine/western-australia"
                                 text="Full Article"/>
                         </actions>
@@ -207,10 +208,11 @@
                     cq:styleIds="[1554340406437]"
                     jcr:created="{Date}2019-10-21T11:34:41.155-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-10-21T11:34:41.155-07:00"
+                    jcr:lastModified="{Date}2020-09-30T17:28:28.996-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/container">
+                    sling:resourceType="wknd/components/container"
+                    layout="responsiveGrid">
                     <cq:responsive jcr:primaryType="nt:unstructured"/>
                     <title
                         jcr:created="{Date}2019-10-21T11:34:50.251-07:00"

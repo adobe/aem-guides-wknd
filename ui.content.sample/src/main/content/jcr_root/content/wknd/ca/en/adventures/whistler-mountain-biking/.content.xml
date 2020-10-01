@@ -4,7 +4,7 @@
     <jcr:content
         cq:lastModified="{Date}2020-07-09T08:56:38.759-07:00"
         cq:lastModifiedBy="admin"
-        cq:lastRolledout="{Date}2020-07-09T08:56:38.760-07:00"
+        cq:lastRolledout="{Date}2020-09-30T17:38:21.077-07:00"
         cq:lastRolledoutBy="admin"
         cq:tags="[wknd:customer-journey/engage,wknd:customer-journey/convert,wknd:region/nam/canada,wknd:season/summer,wknd:activity/cycling]"
         cq:template="/conf/wknd/settings/wcm/templates/adventure-page-template"
