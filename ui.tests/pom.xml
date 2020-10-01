@@ -32,6 +32,7 @@
     <artifactId>aem-guides-wknd.ui.tests</artifactId>
     <name>WKND Sites Project - UI Tests</name>
     <description>UI Tests for WKND Sites Project</description>
+    <packaging>pom</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
