@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <ski-touring/>
     <jcr:content
-        cq:lastModified="{Date}2020-07-07T18:22:45.525-07:00"
+        cq:lastModified="{Date}2020-09-30T15:12:08.900-07:00"
         cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2019-10-25T17:52:15.710-07:00"
         cq:lastReplicatedBy="admin"
@@ -41,15 +41,18 @@
                     cq:styleIds="[1555539443529]"
                     jcr:created="{Date}2019-10-25T15:24:25.692-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-10-25T15:25:16.353-07:00"
+                    jcr:lastModified="{Date}2020-09-30T15:12:08.885-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
+                    jcr:title="Camping in Western Australia"
                     sling:resourceType="wknd/components/teaser"
                     actionsEnabled="true"
                     descriptionFromPage="true"
                     fileReference="/content/dam/wknd/en/magazine/western-australia/adobestock_156407519.jpeg"
+                    id="featured-article-magazine"
+                    pretitle="Featured Article"
                     textIsRich="true"
-                    titleFromPage="true">
+                    titleFromPage="false">
                     <actions jcr:primaryType="nt:unstructured">
                         <item0
                             jcr:primaryType="nt:unstructured"

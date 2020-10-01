@@ -84,7 +84,7 @@
                             <groupId>com.adobe.aem.guides</groupId>
                             <artifactId>aem-guides-wknd.ui.content.sample</artifactId>
                             <type>zip</type>
-                            <target>/apps/wknd-packages/content/install</target>
+                            <target>/apps/wknd-packages/sample/install</target>
                         </embedded>
                     </embeddeds>
                 </configuration>

@@ -8,6 +8,7 @@
         cq:lastModifiedBy="admin"
         jcr:primaryType="cq:PageContent"
         jcr:title="WKND Site"
+        sling:configRef="/conf/wknd"
         sling:redirect="true"
         sling:redirectStatus="{Long}302"
         sling:resourceType="foundation/components/redirect"
@@ -16,6 +17,4 @@
             <file/>
         </image>
     </jcr:content>
-    <language-masters/>
-    <us/>
 </jcr:root>
