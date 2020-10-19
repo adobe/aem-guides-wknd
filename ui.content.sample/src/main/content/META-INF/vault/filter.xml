@@ -2,12 +2,13 @@
 <workspaceFilter version="1.0">
 
     <!-- Content Filters -->
-    <filter root="/content/wknd" mode="merge"/>
+    <filter root="/content/wknd" mode="update"/>
     <!-- Changing the filter mode to merge will preserve any existing content on the target environment
     <filter root="/content/wknd" mode="merge"/>
     -->
-    <filter root="/content/dam/wknd" mode="merge"/>
-    <filter root="/content/experience-fragments/wknd" mode="merge"/>
+    <filter root="/conf/wknd/" mode="update" />
+    <filter root="/content/dam/wknd" mode="update"/>
+    <filter root="/content/experience-fragments/wknd" mode="update"/>
 
     <!-- WKND Member Group-->
     <filter root="/home/groups/wknd" mode="merge" />
