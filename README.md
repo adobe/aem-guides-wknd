@@ -59,13 +59,15 @@ The project has been designed for **AEM as a Cloud Service**. The project is als
 
     mvn clean install -PautoInstallSinglePackage -Pclassic
 
-### Building sample content
+### WKND Sample content
 
-By default, sample content from `ui.content.sample` will be deployed and will merge with any authored content during each build. If you wish to cleanly re-set an environment, modify the [filter.xml](ui.content.sample/src/main/content/META-INF/vault/filter.xml) file and remove the `mode=merge` attribute to cleanly overwrite the paths.
+By default, sample content from `ui.content.sample` will be deployed and installed along with the WKND code base. The WKND reference site is used for demo and training purposes and having a pre-built, fully authored site is useful. However, the behavior of including a full reference site (pages, images, etc...) in source control is *unusual* and is **not** recommended for a real-world implementation.
+
+Including `ui.content.sample` will **overwrite** any authored content during each build. If you wish to disable this behavior modify the [filter.xml](ui.content.sample/src/main/content/META-INF/vault/filter.xml) file and update the `mode=merge` attribute to avoid overwriting the paths.
 
 ```diff
-- <filter root="/content/wknd" mode="merge"/>
-+ <filter root="/content/wknd" />
+- <filter root="/content/wknd" mode="update"/>
++ <filter root="/content/wknd" mode="merge"/>
 ```
 
 ### Upgrading versions
