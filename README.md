@@ -66,7 +66,7 @@ By default, sample content from `ui.content.sample` will be deployed and install
 Including `ui.content.sample` will **overwrite** any authored content during each build. If you wish to disable this behavior modify the [filter.xml](ui.content.sample/src/main/content/META-INF/vault/filter.xml) file and update the `mode=merge` attribute to avoid overwriting the paths.
 
 ```diff
-- <filter root="/content/wknd" mode="update"/>
+- <filter root="/content/wknd" />
 + <filter root="/content/wknd" mode="merge"/>
 ```
 
