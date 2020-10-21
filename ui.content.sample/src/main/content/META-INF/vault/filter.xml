@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
 
-    <!-- Content Filters -->
-    <filter root="/content/wknd" mode="update"/>
     <!-- Changing the filter mode to merge will preserve any existing content on the target environment
     <filter root="/content/wknd" mode="merge"/>
+    More Details: http://jackrabbit.apache.org/filevault/importmode.html
     -->
+    <!-- Content Filters -->
+    <filter root="/content/wknd" />
     <filter root="/conf/wknd/" mode="update" />
     <filter root="/content/dam/wknd" mode="update"/>
-    <filter root="/content/experience-fragments/wknd" mode="update"/>
+    <filter root="/content/experience-fragments/wknd"/>
 
     <!-- WKND Member Group-->
     <filter root="/home/groups/wknd" mode="merge" />
