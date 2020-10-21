@@ -142,8 +142,7 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
+                    <release>11</release>
                 </configuration>
             </plugin>
              <!-- Staging Maven Plugin -->
@@ -660,7 +659,7 @@ Bundle-DocURL:
                 </snapshotRepository>
             </distributionManagement>
         </profile>
-        <!--<profile>
+        <profile>
             <id>cm-java-11</id>
             <activation>
                   <property>
@@ -691,7 +690,7 @@ Bundle-DocURL:
                     </plugin>
                 </plugins>
             </build>
-        </profile>-->
+        </profile>
     </profiles>
 
 
