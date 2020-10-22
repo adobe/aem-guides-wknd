@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-10-19T11:51:14.572-07:00"
+        cq:lastModifiedBy="admin"
+        cq:lastRolledout="{Date}2020-10-19T11:51:14.573-07:00"
+        cq:lastRolledoutBy="admin"
+        cq:tags="[]"
+        cq:template="/conf/wknd/settings/wcm/templates/landing-page-template"
+        jcr:description="WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world."
+        jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="WKND Adventures and Travel"
+        sling:resourceType="wknd/components/page"
+        pageTitle="Home">
+        <root
+            cq:lastRolledout="{Date}2020-10-19T11:51:14.559-07:00"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd/components/container">
+            <container
+                cq:lastRolledout="{Date}2020-10-19T11:51:14.568-07:00"
+                cq:lastRolledoutBy="admin"
+                jcr:created="{Date}2019-03-19T13:22:52.385-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-10-19T11:51:14.562-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:mixinTypes="[cq:LiveRelationship]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/container"
+                layout="responsiveGrid"/>
+        </root>
+        <cq:LiveSyncConfig
+            cq:isDeep="{Boolean}true"
+            cq:master="/content/wknd/language-masters/en"
+            cq:rolloutConfigs="[/libs/msm/wcm/rolloutconfigs/default]"
+            jcr:primaryType="cq:LiveCopy"/>
+    </jcr:content>
+</jcr:root>
