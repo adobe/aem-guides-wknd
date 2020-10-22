@@ -8,4 +8,5 @@
     sling:configRef="/conf/wknd">
     <language-masters/>
     <us/>
+    <ca/>
 </jcr:root>
