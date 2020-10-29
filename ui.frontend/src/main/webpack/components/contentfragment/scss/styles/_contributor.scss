@@ -1,0 +1,62 @@
+.cmp-contentfragment--contributor {
+
+  .cmp-contentfragment {
+    
+    .cmp-contentfragment__element-title {
+      display: none;
+    }
+
+    .cmp-contentfragment__element-value {
+      margin: 0;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .cmp-contentfragment__element--fullName {
+      border-bottom: solid 1px $gray-light;
+      font-size: 3rem;
+      margin-top: 1rem;
+      margin-bottom: 4rem;
+      padding-bottom: 2rem;
+      text-align: center;
+    }
+
+    .cmp-contentfragment__element--biographyText {
+      padding: 0;
+      margin: 0 2rem;
+
+      .cmp-contentfragment__element-value {
+        column-count: 2;
+        column-gap: 5rem;
+
+        img {
+          max-height: 275px;
+          object-fit: cover;
+        }
+
+        p {
+          line-height: 1.75rem;
+        }
+      }
+    }
+
+    .cmp-contentfragment__element--pictureReference {
+      display: none;
+    }
+        
+    .cmp-contentfragment__picture {
+      $pictureSize: 300px;
+
+      display: block;
+      height: $pictureSize;
+      width: $pictureSize;
+      border-radius: $pictureSize / 2;
+      border: solid 10px $gray-light;
+      object-fit: cover;
+      box-sizing: border-box;
+      margin: 0 auto;
+    }
+  }
+}
