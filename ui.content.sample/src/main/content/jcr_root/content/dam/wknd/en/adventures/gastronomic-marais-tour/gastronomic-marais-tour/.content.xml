@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="32129cbd-3699-437f-86a4-dad7903a63f3">
+    <jcr:content
+        cq:name="gastronomic-marais-tour"
+        cq:parentPath="/content/dam/wknd/en/adventures/gastronomic-marais-tour"
+        jcr:description=""
+        jcr:lastModified="{Date}2020-10-19T11:53:53.884-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Gastronomic Marais Tour"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2020-10-19T11:53:53.884-07:00">
+        <data
+            cq:model="/conf/wknd/settings/dam/cfm/models/adventure"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                adventureActivity="Social"
+                adventureActivity_x0040_LastModified="{Date}2020-10-19T11:53:53.869-07:00"
+                adventureDescription="&lt;p>Take a VIP gastronomic tour through the vibrant Marais, one of the oldest, colorful and historical areas of Paris. Our Marais expert, Marie Bernard will take food lovers to the top food shops, patisseries and chocolate shops as you take in Marais' unique atmosphere.&lt;/p>&#xa;"
+                adventureDescription_x0040_ContentType="text/html"
+                adventureDescription_x0040_LastModified="{Date}2020-10-19T11:53:53.868-07:00"
+                adventureDifficulty="Beginner"
+                adventureDifficulty_x0040_LastModified="{Date}2020-10-19T11:53:53.870-07:00"
+                adventureGearList="&lt;ul>&#xa;&lt;li>Comfortable walking shoes&lt;/li>&#xa;&lt;li>Camera&lt;/li>&#xa;&lt;li>Extra bag for shopping purchases&lt;/li>&#xa;&lt;/ul>&#xa;"
+                adventureGearList_x0040_ContentType="text/html"
+                adventureGearList_x0040_LastModified="{Date}2020-10-19T11:53:53.871-07:00"
+                adventureGroupSize="4-6"
+                adventureGroupSize_x0040_LastModified="{Date}2020-10-19T11:53:53.869-07:00"
+                adventureItinerary="&lt;p>Meet your guide and small group (maximum 6 people) in the center of the Le Marais district. Learn from Marie about the artisanal French cuisine and culinary specialties from surrounding countries that make this one of the most fascinating and delicious destinations in Paris. Walk from shop to shop and experience the trendy district while sampling regional wines and cheese and, of course, patisseries. Continue past top neighborhood sights like the Maison de Victor Hugo&amp;nbsp;and Place des Vosges, and browse Merci for vintage clothing and homeware accessories, gifts and stationary. Along the tour you’ll sample cured meats, craft cocktails, locally sourced foods and, of course, French wines. This tour offers convenient afternoon and evening start times, and includes all food and wine tastings and beverages..&lt;/p>&#xa;"
+                adventureItinerary_x0040_ContentType="text/html"
+                adventureItinerary_x0040_LastModified="{Date}2020-10-19T11:53:53.871-07:00"
+                adventurePrice="$95 USD"
+                adventurePrice_x0040_LastModified="{Date}2020-10-19T11:53:53.870-07:00"
+                adventurePrimaryImage="/content/dam/wknd/en/adventures/gastronomic-marais-tour/AdobeStock_270835979.jpg"
+                adventurePrimaryImage_x0040_LastModified="{Date}2020-10-19T11:53:53.870-07:00"
+                adventureTitle="Gastronomic Marais Tour"
+                adventureTitle_x0040_LastModified="{Date}2020-10-19T11:53:53.867-07:00"
+                adventureTripLength="1 Day"
+                adventureTripLength_x0040_LastModified="{Date}2020-10-19T11:53:53.869-07:00"
+                adventureType="Day Trip"
+                adventureType_x0040_LastModified="{Date}2020-10-19T11:53:53.868-07:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

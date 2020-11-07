@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="69d63095-9b4e-47e7-b725-7725666a8c7e">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2020-11-04T20:04:07.325-08:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2020-11-04T20:04:06.942-08:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="aebc802e88b036aff429ae723acaf51534a905f4"
+            dam:size="{Long}286633"
+            dc:format="image/jpeg"
+            dc:rights="©mariusltu - stock.adobe.com"
+            dc:title="Surfers. Balangan beach. Bali, Indonesia."
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}562"
+            tiff:ImageWidth="{Long}1000"
+            xmp:CreatorTool="Adobe Photoshop Lightroom 6.12 (Windows)"
+            xmpMM:DocumentID="xmp.did:17A6B27C0A5D11EBAE23BE8D2C701742"
+            xmpMM:InstanceID="xmp.iid:0D02F48E0A5D11EBAE23BE8D2C701742"
+            xmpMM:OriginalDocumentID="48DDC1525F037098452C502D2AB5C6E3">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="xmp.did:57e602b0-2c5d-3247-b948-35d25e8e29f6"
+                stRef:instanceID="xmp.iid:57e602b0-2c5d-3247-b948-35d25e8e29f6"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

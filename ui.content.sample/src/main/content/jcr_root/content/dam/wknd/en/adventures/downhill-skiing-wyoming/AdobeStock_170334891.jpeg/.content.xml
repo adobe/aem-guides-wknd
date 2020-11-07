@@ -8,7 +8,7 @@
         cq:name="AdobeStock_170334891.jpeg"
         cq:parentPath="/content/dam/wknd/en/adventures/downhill-skiing-wyoming"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-25T16:47:31.954-07:00"
+        jcr:lastModified="{Date}2020-11-04T20:04:09.013-08:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -127,7 +127,7 @@
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20161215"
             dam:DigitalCreationTime="170039-0800"
-            dam:extracted="{Date}2019-10-25T16:47:21.212-07:00"
+            dam:extracted="{Date}2020-11-04T20:04:08.195-08:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -138,7 +138,7 @@
             dam:Physicalwidthininches="{Decimal}18.81944465637207"
             dam:Progressive="no"
             dam:sha1="ad3bf9ccb439bb5cf8c691cf17cd79bebb2a803d"
-            dam:size="{Long}352491"
+            dam:size="{Long}355971"
             dam:TimeCreated="170039-0800"
             dc:date="{Long}[20161215,20161215,20161215]"
             dc:date_xmpArrayType="rdf:Seq"

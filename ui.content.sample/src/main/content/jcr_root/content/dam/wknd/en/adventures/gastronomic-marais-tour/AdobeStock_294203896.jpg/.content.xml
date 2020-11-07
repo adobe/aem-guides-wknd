@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="5771d384-33fa-45a3-8943-232e7b825f1d">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2020-11-04T20:04:05.745-08:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2020-11-04T20:04:05.256-08:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="2d49811717eb061aceb8b91e1c798131c1147f87"
+            dam:size="{Long}415953"
+            dc:format="image/jpeg"
+            dc:rights="©Ekaterina Belova - stock.adobe.com"
+            dc:title="Cozy street with tables of cafe in Paris, France"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}657"
+            tiff:ImageWidth="{Long}1000"
+            xmp:CreatorTool="Adobe Photoshop CC 2015 (Windows)"
+            xmpMM:DocumentID="xmp.did:68B61FFA0A5B11EBAE23BE8D2C701742"
+            xmpMM:InstanceID="xmp.iid:68B61FF90A5B11EBAE23BE8D2C701742"
+            xmpMM:OriginalDocumentID="AC92DE24718C0E44DD513F4EEA9892F0"
+            xmpRights:Marked="{Boolean}true">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="adobe:docid:photoshop:2b11a682-f7ca-304e-b8c5-e527265a77a2"
+                stRef:instanceID="xmp.iid:189e8b05-f188-4852-a430-9b33a00b5030"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -8,7 +8,7 @@
         cq:name="AdobeStock_227565072.jpeg"
         cq:parentPath="/content/dam/wknd/en/adventures/whistler-mountain-biking"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-25T16:47:27.699-07:00"
+        jcr:lastModified="{Date}2020-11-04T20:04:00.311-08:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -127,7 +127,7 @@
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20170822"
             dam:DigitalCreationTime="193439-0700"
-            dam:extracted="{Date}2019-10-25T16:47:21.194-07:00"
+            dam:extracted="{Date}2020-11-04T20:03:59.159-08:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -138,7 +138,7 @@
             dam:Physicalwidthininches="{Decimal}21.36111068725586"
             dam:Progressive="no"
             dam:sha1="c10e9dbd50dd31b71040028f4e65a3052ab484bf"
-            dam:size="{Long}551259"
+            dam:size="{Long}556517"
             dam:TimeCreated="193439-0700"
             dc:creator="[CHRISTIAN TISDALE,CHRISTIAN TISDALE,CHRISTIAN TISDALE]"
             dc:creator_xmpArrayType="rdf:Seq"

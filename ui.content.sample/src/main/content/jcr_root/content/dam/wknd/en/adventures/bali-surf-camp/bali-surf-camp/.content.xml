@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="1b726c3f-926f-4c2e-8bca-31d84e507ad8">
+    <jcr:content
+        cq:name="bali-surf-camp"
+        cq:parentPath="/content/dam/wknd/en/adventures/bali-surf-camp"
+        jcr:description=""
+        jcr:lastModified="{Date}2020-10-20T14:49:04.782-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Bali Surf Camp"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2020-10-20T14:49:04.782-07:00">
+        <data
+            cq:model="/conf/wknd/settings/dam/cfm/models/adventure"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                adventureActivity="Surfing"
+                adventureActivity_x0040_LastModified="{Date}2020-10-20T14:49:04.760-07:00"
+                adventureDescription="&lt;p>Surfing in Bali is on the bucket list of every surfer - whether you're a beginner or someone who's been surfing for decades, there will be a break to cater to your ability. Bali offers warm water, tropical vibes, awesome breaks and low cost expenses.&lt;/p>&#xa;"
+                adventureDescription_x0040_ContentType="text/html"
+                adventureDescription_x0040_LastModified="{Date}2020-10-20T14:49:04.759-07:00"
+                adventureDifficulty="Beginner"
+                adventureDifficulty_x0040_LastModified="{Date}2020-10-20T14:49:04.761-07:00"
+                adventureGearList="&lt;ul>&#xa;&lt;li>Surf shorts&lt;/li>&#xa;&lt;li>Boards, beach chairs and towels will be provided&lt;/li>&#xa;&lt;/ul>&#xa;"
+                adventureGearList_x0040_ContentType="text/html"
+                adventureGearList_x0040_LastModified="{Date}2020-10-20T14:49:04.762-07:00"
+                adventureGroupSize="5-6"
+                adventureGroupSize_x0040_LastModified="{Date}2020-10-20T14:49:04.760-07:00"
+                adventureItinerary="&lt;p>&lt;b>Keramas&lt;/b>&lt;/p>&#xa;&lt;p>The most famous break in Bali is home to a WSL stop and features a fast barrelling right-hand reef break. One of Bali's most consistent waves, you'll have fun on waves from 2ft to 20 ft.&lt;/p>&#xa;&lt;p>&lt;b>Nusa Dua&lt;/b>&lt;/p>&#xa;&lt;p>Home to the best right handers in Bali, Nusa Dua is famous for big wave surfing and is suitable for the advanced surfers in the group. The Nusa Dua reef has numerous waves that break on different tides and slightly different conditions.&lt;/p>&#xa;&lt;p>&lt;b>Sanur&lt;/b>&lt;/p>&#xa;&lt;p>Located on the East coast, Sanur only breaks when there is a big swell and is at it's best when it's well overhead. Waves break over a very sharp reef so be prepared to leave some skin behind.&lt;/p>&#xa;"
+                adventureItinerary_x0040_ContentType="text/html"
+                adventureItinerary_x0040_LastModified="{Date}2020-10-20T14:49:04.762-07:00"
+                adventurePrice="$5000 USD"
+                adventurePrice_x0040_LastModified="{Date}2020-10-20T14:49:04.761-07:00"
+                adventurePrimaryImage="/content/dam/wknd/en/adventures/bali-surf-camp/AdobeStock_175749320.jpg"
+                adventurePrimaryImage_x0040_LastModified="{Date}2020-10-20T14:49:04.761-07:00"
+                adventureTitle="Bali Surf Camp"
+                adventureTitle_x0040_LastModified="{Date}2020-10-20T14:49:04.758-07:00"
+                adventureTripLength="6 Days"
+                adventureTripLength_x0040_LastModified="{Date}2020-10-20T14:49:04.760-07:00"
+                adventureType="Overnight Trip"
+                adventureType_x0040_LastModified="{Date}2020-10-20T14:49:04.759-07:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

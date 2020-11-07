@@ -8,7 +8,7 @@
         cq:name="AdobeStock_75620750.jpeg"
         cq:parentPath="/content/dam/wknd/en/adventures/ski-touring-mont-blanc"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-25T16:48:40.452-07:00"
+        jcr:lastModified="{Date}2020-11-04T20:03:57.144-08:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -118,7 +118,7 @@
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20130804"
             dam:DigitalCreationTime="121957-0700"
-            dam:extracted="{Date}2019-10-25T16:47:43.571-07:00"
+            dam:extracted="{Date}2020-11-04T20:03:56.548-08:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -129,7 +129,7 @@
             dam:Physicalwidthininches="{Decimal}17.27777862548828"
             dam:Progressive="no"
             dam:sha1="d8b51e1fc98fcd4cc0b9bb24b79099d76369e369"
-            dam:size="{Long}527996"
+            dam:size="{Long}535082"
             dam:TimeCreated="121957-0700"
             dc:date="{Long}[20130804,20130804,20130804]"
             dc:date_xmpArrayType="rdf:Seq"

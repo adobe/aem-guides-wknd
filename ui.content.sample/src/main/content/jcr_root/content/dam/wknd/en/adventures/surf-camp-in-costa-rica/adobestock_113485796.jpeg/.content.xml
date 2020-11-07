@@ -5,7 +5,7 @@
     jcr:uuid="9e50125b-88ac-489a-b20f-318aa052b3ff">
     <jcr:content
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-25T17:04:08.830-07:00"
+        jcr:lastModified="{Date}2020-11-04T20:04:04.149-08:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Aerial view of Concepcion Volcano green landscape against cloudy sky">
@@ -124,7 +124,7 @@
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20151205"
             dam:DigitalCreationTime="180105+0000"
-            dam:extracted="{Date}2019-10-25T17:04:07.206-07:00"
+            dam:extracted="{Date}2020-11-04T20:04:03.339-08:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -139,13 +139,13 @@
             dam:Sublocation="Volcan Momotombo"
             dam:TimeCreated="180105+0000"
             dam:Unknown="0:0:0:001643"
-            dc:creator="[Cavan Images,Cavan Images,Cavan Images]"
+            dc:creator="[Cavan Images]"
             dc:creator_xmpArrayType="rdf:Seq"
             dc:date="{Long}[20151205]"
             dc:date_xmpArrayType="rdf:Bag"
             dc:format="image/jpeg"
             dc:rights="©Cavan Images - stock.adobe.com"
-            dc:subject="[volcano,nicaragua,aerial view,concepcion,landscape,green color,travel,clouds,sky,mountain,lake,weather,grass,nature,leon,beauty in nature,idyllic,remote,scenic,hill,tranquil scene,tranquility,outdoors,day,no people,non urban scene,volcano,nicaragua,aerial view,concepcion,landscape,green color,travel,clouds,sky,mountain,lake,weather,grass,nature,leon,beauty in nature,idyllic,remote,scenic,hill,tranquil scene,tranquility,outdoors,day,no people,non urban scene,volcano,nicaragua,aerial view,concepcion,landscape,green color,travel,clouds,sky,mountain,lake,weather,grass,nature,leon,beauty in nature,idyllic,remote,scenic,hill,tranquil scene,tranquility,outdoors,day,no people,non urban scene]"
+            dc:subject="[volcano,nicaragua,aerial view,concepcion,landscape,green color,travel,clouds,sky,mountain,lake,weather,grass,nature,leon,beauty in nature,idyllic,remote,scenic,hill,tranquil scene,tranquility,outdoors,day,no people,non urban scene]"
             dc:subject_xmpArrayType="rdf:Bag"
             dc:title="Aerial view of Concepcion Volcano green landscape against cloudy sky"
             exif:ApertureValue="8376/1481"

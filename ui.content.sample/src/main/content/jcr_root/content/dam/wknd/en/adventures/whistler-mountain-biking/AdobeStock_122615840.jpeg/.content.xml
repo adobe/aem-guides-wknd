@@ -8,7 +8,7 @@
         cq:name="AdobeStock_122615840.jpeg"
         cq:parentPath="/content/dam/wknd/en/adventures/whistler-mountain-biking"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-25T16:48:20.239-07:00"
+        jcr:lastModified="{Date}2020-11-04T20:04:02.549-08:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -85,7 +85,7 @@
             crs:VignetteAmount="{Long}0"
             dam:Bitsperpixel="{Long}24"
             dam:EditStatus="MR"
-            dam:extracted="{Date}2019-10-25T16:47:34.034-07:00"
+            dam:extracted="{Date}2020-11-04T20:04:01.779-08:00"
             dam:Fileformat="JPEG"
             dam:FixtureIdentifier="horizontal"
             dam:MIMEtype="image/jpeg"
@@ -97,7 +97,7 @@
             dam:Physicalwidthininches="{Decimal}16.875"
             dam:Progressive="no"
             dam:sha1="35432474baceb7ddae74cc95b018ccf8232c0b1c"
-            dam:size="{Long}548025"
+            dam:size="{Long}561596"
             dam:SpecialInstructions="PRNR"
             dam:Sublocation="Golden, British Columbia, Canada"
             dam:TimeCreated="055540-0700"

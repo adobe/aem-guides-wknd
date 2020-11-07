@@ -8,12 +8,12 @@
         cq:name="AdobeStock_59459597.jpeg"
         cq:parentPath="/content/dam/wknd/en/adventures/cycling-tuscany"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-25T16:48:02.307-07:00"
+        jcr:lastModified="{Date}2020-11-04T20:04:04.915-08:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2019-10-25T16:47:44.971-07:00"
+            dam:extracted="{Date}2020-11-04T20:04:04.305-08:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -24,7 +24,7 @@
             dam:Physicalwidthininches="{Decimal}19.19444465637207"
             dam:Progressive="no"
             dam:sha1="8a8cd0195b2f708ad273d0fe80f0a8e1b7bc6d3b"
-            dam:size="{Long}772363"
+            dam:size="{Long}776390"
             dc:creator="[Sergey Borisov,Sergey Borisov,Sergey Borisov]"
             dc:creator_xmpArrayType="rdf:Seq"
             dc:description="Aerial view over city of Siena, Italy"

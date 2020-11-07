@@ -8,7 +8,7 @@
         cq:name="AdobeStock_200192344.jpeg"
         cq:parentPath="/content/dam/wknd/en/adventures/beervana-portland"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-25T16:48:06.411-07:00"
+        jcr:lastModified="{Date}2020-11-04T20:04:12.135-08:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -133,7 +133,7 @@
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20161117"
             dam:DigitalCreationTime="112556-0800"
-            dam:extracted="{Date}2019-10-25T16:47:39.522-07:00"
+            dam:extracted="{Date}2020-11-04T20:04:11.375-08:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -144,7 +144,7 @@
             dam:Physicalwidthininches="{Decimal}24.44444465637207"
             dam:Progressive="no"
             dam:sha1="02d7659839cad49512ba39289a0dc9c97e1f637d"
-            dam:size="{Long}507228"
+            dam:size="{Long}523404"
             dam:TimeCreated="112556-0800"
             dc:date="{Long}[20161117,20161117,20161117,20161117,20161117,20161117,20161117]"
             dc:date_xmpArrayType="rdf:Seq"
