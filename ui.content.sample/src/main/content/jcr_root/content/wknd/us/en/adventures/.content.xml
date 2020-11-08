@@ -4,7 +4,7 @@
     <jcr:content
         cq:lastModified="{Date}2020-09-30T17:38:07.368-07:00"
         cq:lastModifiedBy="admin"
-        cq:lastRolledout="{Date}2020-09-30T17:38:21.205-07:00"
+        cq:lastRolledout="{Date}2020-11-08T12:48:39.026-08:00"
         cq:lastRolledoutBy="admin"
         cq:tags="[wknd:customer-journey/attract,wknd:customer-journey/engage,wknd:activity/surfing]"
         cq:template="/conf/wknd/settings/wcm/templates/landing-page-template"
@@ -235,4 +235,12 @@
     <cycling-tuscany/>
     <climbing-new-zealand/>
     <downhill-skiing-wyoming/>
+    <bali-surf-camp/>
+    <colorado-rock-climbing/>
+    <cycling-southern-utah/>
+    <napa-wine-tasting/>
+    <gastronomic-marais-tour/>
+    <tahoe-skiing/>
+    <yosemite-backpacking/>
+    <west-coast-cycling/>
 </jcr:root>
