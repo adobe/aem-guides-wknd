@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="236d4ad1-1b91-42d2-a9f7-9becd0d42fc3">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2020-11-04T20:04:08.074-08:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2020-11-04T20:04:07.636-08:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="e59c01436c989089b6ffe6a8d87145b6025fb7dc"
+            dam:size="{Long}443800"
+            dc:format="image/jpeg"
+            dc:rights="©Aleksei Potov - stock.adobe.com"
+            dc:title="family in yosemite"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}667"
+            tiff:ImageWidth="{Long}1000"
+            xmp:CreatorTool="Adobe Photoshop CC 2017 (Macintosh)"
+            xmpMM:DocumentID="xmp.did:D669AA2F0A5C11EBAE23BE8D2C701742"
+            xmpMM:InstanceID="xmp.iid:D669AA2E0A5C11EBAE23BE8D2C701742"
+            xmpMM:OriginalDocumentID="D251C23A1864185CF176C07B694F3A18">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="adobe:docid:photoshop:230a0afa-6ba4-117b-a70e-c3cbc4dad276"
+                stRef:instanceID="xmp.iid:c7697a89-65ac-4fe8-8262-0b01aac0911e"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

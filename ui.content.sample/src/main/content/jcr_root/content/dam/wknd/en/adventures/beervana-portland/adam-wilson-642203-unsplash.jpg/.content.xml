@@ -8,12 +8,12 @@
         cq:name="adam-wilson-642203-unsplash.jpg"
         cq:parentPath="/content/dam/wknd/en/adventures/beervana-portland"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-25T16:48:35.080-07:00"
+        jcr:lastModified="{Date}2020-11-04T20:04:09.141-08:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2019-10-25T16:48:04.110-07:00"
+            dam:extracted="{Date}2020-11-04T20:04:08.633-08:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -24,7 +24,7 @@
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="no"
             dam:sha1="896b20dbac2a60e8947eab73816a6d578c11d6e0"
-            dam:size="{Long}238788"
+            dam:size="{Long}241756"
             dc:format="image/jpeg"
             dc:modified="{Date}2019-10-25T16:48:33.254-07:00"
             jcr:lastModified="{Date}2019-10-25T16:48:33.254-07:00"

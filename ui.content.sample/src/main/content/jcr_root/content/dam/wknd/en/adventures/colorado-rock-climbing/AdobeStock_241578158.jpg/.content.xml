@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="4454dec4-f254-4736-be48-d7f10392c027">
+    <jcr:content
+        cq:lastReplicated="{Date}2020-10-20T10:55:25.493-07:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2020-11-04T20:04:04.666-08:00"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2020-11-04T20:04:04.283-08:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="469b2c0fd948b768fe8325f1e8bf2595cce999d0"
+            dam:size="{Long}340448"
+            dc:format="image/jpeg"
+            dc:rights="©DisobeyArt - stock.adobe.com"
+            dc:title="Young woman climbing a rock wall in a canyon - Strong climber training outdoor - Travel, female power and extreme dangerous sport concept - Focus on her head"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}667"
+            tiff:ImageWidth="{Long}1000"
+            xmp:CreatorTool="Adobe Photoshop Lightroom Classic 7.4 (Windows)"
+            xmpMM:DocumentID="xmp.did:914D70A40A5B11EBAE23BE8D2C701742"
+            xmpMM:InstanceID="xmp.iid:914D70A30A5B11EBAE23BE8D2C701742"
+            xmpMM:OriginalDocumentID="E1249F29DF42CD98A050B4C28E13C0A0">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="xmp.did:4b82f9a3-0176-0a47-82eb-105daf265f24"
+                stRef:instanceID="xmp.iid:4b82f9a3-0176-0a47-82eb-105daf265f24"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

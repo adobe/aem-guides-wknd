@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="a3409558-ad02-422a-9952-a880ee16f06c">
+    <jcr:content
+        cq:lastReplicated="{Date}2020-10-20T10:55:25.493-07:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:name="colorado-rock-climbing"
+        cq:parentPath="/content/dam/wknd/en/adventures/colorado-rock-climbing"
+        jcr:description=""
+        jcr:lastModified="{Date}2020-10-27T13:59:01.567-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Colorado Rock Climbing"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2020-10-27T13:59:01.567-07:00">
+        <data
+            cq:model="/conf/wknd/settings/dam/cfm/models/adventure"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                adventureActivity="Rock Climbing"
+                adventureActivity_x0040_LastModified="{Date}2020-10-27T13:59:01.542-07:00"
+                adventureDescription="&lt;p>With all of Colorado's beautiful peaks, rock formations and gorgeous mountain views, it's not hard for rock climbers to find a little slice of climbing paradise nearly everywhere they go. On this tour we'll take you to the top parks in Colorado so you can experience the diverse climbing landscape that has made Colorado a goto destination for rock climbers from around the world.&lt;/p>&#xa;"
+                adventureDescription_x0040_ContentType="text/html"
+                adventureDescription_x0040_LastModified="{Date}2020-10-27T13:59:01.541-07:00"
+                adventureDifficulty="Advanced"
+                adventureDifficulty_x0040_LastModified="{Date}2020-10-27T13:59:01.543-07:00"
+                adventureGearList="&lt;ul>&#xa;&lt;li>Climbing shoes&lt;/li>&#xa;&lt;li>Sleeping bag&lt;/li>&#xa;&lt;li>Pants&lt;/li>&#xa;&lt;li>Shorts&lt;/li>&#xa;&lt;li>Jacket&lt;/li>&#xa;&lt;li>Hat&lt;/li>&#xa;&lt;/ul>&#xa;"
+                adventureGearList_x0040_ContentType="text/html"
+                adventureGearList_x0040_LastModified="{Date}2020-10-27T13:59:01.545-07:00"
+                adventureGroupSize="8"
+                adventureGroupSize_x0040_LastModified="{Date}2020-10-27T13:59:01.543-07:00"
+                adventureItinerary="&lt;h2>Garden of the Gods&lt;/h2>&#xa;&lt;p>A local favorite close to Colorado Springs, the Garden of the Gods features paved hiking trails that wind through a natural rock garden of red sandstone formed by 300 million years of geological activity..&lt;/p>&#xa;&lt;h2>Rocky Mountain National Park&lt;/h2>&#xa;&lt;p>Rocky Mountain National Park encompasses 415 square miles containing 300 miles of hiking trails, wildlife, alpine worlds and of course world class rock climbing. Keep an eye out for elk, bighorn sheep, moose and mule deer.&lt;/p>&#xa;&lt;h2>Castlewood Canyon State Park&lt;/h2>&#xa;&lt;p>This park offers something for all skill levels from 20 feet to 60 feet. The routes are short but we'll be able to get multiple climbs for the day. We'll enjoy a picnic at the Bridge Canyon Overlook.&lt;/p>&#xa;"
+                adventureItinerary_x0040_ContentType="text/html"
+                adventureItinerary_x0040_LastModified="{Date}2020-10-27T13:59:01.544-07:00"
+                adventurePrice="$1000 USD"
+                adventurePrice_x0040_LastModified="{Date}2020-10-27T13:59:01.543-07:00"
+                adventurePrimaryImage="/content/dam/wknd/en/adventures/colorado-rock-climbing/AdobeStock_241578158.jpg"
+                adventurePrimaryImage_x0040_LastModified="{Date}2020-10-27T13:59:01.544-07:00"
+                adventureTitle="Overnight Colorado Rock Climbing"
+                adventureTitle_x0040_LastModified="{Date}2020-10-27T13:59:01.540-07:00"
+                adventureTripLength="3 Days"
+                adventureTripLength_x0040_LastModified="{Date}2020-10-27T13:59:01.542-07:00"
+                adventureType="Overnight Trip"
+                adventureType_x0040_LastModified="{Date}2020-10-27T13:59:01.541-07:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

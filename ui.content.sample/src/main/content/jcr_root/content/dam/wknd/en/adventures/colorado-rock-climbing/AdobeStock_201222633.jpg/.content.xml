@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="755ea66a-4063-48ae-9871-6cd000f129d4">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2020-11-04T20:04:01.674-08:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2020-11-04T20:04:01.224-08:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="4888a1b68288d6aa956ef76e03ab739204bdfa3c"
+            dam:size="{Long}376123"
+            dc:format="image/jpeg"
+            dc:rights="©Jeremy Janus - stock.adobe.com"
+            dc:title="Garden of the Gods in Colorado"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}667"
+            tiff:ImageWidth="{Long}1000"
+            xmp:CreatorTool="Adobe Photoshop Lightroom Classic 7.3 (Windows)"
+            xmpMM:DocumentID="xmp.did:D669AA270A5C11EBAE23BE8D2C701742"
+            xmpMM:InstanceID="xmp.iid:D669AA260A5C11EBAE23BE8D2C701742"
+            xmpMM:OriginalDocumentID="9350A29ACF48C5D9A8FACD310130CA4A">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="xmp.did:ea226b13-2a08-7544-a081-85431d79da08"
+                stRef:instanceID="xmp.iid:ea226b13-2a08-7544-a081-85431d79da08"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

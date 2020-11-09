@@ -5,7 +5,7 @@
     jcr:uuid="1a67f6fa-91ce-4f22-b657-86367096fa11">
     <jcr:content
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-25T17:04:04.765-07:00"
+        jcr:lastModified="{Date}2020-11-04T20:04:03.241-08:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Male Surfer">
@@ -126,7 +126,7 @@
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20180131"
             dam:DigitalCreationTime="101922+0000"
-            dam:extracted="{Date}2019-10-25T17:04:03.225-07:00"
+            dam:extracted="{Date}2020-11-04T20:04:02.592-08:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -139,14 +139,14 @@
             dam:sha1="1831a40f10582616a48e751acb3e313301986ba7"
             dam:size="{Long}211418"
             dam:TimeCreated="101922+0000"
-            dc:creator="[Aaron Thomas,Aaron Thomas,Aaron Thomas]"
+            dc:creator="[Aaron Thomas]"
             dc:creator_xmpArrayType="rdf:Seq"
             dc:date="{Long}[20180131]"
             dc:date_xmpArrayType="rdf:Bag"
             dc:description="Guy in Costa Rica catching waves."
             dc:format="image/jpeg"
             dc:rights="©Aaron Thomas/Stocksy - stock.adobe.com"
-            dc:subject="[surf,costa rica,outdoors,ocean,nature,sailboard,life,in motion,horizontal,copy space,hobby,yoga,freestyle,wind,freedom,wave,extreme,water,explore,vertical,experience,vacation,country,tropical,coastline,central america,travel,beach,tourist,athletic,surfing,adventure,surfer,adrenaline,sunny,active,summer,action,spot,sporting,sport,splash,speed,shore,seascape,sea,sand,sail,recreation,person,pacific,mixed race,multiracial,man,male,people,adult,adults,20s,grownup,grownups,surf,costa rica,outdoors,ocean,nature,sailboard,life,in motion,horizontal,copy space,hobby,yoga,freestyle,wind,freedom,wave,extreme,water,explore,vertical,experience,vacation,country,tropical,coastline,central america,travel,beach,tourist,athletic,surfing,adventure,surfer,adrenaline,sunny,active,summer,action,spot,sporting,sport,splash,speed,shore,seascape,sea,sand,sail,recreation,person,pacific,mixed race,multiracial,man,male,people,adult,adults,20s,grownup,grownups,surf,costa rica,outdoors,ocean,nature,sailboard,life,in motion,horizontal,copy space,hobby,yoga,freestyle,wind,freedom,wave,extreme,water,explore,vertical,experience,vacation,country,tropical,coastline,central america,travel,beach,tourist,athletic,surfing,adventure,surfer,adrenaline,sunny,active,summer,action,spot,sporting,sport,splash,speed,shore,seascape,sea,sand,sail,recreation,person,pacific,mixed race,multiracial,man,male,people,adult,adults,20s,grownup,grownups]"
+            dc:subject="[surf,costa rica,outdoors,ocean,nature,sailboard,life,in motion,horizontal,copy space,hobby,yoga,freestyle,wind,freedom,wave,extreme,water,explore,vertical,experience,vacation,country,tropical,coastline,central america,travel,beach,tourist,athletic,surfing,adventure,surfer,adrenaline,sunny,active,summer,action,spot,sporting,sport,splash,speed,shore,seascape,sea,sand,sail,recreation,person,pacific,mixed race,multiracial,man,male,people,adult,adults,20s,grownup,grownups]"
             dc:subject_xmpArrayType="rdf:Bag"
             dc:title="Male Surfer"
             exif:ApertureValue="24361/8200"
@@ -244,6 +244,11 @@
                 exif:Return="{Long}0"
                 jcr:primaryType="nt:unstructured"
                 xmpNodeType="xmpStruct"/>
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="4DE2185B861DDB838D8DA111C5742D25"
+                stRef:originalDocumentID="4DE2185B861DDB838D8DA111C5742D25"
+                xmpNodeType="xmpStruct"/>
             <crs:RetouchAreas
                 jcr:primaryType="nt:unstructured"
                 xmpArraySize="{Long}2"
@@ -306,11 +311,6 @@
                     </crs:Masks>
                 </_x0032_>
             </crs:RetouchAreas>
-            <xmpMM:DerivedFrom
-                jcr:primaryType="nt:unstructured"
-                stRef:documentID="4DE2185B861DDB838D8DA111C5742D25"
-                stRef:originalDocumentID="4DE2185B861DDB838D8DA111C5742D25"
-                xmpNodeType="xmpStruct"/>
             <xmpMM:History
                 jcr:primaryType="nt:unstructured"
                 xmpArraySize="{Long}3"

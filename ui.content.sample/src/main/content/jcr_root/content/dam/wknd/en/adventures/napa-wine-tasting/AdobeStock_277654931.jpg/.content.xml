@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="98b83ffc-1739-46ed-a837-b3662067499f">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2020-11-04T20:03:56.776-08:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2020-11-04T20:03:56.403-08:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="6d7f2d09a7d8fbb370e965360bf89e0fd57e3767"
+            dam:size="{Long}195304"
+            dc:creator="[Robert Kneschke]"
+            dc:creator_xmpArrayType="rdf:Seq"
+            dc:format="image/jpeg"
+            dc:rights="©Robert Kneschke - stock.adobe.com"
+            dc:title="Woman is drinking a glass of wine on a wine tasting"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            photoshop:AuthorsPosition="Fotorproduzent"
+            tiff:ImageLength="{Long}667"
+            tiff:ImageWidth="{Long}1000"
+            xmp:CreatorTool="Adobe Photoshop CC 2019 (Windows)"
+            xmpMM:DocumentID="xmp.did:7F62A0750A5B11EBAE23BE8D2C701742"
+            xmpMM:InstanceID="xmp.iid:7F62A0740A5B11EBAE23BE8D2C701742"
+            xmpMM:OriginalDocumentID="97E5C40E3B5702094177A2BD74C070F2"
+            xmpRights:Marked="{Boolean}true"
+            xmpRights:WebStatement="https://www.robertkneschke.de">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="adobe:docid:photoshop:2085d6f3-d89c-c441-97a3-5e0bd243a545"
+                stRef:instanceID="xmp.iid:d994546e-7ce7-d247-ada4-4fdbb692ccde"
+                xmpNodeType="xmpStruct"/>
+            <Iptc4xmpCore:CreatorContactInfo
+                Iptc4xmpCore:CiAdrCity="Köln"
+                Iptc4xmpCore:CiAdrCtry="Deutschland"
+                Iptc4xmpCore:CiAdrExtadr="Bleichstr. 9, 51063 Köln, Germany"
+                Iptc4xmpCore:CiAdrPcode="51063"
+                Iptc4xmpCore:CiAdrRegion="NRW"
+                Iptc4xmpCore:CiEmailWork="robert.kneschke@gmx.net"
+                Iptc4xmpCore:CiTelWork="+49/(0)221-34 66 26 66"
+                Iptc4xmpCore:CiUrlWork="https://www.robertkneschke.de"
+                jcr:primaryType="nt:unstructured"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -8,7 +8,7 @@
         cq:name="AdobeStock_140634652.jpeg"
         cq:parentPath="/content/dam/wknd/en/adventures/climbing-new-zealand"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-25T16:48:05.857-07:00"
+        jcr:lastModified="{Date}2020-11-04T20:03:59.599-08:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -140,7 +140,7 @@
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20160330"
             dam:DigitalCreationTime="194003-0700"
-            dam:extracted="{Date}2019-10-25T16:47:54.370-07:00"
+            dam:extracted="{Date}2020-11-04T20:03:58.325-08:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -151,7 +151,7 @@
             dam:Physicalwidthininches="{Decimal}17.95833396911621"
             dam:Progressive="no"
             dam:sha1="877fa94e4d740eac66714cbce898afd59c3b5ebd"
-            dam:size="{Long}684878"
+            dam:size="{Long}688150"
             dam:TimeCreated="194003-0700"
             dc:date="{Long}[20160330,20160330,20160330]"
             dc:date_xmpArrayType="rdf:Seq"

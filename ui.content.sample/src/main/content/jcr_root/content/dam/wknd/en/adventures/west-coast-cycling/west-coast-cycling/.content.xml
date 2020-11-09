@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="e5f39523-f5c8-49b0-bcd1-4e6329031967">
+    <jcr:content
+        cq:name="west-coast-cycling"
+        cq:parentPath="/content/dam/wknd/en/adventures/west-coast-cycling"
+        jcr:description=""
+        jcr:lastModified="{Date}2020-10-19T11:55:44.500-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="West Coast Cycling"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2020-10-19T11:55:44.501-07:00">
+        <data
+            cq:model="/conf/wknd/settings/dam/cfm/models/adventure"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                adventureActivity="Cycling"
+                adventureActivity_x0040_LastModified="{Date}2020-10-19T11:55:44.478-07:00"
+                adventureDescription="&lt;p>Join us for this once in a lifetime bike trip traveling from San Francisco to Portland cycling along the Pacific Coast. Experience world class terrain as we head north through redwood forests, state parks, the Columbia river and the Pacific ocean.&lt;/p>&#xa;"
+                adventureDescription_x0040_ContentType="text/html"
+                adventureDescription_x0040_LastModified="{Date}2020-10-19T11:55:44.477-07:00"
+                adventureDifficulty="Intermediate"
+                adventureDifficulty_x0040_LastModified="{Date}2020-10-19T11:55:44.479-07:00"
+                adventureGearList="&lt;ul>&#xa;&lt;li>Bike&lt;/li>&#xa;&lt;li>Cycling clothes&lt;/li>&#xa;&lt;li>Water bottles&lt;/li>&#xa;&lt;/ul>&#xa;"
+                adventureGearList_x0040_ContentType="text/html"
+                adventureGearList_x0040_LastModified="{Date}2020-10-19T11:55:44.481-07:00"
+                adventureGroupSize="12"
+                adventureGroupSize_x0040_LastModified="{Date}2020-10-19T11:55:44.479-07:00"
+                adventureItinerary="&lt;h2>San Francisco to Eureka&lt;br>&#xa;&lt;/h2>&#xa;&lt;p>Start the tour by cycling across the iconic Golden Gate Bridge and then making our way to the coast to ride up Highway One &amp;nbsp;where we'll go through Point Reyes National Seashore and the gorgeous Sonoma coast.&lt;/p>&#xa;&lt;h2>Eureka to Bandon&lt;br>&#xa;&lt;/h2>&#xa;&lt;p>Be prepared for giant trees over 2,000 years old and over 300 feet tall as we start the day in Eureka. On our way to Bandon we'll visit&amp;nbsp;quintessential quaint towns offering saltwater taffy shops, lovable harbors and the best clam chowder in the Pacific Northwest.&lt;/p>&#xa;&lt;h2>Bandon to Portland&lt;br>&#xa;&lt;/h2>&#xa;&lt;p>For the golfers amongst us, we'll have some downtime to fit in golf at one of the top golf resorts in the country. We'll start our final leg along the Columbia River. After lunch in historic Astoria, we'll continue along a route featuring resort towns including Seaside and Cannon Beach.&lt;/p>&#xa;"
+                adventureItinerary_x0040_ContentType="text/html"
+                adventureItinerary_x0040_LastModified="{Date}2020-10-19T11:55:44.480-07:00"
+                adventurePrice="$4500 USD"
+                adventurePrice_x0040_LastModified="{Date}2020-10-19T11:55:44.480-07:00"
+                adventurePrimaryImage="/content/dam/wknd/en/adventures/west-coast-cycling/AdobeStock_151584995.jpg"
+                adventurePrimaryImage_x0040_LastModified="{Date}2020-10-19T11:55:44.480-07:00"
+                adventureTitle="West Coast Cycling"
+                adventureTitle_x0040_LastModified="{Date}2020-10-19T11:55:44.477-07:00"
+                adventureTripLength="5 days"
+                adventureTripLength_x0040_LastModified="{Date}2020-10-19T11:55:44.478-07:00"
+                adventureType="Overnight Trip"
+                adventureType_x0040_LastModified="{Date}2020-10-19T11:55:44.478-07:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

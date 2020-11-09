@@ -5,7 +5,7 @@
     jcr:uuid="d143d448-e834-467b-951a-0699f92634aa">
     <jcr:content
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-25T17:04:03.106-07:00"
+        jcr:lastModified="{Date}2020-11-04T20:04:03.256-08:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Trees growing by sea against sky during sunset">
@@ -124,7 +124,7 @@
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20151122"
             dam:DigitalCreationTime="165338+0000"
-            dam:extracted="{Date}2019-10-25T17:04:01.967-07:00"
+            dam:extracted="{Date}2020-11-04T20:04:02.473-08:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -138,13 +138,13 @@
             dam:size="{Long}658207"
             dam:TimeCreated="165338+0000"
             dam:Unknown="0:0:0:000000"
-            dc:creator="[Cavan Images,Cavan Images,Cavan Images]"
+            dc:creator="[Cavan Images]"
             dc:creator_xmpArrayType="rdf:Seq"
             dc:date="{Long}[20151122]"
             dc:date_xmpArrayType="rdf:Bag"
             dc:format="image/jpeg"
             dc:rights="©Cavan Images - stock.adobe.com"
-            dc:subject="[trees,sky,sea,growing,sunset,clouds,green,growth,fog,weather,nature,beauty,costa rica,tranquil scene,travel,travel destinations,tranquility,remote,mountains,outdoors,no people,trees,sky,sea,growing,sunset,clouds,green,growth,fog,weather,nature,beauty,costa rica,tranquil scene,travel,travel destinations,tranquility,remote,mountains,outdoors,no people,trees,sky,sea,growing,sunset,clouds,green,growth,fog,weather,nature,beauty,costa rica,tranquil scene,travel,travel destinations,tranquility,remote,mountains,outdoors,no people]"
+            dc:subject="[trees,sky,sea,growing,sunset,clouds,green,growth,fog,weather,nature,beauty,costa rica,tranquil scene,travel,travel destinations,tranquility,remote,mountains,outdoors,no people]"
             dc:subject_xmpArrayType="rdf:Bag"
             dc:title="Trees growing by sea against sky during sunset"
             exif:ApertureValue="40761/8200"
@@ -249,6 +249,16 @@
                 stRef:instanceID="xmp.iid:A362A31F08206811822AEDC05BE53BBA"
                 stRef:originalDocumentID="AB69F36B19E63F528E6EE460FF8216B7"
                 xmpNodeType="xmpStruct"/>
+            <Iptc4xmpCore:CreatorContactInfo
+                Iptc4xmpCore:CiAdrCity="New York"
+                Iptc4xmpCore:CiAdrCtry="USA"
+                Iptc4xmpCore:CiAdrExtadr="250 West Broadway 5th Floor"
+                Iptc4xmpCore:CiAdrPcode="10013"
+                Iptc4xmpCore:CiAdrRegion="NY"
+                Iptc4xmpCore:CiEmailWork="info@cavanimages.com"
+                Iptc4xmpCore:CiTelWork="212 219 0518"
+                jcr:primaryType="nt:unstructured"
+                xmpNodeType="xmpStruct"/>
             <xmpMM:History
                 jcr:primaryType="nt:unstructured"
                 xmpArraySize="{Long}13"
@@ -344,16 +354,6 @@
                     stEvt:when="{Date}2019-10-24T15:33:03.000-07:00"
                     xmpNodeType="xmpStruct"/>
             </xmpMM:History>
-            <Iptc4xmpCore:CreatorContactInfo
-                Iptc4xmpCore:CiAdrCity="New York"
-                Iptc4xmpCore:CiAdrCtry="USA"
-                Iptc4xmpCore:CiAdrExtadr="250 West Broadway 5th Floor"
-                Iptc4xmpCore:CiAdrPcode="10013"
-                Iptc4xmpCore:CiAdrRegion="NY"
-                Iptc4xmpCore:CiEmailWork="info@cavanimages.com"
-                Iptc4xmpCore:CiTelWork="212 219 0518"
-                jcr:primaryType="nt:unstructured"
-                xmpNodeType="xmpStruct"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
         <usages

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="83bf61f4-9088-4aee-811b-5577e4c9bb4c">
+    <jcr:content
+        cq:name="yosemite-backpacking"
+        cq:parentPath="/content/dam/wknd/en/adventures/yosemite-backpacking"
+        jcr:description=""
+        jcr:lastModified="{Date}2020-11-05T13:18:58.100-08:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Yosemite Backpacking"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2020-11-05T13:18:58.100-08:00">
+        <data
+            cq:model="/conf/wknd/settings/dam/cfm/models/adventure"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                adventureActivity="Camping"
+                adventureActivity_x0040_LastModified="{Date}2020-11-05T13:18:58.025-08:00"
+                adventureDescription="&lt;p>Yosemite National Park, designated a World Heritage Site in 1984, is best known for its granite cliffs, waterfalls and giant sequoias, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, glaciers and lakes. The majority of visitors spend their time in the Yosemite Valley, which we'll also explore, but on this trip we'll take you to the backcountry that inspired John Muir to lead a movement to have Congress establish Yosemite as we know it today.&lt;/p>&#xa;"
+                adventureDescription_x0040_ContentType="text/html"
+                adventureDescription_x0040_LastModified="{Date}2020-11-05T13:18:58.023-08:00"
+                adventureDifficulty="Intermediate"
+                adventureDifficulty_x0040_LastModified="{Date}2020-11-05T13:18:58.026-08:00"
+                adventureGearList="&lt;ul>&#xa;&lt;li>Hiking shoes&lt;/li>&#xa;&lt;li>Hat&lt;/li>&#xa;&lt;li>Water purifier&lt;/li>&#xa;&lt;li>Shorts&lt;/li>&#xa;&lt;li>Pants&lt;/li>&#xa;&lt;li>Jacket&lt;/li>&#xa;&lt;li>Thernals&lt;/li>&#xa;&lt;li>Sunscreen&lt;/li>&#xa;&lt;/ul>&#xa;"
+                adventureGearList_x0040_ContentType="text/html"
+                adventureGearList_x0040_LastModified="{Date}2020-11-05T13:18:58.028-08:00"
+                adventureGroupSize="12"
+                adventureGroupSize_x0040_LastModified="{Date}2020-11-05T13:18:58.025-08:00"
+                adventureItinerary="&lt;p>&lt;b>Day 1&lt;/b>&lt;/p>&#xa;&lt;p>Our trip begins with introductions in the Curry Village at 9am. Look for your guide with the red flag in lot D. After the orientation meeting we'll distribute equipment for the next 5 days. Our first night will be in the Yosemite Valley.&lt;/p>&#xa;&lt;p>&lt;b>Day 2&lt;/b>&lt;/p>&#xa;&lt;p>Today will feature 5 miles of hiking with 1000 feet of elevation. We'll depart the Ahwahnee Lodge and head along the Merced River as we climb to our first campsite at 4500 feet.&lt;/p>&#xa;&lt;p>&lt;b>Day 3&lt;/b>&lt;/p>&#xa;&lt;p>Our longest day of hiking will feature 8 miles of hiking with 2500 feet of elevation as we make our way to Inspiration Point. At the summit you'll be treated to gorgeous views of El Capitan and Half Dome. The first half of the trail is steep but the second half is more of a gentle incline.&lt;/p>&#xa;&lt;p>&lt;b>Day 4&lt;/b>&lt;/p>&#xa;&lt;p>Our shortest hike of the trip will feature 3 miles of hiking with 500 feet of elevation. As we make our way to Panorama Point you'll get once in a lifetime views of Half Dome, North and Basket Domes and the Royal Arches.&lt;/p>&#xa;&lt;p>&lt;b>Day 5&lt;/b>&lt;/p>&#xa;&lt;p>A 6 mile hike back to the Yosemite Valley where we'll see the Cascades, a 600 foot waterfall, and stop at Glacier Point where you'll have unsurpassed views of Vernal Falls and Half Dome.&lt;/p>&#xa;"
+                adventureItinerary_x0040_ContentType="text/html"
+                adventureItinerary_x0040_LastModified="{Date}2020-11-05T13:18:58.027-08:00"
+                adventurePrice="$1500 USD"
+                adventurePrice_x0040_LastModified="{Date}2020-11-05T13:18:58.026-08:00"
+                adventurePrimaryImage="/content/dam/wknd/en/adventures/yosemite-backpacking/AdobeStock_196967522.jpg"
+                adventurePrimaryImage_x0040_LastModified="{Date}2020-11-05T13:18:58.027-08:00"
+                adventureTitle="Yosemite Backpacking"
+                adventureTitle_x0040_LastModified="{Date}2020-11-05T13:18:58.022-08:00"
+                adventureTripLength="5 Days"
+                adventureTripLength_x0040_LastModified="{Date}2020-11-05T13:18:58.024-08:00"
+                adventureType="Overnight Trip"
+                adventureType_x0040_LastModified="{Date}2020-11-05T13:18:58.023-08:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

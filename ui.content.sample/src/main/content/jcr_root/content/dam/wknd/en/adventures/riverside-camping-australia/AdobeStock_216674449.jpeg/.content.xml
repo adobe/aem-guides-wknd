@@ -5,7 +5,7 @@
     jcr:uuid="e96f1714-9c9e-422c-be61-60ed41d065d1">
     <jcr:content
         dam:assetState="processed"
-        jcr:lastModified="{Date}2020-07-11T14:04:15.304-07:00"
+        jcr:lastModified="{Date}2020-11-04T20:03:53.497-08:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -142,7 +142,7 @@
             crs:Whites2012="{Long}24"
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20180726"
-            dam:extracted="{Date}2020-07-11T14:04:14.114-07:00"
+            dam:extracted="{Date}2020-11-04T20:03:52.293-08:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -256,6 +256,12 @@
                 exif:Return="{Long}0"
                 jcr:primaryType="nt:unstructured"
                 xmpNodeType="xmpStruct"/>
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="xmp.did:dc867b42-42f2-4e4f-87f5-b04f8dfa3bd5"
+                stRef:instanceID="xmp.iid:015A56DF4D95E811BB2AB99D1412D015"
+                stRef:originalDocumentID="228BCBD67F66377C3DE07ED5DE7E50E6"
+                xmpNodeType="xmpStruct"/>
             <crs:GradientBasedCorrections
                 jcr:primaryType="nt:unstructured"
                 xmpArraySize="{Long}1"
@@ -299,12 +305,6 @@
                     </crs:CorrectionMasks>
                 </_x0031_>
             </crs:GradientBasedCorrections>
-            <xmpMM:DerivedFrom
-                jcr:primaryType="nt:unstructured"
-                stRef:documentID="xmp.did:dc867b42-42f2-4e4f-87f5-b04f8dfa3bd5"
-                stRef:instanceID="xmp.iid:015A56DF4D95E811BB2AB99D1412D015"
-                stRef:originalDocumentID="228BCBD67F66377C3DE07ED5DE7E50E6"
-                xmpNodeType="xmpStruct"/>
             <xmpMM:History
                 jcr:primaryType="nt:unstructured"
                 xmpArraySize="{Long}7"

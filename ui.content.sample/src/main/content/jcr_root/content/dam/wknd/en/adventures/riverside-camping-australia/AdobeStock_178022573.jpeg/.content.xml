@@ -8,7 +8,7 @@
         cq:name="AdobeStock_178022573.jpeg"
         cq:parentPath="/content/dam/wknd/en/adventures/riverside-camping-australia"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-10-25T16:50:11.413-07:00"
+        jcr:lastModified="{Date}2020-11-04T20:03:52.253-08:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -112,7 +112,7 @@
             dam:Bitsperpixel="{Long}24"
             dam:DigitalCreationDate="{Long}20140822"
             dam:DigitalCreationTime="090851-0700"
-            dam:extracted="{Date}2019-10-25T16:49:12.116-07:00"
+            dam:extracted="{Date}2020-11-04T20:03:51.454-08:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -123,7 +123,7 @@
             dam:Physicalwidthininches="{Decimal}19.18055534362793"
             dam:Progressive="no"
             dam:sha1="1d665c3496ede7333ecaae7adcc169f313a08b36"
-            dam:size="{Long}508565"
+            dam:size="{Long}514361"
             dam:TimeCreated="090851-0700"
             dc:creator="[Cue the Sun,Cue the Sun,Cue the Sun]"
             dc:creator_xmpArrayType="rdf:Seq"

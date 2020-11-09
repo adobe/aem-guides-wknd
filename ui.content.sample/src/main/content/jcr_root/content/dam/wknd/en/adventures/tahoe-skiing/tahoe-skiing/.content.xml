@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="a6a52805-cafc-46a6-9070-7337869a0c10">
+    <jcr:content
+        cq:name="tahoe-skiing"
+        cq:parentPath="/content/dam/wknd/en/adventures/tahoe-skiing"
+        jcr:description=""
+        jcr:lastModified="{Date}2020-10-19T11:55:20.636-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Tahoe Skiing"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2020-10-19T11:55:20.637-07:00">
+        <data
+            cq:model="/conf/wknd/settings/dam/cfm/models/adventure"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                adventureActivity="Skiing"
+                adventureActivity_x0040_LastModified="{Date}2020-10-19T11:55:20.612-07:00"
+                adventureDescription="&lt;p>Great weather, crystal clear lake water, and a relaxed California attitude make Lake Tahoe&amp;nbsp;one of the most desirable ski destinations in the world. Few ski areas rival Lake Tahoe for its excellent snow conditions, challenging terrain and state-of-the-art lift chairs. Lake Tahoe is home to dozens of resorts and we'll be your guide for the best of them.&lt;/p>&#xa;"
+                adventureDescription_x0040_ContentType="text/html"
+                adventureDescription_x0040_LastModified="{Date}2020-10-19T11:55:20.611-07:00"
+                adventureDifficulty="Advanced"
+                adventureDifficulty_x0040_LastModified="{Date}2020-10-19T11:55:20.614-07:00"
+                adventureGearList="&lt;ul>&#xa;&lt;li>Ski or snowboard equipment&lt;/li>&#xa;&lt;li>Jacket&lt;/li>&#xa;&lt;li>Pants&lt;/li>&#xa;&lt;li>Base layers&lt;/li>&#xa;&lt;li>Goggles&lt;/li>&#xa;&lt;li>Hat&lt;/li>&#xa;&lt;li>Helmet&lt;/li>&#xa;&lt;li>Gloves&lt;/li>&#xa;&lt;li>Sweater&lt;/li>&#xa;&lt;/ul>&#xa;"
+                adventureGearList_x0040_ContentType="text/html"
+                adventureGearList_x0040_LastModified="{Date}2020-10-19T11:55:20.617-07:00"
+                adventureGroupSize="6-8"
+                adventureGroupSize_x0040_LastModified="{Date}2020-10-19T11:55:20.613-07:00"
+                adventureItinerary="&lt;h2>Mountain Springs Resort&lt;br>&#xa;&lt;/h2>&#xa;&lt;p>A world-renowned ski resort, Mountain Springs offers some of the best runs in Tahoe with gorgeous lake views. The resort offers 4,000 acres of skiable terrain, 40 ski lifts and more than 200 trails. A top-notch board park will satisfy the daredevils amongst us.&lt;/p>&#xa;&lt;h2>Treeline Resort&lt;br>&#xa;&lt;/h2>&#xa;&lt;p>Treeline is the largest ski resort in Lake Tahoe with 5,000 acres of terrain including 150 trails accessed by 40 lifts. The resort offers wide-open, well groomed slopes for those learning to ski yet also offers double-black diamond runs for advanced skiers. Enjoy an&amp;nbsp;après ski cocktail at the world famous Tips Up Lounge.&lt;/p>&#xa;&lt;h2>Steeps&lt;/h2>&#xa;&lt;p>Steeps is known for it's challenging terrain but also has 15% beginner runs and 25% intermediate runs. Steeps is also known for it's award winning terrain park with jumps and a half pipe. One of the highlights of Steeps is the village where there is an abundance of shops, restaurants and spas.&lt;/p>&#xa;"
+                adventureItinerary_x0040_ContentType="text/html"
+                adventureItinerary_x0040_LastModified="{Date}2020-10-19T11:55:20.616-07:00"
+                adventurePrice="$1500"
+                adventurePrice_x0040_LastModified="{Date}2020-10-19T11:55:20.615-07:00"
+                adventurePrimaryImage="/content/dam/wknd/en/adventures/tahoe-skiing/AdobeStock_184591344.jpg"
+                adventurePrimaryImage_x0040_LastModified="{Date}2020-10-19T11:55:20.616-07:00"
+                adventureTitle="Tahoe Skiing"
+                adventureTitle_x0040_LastModified="{Date}2020-10-19T11:55:20.611-07:00"
+                adventureTripLength="3-4 days"
+                adventureTripLength_x0040_LastModified="{Date}2020-10-19T11:55:20.612-07:00"
+                adventureType="Overnight Trip"
+                adventureType_x0040_LastModified="{Date}2020-10-19T11:55:20.612-07:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
