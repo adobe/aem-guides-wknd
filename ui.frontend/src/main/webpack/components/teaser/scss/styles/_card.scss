@@ -15,7 +15,7 @@
  */
 /* WKND teaser - card.less*/
 
-$teaser-height: 350px;
+$teaser-height: 400px;
 $teaser-img-height: $teaser-height;
 
 .cmp-teaser--card {
@@ -27,6 +27,7 @@ $teaser-img-height: $teaser-height;
         overflow: hidden;
         background-color: #ededed;
         margin-bottom: $gutter-padding;
+        margin-top: $gutter-padding;
 
         @media (max-width: $screen-small) {
             width: $teaser-height;
@@ -53,18 +54,7 @@ $teaser-img-height: $teaser-height;
         }
 
         .cmp-teaser__title {
-            font-family: $font-family-serif;
-            width: 100%;
-            text-align: left;
-            font-size: $font-size-h3;
-            margin-top: 0;
-            position: absolute;
-            top: $gutter-padding;
-            padding-left: $gutter-padding;
-        }
-
-        .cmp-teaser__title-link {
-            color: $teaser-light-color;
+            display: none;
         }
 
         .cmp-teaser__description {
@@ -74,7 +64,7 @@ $teaser-img-height: $teaser-height;
         .cmp-teaser__action-container {
             position: absolute;
             bottom: $gutter-padding * 2;
-            left: $gutter-padding;
+            right: $gutter-padding;
         }
 
         .cmp-teaser__action-link {
@@ -85,6 +75,18 @@ $teaser-img-height: $teaser-height;
             -moz-transition: all .25s ease-out;
             -o-transition: all .25s ease-out;
             transition: all .25s ease-out;
+        }
+
+        .cmp-teaser__pretitle {
+            position: absolute;
+            top:0;
+            right:0;
+            padding: 0.5em;
+            /*background: linear-gradient(to top right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 50%, #a48d01 50%, #a48d01 100%); */
+            color: $white;
+            background: $blue;
+            border-bottom-left-radius: 4px;
+            box-shadow: -1px 2px 4px 1px rgba(0,0,0,0.25);
         }
 
         &:hover {
