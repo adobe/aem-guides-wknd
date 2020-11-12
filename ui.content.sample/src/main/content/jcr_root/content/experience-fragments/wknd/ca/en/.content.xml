@@ -3,4 +3,5 @@
     jcr:primaryType="sling:OrderedFolder"
     jcr:title="English">
     <featured/>
+    <site/>
 </jcr:root>

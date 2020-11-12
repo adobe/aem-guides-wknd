@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-11-09T15:03:53.098-08:00"
+        cq:lastModifiedBy="admin"
+        cq:tags="[experience-fragments:variation/pinterest]"
+        cq:template="/conf/wknd/settings/wcm/templates/experience-fragment-pinterest-variation"
+        cq:xfShowInEditor="false"
+        cq:xfSocialActionStatus="Not Posted"
+        cq:xfSocialVariation="true"
+        cq:xfVariantType="pinterest"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Pinterest"
+        sling:resourceType="wknd/components/xfpinterest">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <text
+                jcr:created="{Date}2020-11-09T15:03:41.382-08:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-11-09T15:03:41.382-08:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/text"/>
+            <image
+                jcr:created="{Date}2020-11-09T15:03:50.556-08:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-11-09T15:03:50.556-08:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/image"/>
+            <contentfragment
+                jcr:created="{Date}2020-11-09T15:03:53.081-08:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-11-09T15:03:53.081-08:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/contentfragment"/>
+        </root>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-11-09T19:37:23.013-08:00"
+        cq:lastModifiedBy="admin"
+        cq:tags="[experience-fragments:variation/facebook]"
+        cq:template="/conf/wknd/settings/wcm/templates/experience-fragment-facebook-variation"
+        cq:xfShowInEditor="false"
+        cq:xfSocialActionStatus="Not Posted"
+        cq:xfSocialVariation="true"
+        cq:xfVariantType="facebook"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Facebook"
+        sling:resourceType="wknd/components/xffacebook">
+        <root
+            jcr:lastModified="{Date}2016-08-01T12:13:20.297+03:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <text
+                jcr:created="{Date}2020-11-09T19:37:16.511-08:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-11-09T19:37:16.511-08:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/text"/>
+            <image
+                jcr:created="{Date}2020-11-09T19:37:23.011-08:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-11-09T19:37:23.011-08:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/image"/>
+            <contentfragment
+                jcr:created="{Date}2020-11-09T19:37:19.131-08:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-11-09T19:37:19.131-08:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/contentfragment"/>
+        </root>
+    </jcr:content>
+</jcr:root>

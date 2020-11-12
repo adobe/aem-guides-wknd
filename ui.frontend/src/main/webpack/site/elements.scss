@@ -36,6 +36,14 @@
   }
 }
 
+/* remove padding for experience fragment editor */
+
+body.xf-web-container {
+  .root {
+    padding-top: $gutter-padding;
+  }
+}
+
 
 
 // Headings
