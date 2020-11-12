@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-11-11T15:26:26.976-08:00"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/conf/wknd/settings/wcm/templates/experience-fragment-web-variation-template"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Mobile"
+        sling:resourceType="wknd/components/xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd/components/container"
+            layout="responsiveGrid">
+            <container
+                cq:styleIds="[1570043787082]"
+                jcr:created="{Date}2019-09-13T14:22:51.213-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-09-13T14:23:01.260-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/container"
+                layout="responsiveGrid">
+                <buildingblock_484235013
+                    cq:masterBuildingBlockPath="/content/experience-fragments/wknd/us/en/adventures/adventures-2021/master/jcr:content/root/container/container/title"
+                    jcr:created="{Date}2020-11-11T15:25:24.171-08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-11-11T15:25:24.171-08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="cq/experience-fragments/editor/components/buildingblock">
+                    <title366044957866611
+                        cq:styleIds="[1568996484405]"
+                        jcr:lastModified="{Date}2020-11-11T15:06:38.436-08:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="New Adventures for 2021"
+                        sling:resourceType="wknd/components/title"
+                        type="h2"/>
+                    <item366044958254933
+                        cq:styleIds="[1571074070335]"
+                        jcr:lastModified="{Date}2020-11-11T14:59:43.098-08:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/text"
+                        text="&lt;p style=&quot;text-align: center;&quot;>Go somewhere incredible next year. This past year was challenging on a number of levels but we've got your back. We've made several changes and improvements to all the adventures to make them safer, more flexible and as stress-free as possible.&lt;br>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p style=&quot;text-align: center;&quot;>&lt;i>All adventures offer a no-hassle cancellation, fully refundable, no questions asked.&lt;/i>&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                    <item366044958934679
+                        cq:styleIds="[1571075856942,1571075969668]"
+                        jcr:created="{Date}2020-11-11T14:45:39.738-08:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-11-11T14:45:39.738-08:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/separator"/>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="6"/>
+                    </cq:responsive>
+                </buildingblock_484235013>
+                <image
+                    jcr:created="{Date}2020-11-11T15:25:49.715-08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-11-11T15:26:16.635-08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/image"
+                    fileReference="/content/dam/wknd/en/adventures/yosemite-backpacking/AdobeStock_231698835.jpg">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            behavior="newline"
+                            offset="0"
+                            width="6"/>
+                    </cq:responsive>
+                </image>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

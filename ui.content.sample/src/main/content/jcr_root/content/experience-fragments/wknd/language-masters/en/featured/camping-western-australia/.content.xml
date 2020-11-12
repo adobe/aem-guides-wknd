@@ -10,4 +10,6 @@
         jcr:title="Camping in Western Australia"
         sling:resourceType="cq/experience-fragments/components/experiencefragment"/>
     <master/>
+    <pinterest/>
+    <facebook/>
 </jcr:root>

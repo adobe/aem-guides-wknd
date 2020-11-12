@@ -3,6 +3,8 @@
     cq:adobeTargetExportFormat="html"
     jcr:primaryType="sling:OrderedFolder"
     jcr:title="English">
+    <featured/>
     <site/>
     <contributors/>
+    <recommended/>
 </jcr:root>
