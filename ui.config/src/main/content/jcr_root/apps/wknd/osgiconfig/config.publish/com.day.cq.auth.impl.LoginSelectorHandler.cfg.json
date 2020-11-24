@@ -1,0 +1,19 @@
+{
+    "auth.loginselector.defaultchangepwpage":"/libs/granite/core/content/changepassword",
+    "auth.loginselector.changepw.mappings":[
+      ""
+    ],
+    "auth.loginselector.handle.all.extensions":false,
+    "service.ranking:Integer":5000,
+    "auth.loginselector.handle":[
+      "html",
+      "htm"
+    ],
+    "auth.loginselector.defaultloginpage":"/content/wknd/us/en/errors/sign-in",
+    "auth.loginselector.mappings":[
+      "/libs/granite/core/content/login:/login",
+      "/content/wknd/us/en/errors/sign-in:/content/wknd/us",
+      "/content/wknd/ca/en/errors/sign-in:/content/wknd/ca"
+    ],
+    "path":"/"
+}

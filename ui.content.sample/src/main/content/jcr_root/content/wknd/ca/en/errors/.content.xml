@@ -4,7 +4,7 @@
     <jcr:content
         cq:lastModified="{Date}2020-07-09T08:56:36.164-07:00"
         cq:lastModifiedBy="admin"
-        cq:lastRolledout="{Date}2020-09-30T17:38:20.899-07:00"
+        cq:lastRolledout="{Date}2020-11-13T14:10:14.819-08:00"
         cq:lastRolledoutBy="admin"
         cq:redirectTarget="/content/wknd/language-masters/en"
         cq:template="/conf/wknd/settings/wcm/templates/content-page-template"
@@ -31,4 +31,5 @@
     </jcr:content>
     <_x0034_04/>
     <_x0035_00/>
+    <sign-in/>
 </jcr:root>

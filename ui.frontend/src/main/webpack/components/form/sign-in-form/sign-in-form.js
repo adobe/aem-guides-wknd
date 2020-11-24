@@ -3,40 +3,24 @@ var jQuery = require("jquery");
 jQuery(function($) {
     "use strict";
 
-    /* Sign In form submission */
-    $('body').on('submit', '#wknd-sign-in-form', function(e) {
-        e.preventDefault();
-
-        const form = $(this);
-
-        // Clear any form submission errors
-        form.find('[name=j_username][name=j_password]').removeClass('cmp-form-text__text--error');
-
-        $.ajax({
-            type: "POST",
-            url: form.attr('action'),
-            data: form.serialize(),
-            success: function(data) {
-                signIn(form.find('input[name="sling.auth.redirect"]') || false);
-            }, error: function(data) {
+    // Add error indicator style to the Sign In form
+    (function() {
+        const form = $('#wknd-sign-in-form');
+        if(form) {
+            const urlParams = new URLSearchParams(window.location.search);
+            if(urlParams && urlParams.has('j_reason') && urlParams.get('j_reason') == 'invalid_login') {
                 form.find('[name=j_username],[name=j_password]').addClass('cmp-form-text__text--error');
             }
-        });
+        }
+    })();
 
-        return false;
+    
+    /* Add redirect to current page on the login  */
+    $('body').on('wknd-modal-show', function(e) {
+        const slingRedirectInput = $('#wknd-sign-in-form input[name="sling.auth.redirect"]');
+        if(slingRedirectInput) {
+            slingRedirectInput.val(window.location.pathname);
+        }
     });
 
-    function signIn(redirectField) {
-        if (redirectField) {
-            //always reload current page if sign-in
-            if($(redirectField).attr('id') === 'sling-auth-redirect-signin') {
-                window.location.reload();
-            } else {
-                window.location = $(redirectField).val() ? $(redirectField).val() : '/';
-            }
-            
-        } else {
-            window.location.reload();
-        }
-    }
 });
