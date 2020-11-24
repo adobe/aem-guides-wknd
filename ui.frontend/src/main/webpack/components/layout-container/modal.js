@@ -31,7 +31,8 @@ jQuery(function($) {
             $('body').append(modal.append(data));
             modal.fadeIn(300, function() { visible = true; });
             visible = true;
-            //dispatch event
+            // dispatch event to indicate that the modal has been shown
+            // used by sign-in-form.js to dynamically update a successful sign-in redirect to the current page
             body.dispatchEvent(showModalEvt);
         });
 
@@ -40,8 +41,6 @@ jQuery(function($) {
 
     function hideModal(e) {
         const modal = $('#wknd-modal');
-        const body = document.querySelector('body');
-        const hideModalEvt = new Event('wknd-modal-hide');
         // if the target of the click isn't the modal nor a descendant of the modal
         if (visible && modal && !modal.is(e.target) && modal.has(e.target).length === 0) {
             e.preventDefault();
@@ -49,7 +48,6 @@ jQuery(function($) {
             modal.fadeOut(200, function(){
                 modal.remove();
                 visible = false;
-                body.dispatchEvent(hideModalEvt);
             });
 
             return false;
