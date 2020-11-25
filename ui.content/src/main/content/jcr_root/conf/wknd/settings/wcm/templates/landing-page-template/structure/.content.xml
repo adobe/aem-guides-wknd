@@ -34,8 +34,7 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wknd/components/container"
-                editable="{Boolean}true"
-                layout="responsiveGrid">
+                editable="{Boolean}true">
                 <cq:responsive jcr:primaryType="nt:unstructured"/>
             </container>
             <experiencefragment_1327121818
