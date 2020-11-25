@@ -25,9 +25,7 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wknd/components/container"
-                editable="{Boolean}true"
-                layout="responsiveGrid">
-                <cq:responsive jcr:primaryType="nt:unstructured"/>
+                editable="{Boolean}true">
             </container>
             <experiencefragment-footer
                 cq:styleIds="[1568592503946]"
