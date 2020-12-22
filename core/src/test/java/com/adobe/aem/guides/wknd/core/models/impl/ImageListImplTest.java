@@ -16,6 +16,7 @@
 package com.adobe.aem.guides.wknd.core.models.impl;
 
 import com.adobe.aem.guides.wknd.core.models.ImageList;
+import com.adobe.cq.wcm.core.components.internal.DataLayerConfig;
 import com.adobe.cq.wcm.core.components.models.Image;
 import com.adobe.cq.wcm.core.components.models.List;
 import com.adobe.cq.wcm.core.components.models.ListItem;
@@ -29,6 +30,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ResourceResolver;
 import org.apache.sling.api.resource.ValueMap;
+import org.apache.sling.caconfig.ConfigurationBuilder;
 import org.apache.sling.testing.mock.sling.ResourceResolverType;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -184,6 +186,32 @@ class ImageListImplTest {
 
         assertNotNull(actual);
         assertEquals("/content/image", actual.getPath());
+    }
+
+    @Test
+    void getData() throws RepositoryException {
+
+        //Enable the data layer
+        enableDataLayer(ctx, true);
+        ctx.currentResource("/content/image-list");
+
+        final ImageList actual = ctx.request().adaptTo(ImageList.class);
+        assertNotNull(actual.getData());
+        assertEquals("wknd/components/image-list", actual.getData().getType());
+        assertEquals("image-list-2719473ca4", actual.getData().getId());
+    }
+
+    /**
+     * Mock utility function to enable or disable the Data Layer
+     * @param ctx
+     * @param enabled
+     */
+    void enableDataLayer(AemContext ctx, boolean enabled) {
+        ConfigurationBuilder builder = mock(ConfigurationBuilder.class);
+        DataLayerConfig dataLayerConfig = mock(DataLayerConfig.class);
+        when(dataLayerConfig.enabled()).thenReturn(true);
+        when(builder.as(DataLayerConfig.class)).thenReturn(dataLayerConfig);
+        ctx.registerAdapter(Resource.class, ConfigurationBuilder.class, builder);
     }
 
     /**
