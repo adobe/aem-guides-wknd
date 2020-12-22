@@ -21,8 +21,10 @@
      data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"
      data-sly-use.itemTemplate="item.html"
      data-sly-test.hasContent="${!imageList.empty}"
-     data-sly-list.item="${imageList.listItems}">
+     data-sly-list.item="${imageList.listItems}"
+     data-cmp-data-layer="${imageList.data.json}">
     <li class="cmp-image-list__item"
+        data-cmp-data-layer="${item.data.json}"
         data-sly-call="${itemTemplate.item @ item = item}"></li>
 </ul>
 <sly data-sly-call="${placeholderTemplate.placeholder @ isEmpty=!hasContent, classAppend='cmp-image-list'}"></sly>

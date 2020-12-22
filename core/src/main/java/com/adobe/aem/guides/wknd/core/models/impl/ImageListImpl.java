@@ -17,6 +17,9 @@ package com.adobe.aem.guides.wknd.core.models.impl;
 
 import com.adobe.aem.guides.wknd.core.models.ImageList;
 import com.adobe.cq.wcm.core.components.models.Image;
+import com.adobe.cq.wcm.core.components.models.datalayer.ComponentData;
+import com.adobe.cq.wcm.core.components.models.datalayer.builder.DataLayerBuilder;
+import com.adobe.cq.wcm.core.components.util.ComponentUtils;
 import com.day.cq.commons.jcr.JcrConstants;
 import com.day.cq.search.Predicate;
 import com.day.cq.search.PredicateConverter;
@@ -27,8 +30,11 @@ import com.day.cq.search.eval.PathPredicateEvaluator;
 import com.day.cq.search.eval.TypePredicateEvaluator;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
+import com.day.cq.wcm.api.components.ComponentContext;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
+
+import org.apache.commons.lang3.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ResourceResolver;
@@ -41,11 +47,13 @@ import org.apache.sling.models.annotations.Model;
 import org.apache.sling.models.annotations.Required;
 import org.apache.sling.models.annotations.Via;
 import org.apache.sling.models.annotations.injectorspecific.OSGiService;
+import org.apache.sling.models.annotations.injectorspecific.ScriptVariable;
 import org.apache.sling.models.annotations.injectorspecific.Self;
 import org.apache.sling.models.annotations.via.ResourceSuperType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import javax.annotation.PostConstruct;
 import javax.jcr.Session;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -75,6 +83,12 @@ public class ImageListImpl implements ImageList {
     @Required
     private QueryBuilder queryBuilder;
 
+    @ScriptVariable
+    private Page currentPage;
+
+    @ScriptVariable
+    protected ComponentContext componentContext;
+
     /**
      * The Image List Component extends the AEM WCM Core Component.
      * This injection creates an instance of the Core Components List component, and allows its methods to be called by
@@ -97,7 +111,7 @@ public class ImageListImpl implements ImageList {
             } else {
                 // Calls the AEM WCM Core Components List component's `getListItems()` methods, transforms them into ImageListItem objects.
                 imageListItems = coreList.getListItems().stream()
-                        .map(listItem -> new ImageListItemImpl(request.getResourceResolver(), listItem))
+                        .map(listItem -> new ImageListItemImpl(request.getResourceResolver(), listItem, getId()))
                         .filter(imageListItem -> !imageListItem.isEmpty())
                         .collect(Collectors.toList());
             }
@@ -111,18 +125,40 @@ public class ImageListImpl implements ImageList {
         return getListItems().isEmpty();
     }
 
+    @Override
+    public String getId() {
+        Resource imageListResource = this.request.getResource();
+        return ComponentUtils.getId(imageListResource, this.currentPage, this.componentContext);
+    }
+
+    @Override
+    public ComponentData getData() {
+        Resource imageListResource = this.request.getResource();
+        if (ComponentUtils.isDataLayerEnabled(imageListResource)) {
+            return DataLayerBuilder.forComponent()
+                .withId(() -> getId())
+                .withType(() -> RESOURCE_TYPE)
+                .build();
+        }
+        return null;
+    }
+
     private class ImageListItemImpl implements ImageList.ListItem {
         private static final String IMAGE_RESOURCE_TYPE = "wknd/components/image";
+        private static final String IMAGE_LIST_ITEM_SUFFIX = "image-list-item";
 
         private final com.adobe.cq.wcm.core.components.models.ListItem wrappedListItem;
         private final Resource image;
         private final Page page;
+        private final String parentId;
 
         public ImageListItemImpl(final ResourceResolver resourceResolver,
-                                 final com.adobe.cq.wcm.core.components.models.ListItem listItem) {
+                                 final com.adobe.cq.wcm.core.components.models.ListItem listItem,
+                                 final String parentId) {
 
             final PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
             this.wrappedListItem = listItem;
+            this.parentId = parentId;
             this.page = pageManager.getContainingPage(wrappedListItem.getPath());          
 
             image = findPageComponentResources(this.page, IMAGE_RESOURCE_TYPE, 1).stream()
@@ -152,6 +188,26 @@ public class ImageListImpl implements ImageList {
 
         public boolean isEmpty() {
             return getImage() == null;
+        }
+
+        @Override
+        public ComponentData getData() {
+            if (ComponentUtils.isDataLayerEnabled(image)) {
+                return DataLayerBuilder.forComponent()
+                    .withId(this::getId)
+                    .withType(() -> ImageListImpl.RESOURCE_TYPE + "/"  + IMAGE_LIST_ITEM_SUFFIX)
+                    .withTitle(this::getTitle)
+                    .withDescription(this::getDescription)
+                    .withLinkUrl(this::getURL)
+                    .withParentId(() -> this.parentId)
+                    .build();
+                }
+            return null;
+        }
+
+        @Override
+        public String getId() {
+            return ComponentUtils.generateId(StringUtils.join(parentId, ComponentUtils.ID_SEPARATOR, IMAGE_LIST_ITEM_SUFFIX), getURL());
         }
     }
 
