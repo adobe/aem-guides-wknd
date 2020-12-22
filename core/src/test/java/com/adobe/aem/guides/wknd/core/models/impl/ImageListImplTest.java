@@ -16,9 +16,11 @@
 package com.adobe.aem.guides.wknd.core.models.impl;
 
 import com.adobe.aem.guides.wknd.core.models.ImageList;
+import com.adobe.cq.wcm.core.components.internal.DataLayerConfig;
 import com.adobe.cq.wcm.core.components.models.Image;
 import com.adobe.cq.wcm.core.components.models.List;
 import com.adobe.cq.wcm.core.components.models.ListItem;
+import com.adobe.cq.wcm.core.components.models.datalayer.ComponentData;
 import com.day.cq.search.PredicateGroup;
 import com.day.cq.search.Query;
 import com.day.cq.search.QueryBuilder;
@@ -29,6 +31,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ResourceResolver;
 import org.apache.sling.api.resource.ValueMap;
+import org.apache.sling.caconfig.ConfigurationBuilder;
 import org.apache.sling.testing.mock.sling.ResourceResolverType;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -184,6 +187,86 @@ class ImageListImplTest {
 
         assertNotNull(actual);
         assertEquals("/content/image", actual.getPath());
+    }
+
+    @Test
+    void getData() throws RepositoryException, IllegalAccessException, NoSuchFieldException {
+    	
+   	 	// Page 1
+        Resource page1ImageComponentResource = spy(ctx.resourceResolver().getResource("/content/pages/page-1/jcr:content/root/responsivegrid/page-1-image-component"));
+        doReturn(leakedResourceResolver).when(page1ImageComponentResource).getResourceResolver();
+
+        doReturn(page1MockQuery).when(mockQueryBuilder).createQuery(argThat(new PredicateGroupByPath("/content/pages/page-1/jcr:content")), any(Session.class));
+        doReturn(page1MockSearchResult).when(page1MockQuery).getResult();
+        doReturn(Arrays.asList(new Resource[]{page1ImageComponentResource}).iterator()).when(page1MockSearchResult).getResources();
+
+        //Enable the data layer
+        enableDataLayer(ctx, true);
+        ctx.currentResource("/content/image-list");
+
+        final ImageList actual = ctx.request().adaptTo(ImageList.class);
+        
+        setCoreList((ImageListImpl) actual, new MockList("/content/pages/page-1"));
+
+        ImageList.ListItem[] actualListItems = actual.getListItems().toArray(new ImageList.ListItem[0]);
+        
+        //Test Data Layer on Image List (parent)
+        assertNotNull(actual.getData());
+        assertEquals("wknd/components/image-list", actual.getData().getType());
+        assertEquals("image-list-2719473ca4", actual.getData().getId());
+        
+        //Test Data Layer on Image List Items
+        ComponentData listItemData = actualListItems[0].getData();
+        
+        assertNotNull(listItemData);
+        assertEquals("wknd/components/image-list/image-list-item", listItemData.getType());
+        assertEquals("image-list-2719473ca4-image-list-item-58adf87daa", actualListItems[0].getData().getId());
+        assertEquals("Page 1", listItemData.getTitle());
+        assertEquals("Page 1 Description", listItemData.getDescription());
+        assertEquals("/content/pages/page-1.html", listItemData.getLinkUrl());
+        assertEquals("image-list-2719473ca4", listItemData.getParentId());
+    }
+    
+    @Test
+    void getData_disabled() throws RepositoryException, IllegalAccessException, NoSuchFieldException {
+    	
+    	// Page 1
+        Resource page1ImageComponentResource = spy(ctx.resourceResolver().getResource("/content/pages/page-1/jcr:content/root/responsivegrid/page-1-image-component"));
+        doReturn(leakedResourceResolver).when(page1ImageComponentResource).getResourceResolver();
+
+        doReturn(page1MockQuery).when(mockQueryBuilder).createQuery(argThat(new PredicateGroupByPath("/content/pages/page-1/jcr:content")), any(Session.class));
+        doReturn(page1MockSearchResult).when(page1MockQuery).getResult();
+        doReturn(Arrays.asList(new Resource[]{page1ImageComponentResource}).iterator()).when(page1MockSearchResult).getResources();
+
+        //Disable the data layer
+        enableDataLayer(ctx, false);
+        
+        ctx.currentResource("/content/image-list");
+
+        final ImageList actual = ctx.request().adaptTo(ImageList.class);
+        assertNull(actual.getData());
+        
+        setCoreList((ImageListImpl) actual, new MockList("/content/pages/page-1"));
+
+        ImageList.ListItem[] actualListItems = actual.getListItems().toArray(new ImageList.ListItem[2]);
+        
+        //Test Data Layer on Image List Items
+        assertNull(actualListItems[0].getData());
+        
+        
+    }
+
+    /**
+     * Mock utility function to enable or disable the Data Layer
+     * @param ctx
+     * @param enabled
+     */
+    void enableDataLayer(AemContext ctx, boolean enabled) {
+        ConfigurationBuilder builder = mock(ConfigurationBuilder.class);
+        DataLayerConfig dataLayerConfig = mock(DataLayerConfig.class);
+        when(dataLayerConfig.enabled()).thenReturn(enabled);
+        when(builder.as(DataLayerConfig.class)).thenReturn(dataLayerConfig);
+        ctx.registerAdapter(Resource.class, ConfigurationBuilder.class, builder);
     }
 
     /**

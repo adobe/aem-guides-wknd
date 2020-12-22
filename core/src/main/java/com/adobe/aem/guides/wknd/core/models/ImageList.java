@@ -4,6 +4,9 @@ import org.apache.sling.api.resource.Resource;
 
 import java.util.Collection;
 
+import com.adobe.cq.wcm.core.components.models.datalayer.ComponentData;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 /**
  * Represents the WKND Image List Component
  */
@@ -18,6 +21,21 @@ public interface ImageList {
      * @return true if this component has no list items to display.
      */
     boolean isEmpty();
+
+    /**
+     * 
+     * @return JSON data to populate the data layer
+     */
+    @JsonProperty("dataLayer")
+    default ComponentData getData() {
+        return null;
+    }
+
+    /**
+     * 
+     * @return String representing the unique identifier of the ImageList component on a page
+     */
+    String getId();
 
     /**
      * Describes a item of the Image List.
@@ -45,5 +63,16 @@ public interface ImageList {
          * @return the url to the Page the Image List item represents.
          */
         String getURL();
+
+        @JsonProperty("dataLayer")
+        default ComponentData getData() {
+            return null;
+        }
+
+        /**
+         * 
+         * @return String representing the unique identifier of the ImageList component on a page
+         */
+        String getId();
     }
 }

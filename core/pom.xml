@@ -84,7 +84,6 @@ Import-Package: javax.annotation;version=0.0.0,*
         <dependency>
             <groupId>com.adobe.cq</groupId>
             <artifactId>core.wcm.components.core</artifactId>
-            <version>2.11.1</version>
         </dependency>
         <dependency>
             <groupId>uk.org.lidalia</groupId>

@@ -26,10 +26,15 @@ import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.models.annotations.DefaultInjectionStrategy;
 import org.apache.sling.models.annotations.Model;
 import org.apache.sling.models.annotations.injectorspecific.OSGiService;
+import org.apache.sling.models.annotations.injectorspecific.ScriptVariable;
 import org.apache.sling.models.annotations.injectorspecific.Self;
 import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
 import org.apache.sling.models.factory.ModelFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
+import com.day.cq.wcm.api.Page;
+import com.day.cq.wcm.api.components.ComponentContext;
 import com.adobe.aem.guides.wknd.core.models.Byline;
 import com.adobe.cq.wcm.core.components.models.Image;
 
@@ -48,6 +53,12 @@ public class BylineImpl implements Byline {
     @OSGiService
     private ModelFactory modelFactory;
 
+    @ScriptVariable
+    private Page currentPage;
+
+    @ScriptVariable
+    protected ComponentContext componentContext;
+
     @ValueMapValue
     private String name;
 
@@ -55,6 +66,9 @@ public class BylineImpl implements Byline {
     private List<String> occupations;
 
     private Image image;
+
+    // Add a logger for any errors
+    private static final Logger LOGGER = LoggerFactory.getLogger(BylineImpl.class);
 
     @PostConstruct
     private void init() {
