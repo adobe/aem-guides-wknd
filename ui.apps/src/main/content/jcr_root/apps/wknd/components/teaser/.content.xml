@@ -4,5 +4,5 @@
     jcr:primaryType="cq:Component"
     jcr:title="Teaser"
     sling:resourceSuperType="core/wcm/components/teaser/v1/teaser"
-    componentGroup="WKND.Content"
+    componentGroup="WKND Sites Project - Content"
     imageDelegate="wknd/components/image"/>

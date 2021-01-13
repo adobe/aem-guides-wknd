@@ -3,4 +3,4 @@
     jcr:primaryType="cq:Component"
     jcr:title="Form Text"
     sling:resourceSuperType="core/wcm/components/form/text/v2/text"
-    componentGroup="WKND.Form"/>
+    componentGroup="WKND Sites Project - Form"/>

@@ -4,4 +4,4 @@
     jcr:primaryType="cq:Component"
     jcr:title="Content Fragment"
     sling:resourceSuperType="core/wcm/components/contentfragment/v1/contentfragment"
-    componentGroup="WKND.Content"/>
+    componentGroup="WKND Sites Project - Content"/>

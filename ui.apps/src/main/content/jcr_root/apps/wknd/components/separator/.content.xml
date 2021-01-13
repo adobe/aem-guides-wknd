@@ -3,4 +3,4 @@
     jcr:primaryType="cq:Component"
     jcr:title="Separator"
     sling:resourceSuperType="core/wcm/components/separator/v1/separator"
-    componentGroup="WKND.Content"/>
+    componentGroup="WKND Sites Project - Content"/>

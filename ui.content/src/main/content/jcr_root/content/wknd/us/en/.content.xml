@@ -2,40 +2,82 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2020-10-19T11:51:14.572-07:00"
-        cq:lastModifiedBy="admin"
-        cq:lastRolledout="{Date}2020-10-19T11:51:14.573-07:00"
-        cq:lastRolledoutBy="admin"
-        cq:tags="[]"
-        cq:template="/conf/wknd/settings/wcm/templates/landing-page-template"
-        jcr:description="WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world."
-        jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync]"
+        pageTitle="WKND Sites Project"
         jcr:primaryType="cq:PageContent"
-        jcr:title="WKND Adventures and Travel"
+        jcr:title="en"
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:template="/conf/wknd/settings/wcm/templates/page-content"
         sling:resourceType="wknd/components/page"
-        pageTitle="Home">
+    >
         <root
-            cq:lastRolledout="{Date}2020-10-19T11:51:14.559-07:00"
-            cq:lastRolledoutBy="admin"
-            jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wknd/components/container">
+            sling:resourceType="wknd/components/container"
+            layout="responsiveGrid">
             <container
-                cq:lastRolledout="{Date}2020-10-19T11:51:14.568-07:00"
-                cq:lastRolledoutBy="admin"
-                jcr:created="{Date}2019-03-19T13:22:52.385-07:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2020-10-19T11:51:14.562-07:00"
-                jcr:lastModifiedBy="admin"
-                jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wknd/components/container"
-                layout="responsiveGrid"/>
+                sling:resourceType="wknd/components/container">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/container"
+                    layout="responsiveGrid">
+                    <teaser
+                        jcr:description="&lt;p>Don't stop half way, go for the top!&lt;/p>&#xd;&#xa;"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Epic Journey"
+                        sling:resourceType="wknd/components/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </teaser>
+                    <teaser_copy
+                        jcr:description="&lt;p>Don't stop half way, go for the top!&lt;/p>&#xd;&#xa;"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Epic Journey"
+                        sling:resourceType="wknd/components/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </teaser_copy>
+                    <teaser_copy_1579324932
+                        jcr:description="&lt;p>Don't stop half way, go for the top!&lt;/p>&#xd;&#xa;"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Epic Journey"
+                        sling:resourceType="wknd/components/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </teaser_copy_1579324932>
+                    <helloworld
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/helloworld"
+                        text="lalala :)"/>
+                </container>
+            </container>
         </root>
-        <cq:LiveSyncConfig
-            cq:isDeep="{Boolean}true"
-            cq:master="/content/wknd/language-masters/en"
-            cq:rolloutConfigs="[/libs/msm/wcm/rolloutconfigs/default]"
-            jcr:primaryType="cq:LiveCopy"/>
     </jcr:content>
 </jcr:root>

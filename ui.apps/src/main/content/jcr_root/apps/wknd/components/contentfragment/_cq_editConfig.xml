@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:EditConfig">
     <cq:inplaceEditing
         jcr:primaryType="cq:InplaceEditingConfig"
@@ -13,17 +13,17 @@
             propertyName="./fragmentPath">
             <parameters
                 jcr:primaryType="nt:unstructured"
-                variationName=""
+                displayMode="multi"
                 elementNames=""
-                paragraphScope=""
-                paragraphRange=""
                 paragraphHeadings=""
-                displayMode="multi"/>
+                paragraphRange=""
+                paragraphScope=""
+                variationName=""/>
         </contentfragment>
     </cq:dropTargets>
     <cq:listeners
         jcr:primaryType="cq:EditListenersConfig"
-        afterinsert="function (properties) { $(document).trigger('cq-contentfragment-insert'); }"
+        afterdelete="function (properties) { $(document).trigger('cq-contentfragment-delete'); }"
         afteredit="function (properties) { $(document).trigger('cq-contentfragment-edit'); }"
-        afterdelete="function (properties) { $(document).trigger('cq-contentfragment-delete'); }"/>
+        afterinsert="function (properties) { $(document).trigger('cq-contentfragment-insert'); }"/>
 </jcr:root>
