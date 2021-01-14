@@ -51,6 +51,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <aem.sdk.api>2021.1.4738.20210107T143101Z-201217</aem.sdk.api>
         <componentGroupName>WKND Sites Project</componentGroupName>
+        <core.wcm.components.version>2.13.2</core.wcm.components.version>
     </properties>
 
     <build>
@@ -555,8 +556,26 @@ Bundle-DocURL:
                 <version>${aem.sdk.api}</version>
                 <scope>provided</scope>
             </dependency>
+            <!-- AEM Core Component Dependency 6.x only -->
+            <dependency>
+                <groupId>com.adobe.cq</groupId>
+                <artifactId>core.wcm.components.core</artifactId>
+                <version>${core.wcm.components.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.adobe.cq</groupId>
+                <artifactId>core.wcm.components.content</artifactId>
+                <type>zip</type>
+                <version>${core.wcm.components.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.adobe.cq</groupId>
+                <artifactId>core.wcm.components.config</artifactId>
+                <type>zip</type>
+                <version>${core.wcm.components.version}</version>
+            </dependency>
 
-
+            
             <!-- Testing -->
             <dependency>
                 <groupId>org.junit</groupId>
