@@ -1,18 +1,54 @@
+//== Color
+
+$black:                  #202020;
+$gray:                   #696969;
+$gray-light:             #EBEBEB;
+$gray-lighter:           #F7F7F7;
+$white:                  #ffffff;
+$yellow:                 #FFE900;
+$blue:                   #0045FF;
+$pink:                   #FF0058;
+
+//== Brand Colors
+$brand-primary:          $yellow;
+$brand-secondary:        $black;
+$brand-third:            $gray-light;
+
+//== Element Colors
+
+$body-bg:                 $white;
+$text-color:              $black;
+$text-color-inverse:      $gray-light;
+$link-color:              $blue;
+$nav-link-color:          $black;
+$nav-link-color-inverse:  $gray-light;
 
 //== Font
 
-$font-family:           "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-size:             16px;
-$font-height:           1.5;
+$font-family-sans-serif:  "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif:       "Asar",Georgia, "Times New Roman", Times, serif;
+$font-family-base:        $font-family-sans-serif;
 
-//== Color
+$font-size-xsmall:        12px;
+$font-size-small:         14px;
+$font-size:               16px;
+$font-size-paragraph:     18px;
+$font-size-medium:        24px;
+$font-size-large:         36px;
+$font-size-xlarge:        40px;
+$font-weight-normal:     normal;
+$font-weight-semi-bold:  400;
+$font-weight-bold:       600;
 
-// Normal mode
-$color-foreground:      #202020;
-$color-background:      #ECECEC;
-$color-link:            #2020E0;
+//== Layout
+$gutter-padding: 14px;
+$max-content-width: 1084px;
+$max-page-width: 1680px;
 
-// Dark mode
-$color-foreground-dark: invert($color-foreground);
-$color-background-dark: invert($color-background);
-$color-link-dark:       invert($color-link);
+//== Breakpoints
+$screen-small: 768px;
+$screen-large: 1200px;
+
+//== Other Elements
+$line-height-base:         1.5;
+$line-height-computed:     floor(($font-size * $line-height-base)); // ~20px

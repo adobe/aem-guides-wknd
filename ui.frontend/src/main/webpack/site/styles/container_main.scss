@@ -3,4 +3,8 @@
 
 main.container {
     padding: .5em 1em;
+    max-width: $max-content-width;
+    float: unset!important;
+    margin: 0 auto!important;
+    clear: both!important;
 }

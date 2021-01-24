@@ -1,13 +1,67 @@
-.cmp-search {}
-.cmp-search__form {}
-.cmp-search__field {}
-.cmp-search__icon {}
-.cmp-search__input {}
-.cmp-search__loading-indicator {}
-.cmp-search__clear {}
-.cmp-search__clear-icon {}
-.cmp-search__results {}
-.cmp-search__item {}
-.cmp-search__item--is-focused {}
-.cmp-search__item-mark {}
-.cmp-search__item-title {}
+/* WKND Search Header styles */
+
+$search-max-width: 10rem;
+$search-max-mobile-width: 6rem;
+$offset: 3.5rem;
+$search-results-width: 20rem;
+    
+    .cmp-search {
+        padding-top: 10px;
+        float: right;
+    }
+
+    .cmp-search__clear-icon, .cmp-search__icon  {
+        top: 0.8rem;
+    }
+
+    .cmp-search__input {
+        background-color: #ebebeb8a;
+        color: $text-color;
+        font-size: $font-size-xsmall;
+        border-radius: 0px;
+        border: none;
+        height: 40px;
+        width: #{'calc(100% - 4rem)'};
+
+        &:focus {
+            background-color: $body-bg;
+            outline: none !important;
+            border: 1px solid $text-color;
+            box-shadow: none;
+        }
+
+        &::placeholder {
+            text-transform: uppercase;
+        }
+
+    }
+
+    .cmp-search__results {
+        margin-top: 0.75em;
+        background: $black;
+        width: $search-results-width;
+        left: unset;
+        right:0;
+        max-height: unset;
+        box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.25);
+    }
+
+    a.cmp-search__item {
+        color: $brand-third;
+        font-size: $font-size-small;
+        height: 50px;
+        text-overflow: ellipsis;
+        padding: 0.5em;
+        margin-top: 0.25em;
+    }
+
+    a.cmp-search__item:hover {
+        text-decoration: underline;
+    }
+
+    .cmp-search__item-mark {
+        color: $text-color;
+        background-color: $gray-lighter;
+    }
+
+   
