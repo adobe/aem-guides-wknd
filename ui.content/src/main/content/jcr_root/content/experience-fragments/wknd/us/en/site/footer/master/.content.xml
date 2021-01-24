@@ -2,6 +2,8 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
+        cq:lastModified="{Date}2021-01-23T16:42:59.668-08:00"
+        cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/wknd/settings/wcm/templates/xf-web-variation"
         cq:xfMasterVariation="{Boolean}true"
@@ -13,6 +15,46 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wknd/components/container"
             layout="responsiveGrid">
+            <image
+                jcr:created="{Date}2021-01-21T16:16:26.590-08:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-01-23T16:42:59.580-08:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/image"
+                alt="WKND Logo Light"
+                altValueFromDAM="false"
+                displayPopupTitle="true"
+                fileReference="/content/dam/wknd/en/site/wknd-logo-light.svg"
+                isDecorative="false"
+                linkURL="/content/wknd/us/en"
+                titleValueFromDAM="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="2"/>
+                </cq:responsive>
+            </image>
+            <navigation
+                jcr:created="{Date}2021-01-21T16:17:01.434-08:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-01-21T16:17:10.765-08:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/navigation"
+                collectAllPages="false"
+                disableShadowing="false"
+                navigationRoot="/content/wknd/us/en"
+                structureDepth="1"
+                structureStart="1">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="8"/>
+                </cq:responsive>
+            </navigation>
             <separator
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wknd/components/separator"/>
