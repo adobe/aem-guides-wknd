@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-01-25T18:47:53.223-08:00"
+        cq:lastModified="{Date}2021-01-27T15:30:55.216-08:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/article-page"
         jcr:primaryType="cq:PageContent"
@@ -56,6 +56,7 @@
                         text="&lt;p>Contrary to popular belief skateboarding, the sport as we know it was not invented by Marty McFly as depicted in the box office hit Back to the Future. It is widely considered that the sport was invented in California by surfers who wanted something to do when the ocean waves went &amp;quot;flat&amp;quot; or in non-surfer terms when there were no waves in the early 1950s. This was termed &amp;quot;sidewalk surfing&amp;quot; as a never ending wave that surfers could drop in on, unless it was raining. Los Angeles is long considered the epicenter of this alternative sport. The sport grew slowly, mostly on the west coast, finally becoming mainstream into the 1980s. In the summer of 2020 skateboarding will make its debut in the Olympics. In honor of this historic achievement we tracked down the top skate spots in greater Los Angeles.&lt;/p>&#xd;&#xa;"
                         textIsRich="true"/>
                     <text_312459940
+                        cq:styleIds="[1611783731332]"
                         jcr:created="{Date}2021-01-21T16:22:20.920-08:00"
                         jcr:createdBy="admin"
                         jcr:lastModified="{Date}2021-01-21T16:23:27.266-08:00"
@@ -65,6 +66,7 @@
                         text="&lt;blockquote>&amp;quot;There is no better place to shred then Los Angeles.”&lt;/blockquote>&#xd;&#xa;&lt;p>- Jacob Wester, Pro Skater&lt;/p>&#xd;&#xa;"
                         textIsRich="true"/>
                     <title_1756138806
+                        cq:styleIds="[1611780907097]"
                         jcr:created="{Date}2021-01-21T16:23:32.210-08:00"
                         jcr:createdBy="admin"
                         jcr:lastModified="{Date}2021-01-22T10:54:20.723-08:00"
