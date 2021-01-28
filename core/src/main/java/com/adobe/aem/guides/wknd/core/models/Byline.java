@@ -1,4 +1,4 @@
-package com.adobe.aem.guides.core.models;
+package com.adobe.aem.guides.wknd.core.models;
 
 import java.util.List;
 
