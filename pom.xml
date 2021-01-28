@@ -35,6 +35,7 @@
         <module>it.tests</module>
         <module>dispatcher</module>
         <module>ui.tests</module>
+        <module>analyse</module>
     </modules>
 
     <properties>
@@ -50,6 +51,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <aem.sdk.api>2021.1.4738.20210107T143101Z-201217</aem.sdk.api>
+        <aemanalyser.version>0.0.18</aemanalyser.version>
         <componentGroupName>WKND Sites Project</componentGroupName>
         <core.wcm.components.version>2.13.2</core.wcm.components.version>
     </properties>
@@ -278,6 +280,13 @@ Bundle-DocURL:
                             <version>6.5.5.0</version>
                         </dependency>
                     </dependencies>
+                </plugin>
+                <!-- AEM Analyser Plugin -->
+                <plugin>
+                    <groupId>com.adobe.aem</groupId>
+                    <artifactId>aemanalyser-maven-plugin</artifactId>
+                    <version>${aemanalyser.version}</version>
+                    <extensions>true</extensions>
                 </plugin>
                 <!-- Content Package Plugin -->
                 <plugin>
@@ -575,7 +584,7 @@ Bundle-DocURL:
                 <version>${core.wcm.components.version}</version>
             </dependency>
 
-
+            
             <!-- Testing -->
             <dependency>
                 <groupId>org.junit</groupId>

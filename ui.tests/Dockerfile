@@ -35,6 +35,11 @@ ENV AEM_PUBLISH_PASSWORD admin
 # ENV UPLOAD_URL
 
 RUN apt -qqy update \
+    # Generic dependencies
+    && apt -qqy --no-install-recommends install \
+    python \
+    build-essential \
+    # for wait_for_grid script
     && apt -qqy --no-install-recommends install \
     curl \
     jq

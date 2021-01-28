@@ -4,14 +4,14 @@ This is the code for the WKND Reference site: [https://www.wknd.site/](https://w
 
 There is also a corresponding tutorial where you can learn how to implement a website using the latest standards and technologies in Adobe Experience Manager (AEM): 
 
-1. [WKND Tutorial Overview](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
-2. [Project Setup](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html)
-3. [Component Basics](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/component-basics.html)
-4. [Pages and Templates](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/pages-templates.html)
-5. [Client-Side Libraries](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/client-side-libraries.html)
-6. [Style a Component](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/style-system.html)
-7. [Custom Component](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/custom-component.html)
-8. [Unit Testing](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/unit-testing.html)
+1. [WKND Tutorial Overview](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+2. [Project Setup](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html)
+3. [Component Basics](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/component-basics.html)
+4. [Pages and Templates](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/pages-templates.html)
+5. [Client-Side Libraries](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/client-side-libraries.html)
+6. [Style a Component](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/style-system.html)
+7. [Custom Component]https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/custom-component.html)
+8. [Unit Testing](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/unit-testing.html)
 
 ## Modules
 
@@ -58,21 +58,6 @@ Or to deploy only a single content package, run in the sub-module directory (i.e
 The project has been designed for **AEM as a Cloud Service**. The project is also backward compatible with AEM **6.4.8** and **6.5.5** by adding the `classic` profile when executing a build, i.e:
 
     mvn clean install -PautoInstallSinglePackage -Pclassic
-
-### WKND Sample content
-
-By default, sample content from `ui.content.sample` will be deployed and installed along with the WKND code base. The WKND reference site is used for demo and training purposes and having a pre-built, fully authored site is useful. However, the behavior of including a full reference site (pages, images, etc...) in source control is *unusual* and is **not** recommended for a real-world implementation.
-
-Including `ui.content.sample` will **overwrite** any authored content during each build. If you wish to disable this behavior modify the [filter.xml](ui.content.sample/src/main/content/META-INF/vault/filter.xml) file and update the `mode=merge` attribute to avoid overwriting the paths.
-
-```diff
-- <filter root="/content/wknd" />
-+ <filter root="/content/wknd" mode="merge"/>
-```
-
-### Upgrading versions
-
-If upgrading to a new version of WKND, it is recommended up modify the filters in `ui.content.sample` to remove the `mode="merge"` attribute prior to deploying.
 
 ## Testing
 
