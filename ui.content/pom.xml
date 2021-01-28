@@ -21,7 +21,7 @@
     <!-- P A R E N T  P R O J E C T  D E S C R I P T I O N                      -->
     <!-- ====================================================================== -->
     <parent>
-        <groupId>com.adobe.aem.guides</groupId>
+        <groupId>com.adobe.aem.guides.wknd</groupId>
         <artifactId>aem-guides-wknd</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
@@ -47,7 +47,7 @@
                 <groupId>org.apache.jackrabbit</groupId>
                 <artifactId>filevault-package-maven-plugin</artifactId>
                 <configuration>
-                    <group>com.adobe.aem.guides</group>
+                    <group>com.adobe.aem.guides.wknd</group>
                     <name>aem-guides-wknd.ui.content</name>
                     <packageType>content</packageType>
                     <accessControlHandling>merge</accessControlHandling>
@@ -64,7 +64,7 @@
                     </validatorsSettings>
                     <dependencies>
                         <dependency>
-                            <groupId>com.adobe.aem.guides</groupId>
+                            <groupId>com.adobe.aem.guides.wknd</groupId>
                             <artifactId>aem-guides-wknd.ui.apps</artifactId>
                             <version>${project.version}</version>
                         </dependency>
@@ -88,12 +88,12 @@
     <!-- ====================================================================== -->
     <dependencies>
         <dependency>
-            <groupId>com.adobe.aem.guides</groupId>
+            <groupId>com.adobe.aem.guides.wknd</groupId>
             <artifactId>aem-guides-wknd.core</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.adobe.aem.guides</groupId>
+            <groupId>com.adobe.aem.guides.wknd</groupId>
             <artifactId>aem-guides-wknd.ui.apps</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
