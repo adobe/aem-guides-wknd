@@ -13,7 +13,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package com.adobe.aem.guides.it.tests;
+package com.adobe.aem.guides.wknd.it.tests;
 
 import com.adobe.cq.testing.client.CQClient;
 import com.adobe.cq.testing.junit.assertion.CQAssert;
