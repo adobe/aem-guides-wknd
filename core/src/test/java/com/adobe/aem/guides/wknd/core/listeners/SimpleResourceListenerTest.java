@@ -13,7 +13,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package com.adobe.aem.guides.core.listeners;
+package com.adobe.aem.guides.wknd.core.listeners;
 
 import java.util.Collections;
 import java.util.List;

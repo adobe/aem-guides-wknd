@@ -14,6 +14,6 @@
  *  limitations under the License.
  */
 @Version("1.0")
-package com.adobe.aem.guides.core.servlets;
+package com.adobe.aem.guides.wknd.core.servlets;
 
 import org.osgi.annotation.versioning.Version;

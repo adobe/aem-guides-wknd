@@ -13,7 +13,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package com.adobe.aem.guides.core.filters;
+package com.adobe.aem.guides.wknd.core.filters;
 
 import java.io.IOException;
 import java.util.List;
