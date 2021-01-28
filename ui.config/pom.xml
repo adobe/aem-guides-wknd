@@ -21,7 +21,7 @@
     <!-- P A R E N T  P R O J E C T  D E S C R I P T I O N                      -->
     <!-- ====================================================================== -->
     <parent>
-        <groupId>com.adobe.aem.guides</groupId>
+        <groupId>com.adobe.aem.guides.wknd</groupId>
         <artifactId>aem-guides-wknd</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
@@ -50,7 +50,7 @@
                     <showImportPackageReport>false</showImportPackageReport>
                     <repositoryStructurePackages>
                         <repositoryStructurePackage>
-                            <groupId>com.adobe.aem.guides</groupId>
+                            <groupId>com.adobe.aem.guides.wknd</groupId>
                             <artifactId>aem-guides-wknd.ui.apps.structure</artifactId>
                         </repositoryStructurePackage>
                     </repositoryStructurePackages>
@@ -65,7 +65,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.adobe.aem.guides</groupId>
+            <groupId>com.adobe.aem.guides.wknd</groupId>
             <artifactId>aem-guides-wknd.ui.apps.structure</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
