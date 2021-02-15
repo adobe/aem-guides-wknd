@@ -1,0 +1,25 @@
+{
+  "filter.safe.user.agents":[
+    "Apache-HttpClient/*",
+    "Jakarta Commons-HttpClient/*",
+    "Jakarta-Commons-VFS",
+    "curl/*",
+    "Wget/*",
+    "WebDAVFS/*",
+    "Microsoft-WebDAV-MiniRedir/*",
+    "Ruby",
+    "Adobe-Campaign/*",
+    "Forms-Mobile *"
+  ],
+  "filter.excluded.paths":[
+    "/libs/dam/gui/content/assets/assetlinkshare",
+    "/content/communities/scorm/RecordResults",
+    "/content/cq:graphql/global/endpoint"
+  ],
+  "filter.methods":[
+    "POST",
+    "PUT",
+    "DELETE"
+  ],
+  "filter.enable.safe.user.agents":false
+}

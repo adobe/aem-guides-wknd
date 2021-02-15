@@ -1,0 +1,12 @@
+// Configuration created by Apache Sling JCR Installer
+{
+    "sling.servlet.extensions":[
+      "GQLschema"
+    ],
+    "sling.servlet.methods":[
+      "GET"
+    ],
+    "sling.servlet.resourceTypes":[
+      "graphql/sites/components/endpoint"
+    ]
+  }
