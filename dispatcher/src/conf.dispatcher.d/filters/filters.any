@@ -18,4 +18,8 @@ $include "./default_filters.any"
 #Allow logout path
 /0104 { /type "allow" /method "POST" /url "/system/sling/logout" }
 
+# Allow GraphQL global endpoint & preflight requests
+# GraphQL also supports GET requests, if you intend to use GET include it in the rule below
+/0164 { /type "allow" /method '(POST|OPTIONS)' /url "/content/graphql/global/endpoint.json" /extension "json"}
+
 
