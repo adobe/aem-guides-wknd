@@ -1,0 +1,16 @@
+// Configuration created by Apache Sling JCR Installer
+{
+    "allow.hosts.regexp":[
+      ""
+    ],
+    "allow.hosts":[
+      ""
+    ],
+    "filter.methods":[
+      "POST"
+    ],
+    "exclude.agents.regexp":[
+      ""
+    ],
+    "allow.empty":true
+}

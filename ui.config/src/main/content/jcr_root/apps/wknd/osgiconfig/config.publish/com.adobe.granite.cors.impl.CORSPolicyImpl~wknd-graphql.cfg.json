@@ -1,6 +1,6 @@
 // Configuration created by Apache Sling JCR Installer
 {
-  "supportscredentials":true,
+  "supportscredentials":false,
   "exposedheaders":[
     ""
   ],
@@ -10,11 +10,11 @@
     "POST"
   ],
   "alloworigin":[
-    "localhost"
+    ""
   ],
   "maxage:Integer":1800,
   "alloworiginregexp":[
-    ""
+    "http://localhost:.*"
   ],
   "allowedpaths":[
     "/content/graphql/global/endpoint.json"
