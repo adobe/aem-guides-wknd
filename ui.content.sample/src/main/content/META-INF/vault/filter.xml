@@ -6,8 +6,6 @@
     <!-- Changing the filter mode to merge will preserve any existing content on the target environment
     <filter root="/content/wknd" mode="merge"/>
     -->
-    
-    <filter root="/content/cq:graphql" mode="update" />
     <filter root="/content/dam/wknd" mode="update"/>
     <filter root="/content/experience-fragments/wknd"/>
     <filter root="/content/cq:tags/wknd" mode="update"/>
