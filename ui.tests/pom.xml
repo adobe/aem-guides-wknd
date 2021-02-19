@@ -95,7 +95,7 @@
                     <descriptors>
                         <descriptor>${project.basedir}/assembly-ui-test-docker-context.xml</descriptor>
                     </descriptors>
-                    <tarLongFileMode>gnu</tarLongFileMode>
+                    <tarLongFileMode>posix</tarLongFileMode>
                 </configuration>
                 <executions>
                     <execution>
