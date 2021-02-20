@@ -155,7 +155,7 @@
                             <execution>
                                 <id>enforce-checksum-of-immutable-files</id>
                                 <goals>
-                                    <goal>enforce</goal>
+                                    <goal>display-info</goal>
                                 </goals>
                                 <configuration>
                                     <rules>
