@@ -59,6 +59,14 @@ The project has been designed for **AEM as a Cloud Service**. The project is als
 
     mvn clean install -PautoInstallSinglePackage -Pclassic
 
+#### When using an IDE
+
+When using an IDE like IntelliJ, please make sure to check `classic` in your Maven Profile tab.
+
+Example screenshot:
+
+<img width="315" alt="maven profile tab with classic option checked" src="https://user-images.githubusercontent.com/33432803/109532613-4911a980-7a87-11eb-9b68-648d9d4d5c72.png">
+
 ### WKND Sample content
 
 By default, sample content from `ui.content.sample` will be deployed and installed along with the WKND code base. The WKND reference site is used for demo and training purposes and having a pre-built, fully authored site is useful. However, the behavior of including a full reference site (pages, images, etc...) in source control is *unusual* and is **not** recommended for a real-world implementation.
