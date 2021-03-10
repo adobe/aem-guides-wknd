@@ -65,7 +65,7 @@ When using an IDE like IntelliJ, please make sure to check `classic` in your Mav
 
 Example screenshot:
 
-<img width="315" alt="maven profile tab with classic option checked" src="https://user-images.githubusercontent.com/33432803/109532613-4911a980-7a87-11eb-9b68-648d9d4d5c72.png">
+![maven profile tab with classic option checked](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/intelliJMavenProfiles.png)
 
 ### WKND Sample content
 
