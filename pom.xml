@@ -60,7 +60,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <aem.sdk.api>2020.11.4506.20201112T235200Z-201028</aem.sdk.api>
         <componentGroupName>WKND Site</componentGroupName>
-        <core.wcm.components.version>2.15.0</core.wcm.components.version>
+        <core.wcm.components.version>2.15.2</core.wcm.components.version>
         <uber.jar.version>6.4.4</uber.jar.version>
     </properties>
 
