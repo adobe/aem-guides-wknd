@@ -148,7 +148,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/search"
-                        searchRoot="/content/wknd/en">
+                        searchRoot="/content/wknd/language-masters/en">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
                                 jcr:primaryType="nt:unstructured"
