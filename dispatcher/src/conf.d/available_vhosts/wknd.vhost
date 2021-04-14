@@ -36,8 +36,6 @@ Include conf.d/variables/custom.vars
 		SetOutputFilter DEFLATE
 		# Don't compress images
 		SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip dont-vary
-		# Make sure proxies don't deliver the wrong content
-		Header append Vary User-Agent env=!dont-vary
 		# Prevent clickjacking
 		Header always append X-Frame-Options SAMEORIGIN
 	</Directory>
@@ -60,5 +58,20 @@ Include conf.d/variables/custom.vars
     ErrorDocument 502 ${500_PAGE}
     ErrorDocument 503 ${500_PAGE}
     ErrorDocument 504 ${500_PAGE}
-
+    # AEM Theme Sources: cache mutable (but very likely not changed) resources for 24h on CDN and background refresh to avoid MISS on CDN
+    <LocationMatch "^/etc\.clientlibs/.*\.(?i:json|png|gif|jpe?g)$">
+        Header set Cache-Control "max-age=7200,s-maxage=86400,stale-while-revalidate=43200,stale-if-error=43200,public"
+    </LocationMatch>
+    # AEM Theme Sources: cache immutable resources for 1year (as recommended by Lighthouse), background refresh to avoid MISS on CDN
+    <LocationMatch "^/etc\.clientlibs/.*\.(?i:js|css|ttf|svg)$">
+        Header set Cache-Control "max-age=31536000,stale-while-revalidate=43200,stale-if-error=43200,public,immutable"
+    </LocationMatch>
+    # HTML pages: CDN cache for 10min with background refresh to avoid MISS on CDN
+    <LocationMatch "\.html$">
+        Header set Cache-Control "max-age=60,s-maxage=600,stale-while-revalidate=43200,stale-if-error=43200"
+    </LocationMatch>
+    # Core Component Image Component has immutable URLs, cache for 1year (as recommended by Lighthouse), background refresh to avoid MISS on CDN
+    <LocationMatch "\.coreimg\..*\.(?i:jpe?g|png|gif|svg)$">
+        Header set Cache-Control "max-age=31536000,stale-while-revalidate=43200,stale-if-error=43200,public,immutable"
+    </LocationMatch>
 </VirtualHost>
