@@ -1,8 +1,10 @@
+![Maven CI](https://github.com/adobe/aem-guides-wknd/actions/workflows/maven.yml/badge.svg)
+
 # WKND Sites Project
 
 This is the code for the WKND Reference site: [https://www.wknd.site/](https://www.wknd.site/)
 
-There is also a corresponding tutorial where you can learn how to implement a website using the latest standards and technologies in Adobe Experience Manager (AEM): 
+There is also a corresponding tutorial where you can learn how to implement a website using the latest standards and technologies in Adobe Experience Manager (AEM):
 
 1. [WKND Tutorial Overview](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 2. [Project Setup](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html)
