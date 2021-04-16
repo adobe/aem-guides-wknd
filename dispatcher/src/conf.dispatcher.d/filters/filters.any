@@ -22,4 +22,6 @@ $include "./default_filters.any"
 # GraphQL also supports GET requests, if you intend to use GET include it in the rule below
 /0164 { /type "allow" /method '(POST|OPTIONS)' /url "/content/graphql/global/endpoint.json" /extension "json"}
 
-
+# GraphQL Persisted Queries
+/0170 { /type "allow" /method '(POST|OPTIONS)' /url "/graphql/execute.json/*" }
+/0171 { /type "allow" /url "/graphql/execute.json/*" }
