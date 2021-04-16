@@ -21,6 +21,7 @@ import com.adobe.cq.wcm.core.components.models.Image;
 import com.adobe.cq.wcm.core.components.models.List;
 import com.adobe.cq.wcm.core.components.models.ListItem;
 import com.adobe.cq.wcm.core.components.models.datalayer.ComponentData;
+import com.day.cq.commons.jcr.JcrConstants;
 import com.day.cq.search.PredicateGroup;
 import com.day.cq.search.Query;
 import com.day.cq.search.QueryBuilder;
@@ -45,6 +46,7 @@ import javax.jcr.RepositoryException;
 import javax.jcr.Session;
 import java.lang.reflect.Field;
 import java.util.Arrays;
+import java.util.Calendar;
 import java.util.Collection;
 import java.util.stream.Collectors;
 
@@ -156,13 +158,17 @@ class ImageListImplTest {
 
         final ValueMap actual = new ImageListImpl.SimpleImageComponentResource(imageResource, "Test alt text").getValueMap();
 
-        assertEquals(8, actual.values().size());
+        assertEquals(9, actual.values().size());
         assertEquals("/content/dam/test.png", actual.get("fileReference"));
         assertEquals("Test alt text", actual.get("alt"));
         assertEquals(false, actual.get(Image.PN_IS_DECORATIVE));
         assertEquals(true, actual.get(Image.PN_DISPLAY_POPUP_TITLE));
         assertEquals(false, actual.get(Image.PN_TITLE_VALUE_FROM_DAM));
         assertEquals(false, actual.get(Image.PN_ALT_VALUE_FROM_DAM));
+
+        // validate lastModified time in milliseconds
+        Calendar actualLastModified = actual.get(JcrConstants.JCR_LASTMODIFIED, Calendar.class);
+        assertEquals(1569508227169L, actualLastModified.getTimeInMillis());
     }
 
     @Test
@@ -171,13 +177,17 @@ class ImageListImplTest {
 
         final ValueMap actual = new ImageListImpl.SimpleImageComponentResource(imageResource, "Test alt text").adaptTo(ValueMap.class);
 
-        assertEquals(8, actual.values().size());
+        assertEquals(9, actual.values().size());
         assertEquals("/content/dam/test.png", actual.get("fileReference"));
         assertEquals("Test alt text", actual.get("alt"));
         assertEquals(false, actual.get(Image.PN_IS_DECORATIVE));
         assertEquals(true, actual.get(Image.PN_DISPLAY_POPUP_TITLE));
         assertEquals(false, actual.get(Image.PN_TITLE_VALUE_FROM_DAM));
         assertEquals(false, actual.get(Image.PN_ALT_VALUE_FROM_DAM));
+
+        // validate lastModified time in milliseconds
+        Calendar actualLastModified = actual.get(JcrConstants.JCR_LASTMODIFIED, Calendar.class);
+        assertEquals(1569508227169L, actualLastModified.getTimeInMillis());
     }
 
 

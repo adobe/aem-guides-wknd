@@ -65,6 +65,7 @@
     "fileReference": "/content/dam/test.png",
     "alt": "Wrapped alt",
     "altValueFromDAM": "true",
-    "displayPopupTitle": "false"
+    "displayPopupTitle": "false",
+    "jcr:lastModified": "2019-09-26T07:30:27.169-07:00"
   }
 }
