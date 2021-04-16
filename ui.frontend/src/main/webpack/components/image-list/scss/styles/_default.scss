@@ -70,6 +70,10 @@
     }
   }
 
+  .cmp-image__title {
+      display: none;
+  }
+
   @media (max-width: $screen-small) {
     justify-content: space-between;
 
@@ -77,5 +81,5 @@
       padding-right:0;
     }
   }
-  
+
 }

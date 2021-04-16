@@ -63,6 +63,8 @@
     "jcr:primaryType": "nt:unstructured",
     "sling:resourceType": "wknd/components/image",
     "fileReference": "/content/dam/test.png",
-    "alt": "Wrapped alt"
+    "alt": "Wrapped alt",
+    "altValueFromDAM": "true",
+    "displayPopupTitle": "false"
   }
 }

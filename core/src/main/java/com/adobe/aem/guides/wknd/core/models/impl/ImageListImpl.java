@@ -157,7 +157,7 @@ public class ImageListImpl implements ImageList {
             final PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
             this.wrappedListItem = listItem;
             this.parentId = parentId;
-            this.page = pageManager.getContainingPage(wrappedListItem.getPath());          
+            this.page = pageManager.getContainingPage(wrappedListItem.getPath());
 
             image = findPageComponentResources(this.page, IMAGE_RESOURCE_TYPE, 1).stream()
                     .map(r -> new SimpleImageComponentResource(r, getTitle()))
@@ -280,15 +280,15 @@ public class ImageListImpl implements ImageList {
         public SimpleImageComponentResource(final Resource resource, final String alt) {
             super(resource);
 
-            // Expose the original fileReference
-            properties.put(PN_FILE_REFERENCE,
-                    resource.getValueMap().get(PN_FILE_REFERENCE));
+            // Copy the properties from the original image
+            properties.putAll(resource.getValueMap());
 
             // Override the decorative configuration attributes
             properties.put(PN_ALT, alt);
             properties.put(Image.PN_IS_DECORATIVE, false);
-            properties.put(Image.PN_DISPLAY_POPUP_TITLE, false);
+            properties.put(Image.PN_DISPLAY_POPUP_TITLE, true);
             properties.put(Image.PN_TITLE_VALUE_FROM_DAM, false);
+            properties.put(Image.PN_ALT_VALUE_FROM_DAM, false);
         }
 
         @Override
