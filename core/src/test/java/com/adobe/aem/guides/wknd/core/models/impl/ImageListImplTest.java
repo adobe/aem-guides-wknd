@@ -21,6 +21,7 @@ import com.adobe.cq.wcm.core.components.models.Image;
 import com.adobe.cq.wcm.core.components.models.List;
 import com.adobe.cq.wcm.core.components.models.ListItem;
 import com.adobe.cq.wcm.core.components.models.datalayer.ComponentData;
+import com.day.cq.commons.jcr.JcrConstants;
 import com.day.cq.search.PredicateGroup;
 import com.day.cq.search.Query;
 import com.day.cq.search.QueryBuilder;
@@ -45,6 +46,7 @@ import javax.jcr.RepositoryException;
 import javax.jcr.Session;
 import java.lang.reflect.Field;
 import java.util.Arrays;
+import java.util.Calendar;
 import java.util.Collection;
 import java.util.stream.Collectors;
 
@@ -156,12 +158,17 @@ class ImageListImplTest {
 
         final ValueMap actual = new ImageListImpl.SimpleImageComponentResource(imageResource, "Test alt text").getValueMap();
 
-        assertEquals(5, actual.values().size());
+        assertEquals(9, actual.values().size());
         assertEquals("/content/dam/test.png", actual.get("fileReference"));
         assertEquals("Test alt text", actual.get("alt"));
         assertEquals(false, actual.get(Image.PN_IS_DECORATIVE));
-        assertEquals(false, actual.get(Image.PN_DISPLAY_POPUP_TITLE));
+        assertEquals(true, actual.get(Image.PN_DISPLAY_POPUP_TITLE));
         assertEquals(false, actual.get(Image.PN_TITLE_VALUE_FROM_DAM));
+        assertEquals(false, actual.get(Image.PN_ALT_VALUE_FROM_DAM));
+
+        // validate lastModified time in milliseconds
+        Calendar actualLastModified = actual.get(JcrConstants.JCR_LASTMODIFIED, Calendar.class);
+        assertEquals(1569508227169L, actualLastModified.getTimeInMillis());
     }
 
     @Test
@@ -170,12 +177,17 @@ class ImageListImplTest {
 
         final ValueMap actual = new ImageListImpl.SimpleImageComponentResource(imageResource, "Test alt text").adaptTo(ValueMap.class);
 
-        assertEquals(5, actual.values().size());
+        assertEquals(9, actual.values().size());
         assertEquals("/content/dam/test.png", actual.get("fileReference"));
         assertEquals("Test alt text", actual.get("alt"));
         assertEquals(false, actual.get(Image.PN_IS_DECORATIVE));
-        assertEquals(false, actual.get(Image.PN_DISPLAY_POPUP_TITLE));
+        assertEquals(true, actual.get(Image.PN_DISPLAY_POPUP_TITLE));
         assertEquals(false, actual.get(Image.PN_TITLE_VALUE_FROM_DAM));
+        assertEquals(false, actual.get(Image.PN_ALT_VALUE_FROM_DAM));
+
+        // validate lastModified time in milliseconds
+        Calendar actualLastModified = actual.get(JcrConstants.JCR_LASTMODIFIED, Calendar.class);
+        assertEquals(1569508227169L, actualLastModified.getTimeInMillis());
     }
 
 
@@ -191,7 +203,7 @@ class ImageListImplTest {
 
     @Test
     void getData() throws RepositoryException, IllegalAccessException, NoSuchFieldException {
-    	
+
    	 	// Page 1
         Resource page1ImageComponentResource = spy(ctx.resourceResolver().getResource("/content/pages/page-1/jcr:content/root/responsivegrid/page-1-image-component"));
         doReturn(leakedResourceResolver).when(page1ImageComponentResource).getResourceResolver();
@@ -205,19 +217,19 @@ class ImageListImplTest {
         ctx.currentResource("/content/image-list");
 
         final ImageList actual = ctx.request().adaptTo(ImageList.class);
-        
+
         setCoreList((ImageListImpl) actual, new MockList("/content/pages/page-1"));
 
         ImageList.ListItem[] actualListItems = actual.getListItems().toArray(new ImageList.ListItem[0]);
-        
+
         //Test Data Layer on Image List (parent)
         assertNotNull(actual.getData());
         assertEquals("wknd/components/image-list", actual.getData().getType());
         assertEquals("image-list-2719473ca4", actual.getData().getId());
-        
+
         //Test Data Layer on Image List Items
         ComponentData listItemData = actualListItems[0].getData();
-        
+
         assertNotNull(listItemData);
         assertEquals("wknd/components/image-list/image-list-item", listItemData.getType());
         assertEquals("image-list-2719473ca4-image-list-item-58adf87daa", actualListItems[0].getData().getId());
@@ -226,10 +238,10 @@ class ImageListImplTest {
         assertEquals("/content/pages/page-1.html", listItemData.getLinkUrl());
         assertEquals("image-list-2719473ca4", listItemData.getParentId());
     }
-    
+
     @Test
     void getData_disabled() throws RepositoryException, IllegalAccessException, NoSuchFieldException {
-    	
+
     	// Page 1
         Resource page1ImageComponentResource = spy(ctx.resourceResolver().getResource("/content/pages/page-1/jcr:content/root/responsivegrid/page-1-image-component"));
         doReturn(leakedResourceResolver).when(page1ImageComponentResource).getResourceResolver();
@@ -240,20 +252,19 @@ class ImageListImplTest {
 
         //Disable the data layer
         enableDataLayer(ctx, false);
-        
+
         ctx.currentResource("/content/image-list");
 
         final ImageList actual = ctx.request().adaptTo(ImageList.class);
         assertNull(actual.getData());
-        
+
         setCoreList((ImageListImpl) actual, new MockList("/content/pages/page-1"));
 
         ImageList.ListItem[] actualListItems = actual.getListItems().toArray(new ImageList.ListItem[2]);
-        
+
         //Test Data Layer on Image List Items
         assertNull(actualListItems[0].getData());
-        
-        
+
     }
 
     /**
