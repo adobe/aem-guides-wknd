@@ -81,8 +81,8 @@
     </developers>
 
      <scm>
-        <connection>scm:git:https://github.com/adobe/aem-guides-wknd.git</connection>
-        <developerConnection>scm:git:https://github.com/adobe/aem-guides-wknd.git</developerConnection>
+        <connection>scm:git:git@github.com:adobe/aem-guides-wknd.git</connection>
+        <developerConnection>scm:git:git@github.com:adobe/aem-guides-wknd.git</developerConnection>
         <url>https://github.com/adobe/aem-guides-wknd/tree/master</url>
         <tag>HEAD</tag>
     </scm>
