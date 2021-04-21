@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Template"
     allowedPaths="[/content/entities(/.*)?]"
     ranking="{Long}100">
@@ -99,16 +99,24 @@
                         </_x0031_571164948750>
                         <_x0031_570129198953
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
+                            emptyText="Number in Group"
                             fieldDescription="Group size"
                             fieldLabel="Group Size"
                             listOrder="1"
-                            maxlength="255"
-                            metaType="text-single"
+                            metaType="number"
                             name="adventureGroupSize"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
-                            valueType="string"/>
+                            step="1"
+                            typeHint="long"
+                            validation="cfm.validation.number.min"
+                            valueType="long">
+                            <granite:data
+                                jcr:primaryType="nt:unstructured"
+                                customErrorMsg="Group must have at least one person"
+                                number-min="1"/>
+	                </_x0031_570129198953>
                         <_x0031_570129214037
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/select"
