@@ -108,6 +108,22 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <groupId>com.adobe.aem</groupId>
+                <artifactId>aemanalyser-maven-plugin</artifactId>
+                <extensions>true</extensions>
+                <executions>
+                    <execution>
+                        <id>analyse-project</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>convert</goal>
+                            <goal>aggregate</goal>
+                            <goal>analyse</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
 
