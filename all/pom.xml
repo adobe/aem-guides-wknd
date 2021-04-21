@@ -115,7 +115,7 @@
                 <executions>
                     <execution>
                         <id>analyse-project</id>
-                        <phase>package</phase>
+                        <phase>verify</phase>
                         <goals>
                             <goal>convert</goal>
                             <goal>aggregate</goal>
