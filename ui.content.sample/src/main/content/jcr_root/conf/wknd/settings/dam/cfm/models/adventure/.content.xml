@@ -179,16 +179,34 @@
                             emptyOption="{Boolean}true"
                             fieldLabel="Difficulty"
                             listOrder="6"
-                            metaType="enumeration"
+                            metaType="enumation_ft_toggle"
                             name="adventureDifficulty"
-                            options="Beginner, Intermediate, Advanced, Expert"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
                             valueType="string">
+                            <optionsmultifield jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Beginner"
+                                    fieldValue="Beginner"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Intermediate"
+                                    fieldValue="Intermediate"/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Advanced"
+                                    fieldValue="Advanced"/>
+                                <item3
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Expert"
+                                    fieldValue="Expert"/>
+                            </optionsmultifield>
                             <datasource
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="dam/cfm/admin/components/datasources/optionrenderer"
+                                sling:resourceType="dam/cfm/admin/components/datasources/optionrendererenumeration"
                                 variant="default"/>
+			    <granite:data jcr:primaryType="nt:unstructured"/>
                         </_x0031_570129214037>
                         <_x0031_570129363496
                             jcr:primaryType="nt:unstructured"
