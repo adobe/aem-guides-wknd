@@ -58,16 +58,30 @@
                             emptyOption="{Boolean}true"
                             fieldLabel="Adventure Type"
                             listOrder="6"
-                            metaType="enumeration"
+                            metaType="enumation_ft_toggle"
                             name="adventureType"
-                            options="Day Trip, Overnight Trip, Training Session"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
                             valueType="string">
+                            <optionsmultifield jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Day Trip"
+                                    fieldValue="Day Trip"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Overnight Trip"
+                                    fieldValue="Overnight Trip"/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Training Session"
+                                    fieldValue="Training Session"/>
+                            </optionsmultifield>
                             <datasource
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="dam/cfm/admin/components/datasources/optionrenderer"
+                                sling:resourceType="dam/cfm/admin/components/datasources/optionrendererenumeration"
                                 variant="default"/>
+                             <granite:data jcr:primaryType="nt:unstructured"/>
                         </_x0031_570130694529>
                         <_x0031_570129178452
                             jcr:primaryType="nt:unstructured"
