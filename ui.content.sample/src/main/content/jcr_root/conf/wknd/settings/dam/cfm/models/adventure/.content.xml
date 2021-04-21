@@ -100,16 +100,58 @@
                             emptyOption="{Boolean}true"
                             fieldLabel="Activity"
                             listOrder="6"
-                            metaType="enumeration"
+                            metaType="enumation_ft_toggle"
                             name="adventureActivity"
-                            options="Camping, Surfing, Skiing, Cycling, Hiking, Skateboarding, Rock Climbing, Running,  Snowboarding, Social"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
                             valueType="string">
+                            <optionsmultifield jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Camping"
+                                    fieldValue="Camping"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Surfing"
+                                    fieldValue="Surfing"/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Skiing"
+                                    fieldValue="Skiing"/>
+                                <item3
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Cycling"
+                                    fieldValue="Cycling"/>
+                                <item4
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Hiking"
+                                    fieldValue="Hiking"/>
+                                <item5
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Skateboarding"
+                                    fieldValue="Skateboarding"/>
+                                <item6
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Rock Climbing"
+                                    fieldValue="Rock Climbing"/>
+                                <item7
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Running"
+                                    fieldValue="Running"/>
+                                <item8
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Snowboarding"
+                                    fieldValue="Snowboarding"/>
+                                <item9
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Social"
+                                    fieldValue="Social"/>
+                            </optionsmultifield>
                             <datasource
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="dam/cfm/admin/components/datasources/optionrenderer"
+                                sling:resourceType="dam/cfm/admin/components/datasources/optionrendererenumeration"
                                 variant="default"/>
+		            <granite:data jcr:primaryType="nt:unstructured"/>
                         </_x0031_571164948750>
                         <_x0031_570129198953
                             jcr:primaryType="nt:unstructured"
