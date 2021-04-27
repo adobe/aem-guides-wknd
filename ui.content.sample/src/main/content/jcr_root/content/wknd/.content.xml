@@ -4,15 +4,14 @@
     <jcr:content
         cq:allowedTemplates="[/conf/wknd/settings/wcm/templates/landing-page-template,/conf/wknd/settings/wcm/templates/article-page-template,/conf/wknd/settings/wcm/templates/content-page-template,/conf/wknd/settings/wcm/templates/adventure-page-template]"
         cq:conf="/conf/wknd"
-        cq:lastModified="{Date}2020-01-06T15:53:34.296-08:00"
+        cq:lastModified="{Date}2021-04-27T20:19:05.296-08:00"
         cq:lastModifiedBy="admin"
         jcr:primaryType="cq:PageContent"
         jcr:title="WKND Site"
         sling:configRef="/conf/wknd"
-        sling:redirect="true"
-        sling:redirectStatus="{Long}302"
-        sling:resourceType="foundation/components/redirect"
-        redirectTarget="/content/wknd/en">
+        sling:resourceType="wknd/components/page"
+        cq:redirectTarget="/content/wknd/en"
+        cq:template="/conf/wknd/settings/wcm/templates/landing-page-template">
         <image jcr:primaryType="nt:unstructured">
             <file/>
         </image>
