@@ -27,4 +27,4 @@ $include "./default_filters.any"
 /0171 { /type "allow" /url "/graphql/execute.json/*" }
 
 # Allow webmanifest files
-/0102 { /type "allow" /extension "webmanifest" /path "/content/*/manifest" }
+/0180 { /type "allow" /extension "webmanifest" /path "/content/*/manifest" }
