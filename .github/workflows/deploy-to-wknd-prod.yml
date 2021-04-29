@@ -11,7 +11,7 @@ env:
 # Only run on a push to this branch
 on:
   push:
-    branches: [ master ]
+    branches: [ issue/239 ]
   workflow_dispatch:
  
 jobs:
@@ -42,7 +42,7 @@ jobs:
 
       - name: Merge Github branch
         run:
-          git merge origin/master
+          git merge --allow-unrelated-histories origin/issue/239
 
       - name: Push changes to WKND
         run: |
