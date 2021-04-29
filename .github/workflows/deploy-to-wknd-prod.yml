@@ -1,6 +1,8 @@
 # This workflow mirrors the code to the wknd.site repository
 name: Deploy to WKND.site Production
 env:
+  # Local repository
+  BRANCH: issue/239
   # Target repository
   TARGET_REPO: ${{ secrets.WKND_REPOSITORY }}
   TARGET_BRANCH: ${{ secrets.WKND_BRANCH_PROD }}
@@ -11,7 +13,8 @@ env:
 # Only run on a push to this branch
 on:
   push:
-     branches: [ issue/239 ]
+    branches:
+      - ${BRANCH}
   workflow_dispatch:
  
 jobs:
@@ -42,7 +45,7 @@ jobs:
 
       - name: Merge Github branch
         run:
-          git merge origin/${GITHUB_REF##*/}
+          git merge origin/${BRANCH}
 
       - name: Push changes to WKND
         run: |
