@@ -1,0 +1,48 @@
+# This workflow mirrors the code to the wknd.site repository
+name: Deploy to WKND.site Production
+env:
+  # Target repository
+  TARGET_REPO: ${{ secrets.WKND_REPOSITORY }}
+  TARGET_BRANCH: ${{ secrets.WKND_BRANCH_PROD }}
+  USER_EMAIL: ${{ secrets.WKND_USER_EMAIL }}
+  USER_NAME: ${{ secrets.WKND_USER_NAME }}
+  USER_PWD: ${{ secrets.WKND_PASSWORD }}
+ 
+# Only run on a push to this branch
+on:
+  push:
+     branches: [ master ]
+ 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+ 
+    steps:
+      # Checkout Gibhut project
+      - uses: actions/checkout@v2
+
+      - name: Add WKND remote
+        run:
+          git remote add wknd https://${USER_EMAIL}:${USER_PWD}@${TARGET_REPO}
+
+      - name: Fetch WKND remote
+        run:
+          git fetch wknd
+
+      - name: Checkout target WKND branch
+        run:
+          git checkout wknd/${TARGET_BRANCH}
+
+      - name: Set Git config
+        run: |
+          git config --global credential.helper cache
+          git config --global user.email ${USER_EMAIL}
+          git config --global user.name ${USER_NAME}
+
+      - name: Merge Github branch
+        run:
+          git merge github/${GITHUB_REF##*/}
+
+      - name: Push changes to WKND
+        run: |
+          git push -u wknd
