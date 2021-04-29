@@ -11,7 +11,7 @@ env:
 # Only run on a push to this branch
 on:
   push:
-    branches: [ issue/239 ]
+    branches: [ master ]
   workflow_dispatch:
  
 jobs:
@@ -42,7 +42,7 @@ jobs:
 
       - name: Merge Github branch
         run:
-          git merge origin/issue/239
+          git merge origin/master
 
       - name: Push changes to WKND
         run: |
