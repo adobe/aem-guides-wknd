@@ -28,7 +28,7 @@ jobs:
 
       - name: Fetch WKND remote
         run:
-          git fetch wknd
+          git fetch --unshallow wknd
 
       - name: Checkout target WKND branch
         run:
