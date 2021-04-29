@@ -31,7 +31,7 @@ jobs:
 
       - name: Checkout target WKND branch
         run:
-          git checkout wknd/${TARGET_BRANCH}
+          git checkout -b ${TARGET_BRANCH} origin/${TARGET_BRANCH}
 
       - name: Set Git config
         run: |
@@ -41,7 +41,7 @@ jobs:
 
       - name: Merge Github branch
         run:
-          git merge github/${GITHUB_REF##*/}
+          git merge origin/${GITHUB_REF##*/}
 
       - name: Push changes to WKND
         run: |
