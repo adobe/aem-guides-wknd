@@ -1,7 +1,5 @@
 ![Maven CI](https://github.com/adobe/aem-guides-wknd/actions/workflows/maven.yml/badge.svg)
 
-TEST UPDATE
-
 # WKND Sites Project
 
 This is the code for the WKND Reference site: [https://www.wknd.site/](https://www.wknd.site/)
