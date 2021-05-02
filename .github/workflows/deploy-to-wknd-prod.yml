@@ -8,7 +8,7 @@ env:
   USER_NAME: ${{ secrets.WKND_USER_NAME }}
   USER_PWD: ${{ secrets.WKND_PASSWORD }}
  
-# Only run on a push to this branch
+# Only run on a push to master branch
 on:
   push:
     branches: [ issue/239 ]
@@ -28,23 +28,11 @@ jobs:
         run:
           git remote add wknd https://${USER_EMAIL}:${USER_PWD}@${TARGET_REPO}
 
-#      - name: Fetch WKND remote
-#        run:
-#          git fetch --update-shallow wknd
-
-#      - name: Checkout target WKND branch
-#        run:
-#          git checkout -b ${TARGET_BRANCH} wknd/${TARGET_BRANCH}
-
       - name: Set Git config
         run: |
           git config --global credential.helper cache
           git config --global user.email ${USER_EMAIL}
           git config --global user.name ${USER_NAME}
-
-#      - name: Merge Github branch
-#        run:
-#          git merge --strategy-option theirs origin/issue/239 --squash
 
       - name: Push changes to WKND
         run:
