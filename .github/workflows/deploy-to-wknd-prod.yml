@@ -11,7 +11,7 @@ env:
 # Only run on a push to master branch
 on:
   push:
-    branches: [ issue/239 ]
+    branches: [ master ]
   workflow_dispatch:
  
 jobs:
@@ -36,4 +36,4 @@ jobs:
 
       - name: Push changes to WKND
         run:
-          git push -u wknd issue/239:${TARGET_BRANCH}
+          git push -u wknd master:${TARGET_BRANCH}
