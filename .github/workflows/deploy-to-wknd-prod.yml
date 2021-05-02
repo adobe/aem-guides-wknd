@@ -21,18 +21,20 @@ jobs:
     steps:
       # Checkout Gibhut project
       - uses: actions/checkout@v2
+        with:
+          fetch-depth: '0'
 
       - name: Add WKND remote
         run:
           git remote add wknd https://${USER_EMAIL}:${USER_PWD}@${TARGET_REPO}
 
-      - name: Fetch WKND remote
-        run:
-          git fetch --update-shallow wknd
+#      - name: Fetch WKND remote
+#        run:
+#          git fetch --update-shallow wknd
 
-      - name: Checkout target WKND branch
-        run:
-          git checkout -b ${TARGET_BRANCH} wknd/${TARGET_BRANCH}
+#      - name: Checkout target WKND branch
+#        run:
+#          git checkout -b ${TARGET_BRANCH} wknd/${TARGET_BRANCH}
 
       - name: Set Git config
         run: |
@@ -42,8 +44,8 @@ jobs:
 
       - name: Merge Github branch
         run:
-          git merge --strategy-option theirs origin/issue/239 --squash
+#          git merge --strategy-option theirs origin/issue/239 --squash
 
       - name: Push changes to WKND
-        run: |
-          git push -u wknd
+        run:
+          git push -u wknd issue/239:${TARGET_BRANCH}
