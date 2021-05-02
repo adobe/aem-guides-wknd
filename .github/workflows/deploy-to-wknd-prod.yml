@@ -42,7 +42,7 @@ jobs:
 
       - name: Merge Github branch
         run:
-          git merge --squash --allow-unrelated-histories --strategy-option theirs origin/issue/239
+          git merge --strategy-option theirs origin/issue/239 --squash
 
       - name: Push changes to WKND
         run: |
