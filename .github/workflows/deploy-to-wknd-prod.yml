@@ -42,8 +42,8 @@ jobs:
           git config --global user.email ${USER_EMAIL}
           git config --global user.name ${USER_NAME}
 
-      - name: Merge Github branch
-        run:
+#      - name: Merge Github branch
+#        run:
 #          git merge --strategy-option theirs origin/issue/239 --squash
 
       - name: Push changes to WKND
