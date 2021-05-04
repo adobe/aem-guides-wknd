@@ -1,0 +1,44 @@
+# This workflow mirrors the code to the wknd.site repository
+name: Deploy to WKND.site Production
+env:
+  # Target repository
+  TARGET_REPO: ${{ secrets.WKND_REPOSITORY }}
+  TARGET_BRANCH_DEV: ${{ secrets.WKND_BRANCH_DEV }}
+  TARGET_BRANCH_PROD: ${{ secrets.WKND_BRANCH_PROD }}
+  USER_EMAIL: ${{ secrets.WKND_USER_EMAIL }}
+  USER_NAME: ${{ secrets.WKND_USER_NAME }}
+  USER_PWD: ${{ secrets.WKND_PASSWORD }}
+
+# Only run on a push to master branch
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout Gibhut project
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: '0'
+
+      - name: Add WKND remote
+        run:
+          git remote add wknd https://${USER_EMAIL}:${USER_PWD}@${TARGET_REPO}
+
+      - name: Set Git config
+        run: |
+          git config --global credential.helper cache
+          git config --global user.email ${USER_EMAIL}
+          git config --global user.name ${USER_NAME}
+
+      - name: Push changes to WKND Development
+        run:
+          git push -u wknd master:${TARGET_BRANCH_DEV}
+
+      - name: Push changes to WKND Production
+        run:
+          git push -u wknd master:${TARGET_BRANCH_PROD}
