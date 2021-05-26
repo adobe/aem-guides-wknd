@@ -25,3 +25,6 @@ $include "./default_filters.any"
 # GraphQL Persisted Queries
 /0170 { /type "allow" /method '(POST|OPTIONS)' /url "/graphql/execute.json/*" }
 /0171 { /type "allow" /url "/graphql/execute.json/*" }
+
+# Allow to download web manifest for PWA
+/0180 { /type "allow" /extension "webmanifest" }
