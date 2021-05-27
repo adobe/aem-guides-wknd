@@ -17,7 +17,8 @@
     "http://localhost:.*"
   ],
   "allowedpaths":[
-    "/content/graphql/global/endpoint.json"
+    "/content/graphql/global/endpoint.json",
+    "/content/cq:graphql/wknd/endpoint.json"
   ],
   "supportedheaders":[
     "Origin",
