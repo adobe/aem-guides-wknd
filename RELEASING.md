@@ -38,6 +38,10 @@ It is recommended that your private key is protected with a passphrase. You can 
          <!-- passphrase for your private key -->
          <password>****</password>
     </server>
+    
+### Java 8
+
+You must use Java 8 when peforming the Maven release.
 
 ### Prior to release
 
