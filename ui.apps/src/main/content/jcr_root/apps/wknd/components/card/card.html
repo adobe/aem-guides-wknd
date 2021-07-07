@@ -1,0 +1,13 @@
+<!--/* byline.html */-->
+<div data-sly-use.card="com.adobe.aem.guides.wknd.core.models.Card" 
+    data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"
+    data-sly-test.hasContent="${!card.empty}">
+    <div 
+        data-sly-resource="${ '.' @ resourceType = 'core/wcm/components/image/v2/image' }">
+    </div>
+    <h2 c>${card.title}</h2>
+    <p >${card.description}</p>
+    <button>submit</button>
+    
+</div>
+<sly data-sly-call="${placeholderTemplate.placeholder @ isEmpty=!hasContent}"></sly>
