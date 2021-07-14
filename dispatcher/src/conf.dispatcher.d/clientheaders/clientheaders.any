@@ -4,4 +4,10 @@
 # By default, it includes the default client headers.
 #
 
+# Allowing CORS headers to be passed through to the publish tier to support headless and SPA Editor use cases.
+
+"access-control-request-headers"
+"access-control-request-method"
+"origin"
+
 $include "./default_clientheaders.any"
