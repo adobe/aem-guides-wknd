@@ -35,10 +35,9 @@
     "eslint-loader": "^3.0.3",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.4.4",
-    "node-sass": "^4.11.0",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
     "postcss-loader": "^3.0.0",
-    "sass": "^1.17.2",
+    "sass": "^1.36.0",
     "sass-loader": "^7.1.0",
     "source-map-loader": "^0.2.4",
     "style-loader": "^0.14.1",
@@ -53,7 +52,6 @@
     "webpack-import-glob-loader": "^1.6.3",
     "webpack-merge": "^4.2.1"
   },
-  "dependencies": {},
   "browserslist": [
     "last 2 version",
     "> 1%"
