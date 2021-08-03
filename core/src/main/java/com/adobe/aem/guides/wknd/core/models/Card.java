@@ -1,6 +1,5 @@
 package com.adobe.aem.guides.wknd.core.models;
-
-
+ 
 /**
 * Represents the Card AEM Component for the WKND Site project.
 **/
