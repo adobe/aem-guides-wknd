@@ -2,8 +2,13 @@
 .cmp-title__text {}
 .cmp-title__link {}
 /* Add Title Underline Style */
+.cmp-title__text{
+    color: green;
+}
+
 .cmp-title--underline {
     .cmp-title__text {
+
         &:after {
         display: block;
             width: 84px;
