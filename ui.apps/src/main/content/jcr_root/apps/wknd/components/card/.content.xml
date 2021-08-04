@@ -4,4 +4,7 @@
     jcr:title="Card"
     jcr:description="Displays a card."
     componentGroup="WKND Sites Project - Content"
-    sling:resourceSuperType="core/wcm/components/image/v2/image"/>
+    sling:resourceSuperType="core/wcm/components/image/v2/image"
+    sling:resourceSuperType="core/wcm/components/image/v2/image"
+
+    />
