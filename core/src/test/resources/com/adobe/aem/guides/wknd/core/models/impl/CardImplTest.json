@@ -1,0 +1,13 @@
+{
+    "card": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "wknd/components/content/card",
+        "title": "Sachin Teckchandani",
+        "desc": "Solution Dev at Deloitte"
+    },
+    "empty": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "wknd/components/content/card"
+    }
+}
+
