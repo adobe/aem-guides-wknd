@@ -8,9 +8,7 @@
     </div>
     <h2 class="cmp-title">${card.title}</h2>
     <h2 class="cmp-card__desc">${card.desc}</h2>
-    <div
-        data-sly-resource="${ '.' @ resourceType = 'com.adobe.cq.wcm.core.components.models.Button' }" ></div>
-
+    <div class = "test" data-sly-resource="${ 'btnTest' @ resourceType = 'core/wcm/components/button/v2/button' }"></div>
 
 </div>
 <sly data-sly-call="${placeholderTemplate.placeholder @ isEmpty=!hasContent}"></sly>
