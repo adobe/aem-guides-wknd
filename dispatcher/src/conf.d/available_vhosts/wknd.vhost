@@ -84,7 +84,7 @@ Include conf.d/variables/custom.vars
         Header set Age 0
     </LocationMatch>
     # Core Component Image Component: long-term caching (30 days) for immutable URLs, background refresh to avoid MISS
-    <LocationMatch "\.coreimg\..*\.(?i:jpe?g|png|gif|svg)$">
+    <LocationMatch "\.coreimg.*\.(?i:jpe?g|png|gif|svg)$">
         Header set Cache-Control "max-age=2592000,stale-while-revalidate=43200,stale-if-error=43200,public,immutable" "expr=%{REQUEST_STATUS} < 400"
         Header set Age 0
     </LocationMatch> 
