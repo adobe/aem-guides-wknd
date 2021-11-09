@@ -60,20 +60,37 @@ Include conf.d/variables/custom.vars
     ErrorDocument 502 ${500_PAGE}
     ErrorDocument 503 ${500_PAGE}
     ErrorDocument 504 ${500_PAGE}
-    # AEM Theme Sources: cache mutable (but very likely not changed) resources for 24h on CDN and background refresh to avoid MISS on CDN
-    <LocationMatch "^/etc\.clientlibs/.*\.(?i:json|png|gif|jpe?g)$">
-        Header set Cache-Control "max-age=7200,s-maxage=86400,stale-while-revalidate=43200,stale-if-error=43200,public"
+    
+    ## Default Fastly Cache Settings for AEM - V20211021
+    # Theme Sources via Clientlib: cache mutable resources for 24h on CDN and background refresh to avoid MISS
+    <LocationMatch "^/etc\.clientlibs/.*\.(?i:json|png|gif|jpe?g|svg)$">
+        Header set Cache-Control "max-age=7200,s-maxage=86400,stale-while-revalidate=43200,stale-if-error=43200,public" "expr=%{REQUEST_STATUS} < 400"
+        Header set Age 0
     </LocationMatch>
-    # AEM Theme Sources: cache immutable resources for 1year (as recommended by Lighthouse), background refresh to avoid MISS on CDN
-    <LocationMatch "^/etc\.clientlibs/.*\.(?i:js|css|ttf|svg)$">
-        Header set Cache-Control "max-age=31536000,stale-while-revalidate=43200,stale-if-error=43200,public,immutable"
+    # Theme Sources via Clientlib: long-term caching (30 days) for immutable URLs, background refresh to avoid MISS
+    <LocationMatch "^/etc\.clientlibs/.*\.(?i:js|css|ttf|woff2)$">
+        Header set Cache-Control "max-age=2592000,stale-while-revalidate=43200,stale-if-error=43200,public,immutable" "expr=%{REQUEST_STATUS} < 400"
+        Header set Age 0
     </LocationMatch>
-    # HTML pages: CDN cache for 10min with background refresh to avoid MISS on CDN
+    # HTML pages: CDN cache for 10min with background refresh to avoid MISS, also incl. html requests with query parameter
     <LocationMatch "\.html$">
-        Header set Cache-Control "max-age=60,s-maxage=600,stale-while-revalidate=43200,stale-if-error=43200"
+        Header unset Cache-Control
+        Header always set Cache-Control "max-age=120,s-maxage=600,stale-while-revalidate=43200,stale-if-error=43200" "expr=%{REQUEST_STATUS} < 400"
+        Header set Age 0
     </LocationMatch>
-    # Core Component Image Component has immutable URLs, cache for 1year (as recommended by Lighthouse), background refresh to avoid MISS on CDN
+    # Content Services/Sling Model Exporter: CDN cache for 10min with background refresh to avoid MISS on CDN
+    <LocationMatch "\.model\.json$">
+        Header set Cache-Control "max-age=120,s-maxage=600,stale-while-revalidate=43200,stale-if-error=43200" "expr=%{REQUEST_STATUS} < 400"
+        Header set Age 0
+    </LocationMatch>
+    # Core Component Image Component: long-term caching (30 days) for immutable URLs, background refresh to avoid MISS
     <LocationMatch "\.coreimg\..*\.(?i:jpe?g|png|gif|svg)$">
-        Header set Cache-Control "max-age=31536000,stale-while-revalidate=43200,stale-if-error=43200,public,immutable"
+        Header set Cache-Control "max-age=2592000,stale-while-revalidate=43200,stale-if-error=43200,public,immutable" "expr=%{REQUEST_STATUS} < 400"
+        Header set Age 0
+    </LocationMatch> 
+    # Images/Video from DAM: cache mutable resources for 24h on CDN and background refresh to avoid MISS
+    <LocationMatch "^/content/dam/.*\.(?i:jpe?g|gif|js|mov|png|svg|txt|zip|ico)$">
+        Header set Cache-Control "max-age=7200,s-maxage=86400,stale-while-revalidate=43200,stale-if-error=43200" "expr=%{REQUEST_STATUS} < 400"
+        Header set Age 0
     </LocationMatch>
 </VirtualHost>
