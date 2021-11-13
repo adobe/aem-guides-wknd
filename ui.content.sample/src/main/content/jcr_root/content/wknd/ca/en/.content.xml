@@ -3,42 +3,51 @@
     jcr:primaryType="cq:Page">
     <errors/>
     <jcr:content
-        cq:lastModified="{Date}2020-09-30T17:38:05.651-07:00"
+        cq:lastModified="{Date}2021-11-11T20:31:28.705Z"
         cq:lastModifiedBy="admin"
-        cq:lastRolledout="{Date}2020-09-30T17:38:20.875-07:00"
+        cq:lastRolledout="{Date}2021-11-11T20:30:37.196Z"
         cq:lastRolledoutBy="admin"
+        cq:propertyInheritanceCancelled="[pwaStartURL]"
         cq:tags="[wknd:customer-journey/attract]"
         cq:template="/conf/wknd/settings/wcm/templates/landing-page-template"
         jcr:description="WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world."
-        jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync]"
+        jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync,cq:PropertyLiveSyncCancelled]"
         jcr:primaryType="cq:PageContent"
         jcr:title="WKND Adventures and Travel"
         sling:resourceType="wknd/components/page"
-        pageTitle="Home">
+        pageTitle="Home"
+        pwaBackgroundColor="#ffea00"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaEnabled="{Boolean}true"
+        pwaIconPath="/etc.clientlibs/wknd/clientlibs/clientlib-site/resources/images/favicons/favicon-512.png"
+        pwaOrientation="any"
+        pwaStartURL="/ca/en.html"
+        pwaThemeColor="#ebebeb">
         <root
-            cq:lastRolledout="{Date}2020-09-30T17:38:05.410-07:00"
+            cq:lastRolledout="{Date}2021-11-11T20:30:36.719Z"
             cq:lastRolledoutBy="admin"
             jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wknd/components/container">
             <container
-                cq:lastRolledout="{Date}2020-09-30T17:38:05.425-07:00"
+                cq:lastRolledout="{Date}2021-11-11T20:30:36.930Z"
                 cq:lastRolledoutBy="admin"
                 jcr:created="{Date}2019-03-19T13:22:52.385-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2020-09-30T17:38:05.414-07:00"
+                jcr:lastModified="{Date}2021-11-11T20:30:36.918Z"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wknd/components/container"
                 layout="responsiveGrid">
                 <carousel
-                    cq:lastRolledout="{Date}2020-09-30T17:38:05.439-07:00"
+                    cq:lastRolledout="{Date}2021-11-11T20:30:36.958Z"
                     cq:lastRolledoutBy="admin"
                     cq:styleIds="[1555545421827]"
                     jcr:created="{Date}2019-10-24T14:45:16.689-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2020-09-30T17:38:05.430-07:00"
+                    jcr:lastModified="{Date}2021-11-11T20:30:36.945Z"
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
@@ -47,12 +56,12 @@
                     autoplay="false"
                     delay="5000">
                     <item_1571954853062
-                        cq:lastRolledout="{Date}2020-09-30T17:38:05.452-07:00"
+                        cq:lastRolledout="{Date}2021-11-11T20:30:36.978Z"
                         cq:lastRolledoutBy="admin"
                         cq:panelTitle="WKND Adventures"
                         cq:styleIds="[1555543212672]"
                         jcr:description="&lt;p>With WKND Adventures, you don't just see the world you experinec eit aldkjfa sflkjasfasf.&lt;/p>&#xd;&#xa;"
-                        jcr:lastModified="{Date}2020-09-30T17:38:05.445-07:00"
+                        jcr:lastModified="{Date}2021-11-11T20:30:36.971Z"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
@@ -64,12 +73,12 @@
                         textIsRich="true"
                         titleFromPage="false">
                         <actions
-                            cq:lastRolledout="{Date}2020-09-30T17:38:05.454-07:00"
+                            cq:lastRolledout="{Date}2021-11-11T20:30:37.012Z"
                             cq:lastRolledoutBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured">
                             <item0
-                                cq:lastRolledout="{Date}2020-09-30T17:38:05.458-07:00"
+                                cq:lastRolledout="{Date}2021-11-11T20:30:37.019Z"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
@@ -78,11 +87,11 @@
                         </actions>
                     </item_1571954853062>
                     <item_1572035298405
-                        cq:lastRolledout="{Date}2020-09-30T17:38:05.465-07:00"
+                        cq:lastRolledout="{Date}2021-11-11T20:30:37.026Z"
                         cq:lastRolledoutBy="admin"
                         cq:panelTitle="San Diego Surf Spots"
                         cq:styleIds="[1555543212672]"
-                        jcr:lastModified="{Date}2020-09-30T17:38:05.460-07:00"
+                        jcr:lastModified="{Date}2021-11-11T20:30:37.022Z"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
@@ -93,12 +102,12 @@
                         textIsRich="true"
                         titleFromPage="true">
                         <actions
-                            cq:lastRolledout="{Date}2020-09-30T17:38:05.467-07:00"
+                            cq:lastRolledout="{Date}2021-11-11T20:30:37.033Z"
                             cq:lastRolledoutBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured">
                             <item0
-                                cq:lastRolledout="{Date}2020-09-30T17:38:05.471-07:00"
+                                cq:lastRolledout="{Date}2021-11-11T20:30:37.037Z"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
@@ -107,14 +116,14 @@
                         </actions>
                     </item_1572035298405>
                     <teaser
-                        cq:lastRolledout="{Date}2020-09-30T17:38:05.480-07:00"
+                        cq:lastRolledout="{Date}2021-11-11T20:30:37.044Z"
                         cq:lastRolledoutBy="admin"
                         cq:panelTitle="Downhill Skiing Wyoming"
                         cq:styleIds="[1555543212672]"
                         jcr:created="{Date}2019-10-24T14:45:29.211-07:00"
                         jcr:createdBy="admin"
                         jcr:description="&lt;p>A skiers paradise far from crowds and close to nature with terrain so vast it appears uncharted.&lt;/p>&#xd;&#xa;"
-                        jcr:lastModified="{Date}2020-09-30T17:38:05.474-07:00"
+                        jcr:lastModified="{Date}2021-11-11T20:30:37.040Z"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
@@ -125,12 +134,12 @@
                         textIsRich="true"
                         titleFromPage="true">
                         <actions
-                            cq:lastRolledout="{Date}2020-09-30T17:38:05.483-07:00"
+                            cq:lastRolledout="{Date}2021-11-11T20:30:37.048Z"
                             cq:lastRolledoutBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured">
                             <item0
-                                cq:lastRolledout="{Date}2020-09-30T17:38:05.486-07:00"
+                                cq:lastRolledout="{Date}2021-11-11T20:30:37.052Z"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
@@ -140,29 +149,29 @@
                     </teaser>
                 </carousel>
                 <container
-                    cq:lastRolledout="{Date}2020-09-30T17:38:05.508-07:00"
+                    cq:lastRolledout="{Date}2021-11-11T20:30:37.073Z"
                     cq:lastRolledoutBy="admin"
                     cq:styleIds="[1554340406437]"
                     jcr:created="{Date}2019-04-17T14:31:50.612-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2020-09-30T17:38:05.488-07:00"
+                    jcr:lastModified="{Date}2021-11-11T20:30:37.054Z"
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/container"
                     layout="responsiveGrid">
                     <cq:responsive
-                        cq:lastRolledout="{Date}2020-09-30T17:38:05.517-07:00"
+                        cq:lastRolledout="{Date}2021-11-11T20:30:37.081Z"
                         cq:lastRolledoutBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"/>
                     <teaser
-                        cq:lastRolledout="{Date}2020-09-30T17:38:05.525-07:00"
+                        cq:lastRolledout="{Date}2021-11-11T20:30:37.091Z"
                         cq:lastRolledoutBy="admin"
                         cq:styleIds="[1555539443529]"
                         jcr:created="{Date}2020-09-30T13:07:54.567-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2020-09-30T17:38:05.520-07:00"
+                        jcr:lastModified="{Date}2021-11-11T20:30:37.085Z"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
@@ -176,12 +185,12 @@
                         textIsRich="true"
                         titleFromPage="false">
                         <actions
-                            cq:lastRolledout="{Date}2020-09-30T17:38:05.527-07:00"
+                            cq:lastRolledout="{Date}2021-11-11T20:30:37.095Z"
                             cq:lastRolledoutBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured">
                             <item0
-                                cq:lastRolledout="{Date}2020-09-30T17:38:05.533-07:00"
+                                cq:lastRolledout="{Date}2021-11-11T20:30:37.099Z"
                                 cq:lastRolledoutBy="admin"
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
@@ -190,12 +199,12 @@
                         </actions>
                     </teaser>
                     <title
-                        cq:lastRolledout="{Date}2020-09-30T17:38:05.539-07:00"
+                        cq:lastRolledout="{Date}2021-11-11T20:30:37.105Z"
                         cq:lastRolledoutBy="admin"
                         cq:styleIds="[1568996484405]"
                         jcr:created="{Date}2019-10-21T10:52:07.675-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2020-09-30T17:38:05.536-07:00"
+                        jcr:lastModified="{Date}2021-11-11T20:30:37.103Z"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
@@ -203,11 +212,11 @@
                         sling:resourceType="wknd/components/title"
                         type="h2"/>
                     <image_list
-                        cq:lastRolledout="{Date}2020-09-30T17:38:05.548-07:00"
+                        cq:lastRolledout="{Date}2021-11-11T20:30:37.119Z"
                         cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2019-10-18T19:42:10.049-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2020-09-30T17:38:05.542-07:00"
+                        jcr:lastModified="{Date}2021-11-11T20:30:37.114Z"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
@@ -219,12 +228,12 @@
                         sortOrder="desc"
                         tagsMatch="any"/>
                     <button_copy
-                        cq:lastRolledout="{Date}2020-09-30T17:38:05.558-07:00"
+                        cq:lastRolledout="{Date}2021-11-11T20:30:37.125Z"
                         cq:lastRolledoutBy="admin"
                         cq:styleIds="[1570236090914]"
                         jcr:created="{Date}2019-10-25T18:00:29.618-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2020-09-30T17:38:05.551-07:00"
+                        jcr:lastModified="{Date}2021-11-11T20:30:37.122Z"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
@@ -233,22 +242,22 @@
                         accessibilityLabel="read our articles"
                         link="/content/wknd/ca/en/magazine"/>
                     <separator
-                        cq:lastRolledout="{Date}2020-09-30T17:38:05.565-07:00"
+                        cq:lastRolledout="{Date}2021-11-11T20:30:37.128Z"
                         cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2019-10-27T16:13:09.680-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2020-09-30T17:38:05.560-07:00"
+                        jcr:lastModified="{Date}2021-11-11T20:30:37.127Z"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/separator"/>
                     <title_15771435
-                        cq:lastRolledout="{Date}2020-09-30T17:38:05.575-07:00"
+                        cq:lastRolledout="{Date}2021-11-11T20:30:37.133Z"
                         cq:lastRolledoutBy="admin"
                         cq:styleIds="[1568996484405]"
                         jcr:created="{Date}2019-10-21T11:30:37.023-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2020-09-30T17:38:05.571-07:00"
+                        jcr:lastModified="{Date}2021-11-11T20:30:37.131Z"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
@@ -257,13 +266,13 @@
                         type="h2"/>
                 </container>
                 <teaser
-                    cq:lastRolledout="{Date}2020-09-30T17:38:05.586-07:00"
+                    cq:lastRolledout="{Date}2021-11-11T20:30:37.138Z"
                     cq:lastRolledoutBy="admin"
                     cq:styleIds="[1572035150600]"
                     jcr:created="{Date}2019-10-21T11:31:11.525-07:00"
                     jcr:createdBy="admin"
                     jcr:description="&lt;p>With WKND Adventures, you don't just see the world-- you experience its cultures, flavors and wonders.&lt;/p>&#xd;&#xa;"
-                    jcr:lastModified="{Date}2020-09-30T17:38:05.578-07:00"
+                    jcr:lastModified="{Date}2021-11-11T20:30:37.136Z"
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
@@ -275,12 +284,12 @@
                     textIsRich="true"
                     titleFromPage="true">
                     <actions
-                        cq:lastRolledout="{Date}2020-09-30T17:38:05.589-07:00"
+                        cq:lastRolledout="{Date}2021-11-11T20:30:37.143Z"
                         cq:lastRolledoutBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured">
                         <item0
-                            cq:lastRolledout="{Date}2020-09-30T17:38:05.594-07:00"
+                            cq:lastRolledout="{Date}2021-11-11T20:30:37.146Z"
                             cq:lastRolledoutBy="admin"
                             jcr:mixinTypes="[cq:LiveRelationship]"
                             jcr:primaryType="nt:unstructured"
@@ -289,28 +298,28 @@
                     </actions>
                 </teaser>
                 <container_1679842506
-                    cq:lastRolledout="{Date}2020-09-30T17:38:05.615-07:00"
+                    cq:lastRolledout="{Date}2021-11-11T20:30:37.163Z"
                     cq:lastRolledoutBy="admin"
                     cq:styleIds="[1554340406437]"
                     jcr:created="{Date}2019-10-21T11:34:41.155-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2020-09-30T17:38:05.597-07:00"
+                    jcr:lastModified="{Date}2021-11-11T20:30:37.148Z"
                     jcr:lastModifiedBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/container"
                     layout="responsiveGrid">
                     <cq:responsive
-                        cq:lastRolledout="{Date}2020-09-30T17:38:05.620-07:00"
+                        cq:lastRolledout="{Date}2021-11-11T20:30:37.169Z"
                         cq:lastRolledoutBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"/>
                     <title
-                        cq:lastRolledout="{Date}2020-09-30T17:38:05.628-07:00"
+                        cq:lastRolledout="{Date}2021-11-11T20:30:37.173Z"
                         cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2019-10-21T11:34:50.251-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2020-09-30T17:38:05.623-07:00"
+                        jcr:lastModified="{Date}2021-11-11T20:30:37.172Z"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
@@ -318,11 +327,11 @@
                         sling:resourceType="wknd/components/title"
                         type="h3"/>
                     <image_list
-                        cq:lastRolledout="{Date}2020-09-30T17:38:05.638-07:00"
+                        cq:lastRolledout="{Date}2021-11-11T20:30:37.186Z"
                         cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2019-10-21T11:36:26.114-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2020-09-30T17:38:05.632-07:00"
+                        jcr:lastModified="{Date}2021-11-11T20:30:37.181Z"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
@@ -335,12 +344,12 @@
                         sortOrder="desc"
                         tagsMatch="any"/>
                     <button
-                        cq:lastRolledout="{Date}2020-09-30T17:38:05.648-07:00"
+                        cq:lastRolledout="{Date}2021-11-11T20:30:37.192Z"
                         cq:lastRolledoutBy="admin"
                         cq:styleIds="[1570236090914]"
                         jcr:created="{Date}2019-10-25T18:00:29.618-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2020-09-30T17:38:05.641-07:00"
+                        jcr:lastModified="{Date}2021-11-11T20:30:37.189Z"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
@@ -349,11 +358,11 @@
                         accessibilityLabel="explore our adventures"
                         link="/content/wknd/ca/en/adventures"/>
                     <separator
-                        cq:lastRolledout="{Date}2020-09-30T17:38:05.653-07:00"
+                        cq:lastRolledout="{Date}2021-11-11T20:30:37.195Z"
                         cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2019-10-21T11:37:59.604-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2020-09-30T17:38:05.650-07:00"
+                        jcr:lastModified="{Date}2021-11-11T20:30:37.194Z"
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
