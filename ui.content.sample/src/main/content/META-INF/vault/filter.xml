@@ -19,4 +19,7 @@
     <filter root="/home/groups/wknd" mode="merge" />
     <!-- Sample User-->
     <filter root="/home/users/wknd" />
+    
+    <!-- WKND Map -->
+    <filter root="/etc/map" mode="merge" />
 </workspaceFilter>
