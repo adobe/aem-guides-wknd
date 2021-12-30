@@ -1055,42 +1055,13 @@
                 </policy_1555431088440>
             </search>
             <page jcr:primaryType="nt:unstructured">
-                <policy_1555624447675
-                    jcr:lastModified="{Date}2020-07-09T08:11:09.069-07:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    jcr:title="WKND Landing Page"
-                    sling:resourceType="wcm/core/components/policy/policy"
-                    clientlibs="wknd.site"
-                    clientlibsJsHead="wknd.dependencies">
-                    <jcr:content
-                        cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
-                        cq:lastReplicatedBy="admin"
-                        cq:lastReplicationAction="Activate"
-                        jcr:mixinTypes="[cq:ReplicationStatus]"
-                        jcr:primaryType="nt:unstructured"/>
-                </policy_1555624447675>
-                <policy_654210257255105
-                    jcr:lastModified="{Date}2020-07-09T08:11:09.069-07:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    jcr:title="WKND Article"
-                    sling:resourceType="wcm/core/components/policy/policy"
-                    clientlibs="wknd.site">
-                    <jcr:content
-                        cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
-                        cq:lastReplicatedBy="admin"
-                        cq:lastReplicationAction="Activate"
-                        jcr:mixinTypes="[cq:ReplicationStatus]"
-                        jcr:primaryType="nt:unstructured"/>
-                </policy_654210257255105>
                 <policy_654239029509196
                     jcr:lastModified="{Date}2020-07-09T08:11:09.069-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="WKND Experience Fragment"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    clientlibs="wknd.site">
+                    clientlibs="[wknd.site, wknd.base]">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_654239029509196>
                 <policy_1570140199406
@@ -1099,7 +1070,7 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="WKND Site Theme"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    clientlibs="wknd.site"
+                    clientlibs="[wknd.site, wknd.base]"
                     clientlibsJsHead="wknd.dependencies">
                     <jcr:content
                         cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
@@ -1116,7 +1087,7 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Experience Fragment Web"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    clientlibs="wknd.site">
+                    clientlibs="[wknd.site, wknd.base]">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_1572461714642>
             </xfpage>
