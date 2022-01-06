@@ -1055,15 +1055,6 @@
                 </policy_1555431088440>
             </search>
             <page jcr:primaryType="nt:unstructured">
-                <policy_654239029509196
-                    jcr:lastModified="{Date}2020-07-09T08:11:09.069-07:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    jcr:title="WKND Experience Fragment"
-                    sling:resourceType="wcm/core/components/policy/policy"
-                    clientlibs="[wknd.site, wknd.base]">
-                    <jcr:content jcr:primaryType="nt:unstructured"/>
-                </policy_654239029509196>
                 <policy_1570140199406
                     jcr:lastModified="{Date}2020-07-09T08:11:09.069-07:00"
                     jcr:lastModifiedBy="admin"
