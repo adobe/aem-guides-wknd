@@ -14,6 +14,7 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="WKND Adventures and Travel"
         sling:resourceType="wknd/components/page"
+        sling:sitemapRoot="{Boolean}true"
         pageTitle="Home">
         <root
             cq:lastRolledout="{Date}2020-09-30T17:38:05.410-07:00"
