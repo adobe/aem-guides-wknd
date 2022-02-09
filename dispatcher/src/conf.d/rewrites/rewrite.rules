@@ -8,7 +8,7 @@
 Include conf.d/rewrites/default_rewrite.rules
 
 # make sure the root site redirects are cache on CDN to avoid origin round-trip
-Header always set Cache-Control "max-age=60,s-maxage=600,stale-while-revalidate=43200,stale-if-error=43200" env=cdncache
+Header always set Cache-Control "max-age=300,stale-while-revalidate=43200,stale-if-error=43200" env=cdncache
 
 # redirect traffic from www to http home page
 RewriteCond %{HTTP_HOST} www.wknd.site [NC]
