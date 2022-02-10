@@ -4,6 +4,7 @@
     <jcr:content
         cq:lastModified="{Date}2020-07-07T18:04:00.781-07:00"
         cq:lastModifiedBy="admin"
+        cq:robotsTags="[noindex]"
         cq:template="/conf/wknd/settings/wcm/templates/content-page-template"
         jcr:primaryType="cq:PageContent"
         jcr:title="Page not found"

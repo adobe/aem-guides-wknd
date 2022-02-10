@@ -6,7 +6,7 @@
         cq:lastModifiedBy="admin"
         cq:lastRolledout="{Date}2020-11-13T14:10:14.819-08:00"
         cq:lastRolledoutBy="admin"
-        cq:redirectTarget="/content/wknd/language-masters/en"
+        cq:redirectTarget="/content/wknd/ca/en"
         cq:template="/conf/wknd/settings/wcm/templates/content-page-template"
         jcr:mixinTypes="[cq:LiveRelationship]"
         jcr:primaryType="cq:PageContent"
