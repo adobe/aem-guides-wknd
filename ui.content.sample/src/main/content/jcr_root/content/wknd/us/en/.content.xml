@@ -7,6 +7,7 @@
         cq:lastModifiedBy="admin"
         cq:lastRolledout="{Date}2020-09-30T17:38:21.080-07:00"
         cq:lastRolledoutBy="admin"
+        cq:propertyInheritanceCancelled="[sling:sitemapRoot]"
         cq:tags="[wknd:customer-journey/attract]"
         cq:template="/conf/wknd/settings/wcm/templates/landing-page-template"
         jcr:description="WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world."
