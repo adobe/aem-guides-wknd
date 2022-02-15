@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-var jQuery = require("jquery");
+import jQuery from "jquery";
 
 // Wrap bindings in anonymous namespace to prevent collisions
 jQuery(function ($) {
@@ -35,11 +35,13 @@ jQuery(function ($) {
         //Top Level Navigation (expected to only be one of these)
         if ($nav !== undefined && $nav.length === 1 && !$($nav)[0].hasAttribute(DATA_PROCESSED)) {
             // Mark the component element as processed to avoid the cyclic processing (see .not(..) above).
-            $($nav).attr(DATA_PROCESSED, true)
+            $($nav).attr(DATA_PROCESSED, true);
 
             // Toggle Nav
             $('<div id="toggleNav">' +
-                '<a href="#mobileNav" aria-label="Open hidden mobile navigation" class="toggle"><i class="wknd__icon wkndicon-menu" aria-hidden="true"></i></a>' +
+                '<a href="#mobileNav" aria-label="Open hidden mobile navigation" class="toggle">' +
+                  '<i class="wknd__icon wkndicon-menu" aria-hidden="true"></i>' +
+                '</a>' +
                 '</div>'
             ).appendTo($body);
 

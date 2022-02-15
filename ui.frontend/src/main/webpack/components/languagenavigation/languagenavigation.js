@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-var jQuery = require("jquery");
+import jQuery from "jquery";
 
 // Wrap bindings in anonymous namespace to prevent collisions
 jQuery(function ($) {
@@ -62,7 +62,7 @@ jQuery(function ($) {
                     $(CMP_SELECTOR + ' .cmp-languagenavigation').removeClass('showMenu');
                     $('#langNavToggleHeader').removeClass('open');
                 }
-            }
+            };
 
         }
     }

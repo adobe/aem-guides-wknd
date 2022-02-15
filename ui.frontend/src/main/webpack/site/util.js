@@ -15,7 +15,7 @@
  */
 /* modified from html5up.net thanks @ajlkn */
 
-var jQuery = require("jquery");
+import jQuery from "jquery";
 (function($) {
 
     /* adding special handlers for passive events https://github.com/WICG/EventListenerOptions */

@@ -3,24 +3,23 @@
 ## Features
 
 * Full TypeScript, ES6 and ES5 support (with applicable Webpack wrappers).
-* TypeScript and JavaScript linting (using a TSLint ruleset – to be refined).
+* TypeScript and JavaScript linting (using a TSLint ruleset – driven by ESLint - rules can be adjusted to suit your team's needs).
 * ES5 output, for legacy browser support.
 * Globbing
     * No need to add imports anywhere.
     * All JS and CSS files can now be added to each component (best practice is under /clientlib/js or /clientlib/(s)css)
     * No .content.xml or js.txt/css.txt files needed as everything is run through Webpack
-    * The globber pulls in all JS files under the /component/ folder. Webpack allows CSS/SCSS files to be chained in via JS files. They are pulled in through the two entry points, sites.js and vendors.js.
+    * The globber pulls in all JS files under the /component/ folder. Webpack allows CSS/SCSS files to be chained in via JS files. They are pulled in through sites.js.
     * The only files consumed by AEM are the output files site.js and site.css, the resources folder in /clientlib-site as well as dependencies.js and dependencies.css in /clientlib-dependencies
 * Chunks
     * Main (site js/css)
-    * Vendors (dependencies js/css)
 * Full Sass/Scss support (Sass is compiled to CSS via Webpack).
 * Static webpack development server with built in proxy to a local instance of AEM
 
 ## Installation
 
 1. Install [NodeJS](https://nodejs.org/en/download/) (v10+), globally. This will also install `npm`.
-2. Navigate to `ui.frontend` in your project and run `npm install`. (You must have run the archetype with `-DoptionIncludeFrontendModule=y` to populate the ui.frontend folder)
+2. Navigate to `ui.frontend` in your project and run `npm install`. (You must have run the archetype with `-DfrontendModule=general` to populate the ui.frontend folder)
 
 ## Usage
 

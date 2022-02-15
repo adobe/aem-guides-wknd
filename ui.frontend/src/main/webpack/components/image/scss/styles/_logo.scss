@@ -5,8 +5,8 @@
     }
     .cmp-image__image {
         max-width: 8rem;
-        margin-top: $gutter-padding / 2;
-        margin-bottom: $gutter-padding / 2;
+        margin-top: calc($gutter-padding / 2);
+        margin-bottom: calc($gutter-padding / 2);
     }
 
     /* Disable lazy loading for logo */

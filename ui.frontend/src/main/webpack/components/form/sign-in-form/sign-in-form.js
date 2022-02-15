@@ -1,4 +1,4 @@
-var jQuery = require("jquery");
+import jQuery from "jquery";
 
 jQuery(function($) {
     "use strict";
@@ -16,7 +16,7 @@ jQuery(function($) {
 
     
     /* Add redirect to current page on the login  */
-    $('body').on('wknd-modal-show', function(e) {
+    $('body').on('wknd-modal-show', function() {
         const slingRedirectInput = $('#wknd-sign-in-form input[name="sling.auth.redirect"]');
         if(slingRedirectInput) {
             slingRedirectInput.val(window.location.pathname);

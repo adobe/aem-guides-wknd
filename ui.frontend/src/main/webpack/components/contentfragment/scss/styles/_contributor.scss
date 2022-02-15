@@ -68,7 +68,7 @@
       display: block;
       height: $pictureSize;
       width: $pictureSize;
-      border-radius: $pictureSize / 2;
+      border-radius: calc($pictureSize / 2);
       border: solid 10px $gray-light;
       object-fit: cover;
       box-sizing: border-box;
