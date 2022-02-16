@@ -15,10 +15,12 @@
  */ 
  /* WKND Carousel - default.less */
 
+
+
  .cmp-carousel {
 
     .cmp-carousel__content {
-
+      position: relative;
     }
 
     .cmp-carousel__item {
@@ -32,11 +34,37 @@
     }
 
     .cmp-carousel__indicators {
-        margin-top: 0.5em;
-        cursor: pointer;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      margin-top: 0.5em;
+      cursor: pointer;
     }
 
-    .cmp-carousel__actions {
+
+
+   .cmp-carousel__indicator {
+     position:relative;
+     flex:0 1 auto;
+     width:10px;
+     height:10px;
+     margin:0 7px;
+     border-radius:50%;
+     font-size:0;
+     text-indent:-3000px;
+     background-color:rgba(0,0,0,0.5);
+
+     &--active {
+       background-color:rgba(0,0,0,0.8)
+     }
+
+   }
+
+
+   .cmp-carousel__actions {
         float: right;
         margin-top: 0;
     }
@@ -46,6 +74,7 @@
         padding-right:0px;
         margin-right: 1em;
         background:none;
+        appearance:none;
     }
 
     .cmp-carousel__action-text {

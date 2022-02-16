@@ -7,6 +7,9 @@
         padding: 1em;
         cursor: pointer;
         background: none;
+        display: block;
+        width: 100%;
+        text-align: left;
         &:focus {
             outline: none;
         }
@@ -58,4 +61,9 @@
     .cmp-accordion__panel--hidden {
         display: none;
     }
+
+    .cmp-accordion__header{
+        margin:0
+    }
 }
+
