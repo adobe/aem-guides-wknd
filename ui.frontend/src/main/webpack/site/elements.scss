@@ -106,3 +106,41 @@ font-size: $font-size-base;
 line-height: $line-height-base + 1;
 text-align: justify;
 }
+
+
+//== AEM Responsive Grid
+
+$max_col: 12;
+$screen-small: 767px;
+$screen-medium: 1024px;
+$screen-large: 1200px;
+$gutter-padding: 14px;
+
+// Default breakpoint
+.aem-Grid {
+  @include generate-grid(default, $max_col);
+}
+
+// Phone breakpoint
+@media (max-width: $screen-small) {
+  .aem-Grid {
+    @include generate-grid(phone, $max_col);
+  }
+}
+
+/* tablet breakpoint */
+@media (min-width: ($screen-small + 1)) and (max-width: $screen-medium) {
+    .aem-Grid {
+        @include generate-grid(tablet, $max_col);
+      }
+  }
+  
+  .aem-GridColumn {
+    padding: 0 $gutter-padding;
+  }
+  
+  .responsivegrid.aem-GridColumn {
+  padding-left: 0;
+  padding-right: 0;
+  }
+
