@@ -157,7 +157,7 @@ Import-Package: javax.annotation;version=0.0.0,*
                 <plugins>
                     <plugin>
                        <!--================
-                        Relax AEM 6.x Dependencies to allow for broader deployment compatiblity across 6.4.x and 6.5.x
+                        Relax AEM 6.x Dependencies to allow for broader deployment compatibility for 6.5.x
                         ====================-->
                         <groupId>biz.aQute.bnd</groupId>
                         <artifactId>bnd-maven-plugin</artifactId>
