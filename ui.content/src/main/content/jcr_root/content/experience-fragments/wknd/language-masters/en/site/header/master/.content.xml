@@ -138,6 +138,9 @@
                             <tablet
                                 jcr:primaryType="nt:unstructured"
                                 behavior="hide"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                behavior="hide"/>                                
                         </cq:responsive>
                     </navigation>
                     <search
