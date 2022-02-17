@@ -40,9 +40,9 @@ $ mvn clean install -PautoInstallSinglePackage -Pclassic
 
 ## System Requirements
 
- AEM as a Cloud Service | AEM 6.5   | AEM 6.4  | Java SE | Maven
-------------------------|-----------|----------|---------|---------
-Continual               | 6.5.10.0+ | -        | 8, 11   | 3.3.9+
+ AEM as a Cloud Service | AEM 6.5   | Java SE | Maven
+------------------------|-----------|----------|---------
+Continual               | 6.5.10.0+ |  8, 11   | 3.3.9+
 
 Setup your local development environment for [AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) or for [older versions of AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
