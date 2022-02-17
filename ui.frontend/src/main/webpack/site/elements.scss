@@ -111,10 +111,6 @@ text-align: justify;
 //== AEM Responsive Grid
 
 $max_col: 12;
-$screen-small: 767px;
-$screen-medium: 1024px;
-$screen-large: 1200px;
-$gutter-padding: 14px;
 
 // Default breakpoint
 .aem-Grid {
@@ -128,13 +124,13 @@ $gutter-padding: 14px;
   }
 }
 
-/* tablet breakpoint */
+// Tablet breakpoint
 @media (min-width: ($screen-small + 1)) and (max-width: $screen-medium) {
     .aem-Grid {
         @include generate-grid(tablet, $max_col);
       }
   }
-  
+
   .aem-GridColumn {
     padding: 0 $gutter-padding;
   }
