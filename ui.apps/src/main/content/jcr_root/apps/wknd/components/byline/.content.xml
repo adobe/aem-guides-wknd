@@ -6,4 +6,4 @@
     jcr:title="Byline"
     jcr:description="Displays a contributor's byline."
     componentGroup="WKND.Content"
-    sling:resourceSuperType="core/wcm/components/image/v2/image" />
+    sling:resourceSuperType="core/wcm/components/image/v3/image" />

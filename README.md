@@ -20,7 +20,7 @@ A corresponding [tutorial is available](https://experienceleague.adobe.com/docs/
 Pre-compiled AEM packages are available under the latest release for easy installation on local environments using [CRX Package Manager](http://localhost:4502/crx/packmgr/index.jsp)
 
 * [`aem-guides-wknd.all-x.x.x.zip`](https://github.com/adobe/aem-guides-wknd/releases/latest): AEM as a Cloud Service, default build
-* [`aem-guides-wknd.all-x.x.x-classic.zip`](https://github.com/adobe/aem-guides-wknd/releases/latest): AEM 6.5.x+, AEM 6.4.x+
+* [`aem-guides-wknd.all-x.x.x-classic.zip`](https://github.com/adobe/aem-guides-wknd/releases/latest): AEM 6.5.x+
 
 ## How to build
 
@@ -31,7 +31,7 @@ $ cd aem-guides-wknd/
 $ mvn clean install -PautoInstallSinglePackage
 ```
 
-For **AEM 6.4.x** and **6.5.x**: 
+For **AEM 6.5.x**: 
 
 ```
 $ cd aem-guides-wknd/
@@ -40,9 +40,9 @@ $ mvn clean install -PautoInstallSinglePackage -Pclassic
 
 ## System Requirements
 
- AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven
----------|---------|---------|---------|---------
-Continual | 6.5.7.0+ | 6.4.8.4+ | 8, 11 | 3.3.9+
+ AEM as a Cloud Service | AEM 6.5   | AEM 6.4  | Java SE | Maven
+------------------------|-----------|----------|---------|---------
+Continual               | 6.5.10.0+ | -        | 8, 11   | 3.3.9+
 
 Setup your local development environment for [AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) or for [older versions of AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
