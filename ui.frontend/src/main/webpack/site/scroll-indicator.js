@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-var jQuery = require("jquery");
+import jQuery from "jquery";
 
 (function (element, $) {
     'use strict';
@@ -26,7 +26,7 @@ var jQuery = require("jquery");
         target.addClass(className);
     }
 
-    document.addEventListener('scroll', (evt) => {
+    document.addEventListener('scroll', () => {
         scroll = $(window).scrollTop();
         if (scroll > 15) {
             target.addClass(className);

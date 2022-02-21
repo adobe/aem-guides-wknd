@@ -11,6 +11,7 @@
     float: left;
     height: $button-size;
     min-width: $button-size;
+    border-radius: $button-border-radius;
 
     .cmp-button__text {
         padding: 1rem 2rem;

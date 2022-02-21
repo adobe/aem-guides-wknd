@@ -26,7 +26,7 @@
     .cmp-image__image {
         width: $imageSize;
         height: $imageSize;
-        border-radius: $imageSize / 2;
+        border-radius: calc($imageSize / 2);
         object-fit: cover;
         }
     }

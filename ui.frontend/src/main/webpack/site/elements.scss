@@ -61,7 +61,7 @@ h3, .h3 {
 font-family: $font-family-serif;
 font-weight: $font-weight-normal;
 margin-top: $line-height-computed;
-margin-bottom: ($line-height-computed / 2);
+margin-bottom: calc($line-height-computed / 2);
 }
 
 h4, .h4,
@@ -101,8 +101,42 @@ h1 a, h2 a, h3 a {
 // -------------------------
 
 p {
-margin: 0 0 ($line-height-computed / 2);
+margin: 0 0 calc($line-height-computed / 2);
 font-size: $font-size-base;
 line-height: $line-height-base + 1;
 text-align: justify;
 }
+
+
+//== AEM Responsive Grid
+
+$max_col: 12;
+
+// Default breakpoint
+.aem-Grid {
+  @include generate-grid(default, $max_col);
+}
+
+// Phone breakpoint
+@media (max-width: $screen-small) {
+  .aem-Grid {
+    @include generate-grid(phone, $max_col);
+  }
+}
+
+// Tablet breakpoint
+@media (min-width: ($screen-small + 1)) and (max-width: $screen-medium) {
+    .aem-Grid {
+        @include generate-grid(tablet, $max_col);
+      }
+  }
+
+  .aem-GridColumn {
+    padding: 0 $gutter-padding;
+  }
+  
+  .responsivegrid.aem-GridColumn {
+  padding-left: 0;
+  padding-right: 0;
+  }
+

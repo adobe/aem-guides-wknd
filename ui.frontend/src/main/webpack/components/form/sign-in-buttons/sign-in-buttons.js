@@ -1,4 +1,4 @@
-var jQuery = require("jquery");
+import jQuery from "jquery";
 
 jQuery(function($) {
     "use strict";

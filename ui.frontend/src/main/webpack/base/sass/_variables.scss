@@ -29,7 +29,7 @@ $blue:                   #0045FF;
 $pink:                   #FF0058;
 
 
-$brand-primary:           $yellow;
+$brand-primary:           var(--brandPrimary, $yellow);
 
 //== Layout
 $gutter-padding: 14px;
@@ -37,7 +37,7 @@ $gutter-padding: 14px;
 $max-width: 1164px;
 $max-body-width: 1680px;
 $screen-xsmall: 475px;
-$screen-small: 767px;
+$screen-small: 768px;
 $screen-medium: 1024px;
 $screen-large: 1200px;
 
@@ -46,62 +46,66 @@ $screen-large: 1200px;
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-$body-bg:                   $white;
+$body-bg:                   var(--bodyBackground, $white);
 //** Global text color on `<body>`.
-$text-color:                $black;
-$text-color-inverse:        $gray-light;
+$text-color:                var(--textColor, $black);
+$text-color-inverse:        var(--textColorInverse, $gray-light);
 
-$brand-secondary:           $black;
+$brand-secondary:            var(--brandSecondary, $black);
 
-$brand-third:               $gray-light;
+$brand-third:                var(--brandThird, $gray-light);
 
 //** Global textual link color.
-$link-color:                $blue;
+$link-color:                 var(--linkColor, $blue);
 //** Link hover color set via `darken()` function.
 $link-hover-color:      $link-color;
 //** Link hover decoration.
 $link-hover-decoration: underline;
 
-$nav-link: $black;
-$nav-link-inverse: $gray-light;
+$nav-link: var(--navLink, $black);
+$nav-link-inverse: var(--navLinkInverse, $gray-light);
 
+//== Grid
+$max_col: 12;
 
 
 //== Typography
 //
 //## Font, line-height, and color for body text, headings, and more.
+$font-family-sans-serif-default: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif-default: "Asar",Georgia, "Times New Roman", Times, serif;
 
-$font-family-sans-serif:  "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-family-serif:       "Asar",Georgia, "Times New Roman", Times, serif;
+$font-family-sans-serif:  var(--fontFamilySansSerif, $font-family-sans-serif-default);
+$font-family-serif:       var(--fontFamilySerif, $font-family-serif-default);
 $font-family-base:        $font-family-sans-serif;
 
 $font-size-base:          18px;
-$font-size-large:         24px;
-$font-size-xlarge:        48px;
-$font-size-medium:		  18px;
-$font-size-small:         14px;
-$font-size-xsmall:		  12px;
+$font-size-large:         var(--fontSizeLarge, 24px);
+$font-size-xlarge:        var(--fontSizeXLarge, 48px);
+$font-size-medium:		  var(--fontSizeMedium, 18px);
+$font-size-small:         var(--fontSizeSmall, 14px);
+$font-size-xsmall:		  var(--fontSizeXSmall, 12px);
 
-$font-size-h1:            40px;
-$font-size-h2:            36px; 
-$font-size-h3:            24px; 
-$font-size-h4:            16px; 
-$font-size-h5:            14px;
-$font-size-h6:            10px; 
+$font-size-h1:            var(--fontSizeH1, 40px);
+$font-size-h2:            var(--fontSizeH2, 36px);
+$font-size-h3:            var(--fontSizeH3, 24px);
+$font-size-h4:            var(--fontSizeH4, 16px);
+$font-size-h5:            var(--fontSizeH5, 14px);
+$font-size-h6:            var(--fontSizeH6, 10px);
 
 //** Unit-less `line-height` for use in components like buttons.
 $line-height-base:        1.5;
 $line-height-computed:    floor(($font-size-base * $line-height-base)); // ~20px
 
-$font-weight-light:      300;
-$font-weight-normal:     normal;
-$font-weight-semi-bold:  400;
-$font-weight-bold:       600;
+$font-weight-light:      var(--fontWeightLight, 300);
+$font-weight-normal:     var(--fontWeightNormal, normal);
+$font-weight-semi-bold:  var(--fontWeightSemiBold, 400);
+$font-weight-bold:       var(--fontWeightBold, 600);
 
 //=== Page Layout
-$header-height: 200px;
-$header-mobile-height: 130px;
-$utility-nav-height: 25px;
+$header-height: var(--headerHeight, 200px);
+$header-mobile-height: var(--headerMobileHeight, 130px);
+$utility-nav-height: var(--utilityNavHeight, 25px);
 
 //=== Language Switcher
 //** Load country flags from this directory.
@@ -109,7 +113,8 @@ $country-flag-path:          '../resources/images/country-flags';
 $country-flag-size:          25px;
 
 //=== WKND Item Styles (Up Next, CF elements)
-$list-item-height: 120px;
+$list-item-height: var(--listItemHeight, 120px);
 $list-item-border: 5px solid $brand-third;
 
-$button-size: 48px;
+$button-size: var(--buttonSize, 48px);
+$button-border-radius: var(--buttonBorderRadius, 0px);
