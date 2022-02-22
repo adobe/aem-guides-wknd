@@ -6,7 +6,7 @@
     <!-- P A R E N T  P R O J E C T  D E S C R I P T I O N                      -->
     <!-- ====================================================================== -->
     <parent>
-        <groupId>com.adobe.aem.guides.wknd</groupId>
+        <groupId>com.adobe.aem.guides</groupId>
         <artifactId>aem-guides-wknd</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
@@ -29,8 +29,10 @@
                 <groupId>org.apache.jackrabbit</groupId>
                 <artifactId>filevault-package-maven-plugin</artifactId>
                 <configuration>
+                    <properties>
+                        <cloudManagerTarget>none</cloudManagerTarget>
+                    </properties>
                     <filters>
-
                         <!-- /apps root -->
                         <filter><root>/apps</root></filter>
                         <filter><root>/apps/wknd</root></filter>
@@ -44,6 +46,9 @@
 
                         <!-- Immutable context-aware configurations -->
                         <filter><root>/apps/settings</root></filter>
+
+                        <!-- DAM folder root, will be created via repoinit -->
+                        <filter><root>/content/dam/wknd</root></filter>
 
                     </filters>
                 </configuration>

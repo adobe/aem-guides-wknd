@@ -32,9 +32,10 @@ services:
       - SHARED_FOLDER=/tmp/shared
       - HEADLESS_BROWSER
     volumes:
-      - ./reports:/tmp/reports
+      - ./target/reports:/tmp/reports
       - 'shared:/tmp/shared'
-    image: 'com.adobe.aem.guides.wknd-aem-guides-wknd.ui.tests/ui.tests:latest'
+      - 'shared:/usr/src/app/assets'
+    image: 'com.adobe.aem.guides-aem-guides-wknd.ui.tests/ui.tests:latest'
   selenium-firefox:
     image: 'selenium/standalone-firefox-debug'
     ports:

@@ -18,8 +18,9 @@ UI Testing module for your AEM application
 ## Requirements
 
 * Maven
-* Chrome and/or Firefox browser installed locally in default location
+* Latest version of Chrome and/or Firefox browser installed locally in default location
 * An AEM author instance running at http://localhost:4502
+* Sample application deployed on your AEM author instance (see [../README.md](../README.md))
 
 
 ## Run Tests
@@ -29,7 +30,7 @@ mvn verify -Pui-tests-local-execution
 ```
 
 #### Remarks
-* After execution, reports and logs are available in `test-module/reports` folder
+* After execution, reports and logs are available in `target/reports` folder
 
 ### Parameters
 
@@ -66,8 +67,8 @@ This project also provides Maven profiles to build and execute the tests using D
 ### Requirements
 
 * Maven
-* Docker
-* An AEM author instance
+* Docker and `docker-compose`
+* An AEM author instance running at http://localhost:4502
 
 ### Build test image
 
@@ -75,7 +76,7 @@ This project also provides Maven profiles to build and execute the tests using D
 mvn clean install -Pui-tests-docker-build
 ```
 
-will build Docker image `com.adobe.aem.guides.wknd-aem-guides-wknd.ui.tests/ui.tests` locally
+will build Docker image `com.adobe.aem.guides-aem-guides-wknd.ui.tests/ui.tests` locally
 
 ### Run Tests
 

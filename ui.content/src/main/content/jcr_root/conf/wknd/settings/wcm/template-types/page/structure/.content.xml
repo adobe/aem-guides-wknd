@@ -10,6 +10,10 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wknd/components/container"
             layout="responsiveGrid">
+            <experiencefragment-header
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/wknd/us/en/site/header/master"/>
             <container
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wknd/components/container"

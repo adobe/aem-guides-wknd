@@ -21,7 +21,7 @@
     <!-- P A R E N T  P R O J E C T  D E S C R I P T I O N                      -->
     <!-- ====================================================================== -->
     <parent>
-        <groupId>com.adobe.aem.guides.wknd</groupId>
+        <groupId>com.adobe.aem.guides</groupId>
         <artifactId>aem-guides-wknd</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
@@ -48,13 +48,15 @@
                 <groupId>org.apache.jackrabbit</groupId>
                 <artifactId>filevault-package-maven-plugin</artifactId>
                 <configuration>
-                    <group>com.adobe.aem.guides.wknd</group>
+                    <properties>
+                        <cloudManagerTarget>none</cloudManagerTarget>
+                    </properties>
+                    <group>com.adobe.aem.guides</group>
                     <name>aem-guides-wknd.ui.apps</name>
                     <packageType>application</packageType>
-                    <accessControlHandling>merge</accessControlHandling>
                     <repositoryStructurePackages>
                         <repositoryStructurePackage>
-                            <groupId>com.adobe.aem.guides.wknd</groupId>
+                            <groupId>com.adobe.aem.guides</groupId>
                             <artifactId>aem-guides-wknd.ui.apps.structure</artifactId>
                         </repositoryStructurePackage>
                     </repositoryStructurePackages>
@@ -85,6 +87,7 @@
                         <configuration>
                             <generateJavaClasses>true</generateJavaClasses>
                             <generatedJavaClassesPrefix>org.apache.sling.scripting.sightly</generatedJavaClassesPrefix>
+                            <sourceDirectory>${project.build.sourceDirectory}</sourceDirectory>
                             <allowedExpressionOptions>
                                 <allowedExpressionOption>cssClassName</allowedExpressionOption>
                                 <allowedExpressionOption>decoration</allowedExpressionOption>
@@ -98,25 +101,26 @@
         </plugins>
     </build>
 
+
     <!-- ====================================================================== -->
     <!-- D E P E N D E N C I E S                                                -->
     <!-- ====================================================================== -->
     <dependencies>
         <dependency>
-            <groupId>com.adobe.aem.guides.wknd</groupId>
+            <groupId>com.adobe.aem.guides</groupId>
             <artifactId>aem-guides-wknd.core</artifactId>
             <version>${project.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>com.adobe.aem.guides.wknd</groupId>
+            <groupId>com.adobe.aem.guides</groupId>
             <artifactId>aem-guides-wknd.ui.frontend</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>
 
         <dependency>
-            <groupId>com.adobe.aem.guides.wknd</groupId>
+            <groupId>com.adobe.aem.guides</groupId>
             <artifactId>aem-guides-wknd.ui.apps.structure</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
@@ -130,14 +134,8 @@
         <!-- HTL dependencies needed for the HTL Maven Plugin source code generation -->
         <dependency>
             <groupId>org.apache.sling</groupId>
-            <artifactId>org.apache.sling.scripting.sightly.compiler</artifactId>
-            <version>1.2.4-1.4.0</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.sling</groupId>
             <artifactId>org.apache.sling.scripting.sightly.runtime</artifactId>
-            <version>1.2.0-1.4.0</version>
+            <version>1.2.4-1.4.0</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>

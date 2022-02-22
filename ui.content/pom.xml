@@ -21,7 +21,7 @@
     <!-- P A R E N T  P R O J E C T  D E S C R I P T I O N                      -->
     <!-- ====================================================================== -->
     <parent>
-        <groupId>com.adobe.aem.guides.wknd</groupId>
+        <groupId>com.adobe.aem.guides</groupId>
         <artifactId>aem-guides-wknd</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
@@ -47,15 +47,14 @@
                 <groupId>org.apache.jackrabbit</groupId>
                 <artifactId>filevault-package-maven-plugin</artifactId>
                 <configuration>
-                    <group>com.adobe.aem.guides.wknd</group>
+                    <properties>
+                        <cloudManagerTarget>none</cloudManagerTarget>
+                    </properties>
+                    <group>com.adobe.aem.guides</group>
                     <name>aem-guides-wknd.ui.content</name>
                     <packageType>content</packageType>
                     <accessControlHandling>merge</accessControlHandling>
                     <validatorsSettings>
-                        <!-- disable nodetype validation as workaround until JCRVLT-463 got fixed -->
-                        <jackrabbit-nodetypes>
-                            <isDisabled>true</isDisabled>
-                        </jackrabbit-nodetypes>
                         <jackrabbit-filter>
                             <options>
                                 <validRoots>/conf,/content,/content/experience-fragments,/content/dam</validRoots>
@@ -64,7 +63,7 @@
                     </validatorsSettings>
                     <dependencies>
                         <dependency>
-                            <groupId>com.adobe.aem.guides.wknd</groupId>
+                            <groupId>com.adobe.aem.guides</groupId>
                             <artifactId>aem-guides-wknd.ui.apps</artifactId>
                             <version>${project.version}</version>
                         </dependency>
@@ -88,12 +87,12 @@
     <!-- ====================================================================== -->
     <dependencies>
         <dependency>
-            <groupId>com.adobe.aem.guides.wknd</groupId>
+            <groupId>com.adobe.aem.guides</groupId>
             <artifactId>aem-guides-wknd.core</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.adobe.aem.guides.wknd</groupId>
+            <groupId>com.adobe.aem.guides</groupId>
             <artifactId>aem-guides-wknd.ui.apps</artifactId>
             <version>${project.version}</version>
             <type>zip</type>

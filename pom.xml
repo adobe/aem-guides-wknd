@@ -17,11 +17,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.adobe.aem.guides.wknd</groupId>
+    <groupId>com.adobe.aem.guides</groupId>
     <artifactId>aem-guides-wknd</artifactId>
     <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
+    <name>WKND Sites Project</name>
     <description>WKND Sites Project</description>
 
     <modules>
@@ -35,7 +37,6 @@
         <module>it.tests</module>
         <module>dispatcher</module>
         <module>ui.tests</module>
-        <module>analyse</module>
     </modules>
 
     <properties>
@@ -47,13 +48,17 @@
         <sling.password>admin</sling.password>
         <vault.user>admin</vault.user>
         <vault.password>admin</vault.password>
+        <frontend-maven-plugin.version>1.12.0</frontend-maven-plugin.version>
+        <core.wcm.components.version>2.17.12</core.wcm.components.version>
+
         <bnd.version>5.1.2</bnd.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <aem.sdk.api>2021.1.4738.20210107T143101Z-201217</aem.sdk.api>
-        <aemanalyser.version>0.0.18</aemanalyser.version>
+        <aem.sdk.api>2022.2.6276.20220205T222203Z-220100</aem.sdk.api>
+        <aemanalyser.version>1.3.0</aemanalyser.version>
         <componentGroupName>WKND Sites Project</componentGroupName>
-        <core.wcm.components.version>2.13.2</core.wcm.components.version>
+        <core.wcm.components.version>2.18.0</core.wcm.components.version>
+        <uber.jar.version>6.5.10</uber.jar.version>
     </properties>
 
     <build>
@@ -114,12 +119,20 @@
         <pluginManagement>
             <plugins>
                 <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-assembly-plugin</artifactId>
+                    <version>3.3.0</version>
+                    <configuration>
+                        <tarLongFileMode>posix</tarLongFileMode>
+                    </configuration>
+                </plugin>
+                <plugin>
                     <groupId>com.github.eirslett</groupId>
                     <artifactId>frontend-maven-plugin</artifactId>
-                    <version>1.7.6</version>
+                    <version>${frontend-maven-plugin.version}</version>
                     <configuration>
-                        <nodeVersion>v10.13.0</nodeVersion>
-                        <npmVersion>6.9.0</npmVersion>
+                        <nodeVersion>v12.22.7</nodeVersion>
+                        <npmVersion>6.14.0</npmVersion>
                     </configuration>
                     <executions>
                         <execution>
@@ -188,6 +201,11 @@ Bundle-DocURL:
                             <artifactId>org.apache.sling.bnd.models</artifactId>
                             <version>1.0.0</version>
                         </dependency>
+                        <dependency>
+                            <groupId>org.apache.sling</groupId>
+                            <artifactId>scriptingbundle-maven-plugin</artifactId>
+                            <version>0.5.0</version>
+                        </dependency>
                     </dependencies>
                 </plugin>
                 <plugin>
@@ -248,7 +266,7 @@ Bundle-DocURL:
                 <plugin>
                     <groupId>org.apache.sling</groupId>
                     <artifactId>htl-maven-plugin</artifactId>
-                    <version>1.3.4-1.4.0</version>
+                    <version>2.0.2-1.4.0</version>
                     <configuration>
                         <failOnWarnings>true</failOnWarnings>
                     </configuration>
@@ -258,12 +276,9 @@ Bundle-DocURL:
                     <groupId>org.apache.jackrabbit</groupId>
                     <artifactId>filevault-package-maven-plugin</artifactId>
                     <extensions>true</extensions>
-                    <version>1.1.4</version>
+                    <version>1.1.6</version>
                     <configuration>
                         <filterSource>src/main/content/META-INF/vault/filter.xml</filterSource>
-                        <properties>
-                            <cloudManagerTarget>none</cloudManagerTarget>
-                        </properties>
                         <validatorsSettings>
                             <jackrabbit-nodetypes>
                                 <options>
@@ -277,7 +292,7 @@ Bundle-DocURL:
                         <dependency>
                             <groupId>biz.netcentric.aem</groupId>
                             <artifactId>aem-nodetypes</artifactId>
-                            <version>6.5.5.0</version>
+                            <version>6.5.7.0</version>
                         </dependency>
                     </dependencies>
                 </plugin>
@@ -304,7 +319,7 @@ Bundle-DocURL:
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-enforcer-plugin</artifactId>
-                    <version>3.0.0-M3</version>
+                    <version>3.0.0</version>
                 </plugin>
                 <!-- Maven Dependency Plugin -->
                 <plugin>
@@ -436,7 +451,7 @@ Bundle-DocURL:
                 </pluginRepository>
             </pluginRepositories>
         </profile>
-
+        
         <!-- Development profile: install only the bundle -->
         <profile>
             <id>autoInstallBundle</id>
@@ -565,7 +580,6 @@ Bundle-DocURL:
                 <version>${aem.sdk.api}</version>
                 <scope>provided</scope>
             </dependency>
-            <!-- AEM Core Component Dependency 6.x only -->
             <dependency>
                 <groupId>com.adobe.cq</groupId>
                 <artifactId>core.wcm.components.core</artifactId>
@@ -584,25 +598,25 @@ Bundle-DocURL:
                 <version>${core.wcm.components.version}</version>
             </dependency>
 
-            
+
             <!-- Testing -->
             <dependency>
                 <groupId>org.junit</groupId>
                 <artifactId>junit-bom</artifactId>
-                <version>5.6.2</version>
+                <version>5.8.2</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
             <dependency>
                 <groupId>org.mockito</groupId>
                 <artifactId>mockito-core</artifactId>
-                <version>3.3.3</version>
+                <version>4.1.0</version>
                 <scope>test</scope>
             </dependency>
             <dependency>
                 <groupId>org.mockito</groupId>
                 <artifactId>mockito-junit-jupiter</artifactId>
-                <version>3.3.3</version>
+                <version>4.1.0</version>
                 <scope>test</scope>
             </dependency>
             <dependency>
@@ -614,7 +628,18 @@ Bundle-DocURL:
             <dependency>
                 <groupId>io.wcm</groupId>
                 <artifactId>io.wcm.testing.aem-mock.junit5</artifactId>
-                <version>3.0.2</version>
+                <version>4.1.8</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.sling</groupId>
+                <artifactId>org.apache.sling.testing.caconfig-mock-plugin</artifactId>
+                <version>1.3.6</version>
+            </dependency>
+            <dependency>
+                <groupId>com.adobe.cq</groupId>
+                <artifactId>core.wcm.components.testing.aem-mock-plugin</artifactId>
+                <version>${core.wcm.components.version}</version>
                 <scope>test</scope>
             </dependency>
             <dependency>

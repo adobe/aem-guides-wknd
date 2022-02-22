@@ -78,6 +78,32 @@ buildNumber.properties
 .idea/
 *.iml
 
+### Node.js ###
+
+# Log files
+*.log
+
+# NPM
+node_modules/
+yarn.lock
+
+# Webpack
+build/
+dist/
+actions/common/
+
+# Frontend Maven Plugin
+node/
+
+# Tests
+coverage/
+reports/
+
+# Others
+dispatcher/src/conf.d/variables/default.vars
+ui.tests/test-module/assets/form/themes/**/*diff.png
+ui.tests/test-module/assets/form/themes/**/*current.png
+
 ### Visual Studio ###
 .vscode
 .history

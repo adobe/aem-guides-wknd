@@ -6,6 +6,6 @@
         cq:template="/conf/wknd/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
         jcr:title="us"
-        sling:resourceType="foundation/components/redirect"/>
+        sling:resourceType="wknd/components/page"/>
     <en/>
 </jcr:root>
