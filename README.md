@@ -1,6 +1,6 @@
-# Chapter 4 - Client Side Libraries Solution
+# Chapter 5 - Style System Start
 
-This is the solution code branch for [Chapter 4 - Client Side Libraries](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/client-side-libraries.html)
+This is the starter code branch for [Chapter 5 - Style System](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/style-system.html)
 
 ## Tutorial
 
