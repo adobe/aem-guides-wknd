@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        jcr:description="WKND Sites Project Remote Page Template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Remote SPA Page"
+        status="enabled"/>
+</jcr:root>

@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
+    <!-- Overwrites content and configurations on AEM environment 
+         This is done for the tutorial branches ONLY to provide a clean
+        reset of the environment -->
+    <filter root="/conf/wknd"/>
+    <filter root="/content/wknd"/>
+    <filter root="/content/dam/wknd"/>
+    <filter root="/content/experience-fragments/wknd"/>
+    <!-- Use the mode="merge" for standard use cases 
     <filter root="/conf/wknd" mode="merge"/>
     <filter root="/content/wknd" mode="merge"/>
     <filter root="/content/dam/wknd" mode="merge"/>
-    <filter root="/content/experience-fragments/wknd" mode="merge"/>
+    <filter root="/content/experience-fragments/wknd" mode="merge"/>-->
 </workspaceFilter>
