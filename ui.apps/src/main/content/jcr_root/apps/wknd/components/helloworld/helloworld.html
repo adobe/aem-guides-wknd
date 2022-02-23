@@ -13,13 +13,18 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 */-->
-<div class="cmp-helloworld" data-cmp-is="helloworld">
-    <h2 class="cmp-helloworld__title">Hello World Component</h2>
+<div class="cmp-helloworld" data-cmp-is="helloworld"
+    data-sly-use.model="com.adobe.aem.guides.wknd.core.models.HelloWorldModel">
+    <h1 class="cmp-helloworld__title">${model.title}</h1>
     <div class="cmp-helloworld__item" data-sly-test="${properties.text}">
         <p class="cmp-helloworld__item-label">Text property:</p>
         <pre class="cmp-helloworld__item-output" data-cmp-hook-helloworld="property">${properties.text}</pre>
     </div>
-    <div class="cmp-helloworld__item" data-sly-use.model="com.adobe.aem.guides.wknd.core.models.HelloWorldModel" data-sly-test="${model.message}">
+    <div class="cmp-helloworld__item" data-sly-test="${model.text}">
+        <p class="cmp-helloworld__item-label">Sling Model getText() property:</p>
+        <pre class="cmp-helloworld__item-output" data-cmp-hook-helloworld="property">${model.text}</pre>
+    </div>
+    <div class="cmp-helloworld__item"  data-sly-test="${model.message}">
         <p class="cmp-helloworld__item-label">Model message:</p>
         <pre class="cmp-helloworld__item-output"data-cmp-hook-helloworld="model">${model.message}</pre>
     </div>
