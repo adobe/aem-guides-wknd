@@ -1,9 +1,37 @@
-.cmp-navigation {}
-.cmp-navigation__group {}
-.cmp-navigation__item {}
-.cmp-navigation__item--active {}
-// .cmp-navigation__item--level-0 {}
-.cmp-navigation__item--level-0:hover > .cmp-navigation__group {
-  background: #ECECEC;
+.cmp-navigation {
+    padding-top: 15px;
+    float: right;
 }
-.cmp-navigation__item-link {}
+
+.cmp-navigation__group {
+    list-style: none;
+    margin: 0;
+    padding-inline-start: 0;
+
+}
+
+.cmp-navigation__item {
+    display: block;
+    float: left;
+}
+
+.cmp-navigation__item-link {
+    color: $text-color;
+    font-size: $font-size-small;
+    text-transform: uppercase;
+    padding: 15px 17px;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+        background-color: $brand-primary;
+    }
+}
+
+/* highlight only level 1 */
+.cmp-navigation__item--active {
+
+    .cmp-navigation__item-link {
+        background-color: $brand-primary;
+    }
+}
