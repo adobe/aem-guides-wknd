@@ -1,6 +1,6 @@
-# Chapter 2 - Component Basics Start
+# Chapter 3 - Pages and Templates Solution
 
-This is the starter code branch for [Chapter 2 - Component Basics](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/component-basics.html)
+This is the starter code branch for [Chapter 3 - Pages and Templates](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/pages-templates.html)
 
 ## Tutorial
 
