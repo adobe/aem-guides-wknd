@@ -1,6 +1,6 @@
-# Chapter 2 - Component Basics Start
+# Chapter 2 - Component Basics Solution
 
-This is the starter code branch for [Chapter 2 - Component Basics](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/component-basics.html)
+This is the solution code branch for [Chapter 2 - Component Basics](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/component-basics.html)
 
 ## Tutorial
 
