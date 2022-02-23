@@ -1,6 +1,6 @@
-# Chapter 3 - Pages and Templates Solution
+# Chapter 4 - Client Side Libraries Start
 
-This is the starter code branch for [Chapter 3 - Pages and Templates](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/pages-templates.html)
+This is the starter code branch for [Chapter 4 - Client Side Libraries](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/client-side-libraries.html)
 
 ## Tutorial
 
