@@ -1,6 +1,6 @@
-# Chapter 5 - Style System Solution
+# Chapter 6 - Custom Component Start
 
-This is the solution code branch for [Chapter 5 - Style System](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/style-system.html)
+This is the start code branch for [Chapter 6 - Custom Component](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/custom-component.html)
 
 ## Tutorial
 
