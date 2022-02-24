@@ -1,3 +1,17 @@
+/* Default Title Styles */
 .cmp-title {}
 .cmp-title__text {}
 .cmp-title__link {}
+
+/* Add Title Underline Style */
+.cmp-title--underline {
+    .cmp-title__text {
+        &:after {
+        display: block;
+            width: 84px;
+            padding-top: 8px;
+            content: '';
+            border-bottom: 2px solid $brand-primary;
+        }
+    }
+}

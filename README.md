@@ -1,6 +1,6 @@
-# Chapter 5 - Style System Start
+# Chapter 5 - Style System Solution
 
-This is the starter code branch for [Chapter 5 - Style System](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/style-system.html)
+This is the solution code branch for [Chapter 5 - Style System](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/style-system.html)
 
 ## Tutorial
 
