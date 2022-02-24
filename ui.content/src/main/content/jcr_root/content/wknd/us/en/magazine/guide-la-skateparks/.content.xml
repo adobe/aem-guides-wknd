@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-02-24T11:42:09.570-08:00"
+        cq:lastModified="{Date}2022-02-24T11:51:23.972-08:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/article-page"
         jcr:primaryType="cq:PageContent"
@@ -105,6 +105,7 @@
                         isDecorative="false"
                         titleValueFromDAM="false"/>
                     <title_107082905
+                        cq:styleIds="[1645658773489]"
                         jcr:created="{Date}2022-02-23T09:35:19.508-08:00"
                         jcr:createdBy="admin"
                         jcr:lastModified="{Date}2022-02-23T09:35:27.406-08:00"
@@ -123,6 +124,7 @@
                         text="&lt;p>&lt;b>Moorpark Skate Park&lt;/b>&amp;nbsp;located in Ventura County, Moorpark is considered the area's premier skatepark. Moorpark skate park, &amp;quot;M.P.&amp;quot; for short, offers a wide variety of challenges and terrain for different skill sets. An isolated beginner area features low walls for beginners just getting their feet wet and ensures a safe space for learning progression. M.P. also includes an incredible bowl that was specifically designed to look like a backyard pool. Nearby you can also visit the Skateboarding Hall of Fame Museum, featuring a great collection of historic skateboarding&amp;nbsp;memorabilia.&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;p>&lt;i>&lt;b>500 Poindexter ave. , Moorpark CA 93021&amp;nbsp;&lt;/b>&lt;/i>&lt;/p>&#xd;&#xa;"
                         textIsRich="true"/>
                     <title_107082905_copy
+                        cq:styleIds="[1645658773489]"
                         jcr:created="{Date}2022-02-23T09:35:19.508-08:00"
                         jcr:createdBy="admin"
                         jcr:lastModified="{Date}2022-02-23T09:36:00.339-08:00"
