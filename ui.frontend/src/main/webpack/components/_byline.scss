@@ -1,0 +1,31 @@
+.cmp-byline {
+    $imageSize: 60px;
+
+    .cmp-byline__image {
+        float: left;
+
+    /* This class targets a Core Component Image CSS class */
+    .cmp-image__image {
+        width: $imageSize;
+        height: $imageSize;
+        border-radius: $imageSize / 2;
+        object-fit: cover;
+        }
+    }
+
+    .cmp-byline__name {
+        font-size: $font-size-medium;
+        font-family: $font-family-serif;
+        padding-top: 0.5rem;
+        margin-left: $imageSize + 25px;
+        margin-bottom: .25rem;
+        margin-top:0rem;
+    }
+
+    .cmp-byline__occupations {
+        margin-left: $imageSize + 25px;
+        color: $gray;
+        font-size: $font-size-xsmall;
+        text-transform: uppercase;
+    }
+}

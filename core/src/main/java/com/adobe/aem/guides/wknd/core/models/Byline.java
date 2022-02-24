@@ -22,4 +22,5 @@ public interface Byline {
     * @return a boolean if the component has enough content to display.
     */
     boolean isEmpty();
+    
 }

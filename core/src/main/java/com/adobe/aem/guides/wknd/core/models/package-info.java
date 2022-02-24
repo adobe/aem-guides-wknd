@@ -13,7 +13,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-@Version("1.0")
+@Version("1.1.0")
 package com.adobe.aem.guides.wknd.core.models;
 
 import org.osgi.annotation.versioning.Version;
