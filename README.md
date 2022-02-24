@@ -1,6 +1,6 @@
-# Chapter 6 - Custom Component Start
+# Chapter 6 - Custom Component Solution
 
-This is the start code branch for [Chapter 6 - Custom Component](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/custom-component.html)
+This is the solution code branch for [Chapter 6 - Custom Component](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/custom-component.html)
 
 ## Tutorial
 
