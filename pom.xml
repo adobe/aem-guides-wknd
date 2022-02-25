@@ -628,7 +628,7 @@ Bundle-DocURL:
             <dependency>
                 <groupId>io.wcm</groupId>
                 <artifactId>io.wcm.testing.aem-mock.junit5</artifactId>
-                <version>4.1.8</version>
+                <version>4.1.0</version>
                 <scope>test</scope>
             </dependency>
             <dependency>
