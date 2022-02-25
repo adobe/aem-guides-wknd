@@ -1,6 +1,6 @@
-# Chapter 7 - Unit Testing Start
+# Chapter 7 - Unit Testing Solution
 
-This is the starter code branch for [Chapter 7 - Unit Testing](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/unit-testing.html)
+This is the solution code branch for [Chapter 7 - Unit Testing](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/unit-testing.html)
 
 ## Tutorial
 
