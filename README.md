@@ -1,6 +1,6 @@
-# Chapter 6 - Custom Component Solution
+# Chapter 7 - Unit Testing Start
 
-This is the solution code branch for [Chapter 6 - Custom Component](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/custom-component.html)
+This is the starter code branch for [Chapter 7 - Unit Testing](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/unit-testing.html)
 
 ## Tutorial
 
