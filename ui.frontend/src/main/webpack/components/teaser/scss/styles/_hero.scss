@@ -52,12 +52,18 @@ $mobile-max-height: 400px;
     }
 
     /* desktop view */
-     @media (min-width: $max-width +1 ) {
+     @media (min-width: ($max-width +1) ) {
 
         .cmp-teaser__image {
             height: $desktop-max-height;
             max-height: $desktop-max-height;
+
+            .cmp-image {
+                height: $desktop-max-height;
+            }
          }
+
+       
 
         .cmp-teaser__content {
             background-color: $white;
