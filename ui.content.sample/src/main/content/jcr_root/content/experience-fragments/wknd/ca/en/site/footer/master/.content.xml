@@ -197,7 +197,8 @@
                             sling:resourceType="wknd/components/button"
                             accessibilityLabel="Facebook WKND Button"
                             icon="facebook"
-                            link="#facebookwknd"/>
+                            linkURL="#facebookwknd"
+                            linkTarget="_self"/>
                         <item39381356464486
                             cq:lastRolledout="{Date}2020-11-11T14:35:46.839-08:00"
                             cq:lastRolledoutBy="admin"
@@ -212,7 +213,8 @@
                             sling:resourceType="wknd/components/button"
                             accessibilityLabel="Twitter WKND Button"
                             icon="twitter"
-                            link="#twitterWKND"/>
+                            linkURL="#twitterWKND"
+                            linkTarget="_self"/>
                         <item39381358237347
                             cq:lastRolledout="{Date}2020-11-11T14:35:46.844-08:00"
                             cq:lastRolledoutBy="admin"
@@ -227,7 +229,8 @@
                             sling:resourceType="wknd/components/button"
                             accessibilityLabel="Instagram WKND"
                             icon="instagram"
-                            link="#instagramwknd"/>
+                            linkURL="#instagramwknd"
+                            linkTarget="_self"/>
                         <cq:responsive
                             cq:lastRolledout="{Date}2020-11-11T14:35:46.853-08:00"
                             cq:lastRolledoutBy="admin"

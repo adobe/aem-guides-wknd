@@ -71,7 +71,8 @@
                         sling:resourceType="wknd/components/button"
                         accessibilityLabel="Facebook Social Media"
                         icon="facebook"
-                        link="#facebook-staceyroswell"/>
+                        linkURL="#facebook-staceyroswell"
+                        linkTarget="_self"/>
                     <item34118634619135
                         cq:styleIds="[1568839776757,1570758781253]"
                         jcr:created="{Date}2019-10-17T17:45:02.668-07:00"
@@ -83,7 +84,8 @@
                         sling:resourceType="wknd/components/button"
                         accessibilityLabel="Twitter Social Media"
                         icon="twitter"
-                        link="#twitter-staceyroswells"/>
+                        linkURL="#twitter-staceyroswells"
+                        linkTarget="_self"/>
                     <item34118635370474
                         cq:styleIds="[1568839776757,1570758781253]"
                         jcr:created="{Date}2019-10-17T17:45:02.668-07:00"
@@ -95,7 +97,8 @@
                         sling:resourceType="wknd/components/button"
                         accessibilityLabel="Instagram Social Media"
                         icon="instagram"
-                        link="#insta-staceyroswells"/>
+                        linkURL="#insta-staceyroswells"
+                        linkTarget="_self"/>
                 </button>
             </container>
         </root>

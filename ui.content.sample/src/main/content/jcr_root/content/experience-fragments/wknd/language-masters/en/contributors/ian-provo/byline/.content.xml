@@ -72,7 +72,8 @@
                         sling:resourceType="wknd/components/button"
                         accessibilityLabel="Facebook Ian provo"
                         icon="facebook"
-                        link="#facebook-ianprovo"/>
+                        linkURL="#facebook-ianprovo"
+                        linkTarget="_self"/>
                     <item50039901013124
                         cq:styleIds="[1570758781253,1568839776757]"
                         jcr:created="{Date}2019-10-18T13:03:32.646-07:00"
@@ -84,7 +85,8 @@
                         sling:resourceType="wknd/components/button"
                         accessibilityLabel="Twitter Ian provo"
                         icon="twitter"
-                        link="#twitter-ianprovo"/>
+                        linkURL="#twitter-ianprovo"
+                        linkTarget="_self"/>
                     <item50039901693997
                         cq:styleIds="[1570758781253,1568839776757]"
                         jcr:created="{Date}2019-10-18T13:03:32.646-07:00"
@@ -96,7 +98,8 @@
                         sling:resourceType="wknd/components/button"
                         accessibilityLabel="instagram Ian provo"
                         icon="instagram"
-                        link="#instagram-ianprovo"/>
+                        linkURL="#instagram-ianprovo"
+                        linkTarget="_self"/>
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"

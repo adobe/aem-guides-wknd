@@ -72,7 +72,8 @@
                         sling:resourceType="wknd/components/button"
                         accessibilityLabel="Facebook"
                         icon="facebook"
-                        link="#">
+                        linkURL="#"
+                        linkTarget="_self">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
                                 jcr:primaryType="nt:unstructured"
@@ -91,7 +92,8 @@
                         sling:resourceType="wknd/components/button"
                         accessibilityLabel="Twitter"
                         icon="twitter"
-                        link="#">
+                        linkURL="#"
+                        linkTarget="_self">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
                                 jcr:primaryType="nt:unstructured"
@@ -110,7 +112,8 @@
                         sling:resourceType="wknd/components/button"
                         accessibilityLabel="instagram"
                         icon="instagram"
-                        link="#">
+                        linkURL="#"
+                        linkTarget="_self">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
                                 jcr:primaryType="nt:unstructured"
