@@ -231,7 +231,8 @@
                         jcr:title="All Articles"
                         sling:resourceType="wknd/components/button"
                         accessibilityLabel="read our articles"
-                        link="/content/wknd/us/en/magazine"/>
+                        linkURL="/content/wknd/us/en/magazine"
+                        linkTarget="_self"/>
                     <separator
                         cq:lastRolledout="{Date}2020-09-30T17:38:06.533-07:00"
                         cq:lastRolledoutBy="admin"
@@ -347,7 +348,8 @@
                         jcr:title="All Trips"
                         sling:resourceType="wknd/components/button"
                         accessibilityLabel="explore our adventures"
-                        link="/content/wknd/us/en/adventures"/>
+                        linkURL="/content/wknd/us/en/adventures"
+                        linkTarget="_self"/>
                     <separator
                         cq:lastRolledout="{Date}2020-09-30T17:38:06.579-07:00"
                         cq:lastRolledoutBy="admin"

@@ -66,7 +66,8 @@
                         sling:resourceType="wknd/components/button"
                         accessibilityLabel="Facebook jakehammer"
                         icon="facebook"
-                        link="#facebook-jakehammer">
+                        linkURL="#facebook-jakehammer"
+                        linkTarget="_self">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
                                 jcr:primaryType="nt:unstructured"
@@ -85,7 +86,8 @@
                         sling:resourceType="wknd/components/button"
                         accessibilityLabel="Twitter"
                         icon="twitter"
-                        link="#twitter-jakehammer">
+                        linkURL="#twitter-jakehammer"
+                        linkTarget="_self">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
                                 jcr:primaryType="nt:unstructured"
@@ -104,7 +106,8 @@
                         sling:resourceType="wknd/components/button"
                         accessibilityLabel="instagram jakehammer"
                         icon="instagram"
-                        link="#instagram-jakehammer">
+                        linkURL="#instagram-jakehammer"
+                        linkTarget="_self">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
                                 jcr:primaryType="nt:unstructured"

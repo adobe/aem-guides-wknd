@@ -163,7 +163,8 @@
                         jcr:title="All Articles"
                         sling:resourceType="wknd/components/button"
                         accessibilityLabel="read our articles"
-                        link="/content/wknd/language-masters/en/magazine"/>
+                        linkURL="/content/wknd/language-masters/en/magazine"
+                        linkTarget="_self"/>
                     <separator
                         jcr:created="{Date}2019-10-27T16:13:09.680-07:00"
                         jcr:createdBy="admin"
@@ -247,7 +248,8 @@
                         jcr:title="All Trips"
                         sling:resourceType="wknd/components/button"
                         accessibilityLabel="explore our adventures"
-                        link="/content/wknd/language-masters/en/adventures"/>
+                        linkURL="/content/wknd/language-masters/en/adventures"
+                        linkTarget="_self"/>
                     <separator
                         jcr:created="{Date}2019-10-21T11:37:59.604-07:00"
                         jcr:createdBy="admin"

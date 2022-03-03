@@ -64,7 +64,8 @@
                         sling:resourceType="wknd/components/button"
                         accessibilityLabel="Facebook"
                         icon="facebook"
-                        link="#selveraj">
+                        linkURL="#selveraj"
+                        linkTarget="_self">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
                                 jcr:primaryType="nt:unstructured"
@@ -83,7 +84,8 @@
                         sling:resourceType="wknd/components/button"
                         accessibilityLabel="instagram"
                         icon="instagram"
-                        link="#selveraj">
+                        linkURL="#selveraj"
+                        linkTarget="_self">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
                                 jcr:primaryType="nt:unstructured"
@@ -102,7 +104,8 @@
                         sling:resourceType="wknd/components/button"
                         accessibilityLabel="Twitter"
                         icon="twitter"
-                        link="#selveraj">
+                        linkURL="#selveraj"
+                        linkTarget="_self">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
                                 jcr:primaryType="nt:unstructured"
