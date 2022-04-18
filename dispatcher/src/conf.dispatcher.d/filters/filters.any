@@ -29,3 +29,7 @@ $include "./default_filters.any"
 
 # Allow to download web manifest for PWA
 /0180 { /type "allow" /extension "webmanifest" }
+
+# ContextHub
+/0200 { /type "allow" /url "*/contexthub.pagedata.json" }
+/0201 { /type "allow" /url "/home/users/*.infinity.json" }

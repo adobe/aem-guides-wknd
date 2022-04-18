@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Geolocation"
+    sling:resourceType="/libs/granite/contexthub/cloudsettings/components/basestore"
+    configjson="\{&#xd;&#xa;    &quot;geocoder&quot;: {&#xd;&#xa;        &quot;enabled&quot;: true&#xd;&#xa;    }&#xd;&#xa;}"
+    enabled="{Boolean}true"
+    googleClientId="gme-adobesystemsincorporated"
+    googleCryptoKey="GT8Eznytt7Hb1u2wocDh8Jkf6FA="
+    required="{Boolean}true"
+    storeType="contexthub.geolocation"/>

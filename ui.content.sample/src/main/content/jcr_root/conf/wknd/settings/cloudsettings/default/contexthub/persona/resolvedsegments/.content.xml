@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Resolved Segments"
+    sling:resourceType="/libs/granite/contexthub/cloudsettings/components/baseuimodule"
+    configjson="\{&#xd;&#xa;    &quot;title&quot;: &quot;Resolved Segments&quot;,&#xd;&#xa;    &quot;icon&quot;: &quot;coral-Icon--targeted&quot;,&#xd;&#xa;    &quot;storeMapping&quot;: {&#xd;&#xa;        &quot;s&quot;: &quot;segmentation&quot;&#xd;&#xa;    },&#xd;&#xa;    &quot;template&quot;: &quot;&lt;p class=\\&quot;contexthub-module-line1\\&quot;>Resolved Segments&lt;/p>&lt;p class=\\&quot;contexthub-module-line2\\&quot;>{{s.summary}}&lt;/p>&quot;,&#xd;&#xa;    &quot;clickable&quot;: true,&#xd;&#xa;    &quot;listReference&quot;: &quot;/store/segmentation/segments&quot;,&#xd;&#xa;    &quot;listType&quot;: &quot;custom&quot;,&#xd;&#xa;    &quot;listItemTemplate&quot;: &quot;&lt;span>{{label}}&lt;/span>&quot;,&#xd;&#xa;    &quot;itemOnClickNoop&quot;: true,&#xd;&#xa;    &quot;isFilteredByAccessiblePaths&quot;: false&#xd;&#xa;}"
+    enabled="{Boolean}true"
+    moduleType="granite.resolvedsegments"/>
