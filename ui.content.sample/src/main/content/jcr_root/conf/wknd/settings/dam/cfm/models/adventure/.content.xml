@@ -4,7 +4,7 @@
     allowedPaths="[/content/entities(/.*)?]"
     ranking="{Long}100">
     <jcr:content
-        cq:lastModified="{Date}2019-10-25T16:21:31.852-07:00"
+        cq:lastModified="{Date}2022-05-27T14:22:54.791-07:00"
         cq:lastModifiedBy="admin"
         cq:scaffolding="/conf/wknd/settings/dam/cfm/models/adventure/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
@@ -22,13 +22,13 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="cq/gui/components/authoring/dialog">
                 <content
-                    jcr:lastModified="{Date}2019-10-25T16:21:31.852-07:00"
+                    jcr:lastModified="{Date}2022-05-27T14:22:54.791-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
                     <items
                         jcr:primaryType="nt:unstructured"
-                        maxGeneratedOrder="20">
+                        maxGeneratedOrder="21">
                         <_x0031_570129167801
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
@@ -38,19 +38,43 @@
                             metaType="text-single"
                             name="adventureTitle"
                             renderReadOnly="false"
+                            required="on"
                             showEmptyInReadOnly="true"
-                            valueType="string"/>
+                            translatable="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_570129167801>
+                        <_x0031_653685932845
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldDescription="A short name to be used to uniquely identify the Adventure. Will be used for pathing in client applications"
+                            fieldLabel="Slug"
+                            listOrder="21"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="slug"
+                            renderReadOnly="false"
+                            required="on"
+                            showEmptyInReadOnly="true"
+                            unique="true"
+                            validation="cfm.validation.custom"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_653685932845>
                         <_x0031_570129736887
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/admin/components/authoring/contenteditor/multieditor"
                             cfm-element="Description"
+                            checked="true"
                             default-mime-type="text/html"
                             fieldDescription="An overview of the trip."
+                            fragmentmodelreference="[/conf/wknd/settings/dam/cfm/models/adventure,/conf/wknd/settings/dam/cfm/models/article]"
                             listOrder="2"
                             metaType="text-multi"
                             name="adventureDescription"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
+                            translatable="true"
                             valueType="string"/>
                         <_x0031_570130694529
                             jcr:primaryType="nt:unstructured"
@@ -81,7 +105,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="dam/cfm/admin/components/datasources/optionrendererenumeration"
                                 variant="default"/>
-                             <granite:data jcr:primaryType="nt:unstructured"/>
+                            <granite:data jcr:primaryType="nt:unstructured"/>
                         </_x0031_570130694529>
                         <_x0031_570129178452
                             jcr:primaryType="nt:unstructured"
@@ -93,7 +117,9 @@
                             name="adventureTripLength"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
-                            valueType="string"/>
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_570129178452>
                         <_x0031_571164948750
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/select"
@@ -151,7 +177,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="dam/cfm/admin/components/datasources/optionrendererenumeration"
                                 variant="default"/>
-		            <granite:data jcr:primaryType="nt:unstructured"/>
+                            <granite:data jcr:primaryType="nt:unstructured"/>
                         </_x0031_571164948750>
                         <_x0031_570129198953
                             jcr:primaryType="nt:unstructured"
@@ -159,7 +185,7 @@
                             emptyText="Number in Group"
                             fieldDescription="Group size"
                             fieldLabel="Group Size"
-                            listOrder="1"
+                            listOrder="3"
                             metaType="number"
                             name="adventureGroupSize"
                             renderReadOnly="false"
@@ -172,7 +198,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 customErrorMsg="Group must have at least one person"
                                 number-min="1"/>
-	                </_x0031_570129198953>
+                        </_x0031_570129198953>
                         <_x0031_570129214037
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/select"
@@ -206,7 +232,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="dam/cfm/admin/components/datasources/optionrendererenumeration"
                                 variant="default"/>
-			    <granite:data jcr:primaryType="nt:unstructured"/>
+                            <granite:data jcr:primaryType="nt:unstructured"/>
                         </_x0031_570129214037>
                         <_x0031_570129363496
                             jcr:primaryType="nt:unstructured"
@@ -238,28 +264,37 @@
                             nameSuffix="contentReference"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
-                            valueType="string"/>
+                            showThumbnail="false"
+                            valueType="string">
+                            <granite:data
+                                jcr:primaryType="nt:unstructured"
+                                thumbnail-validation="cfm.validation.thumbnail.show"/>
+                        </_x0031_570129476186>
                         <_x0031_570129781032
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/admin/components/authoring/contenteditor/multieditor"
                             cfm-element="Itinerary"
+                            checked="false"
                             default-mime-type="text/html"
                             listOrder="2"
                             metaType="text-multi"
                             name="adventureItinerary"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
+                            translatable="true"
                             valueType="string"/>
                         <_x0031_570129871518
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/admin/components/authoring/contenteditor/multieditor"
                             cfm-element="What to Bring"
+                            checked="false"
                             default-mime-type="text/html"
                             listOrder="2"
                             metaType="text-multi"
                             name="adventureGearList"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
+                            translatable="true"
                             valueType="string"/>
                     </items>
                 </content>

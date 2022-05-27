@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Template"
     allowedPaths="[/content/entities(/.*)?]"
     ranking="{Long}100">
     <jcr:content
-        cq:lastModified="{Date}2019-10-02T11:42:58.726-07:00"
+        cq:lastModified="{Date}2022-05-27T14:12:07.065-07:00"
         cq:lastModifiedBy="admin"
         cq:scaffolding="/conf/wknd/settings/dam/cfm/models/article/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
@@ -23,34 +23,80 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="cq/gui/components/authoring/dialog">
                 <content
-                    jcr:lastModified="{Date}2019-10-02T11:42:58.726-07:00"
+                    jcr:lastModified="{Date}2022-05-27T14:12:07.065-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
                     <items
                         jcr:primaryType="nt:unstructured"
-                        maxGeneratedOrder="20">
-                        <_x0031_569969628315
+                        maxGeneratedOrder="21">
+                        <_x0031_653589924762
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                            fieldLabel="Author"
+                            fieldLabel="Title"
                             listOrder="1"
                             maxlength="255"
                             metaType="text-single"
-                            name="author"
+                            name="title"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
-                            valueType="string"/>
+                            translatable="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_653589924762>
+                        <_x0031_653685896712
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/models/editor/components/contentreference"
+                            fieldLabel="Featured Image"
+                            filter="hierarchy"
+                            listOrder="21"
+                            metaType="reference"
+                            name="featuredImage"
+                            nameSuffix="contentReference"
+                            renderReadOnly="false"
+                            rootPath="/content/dam/wknd"
+                            showEmptyInReadOnly="true"
+                            showThumbnail="true"
+                            validation="cfm.validation.contenttype.image"
+                            valueType="string/reference">
+                            <granite:data
+                                jcr:primaryType="nt:unstructured"
+                                showThumbnail="true"
+                                thumbnail-validation="cfm.validation.thumbnail.show"/>
+                        </_x0031_653685896712>
+                        <_x0031_653589942228
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/models/editor/components/fragmentreference"
+                            allowNew="{Boolean}true"
+                            fieldLabel="Author"
+                            filter="hierarchy"
+                            fragmentmodelreference="/conf/wknd/settings/dam/cfm/models/author"
+                            listOrder="9"
+                            metaType="fragment-reference"
+                            name="authorFragment"
+                            nameSuffix="contentReference"
+                            renderReadOnly="false"
+                            rootPath="/content/dam/wknd"
+                            showEmptyInReadOnly="true"
+                            valueType="string/content-fragment">
+                            <field
+                                jcr:primaryType="nt:unstructured"
+                                rootPath="/content/dam/wknd"/>
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_653589942228>
                         <_x0031_569504252173
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/admin/components/authoring/contenteditor/multieditor"
                             cfm-element="Main"
+                            checked="true"
                             default-mime-type="text/html"
+                            fragmentmodelreference="[/conf/wknd/settings/dam/cfm/models/adventure,/conf/wknd/settings/dam/cfm/models/article]"
                             listOrder="2"
                             metaType="text-multi"
                             name="main"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
+                            translatable="true"
                             valueType="string"/>
                     </items>
                 </content>
