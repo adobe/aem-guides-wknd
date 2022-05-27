@@ -4,7 +4,7 @@
     allowedPaths="[/content/entities(/.*)?]"
     ranking="{Long}100">
     <jcr:content
-        cq:lastModified="{Date}2022-05-27T14:23:07.586-07:00"
+        cq:lastModified="{Date}2022-05-27T14:26:35.544-07:00"
         cq:lastModifiedBy="admin"
         cq:scaffolding="/conf/wknd/settings/dam/cfm/models/author/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
@@ -24,7 +24,7 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="cq/gui/components/authoring/dialog">
                 <content
-                    jcr:lastModified="{Date}2022-05-27T14:23:07.586-07:00"
+                    jcr:lastModified="{Date}2022-05-27T14:26:35.544-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
@@ -72,11 +72,12 @@
                             required="on"
                             rootPath="/content/dam/wknd"
                             showEmptyInReadOnly="true"
-                            showThumbnail="false"
+                            showThumbnail="true"
                             validation="cfm.validation.contenttype.image"
                             valueType="string/reference">
                             <granite:data
                                 jcr:primaryType="nt:unstructured"
+                                showThumbnail="true"
                                 thumbnail-validation="cfm.validation.thumbnail.show"/>
                         </_x0031_653427438847>
                         <_x0031_653585498810
