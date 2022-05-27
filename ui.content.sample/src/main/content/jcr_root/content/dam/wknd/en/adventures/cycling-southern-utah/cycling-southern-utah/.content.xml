@@ -8,17 +8,17 @@
         cq:name="cycling-southern-utah"
         cq:parentPath="/content/dam/wknd/en/adventures/cycling-southern-utah"
         jcr:description=""
-        jcr:lastModified="{Date}2020-10-19T11:53:15.442-07:00"
+        jcr:lastModified="{Date}2022-05-27T14:52:38.458-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Cycling Southern Utah"
         contentFragment="{Boolean}true"
-        lastFragmentSave="{Date}2020-10-19T11:53:15.442-07:00">
+        lastFragmentSave="{Date}2022-05-27T14:52:38.458-07:00">
         <data
             cq:model="/conf/wknd/settings/dam/cfm/models/adventure"
             jcr:primaryType="nt:unstructured">
             <master
-                jcr:mixinTypes="[cq:Taggable]"
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
                 jcr:primaryType="nt:unstructured"
                 adventureActivity="Cycling"
                 adventureActivity_x0040_LastModified="{Date}2020-10-19T11:53:15.419-07:00"
@@ -30,13 +30,13 @@
                 adventureGearList="&lt;ul>&#xa;&lt;li>Bicycle&lt;/li>&#xa;&lt;li>Cycling clothing&lt;/li>&#xa;&lt;li>Hiking shoes&lt;/li>&#xa;&lt;/ul>&#xa;"
                 adventureGearList_x0040_ContentType="text/html"
                 adventureGearList_x0040_LastModified="{Date}2020-10-19T11:53:15.421-07:00"
-                adventureGroupSize="14"
-                adventureGroupSize_x0040_LastModified="{Date}2020-10-19T11:53:15.419-07:00"
+                adventureGroupSize="{Long}14"
+                adventureGroupSize_x0040_LastModified="{Date}2022-05-26T11:43:22.372-07:00"
                 adventureItinerary="&lt;h2>Welcome to Utah&lt;/h2>&#xa;&lt;p>After a beautiful 2 hour shuttle ride to the Ridge Lodge, we'll have a delicious lunch at the Roundabout Saloon where we'll make introductions and discuss bike riding in a national park. Our first ride will be amongst the sandstone cliffs in Bryce Canyon.&lt;/p>&#xa;&lt;h2>Bryce Canyon&lt;/h2>&#xa;&lt;p>Ride along one of the most scenic byways in the world as you'll encounter views which stretch in every direction. Enjoy lunch amongst the red rock formations where you'll be able to hop off your bike and explore.&lt;/p>&#xa;&lt;h2>Zion National Park&lt;/h2>&#xa;&lt;p>Follow the route where ancient native people and pioneers walked while gazing at the steep red cliffs that Zion National Park is known for. Experience one of the highlights of Zion as we visit a 2000 feet deep canyon with opportunities to hike in an area known as the Narrows.&lt;/p>&#xa;"
                 adventureItinerary_x0040_ContentType="text/html"
                 adventureItinerary_x0040_LastModified="{Date}2020-10-19T11:53:15.420-07:00"
-                adventurePrice="3000"
-                adventurePrice_x0040_LastModified="{Date}2020-10-19T11:53:15.420-07:00"
+                adventurePrice="3000.00"
+                adventurePrice_x0040_LastModified="{Date}2022-05-26T11:43:22.373-07:00"
                 adventurePrimaryImage="/content/dam/wknd/en/adventures/cycling-southern-utah/AdobeStock_185324648.jpg"
                 adventurePrimaryImage_x0040_LastModified="{Date}2020-10-19T11:53:15.420-07:00"
                 adventureTitle="Cycling Southern Utah"
@@ -44,7 +44,9 @@
                 adventureTripLength="5 Days"
                 adventureTripLength_x0040_LastModified="{Date}2020-10-19T11:53:15.418-07:00"
                 adventureType="Overnight Trip"
-                adventureType_x0040_LastModified="{Date}2020-10-19T11:53:15.418-07:00"/>
+                adventureType_x0040_LastModified="{Date}2020-10-19T11:53:15.418-07:00"
+                slug="cycling-southern-utah"
+                slug_x0040_LastModified="{Date}2022-05-27T14:52:38.433-07:00"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"
