@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="6c9314ed-eaa8-4671-a1c5-8c8b88ce66f6">
+    <jcr:content
+        cq:name="kumar-selveraj"
+        cq:parentPath="/content/dam/wknd/en/contributors"
+        jcr:lastModified="{Date}2022-05-26T14:11:55.667-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Kumar Selveraj"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2022-05-26T14:11:55.667-07:00">
+        <data
+            cq:model="/conf/wknd/settings/dam/cfm/models/author"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                biography_x0040_ContentType="text/html"
+                biography_x0040_LastModified="{Date}2022-05-26T14:11:55.652-07:00"
+                birthDay_x0040_LastModified="{Date}2022-05-26T14:11:28.914-07:00"
+                firstName="Kumar"
+                firstName_x0040_LastModified="{Date}2022-05-26T14:11:55.650-07:00"
+                lastName="Selveraj"
+                lastName_x0040_LastModified="{Date}2022-05-26T14:11:55.651-07:00"
+                occupations="[Photographer,Surfer]"
+                occupations_x0040_LastModified="{Date}2022-05-26T14:11:55.652-07:00"
+                profilePicture="/content/dam/wknd/en/contributors/Kumar_Selvaraj.JPG"
+                profilePicture_x0040_LastModified="{Date}2022-05-26T14:11:55.651-07:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

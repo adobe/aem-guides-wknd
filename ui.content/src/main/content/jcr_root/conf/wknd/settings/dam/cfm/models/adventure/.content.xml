@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Template"
     allowedPaths="[/content/entities(/.*)?]"
     ranking="{Long}100">
     <jcr:content
-        cq:lastModified="{Date}2019-10-25T16:21:31.852-07:00"
+        cq:lastModified="{Date}2022-05-27T14:26:25.834-07:00"
         cq:lastModifiedBy="admin"
         cq:scaffolding="/conf/wknd/settings/dam/cfm/models/adventure/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
@@ -22,7 +22,7 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="cq/gui/components/authoring/dialog">
                 <content
-                    jcr:lastModified="{Date}2019-10-25T16:21:31.852-07:00"
+                    jcr:lastModified="{Date}2022-05-27T14:26:25.834-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
@@ -38,19 +38,43 @@
                             metaType="text-single"
                             name="adventureTitle"
                             renderReadOnly="false"
+                            required="on"
                             showEmptyInReadOnly="true"
-                            valueType="string"/>
+                            translatable="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_570129167801>
+                        <_x0031_653685932845
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldDescription="A short name to be used to uniquely identify the Adventure. Will be used for pathing in client applications"
+                            fieldLabel="Slug"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="slug"
+                            renderReadOnly="false"
+                            required="on"
+                            showEmptyInReadOnly="true"
+                            unique="true"
+                            validation="cfm.validation.custom"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_653685932845>
                         <_x0031_570129736887
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/admin/components/authoring/contenteditor/multieditor"
                             cfm-element="Description"
+                            checked="true"
                             default-mime-type="text/html"
                             fieldDescription="An overview of the trip."
+                            fragmentmodelreference="[/conf/wknd/settings/dam/cfm/models/adventure,/conf/wknd/settings/dam/cfm/models/article]"
                             listOrder="2"
                             metaType="text-multi"
                             name="adventureDescription"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
+                            translatable="true"
                             valueType="string"/>
                         <_x0031_570130694529
                             jcr:primaryType="nt:unstructured"
@@ -60,14 +84,28 @@
                             listOrder="6"
                             metaType="enumeration"
                             name="adventureType"
-                            options="Day Trip, Overnight Trip, Training Session"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
                             valueType="string">
+                            <optionsmultifield jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Day Trip"
+                                    fieldValue="Day Trip"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Overnight Trip"
+                                    fieldValue="Overnight Trip"/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Training Session"
+                                    fieldValue="Training Session"/>
+                            </optionsmultifield>
                             <datasource
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="dam/cfm/admin/components/datasources/optionrenderer"
+                                sling:resourceType="dam/cfm/admin/components/datasources/optionrendererenumeration"
                                 variant="default"/>
+                            <granite:data jcr:primaryType="nt:unstructured"/>
                         </_x0031_570130694529>
                         <_x0031_570129178452
                             jcr:primaryType="nt:unstructured"
@@ -79,7 +117,9 @@
                             name="adventureTripLength"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
-                            valueType="string"/>
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_570129178452>
                         <_x0031_571164948750
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/select"
@@ -88,27 +128,77 @@
                             listOrder="6"
                             metaType="enumeration"
                             name="adventureActivity"
-                            options="Camping, Surfing, Skiing, Cycling, Hiking, Skateboarding, Rock Climbing, Running,  Snowboarding, Social"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
                             valueType="string">
+                            <optionsmultifield jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Camping"
+                                    fieldValue="Camping"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Surfing"
+                                    fieldValue="Surfing"/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Skiing"
+                                    fieldValue="Skiing"/>
+                                <item3
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Cycling"
+                                    fieldValue="Cycling"/>
+                                <item4
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Hiking"
+                                    fieldValue="Hiking"/>
+                                <item5
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Skateboarding"
+                                    fieldValue="Skateboarding"/>
+                                <item6
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Rock Climbing"
+                                    fieldValue="Rock Climbing"/>
+                                <item7
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Running"
+                                    fieldValue="Running"/>
+                                <item8
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Snowboarding"
+                                    fieldValue="Snowboarding"/>
+                                <item9
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Social"
+                                    fieldValue="Social"/>
+                            </optionsmultifield>
                             <datasource
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="dam/cfm/admin/components/datasources/optionrenderer"
+                                sling:resourceType="dam/cfm/admin/components/datasources/optionrendererenumeration"
                                 variant="default"/>
+                            <granite:data jcr:primaryType="nt:unstructured"/>
                         </_x0031_571164948750>
                         <_x0031_570129198953
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
+                            emptyText="Number in Group"
                             fieldDescription="Group size"
                             fieldLabel="Group Size"
-                            listOrder="1"
-                            maxlength="255"
-                            metaType="text-single"
+                            listOrder="3"
+                            metaType="number"
                             name="adventureGroupSize"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
-                            valueType="string"/>
+                            step="1"
+                            typeHint="long"
+                            validation="cfm.validation.number.min"
+                            valueType="long">
+                            <granite:data
+                                jcr:primaryType="nt:unstructured"
+                                customErrorMsg="Group must have at least one person"
+                                number-min="1"/>
+                        </_x0031_570129198953>
                         <_x0031_570129214037
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/select"
@@ -117,18 +207,38 @@
                             listOrder="6"
                             metaType="enumeration"
                             name="adventureDifficulty"
-                            options="Beginner, Intermediate, Advanced, Expert"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
                             valueType="string">
+                            <optionsmultifield jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Beginner"
+                                    fieldValue="Beginner"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Intermediate"
+                                    fieldValue="Intermediate"/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Advanced"
+                                    fieldValue="Advanced"/>
+                                <item3
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Expert"
+                                    fieldValue="Expert"/>
+                            </optionsmultifield>
                             <datasource
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="dam/cfm/admin/components/datasources/optionrenderer"
+                                sling:resourceType="dam/cfm/admin/components/datasources/optionrendererenumeration"
                                 variant="default"/>
+                            <granite:data jcr:primaryType="nt:unstructured"/>
                         </_x0031_570129214037>
                         <_x0031_570129363496
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            emptyText="99.99"
+                            fieldDescription="Format price using XX.YY where XX are dollars and YY are cents"
                             fieldLabel="Price"
                             listOrder="1"
                             maxlength="255"
@@ -136,7 +246,13 @@
                             name="adventurePrice"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
-                            valueType="string"/>
+                            validation="cfm.validation.custom"
+                            valueType="string">
+                            <granite:data
+                                jcr:primaryType="nt:unstructured"
+                                customErrorMsg="Please enter a valid price"
+                                validationRegex="^(\\d+)[.](\\d{2})$"/>
+                        </_x0031_570129363496>
                         <_x0031_570129476186
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/models/editor/components/contentreference"
@@ -147,29 +263,41 @@
                             name="adventurePrimaryImage"
                             nameSuffix="contentReference"
                             renderReadOnly="false"
+                            rootPath="/content/dam/wknd"
                             showEmptyInReadOnly="true"
-                            valueType="string"/>
+                            showThumbnail="true"
+                            validation="cfm.validation.contenttype.image"
+                            valueType="string">
+                            <granite:data
+                                jcr:primaryType="nt:unstructured"
+                                showThumbnail="true"
+                                thumbnail-validation="cfm.validation.thumbnail.show"/>
+                        </_x0031_570129476186>
                         <_x0031_570129781032
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/admin/components/authoring/contenteditor/multieditor"
                             cfm-element="Itinerary"
+                            checked="false"
                             default-mime-type="text/html"
                             listOrder="2"
                             metaType="text-multi"
                             name="adventureItinerary"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
+                            translatable="true"
                             valueType="string"/>
                         <_x0031_570129871518
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/admin/components/authoring/contenteditor/multieditor"
                             cfm-element="What to Bring"
+                            checked="false"
                             default-mime-type="text/html"
                             listOrder="2"
                             metaType="text-multi"
                             name="adventureGearList"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
+                            translatable="true"
                             valueType="string"/>
                     </items>
                 </content>

@@ -8,17 +8,17 @@
         cq:name="napa-wine-tasting"
         cq:parentPath="/content/dam/wknd/en/adventures/napa-wine-tasting"
         jcr:description=""
-        jcr:lastModified="{Date}2020-10-19T11:54:42.752-07:00"
+        jcr:lastModified="{Date}2022-05-27T14:49:02.109-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Napa Wine Tasting"
         contentFragment="{Boolean}true"
-        lastFragmentSave="{Date}2020-10-19T11:54:42.752-07:00">
+        lastFragmentSave="{Date}2022-05-27T14:49:02.109-07:00">
         <data
             cq:model="/conf/wknd/settings/dam/cfm/models/adventure"
             jcr:primaryType="nt:unstructured">
             <master
-                jcr:mixinTypes="[cq:Taggable]"
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
                 jcr:primaryType="nt:unstructured"
                 adventureActivity="Social"
                 adventureActivity_x0040_LastModified="{Date}2020-10-19T11:54:42.731-07:00"
@@ -30,8 +30,8 @@
                 adventureGearList="&lt;ul>&#xa;&lt;li>Money for purchasing wine to take home&lt;/li>&#xa;&lt;li>Comfortable shoes for standing&lt;/li>&#xa;&lt;li>A healthy appetite for lunch&lt;/li>&#xa;&lt;/ul>&#xa;"
                 adventureGearList_x0040_ContentType="text/html"
                 adventureGearList_x0040_LastModified="{Date}2020-10-19T11:54:42.734-07:00"
-                adventureGroupSize="8"
-                adventureGroupSize_x0040_LastModified="{Date}2020-10-19T11:54:42.732-07:00"
+                adventureGroupSize="{Long}8"
+                adventureGroupSize_x0040_LastModified="{Date}2022-05-27T14:49:02.095-07:00"
                 adventureItinerary="&lt;h3>Dog's Bark Winery&lt;/h3>&#xa;&lt;p>Our first stop will be at the family owned Dog's Bark Winery where you'll get a behind the scenes peak at the wine making process. Dog's Bark is one of Napa's first wineries, founded in 1875 by Pierre Martin an immigrant from Bordeaux.&lt;/p>&#xa;&lt;h3>Spring Winery&lt;/h3>&#xa;&lt;p>Since 1959, Spring Winery has been producing world-class wines that pair best with great food and great company. Their wines reflect the personality of their wine makers and the surrounding vineyards in the heart of Napa Valley&lt;/p>&#xa;&lt;h3>Mountain Creek Winery&lt;/h3>&#xa;&lt;p>For over 35 years, Mountain Creek Winery has produced award winning wines using organically grown grapes and traditional winemaking techniques. You won't just be tasting the wine, you'll get an inside look at the way wine is made —&amp;nbsp;from the way the land is farmed to where the wine is made.&lt;/p>&#xa;"
                 adventureItinerary_x0040_ContentType="text/html"
                 adventureItinerary_x0040_LastModified="{Date}2020-10-19T11:54:42.733-07:00"
@@ -44,7 +44,9 @@
                 adventureTripLength="1 Day"
                 adventureTripLength_x0040_LastModified="{Date}2020-10-19T11:54:42.731-07:00"
                 adventureType="Day Trip"
-                adventureType_x0040_LastModified="{Date}2020-10-19T11:54:42.731-07:00"/>
+                adventureType_x0040_LastModified="{Date}2020-10-19T11:54:42.731-07:00"
+                slug="napa-wine-tasting"
+                slug_x0040_LastModified="{Date}2022-05-27T14:49:02.095-07:00"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"

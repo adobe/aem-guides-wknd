@@ -11,18 +11,18 @@
         cq:name="colorado-rock-climbing"
         cq:parentPath="/content/dam/wknd/en/adventures/colorado-rock-climbing"
         jcr:description=""
-        jcr:lastModified="{Date}2020-10-27T13:59:01.567-07:00"
+        jcr:lastModified="{Date}2022-05-27T14:51:12.902-07:00"
         jcr:lastModifiedBy="admin"
         jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Colorado Rock Climbing"
         contentFragment="{Boolean}true"
-        lastFragmentSave="{Date}2020-10-27T13:59:01.567-07:00">
+        lastFragmentSave="{Date}2022-05-27T14:51:12.902-07:00">
         <data
             cq:model="/conf/wknd/settings/dam/cfm/models/adventure"
             jcr:primaryType="nt:unstructured">
             <master
-                jcr:mixinTypes="[cq:Taggable]"
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
                 jcr:primaryType="nt:unstructured"
                 adventureActivity="Rock Climbing"
                 adventureActivity_x0040_LastModified="{Date}2020-10-27T13:59:01.542-07:00"
@@ -34,8 +34,8 @@
                 adventureGearList="&lt;ul>&#xa;&lt;li>Climbing shoes&lt;/li>&#xa;&lt;li>Sleeping bag&lt;/li>&#xa;&lt;li>Pants&lt;/li>&#xa;&lt;li>Shorts&lt;/li>&#xa;&lt;li>Jacket&lt;/li>&#xa;&lt;li>Hat&lt;/li>&#xa;&lt;/ul>&#xa;"
                 adventureGearList_x0040_ContentType="text/html"
                 adventureGearList_x0040_LastModified="{Date}2020-10-27T13:59:01.545-07:00"
-                adventureGroupSize="8"
-                adventureGroupSize_x0040_LastModified="{Date}2020-10-27T13:59:01.543-07:00"
+                adventureGroupSize="{Long}8"
+                adventureGroupSize_x0040_LastModified="{Date}2022-05-27T14:51:12.873-07:00"
                 adventureItinerary="&lt;h2>Garden of the Gods&lt;/h2>&#xa;&lt;p>A local favorite close to Colorado Springs, the Garden of the Gods features paved hiking trails that wind through a natural rock garden of red sandstone formed by 300 million years of geological activity..&lt;/p>&#xa;&lt;h2>Rocky Mountain National Park&lt;/h2>&#xa;&lt;p>Rocky Mountain National Park encompasses 415 square miles containing 300 miles of hiking trails, wildlife, alpine worlds and of course world class rock climbing. Keep an eye out for elk, bighorn sheep, moose and mule deer.&lt;/p>&#xa;&lt;h2>Castlewood Canyon State Park&lt;/h2>&#xa;&lt;p>This park offers something for all skill levels from 20 feet to 60 feet. The routes are short but we'll be able to get multiple climbs for the day. We'll enjoy a picnic at the Bridge Canyon Overlook.&lt;/p>&#xa;"
                 adventureItinerary_x0040_ContentType="text/html"
                 adventureItinerary_x0040_LastModified="{Date}2020-10-27T13:59:01.544-07:00"
@@ -48,7 +48,9 @@
                 adventureTripLength="3 Days"
                 adventureTripLength_x0040_LastModified="{Date}2020-10-27T13:59:01.542-07:00"
                 adventureType="Overnight Trip"
-                adventureType_x0040_LastModified="{Date}2020-10-27T13:59:01.541-07:00"/>
+                adventureType_x0040_LastModified="{Date}2020-10-27T13:59:01.541-07:00"
+                slug="colorado-rock-climbing"
+                slug_x0040_LastModified="{Date}2022-05-27T14:51:12.873-07:00"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"

@@ -8,17 +8,17 @@
         cq:name="west-coast-cycling"
         cq:parentPath="/content/dam/wknd/en/adventures/west-coast-cycling"
         jcr:description=""
-        jcr:lastModified="{Date}2020-10-19T11:55:44.500-07:00"
+        jcr:lastModified="{Date}2022-05-27T14:50:17.065-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         jcr:title="West Coast Cycling"
         contentFragment="{Boolean}true"
-        lastFragmentSave="{Date}2020-10-19T11:55:44.501-07:00">
+        lastFragmentSave="{Date}2022-05-27T14:50:17.065-07:00">
         <data
             cq:model="/conf/wknd/settings/dam/cfm/models/adventure"
             jcr:primaryType="nt:unstructured">
             <master
-                jcr:mixinTypes="[cq:Taggable]"
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
                 jcr:primaryType="nt:unstructured"
                 adventureActivity="Cycling"
                 adventureActivity_x0040_LastModified="{Date}2020-10-19T11:55:44.478-07:00"
@@ -30,8 +30,8 @@
                 adventureGearList="&lt;ul>&#xa;&lt;li>Bike&lt;/li>&#xa;&lt;li>Cycling clothes&lt;/li>&#xa;&lt;li>Water bottles&lt;/li>&#xa;&lt;/ul>&#xa;"
                 adventureGearList_x0040_ContentType="text/html"
                 adventureGearList_x0040_LastModified="{Date}2020-10-19T11:55:44.481-07:00"
-                adventureGroupSize="12"
-                adventureGroupSize_x0040_LastModified="{Date}2020-10-19T11:55:44.479-07:00"
+                adventureGroupSize="{Long}12"
+                adventureGroupSize_x0040_LastModified="{Date}2022-05-27T14:50:17.035-07:00"
                 adventureItinerary="&lt;h2>San Francisco to Eureka&lt;br>&#xa;&lt;/h2>&#xa;&lt;p>Start the tour by cycling across the iconic Golden Gate Bridge and then making our way to the coast to ride up Highway One &amp;nbsp;where we'll go through Point Reyes National Seashore and the gorgeous Sonoma coast.&lt;/p>&#xa;&lt;h2>Eureka to Bandon&lt;br>&#xa;&lt;/h2>&#xa;&lt;p>Be prepared for giant trees over 2,000 years old and over 300 feet tall as we start the day in Eureka. On our way to Bandon we'll visit&amp;nbsp;quintessential quaint towns offering saltwater taffy shops, lovable harbors and the best clam chowder in the Pacific Northwest.&lt;/p>&#xa;&lt;h2>Bandon to Portland&lt;br>&#xa;&lt;/h2>&#xa;&lt;p>For the golfers amongst us, we'll have some downtime to fit in golf at one of the top golf resorts in the country. We'll start our final leg along the Columbia River. After lunch in historic Astoria, we'll continue along a route featuring resort towns including Seaside and Cannon Beach.&lt;/p>&#xa;"
                 adventureItinerary_x0040_ContentType="text/html"
                 adventureItinerary_x0040_LastModified="{Date}2020-10-19T11:55:44.480-07:00"
@@ -44,7 +44,9 @@
                 adventureTripLength="5 days"
                 adventureTripLength_x0040_LastModified="{Date}2020-10-19T11:55:44.478-07:00"
                 adventureType="Overnight Trip"
-                adventureType_x0040_LastModified="{Date}2020-10-19T11:55:44.478-07:00"/>
+                adventureType_x0040_LastModified="{Date}2020-10-19T11:55:44.478-07:00"
+                slug="west-coast-cycling"
+                slug_x0040_LastModified="{Date}2022-05-27T14:50:17.034-07:00"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"
