@@ -20,8 +20,8 @@
             <master
                 jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
                 jcr:primaryType="nt:unstructured"
-                adventureActivity="Surfing"
-                adventureActivity_x0040_LastModified="{Date}2020-10-15T13:11:33.083-07:00"
+                activity="Surfing"
+                activity_x0040_LastModified="{Date}2020-10-15T13:11:33.083-07:00"
                 description="&lt;h3>&lt;b>Experience Surfer's Paradise in Costa Rica&lt;/b>&lt;/h3>&#xa;&lt;p>Experienced local surf guides will take care of all the logistics and find the best spots for you to experience the best surfing Costa Rica has to offer. If you are a novice, we can take you to the right spot for your skill and preference.&amp;nbsp; Costa Rica is the ideal location for a first surf trip. It is a safe place to travel and the locals are quite friendly and happy to see other surfers. Costa Rica is home to some incredible waves like Witch’s Rock, Ollies Point, Pavones, Playa Negra, Playa Hermosa, Salsa Brava and tons of lesser known world class waves.&lt;/p>&#xa;"
                 description_x0040_ContentType="text/html"
                 description_x0040_LastModified="{Date}2020-10-15T13:11:33.082-07:00"

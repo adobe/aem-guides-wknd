@@ -20,8 +20,8 @@
             <master
                 jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
                 jcr:primaryType="nt:unstructured"
-                adventureActivity="Skiing"
-                adventureActivity_x0040_LastModified="{Date}2020-10-19T11:55:20.612-07:00"
+                activity="Skiing"
+                activity_x0040_LastModified="{Date}2020-10-19T11:55:20.612-07:00"
                 description="&lt;p>Great weather, crystal clear lake water, and a relaxed California attitude make Lake Tahoe&amp;nbsp;one of the most desirable ski destinations in the world. Few ski areas rival Lake Tahoe for its excellent snow conditions, challenging terrain and state-of-the-art lift chairs. Lake Tahoe is home to dozens of resorts and we'll be your guide for the best of them.&lt;/p>&#xa;"
                 description_x0040_ContentType="text/html"
                 description_x0040_LastModified="{Date}2020-10-19T11:55:20.611-07:00"

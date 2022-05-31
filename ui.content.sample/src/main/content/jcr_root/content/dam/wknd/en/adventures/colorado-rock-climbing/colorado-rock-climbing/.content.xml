@@ -24,8 +24,8 @@
             <master
                 jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
                 jcr:primaryType="nt:unstructured"
-                adventureActivity="Rock Climbing"
-                adventureActivity_x0040_LastModified="{Date}2020-10-27T13:59:01.542-07:00"
+                activity="Rock Climbing"
+                activity_x0040_LastModified="{Date}2020-10-27T13:59:01.542-07:00"
                 description="&lt;p>With all of Colorado's beautiful peaks, rock formations and gorgeous mountain views, it's not hard for rock climbers to find a little slice of climbing paradise nearly everywhere they go. On this tour we'll take you to the top parks in Colorado so you can experience the diverse climbing landscape that has made Colorado a goto destination for rock climbers from around the world.&lt;/p>&#xa;"
                 description_x0040_ContentType="text/html"
                 description_x0040_LastModified="{Date}2020-10-27T13:59:01.541-07:00"

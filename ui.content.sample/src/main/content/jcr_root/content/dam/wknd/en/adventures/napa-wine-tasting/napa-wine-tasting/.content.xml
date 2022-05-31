@@ -20,8 +20,8 @@
             <master
                 jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
                 jcr:primaryType="nt:unstructured"
-                adventureActivity="Social"
-                adventureActivity_x0040_LastModified="{Date}2020-10-19T11:54:42.731-07:00"
+                activity="Social"
+                activity_x0040_LastModified="{Date}2020-10-19T11:54:42.731-07:00"
                 description="&lt;h3>Enjoy spectacular wine tasting in the Napa Valley&lt;/h3>&#xa;&lt;p>Napa Valley is one of the most famous wine regions in the world. Located an hour north of San Francisco, Napa is renowned for their wine, pleasant temperatures and world class restaurants. This tasting will provide insider access to spectacular wineries and restaurants in Yountville, Calistoga and St. Helena.&lt;/p>&#xa;"
                 description_x0040_ContentType="text/html"
                 description_x0040_LastModified="{Date}2020-10-19T11:54:42.730-07:00"

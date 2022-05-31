@@ -161,7 +161,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="multi"
-                            elementNames="[adventureActivity,adventureType,tripLength,groupSize,difficulty,price]"
+                            elementNames="[activity,adventureType,tripLength,groupSize,difficulty,price]"
                             fragmentPath="/content/dam/wknd/en/adventures/beervana-portland/beervana-in-portland"
                             text="Beervana in Portland Activity Social Adventure Type Day Trip Trip Length 1 Day Group Size 6-8 Difficulty Beginner Price $300 USD"
                             variationName="master">

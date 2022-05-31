@@ -20,8 +20,8 @@
             <master
                 jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
                 jcr:primaryType="nt:unstructured"
-                adventureActivity="Camping"
-                adventureActivity_x0040_LastModified="{Date}2020-11-05T13:18:58.025-08:00"
+                activity="Camping"
+                activity_x0040_LastModified="{Date}2020-11-05T13:18:58.025-08:00"
                 description="&lt;p>Yosemite National Park, designated a World Heritage Site in 1984, is best known for its granite cliffs, waterfalls and giant sequoias, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, glaciers and lakes. The majority of visitors spend their time in the Yosemite Valley, which we'll also explore, but on this trip we'll take you to the backcountry that inspired John Muir to lead a movement to have Congress establish Yosemite as we know it today.&lt;/p>&#xa;"
                 description_x0040_ContentType="text/html"
                 description_x0040_LastModified="{Date}2020-11-05T13:18:58.023-08:00"

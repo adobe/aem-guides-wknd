@@ -20,8 +20,8 @@
             <master
                 jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
                 jcr:primaryType="nt:unstructured"
-                adventureActivity="Social"
-                adventureActivity_x0040_LastModified="{Date}2020-10-19T11:53:53.869-07:00"
+                activity="Social"
+                activity_x0040_LastModified="{Date}2020-10-19T11:53:53.869-07:00"
                 description="&lt;p>Take a VIP gastronomic tour through the vibrant Marais, one of the oldest, colorful and historical areas of Paris. Our Marais expert, Marie Bernard will take food lovers to the top food shops, patisseries and chocolate shops as you take in Marais' unique atmosphere.&lt;/p>&#xa;"
                 description_x0040_ContentType="text/html"
                 description_x0040_LastModified="{Date}2020-10-19T11:53:53.868-07:00"

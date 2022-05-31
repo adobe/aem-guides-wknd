@@ -20,8 +20,8 @@
             <master
                 jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
                 jcr:primaryType="nt:unstructured"
-                adventureActivity="Surfing"
-                adventureActivity_x0040_LastModified="{Date}2020-10-20T14:49:04.760-07:00"
+                activity="Surfing"
+                activity_x0040_LastModified="{Date}2020-10-20T14:49:04.760-07:00"
                 description="&lt;p>Surfing in Bali is on the bucket list of every surfer - whether you're a beginner or someone who's been surfing for decades, there will be a break to cater to your ability. Bali offers warm water, tropical vibes, awesome breaks and low cost expenses.&lt;/p>&#xa;"
                 description_x0040_ContentType="text/html"
                 description_x0040_LastModified="{Date}2020-10-20T14:49:04.759-07:00"

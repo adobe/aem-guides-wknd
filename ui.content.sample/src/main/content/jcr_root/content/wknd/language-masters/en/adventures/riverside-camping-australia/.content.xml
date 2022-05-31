@@ -127,7 +127,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="multi"
-                            elementNames="[adventureActivity,adventureType,tripLength,groupSize,difficulty,price]"
+                            elementNames="[activity,adventureType,tripLength,groupSize,difficulty,price]"
                             fragmentPath="/content/dam/wknd/en/adventures/riverside-camping-australia/riverside-camping-australia"
                             text="Riverside Camping Australia Activity Camping Adventure Type Overnight Trip Trip Length 3 Days Group Size 5-6 Difficulty Beginner Price $500 USD"
                             variationName="master">

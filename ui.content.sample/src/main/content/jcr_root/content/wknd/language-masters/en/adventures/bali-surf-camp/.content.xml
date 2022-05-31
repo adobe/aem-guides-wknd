@@ -100,7 +100,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="multi"
-                            elementNames="[adventureActivity,adventureType,tripLength,groupSize,difficulty,price]"
+                            elementNames="[activity,adventureType,tripLength,groupSize,difficulty,price]"
                             fragmentPath="/content/dam/wknd/en/adventures/bali-surf-camp/bali-surf-camp"
                             text="Bali Surf Camp Activity Surfing Adventure Type Overnight Trip Trip Length 6 Days Group Size 5-6 Difficulty Beginner Price $5000 USD"
                             variationName="master">

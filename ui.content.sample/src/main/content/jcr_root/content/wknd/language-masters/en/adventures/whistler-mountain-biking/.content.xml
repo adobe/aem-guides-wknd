@@ -126,7 +126,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="multi"
-                            elementNames="[adventureActivity,adventureType,tripLength,groupSize,difficulty,price]"
+                            elementNames="[activity,adventureType,tripLength,groupSize,difficulty,price]"
                             fragmentPath="/content/dam/wknd/en/adventures/whistler-mountain-biking/whistler-mountain-biking"
                             text="Whistler Mountain Biking Activity Cycling Adventure Type Overnight Trip Trip Length 2 Days Group Size 2-3 Difficulty Advanced Price $1500"
                             variationName="master">

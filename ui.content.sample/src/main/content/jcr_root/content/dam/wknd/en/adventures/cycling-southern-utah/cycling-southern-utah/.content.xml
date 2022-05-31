@@ -20,8 +20,8 @@
             <master
                 jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
                 jcr:primaryType="nt:unstructured"
-                adventureActivity="Cycling"
-                adventureActivity_x0040_LastModified="{Date}2020-10-19T11:53:15.419-07:00"
+                activity="Cycling"
+                activity_x0040_LastModified="{Date}2020-10-19T11:53:15.419-07:00"
                 description="&lt;p>Join us as we explore the rugged, stunningly gorgeous landscape of southern Utah. Touch your soul as we ride through red rock canyons and sandstone cliffs in Bryce Canyon and Zion National Park, two of Utah's iconic national parks. These parks provide a stunning backdrop for a once in a lifetime cycling vacation.&lt;/p>&#xa;"
                 description_x0040_ContentType="text/html"
                 description_x0040_LastModified="{Date}2020-10-19T11:53:15.417-07:00"

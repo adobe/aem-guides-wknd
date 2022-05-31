@@ -20,8 +20,8 @@
             <master
                 jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
                 jcr:primaryType="nt:unstructured"
-                adventureActivity="Skiing"
-                adventureActivity_x0040_LastModified="{Date}2020-10-15T11:59:54.068-07:00"
+                activity="Skiing"
+                activity_x0040_LastModified="{Date}2020-10-15T11:59:54.068-07:00"
                 description="&lt;h2>Experience wild untamed, rolling, wide-open terrain of Wyoming in the winter.&lt;br>&#xa;&lt;/h2>&#xa;&lt;p>The spectacular Tetons of Wyoming provide a wonderous backdrop for your Jackson Hole ski vacation.&amp;nbsp; Jackson Hole is unlike anywhere else in the US.&amp;nbsp; A skiers paradise far from crowds and close to nature with terrain so vast it appears uncharted.&amp;nbsp; With 2,500 acres of legendary terrain, unmatched levels of snowfall each winter, and unparalleled backcountry access, Jackson Hole offers a truly unique skiing experience.&lt;/p>&#xa;"
                 description_x0040_ContentType="text/html"
                 description_x0040_LastModified="{Date}2020-10-15T11:59:54.067-07:00"
