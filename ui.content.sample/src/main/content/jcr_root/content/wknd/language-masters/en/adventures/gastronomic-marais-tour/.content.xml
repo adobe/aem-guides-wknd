@@ -100,7 +100,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="multi"
-                            elementNames="[adventureActivity,adventureType,adventureTripLength,adventureGroupSize,adventureDifficulty,adventurePrice]"
+                            elementNames="[activity,adventureType,tripLength,groupSize,difficulty,price]"
                             fragmentPath="/content/dam/wknd/en/adventures/gastronomic-marais-tour/gastronomic-marais-tour"
                             text="Gastronomic Marais Tour Activity Social Adventure Type Day Trip Trip Length 1 Day Group Size 4-6 Difficulty Beginner Price $95 USD"
                             variationName="master">
@@ -183,7 +183,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
-                            elementNames="adventureDescription"
+                            elementNames="description"
                             fragmentPath="/content/dam/wknd/en/adventures/gastronomic-marais-tour/gastronomic-marais-tour"
                             text="Gastronomic Marais Tour Take a VIP gastronomic tour through the vibrant Marais, one of the oldest, colorful and historical areas of Paris. Our Marais expert, Marie Bernard will take food lovers to the top food shops, patisseries and chocolate shops as you take in Marais' unique atmosphere."
                             variationName="master">
@@ -215,7 +215,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
-                            elementNames="adventureItinerary"
+                            elementNames="itinerary"
                             fragmentPath="/content/dam/wknd/en/adventures/gastronomic-marais-tour/gastronomic-marais-tour"
                             text="Gastronomic Marais Tour Meet your guide and small group (maximum 6 people) in the center of the Le Marais district. Learn from Marie about the artisanal French cuisine and culinary specialties from surrounding countries that make this one of the most fascinating and delicious destinations in Paris. Walk from shop to shop and experience the trendy district while sampling regional wines and cheese and, of course, patisseries. Continue past top neighborhood sights like the Maison de Victor Hugo and Place des Vosges, and browse Merci for vintage clothing and homeware accessories, gifts and stationary. Along the tour you’ll sample cured meats, craft cocktails, locally sourced foods and, of course, French wines. This tour offers convenient afternoon and evening start times, and includes all food and wine tastings and beverages.."
                             variationName="master">
@@ -230,7 +230,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
-                            elementNames="adventureGearList"
+                            elementNames="gearList"
                             fragmentPath="/content/dam/wknd/en/adventures/gastronomic-marais-tour/gastronomic-marais-tour"
                             text="Gastronomic Marais Tour Comfortable walking shoes Camera Extra bag for shopping purchases"
                             variationName="master">

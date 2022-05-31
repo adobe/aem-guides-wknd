@@ -160,10 +160,10 @@ public class GraphQlIT {
 		assertEquals(16, adventureListItems.size());
 		JsonNode firstAdvantureItem = adventureListItems.get(0);
 		assertNotNull(firstAdvantureItem.get("_path"));
-		assertNotNull(firstAdvantureItem.get("adventureTitle"));
-		assertNotNull(firstAdvantureItem.get("adventurePrice"));
-		assertNotNull(firstAdvantureItem.get("adventureTripLength"));
-		assertNotNull(firstAdvantureItem.get("adventurePrimaryImage"));
+		assertNotNull(firstAdvantureItem.get("title"));
+		assertNotNull(firstAdvantureItem.get("price"));
+		assertNotNull(firstAdvantureItem.get("tripLength"));
+		assertNotNull(firstAdvantureItem.get("primaryImage"));
 
 	}
 

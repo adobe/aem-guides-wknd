@@ -127,7 +127,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="multi"
-                            elementNames="[adventureActivity,adventureType,adventureTripLength,adventureGroupSize,adventureDifficulty,adventurePrice]"
+                            elementNames="[activity,adventureType,tripLength,groupSize,difficulty,price]"
                             fragmentPath="/content/dam/wknd/en/adventures/riverside-camping-australia/riverside-camping-australia"
                             text="Riverside Camping Australia Activity Camping Adventure Type Overnight Trip Trip Length 3 Days Group Size 5-6 Difficulty Beginner Price $500 USD"
                             variationName="master">
@@ -210,7 +210,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
-                            elementNames="adventureDescription"
+                            elementNames="description"
                             fragmentPath="/content/dam/wknd/en/adventures/riverside-camping-australia/riverside-camping-australia"
                             text="Riverside Camping Australia Escape the hustle and bustle of city life and recharge with a couple of peaceful days and return with tons of memories of camping in the bush and experiences that will last a lifetime. Learn how to pitch a tent by the Siegel River, catch local cod, and spot unique Australian wildlife on this retreat. Or, you can sit back in the shade with a cool beverage and a book until it's too dark to read, then tell stories around a campfire."
                             variationName="master">
@@ -241,7 +241,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
-                            elementNames="adventureItinerary"
+                            elementNames="itinerary"
                             fragmentPath="/content/dam/wknd/en/adventures/riverside-camping-australia/riverside-camping-australia"
                             paragraphScope="range"
                             variationName="master">
@@ -321,7 +321,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
-                            elementNames="adventureGearList"
+                            elementNames="gearList"
                             fragmentPath="/content/dam/wknd/en/adventures/riverside-camping-australia/riverside-camping-australia"
                             paragraphScope="range"
                             variationName="master">
