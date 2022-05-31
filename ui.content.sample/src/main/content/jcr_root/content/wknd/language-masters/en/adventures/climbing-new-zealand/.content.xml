@@ -126,7 +126,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="multi"
-                            elementNames="[adventureActivity,adventureType,adventureTripLength,adventureGroupSize,adventureDifficulty,adventurePrice]"
+                            elementNames="[adventureActivity,adventureType,tripLength,groupSize,difficulty,price]"
                             fragmentPath="/content/dam/wknd/en/adventures/climbing-new-zealand/climbing-new-zealand"
                             text="Climbing New Zealand Activity Rock Climbing Adventure Type Overnight Trip Trip Length 2 Days Group Size 2-3 Difficulty Intermediate Price $900 USD"
                             variationName="master">
@@ -210,7 +210,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
-                            elementNames="adventureDescription"
+                            elementNames="description"
                             fragmentPath="/content/dam/wknd/en/adventures/climbing-new-zealand/climbing-new-zealand"
                             paragraphScope="all"
                             text="Climbing New Zealand Let us take you on a spectacular climbing experience unique to New Zealand Feel the raw adventure and excitement of our guided rock climbing experience. Reach new heights under our professional instruction and feel your body and mind work together in harmony. Come join us for a guided rock climbing adventure in the mountains that trained Sir Edmund Hilary. Whether it is your first time thinking of putting on climbing shoes or you are an old hand looking for some new challenges, our guides can make your climbing adventure a trip you won’t soon forget. New Zealand has countless climbing routes to choose from and is known as one of the premiere climbing destinations in the world. With so many different routes and areas to choose from our guides can tailor each trip to your exact specifications. Let us help you make your New Zealand climbing vacation a memory you will cherish forever!"
@@ -255,7 +255,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
-                            elementNames="adventureItinerary"
+                            elementNames="itinerary"
                             fragmentPath="/content/dam/wknd/en/adventures/climbing-new-zealand/climbing-new-zealand"
                             paragraphScope="range"
                             variationName="master">
@@ -305,7 +305,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
-                            elementNames="adventureGearList"
+                            elementNames="gearList"
                             fragmentPath="/content/dam/wknd/en/adventures/climbing-new-zealand/climbing-new-zealand"
                             paragraphScope="range"
                             variationName="master">

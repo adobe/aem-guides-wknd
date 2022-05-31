@@ -175,7 +175,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="multi"
-                            elementNames="[adventureActivity,adventureType,adventureTripLength,adventureGroupSize,adventureDifficulty,adventurePrice]"
+                            elementNames="[adventureActivity,adventureType,tripLength,groupSize,difficulty,price]"
                             fragmentPath="/content/dam/wknd/en/adventures/downhill-skiing-wyoming/downhill-skiing-wyoming"
                             text="Downhill Skiing Wyoming Activity Skiing Adventure Type Overnight Trip Trip Length 2-3 days Group Size 3-4 Difficulty Intermediate Price $400 USD"
                             variationName="master">
@@ -314,7 +314,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
-                            elementNames="adventureDescription"
+                            elementNames="description"
                             fragmentPath="/content/dam/wknd/en/adventures/downhill-skiing-wyoming/downhill-skiing-wyoming"
                             paragraphScope="range"
                             text="Downhill Skiing Wyoming Experience wild untamed, rolling, wide-open terrain of Wyoming in the winter. The spectacular Tetons of Wyoming provide a wonderous backdrop for your Jackson Hole ski vacation. Jackson Hole is unlike anywhere else in the US. A skiers paradise far from crowds and close to nature with terrain so vast it appears uncharted. With 2,500 acres of legendary terrain, unmatched levels of snowfall each winter, and unparalleled backcountry access, Jackson Hole offers a truly unique skiing experience."
@@ -358,7 +358,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
-                            elementNames="adventureItinerary"
+                            elementNames="itinerary"
                             fragmentPath="/content/dam/wknd/en/adventures/downhill-skiing-wyoming/downhill-skiing-wyoming"
                             paragraphScope="range"
                             variationName="master">
@@ -430,7 +430,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
-                            elementNames="adventureGearList"
+                            elementNames="gearList"
                             fragmentPath="/content/dam/wknd/en/adventures/downhill-skiing-wyoming/downhill-skiing-wyoming"
                             paragraphScope="all"
                             variationName="master">

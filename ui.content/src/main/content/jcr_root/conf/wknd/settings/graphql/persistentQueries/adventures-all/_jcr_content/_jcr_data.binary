@@ -3,10 +3,10 @@
     adventureList {
       items {
         _path
-        adventureTitle
-        adventurePrice
-        adventureTripLength
-        adventurePrimaryImage {
+        title
+        price
+        tripLength
+        primaryImage {
           ... on ImageRef {
             _path
             mimeType

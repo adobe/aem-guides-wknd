@@ -126,7 +126,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="multi"
-                            elementNames="[adventureActivity,adventureType,adventureTripLength,adventureGroupSize,adventureDifficulty,adventurePrice]"
+                            elementNames="[adventureActivity,adventureType,tripLength,groupSize,difficulty,price]"
                             fragmentPath="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/surf-camp-costa-rica"
                             text="Surf Camp Costa Rica Activity Surfing Adventure Type Overnight Trip Trip Length 5 Days Group Size 3-6 Difficulty Beginner Price $3400 USD"
                             variationName="master">
@@ -210,7 +210,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
-                            elementNames="adventureDescription"
+                            elementNames="description"
                             fragmentPath="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/surf-camp-costa-rica"
                             paragraphScope="range"
                             text="Surf Camp Costa Rica Experience Surfer's Paradise in Costa Rica Experienced local surf guides will take care of all the logistics and find the best spots for you to experience the best surfing Costa Rica has to offer. If you are a novice, we can take you to the right spot for your skill and preference. Costa Rica is the ideal location for a first surf trip. It is a safe place to travel and the locals are quite friendly and happy to see other surfers. Costa Rica is home to some incredible waves like Witch’s Rock, Ollies Point, Pavones, Playa Negra, Playa Hermosa, Salsa Brava and tons of lesser known world class waves."
@@ -242,7 +242,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
-                            elementNames="adventureItinerary"
+                            elementNames="itinerary"
                             fragmentPath="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/surf-camp-costa-rica"
                             paragraphScope="range"
                             variationName="master">
@@ -332,7 +332,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
-                            elementNames="adventureGearList"
+                            elementNames="gearList"
                             fragmentPath="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/surf-camp-costa-rica"
                             paragraphScope="all"
                             variationName="master">
