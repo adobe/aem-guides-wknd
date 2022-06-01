@@ -3,6 +3,7 @@
     adventureList {
       items {
         _path
+        slug
         title
         price
         tripLength
