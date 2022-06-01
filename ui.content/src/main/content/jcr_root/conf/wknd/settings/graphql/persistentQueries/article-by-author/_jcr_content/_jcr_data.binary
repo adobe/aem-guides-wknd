@@ -1,0 +1,45 @@
+# Filters a list of Articles fragment based on the referenced Author
+# Example Query Variables: 
+# {"authorFirstName": "Stacey", "authorLastName": "Roswells"}
+
+
+query getArticleByAuthor($authorFirstName: String!, $authorLastName: String!) {
+  articleList(filter: {
+    	authorFragment: {
+        firstName: {
+          _expressions: [ { value: $authorFirstName } ]
+        }
+        lastName: {
+          _expressions: [ { value: $authorLastName } ]
+        }
+      }
+  	}) {
+    items {
+      _path
+      title
+      main {
+        json
+      }
+      featuredImage {
+        ...on ImageRef {
+          _path
+          _authorUrl
+          _publishUrl
+          width
+          height
+        }
+      }
+      authorFragment {
+        firstName
+        lastName
+        profilePicture {
+          ...on ImageRef {
+            _path
+            _authorUrl
+            _publishUrl
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+# Retrieves a list of all Articles
+# includes a reference to the Author Model (nested fragment)
+
+query getAllArticles{
+  articleList {
+    items {
+      _path
+      title
+      featuredImage {
+        ...on ImageRef {
+          _path
+          _authorUrl
+          _publishUrl
+          width
+          height
+        }
+      }
+      authorFragment {
+        firstName
+        lastName
+        profilePicture {
+          ...on ImageRef {
+            _path
+            _authorUrl
+            _publishUrl
+          }
+        }
+      }
+    }
+  }
+}
