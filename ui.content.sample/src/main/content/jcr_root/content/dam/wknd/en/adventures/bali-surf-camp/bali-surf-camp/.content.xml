@@ -22,6 +22,8 @@
                 jcr:primaryType="nt:unstructured"
                 activity="Surfing"
                 activity_x0040_LastModified="{Date}2020-10-20T14:49:04.760-07:00"
+                adventureType="Overnight Trip"
+                adventureType_x0040_LastModified="{Date}2020-10-20T14:49:04.759-07:00"
                 description="&lt;p>Surfing in Bali is on the bucket list of every surfer - whether you're a beginner or someone who's been surfing for decades, there will be a break to cater to your ability. Bali offers warm water, tropical vibes, awesome breaks and low cost expenses.&lt;/p>&#xa;"
                 description_x0040_ContentType="text/html"
                 description_x0040_LastModified="{Date}2020-10-20T14:49:04.759-07:00"
@@ -39,14 +41,12 @@
                 price_x0040_LastModified="{Date}2020-10-20T14:49:04.761-07:00"
                 primaryImage="/content/dam/wknd/en/adventures/bali-surf-camp/AdobeStock_175749320.jpg"
                 primaryImage_x0040_LastModified="{Date}2020-10-20T14:49:04.761-07:00"
+                slug="bali-surf-camp"
+                slug_x0040_LastModified="{Date}2022-05-27T14:50:03.549-07:00"
                 title="Bali Surf Camp"
                 title_x0040_LastModified="{Date}2020-10-20T14:49:04.758-07:00"
                 tripLength="6 Days"
-                tripLength_x0040_LastModified="{Date}2020-10-20T14:49:04.760-07:00"
-                adventureType="Overnight Trip"
-                adventureType_x0040_LastModified="{Date}2020-10-20T14:49:04.759-07:00"
-                slug="bali-surf-camp"
-                slug_x0040_LastModified="{Date}2022-05-27T14:50:03.549-07:00"/>
+                tripLength_x0040_LastModified="{Date}2020-10-20T14:49:04.760-07:00"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"

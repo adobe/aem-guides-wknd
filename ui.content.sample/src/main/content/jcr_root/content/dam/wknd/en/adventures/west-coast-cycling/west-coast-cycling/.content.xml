@@ -22,6 +22,8 @@
                 jcr:primaryType="nt:unstructured"
                 activity="Cycling"
                 activity_x0040_LastModified="{Date}2020-10-19T11:55:44.478-07:00"
+                adventureType="Overnight Trip"
+                adventureType_x0040_LastModified="{Date}2020-10-19T11:55:44.478-07:00"
                 description="&lt;p>Join us for this once in a lifetime bike trip traveling from San Francisco to Portland cycling along the Pacific Coast. Experience world class terrain as we head north through redwood forests, state parks, the Columbia river and the Pacific ocean.&lt;/p>&#xa;"
                 description_x0040_ContentType="text/html"
                 description_x0040_LastModified="{Date}2020-10-19T11:55:44.477-07:00"
@@ -39,14 +41,12 @@
                 price_x0040_LastModified="{Date}2020-10-19T11:55:44.480-07:00"
                 primaryImage="/content/dam/wknd/en/adventures/west-coast-cycling/AdobeStock_151584995.jpg"
                 primaryImage_x0040_LastModified="{Date}2020-10-19T11:55:44.480-07:00"
+                slug="west-coast-cycling"
+                slug_x0040_LastModified="{Date}2022-05-27T14:50:17.034-07:00"
                 title="West Coast Cycling"
                 title_x0040_LastModified="{Date}2020-10-19T11:55:44.477-07:00"
                 tripLength="5 days"
-                tripLength_x0040_LastModified="{Date}2020-10-19T11:55:44.478-07:00"
-                adventureType="Overnight Trip"
-                adventureType_x0040_LastModified="{Date}2020-10-19T11:55:44.478-07:00"
-                slug="west-coast-cycling"
-                slug_x0040_LastModified="{Date}2022-05-27T14:50:17.034-07:00"/>
+                tripLength_x0040_LastModified="{Date}2020-10-19T11:55:44.478-07:00"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"

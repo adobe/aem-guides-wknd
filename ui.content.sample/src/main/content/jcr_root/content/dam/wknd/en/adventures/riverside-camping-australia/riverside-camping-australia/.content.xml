@@ -22,6 +22,8 @@
                 jcr:primaryType="nt:unstructured"
                 activity="Camping"
                 activity_x0040_LastModified="{Date}2020-10-15T11:58:51.056-07:00"
+                adventureType="Overnight Trip"
+                adventureType_x0040_LastModified="{Date}2020-10-15T11:58:51.055-07:00"
                 description="&lt;p>Escape the hustle and bustle of city life and recharge with a couple of peaceful days and return with tons of memories of camping in the bush and experiences that will last a lifetime. Learn how to pitch a tent by the Siegel River, catch local cod, and spot unique Australian wildlife on this retreat. Or, you can sit back in the shade with a cool beverage and a book until it's too dark to read, then tell stories around a campfire.&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p>&#xa;"
                 description_x0040_ContentType="text/html"
                 description_x0040_LastModified="{Date}2020-10-15T11:58:51.055-07:00"
@@ -39,14 +41,12 @@
                 price_x0040_LastModified="{Date}2020-10-15T11:58:51.058-07:00"
                 primaryImage="/content/dam/wknd/en/adventures/riverside-camping-australia/AdobeStock_257541512.jpeg"
                 primaryImage_x0040_LastModified="{Date}2020-10-15T11:58:51.058-07:00"
+                slug="riverside-camping-australia"
+                slug_x0040_LastModified="{Date}2022-05-27T14:49:30.052-07:00"
                 title="Riverside Camping Australia"
                 title_x0040_LastModified="{Date}2020-10-15T11:58:51.054-07:00"
                 tripLength="3 Days"
-                tripLength_x0040_LastModified="{Date}2020-10-15T11:58:51.056-07:00"
-                adventureType="Overnight Trip"
-                adventureType_x0040_LastModified="{Date}2020-10-15T11:58:51.055-07:00"
-                slug="riverside-camping-australia"
-                slug_x0040_LastModified="{Date}2022-05-27T14:49:30.052-07:00"/>
+                tripLength_x0040_LastModified="{Date}2020-10-15T11:58:51.056-07:00"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"
