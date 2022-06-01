@@ -1,12 +1,24 @@
-# Retrieves a list of all Articles
-# includes a reference to the Author Model (nested fragment)
+# Returns an article based on it's slug
+#
+# Example Query Variables: 
+# {"slug": "alaskan-adventures"}
+#
+# Technically a filter but it is expected that 
+# the slug property is unique across all Articles, should return a single article
 
-query getAllArticles{
-  articleList {
+
+query getArticleBySlug($slug: String!) {
+  articleList(filter: {
+    slug: {
+      _expressions: [ { value: $slug } ]
+    }
+  	}) {
     items {
       _path
       title
-      slug
+      main {
+        json
+      }
       featuredImage {
         ...on ImageRef {
           _path
