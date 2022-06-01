@@ -4,7 +4,7 @@
     allowedPaths="[/content/entities(/.*)?]"
     ranking="{Long}100">
     <jcr:content
-        cq:lastModified="{Date}2022-05-27T14:12:07.065-07:00"
+        cq:lastModified="{Date}2022-06-01T10:17:19.470-07:00"
         cq:lastModifiedBy="admin"
         cq:scaffolding="/conf/wknd/settings/dam/cfm/models/article/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
@@ -23,13 +23,13 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="cq/gui/components/authoring/dialog">
                 <content
-                    jcr:lastModified="{Date}2022-05-27T14:12:07.065-07:00"
+                    jcr:lastModified="{Date}2022-06-01T10:17:19.470-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
                     <items
                         jcr:primaryType="nt:unstructured"
-                        maxGeneratedOrder="21">
+                        maxGeneratedOrder="20">
                         <_x0031_653589924762
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
@@ -44,12 +44,33 @@
                             valueType="string">
                             <granite:data jcr:primaryType="nt:unstructured"/>
                         </_x0031_653589924762>
+                        <_x0031_654102303800
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            emptyText="Short path to uniquely identify the article"
+                            fieldDescription="A short path to be used to uniquely identify the article. Can be used for pathing in client applications."
+                            fieldLabel="Slug"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="slug"
+                            renderReadOnly="false"
+                            required="on"
+                            showEmptyInReadOnly="true"
+                            unique="true"
+                            validation="cfm.validation.custom"
+                            valueType="string">
+                            <granite:data
+                                jcr:primaryType="nt:unstructured"
+                                customErrorMsg="Slug must be at least 5 characters in length, lower case, using only letters and numbers and no spaces. Only special characters that can be used are dashes and underscore."
+                                validationRegex="^[a-z0-9\\-_]{5,40}$"/>
+                        </_x0031_654102303800>
                         <_x0031_653685896712
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/models/editor/components/contentreference"
                             fieldLabel="Featured Image"
                             filter="hierarchy"
-                            listOrder="21"
+                            listOrder="8"
                             metaType="reference"
                             name="featuredImage"
                             nameSuffix="contentReference"
