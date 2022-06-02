@@ -16,6 +16,7 @@ query getArticleBySlug($slug: String!) {
     items {
       _path
       title
+      slug
       main {
         json
       }

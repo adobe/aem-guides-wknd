@@ -8,6 +8,7 @@ query getArticleByPath($articlePath: String!){
     item {
       _path
       title
+      slug
       main {
         json
       }

@@ -17,6 +17,7 @@ query getArticleByAuthor($authorFirstName: String!, $authorLastName: String!) {
     items {
       _path
       title
+      slug
       main {
         json
       }
