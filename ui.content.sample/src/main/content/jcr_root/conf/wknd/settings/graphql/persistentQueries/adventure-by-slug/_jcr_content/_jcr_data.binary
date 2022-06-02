@@ -36,5 +36,14 @@ query($slug: String!) {
         json
       }
     }
+    _references {
+      ...on AdventureModel {
+        _path
+        slug
+        title
+        price
+        __typename
+      }
+    }
   }
 }

@@ -8,12 +8,12 @@
         cq:name="climbing-new-zealand"
         cq:parentPath="/content/dam/wknd/en/adventures/climbing-new-zealand"
         jcr:description=""
-        jcr:lastModified="{Date}2022-05-27T14:51:35.720-07:00"
+        jcr:lastModified="{Date}2022-06-02T11:23:44.447-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Climbing New Zealand"
         contentFragment="{Boolean}true"
-        lastFragmentSave="{Date}2022-05-27T14:51:35.720-07:00">
+        lastFragmentSave="{Date}2022-06-02T11:23:44.447-07:00">
         <data
             cq:model="/conf/wknd/settings/dam/cfm/models/adventure"
             jcr:primaryType="nt:unstructured">
@@ -24,9 +24,9 @@
                 activity_x0040_LastModified="{Date}2020-10-15T13:11:01.135-07:00"
                 adventureType="Overnight Trip"
                 adventureType_x0040_LastModified="{Date}2020-10-15T13:11:01.135-07:00"
-                description="&lt;h2>&lt;b>Let us take you on a spectacular climbing experience unique to New Zealand&lt;/b>&lt;/h2>&#xa;&lt;p>Feel the raw adventure and excitement of our guided rock climbing experience. Reach new heights under our professional instruction and feel your body and mind work together in harmony.&amp;nbsp;Come join us for a guided rock climbing adventure in the mountains that trained Sir Edmund Hilary. Whether it is your first time thinking of putting on climbing shoes or you are an old hand looking for some new challenges, our guides can make your climbing adventure a trip you won’t soon forget. New Zealand has countless climbing routes to choose from and is known as one of the premiere climbing destinations in the world. With so many different routes and areas to choose from our guides can tailor each trip to your exact specifications. Let us help you make your New Zealand climbing vacation a memory you will cherish forever!&lt;/p>&#xa;"
+                description="&lt;h2>&lt;b>Let us take you on a spectacular climbing experience unique to New Zealand&lt;/b>&lt;/h2>&#xa;&lt;p>Feel the raw adventure and excitement of our guided rock climbing experience. Reach new heights under our professional instruction and feel your body and mind work together in harmony.&amp;nbsp;Come join us for a guided rock climbing adventure in the mountains that trained Sir Edmund Hilary. Whether it is your first time thinking of putting on climbing shoes or you are an old hand looking for some new challenges, our guides can make your climbing adventure a trip you won’t soon forget. New Zealand has countless climbing routes to choose from and is known as one of the premiere climbing destinations in the world. With so many different routes and areas to choose from our guides can tailor each trip to your exact specifications. Let us help you make your New Zealand climbing vacation a memory you will cherish forever!&lt;/p>&#xa;&lt;p>Related trips:&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>&lt;a href=&quot;/content/dam/wknd/en/adventures/colorado-rock-climbing/colorado-rock-climbing&quot;>Colorado Rock Climbing&lt;/a>&lt;/li>&#xa;&lt;li>&lt;a href=&quot;/content/dam/wknd/en/adventures/yosemite-backpacking/yosemite-backpacking&quot;>Yosemite Backpacking&lt;/a>&amp;nbsp;&lt;/li>&#xa;&lt;/ul>&#xa;"
                 description_x0040_ContentType="text/html"
-                description_x0040_LastModified="{Date}2020-10-15T13:11:01.134-07:00"
+                description_x0040_LastModified="{Date}2022-06-02T11:23:44.434-07:00"
                 difficulty="Intermediate"
                 difficulty_x0040_LastModified="{Date}2020-10-15T13:11:01.136-07:00"
                 gearList="&lt;p>We will provide all technical equipment for the course including rock shoes.&lt;/p>&#xa;&lt;p>Please bring appropriate clothing for the weather on each of the days, waterproofs, a warm layer, drinks and lunch for the day.&amp;nbsp;&lt;/p>&#xa;"

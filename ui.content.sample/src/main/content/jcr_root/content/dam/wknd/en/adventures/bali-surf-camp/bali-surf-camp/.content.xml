@@ -8,12 +8,12 @@
         cq:name="bali-surf-camp"
         cq:parentPath="/content/dam/wknd/en/adventures/bali-surf-camp"
         jcr:description=""
-        jcr:lastModified="{Date}2022-05-27T14:50:03.562-07:00"
+        jcr:lastModified="{Date}2022-06-02T11:19:41.017-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Bali Surf Camp"
         contentFragment="{Boolean}true"
-        lastFragmentSave="{Date}2022-05-27T14:50:03.562-07:00">
+        lastFragmentSave="{Date}2022-06-02T11:19:41.017-07:00">
         <data
             cq:model="/conf/wknd/settings/dam/cfm/models/adventure"
             jcr:primaryType="nt:unstructured">
@@ -24,9 +24,9 @@
                 activity_x0040_LastModified="{Date}2020-10-20T14:49:04.760-07:00"
                 adventureType="Overnight Trip"
                 adventureType_x0040_LastModified="{Date}2020-10-20T14:49:04.759-07:00"
-                description="&lt;p>Surfing in Bali is on the bucket list of every surfer - whether you're a beginner or someone who's been surfing for decades, there will be a break to cater to your ability. Bali offers warm water, tropical vibes, awesome breaks and low cost expenses.&lt;/p>&#xa;"
+                description="&lt;p>Surfing in Bali is on the bucket list of every surfer - whether you're a beginner or someone who's been surfing for decades, there will be a break to cater to your ability. Bali offers warm water, tropical vibes, awesome breaks and low cost expenses.&lt;/p>&#xa;&lt;p>Looking for a low cost alternative? Checkout&amp;nbsp;&lt;a href=&quot;/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/surf-camp-costa-rica&quot;>Surf Camp Costa Rica&lt;/a>&lt;/p>&#xa;"
                 description_x0040_ContentType="text/html"
-                description_x0040_LastModified="{Date}2020-10-20T14:49:04.759-07:00"
+                description_x0040_LastModified="{Date}2022-06-02T11:19:40.946-07:00"
                 difficulty="Beginner"
                 difficulty_x0040_LastModified="{Date}2020-10-20T14:49:04.761-07:00"
                 gearList="&lt;ul>&#xa;&lt;li>Surf shorts&lt;/li>&#xa;&lt;li>Boards, beach chairs and towels will be provided&lt;/li>&#xa;&lt;/ul>&#xa;"

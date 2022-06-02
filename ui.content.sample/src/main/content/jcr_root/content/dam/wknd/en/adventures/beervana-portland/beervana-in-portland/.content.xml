@@ -8,12 +8,12 @@
         cq:name="beervana-in-portland"
         cq:parentPath="/content/dam/wknd/en/adventures/beervana-portland"
         jcr:description=""
-        jcr:lastModified="{Date}2022-05-27T14:50:31.267-07:00"
+        jcr:lastModified="{Date}2022-06-02T11:22:16.054-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Beervana in Portland"
         contentFragment="{Boolean}true"
-        lastFragmentSave="{Date}2022-05-27T14:50:31.267-07:00">
+        lastFragmentSave="{Date}2022-06-02T11:22:16.054-07:00">
         <data
             cq:model="/conf/wknd/settings/dam/cfm/models/adventure"
             jcr:primaryType="nt:unstructured">
@@ -24,9 +24,9 @@
                 activity_x0040_LastModified="{Date}2020-10-15T13:08:30.441-07:00"
                 adventureType="Day Trip"
                 adventureType_x0040_LastModified="{Date}2020-10-15T13:08:30.440-07:00"
-                description="&lt;h3>Experience the best craft breweries in the Pacific Northwest.&lt;/h3>&#xa;&lt;p>Portland is often referred to as Beervana, and it’s easy to understand why once you get a sip of their delicious ales. &amp;nbsp;This adventure will provide insider access to spectacular local breweries that define the taste and experience of Oregon beer culture and tradition.&amp;nbsp; &amp;nbsp;Our Brewery Tour takes you on a beer tasting adventure in hip and trendy Pearl District through Historic Old Town District in Portland, Oregon. Experience Portland’s vibrant history while you sample the best brews the city has to offer.&lt;/p>&#xa;"
+                description="&lt;h3>Experience the best craft breweries in the Pacific Northwest.&lt;/h3>&#xa;&lt;p>Portland is often referred to as Beervana, and it’s easy to understand why once you get a sip of their delicious ales. &amp;nbsp;This adventure will provide insider access to spectacular local breweries that define the taste and experience of Oregon beer culture and tradition.&amp;nbsp; &amp;nbsp;Our Brewery Tour takes you on a beer tasting adventure in hip and trendy Pearl District through Historic Old Town District in Portland, Oregon. Experience Portland’s vibrant history while you sample the best brews the city has to offer.&lt;/p>&#xa;&lt;p>Looking for an overseas adventure? Checkout this amazing foodie experience:&amp;nbsp;&lt;a href=&quot;/content/dam/wknd/en/adventures/gastronomic-marais-tour/gastronomic-marais-tour&quot;>Gastronomic Marais Tour&lt;/a>&lt;/p>&#xa;"
                 description_x0040_ContentType="text/html"
-                description_x0040_LastModified="{Date}2020-10-15T13:08:30.440-07:00"
+                description_x0040_LastModified="{Date}2022-06-02T11:22:16.028-07:00"
                 difficulty="Beginner"
                 difficulty_x0040_LastModified="{Date}2020-10-15T13:08:30.442-07:00"
                 gearList="&lt;ul>&#xa;&lt;li>First and foremost, bring your thirst!&amp;nbsp; (Both for beer and for knowledge about the history and craft of beermaking)&lt;/li>&#xa;&lt;li>Depending on the time of year, it may get chilly and/or wet so dress accordingly.&lt;/li>&#xa;&lt;li>Camera to capture great memories&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/li>&#xa;&lt;/ul>&#xa;"
