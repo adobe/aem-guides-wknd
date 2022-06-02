@@ -8,12 +8,12 @@
         cq:name="napa-wine-tasting"
         cq:parentPath="/content/dam/wknd/en/adventures/napa-wine-tasting"
         jcr:description=""
-        jcr:lastModified="{Date}2022-05-27T14:49:02.109-07:00"
+        jcr:lastModified="{Date}2022-05-31T20:30:50.597-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Napa Wine Tasting"
         contentFragment="{Boolean}true"
-        lastFragmentSave="{Date}2022-05-27T14:49:02.109-07:00">
+        lastFragmentSave="{Date}2022-05-31T20:30:50.597-07:00">
         <data
             cq:model="/conf/wknd/settings/dam/cfm/models/adventure"
             jcr:primaryType="nt:unstructured">
@@ -22,6 +22,8 @@
                 jcr:primaryType="nt:unstructured"
                 activity="Social"
                 activity_x0040_LastModified="{Date}2020-10-19T11:54:42.731-07:00"
+                adventureType="Day Trip"
+                adventureType_x0040_LastModified="{Date}2020-10-19T11:54:42.731-07:00"
                 description="&lt;h3>Enjoy spectacular wine tasting in the Napa Valley&lt;/h3>&#xa;&lt;p>Napa Valley is one of the most famous wine regions in the world. Located an hour north of San Francisco, Napa is renowned for their wine, pleasant temperatures and world class restaurants. This tasting will provide insider access to spectacular wineries and restaurants in Yountville, Calistoga and St. Helena.&lt;/p>&#xa;"
                 description_x0040_ContentType="text/html"
                 description_x0040_LastModified="{Date}2020-10-19T11:54:42.730-07:00"
@@ -35,18 +37,16 @@
                 itinerary="&lt;h3>Dog's Bark Winery&lt;/h3>&#xa;&lt;p>Our first stop will be at the family owned Dog's Bark Winery where you'll get a behind the scenes peak at the wine making process. Dog's Bark is one of Napa's first wineries, founded in 1875 by Pierre Martin an immigrant from Bordeaux.&lt;/p>&#xa;&lt;h3>Spring Winery&lt;/h3>&#xa;&lt;p>Since 1959, Spring Winery has been producing world-class wines that pair best with great food and great company. Their wines reflect the personality of their wine makers and the surrounding vineyards in the heart of Napa Valley&lt;/p>&#xa;&lt;h3>Mountain Creek Winery&lt;/h3>&#xa;&lt;p>For over 35 years, Mountain Creek Winery has produced award winning wines using organically grown grapes and traditional winemaking techniques. You won't just be tasting the wine, you'll get an inside look at the way wine is made —&amp;nbsp;from the way the land is farmed to where the wine is made.&lt;/p>&#xa;"
                 itinerary_x0040_ContentType="text/html"
                 itinerary_x0040_LastModified="{Date}2020-10-19T11:54:42.733-07:00"
-                price="150.00"
-                price_x0040_LastModified="{Date}2020-10-19T11:54:42.733-07:00"
+                price="{Double}152.59"
+                price_x0040_LastModified="{Date}2022-05-31T20:30:50.585-07:00"
                 primaryImage="/content/dam/wknd/en/adventures/napa-wine-tasting/AdobeStock_280313729.jpg"
                 primaryImage_x0040_LastModified="{Date}2020-10-19T11:54:42.733-07:00"
+                slug="napa-wine-tasting"
+                slug_x0040_LastModified="{Date}2022-05-27T14:49:02.095-07:00"
                 title="Napa Wine Tasting"
                 title_x0040_LastModified="{Date}2020-10-19T11:54:42.730-07:00"
                 tripLength="1 Day"
-                tripLength_x0040_LastModified="{Date}2020-10-19T11:54:42.731-07:00"
-                adventureType="Day Trip"
-                adventureType_x0040_LastModified="{Date}2020-10-19T11:54:42.731-07:00"
-                slug="napa-wine-tasting"
-                slug_x0040_LastModified="{Date}2022-05-27T14:49:02.095-07:00"/>
+                tripLength_x0040_LastModified="{Date}2020-10-19T11:54:42.731-07:00"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"

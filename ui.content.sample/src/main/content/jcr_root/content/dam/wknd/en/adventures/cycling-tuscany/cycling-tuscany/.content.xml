@@ -22,6 +22,8 @@
                 jcr:primaryType="nt:unstructured"
                 activity="Cycling"
                 activity_x0040_LastModified="{Date}2020-10-15T13:09:18.201-07:00"
+                adventureType="Overnight Trip"
+                adventureType_x0040_LastModified="{Date}2020-10-15T13:09:18.200-07:00"
                 description="&lt;h2>&lt;b>Experience Tuscany by Bicycle&lt;/b>&lt;/h2>&#xa;&lt;p>Visiting Tuscany on a bicycle is about experiencing the old world charm of Italy on your own terms. Your efforts on the climbs of Italy's rolling hills during this tour will be rewarded with sunny Mediterranean landscapes and unmatched Italian hospitality.&amp;nbsp; Tuscany’s natural wonders have always been a well of inspiration for arts and culture. Find out why as you explore the Italian countryside and coastline on bicycle.&lt;/p>&#xa;"
                 description_x0040_ContentType="text/html"
                 description_x0040_LastModified="{Date}2020-10-15T13:09:18.200-07:00"
@@ -39,14 +41,12 @@
                 price_x0040_LastModified="{Date}2020-10-15T13:09:18.202-07:00"
                 primaryImage="/content/dam/wknd/en/adventures/cycling-tuscany/AdobeStock_261097343.jpeg"
                 primaryImage_x0040_LastModified="{Date}2020-10-15T13:09:18.202-07:00"
+                slug="cycling-tuscany"
+                slug_x0040_LastModified="{Date}2022-05-27T14:50:42.601-07:00"
                 title="Cycling Tuscany"
                 title_x0040_LastModified="{Date}2020-10-15T13:09:18.199-07:00"
                 tripLength="4 Days"
-                tripLength_x0040_LastModified="{Date}2020-10-15T13:09:18.200-07:00"
-                adventureType="Overnight Trip"
-                adventureType_x0040_LastModified="{Date}2020-10-15T13:09:18.200-07:00"
-                slug="cycling-tuscany"
-                slug_x0040_LastModified="{Date}2022-05-27T14:50:42.601-07:00"/>
+                tripLength_x0040_LastModified="{Date}2020-10-15T13:09:18.200-07:00"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"

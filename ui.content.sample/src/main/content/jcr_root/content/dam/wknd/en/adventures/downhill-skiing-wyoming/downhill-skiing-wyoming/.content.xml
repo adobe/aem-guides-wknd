@@ -22,6 +22,8 @@
                 jcr:primaryType="nt:unstructured"
                 activity="Skiing"
                 activity_x0040_LastModified="{Date}2020-10-15T11:59:54.068-07:00"
+                adventureType="Overnight Trip"
+                adventureType_x0040_LastModified="{Date}2020-10-15T11:59:54.067-07:00"
                 description="&lt;h2>Experience wild untamed, rolling, wide-open terrain of Wyoming in the winter.&lt;br>&#xa;&lt;/h2>&#xa;&lt;p>The spectacular Tetons of Wyoming provide a wonderous backdrop for your Jackson Hole ski vacation.&amp;nbsp; Jackson Hole is unlike anywhere else in the US.&amp;nbsp; A skiers paradise far from crowds and close to nature with terrain so vast it appears uncharted.&amp;nbsp; With 2,500 acres of legendary terrain, unmatched levels of snowfall each winter, and unparalleled backcountry access, Jackson Hole offers a truly unique skiing experience.&lt;/p>&#xa;"
                 description_x0040_ContentType="text/html"
                 description_x0040_LastModified="{Date}2020-10-15T11:59:54.067-07:00"
@@ -39,14 +41,12 @@
                 price_x0040_LastModified="{Date}2020-10-15T11:59:54.069-07:00"
                 primaryImage="/content/dam/wknd/en/adventures/downhill-skiing-wyoming/AdobeStock_185234795.jpeg"
                 primaryImage_x0040_LastModified="{Date}2020-10-15T11:59:54.069-07:00"
+                slug="downhill-skiing-wyoming"
+                slug_x0040_LastModified="{Date}2022-05-27T14:49:51.513-07:00"
                 title="Downhill Skiing in Jackson Hole, Wyoming"
                 title_x0040_LastModified="{Date}2020-10-15T11:59:54.067-07:00"
                 tripLength="2-3 days"
-                tripLength_x0040_LastModified="{Date}2020-10-15T11:59:54.068-07:00"
-                adventureType="Overnight Trip"
-                adventureType_x0040_LastModified="{Date}2020-10-15T11:59:54.067-07:00"
-                slug="downhill-skiing-wyoming"
-                slug_x0040_LastModified="{Date}2022-05-27T14:49:51.513-07:00"/>
+                tripLength_x0040_LastModified="{Date}2020-10-15T11:59:54.068-07:00"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"

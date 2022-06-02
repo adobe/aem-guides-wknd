@@ -22,6 +22,8 @@
                 jcr:primaryType="nt:unstructured"
                 activity="Rock Climbing"
                 activity_x0040_LastModified="{Date}2020-10-15T13:11:01.135-07:00"
+                adventureType="Overnight Trip"
+                adventureType_x0040_LastModified="{Date}2020-10-15T13:11:01.135-07:00"
                 description="&lt;h2>&lt;b>Let us take you on a spectacular climbing experience unique to New Zealand&lt;/b>&lt;/h2>&#xa;&lt;p>Feel the raw adventure and excitement of our guided rock climbing experience. Reach new heights under our professional instruction and feel your body and mind work together in harmony.&amp;nbsp;Come join us for a guided rock climbing adventure in the mountains that trained Sir Edmund Hilary. Whether it is your first time thinking of putting on climbing shoes or you are an old hand looking for some new challenges, our guides can make your climbing adventure a trip you won’t soon forget. New Zealand has countless climbing routes to choose from and is known as one of the premiere climbing destinations in the world. With so many different routes and areas to choose from our guides can tailor each trip to your exact specifications. Let us help you make your New Zealand climbing vacation a memory you will cherish forever!&lt;/p>&#xa;"
                 description_x0040_ContentType="text/html"
                 description_x0040_LastModified="{Date}2020-10-15T13:11:01.134-07:00"
@@ -39,14 +41,12 @@
                 price_x0040_LastModified="{Date}2020-10-15T13:11:01.136-07:00"
                 primaryImage="/content/dam/wknd/en/adventures/climbing-new-zealand/AdobeStock_140634652.jpeg"
                 primaryImage_x0040_LastModified="{Date}2020-10-15T13:11:01.136-07:00"
+                slug="climbing-new-zealand"
+                slug_x0040_LastModified="{Date}2022-05-27T14:51:35.694-07:00"
                 title="Climbing New Zealand"
                 title_x0040_LastModified="{Date}2020-10-15T13:11:01.134-07:00"
                 tripLength="2 Days"
-                tripLength_x0040_LastModified="{Date}2020-10-15T13:11:01.135-07:00"
-                adventureType="Overnight Trip"
-                adventureType_x0040_LastModified="{Date}2020-10-15T13:11:01.135-07:00"
-                slug="climbing-new-zealand"
-                slug_x0040_LastModified="{Date}2022-05-27T14:51:35.694-07:00"/>
+                tripLength_x0040_LastModified="{Date}2020-10-15T13:11:01.135-07:00"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"

@@ -22,6 +22,8 @@
                 jcr:primaryType="nt:unstructured"
                 activity="Social"
                 activity_x0040_LastModified="{Date}2020-10-19T11:53:53.869-07:00"
+                adventureType="Day Trip"
+                adventureType_x0040_LastModified="{Date}2020-10-19T11:53:53.868-07:00"
                 description="&lt;p>Take a VIP gastronomic tour through the vibrant Marais, one of the oldest, colorful and historical areas of Paris. Our Marais expert, Marie Bernard will take food lovers to the top food shops, patisseries and chocolate shops as you take in Marais' unique atmosphere.&lt;/p>&#xa;"
                 description_x0040_ContentType="text/html"
                 description_x0040_LastModified="{Date}2020-10-19T11:53:53.868-07:00"
@@ -39,14 +41,12 @@
                 price_x0040_LastModified="{Date}2020-10-19T11:53:53.870-07:00"
                 primaryImage="/content/dam/wknd/en/adventures/gastronomic-marais-tour/AdobeStock_270835979.jpg"
                 primaryImage_x0040_LastModified="{Date}2020-10-19T11:53:53.870-07:00"
+                slug="gastronomic-marais-tour"
+                slug_x0040_LastModified="{Date}2022-05-27T14:52:28.264-07:00"
                 title="Gastronomic Marais Tour"
                 title_x0040_LastModified="{Date}2020-10-19T11:53:53.867-07:00"
                 tripLength="1 Day"
-                tripLength_x0040_LastModified="{Date}2020-10-19T11:53:53.869-07:00"
-                adventureType="Day Trip"
-                adventureType_x0040_LastModified="{Date}2020-10-19T11:53:53.868-07:00"
-                slug="gastronomic-marais-tour"
-                slug_x0040_LastModified="{Date}2022-05-27T14:52:28.264-07:00"/>
+                tripLength_x0040_LastModified="{Date}2020-10-19T11:53:53.869-07:00"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"

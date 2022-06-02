@@ -22,6 +22,8 @@
                 jcr:primaryType="nt:unstructured"
                 activity="Social"
                 activity_x0040_LastModified="{Date}2020-10-15T13:08:30.441-07:00"
+                adventureType="Day Trip"
+                adventureType_x0040_LastModified="{Date}2020-10-15T13:08:30.440-07:00"
                 description="&lt;h3>Experience the best craft breweries in the Pacific Northwest.&lt;/h3>&#xa;&lt;p>Portland is often referred to as Beervana, and it’s easy to understand why once you get a sip of their delicious ales. &amp;nbsp;This adventure will provide insider access to spectacular local breweries that define the taste and experience of Oregon beer culture and tradition.&amp;nbsp; &amp;nbsp;Our Brewery Tour takes you on a beer tasting adventure in hip and trendy Pearl District through Historic Old Town District in Portland, Oregon. Experience Portland’s vibrant history while you sample the best brews the city has to offer.&lt;/p>&#xa;"
                 description_x0040_ContentType="text/html"
                 description_x0040_LastModified="{Date}2020-10-15T13:08:30.440-07:00"
@@ -39,14 +41,12 @@
                 price_x0040_LastModified="{Date}2020-10-15T13:08:30.442-07:00"
                 primaryImage="/content/dam/wknd/en/adventures/beervana-portland/AdobeStock_279232449.jpeg"
                 primaryImage_x0040_LastModified="{Date}2020-10-15T13:08:30.442-07:00"
+                slug="beervana-portland"
+                slug_x0040_LastModified="{Date}2022-05-27T14:50:31.231-07:00"
                 title="Beervana in Portland"
                 title_x0040_LastModified="{Date}2020-10-15T13:08:30.439-07:00"
                 tripLength="1 Day"
-                tripLength_x0040_LastModified="{Date}2020-10-15T13:08:30.441-07:00"
-                adventureType="Day Trip"
-                adventureType_x0040_LastModified="{Date}2020-10-15T13:08:30.440-07:00"
-                slug="beervana-portland"
-                slug_x0040_LastModified="{Date}2022-05-27T14:50:31.231-07:00"/>
+                tripLength_x0040_LastModified="{Date}2020-10-15T13:08:30.441-07:00"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"

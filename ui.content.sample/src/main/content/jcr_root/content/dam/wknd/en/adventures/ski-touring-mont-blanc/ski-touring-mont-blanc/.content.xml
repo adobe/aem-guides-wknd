@@ -22,6 +22,8 @@
                 jcr:primaryType="nt:unstructured"
                 activity="Skiing"
                 activity_x0040_LastModified="{Date}2020-10-15T13:09:50.339-07:00"
+                adventureType="Overnight Trip"
+                adventureType_x0040_LastModified="{Date}2020-10-15T13:09:50.338-07:00"
                 description="&lt;p>If you’re a slopes enthusiast, you know that one run in the backcountry is worth ten in the front country. This adventure includes 5 days of ski touring topped off with the ascent of Mont Blanc, the highest point in Western Europe. An acclimatization phase of the trip will prepare the team physically and mentally for a two-day summit attempt. &amp;nbsp;During this phase, some of the classic routes around Chamonix will be explored. The final two days we’ll take the summit of Mont Blanc via the Arete Royal and Dome Du Goute.&lt;/p>&#xa;"
                 description_x0040_ContentType="text/html"
                 description_x0040_LastModified="{Date}2020-10-15T13:09:50.337-07:00"
@@ -39,14 +41,12 @@
                 price_x0040_LastModified="{Date}2020-10-15T13:09:50.340-07:00"
                 primaryImage="/content/dam/wknd/en/adventures/ski-touring-mont-blanc/AdobeStock_291339093.jpeg"
                 primaryImage_x0040_LastModified="{Date}2020-10-15T13:09:50.340-07:00"
+                slug="ski-touring-mount-blanc"
+                slug_x0040_LastModified="{Date}2022-05-27T14:50:58.995-07:00"
                 title="Ski Touring Mont Blanc"
                 title_x0040_LastModified="{Date}2020-10-15T13:09:50.337-07:00"
                 tripLength="5 Days"
-                tripLength_x0040_LastModified="{Date}2020-10-15T13:09:50.338-07:00"
-                adventureType="Overnight Trip"
-                adventureType_x0040_LastModified="{Date}2020-10-15T13:09:50.338-07:00"
-                slug="ski-touring-mount-blanc"
-                slug_x0040_LastModified="{Date}2022-05-27T14:50:58.995-07:00"/>
+                tripLength_x0040_LastModified="{Date}2020-10-15T13:09:50.338-07:00"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"

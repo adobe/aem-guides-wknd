@@ -4,7 +4,7 @@
     allowedPaths="[/content/entities(/.*)?]"
     ranking="{Long}100">
     <jcr:content
-        cq:lastModified="{Date}2022-05-31T11:36:38.112-07:00"
+        cq:lastModified="{Date}2022-06-01T10:17:43.668-07:00"
         cq:lastModifiedBy="admin"
         cq:scaffolding="/conf/wknd/settings/dam/cfm/models/adventure/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
@@ -22,7 +22,7 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="cq/gui/components/authoring/dialog">
                 <content
-                    jcr:lastModified="{Date}2022-05-31T11:36:38.112-07:00"
+                    jcr:lastModified="{Date}2022-06-01T10:17:43.668-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
@@ -47,7 +47,8 @@
                         <_x0031_653685932845
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                            fieldDescription="A short name to be used to uniquely identify the Adventure. Will be used for pathing in client applications"
+                            emptyText="A short path to uniquely identify the Adventure"
+                            fieldDescription="A short path to uniquely identify the Adventure. Can be used for pathing in client applications."
                             fieldLabel="Slug"
                             listOrder="1"
                             maxlength="255"
@@ -59,7 +60,10 @@
                             unique="true"
                             validation="cfm.validation.custom"
                             valueType="string">
-                            <granite:data jcr:primaryType="nt:unstructured"/>
+                            <granite:data
+                                jcr:primaryType="nt:unstructured"
+                                customErrorMsg="Slug must be at least 5 characters in length, lower case, using only letters and numbers and no spaces. Only special characters that can be used are dashes and underscore.."
+                                validationRegex="^[a-z0-9\\-_]{5,40}$"/>
                         </_x0031_653685932845>
                         <_x0031_570129736887
                             jcr:primaryType="nt:unstructured"
@@ -234,25 +238,22 @@
                                 variant="default"/>
                             <granite:data jcr:primaryType="nt:unstructured"/>
                         </_x0031_570129214037>
-                        <_x0031_570129363496
+                        <_x0031_654054140080
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                            emptyText="99.99"
-                            fieldDescription="Format price using XX.YY where XX are dollars and YY are cents"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
+                            fieldDescription="Price of the Adventure"
                             fieldLabel="Price"
-                            listOrder="1"
-                            maxlength="255"
-                            metaType="text-single"
+                            listOrder="3"
+                            metaType="number"
                             name="price"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
-                            validation="cfm.validation.custom"
-                            valueType="string">
-                            <granite:data
-                                jcr:primaryType="nt:unstructured"
-                                customErrorMsg="Please enter a valid price"
-                                validationRegex="^(\\d+)[.](\\d{2})$"/>
-                        </_x0031_570129363496>
+                            step="any"
+                            typeHint="double"
+                            value="100.00"
+                            valueType="double">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_654054140080>
                         <_x0031_570129476186
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/models/editor/components/contentreference"
