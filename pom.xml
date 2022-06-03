@@ -91,8 +91,9 @@
             <!-- Maven Release Plugin -->
             <plugin>
                 <artifactId>maven-release-plugin</artifactId>
-                <version>3.0-r1585899</version>
+                <version>3.0.0-M5</version>
                 <configuration>
+                    <scmCommentPrefix>[maven-scm] :</scmCommentPrefix>
                     <preparationGoals>clean install</preparationGoals>
                     <goals>deploy</goals>
                     <releaseProfiles>release</releaseProfiles>
@@ -103,7 +104,7 @@
                     <dependency>
                         <groupId>org.apache.maven.release</groupId>
                         <artifactId>maven-release-oddeven-policy</artifactId>
-                        <version>3.0-r1585899</version>
+                        <version>3.0.0-M5</version>
                     </dependency>
                 </dependencies>
             </plugin>
@@ -145,18 +146,6 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
-                </configuration>
-            </plugin>
-             <!-- Staging Maven Plugin -->
-            <plugin>
-                <groupId>org.sonatype.plugins</groupId>
-                <artifactId>nexus-staging-maven-plugin</artifactId>
-                <extensions>true</extensions>
-                <configuration>
-                    <serverId>ossrh</serverId>
-                    <nexusUrl>https://oss.sonatype.org/</nexusUrl>
-                    <!-- manually release in https://oss.sonatype.org/#stagingRepositories after the Maven release build -->
-                    <autoReleaseAfterClose>false</autoReleaseAfterClose>
                 </configuration>
             </plugin>
         </plugins>
@@ -434,11 +423,6 @@ Bundle-DocURL:
                         </lifecycleMappingMetadata>
                     </configuration>
                 </plugin>
-                <plugin>
-                    <groupId>org.sonatype.plugins</groupId>
-                    <artifactId>nexus-staging-maven-plugin</artifactId>
-                    <version>1.6.8</version>
-                </plugin>
             </plugins>
         </pluginManagement>
     </build>
@@ -642,6 +626,7 @@ Bundle-DocURL:
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-gpg-plugin</artifactId>
+                        <version>3.0.1</version>
                         <executions>
                             <execution>
                                 <id>sign-artifacts</id>
@@ -649,24 +634,29 @@ Bundle-DocURL:
                                 <goals>
                                     <goal>sign</goal>
                                 </goals>
+                                <configuration>
+                                    <gpgArguments>
+                                        <arg>--pinentry-mode</arg>
+                                        <arg>loopback</arg>
+                                    </gpgArguments>
+                                </configuration>
                             </execution>
                         </executions>
                     </plugin>
+                    <plugin>
+                        <groupId>org.sonatype.plugins</groupId>
+                        <artifactId>nexus-staging-maven-plugin</artifactId>
+                        <version>1.6.8</version>
+                        <extensions>true</extensions>
+                        <configuration>
+                            <serverId>ossrh</serverId>
+                            <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+                            <!-- manually release in https://oss.sonatype.org/#stagingRepositories after the Maven release build -->
+                            <autoReleaseAfterClose>false</autoReleaseAfterClose>
+                        </configuration>
+                    </plugin>
                 </plugins>
             </build>
-        </profile>
-         <profile>
-            <id>ossrh</id>
-            <activation>
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <distributionManagement>
-                <!-- the nexus-staging-maven-plugin only needs a snapshot repository -->
-                <snapshotRepository>
-                     <id>ossrh</id>
-                    <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-                </snapshotRepository>
-            </distributionManagement>
         </profile>
         <profile>
             <id>cm-java-11</id>
@@ -778,4 +768,15 @@ Bundle-DocURL:
         </dependencies>
     </dependencyManagement>
 
+    <distributionManagement>
+        <repository>
+            <id>${releaseRepository-Id}</id>
+            <url>${releaseRepository-URL}</url>
+        </repository>
+        <snapshotRepository>
+            <id>${snapshotRepository-Id}</id>
+            <url>${snapshotRepository-URL}</url>
+            <uniqueVersion>false</uniqueVersion>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
