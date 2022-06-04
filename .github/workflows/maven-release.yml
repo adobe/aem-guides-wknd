@@ -35,15 +35,22 @@ jobs:
     #if: github.repository == 'adobe/aem-guides-wknd' && github.ref == 'refs/heads/main'
     steps:
       # Check out Git repository
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
 
       # Set up environment with Java and Maven
-      - name: Setup JDK
-        uses: actions/setup-java@v3
+      - name: Set up JDK
+        uses: actions/setup-java@v1
         with:
-          distribution: 'temurin'
           java-version: 8
-          cache: maven
+
+      # Set up dependency cache
+      - name: Cache local Maven repository
+        uses: actions/cache@v2
+        with:
+          path: ~/.m2/repository
+          key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
+          restore-keys: |
+            ${{ runner.os }}-maven-
 
       # Import GPG key from env variable into keychain
       - name: Import GPG key
