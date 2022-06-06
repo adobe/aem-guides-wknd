@@ -31,9 +31,11 @@ query($slug: String!) {
       }
       description {
         json
+        plaintext
       }
       itinerary {
         json
+        plaintext
       }
     }
     _references {

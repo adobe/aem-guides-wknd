@@ -9,6 +9,7 @@ query getAdventureByPath($adventurePath: String!) {
       slug
       description {
         json
+        plaintext
       }
       adventureType
       tripLength
@@ -27,6 +28,7 @@ query getAdventureByPath($adventurePath: String!) {
       }
       itinerary {
         json
+        plaintext
       }
     }
   }
