@@ -65,6 +65,7 @@ public class GraphQLEndpointIT {
 
     /**
      * Verifies that the persisted query All Adventures exists on Author
+     * @throws ClientException if cannot connect
      */
     @Test
     public void testAllAdventureEndpointAuthor() throws ClientException {
@@ -73,6 +74,7 @@ public class GraphQLEndpointIT {
 
     /**
      * Verifies that the persisted query All Adventures exists on Publish
+     * @throws ClientException if cannot connect
      */
     @Test
     public void testAllAdventureEndpointPublish() throws ClientException {
