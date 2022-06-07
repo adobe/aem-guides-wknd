@@ -6,7 +6,7 @@
         cq:lastModifiedBy="admin"
         cq:lastRolledout="{Date}2020-11-08T12:48:39.021-08:00"
         cq:lastRolledoutBy="admin"
-        cq:tags="[wknd:customer-journey/engage,wknd:customer-journey/convert,wknd:region/apac/australia,wknd:season/summer,wknd:activity/hiking,wknd:activity/camping,wknd:activity/hunting-fishing]"
+        cq:tags="[wknd-shared:customer-journey/engage,wknd-shared:customer-journey/convert,wknd-shared:region/apac/australia,wknd-shared:season/summer,wknd-shared:activity/hiking,wknd-shared:activity/camping,wknd-shared:activity/hunting-fishing]"
         cq:template="/conf/wknd/settings/wcm/templates/adventure-page-template"
         jcr:description="Learn how to pitch a tent by the Siegel River, catch local cod, and spot unique Australian wildlife on this retreat. Or, you can sit back in the shade with a cool beverage and a book until it's too dark to read, then tell stories around a campfire. "
         jcr:isCheckedOut="{Boolean}true"
@@ -73,7 +73,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd/en/adventures/riverside-camping-australia/adobe_waadobe_wa_mg_2466.jpg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/riverside-camping-australia/adobe_waadobe_wa_mg_2466.jpg"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                     <item_1571168419252
@@ -86,7 +86,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd/en/adventures/riverside-camping-australia/AdobeStock_216674449.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/riverside-camping-australia/AdobeStock_216674449.jpeg"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                     <item_1571168422510
@@ -99,7 +99,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd/en/adventures/whistler-mountain-biking/AdobeStock_257501643.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/whistler-mountain-biking/AdobeStock_257501643.jpeg"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                 </carousel>
@@ -176,7 +176,7 @@
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="multi"
                             elementNames="[activity,adventureType,tripLength,groupSize,difficulty,price]"
-                            fragmentPath="/content/dam/wknd/en/adventures/riverside-camping-australia/riverside-camping-australia"
+                            fragmentPath="/content/dam/wknd-shared/en/adventures/riverside-camping-australia/riverside-camping-australia"
                             text="Riverside Camping Australia Activity Camping Adventure Type Overnight Trip Trip Length 3 Days Group Size 5-6 Difficulty Beginner Price $500 USD"
                             variationName="master">
                             <cq:responsive
@@ -314,7 +314,7 @@
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
                             elementNames="description"
-                            fragmentPath="/content/dam/wknd/en/adventures/riverside-camping-australia/riverside-camping-australia"
+                            fragmentPath="/content/dam/wknd-shared/en/adventures/riverside-camping-australia/riverside-camping-australia"
                             text="Riverside Camping Australia Escape the hustle and bustle of city life and recharge with a couple of peaceful days and return with tons of memories of camping in the bush and experiences that will last a lifetime. Learn how to pitch a tent by the Siegel River, catch local cod, and spot unique Australian wildlife on this retreat. Or, you can sit back in the shade with a cool beverage and a book until it's too dark to read, then tell stories around a campfire."
                             variationName="master">
                             <par0
@@ -335,7 +335,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd/en/adventures/riverside-camping-australia/AdobeStock_238491803.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/riverside-camping-australia/AdobeStock_238491803.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par0>
@@ -357,7 +357,7 @@
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
                             elementNames="itinerary"
-                            fragmentPath="/content/dam/wknd/en/adventures/riverside-camping-australia/riverside-camping-australia"
+                            fragmentPath="/content/dam/wknd-shared/en/adventures/riverside-camping-australia/riverside-camping-australia"
                             paragraphScope="range"
                             variationName="master">
                             <par9
@@ -384,7 +384,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd/en/adventures/riverside-camping-australia/AdobeStock_178022573.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/riverside-camping-australia/AdobeStock_178022573.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par5>
@@ -411,7 +411,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd/en/adventures/riverside-camping-australia/AdobeStock_167833331.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/riverside-camping-australia/AdobeStock_167833331.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par1>
@@ -433,7 +433,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd/en/activities/hiking/hiker-anapurna.jpg"
+                                    fileReference="/content/dam/wknd-shared/en/activities/hiking/hiker-anapurna.jpg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par7>
@@ -455,7 +455,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd/en/adventures/riverside-camping-australia/AdobeStock_257541512.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/riverside-camping-australia/AdobeStock_257541512.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par4>
@@ -471,7 +471,7 @@
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
                             elementNames="gearList"
-                            fragmentPath="/content/dam/wknd/en/adventures/riverside-camping-australia/riverside-camping-australia"
+                            fragmentPath="/content/dam/wknd-shared/en/adventures/riverside-camping-australia/riverside-camping-australia"
                             paragraphScope="range"
                             variationName="master">
                             <par3
@@ -504,7 +504,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd/en/activities/hiking/equipment_6.jpg"
+                                    fileReference="/content/dam/wknd-shared/en/activities/hiking/equipment_6.jpg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par0>

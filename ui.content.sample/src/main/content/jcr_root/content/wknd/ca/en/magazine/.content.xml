@@ -59,7 +59,7 @@
                     sling:resourceType="wknd/components/teaser"
                     actionsEnabled="true"
                     descriptionFromPage="true"
-                    fileReference="/content/dam/wknd/en/magazine/western-australia/adobestock_156407519.jpeg"
+                    fileReference="/content/dam/wknd-shared/en/magazine/western-australia/adobestock_156407519.jpeg"
                     id="featured-article-magazine"
                     pretitle="Featured Article"
                     textIsRich="true"
@@ -157,7 +157,7 @@
                     sling:resourceType="wknd/components/teaser"
                     actionsEnabled="true"
                     descriptionFromPage="false"
-                    fileReference="/content/dam/wknd/en/magazine/alaska-adventure/alaskan-grizzly.jpg"
+                    fileReference="/content/dam/wknd-shared/en/magazine/alaska-adventure/alaskan-grizzly.jpg"
                     textIsRich="true"
                     titleFromPage="false">
                     <cq:responsive
@@ -216,7 +216,7 @@
                     sling:resourceType="wknd/components/teaser"
                     actionsEnabled="true"
                     descriptionFromPage="false"
-                    fileReference="/content/dam/wknd/en/magazine/fly-fishing-amazon/amazon-river-02.JPG"
+                    fileReference="/content/dam/wknd-shared/en/magazine/fly-fishing-amazon/amazon-river-02.JPG"
                     textIsRich="true"
                     titleFromPage="false">
                     <cq:responsive

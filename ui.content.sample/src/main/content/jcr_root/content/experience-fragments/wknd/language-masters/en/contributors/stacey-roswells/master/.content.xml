@@ -32,7 +32,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/image"
-                    fileReference="/content/dam/wknd/en/contributors/stacey-roswells.jpg"/>
+                    fileReference="/content/dam/wknd-shared/en/contributors/stacey-roswells.jpg"/>
                 <title
                     jcr:created="{Date}2019-10-02T12:21:16.916-07:00"
                     jcr:createdBy="admin"

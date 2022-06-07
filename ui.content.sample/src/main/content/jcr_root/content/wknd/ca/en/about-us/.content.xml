@@ -6,7 +6,7 @@
         cq:lastModifiedBy="admin"
         cq:lastRolledout="{Date}2020-09-30T17:38:21.079-07:00"
         cq:lastRolledoutBy="admin"
-        cq:tags="[wknd:customer-journey/engage,wknd:customer-journey/support]"
+        cq:tags="[wknd-shared:customer-journey/engage,wknd-shared:customer-journey/support]"
         cq:template="/conf/wknd/settings/wcm/templates/content-page-template"
         jcr:description="WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world. "
         jcr:mixinTypes="[cq:LiveRelationship]"

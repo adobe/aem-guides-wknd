@@ -63,6 +63,7 @@
         <core.wcm.components.version>2.19.0</core.wcm.components.version>
         <uber.jar.version>6.5.10</uber.jar.version>
         <aemanalyser.version>1.3.0</aemanalyser.version>
+        <wknd-shared.version>1.2.0</wknd-shared.version>
     </properties>
 
     <organization>
@@ -735,6 +736,14 @@ Bundle-DocURL:
                 <artifactId>core.wcm.components.config</artifactId>
                 <type>zip</type>
                 <version>${core.wcm.components.version}</version>
+            </dependency>
+
+            <!-- WKND Shared -->
+            <dependency>
+                <groupId>com.adobe.aem.guides</groupId>
+                <artifactId>aem-guides-wknd-shared.all</artifactId>
+                <version>${wknd-shared.version}</version>
+                <type>zip</type>
             </dependency>
 
             <!-- Testing -->

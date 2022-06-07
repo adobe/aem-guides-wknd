@@ -28,7 +28,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/image"
-                    fileReference="/content/dam/wknd/en/contributors/Kumar_Selvaraj.JPG"/>
+                    fileReference="/content/dam/wknd-shared/en/contributors/Kumar_Selvaraj.JPG"/>
                 <title
                     jcr:created="{Date}2019-10-02T12:35:47.243-07:00"
                     jcr:createdBy="admin"

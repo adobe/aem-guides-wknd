@@ -6,7 +6,7 @@
         cq:lastModifiedBy="admin"
         cq:lastRolledout="{Date}2020-11-08T12:48:39.078-08:00"
         cq:lastRolledoutBy="admin"
-        cq:tags="[wknd:activity/cycling,wknd:season/fall]"
+        cq:tags="[wknd-shared:activity/cycling,wknd-shared:season/fall]"
         cq:template="/conf/wknd/settings/wcm/templates/adventure-page-template"
         jcr:description="Join us for this once in a lifetime bike trip traveling from San Francisco to Portland cycling along the Pacific Coast. Experience world class terrain as we head north through redwood forests, state parks, the Columbia river and the Pacific ocean."
         jcr:mixinTypes="[cq:LiveRelationship]"
@@ -68,7 +68,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/image"
-                        fileReference="/content/dam/wknd/en/adventures/west-coast-cycling/AdobeStock_151584995.jpg"/>
+                        fileReference="/content/dam/wknd-shared/en/adventures/west-coast-cycling/AdobeStock_151584995.jpg"/>
                 </carousel>
                 <container_fixed
                     cq:lastRolledout="{Date}2020-11-08T12:40:50.604-08:00"
@@ -144,7 +144,7 @@
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="multi"
                             elementNames="[activity,adventureType,tripLength,groupSize,difficulty,price]"
-                            fragmentPath="/content/dam/wknd/en/adventures/west-coast-cycling/west-coast-cycling"
+                            fragmentPath="/content/dam/wknd-shared/en/adventures/west-coast-cycling/west-coast-cycling"
                             text="West Coast Cycling Activity Cycling Adventure Type Overnight Trip Trip Length 5 days Group Size 12 Difficulty Intermediate Price $4500 USD"
                             variationName="master">
                             <cq:responsive
@@ -282,7 +282,7 @@
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
                             elementNames="description"
-                            fragmentPath="/content/dam/wknd/en/adventures/west-coast-cycling/west-coast-cycling"
+                            fragmentPath="/content/dam/wknd-shared/en/adventures/west-coast-cycling/west-coast-cycling"
                             paragraphScope="all"
                             text="West Coast Cycling Join us for this once in a lifetime bike trip traveling from San Francisco to Portland cycling along the Pacific Coast. Experience world class terrain as we head north through redwood forests, state parks, the Columbia river and the Pacific ocean."
                             variationName="master">
@@ -308,7 +308,7 @@
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="wknd/components/image"
-                                    fileReference="/content/dam/wknd/en/activities/cycling/mountain-biking.jpg"/>
+                                    fileReference="/content/dam/wknd-shared/en/activities/cycling/mountain-biking.jpg"/>
                             </par0>
                         </item_1594238312974>
                         <item_1570890140330
@@ -322,7 +322,7 @@
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
                             elementNames="itinerary"
-                            fragmentPath="/content/dam/wknd/en/adventures/west-coast-cycling/west-coast-cycling"
+                            fragmentPath="/content/dam/wknd-shared/en/adventures/west-coast-cycling/west-coast-cycling"
                             paragraphScope="all"
                             text="West Coast Cycling San Francisco to Eureka Start the tour by cycling across the iconic Golden Gate Bridge and then making our way to the coast to ride up Highway One where we'll go through Point Reyes National Seashore and the gorgeous Sonoma coast. Eureka to Bandon Be prepared for giant trees over 2,000 years old and over 300 feet tall as we start the day in Eureka. On our way to Bandon we'll visit quintessential quaint towns offering saltwater taffy shops, lovable harbors and the best clam chowder in the Pacific Northwest. Bandon to Portland For the golfers amongst us, we'll have some downtime to fit in golf at one of the top golf resorts in the country. We'll start our final leg along the Columbia River. After lunch in historic Astoria, we'll continue along a route featuring resort towns including Seaside and Cannon Beach."
                             variationName="master">
@@ -344,7 +344,7 @@
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
                             elementNames="gearList"
-                            fragmentPath="/content/dam/wknd/en/adventures/west-coast-cycling/west-coast-cycling"
+                            fragmentPath="/content/dam/wknd-shared/en/adventures/west-coast-cycling/west-coast-cycling"
                             paragraphScope="all"
                             text="West Coast Cycling Bike Cycling clothes Water bottles"
                             variationName="master">

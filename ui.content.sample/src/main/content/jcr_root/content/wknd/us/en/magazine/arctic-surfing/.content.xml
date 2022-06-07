@@ -43,7 +43,7 @@
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/image"
-                    fileReference="/content/dam/wknd/en/magazine/arctic-surfing/surfer-back-from-the-ocean.JPG"
+                    fileReference="/content/dam/wknd-shared/en/magazine/arctic-surfing/surfer-back-from-the-ocean.JPG"
                     imageCrop="14,45,1256,813"/>
                 <container
                     cq:lastRolledout="{Date}2020-07-09T08:54:51.502-07:00"
@@ -91,7 +91,7 @@
                         sling:resourceType="wknd/components/contentfragment"
                         displayMode="singleText"
                         elementNames="main"
-                        fragmentPath="/content/dam/wknd/en/magazine/arctic-surfing/aloha-spirits-in-northern-norway"
+                        fragmentPath="/content/dam/wknd-shared/en/magazine/arctic-surfing/aloha-spirits-in-northern-norway"
                         paragraphScope="all"
                         text=""
                         variationName="master">
@@ -124,7 +124,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wknd/components/image"
-                                fileReference="/content/dam/wknd/en/magazine/arctic-surfing/surfer-wave-02.JPG"/>
+                                fileReference="/content/dam/wknd-shared/en/magazine/arctic-surfing/surfer-wave-02.JPG"/>
                             <title_copy
                                 cq:lastRolledout="{Date}2020-07-09T08:54:51.537-07:00"
                                 cq:lastRolledoutBy="admin"
@@ -168,7 +168,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wknd/components/image"
-                                fileReference="/content/dam/wknd/en/magazine/arctic-surfing/majestic-rainbow.JPG"/>
+                                fileReference="/content/dam/wknd-shared/en/magazine/arctic-surfing/majestic-rainbow.JPG"/>
                         </par2>
                         <par4
                             cq:lastRolledout="{Date}2020-07-09T08:54:51.550-07:00"
@@ -186,7 +186,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wknd/components/image"
-                                fileReference="/content/dam/wknd/en/magazine/arctic-surfing/northern-lights.JPG"/>
+                                fileReference="/content/dam/wknd-shared/en/magazine/arctic-surfing/northern-lights.JPG"/>
                         </par4>
                         <par3
                             cq:lastRolledout="{Date}2020-07-09T08:54:51.554-07:00"

@@ -35,7 +35,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/image"
-                    fileReference="/content/dam/wknd/en/magazine/western-australia/adobestock_156407519.jpeg"/>
+                    fileReference="/content/dam/wknd-shared/en/magazine/western-australia/adobestock_156407519.jpeg"/>
                 <container
                     jcr:created="{Date}2019-04-03T18:31:10.416-07:00"
                     jcr:createdBy="admin"
@@ -70,7 +70,7 @@
                         sling:resourceType="wknd/components/contentfragment"
                         displayMode="singleText"
                         elementNames="main"
-                        fragmentPath="/content/dam/wknd/en/magazine/western-australia/western-australia-by-camper-van"
+                        fragmentPath="/content/dam/wknd-shared/en/magazine/western-australia/western-australia-by-camper-van"
                         text=""
                         variationName="master">
                         <par1
@@ -107,7 +107,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wknd/components/image"
-                                fileReference="/content/dam/wknd/en/magazine/western-australia/Adobe_WAAdobe_WA_B6A7083.JPG"/>
+                                fileReference="/content/dam/wknd-shared/en/magazine/western-australia/Adobe_WAAdobe_WA_B6A7083.JPG"/>
                         </par2>
                         <par3
                             jcr:primaryType="nt:unstructured"
@@ -129,7 +129,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wknd/components/image"
-                                fileReference="/content/dam/wknd/en/magazine/western-australia/Adobe_WAAdobe_WA_MG_3094.JPG"/>
+                                fileReference="/content/dam/wknd-shared/en/magazine/western-australia/Adobe_WAAdobe_WA_MG_3094.JPG"/>
                         </par3>
                         <par4
                             jcr:primaryType="nt:unstructured"
@@ -151,7 +151,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wknd/components/image"
-                                fileReference="/content/dam/wknd/en/magazine/western-australia/Adobe_WAAdobe_WA_MG_3851.JPG"/>
+                                fileReference="/content/dam/wknd-shared/en/magazine/western-australia/Adobe_WAAdobe_WA_MG_3851.JPG"/>
                         </par4>
                     </contentfragment>
                     <experiencefragment
@@ -207,7 +207,7 @@
                         sling:resourceType="wknd/components/download"
                         actionText="Download PDF"
                         descriptionFromAsset="false"
-                        fileReference="/content/dam/wknd/en/magazine/western-australia/WA_camping_Adobe.pdf"
+                        fileReference="/content/dam/wknd-shared/en/magazine/western-australia/WA_camping_Adobe.pdf"
                         inline="false"
                         textIsRich="true"
                         titleFromAsset="false"/>

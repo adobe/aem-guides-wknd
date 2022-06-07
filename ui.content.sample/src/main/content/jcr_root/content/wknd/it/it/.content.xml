@@ -45,7 +45,7 @@
                     sling:resourceType="wknd/components/teaser"
                     actionsEnabled="false"
                     descriptionFromPage="false"
-                    fileReference="/content/dam/wknd/en/adventures/riverside-camping-australia/AdobeStock_216674449.jpeg"
+                    fileReference="/content/dam/wknd-shared/en/adventures/riverside-camping-australia/AdobeStock_216674449.jpeg"
                     textIsRich="true"
                     titleFromPage="false">
                     <actions

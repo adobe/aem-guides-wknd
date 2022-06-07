@@ -35,7 +35,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/byline"
-                    fileReference="/content/dam/wknd/en/contributors/justin_barr.jpg"
+                    fileReference="/content/dam/wknd-shared/en/contributors/justin_barr.jpg"
                     name="Justin Barr"
                     occupations="[Ceramic Artist,Rock Climber,Writer]">
                     <cq:responsive jcr:primaryType="nt:unstructured">

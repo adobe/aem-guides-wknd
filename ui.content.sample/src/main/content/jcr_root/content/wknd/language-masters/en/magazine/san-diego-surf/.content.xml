@@ -30,7 +30,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/image"
-                    fileReference="/content/dam/wknd/en/magazine/san-diego-surf-spots/beach-walking.jpg"
+                    fileReference="/content/dam/wknd-shared/en/magazine/san-diego-surf-spots/beach-walking.jpg"
                     imageCrop="0,86,1152,798"/>
                 <container
                     jcr:created="{Date}2019-04-03T18:31:10.416-07:00"
@@ -65,7 +65,7 @@
                         sling:resourceType="wknd/components/contentfragment"
                         displayMode="singleText"
                         elementNames="main"
-                        fragmentPath="/content/dam/wknd/en/magazine/san-diego-surf-spots/san-diego-surfspots"
+                        fragmentPath="/content/dam/wknd-shared/en/magazine/san-diego-surf-spots/san-diego-surfspots"
                         paragraphScope="all"
                         text=""
                         variationName="master">
@@ -79,7 +79,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wknd/components/image"
-                                fileReference="/content/dam/wknd/en/magazine/san-diego-surf-spots/AdobeStock_166388792.jpeg"/>
+                                fileReference="/content/dam/wknd-shared/en/magazine/san-diego-surf-spots/AdobeStock_166388792.jpeg"/>
                         </par2>
                         <par1
                             jcr:primaryType="nt:unstructured"
@@ -94,7 +94,7 @@
                                 sling:resourceType="wknd/components/image"
                                 altValueFromDAM="true"
                                 displayPopupTitle="false"
-                                fileReference="/content/dam/wknd/en/magazine/san-diego-surf-spots/AdobeStock_164735399.jpeg"
+                                fileReference="/content/dam/wknd-shared/en/magazine/san-diego-surf-spots/AdobeStock_164735399.jpeg"
                                 isDecorative="false"
                                 titleValueFromDAM="false"/>
                         </par1>
@@ -108,7 +108,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wknd/components/image"
-                                fileReference="/content/dam/wknd/en/magazine/san-diego-surf-spots/AdobeStock_266406767.jpeg"/>
+                                fileReference="/content/dam/wknd-shared/en/magazine/san-diego-surf-spots/AdobeStock_266406767.jpeg"/>
                         </par4>
                         <par5
                             jcr:primaryType="nt:unstructured"
@@ -120,7 +120,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wknd/components/image"
-                                fileReference="/content/dam/wknd/en/magazine/san-diego-surf-spots/AdobeStock_272184938.jpeg"/>
+                                fileReference="/content/dam/wknd-shared/en/magazine/san-diego-surf-spots/AdobeStock_272184938.jpeg"/>
                         </par5>
                     </contentfragment>
                     <experiencefragment

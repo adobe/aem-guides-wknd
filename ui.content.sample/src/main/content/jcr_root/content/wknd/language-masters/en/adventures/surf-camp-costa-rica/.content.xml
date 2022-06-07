@@ -4,7 +4,7 @@
     <jcr:content
         cq:lastModified="{Date}2020-07-08T18:39:31.394-07:00"
         cq:lastModifiedBy="admin"
-        cq:tags="[wknd:customer-journey/engage,wknd:customer-journey/convert,wknd:activity/surfing,wknd:season/summer]"
+        cq:tags="[wknd-shared:customer-journey/engage,wknd-shared:customer-journey/convert,wknd-shared:activity/surfing,wknd-shared:season/summer]"
         cq:template="/conf/wknd/settings/wcm/templates/adventure-page-template"
         jcr:description="Costa Rica is the ideal location for a first surf trip. It is a safe place to travel and the locals are quite friendly and happy to see other surfers."
         jcr:isCheckedOut="{Boolean}true"
@@ -55,7 +55,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/adobestock_278302117.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/surf-camp-in-costa-rica/adobestock_278302117.jpeg"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                     <item_1571681724898
@@ -65,7 +65,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/adobestock_113485796.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/surf-camp-in-costa-rica/adobestock_113485796.jpeg"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                     <item_1571681750987
@@ -75,7 +75,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/adobestock_113490014.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/surf-camp-in-costa-rica/adobestock_113490014.jpeg"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                 </carousel>
@@ -127,7 +127,7 @@
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="multi"
                             elementNames="[activity,adventureType,tripLength,groupSize,difficulty,price]"
-                            fragmentPath="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/surf-camp-costa-rica"
+                            fragmentPath="/content/dam/wknd-shared/en/adventures/surf-camp-in-costa-rica/surf-camp-costa-rica"
                             text="Surf Camp Costa Rica Activity Surfing Adventure Type Overnight Trip Trip Length 5 Days Group Size 3-6 Difficulty Beginner Price $3400 USD"
                             variationName="master">
                             <cq:responsive jcr:primaryType="nt:unstructured">
@@ -211,7 +211,7 @@
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
                             elementNames="description"
-                            fragmentPath="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/surf-camp-costa-rica"
+                            fragmentPath="/content/dam/wknd-shared/en/adventures/surf-camp-in-costa-rica/surf-camp-costa-rica"
                             paragraphScope="range"
                             text="Surf Camp Costa Rica Experience Surfer's Paradise in Costa Rica Experienced local surf guides will take care of all the logistics and find the best spots for you to experience the best surfing Costa Rica has to offer. If you are a novice, we can take you to the right spot for your skill and preference. Costa Rica is the ideal location for a first surf trip. It is a safe place to travel and the locals are quite friendly and happy to see other surfers. Costa Rica is home to some incredible waves like Witch’s Rock, Ollies Point, Pavones, Playa Negra, Playa Hermosa, Salsa Brava and tons of lesser known world class waves."
                             variationName="master">
@@ -230,7 +230,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/surfing_5.jpg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/surf-camp-in-costa-rica/surfing_5.jpg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par1>
@@ -243,7 +243,7 @@
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
                             elementNames="itinerary"
-                            fragmentPath="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/surf-camp-costa-rica"
+                            fragmentPath="/content/dam/wknd-shared/en/adventures/surf-camp-in-costa-rica/surf-camp-costa-rica"
                             paragraphScope="range"
                             variationName="master">
                             <par9
@@ -267,7 +267,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="false"
-                                    fileReference="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/adobestock_266405335.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/surf-camp-in-costa-rica/adobestock_266405335.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par2>
@@ -286,7 +286,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/adobestock_272479375.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/surf-camp-in-costa-rica/adobestock_272479375.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par6>
@@ -304,7 +304,7 @@
                                     alt="A student hangs 10 in Costa Rica's famous surf breaks"
                                     altValueFromDAM="false"
                                     displayPopupTitle="false"
-                                    fileReference="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/Selvaraj_Surfing.JPG"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/surf-camp-in-costa-rica/Selvaraj_Surfing.JPG"
                                     isDecorative="false"
                                     titleValueFromDAM="false"/>
                             </par4>
@@ -320,7 +320,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/surfing_2.jpg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/surf-camp-in-costa-rica/surfing_2.jpg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par8>
@@ -333,7 +333,7 @@
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
                             elementNames="gearList"
-                            fragmentPath="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/surf-camp-costa-rica"
+                            fragmentPath="/content/dam/wknd-shared/en/adventures/surf-camp-in-costa-rica/surf-camp-costa-rica"
                             paragraphScope="all"
                             variationName="master">
                             <par3

@@ -97,7 +97,7 @@
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="multi"
                             elementNames="[activity,adventureType,tripLength,groupSize,difficulty,price]"
-                            fragmentPath="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/surf-camp-costa-rica"
+                            fragmentPath="/content/dam/wknd-shared/en/adventures/surf-camp-in-costa-rica/surf-camp-costa-rica"
                             text="Surf Camp Costa Rica Activity Surfing Adventure Type Overnight Trip Trip Length 5 Days Group Size 3-6 Difficulty Beginner Price $3400 USD"
                             variationName="master">
                             <cq:responsive jcr:primaryType="nt:unstructured">
