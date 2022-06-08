@@ -70,7 +70,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd-shared/en/adventures/whistler-mountain-biking/AdobeStock_122578479.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/whistler-mountain-biking/adobestock-122578479.jpeg"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                     <item_1572028926848
@@ -98,7 +98,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd-shared/en/adventures/whistler-mountain-biking/AdobeStock_122615840.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/whistler-mountain-biking/adobestock-122615840.jpeg"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                 </carousel>
@@ -358,7 +358,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd-shared/en/adventures/whistler-mountain-biking/AdobeStock_122618183.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/whistler-mountain-biking/adobestock-122618183.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par1>
@@ -402,7 +402,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd-shared/en/adventures/whistler-mountain-biking/AdobeStock_257501643.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/whistler-mountain-biking/adobestock-257501643.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par1>
@@ -430,7 +430,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd-shared/en/adventures/whistler-mountain-biking/AdobeStock_277761435.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/whistler-mountain-biking/adobestock-277761435.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par3>

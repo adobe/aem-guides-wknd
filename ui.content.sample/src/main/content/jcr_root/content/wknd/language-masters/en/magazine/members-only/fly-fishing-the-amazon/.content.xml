@@ -35,7 +35,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/image"
-                    fileReference="/content/dam/wknd-shared/en/magazine/fly-fishing-amazon/amazon-river-02.JPG"
+                    fileReference="/content/dam/wknd-shared/en/magazine/fly-fishing-amazon/amazon-river-02.jpg"
                     imageCrop="0,0,1279,791"/>
                 <container
                     jcr:created="{Date}2019-04-03T18:31:10.416-07:00"
@@ -83,7 +83,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wknd/components/image"
-                                fileReference="/content/dam/wknd-shared/en/magazine/fly-fishing-amazon/amazon-river-01.JPG"/>
+                                fileReference="/content/dam/wknd-shared/en/magazine/fly-fishing-amazon/amazon-river-01.jpg"/>
                         </par1>
                         <par4
                             jcr:primaryType="nt:unstructured"
@@ -95,7 +95,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wknd/components/image"
-                                fileReference="/content/dam/wknd-shared/en/magazine/fly-fishing-amazon/dorado-fish-03.JPG"/>
+                                fileReference="/content/dam/wknd-shared/en/magazine/fly-fishing-amazon/dorado-fish-03.jpg"/>
                         </par4>
                         <par8
                             jcr:primaryType="nt:unstructured"
@@ -107,7 +107,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wknd/components/image"
-                                fileReference="/content/dam/wknd-shared/en/magazine/fly-fishing-amazon/milkyway-amazon.JPG"/>
+                                fileReference="/content/dam/wknd-shared/en/magazine/fly-fishing-amazon/milkyway-amazon.jpg"/>
                         </par8>
                     </contentfragment>
                     <experiencefragment

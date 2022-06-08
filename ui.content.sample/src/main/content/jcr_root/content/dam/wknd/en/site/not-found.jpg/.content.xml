@@ -5,7 +5,7 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="ffdc67de-a543-4eaa-b975-1e56d8d971cb">
     <jcr:content
-        cq:name="Notfound.jpg"
+        cq:name="not-found.jpg"
         cq:parentPath="/content/dam/wknd/en/site"
         dam:assetState="processed"
         jcr:lastModified="{Date}2019-12-02T15:26:15.142-08:00"

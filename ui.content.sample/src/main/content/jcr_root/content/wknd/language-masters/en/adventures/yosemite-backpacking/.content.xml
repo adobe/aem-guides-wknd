@@ -50,7 +50,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/image"
-                        fileReference="/content/dam/wknd-shared/en/adventures/yosemite-backpacking/AdobeStock_231698835.jpg"/>
+                        fileReference="/content/dam/wknd-shared/en/adventures/yosemite-backpacking/adobestock-231698835.jpg"/>
                 </carousel>
                 <container_fixed
                     cq:styleIds="[1554340406437]"
@@ -204,7 +204,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="false"
-                                    fileReference="/content/dam/wknd-shared/en/adventures/yosemite-backpacking/AdobeStock_196967522.jpg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/yosemite-backpacking/adobestock-196967522.jpg"
                                     isDecorative="false"
                                     titleValueFromDAM="false"/>
                             </par0>

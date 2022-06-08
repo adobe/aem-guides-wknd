@@ -55,7 +55,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd-shared/en/adventures/surf-camp-in-costa-rica/adobestock_278302117.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/surf-camp-in-costa-rica/adobestock-278302117.jpeg"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                     <item_1571681724898
@@ -65,7 +65,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd-shared/en/adventures/surf-camp-in-costa-rica/adobestock_113485796.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/surf-camp-in-costa-rica/adobestock-113485796.jpeg"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                     <item_1571681750987
@@ -75,7 +75,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd-shared/en/adventures/surf-camp-in-costa-rica/adobestock_113490014.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/surf-camp-in-costa-rica/adobestock-113490014.jpeg"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                 </carousel>
@@ -267,7 +267,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="false"
-                                    fileReference="/content/dam/wknd-shared/en/adventures/surf-camp-in-costa-rica/adobestock_266405335.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/surf-camp-in-costa-rica/adobestock-266405335.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par2>
@@ -286,7 +286,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd-shared/en/adventures/surf-camp-in-costa-rica/adobestock_272479375.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/surf-camp-in-costa-rica/adobestock-272479375.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par6>
@@ -304,7 +304,7 @@
                                     alt="A student hangs 10 in Costa Rica's famous surf breaks"
                                     altValueFromDAM="false"
                                     displayPopupTitle="false"
-                                    fileReference="/content/dam/wknd-shared/en/adventures/surf-camp-in-costa-rica/Selvaraj_Surfing.JPG"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/surf-camp-in-costa-rica/selvaraj-surfing.jpg"
                                     isDecorative="false"
                                     titleValueFromDAM="false"/>
                             </par4>

@@ -50,7 +50,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/image"
-                        fileReference="/content/dam/wknd-shared/en/adventures/colorado-rock-climbing/AdobeStock_201222633.jpg"/>
+                        fileReference="/content/dam/wknd-shared/en/adventures/colorado-rock-climbing/adobestock-201222633.jpg"/>
                 </carousel>
                 <container_fixed
                     cq:styleIds="[1554340406437]"
@@ -198,7 +198,7 @@
                                     jcr:lastModifiedBy="admin"
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="wknd/components/image"
-                                    fileReference="/content/dam/wknd-shared/en/adventures/colorado-rock-climbing/AdobeStock_241578158.jpg"/>
+                                    fileReference="/content/dam/wknd-shared/en/adventures/colorado-rock-climbing/adobestock-241578158.jpg"/>
                             </par1>
                         </item_1594238312974>
                         <item_1570890140330

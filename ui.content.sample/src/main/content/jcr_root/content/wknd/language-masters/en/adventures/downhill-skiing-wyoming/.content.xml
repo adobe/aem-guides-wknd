@@ -55,7 +55,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd-shared/en/adventures/downhill-skiing-wyoming/AdobeStock_185234795.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/downhill-skiing-wyoming/adobestock-185234795.jpeg"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                     <item_1572032225765
@@ -76,7 +76,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd-shared/en/adventures/downhill-skiing-wyoming/AdobeStock_170334891.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/downhill-skiing-wyoming/adobestock-170334891.jpeg"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                 </carousel>
@@ -231,7 +231,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd-shared/en/adventures/downhill-skiing-wyoming/AdobeStock_93049279.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/downhill-skiing-wyoming/adobestock-93049279.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par1>
@@ -282,7 +282,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd-shared/en/adventures/downhill-skiing-wyoming/AdobeStock_166718157.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/downhill-skiing-wyoming/adobestock-166718157.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par5>

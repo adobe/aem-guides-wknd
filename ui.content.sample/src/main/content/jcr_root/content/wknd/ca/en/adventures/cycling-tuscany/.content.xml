@@ -72,7 +72,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd-shared/en/adventures/cycling-tuscany/AdobeStock_59459597.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/cycling-tuscany/adobestock-59459597.jpeg"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                     <item_1572023765179
@@ -85,7 +85,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd-shared/en/adventures/cycling-tuscany/AdobeStock_65986215.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/cycling-tuscany/adobestock-65986215.jpeg"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                     <item_1572023766858
@@ -98,7 +98,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd-shared/en/adventures/cycling-tuscany/AdobeStock_272493830.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/cycling-tuscany/adobestock-272493830.jpeg"
                         imageCrop="0,296,1278,851"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
@@ -343,7 +343,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd-shared/en/adventures/cycling-tuscany/AdobeStock_261097343.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/cycling-tuscany/adobestock-261097343.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par1>
@@ -387,7 +387,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd-shared/en/adventures/cycling-tuscany/AdobeStock_268213814.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/cycling-tuscany/adobestock-268213814.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par1>
@@ -415,7 +415,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd-shared/en/adventures/cycling-tuscany/AdobeStock_141786166.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/cycling-tuscany/adobestock-141786166.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par3>

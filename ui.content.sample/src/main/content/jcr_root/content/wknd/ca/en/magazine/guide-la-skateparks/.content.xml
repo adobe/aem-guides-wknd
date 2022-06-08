@@ -267,7 +267,7 @@
                         sling:resourceType="wknd/components/download"
                         actionText="Download PDF"
                         descriptionFromAsset="false"
-                        fileReference="/content/dam/wknd-shared/en/magazine/la-skateparks/UltimateGuidetoLASkateParks.pdf"
+                        fileReference="/content/dam/wknd-shared/en/magazine/la-skateparks/ultimateguidetolaskateparks.pdf"
                         inline="false"
                         textIsRich="true"
                         titleFromAsset="false"/>

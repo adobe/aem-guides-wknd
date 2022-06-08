@@ -70,7 +70,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd-shared/en/adventures/ski-touring-mont-blanc/AdobeStock_238230356.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/ski-touring-mont-blanc/adobestock-238230356.jpeg"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                     <item_1571168422510
@@ -83,7 +83,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd-shared/en/adventures/ski-touring-mont-blanc/AdobeStock_21422513.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/ski-touring-mont-blanc/adobestock-21422513.jpeg"
                         imageCrop="0,199,1127,738"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
@@ -97,7 +97,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd-shared/en/adventures/ski-touring-mont-blanc/AdobeStock_291339093.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/ski-touring-mont-blanc/adobestock-291339093.jpeg"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                 </carousel>
@@ -411,7 +411,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd-shared/en/adventures/ski-touring-mont-blanc/AdobeStock_75620750.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/ski-touring-mont-blanc/adobestock-75620750.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par1>
@@ -472,7 +472,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd-shared/en/adventures/ski-touring-mont-blanc/AdobeStock_291339093.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/ski-touring-mont-blanc/adobestock-291339093.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par4>

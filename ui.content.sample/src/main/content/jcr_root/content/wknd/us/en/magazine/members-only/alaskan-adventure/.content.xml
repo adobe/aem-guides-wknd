@@ -43,7 +43,7 @@
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/image"
-                    fileReference="/content/dam/wknd-shared/en/magazine/alaska-adventure/camp-alaska.JPG"
+                    fileReference="/content/dam/wknd-shared/en/magazine/alaska-adventure/camp-alaska.jpg"
                     imageCrop="0,62,1279,852"/>
                 <container
                     cq:lastRolledout="{Date}2020-07-09T13:18:46.034-07:00"
@@ -109,7 +109,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wknd/components/image"
-                                fileReference="/content/dam/wknd-shared/en/magazine/alaska-adventure/alaskan-landscape-01.JPG"/>
+                                fileReference="/content/dam/wknd-shared/en/magazine/alaska-adventure/alaskan-landscape-01.jpg"/>
                         </par1>
                         <par2
                             cq:lastRolledout="{Date}2020-07-09T13:18:46.077-07:00"
@@ -140,7 +140,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wknd/components/image"
-                                fileReference="/content/dam/wknd-shared/en/magazine/alaska-adventure/plane.JPG"/>
+                                fileReference="/content/dam/wknd-shared/en/magazine/alaska-adventure/plane.jpg"/>
                         </par2>
                         <par3
                             cq:lastRolledout="{Date}2020-07-09T13:18:46.090-07:00"
@@ -209,7 +209,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wknd/components/image"
-                                fileReference="/content/dam/wknd-shared/en/magazine/alaska-adventure/fish.JPG"/>
+                                fileReference="/content/dam/wknd-shared/en/magazine/alaska-adventure/fish.jpg"/>
                         </par5>
                     </contentfragment>
                     <experiencefragment

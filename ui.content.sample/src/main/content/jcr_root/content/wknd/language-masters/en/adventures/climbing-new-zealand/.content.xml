@@ -75,7 +75,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd-shared/en/adventures/climbing-new-zealand/AdobeStock_277768563.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/climbing-new-zealand/adobestock-277768563.jpeg"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                 </carousel>
@@ -243,7 +243,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd-shared/en/adventures/climbing-new-zealand/AdobeStock_277948178.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/climbing-new-zealand/adobestock-277948178.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par1>
@@ -274,7 +274,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd-shared/en/adventures/climbing-new-zealand/AdobeStock_140634652.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/climbing-new-zealand/adobestock-140634652.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par1>
@@ -293,7 +293,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd-shared/en/adventures/climbing-new-zealand/AdobeStock_166394648.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/climbing-new-zealand/adobestock-166394648.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par3>

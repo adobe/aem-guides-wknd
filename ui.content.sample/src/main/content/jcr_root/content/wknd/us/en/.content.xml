@@ -60,7 +60,7 @@
                         sling:resourceType="wknd/components/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="true"
-                        fileReference="/content/dam/wknd-shared/en/adventures/riverside-camping-australia/AdobeStock_216674449.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/riverside-camping-australia/adobestock-216674449.jpeg"
                         textIsRich="true"
                         titleFromPage="false">
                         <actions
@@ -121,7 +121,7 @@
                         sling:resourceType="wknd/components/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="false"
-                        fileReference="/content/dam/wknd-shared/en/adventures/downhill-skiing-wyoming/AdobeStock_185234795.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/downhill-skiing-wyoming/adobestock-185234795.jpeg"
                         textIsRich="true"
                         titleFromPage="true">
                         <actions
@@ -170,7 +170,7 @@
                         sling:resourceType="wknd/components/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="true"
-                        fileReference="/content/dam/wknd-shared/en/magazine/western-australia/adobestock_156407519.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/magazine/western-australia/adobestock-156407519.jpeg"
                         id="featured-teaser-home"
                         pretitle="Featured Article"
                         textIsRich="true"
@@ -272,7 +272,7 @@
                     sling:resourceType="wknd/components/teaser"
                     actionsEnabled="true"
                     descriptionFromPage="true"
-                    fileReference="/content/dam/wknd-shared/en/adventures/climbing-new-zealand/AdobeStock_140634652.jpeg"
+                    fileReference="/content/dam/wknd-shared/en/adventures/climbing-new-zealand/adobestock-140634652.jpeg"
                     textIsRich="true"
                     titleFromPage="true">
                     <actions

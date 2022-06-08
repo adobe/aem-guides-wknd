@@ -67,7 +67,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/image"
-                        fileReference="/content/dam/wknd-shared/en/adventures/cycling-southern-utah/AdobeStock_185324648.jpg"/>
+                        fileReference="/content/dam/wknd-shared/en/adventures/cycling-southern-utah/adobestock-185324648.jpg"/>
                 </carousel>
                 <container_fixed
                     cq:lastRolledout="{Date}2020-11-08T12:40:48.253-08:00"
@@ -303,7 +303,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="false"
-                                    fileReference="/content/dam/wknd-shared/en/adventures/cycling-southern-utah/AdobeStock_221043703.jpg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/cycling-southern-utah/adobestock-221043703.jpg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par1>

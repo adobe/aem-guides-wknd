@@ -68,7 +68,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/image"
-                        fileReference="/content/dam/wknd-shared/en/adventures/west-coast-cycling/AdobeStock_151584995.jpg"/>
+                        fileReference="/content/dam/wknd-shared/en/adventures/west-coast-cycling/adobestock-151584995.jpg"/>
                 </carousel>
                 <container_fixed
                     cq:lastRolledout="{Date}2020-11-08T12:40:50.604-08:00"

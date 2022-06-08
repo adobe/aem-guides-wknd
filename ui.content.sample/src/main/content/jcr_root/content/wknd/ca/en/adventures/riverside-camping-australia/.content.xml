@@ -86,7 +86,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd-shared/en/adventures/riverside-camping-australia/AdobeStock_216674449.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/riverside-camping-australia/adobestock-216674449.jpeg"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                     <item_1571168422510
@@ -99,7 +99,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd-shared/en/adventures/whistler-mountain-biking/AdobeStock_257501643.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/whistler-mountain-biking/adobestock-257501643.jpeg"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                 </carousel>
@@ -335,7 +335,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd-shared/en/adventures/riverside-camping-australia/AdobeStock_238491803.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/riverside-camping-australia/adobestock-238491803.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par0>
@@ -384,7 +384,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd-shared/en/adventures/riverside-camping-australia/AdobeStock_178022573.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/riverside-camping-australia/adobestock-178022573.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par5>
@@ -411,7 +411,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd-shared/en/adventures/riverside-camping-australia/AdobeStock_167833331.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/riverside-camping-australia/adobestock-167833331.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par1>
@@ -455,7 +455,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd-shared/en/adventures/riverside-camping-australia/AdobeStock_257541512.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/riverside-camping-australia/adobestock-257541512.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par4>

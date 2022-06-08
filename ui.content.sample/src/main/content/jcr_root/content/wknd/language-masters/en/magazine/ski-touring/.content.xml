@@ -35,7 +35,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/image"
-                    fileReference="/content/dam/wknd-shared/en/magazine/skitouring/Skitouring1Sjoeberg.JPG"/>
+                    fileReference="/content/dam/wknd-shared/en/magazine/skitouring/skitouring1sjoeberg.jpg"/>
                 <container
                     jcr:created="{Date}2019-04-03T18:31:10.416-07:00"
                     jcr:createdBy="admin"
@@ -82,7 +82,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wknd/components/image"
-                                fileReference="/content/dam/wknd-shared/en/magazine/skitouring/Skitouring5Sjoeberg.JPG"/>
+                                fileReference="/content/dam/wknd-shared/en/magazine/skitouring/skitouring5sjoeberg.jpg"/>
                             <text
                                 cq:styleIds="[1570746601923]"
                                 jcr:created="{Date}2019-10-01T20:43:10.528-07:00"
@@ -104,7 +104,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wknd/components/image"
-                                fileReference="/content/dam/wknd-shared/en/magazine/skitouring/Skitouring3Sjoeberg.JPG"/>
+                                fileReference="/content/dam/wknd-shared/en/magazine/skitouring/skitouring3sjoeberg.jpg"/>
                         </par2>
                         <par3
                             jcr:primaryType="nt:unstructured"
@@ -116,7 +116,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wknd/components/image"
-                                fileReference="/content/dam/wknd-shared/en/magazine/skitouring/Skitouring6Sjoeberg.JPG"/>
+                                fileReference="/content/dam/wknd-shared/en/magazine/skitouring/skitouring6sjoeberg.jpg"/>
                         </par3>
                         <par4
                             jcr:primaryType="nt:unstructured"
@@ -128,7 +128,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wknd/components/image"
-                                fileReference="/content/dam/wknd-shared/en/magazine/skitouring/Skitouring8Sjoeberg.JPG"/>
+                                fileReference="/content/dam/wknd-shared/en/magazine/skitouring/skitouring8sjoeberg.jpg"/>
                         </par4>
                     </contentfragment>
                     <experiencefragment

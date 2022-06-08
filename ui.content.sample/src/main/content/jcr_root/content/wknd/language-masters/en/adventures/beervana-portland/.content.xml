@@ -55,7 +55,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd-shared/en/adventures/beervana-portland/AdobeStock_200192344.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/beervana-portland/adobestock-200192344.jpeg"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                     <item_1572022899409
@@ -65,7 +65,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd-shared/en/adventures/beervana-portland/AdobeStock_209250305.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/beervana-portland/adobestock-209250305.jpeg"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                 </carousel>
@@ -250,7 +250,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd-shared/en/adventures/beervana-portland/AdobeStock_279232449.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/beervana-portland/adobestock-279232449.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par1>

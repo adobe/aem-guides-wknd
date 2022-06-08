@@ -54,14 +54,14 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/image"
-                        fileReference="/content/dam/wknd-shared/en/adventures/napa-wine-tasting/AdobeStock_280313729.jpg"/>
+                        fileReference="/content/dam/wknd-shared/en/adventures/napa-wine-tasting/adobestock-280313729.jpg"/>
                     <item_1604865299312
                         cq:panelTitle="wine glasses"
                         jcr:lastModified="{Date}2020-11-08T11:56:12.926-08:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/image"
-                        fileReference="/content/dam/wknd-shared/en/adventures/napa-wine-tasting/AdobeStock_239751461.jpg"/>
+                        fileReference="/content/dam/wknd-shared/en/adventures/napa-wine-tasting/adobestock-239751461.jpg"/>
                 </carousel>
                 <container_fixed
                     cq:styleIds="[1554340406437]"
@@ -216,7 +216,7 @@
                                     alt="Enjoy a sample of both white and red wines"
                                     altValueFromDAM="true"
                                     displayPopupTitle="false"
-                                    fileReference="/content/dam/wknd-shared/en/adventures/napa-wine-tasting/AdobeStock_277654931.jpg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/napa-wine-tasting/adobestock-277654931.jpg"
                                     isDecorative="false"
                                     titleValueFromDAM="false"/>
                             </par1>
