@@ -72,7 +72,6 @@
                             <groupId>com.adobe.aem.guides</groupId>
                             <artifactId>aem-guides-wknd-shared.all</artifactId>
                             <version>${wknd-shared.version}</version>
-                            <type>zip</type>
                         </dependency>
                     </dependencies>
                 </configuration>
