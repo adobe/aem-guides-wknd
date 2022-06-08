@@ -68,6 +68,12 @@
                             <artifactId>aem-guides-wknd.ui.content</artifactId>
                             <version>${project.version}</version>
                         </dependency>
+                        <dependency>
+                            <groupId>com.adobe.aem.guides</groupId>
+                            <artifactId>aem-guides-wknd-shared.all</artifactId>
+                            <version>${wknd-shared.version}</version>
+                            <type>zip</type>
+                        </dependency>
                     </dependencies>
                 </configuration>
             </plugin>
@@ -102,6 +108,12 @@
             <groupId>com.adobe.aem.guides</groupId>
             <artifactId>aem-guides-wknd.ui.content</artifactId>
             <version>${project.version}</version>
+            <type>zip</type>
+        </dependency>
+        <dependency>
+            <groupId>com.adobe.aem.guides</groupId>
+            <artifactId>aem-guides-wknd-shared.all</artifactId>
+            <version>${wknd-shared.version}</version>
             <type>zip</type>
         </dependency>
     </dependencies>
