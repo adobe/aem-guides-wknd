@@ -6,7 +6,7 @@
         cq:lastModifiedBy="admin"
         cq:lastRolledout="{Date}2020-11-08T12:48:39.023-08:00"
         cq:lastRolledoutBy="admin"
-        cq:tags="[wknd:customer-journey/engage,wknd:customer-journey/convert,wknd:region/nam/united-states,wknd:season/winter,wknd:activity/skiing]"
+        cq:tags="[wknd-shared:customer-journey/engage,wknd-shared:customer-journey/convert,wknd-shared:region/nam/united-states,wknd-shared:season/winter,wknd-shared:activity/skiing]"
         cq:template="/conf/wknd/settings/wcm/templates/adventure-page-template"
         jcr:description="A skiers paradise far from crowds and close to nature with terrain so vast it appears uncharted.  With 2,500 acres of legendary terrain, unmatched levels of snowfall each winter, and unparalleled backcountry access, Jackson Hole offers a truly unique skiing experience."
         jcr:isCheckedOut="{Boolean}true"
@@ -72,7 +72,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd/en/adventures/downhill-skiing-wyoming/AdobeStock_185234795.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/downhill-skiing-wyoming/adobestock-185234795.jpeg"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                     <item_1572032225765
@@ -85,7 +85,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd/en/activities/skiing/freeride-steep.jpg"
+                        fileReference="/content/dam/wknd-shared/en/activities/skiing/freeride-steep.jpg"
                         imageCrop="10,9,1274,606"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
@@ -99,7 +99,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd/en/adventures/downhill-skiing-wyoming/AdobeStock_170334891.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/downhill-skiing-wyoming/adobestock-170334891.jpeg"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                 </carousel>
@@ -176,7 +176,7 @@
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="multi"
                             elementNames="[activity,adventureType,tripLength,groupSize,difficulty,price]"
-                            fragmentPath="/content/dam/wknd/en/adventures/downhill-skiing-wyoming/downhill-skiing-wyoming"
+                            fragmentPath="/content/dam/wknd-shared/en/adventures/downhill-skiing-wyoming/downhill-skiing-wyoming"
                             text="Downhill Skiing Wyoming Activity Skiing Adventure Type Overnight Trip Trip Length 2-3 days Group Size 3-4 Difficulty Intermediate Price $400 USD"
                             variationName="master">
                             <cq:responsive
@@ -315,7 +315,7 @@
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
                             elementNames="description"
-                            fragmentPath="/content/dam/wknd/en/adventures/downhill-skiing-wyoming/downhill-skiing-wyoming"
+                            fragmentPath="/content/dam/wknd-shared/en/adventures/downhill-skiing-wyoming/downhill-skiing-wyoming"
                             paragraphScope="range"
                             text="Downhill Skiing Wyoming Experience wild untamed, rolling, wide-open terrain of Wyoming in the winter. The spectacular Tetons of Wyoming provide a wonderous backdrop for your Jackson Hole ski vacation. Jackson Hole is unlike anywhere else in the US. A skiers paradise far from crowds and close to nature with terrain so vast it appears uncharted. With 2,500 acres of legendary terrain, unmatched levels of snowfall each winter, and unparalleled backcountry access, Jackson Hole offers a truly unique skiing experience."
                             variationName="master">
@@ -343,7 +343,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd/en/adventures/downhill-skiing-wyoming/AdobeStock_93049279.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/downhill-skiing-wyoming/adobestock-93049279.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par1>
@@ -359,7 +359,7 @@
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
                             elementNames="itinerary"
-                            fragmentPath="/content/dam/wknd/en/adventures/downhill-skiing-wyoming/downhill-skiing-wyoming"
+                            fragmentPath="/content/dam/wknd-shared/en/adventures/downhill-skiing-wyoming/downhill-skiing-wyoming"
                             paragraphScope="range"
                             variationName="master">
                             <par9
@@ -386,7 +386,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd/en/activities/skiing/freeride.jpg"
+                                    fileReference="/content/dam/wknd-shared/en/activities/skiing/freeride.jpg"
                                     imageCrop="4,48,710,679"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
@@ -415,7 +415,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd/en/adventures/downhill-skiing-wyoming/AdobeStock_166718157.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/downhill-skiing-wyoming/adobestock-166718157.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par5>
@@ -431,7 +431,7 @@
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
                             elementNames="gearList"
-                            fragmentPath="/content/dam/wknd/en/adventures/downhill-skiing-wyoming/downhill-skiing-wyoming"
+                            fragmentPath="/content/dam/wknd-shared/en/adventures/downhill-skiing-wyoming/downhill-skiing-wyoming"
                             paragraphScope="all"
                             variationName="master">
                             <par3

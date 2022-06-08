@@ -4,6 +4,5 @@
     <filter root="/content/wknd" mode="merge"/>
     <filter root="/content/dam/wknd" mode="merge"/>
     <filter root="/content/experience-fragments/wknd" mode="merge"/>
-    <filter root="/content/cq:tags/wknd" mode="merge"/>
     <filter root="/content/cq:graphql" mode="merge" />
 </workspaceFilter>

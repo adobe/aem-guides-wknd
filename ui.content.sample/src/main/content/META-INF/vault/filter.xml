@@ -8,12 +8,9 @@
     -->
     <filter root="/content/dam/wknd" mode="update"/>
     <filter root="/content/experience-fragments/wknd"/>
-    <filter root="/content/cq:tags/wknd" mode="update"/>
 
     <!-- Force Policy and Template Updates -->
     <filter root="/conf/wknd/settings/wcm" />
-    <filter root="/conf/wknd/settings/dam" mode="update" />
-    <filter root="/conf/wknd/settings/graphql" mode="update" />
     <filter root="/conf/wknd/settings/cloudconfigs" mode="merge" />
 
     <!-- WKND Member Group-->

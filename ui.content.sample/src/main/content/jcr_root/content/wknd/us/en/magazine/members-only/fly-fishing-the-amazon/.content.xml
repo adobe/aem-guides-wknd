@@ -43,7 +43,7 @@
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/image"
-                    fileReference="/content/dam/wknd/en/magazine/fly-fishing-amazon/amazon-river-02.JPG"
+                    fileReference="/content/dam/wknd-shared/en/magazine/fly-fishing-amazon/amazon-river-02.jpg"
                     imageCrop="0,0,1279,791"/>
                 <container
                     cq:lastRolledout="{Date}2020-07-09T08:54:51.976-07:00"
@@ -90,7 +90,7 @@
                         sling:resourceType="wknd/components/contentfragment"
                         displayMode="singleText"
                         elementNames="main"
-                        fragmentPath="/content/dam/wknd/en/magazine/fly-fishing-amazon/fly-fishing"
+                        fragmentPath="/content/dam/wknd-shared/en/magazine/fly-fishing-amazon/fly-fishing"
                         text=""
                         variationName="master">
                         <par1
@@ -109,7 +109,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wknd/components/image"
-                                fileReference="/content/dam/wknd/en/magazine/fly-fishing-amazon/amazon-river-01.JPG"/>
+                                fileReference="/content/dam/wknd-shared/en/magazine/fly-fishing-amazon/amazon-river-01.jpg"/>
                         </par1>
                         <par4
                             cq:lastRolledout="{Date}2020-07-09T08:54:51.997-07:00"
@@ -127,7 +127,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wknd/components/image"
-                                fileReference="/content/dam/wknd/en/magazine/fly-fishing-amazon/dorado-fish-03.JPG"/>
+                                fileReference="/content/dam/wknd-shared/en/magazine/fly-fishing-amazon/dorado-fish-03.jpg"/>
                         </par4>
                         <par8
                             cq:lastRolledout="{Date}2020-07-09T08:54:52.002-07:00"
@@ -145,7 +145,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wknd/components/image"
-                                fileReference="/content/dam/wknd/en/magazine/fly-fishing-amazon/milkyway-amazon.JPG"/>
+                                fileReference="/content/dam/wknd-shared/en/magazine/fly-fishing-amazon/milkyway-amazon.jpg"/>
                         </par8>
                     </contentfragment>
                     <experiencefragment

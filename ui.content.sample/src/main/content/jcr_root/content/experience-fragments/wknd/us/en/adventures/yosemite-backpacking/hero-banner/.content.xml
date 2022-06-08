@@ -32,7 +32,7 @@
                     sling:resourceType="wknd/components/teaser"
                     actionsEnabled="true"
                     descriptionFromPage="true"
-                    fileReference="/content/dam/wknd/en/adventures/yosemite-backpacking/AdobeStock_231698835.jpg"
+                    fileReference="/content/dam/wknd-shared/en/adventures/yosemite-backpacking/adobestock-231698835.jpg"
                     textIsRich="true"
                     titleFromPage="true">
                     <actions jcr:primaryType="nt:unstructured">

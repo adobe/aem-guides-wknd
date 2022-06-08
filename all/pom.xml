@@ -82,7 +82,13 @@
                             <groupId>com.adobe.aem.guides</groupId>
                             <artifactId>aem-guides-wknd.ui.content.sample</artifactId>
                             <type>zip</type>
-                            <target>/apps/wknd-packages/sample/install</target>
+                            <target>/apps/wknd-packages/content/install</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.adobe.aem.guides</groupId>
+                            <artifactId>aem-guides-wknd-shared.all</artifactId>
+                            <type>zip</type>
+                            <target>/apps/wknd-vendor-packages/content/install</target>
                         </embedded>
                     </embeddeds>
                 </configuration>
@@ -242,6 +248,12 @@
                                     <artifactId>core.wcm.components.core</artifactId>
                                     <target>/apps/wknd-vendor-packages/application/install</target>
                                 </embedded>
+                                <embedded>
+                                    <groupId>com.adobe.aem.guides</groupId>
+                                    <artifactId>aem-guides-wknd-shared.all</artifactId>
+                                    <type>zip</type>
+                                    <target>/apps/wknd-vendor-packages/content/install</target>
+                                </embedded>                                
                             </embeddeds>
                         </configuration>
                     </plugin>
@@ -293,5 +305,11 @@
             <groupId>com.adobe.cq</groupId>
             <artifactId>core.wcm.components.core</artifactId>                
         </dependency>
+        <!-- WKND Shared -->
+        <dependency>
+            <groupId>com.adobe.aem.guides</groupId>
+            <artifactId>aem-guides-wknd-shared.all</artifactId>
+            <type>zip</type>
+        </dependency>        
     </dependencies>
 </project>

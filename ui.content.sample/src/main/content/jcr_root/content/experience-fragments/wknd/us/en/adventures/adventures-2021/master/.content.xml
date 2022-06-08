@@ -91,7 +91,7 @@
                         sling:resourceType="wknd/components/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="true"
-                        fileReference="/content/dam/wknd/en/adventures/bali-surf-camp/AdobeStock_175749320.jpg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/bali-surf-camp/adobestock-175749320.jpg"
                         pretitle="New!"
                         textIsRich="true"
                         titleFromPage="true">

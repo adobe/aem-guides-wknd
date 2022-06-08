@@ -6,7 +6,7 @@
         cq:lastModifiedBy="admin"
         cq:lastRolledout="{Date}2020-11-08T12:48:39.024-08:00"
         cq:lastRolledoutBy="admin"
-        cq:tags="[wknd:activity/social,wknd:region/nam/united-states]"
+        cq:tags="[wknd-shared:activity/social,wknd-shared:region/nam/united-states]"
         cq:template="/conf/wknd/settings/wcm/templates/adventure-page-template"
         jcr:description="Enjoy spectacular wine tasting in the Napa Valley."
         jcr:mixinTypes="[cq:LiveRelationship]"
@@ -72,7 +72,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/image"
-                        fileReference="/content/dam/wknd/en/adventures/napa-wine-tasting/AdobeStock_280313729.jpg"/>
+                        fileReference="/content/dam/wknd-shared/en/adventures/napa-wine-tasting/adobestock-280313729.jpg"/>
                     <item_1604865299312
                         cq:lastRolledout="{Date}2020-11-08T12:40:48.426-08:00"
                         cq:lastRolledoutBy="admin"
@@ -82,7 +82,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/image"
-                        fileReference="/content/dam/wknd/en/adventures/napa-wine-tasting/AdobeStock_239751461.jpg"/>
+                        fileReference="/content/dam/wknd-shared/en/adventures/napa-wine-tasting/adobestock-239751461.jpg"/>
                 </carousel>
                 <container_fixed
                     cq:lastRolledout="{Date}2020-11-08T12:40:48.435-08:00"
@@ -158,7 +158,7 @@
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="multi"
                             elementNames="[activity,adventureType,tripLength,groupSize,difficulty,price]"
-                            fragmentPath="/content/dam/wknd/en/adventures/napa-wine-tasting/napa-wine-tasting"
+                            fragmentPath="/content/dam/wknd-shared/en/adventures/napa-wine-tasting/napa-wine-tasting"
                             text="Napa Wine Tasting Activity Social Adventure Type Day Trip Trip Length 1 Day Group Size 6-8 Difficulty Beginner Price $150 USD"
                             variationName="master">
                             <cq:responsive
@@ -296,7 +296,7 @@
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
                             elementNames="description"
-                            fragmentPath="/content/dam/wknd/en/adventures/napa-wine-tasting/napa-wine-tasting"
+                            fragmentPath="/content/dam/wknd-shared/en/adventures/napa-wine-tasting/napa-wine-tasting"
                             paragraphScope="all"
                             text="Napa Wine Tasting Enjoy spectacular wine tasting in the Napa Valley Napa Valley is one of the most famous wine regions in the world. Located an hour north of San Francisco, Napa is renowned for their wine, pleasant temperatures and world class restaurants. This tasting will provide insider access to spectacular wineries and restaurants in Yountville, Calistoga and St. Helena."
                             variationName="master">
@@ -326,7 +326,7 @@
                                     alt="Enjoy a sample of both white and red wines"
                                     altValueFromDAM="true"
                                     displayPopupTitle="false"
-                                    fileReference="/content/dam/wknd/en/adventures/napa-wine-tasting/AdobeStock_277654931.jpg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/napa-wine-tasting/adobestock-277654931.jpg"
                                     isDecorative="false"
                                     titleValueFromDAM="false"/>
                             </par1>
@@ -342,7 +342,7 @@
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
                             elementNames="itinerary"
-                            fragmentPath="/content/dam/wknd/en/adventures/napa-wine-tasting/napa-wine-tasting"
+                            fragmentPath="/content/dam/wknd-shared/en/adventures/napa-wine-tasting/napa-wine-tasting"
                             paragraphScope="all"
                             text="Napa Wine Tasting Dog's Bark Winery Our first stop will be at the family owned Dog's Bark Winery where you'll get a behind the scenes peak at the wine making process. Dog's Bark is one of Napa's first wineries, founded in 1875 by Pierre Martin an immigrant from Bordeaux. Spring Winery Since 1959, Spring Winery has been producing world-class wines that pair best with great food and great company. Their wines reflect the personality of their wine makers and the surrounding vineyards in the heart of Napa Valley Mountain Creek Winery For over 35 years, Mountain Creek Winery has produced award winning wines using organically grown grapes and traditional winemaking techniques. You won't just be tasting the wine, you'll get an inside look at the way wine is made — from the way the land is farmed to where the wine is made."
                             variationName="master">
@@ -364,7 +364,7 @@
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
                             elementNames="gearList"
-                            fragmentPath="/content/dam/wknd/en/adventures/napa-wine-tasting/napa-wine-tasting"
+                            fragmentPath="/content/dam/wknd-shared/en/adventures/napa-wine-tasting/napa-wine-tasting"
                             paragraphScope="all"
                             text="Napa Wine Tasting Money for purchasing wine to take home Comfortable shoes for standing A healthy appetite for lunch"
                             variationName="master">
