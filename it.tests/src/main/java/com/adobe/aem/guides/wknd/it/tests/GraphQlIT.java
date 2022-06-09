@@ -16,12 +16,15 @@
 package com.adobe.aem.guides.wknd.it.tests;
 
 import static org.hamcrest.CoreMatchers.containsString;
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
-import static org.junit.Assert.assertThat;
+import static org.junit.Assert.assertThrows;
+import static org.junit.Assert.assertTrue;
 
+import java.net.URISyntaxException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -29,9 +32,9 @@ import java.util.Map;
 import org.apache.sling.testing.clients.instance.InstanceConfiguration;
 import org.junit.BeforeClass;
 import org.junit.ClassRule;
-import org.junit.Rule;
 import org.junit.Test;
-import org.junit.rules.ExpectedException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import com.adobe.aem.graphql.client.AEMHeadlessClient;
 import com.adobe.aem.graphql.client.AEMHeadlessClientException;
@@ -45,10 +48,11 @@ import com.fasterxml.jackson.databind.JsonNode;
  */
 public class GraphQlIT {
 
-	private static final String TEST_AUTHOR_IAN_PROVO = "Ian Provo";
+	private static final String TEST_AUTHOR_FIRST_NAME = "Ian";
+    private static final String TEST_AUTHOR_LAST_NAME = "Provo";
+    private static final String WKND_SHARED_GRAPHQL_ENDPOINT = "/content/_cq_graphql/wknd-shared/endpoint.json";
 
-	@Rule
-	public ExpectedException thrown = ExpectedException.none();
+    private static final Logger LOGGER = LoggerFactory.getLogger(GraphQlIT.class);
 
 	@ClassRule
 	public static final CQAuthorPublishClassRule cqBaseClassRule = new CQAuthorPublishClassRule();
@@ -57,12 +61,17 @@ public class GraphQlIT {
 
 	@BeforeClass
 	public static void beforeClass() {
-		headlessClientAuthor = getHeadlessClient(cqBaseClassRule.authorRule.getConfiguration());
+		try {
+            headlessClientAuthor = getHeadlessClient(cqBaseClassRule.authorRule.getConfiguration());
+        } catch (URISyntaxException e) {
+            LOGGER.error("Error attempting to initialize headless client", e);
+        }
 	}
 
-	private static AEMHeadlessClient getHeadlessClient(InstanceConfiguration instanceConfig) {
+	private static AEMHeadlessClient getHeadlessClient(InstanceConfiguration instanceConfig) throws URISyntaxException {
+        final String graphQLEndpoint = instanceConfig.getUrl() + WKND_SHARED_GRAPHQL_ENDPOINT;
 		return AEMHeadlessClient.builder() //
-				.endpoint(instanceConfig.getUrl()) //
+				.endpoint(graphQLEndpoint) //
 				.basicAuth(instanceConfig.getAdminUser(), instanceConfig.getAdminPassword()).build();
 	}
 
@@ -73,7 +82,10 @@ public class GraphQlIT {
 				"  articleList{\n" + //
 				"    items{ \n" + //
 				"      _path\n" + //
-				"      author\n" + //
+				"      authorFragment{\n" + //
+                "        firstName\n" + //
+                "        lastName\n" + //
+                "         }\n" + //
 				"    } \n" + //
 				"  }\n" + //
 				"}";
@@ -88,48 +100,64 @@ public class GraphQlIT {
 		assertNotNull(articleListItems);
 		assertEquals(7, articleListItems.size());
 		assertNotNull(articleListItems.get(0).get("_path"));
-		assertNotNull(articleListItems.get(0).get("author"));
+		assertNotNull(articleListItems.get(0).get("authorFragment"));
 	}
 
 	@Test
 	public void testQueryWithSyntaxError() {
-
-		thrown.expect(AEMHeadlessClientException.class);
-		thrown.expectMessage("Invalid Syntax : offending token");
-
-		String query = "{\n" + //
+        String query = "{\n" + //
 				"  articleList{\n" + //
 				"    items{ \n" + //
 				"      _path\n" + //
 				"      author\n";
-		headlessClientAuthor.runQuery(query);
+
+        AEMHeadlessClientException exception = assertThrows(AEMHeadlessClientException.class, 
+            () -> headlessClientAuthor.runQuery(query));
+        assertTrue(exception.getMessage().contains("Invalid Syntax : offending token"));
 	}
 
 	@Test
 	public void testQueryWithErrorResponse() {
 
-		thrown.expect(AEMHeadlessClientException.class);
-		thrown.expectMessage("Field 'nonExisting' in type 'QueryType' is undefined");
-
-		String query = "{ nonExisting { items{  _path } } }";
-		headlessClientAuthor.runQuery(query);
+        String query = "{ nonExisting { items{  _path } } }";
+        AEMHeadlessClientException exception = assertThrows(AEMHeadlessClientException.class,
+            () -> headlessClientAuthor.runQuery(query));
+        
+        assertTrue(exception.getMessage().contains("Field 'nonExisting' in type 'QueryType' is undefined"));
 
 	}
 
 	@Test
 	public void testQueryWithParameters() {
 
-		String query = "query($author: String) {\n" + //
-				"  articleList(filter: {author: {_expressions: [{value: $author}]}}) {\n" + //
-				"    items{ \n" + //
-				"      _path\n" + //
-				"      author\n" + //
-				"    } \n" + //
-				"  }\n" + //
-				"}";
+		String query = "query($authorFirstName: String, $authorLastName: String) {\n" +
+            "articleList(filter: {\n" + 
+              "authorFragment: {\n" +
+                "firstName: {\n" +
+                  "_expressions: {\n" +
+                    "value: $authorFirstName\n" +
+                  "}\n" +
+                "}\n" +
+                "lastName: {\n" +
+                  "_expressions: {\n" +
+                    "value: $authorLastName\n" +
+                  "}\n" +
+                "}\n" +
+              "}\n" +
+            "}) {\n" +
+              "items {\n" +
+                "_path\n" +
+                "authorFragment {\n" +
+                  "firstName\n" +
+                  "lastName\n" +
+                "}\n" +
+              "}\n" +
+            "}\n" +
+          "}";          
 
 		Map<String, Object> vars = new HashMap<>();
-		vars.put("author", TEST_AUTHOR_IAN_PROVO);
+		vars.put("authorFirstName", TEST_AUTHOR_FIRST_NAME);
+        vars.put("authorLastName", TEST_AUTHOR_LAST_NAME);
 
 		GraphQlResponse response = headlessClientAuthor.runQuery(query, vars);
 		assertNull(response.getErrors());
@@ -140,15 +168,15 @@ public class GraphQlIT {
 		assertNotNull(articleList);
 		JsonNode articleListItems = articleList.get("items");
 		assertNotNull(articleListItems);
-		assertEquals(2, articleListItems.size());
-		assertEquals(TEST_AUTHOR_IAN_PROVO, articleListItems.get(0).get("author").asText());
-		assertEquals(TEST_AUTHOR_IAN_PROVO, articleListItems.get(1).get("author").asText());
+		assertEquals(1, articleListItems.size());
+		assertEquals(TEST_AUTHOR_FIRST_NAME, articleListItems.get(0).get("authorFragment").get("firstName").asText());
+        assertEquals(TEST_AUTHOR_LAST_NAME, articleListItems.get(0).get("authorFragment").get("lastName").asText());
 	}
 
 	@Test
 	public void testPersistedQuery() {
 
-		GraphQlResponse response = headlessClientAuthor.runPersistedQuery("/wknd/adventures-all");
+		GraphQlResponse response = headlessClientAuthor.runPersistedQuery("/wknd-shared/adventures-all");
 		assertNull(response.getErrors());
 		JsonNode responseData = response.getData();
 
@@ -170,12 +198,12 @@ public class GraphQlIT {
 	@Test
 	public void testListPersistedQueries() {
 
-		List<PersistedQuery> listPersistedQueries = headlessClientAuthor.listPersistedQueries("wknd");
+		List<PersistedQuery> listPersistedQueries = headlessClientAuthor.listPersistedQueries("wknd-shared");
 
 		assertFalse(listPersistedQueries.isEmpty());
 		PersistedQuery adventuresQuery = listPersistedQueries.stream()
-				.filter(p -> p.getShortPath().equals("/wknd/adventures-all")).findFirst().get();
-		assertEquals("/wknd/settings/graphql/persistentQueries/adventures-all", adventuresQuery.getLongPath());
+				.filter(p -> p.getShortPath().equals("/wknd-shared/adventures-all")).findFirst().get();
+		assertEquals("/wknd-shared/settings/graphql/persistentQueries/adventures-all", adventuresQuery.getLongPath());
 		assertThat(adventuresQuery.getQuery(), containsString("adventureList {"));
 	}
 
