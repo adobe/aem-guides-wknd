@@ -5,9 +5,13 @@
 #
 
 # Allowing CORS headers to be passed through to the publish tier to support headless and SPA Editor use cases.
+# https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#the_http_response_headers
 
-"access-control-request-headers"
-"access-control-request-method"
-"origin"
+"Access-Control-Allow-Origin"
+"Access-Control-Expose-Headers"
+"Access-Control-Max-Age"
+"Access-Control-Allow-Credentials"
+"Access-Control-Allow-Methods"
+"Access-Control-Allow-Headers"
 
 $include "./default_clientheaders.any"
