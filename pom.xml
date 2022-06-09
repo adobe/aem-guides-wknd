@@ -58,12 +58,11 @@
         <bnd.version>5.1.2</bnd.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <aem.sdk.api>2022.4.7138.20220427T075748Z-220400</aem.sdk.api>
+        <aem.sdk.api>2022.5.7575.20220530T152407Z-220401</aem.sdk.api>
         <componentGroupName>WKND Site</componentGroupName>
-        <core.wcm.components.version>2.19.0</core.wcm.components.version>
+        <core.wcm.components.version>2.19.2</core.wcm.components.version>
         <uber.jar.version>6.5.10</uber.jar.version>
-        <aemanalyser.version>1.3.0</aemanalyser.version>
-        <wknd-shared.version>1.2.0</wknd-shared.version>
+        <aemanalyser.version>1.4.10</aemanalyser.version>
     </properties>
 
     <organization>
@@ -81,9 +80,9 @@
     </developers>
 
      <scm>
-        <connection>scm:git:git@github.com:adobe/aem-guides-wknd.git</connection>
-        <developerConnection>scm:git:git@github.com:adobe/aem-guides-wknd.git</developerConnection>
-        <url>https://github.com/adobe/aem-guides-wknd/tree/master</url>
+        <connection>scm:git:https://github.com/adobe/aem-guides-wknd.git</connection>
+        <developerConnection>scm:git:https://github.com/adobe/aem-guides-wknd.git</developerConnection>
+        <url>https://github.com/adobe/aem-guides-wknd/tree/main</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -92,8 +91,9 @@
             <!-- Maven Release Plugin -->
             <plugin>
                 <artifactId>maven-release-plugin</artifactId>
-                <version>3.0-r1585899</version>
+                <version>3.0.0-M5</version>
                 <configuration>
+                    <scmCommentPrefix>[maven-scm] :</scmCommentPrefix>
                     <preparationGoals>clean install</preparationGoals>
                     <goals>deploy</goals>
                     <releaseProfiles>release</releaseProfiles>
@@ -104,7 +104,7 @@
                     <dependency>
                         <groupId>org.apache.maven.release</groupId>
                         <artifactId>maven-release-oddeven-policy</artifactId>
-                        <version>3.0-r1585899</version>
+                        <version>3.0.0-M5</version>
                     </dependency>
                 </dependencies>
             </plugin>
@@ -114,6 +114,23 @@
                 <artifactId>maven-source-plugin</artifactId>
                 <version>3.0.1</version>
                 <inherited>true</inherited>
+            </plugin>
+            <!-- Maven Javadocs Plugin -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>2.9.1</version>
+                <configuration>
+                    <source>8</source>
+                </configuration>
+                <executions>
+                    <execution>
+                    <id>attach-javadocs</id>
+                    <goals>
+                        <goal>jar</goal>
+                    </goals>
+                    </execution>
+                </executions>
             </plugin>
             <!-- Maven Enforcer Plugin -->
             <plugin>
@@ -146,18 +163,6 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
-                </configuration>
-            </plugin>
-             <!-- Staging Maven Plugin -->
-            <plugin>
-                <groupId>org.sonatype.plugins</groupId>
-                <artifactId>nexus-staging-maven-plugin</artifactId>
-                <extensions>true</extensions>
-                <configuration>
-                    <serverId>ossrh</serverId>
-                    <nexusUrl>https://oss.sonatype.org/</nexusUrl>
-                    <!-- manually release in https://oss.sonatype.org/#stagingRepositories after the Maven release build -->
-                    <autoReleaseAfterClose>false</autoReleaseAfterClose>
                 </configuration>
             </plugin>
         </plugins>
@@ -435,11 +440,6 @@ Bundle-DocURL:
                         </lifecycleMappingMetadata>
                     </configuration>
                 </plugin>
-                <plugin>
-                    <groupId>org.sonatype.plugins</groupId>
-                    <artifactId>nexus-staging-maven-plugin</artifactId>
-                    <version>1.6.8</version>
-                </plugin>
             </plugins>
         </pluginManagement>
     </build>
@@ -643,6 +643,7 @@ Bundle-DocURL:
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-gpg-plugin</artifactId>
+                        <version>3.0.1</version>
                         <executions>
                             <execution>
                                 <id>sign-artifacts</id>
@@ -650,24 +651,29 @@ Bundle-DocURL:
                                 <goals>
                                     <goal>sign</goal>
                                 </goals>
+                                <configuration>
+                                    <gpgArguments>
+                                        <arg>--pinentry-mode</arg>
+                                        <arg>loopback</arg>
+                                    </gpgArguments>
+                                </configuration>
                             </execution>
                         </executions>
                     </plugin>
+                    <plugin>
+                        <groupId>org.sonatype.plugins</groupId>
+                        <artifactId>nexus-staging-maven-plugin</artifactId>
+                        <version>1.6.8</version>
+                        <extensions>true</extensions>
+                        <configuration>
+                            <serverId>ossrh</serverId>
+                            <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+                            <!-- manually release in https://oss.sonatype.org/#stagingRepositories after the Maven release build -->
+                            <autoReleaseAfterClose>false</autoReleaseAfterClose>
+                        </configuration>
+                    </plugin>
                 </plugins>
             </build>
-        </profile>
-         <profile>
-            <id>ossrh</id>
-            <activation>
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <distributionManagement>
-                <!-- the nexus-staging-maven-plugin only needs a snapshot repository -->
-                <snapshotRepository>
-                     <id>ossrh</id>
-                    <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-                </snapshotRepository>
-            </distributionManagement>
         </profile>
         <profile>
             <id>cm-java-11</id>
@@ -787,4 +793,15 @@ Bundle-DocURL:
         </dependencies>
     </dependencyManagement>
 
+    <distributionManagement>
+        <repository>
+            <id>${releaseRepository-Id}</id>
+            <url>${releaseRepository-URL}</url>
+        </repository>
+        <snapshotRepository>
+            <id>${snapshotRepository-Id}</id>
+            <url>${snapshotRepository-URL}</url>
+            <uniqueVersion>false</uniqueVersion>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
