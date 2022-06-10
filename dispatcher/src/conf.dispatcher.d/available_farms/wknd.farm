@@ -98,6 +98,7 @@
 		# requests to the cached resource, the stored headers are added to the
 		# response.
 		# Note, that file globbing characters are not allowed here.
+		# CORS HTTP response headers: https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#the_http_response_headers
 		/headers {
 			"Cache-Control"
 			"Content-Disposition"
