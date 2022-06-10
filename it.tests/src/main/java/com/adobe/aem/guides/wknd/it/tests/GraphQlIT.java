@@ -49,10 +49,12 @@ import com.fasterxml.jackson.databind.JsonNode;
 public class GraphQlIT {
 
 	private static final String TEST_AUTHOR_FIRST_NAME = "Ian";
-    private static final String TEST_AUTHOR_LAST_NAME = "Provo";
-    private static final String WKND_SHARED_GRAPHQL_ENDPOINT = "/content/_cq_graphql/wknd-shared/endpoint.json";
+  
+  private static final String TEST_AUTHOR_LAST_NAME = "Provo";
+  
+  private static final String WKND_SHARED_GRAPHQL_ENDPOINT = "/content/_cq_graphql/wknd-shared/endpoint.json";
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(GraphQlIT.class);
+  private static final Logger LOGGER = LoggerFactory.getLogger(GraphQlIT.class);
 
 	@ClassRule
 	public static final CQAuthorPublishClassRule cqBaseClassRule = new CQAuthorPublishClassRule();
