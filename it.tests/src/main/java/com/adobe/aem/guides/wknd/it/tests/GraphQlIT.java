@@ -21,8 +21,6 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
-import static org.junit.Assert.assertThrows;
-import static org.junit.Assert.assertTrue;
 
 import java.net.URISyntaxException;
 import java.util.HashMap;
@@ -32,7 +30,9 @@ import java.util.Map;
 import org.apache.sling.testing.clients.instance.InstanceConfiguration;
 import org.junit.BeforeClass;
 import org.junit.ClassRule;
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.rules.ExpectedException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -50,11 +50,14 @@ public class GraphQlIT {
 
 	private static final String TEST_AUTHOR_FIRST_NAME = "Ian";
   
-  private static final String TEST_AUTHOR_LAST_NAME = "Provo";
+    private static final String TEST_AUTHOR_LAST_NAME = "Provo";
   
-  private static final String WKND_SHARED_GRAPHQL_ENDPOINT = "/content/_cq_graphql/wknd-shared/endpoint.json";
+    private static final String WKND_SHARED_GRAPHQL_ENDPOINT = "/content/_cq_graphql/wknd-shared/endpoint.json";
 
-  private static final Logger LOGGER = LoggerFactory.getLogger(GraphQlIT.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(GraphQlIT.class);
+
+    @Rule
+	public ExpectedException thrown = ExpectedException.none();
 
 	@ClassRule
 	public static final CQAuthorPublishClassRule cqBaseClassRule = new CQAuthorPublishClassRule();
@@ -107,25 +110,27 @@ public class GraphQlIT {
 
 	@Test
 	public void testQueryWithSyntaxError() {
+
+        thrown.expect(AEMHeadlessClientException.class);
+		thrown.expectMessage("Invalid Syntax : offending token");
+
         String query = "{\n" + //
 				"  articleList{\n" + //
 				"    items{ \n" + //
 				"      _path\n" + //
 				"      author\n";
 
-        AEMHeadlessClientException exception = assertThrows(AEMHeadlessClientException.class, 
-            () -> headlessClientAuthor.runQuery(query));
-        assertTrue(exception.getMessage().contains("Invalid Syntax : offending token"));
+        headlessClientAuthor.runQuery(query);
 	}
 
 	@Test
 	public void testQueryWithErrorResponse() {
 
-        String query = "{ nonExisting { items{  _path } } }";
-        AEMHeadlessClientException exception = assertThrows(AEMHeadlessClientException.class,
-            () -> headlessClientAuthor.runQuery(query));
-        
-        assertTrue(exception.getMessage().contains("Field 'nonExisting' in type 'QueryType' is undefined"));
+        thrown.expect(AEMHeadlessClientException.class);
+		thrown.expectMessage("Field 'nonExisting' in type 'QueryType' is undefined");
+
+		String query = "{ nonExisting { items{  _path } } }";
+		headlessClientAuthor.runQuery(query);
 
 	}
 
