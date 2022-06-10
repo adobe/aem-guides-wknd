@@ -1,0 +1,4 @@
+{
+    "scheduler.name": "default",
+    "scheduler.expression": "0 0 0 * * ?"
+}

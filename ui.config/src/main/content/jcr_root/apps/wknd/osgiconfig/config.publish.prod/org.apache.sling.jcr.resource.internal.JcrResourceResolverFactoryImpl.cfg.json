@@ -1,5 +1,3 @@
 {
-  "resource.resolver.mapping": [
-    "/content/wknd/</", "/:/"
-  ]
+  "resource.resolver.map.location": "/etc/map.publish"
 }

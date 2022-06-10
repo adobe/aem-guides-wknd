@@ -4,6 +4,7 @@
     <jcr:content
         cq:lastModified="{Date}2020-07-07T18:05:01.646-07:00"
         cq:lastModifiedBy="admin"
+        cq:robotsTags="[noindex]"
         cq:template="/conf/wknd/settings/wcm/templates/content-page-template"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"

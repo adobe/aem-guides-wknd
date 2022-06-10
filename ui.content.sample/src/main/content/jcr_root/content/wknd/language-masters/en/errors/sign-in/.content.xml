@@ -4,6 +4,7 @@
     <jcr:content
         cq:lastModified="{Date}2020-11-13T13:19:57.753-08:00"
         cq:lastModifiedBy="admin"
+        cq:robotsTags="[noindex]"
         cq:template="/conf/wknd/settings/wcm/templates/content-page-template"
         jcr:primaryType="cq:PageContent"
         jcr:title="Sign In"
