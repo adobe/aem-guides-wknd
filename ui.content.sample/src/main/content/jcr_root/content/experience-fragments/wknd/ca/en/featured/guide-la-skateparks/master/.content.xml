@@ -46,7 +46,7 @@
                     sling:resourceType="wknd/components/teaser"
                     actionsEnabled="true"
                     descriptionFromPage="false"
-                    fileReference="/content/dam/wknd/en/magazine/la-skateparks/article_01_hero.png"
+                    fileReference="/content/dam/wknd-shared/en/magazine/la-skateparks/article_01_hero.png"
                     id="featured-teaser"
                     pretitle="Featured"
                     textIsRich="true"

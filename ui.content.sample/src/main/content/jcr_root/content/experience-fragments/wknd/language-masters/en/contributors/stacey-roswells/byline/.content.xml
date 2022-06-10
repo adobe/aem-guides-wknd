@@ -35,7 +35,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/byline"
-                    fileReference="/content/dam/wknd/en/contributors/stacey-roswells.jpg"
+                    fileReference="/content/dam/wknd-shared/en/contributors/stacey-roswells.jpg"
                     name="Stacey Roswells"
                     occupations="[Photographer,Artist,Traveler]">
                     <cq:responsive jcr:primaryType="nt:unstructured">

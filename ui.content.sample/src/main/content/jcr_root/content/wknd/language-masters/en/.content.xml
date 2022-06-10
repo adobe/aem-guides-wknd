@@ -5,7 +5,7 @@
     <jcr:content
         cq:lastModified="{Date}2020-09-30T17:28:29.020-07:00"
         cq:lastModifiedBy="admin"
-        cq:tags="[wknd:customer-journey/attract]"
+        cq:tags="[wknd-shared:customer-journey/attract]"
         cq:template="/conf/wknd/settings/wcm/templates/landing-page-template"
         jcr:description="WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world."
         jcr:primaryType="cq:PageContent"
@@ -45,7 +45,7 @@
                         sling:resourceType="wknd/components/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="true"
-                        fileReference="/content/dam/wknd/en/adventures/riverside-camping-australia/AdobeStock_216674449.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/riverside-camping-australia/adobestock-216674449.jpeg"
                         textIsRich="true"
                         titleFromPage="false">
                         <actions jcr:primaryType="nt:unstructured">
@@ -64,7 +64,7 @@
                         sling:resourceType="wknd/components/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="true"
-                        fileReference="/content/dam/wknd/en/magazine/san-diego-surf-spots/beach-walking.jpg"
+                        fileReference="/content/dam/wknd-shared/en/magazine/san-diego-surf-spots/beach-walking.jpg"
                         textIsRich="true"
                         titleFromPage="true">
                         <actions jcr:primaryType="nt:unstructured">
@@ -86,7 +86,7 @@
                         sling:resourceType="wknd/components/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="false"
-                        fileReference="/content/dam/wknd/en/adventures/downhill-skiing-wyoming/AdobeStock_185234795.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/downhill-skiing-wyoming/adobestock-185234795.jpeg"
                         textIsRich="true"
                         titleFromPage="true">
                         <actions jcr:primaryType="nt:unstructured">
@@ -118,7 +118,7 @@
                         sling:resourceType="wknd/components/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="true"
-                        fileReference="/content/dam/wknd/en/magazine/western-australia/adobestock_156407519.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/magazine/western-australia/adobestock-156407519.jpeg"
                         id="featured-teaser-home"
                         pretitle="Featured Article"
                         textIsRich="true"
@@ -195,7 +195,7 @@
                     sling:resourceType="wknd/components/teaser"
                     actionsEnabled="true"
                     descriptionFromPage="true"
-                    fileReference="/content/dam/wknd/en/adventures/climbing-new-zealand/AdobeStock_140634652.jpeg"
+                    fileReference="/content/dam/wknd-shared/en/adventures/climbing-new-zealand/adobestock-140634652.jpeg"
                     textIsRich="true"
                     titleFromPage="true">
                     <actions jcr:primaryType="nt:unstructured">

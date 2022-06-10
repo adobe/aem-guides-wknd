@@ -43,7 +43,7 @@
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/image"
-                    fileReference="/content/dam/wknd/en/magazine/la-skateparks/article_01_hero.png"/>
+                    fileReference="/content/dam/wknd-shared/en/magazine/la-skateparks/article_01_hero.png"/>
                 <container
                     cq:lastRolledout="{Date}2020-09-30T17:38:07.010-07:00"
                     cq:lastRolledoutBy="admin"
@@ -89,7 +89,7 @@
                         sling:resourceType="wknd/components/contentfragment"
                         displayMode="singleText"
                         elementNames="main"
-                        fragmentPath="/content/dam/wknd/en/magazine/la-skateparks/ultimate-guide-to-la-skateparks"
+                        fragmentPath="/content/dam/wknd-shared/en/magazine/la-skateparks/ultimate-guide-to-la-skateparks"
                         paragraphScope="all"
                         text=""
                         variationName="master">
@@ -142,7 +142,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wknd/components/image"
-                                fileReference="/content/dam/wknd/en/magazine/la-skateparks/article_01_picture_01.png"/>
+                                fileReference="/content/dam/wknd-shared/en/magazine/la-skateparks/article_01_picture_01.png"/>
                         </par2>
                         <par3
                             cq:lastRolledout="{Date}2020-09-30T17:38:07.089-07:00"
@@ -193,7 +193,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wknd/components/image"
-                                fileReference="/content/dam/wknd/en/magazine/la-skateparks/robson-hatsukami-morgan-280159.jpg"/>
+                                fileReference="/content/dam/wknd-shared/en/magazine/la-skateparks/robson-hatsukami-morgan-280159.jpg"/>
                         </par5>
                     </contentfragment>
                     <experiencefragment
@@ -267,7 +267,7 @@
                         sling:resourceType="wknd/components/download"
                         actionText="Download PDF"
                         descriptionFromAsset="false"
-                        fileReference="/content/dam/wknd/en/magazine/la-skateparks/UltimateGuidetoLASkateParks.pdf"
+                        fileReference="/content/dam/wknd-shared/en/magazine/la-skateparks/ultimateguidetolaskateparks.pdf"
                         inline="false"
                         textIsRich="true"
                         titleFromAsset="false"/>

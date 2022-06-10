@@ -24,6 +24,7 @@ import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertThrows;
 import static org.junit.Assert.assertTrue;
 
+import java.net.URISyntaxException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -32,6 +33,8 @@ import org.apache.sling.testing.clients.instance.InstanceConfiguration;
 import org.junit.BeforeClass;
 import org.junit.ClassRule;
 import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import com.adobe.aem.graphql.client.AEMHeadlessClient;
 import com.adobe.aem.graphql.client.AEMHeadlessClientException;
@@ -46,7 +49,12 @@ import com.fasterxml.jackson.databind.JsonNode;
 public class GraphQlIT {
 
 	private static final String TEST_AUTHOR_FIRST_NAME = "Ian";
-    private static final String TEST_AUTHOR_LAST_NAME = "Provo";
+  
+  private static final String TEST_AUTHOR_LAST_NAME = "Provo";
+  
+  private static final String WKND_SHARED_GRAPHQL_ENDPOINT = "/content/_cq_graphql/wknd-shared/endpoint.json";
+
+  private static final Logger LOGGER = LoggerFactory.getLogger(GraphQlIT.class);
 
 	@ClassRule
 	public static final CQAuthorPublishClassRule cqBaseClassRule = new CQAuthorPublishClassRule();
@@ -55,12 +63,17 @@ public class GraphQlIT {
 
 	@BeforeClass
 	public static void beforeClass() {
-		headlessClientAuthor = getHeadlessClient(cqBaseClassRule.authorRule.getConfiguration());
+		try {
+            headlessClientAuthor = getHeadlessClient(cqBaseClassRule.authorRule.getConfiguration());
+        } catch (URISyntaxException e) {
+            LOGGER.error("Error attempting to initialize headless client", e);
+        }
 	}
 
-	private static AEMHeadlessClient getHeadlessClient(InstanceConfiguration instanceConfig) {
+	private static AEMHeadlessClient getHeadlessClient(InstanceConfiguration instanceConfig) throws URISyntaxException {
+        final String graphQLEndpoint = instanceConfig.getUrl() + WKND_SHARED_GRAPHQL_ENDPOINT;
 		return AEMHeadlessClient.builder() //
-				.endpoint(instanceConfig.getUrl()) //
+				.endpoint(graphQLEndpoint) //
 				.basicAuth(instanceConfig.getAdminUser(), instanceConfig.getAdminPassword()).build();
 	}
 
@@ -165,7 +178,7 @@ public class GraphQlIT {
 	@Test
 	public void testPersistedQuery() {
 
-		GraphQlResponse response = headlessClientAuthor.runPersistedQuery("/wknd/adventures-all");
+		GraphQlResponse response = headlessClientAuthor.runPersistedQuery("/wknd-shared/adventures-all");
 		assertNull(response.getErrors());
 		JsonNode responseData = response.getData();
 
@@ -177,22 +190,22 @@ public class GraphQlIT {
 		assertEquals(16, adventureListItems.size());
 		JsonNode firstAdvantureItem = adventureListItems.get(0);
 		assertNotNull(firstAdvantureItem.get("_path"));
-		assertNotNull(firstAdvantureItem.get("adventureTitle"));
-		assertNotNull(firstAdvantureItem.get("adventurePrice"));
-		assertNotNull(firstAdvantureItem.get("adventureTripLength"));
-		assertNotNull(firstAdvantureItem.get("adventurePrimaryImage"));
+		assertNotNull(firstAdvantureItem.get("title"));
+		assertNotNull(firstAdvantureItem.get("price"));
+		assertNotNull(firstAdvantureItem.get("tripLength"));
+		assertNotNull(firstAdvantureItem.get("primaryImage"));
 
 	}
 
 	@Test
 	public void testListPersistedQueries() {
 
-		List<PersistedQuery> listPersistedQueries = headlessClientAuthor.listPersistedQueries("wknd");
+		List<PersistedQuery> listPersistedQueries = headlessClientAuthor.listPersistedQueries("wknd-shared");
 
 		assertFalse(listPersistedQueries.isEmpty());
 		PersistedQuery adventuresQuery = listPersistedQueries.stream()
-				.filter(p -> p.getShortPath().equals("/wknd/adventures-all")).findFirst().get();
-		assertEquals("/wknd/settings/graphql/persistentQueries/adventures-all", adventuresQuery.getLongPath());
+				.filter(p -> p.getShortPath().equals("/wknd-shared/adventures-all")).findFirst().get();
+		assertEquals("/wknd-shared/settings/graphql/persistentQueries/adventures-all", adventuresQuery.getLongPath());
 		assertThat(adventuresQuery.getQuery(), containsString("adventureList {"));
 	}
 
