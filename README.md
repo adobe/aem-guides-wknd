@@ -15,9 +15,9 @@ View the live demo at [https://www.wknd.site/](https://www.wknd.site/)
 
 A corresponding [tutorial is available](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) where you can learn how to implement a website using the latest standards and technologies in AEM Sites.
 
-## How to use
+## How to use/install
 
-## AEM as a Cloud Service
+### AEM as a Cloud Service
 
 To deploy WKND to AEM as a Cloud Service, this project's source code must be deployed to AEM via Cloud Manager. 
 
@@ -27,7 +27,7 @@ To deploy WKND to AEM as a Cloud Service, this project's source code must be dep
 4. Run the Cloud Manager pipeline
 5. WKND will not be deployed to the target AEM as a Cloud Service environment
 
-## Local development (AEM 6.5 or AEM SDK)
+### Local development (AEM 6.5 or AEM SDK)
 
 Pre-compiled AEM packages are available under the latest release for easy installation on local environments using [CRX Package Manager](http://localhost:4502/crx/packmgr/index.jsp)
 
