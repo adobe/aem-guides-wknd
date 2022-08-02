@@ -17,10 +17,25 @@ A corresponding [tutorial is available](https://experienceleague.adobe.com/docs/
 
 ## How to use
 
+## AEM as a Cloud Service
+
+To deploy WKND to AEM as a Cloud Service, this project's source code must be deployed to AEM via Cloud Manager. 
+
+1. Clone this Git repository
+2. Push the `main` branch to your Cloud Manager's Git repository
+3. Ensure a deployment pipline is configured to deploy the target branch/repo to the desired AEM as a Cloud Service env
+4. Run the Cloud Manager pipeline
+5. WKND will not be deployed to the target AEM as a Cloud Service environment
+
+## Local development (AEM 6.5 or AEM SDK)
+
 Pre-compiled AEM packages are available under the latest release for easy installation on local environments using [CRX Package Manager](http://localhost:4502/crx/packmgr/index.jsp)
 
 * [`aem-guides-wknd.all-x.x.x.zip`](https://github.com/adobe/aem-guides-wknd/releases/latest): AEM as a Cloud Service, default build
 * [`aem-guides-wknd.all-x.x.x-classic.zip`](https://github.com/adobe/aem-guides-wknd/releases/latest): AEM 6.5.x+
+
+
+
 
 ## How to build
 
