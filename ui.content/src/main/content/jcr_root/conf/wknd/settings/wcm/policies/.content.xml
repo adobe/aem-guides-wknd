@@ -468,6 +468,7 @@
                     altValueFromDAM="true"
                     disableLazyLoading="false"
                     displayPopupTitle="true"
+                    enableAssetDelivery="true"
                     isDecorative="false"
                     jpegQuality="{Long}60"
                     titleValueFromDAM="true"
