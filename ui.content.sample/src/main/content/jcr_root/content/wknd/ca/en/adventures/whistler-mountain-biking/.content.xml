@@ -6,7 +6,7 @@
         cq:lastModifiedBy="admin"
         cq:lastRolledout="{Date}2020-11-08T12:48:39.022-08:00"
         cq:lastRolledoutBy="admin"
-        cq:tags="[wknd:customer-journey/engage,wknd:customer-journey/convert,wknd:region/nam/canada,wknd:season/summer,wknd:activity/cycling]"
+        cq:tags="[wknd-shared:customer-journey/engage,wknd-shared:customer-journey/convert,wknd-shared:region/nam/canada,wknd-shared:season/summer,wknd-shared:activity/cycling]"
         cq:template="/conf/wknd/settings/wcm/templates/adventure-page-template"
         jcr:description="Whistler is often considered North America’s preeminent mountain bike destination.  Let us show you why."
         jcr:isCheckedOut="{Boolean}true"
@@ -70,7 +70,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd/en/adventures/whistler-mountain-biking/AdobeStock_122578479.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/whistler-mountain-biking/adobestock-122578479.jpeg"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                     <item_1572028926848
@@ -83,7 +83,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd/en/activities/cycling/mountain-biking.jpg"
+                        fileReference="/content/dam/wknd-shared/en/activities/cycling/mountain-biking.jpg"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                     <image
@@ -98,7 +98,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd/en/adventures/whistler-mountain-biking/AdobeStock_122615840.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/whistler-mountain-biking/adobestock-122615840.jpeg"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                 </carousel>
@@ -174,8 +174,8 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="multi"
-                            elementNames="[adventureActivity,adventureType,adventureTripLength,adventureGroupSize,adventureDifficulty,adventurePrice]"
-                            fragmentPath="/content/dam/wknd/en/adventures/whistler-mountain-biking/whistler-mountain-biking"
+                            elementNames="[activity,adventureType,tripLength,groupSize,difficulty,price]"
+                            fragmentPath="/content/dam/wknd-shared/en/adventures/whistler-mountain-biking/whistler-mountain-biking"
                             text="Whistler Mountain Biking Activity Cycling Adventure Type Overnight Trip Trip Length 2 Days Group Size 2-3 Difficulty Advanced Price $1500"
                             variationName="master">
                             <cq:responsive
@@ -313,8 +313,8 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
-                            elementNames="adventureDescription"
-                            fragmentPath="/content/dam/wknd/en/adventures/whistler-mountain-biking/whistler-mountain-biking"
+                            elementNames="description"
+                            fragmentPath="/content/dam/wknd-shared/en/adventures/whistler-mountain-biking/whistler-mountain-biking"
                             paragraphScope="range"
                             text="Whistler Mountain Biking Explore Whistler's Epic Singletrack Trails Whistler is often considered North America’s preeminent mountain bike destination. Let us show you why Whistler has earned that designation by guiding you through the hidden spider web of the most epic single-track you've ever conquered. Our tours are primarily for hardcore moutain biking enthusiasts but can be specialized to the interests and abilities of each group. Ride fast rolling trails or attempt some of the world famous logs and ladders."
                             variationName="master">
@@ -336,7 +336,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd/en/activities/cycling/forest-trail.jpg"
+                                    fileReference="/content/dam/wknd-shared/en/activities/cycling/forest-trail.jpg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par2>
@@ -358,7 +358,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd/en/adventures/whistler-mountain-biking/AdobeStock_122618183.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/whistler-mountain-biking/adobestock-122618183.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par1>
@@ -373,8 +373,8 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
-                            elementNames="adventureItinerary"
-                            fragmentPath="/content/dam/wknd/en/adventures/whistler-mountain-biking/whistler-mountain-biking"
+                            elementNames="itinerary"
+                            fragmentPath="/content/dam/wknd-shared/en/adventures/whistler-mountain-biking/whistler-mountain-biking"
                             paragraphHeadings="true"
                             paragraphScope="range"
                             variationName="master">
@@ -402,7 +402,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd/en/adventures/whistler-mountain-biking/AdobeStock_257501643.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/whistler-mountain-biking/adobestock-257501643.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par1>
@@ -430,7 +430,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd/en/adventures/whistler-mountain-biking/AdobeStock_277761435.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/whistler-mountain-biking/adobestock-277761435.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par3>
@@ -445,8 +445,8 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
-                            elementNames="adventureGearList"
-                            fragmentPath="/content/dam/wknd/en/adventures/whistler-mountain-biking/whistler-mountain-biking"
+                            elementNames="gearList"
+                            fragmentPath="/content/dam/wknd-shared/en/adventures/whistler-mountain-biking/whistler-mountain-biking"
                             paragraphScope="range"
                             variationName="master">
                             <par3
@@ -479,7 +479,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd/en/activities/cycling/sequoiaside.jpg"
+                                    fileReference="/content/dam/wknd-shared/en/activities/cycling/sequoiaside.jpg"
                                     isDecorative="false"
                                     titleValueFromDAM="true">
                                     <cq:responsive
@@ -508,7 +508,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd/en/activities/cycling/blast.jpg"
+                                    fileReference="/content/dam/wknd-shared/en/activities/cycling/blast.jpg"
                                     isDecorative="false"
                                     titleValueFromDAM="true">
                                     <cq:responsive
@@ -537,7 +537,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd/en/activities/cycling/mx121.jpg"
+                                    fileReference="/content/dam/wknd-shared/en/activities/cycling/mx121.jpg"
                                     isDecorative="false"
                                     titleValueFromDAM="true">
                                     <cq:responsive

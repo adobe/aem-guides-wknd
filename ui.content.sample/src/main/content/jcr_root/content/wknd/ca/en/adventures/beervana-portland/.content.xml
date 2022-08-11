@@ -6,7 +6,7 @@
         cq:lastModifiedBy="admin"
         cq:lastRolledout="{Date}2020-11-08T12:48:39.022-08:00"
         cq:lastRolledoutBy="admin"
-        cq:tags="[wknd:customer-journey/engage,wknd:customer-journey/convert,wknd:region/nam/united-states,wknd:season/summer,wknd:activity/social,wknd:season/spring,wknd:season/fall]"
+        cq:tags="[wknd-shared:customer-journey/engage,wknd-shared:customer-journey/convert,wknd-shared:region/nam/united-states,wknd-shared:season/summer,wknd-shared:activity/social,wknd-shared:season/spring,wknd-shared:season/fall]"
         cq:template="/conf/wknd/settings/wcm/templates/adventure-page-template"
         jcr:description="This adventure will provide insider access to spectacular local breweries that define the taste and experience of Oregon beer culture and tradition. "
         jcr:isCheckedOut="{Boolean}true"
@@ -72,7 +72,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd/en/adventures/beervana-portland/AdobeStock_200192344.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/beervana-portland/adobestock-200192344.jpeg"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                     <item_1572022899409
@@ -85,7 +85,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd/en/adventures/beervana-portland/AdobeStock_209250305.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/beervana-portland/adobestock-209250305.jpeg"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                 </carousel>
@@ -161,8 +161,8 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="multi"
-                            elementNames="[adventureActivity,adventureType,adventureTripLength,adventureGroupSize,adventureDifficulty,adventurePrice]"
-                            fragmentPath="/content/dam/wknd/en/adventures/beervana-portland/beervana-in-portland"
+                            elementNames="[activity,adventureType,tripLength,groupSize,difficulty,price]"
+                            fragmentPath="/content/dam/wknd-shared/en/adventures/beervana-portland/beervana-in-portland"
                             text="Beervana in Portland Activity Social Adventure Type Day Trip Trip Length 1 Day Group Size 6-8 Difficulty Beginner Price $300 USD"
                             variationName="master">
                             <cq:responsive
@@ -300,8 +300,8 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
-                            elementNames="adventureDescription"
-                            fragmentPath="/content/dam/wknd/en/adventures/beervana-portland/beervana-in-portland"
+                            elementNames="description"
+                            fragmentPath="/content/dam/wknd-shared/en/adventures/beervana-portland/beervana-in-portland"
                             paragraphScope="all"
                             text="Beervana in Portland Experience the best craft breweries in the Pacific Northwest. Portland is often referred to as Beervana, and it’s easy to understand why once you get a sip of their delicious ales. This adventure will provide insider access to spectacular local breweries that define the taste and experience of Oregon beer culture and tradition. Our Brewery Tour takes you on a beer tasting adventure in hip and trendy Pearl District through Historic Old Town District in Portland, Oregon. Experience Portland’s vibrant history while you sample the best brews the city has to offer."
                             variationName="master">
@@ -323,7 +323,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd/en/adventures/beervana-portland/adam-wilson-642203-unsplash.jpg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/beervana-portland/adam-wilson-642203-unsplash.jpg"
                                     imageCrop="0,170,853,1023"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
@@ -345,8 +345,8 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
-                            elementNames="adventureItinerary"
-                            fragmentPath="/content/dam/wknd/en/adventures/beervana-portland/beervana-in-portland"
+                            elementNames="itinerary"
+                            fragmentPath="/content/dam/wknd-shared/en/adventures/beervana-portland/beervana-in-portland"
                             paragraphScope="all"
                             text="Beervana in Portland We will start with the education first and introduce you to the ingredients in beer and how they've contributed to the rise of craft beer in the Pacific Northwest. We'll walk you through the tasting process so you can better enjoy beers and explore new styles. Walt Brewing and Barrel House Our first stop for a tour and lunch will be Walt Brewing and Barrel House. Walt Brewing and Barrel House has become Oregon's premier Belgian-style brewpub and one of the fastest growing craft breweries in the country. Walt Brewing and Barrel House is growing by leaps and bounds, with six pubs located throughout the Pacific Northwest, and an impressive brand new production facility in Seattle. Amendola Brewing Company On our next stop in the hip Pearl District location on Portland, you'll get VIP access behind the scenes to see the brewing process and how the ingredients work together to produce the liquid love at Amendola Brewing Company. Amendola's is known for it's tasty full-bodied stouts and porters that feel like a feast in and of itself. Gordon's Hop and Scotch By the 3rd stop, let's get ready for some eats! Food paired with beer is the best way to enjoy both food and beer. Gordon's Hops and Scotch will be a great venue where you can connect with your new beer connoisseur friends, play some cornhole and bocce ball, all while sipping on some of the city's finest suds and snacks."
                             variationName="master">
@@ -368,7 +368,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd/en/adventures/beervana-portland/AdobeStock_279232449.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/beervana-portland/adobestock-279232449.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par1>
@@ -389,8 +389,8 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
-                            elementNames="adventureGearList"
-                            fragmentPath="/content/dam/wknd/en/adventures/beervana-portland/beervana-in-portland"
+                            elementNames="gearList"
+                            fragmentPath="/content/dam/wknd-shared/en/adventures/beervana-portland/beervana-in-portland"
                             paragraphScope="all"
                             text="Beervana in Portland First and foremost, bring your thirst! (Both for beer and for knowledge about the history and craft of beermaking) Depending on the time of year, it may get chilly and/or wet so dress accordingly. Camera to capture great memories"
                             variationName="master">

@@ -4,7 +4,7 @@
     <jcr:content
         cq:lastModified="{Date}2020-07-08T18:16:53.901-07:00"
         cq:lastModifiedBy="admin"
-        cq:tags="[wknd:customer-journey/engage,wknd:customer-journey/convert,wknd:activity/cycling,wknd:activity/social,wknd:season/summer,wknd:region/emea/italy]"
+        cq:tags="[wknd-shared:customer-journey/engage,wknd-shared:customer-journey/convert,wknd-shared:activity/cycling,wknd-shared:activity/social,wknd-shared:season/summer,wknd-shared:region/emea/italy]"
         cq:template="/conf/wknd/settings/wcm/templates/adventure-page-template"
         jcr:description="Visiting Tuscany on a bicycle is about experiencing the old world charm of Italy on your own terms."
         jcr:isCheckedOut="{Boolean}true"
@@ -55,7 +55,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd/en/adventures/cycling-tuscany/AdobeStock_59459597.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/cycling-tuscany/adobestock-59459597.jpeg"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                     <item_1572023765179
@@ -65,7 +65,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd/en/adventures/cycling-tuscany/AdobeStock_65986215.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/cycling-tuscany/adobestock-65986215.jpeg"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
                     <item_1572023766858
@@ -75,7 +75,7 @@
                         sling:resourceType="wknd/components/image"
                         altValueFromDAM="true"
                         displayPopupTitle="true"
-                        fileReference="/content/dam/wknd/en/adventures/cycling-tuscany/AdobeStock_272493830.jpeg"
+                        fileReference="/content/dam/wknd-shared/en/adventures/cycling-tuscany/adobestock-272493830.jpeg"
                         imageCrop="0,296,1278,851"
                         isDecorative="false"
                         titleValueFromDAM="true"/>
@@ -127,8 +127,8 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="multi"
-                            elementNames="[adventureActivity,adventureType,adventureTripLength,adventureGroupSize,adventureDifficulty,adventurePrice]"
-                            fragmentPath="/content/dam/wknd/en/adventures/cycling-tuscany/cycling-tuscany"
+                            elementNames="[activity,adventureType,tripLength,groupSize,difficulty,price]"
+                            fragmentPath="/content/dam/wknd-shared/en/adventures/cycling-tuscany/cycling-tuscany"
                             text="Cycling Tuscany Activity Cycling Adventure Type Overnight Trip Trip Length 4 Days Group Size 3-4 Difficulty Intermediate Price $4500 USD"
                             variationName="master">
                             <cq:responsive jcr:primaryType="nt:unstructured">
@@ -211,8 +211,8 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
-                            elementNames="adventureDescription"
-                            fragmentPath="/content/dam/wknd/en/adventures/cycling-tuscany/cycling-tuscany"
+                            elementNames="description"
+                            fragmentPath="/content/dam/wknd-shared/en/adventures/cycling-tuscany/cycling-tuscany"
                             paragraphScope="range"
                             text="Cycling Tuscany Experience Tuscany by Bicycle Visiting Tuscany on a bicycle is about experiencing the old world charm of Italy on your own terms. Your efforts on the climbs of Italy's rolling hills during this tour will be rewarded with sunny Mediterranean landscapes and unmatched Italian hospitality. Tuscany’s natural wonders have always been a well of inspiration for arts and culture. Find out why as you explore the Italian countryside and coastline on bicycle."
                             variationName="master">
@@ -231,7 +231,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd/en/adventures/cycling-tuscany/AdobeStock_261097343.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/cycling-tuscany/adobestock-261097343.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par1>
@@ -243,8 +243,8 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
-                            elementNames="adventureItinerary"
-                            fragmentPath="/content/dam/wknd/en/adventures/cycling-tuscany/cycling-tuscany"
+                            elementNames="itinerary"
+                            fragmentPath="/content/dam/wknd-shared/en/adventures/cycling-tuscany/cycling-tuscany"
                             paragraphScope="range"
                             text="Nicaragua Surf Trip Day 1 Our adventure begins! In est ante in nibh. Phasellus faucibus scelerisque eleifend donec. Ultricies mi quis hendrerit dolor magna eget. Aliquam id diam maecenas ultricies mi eget mauris pharetra. Ut aliquam purus sit amet luctus venenatis. Day 2 Forrest hike to secluded surf spot Ut sem viverra aliquet eget sit. Urna et pharetra pharetra massa massa ultricies. Sed blandit libero volutpat sed cras ornare. Nascetur ridiculus mus mauris vitae ultricies leo integer. Nibh mauris cursus mattis molestie a iaculis at erat. Day 3 Surf at sunset cliffs Posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Placerat vestibulum lectus mauris ultrices eros in. Eget dolor morbi non arcu. Magna fermentum iaculis eu non diam phasellus vestibulum lorem sed. Vulputate mi sit amet mauris commodo quis."
                             variationName="master">
@@ -263,7 +263,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd/en/adventures/cycling-tuscany/AdobeStock_268213814.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/cycling-tuscany/adobestock-268213814.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par1>
@@ -282,7 +282,7 @@
                                     sling:resourceType="wknd/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="true"
-                                    fileReference="/content/dam/wknd/en/adventures/cycling-tuscany/AdobeStock_141786166.jpeg"
+                                    fileReference="/content/dam/wknd-shared/en/adventures/cycling-tuscany/adobestock-141786166.jpeg"
                                     isDecorative="false"
                                     titleValueFromDAM="true"/>
                             </par3>
@@ -294,8 +294,8 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd/components/contentfragment"
                             displayMode="singleText"
-                            elementNames="adventureGearList"
-                            fragmentPath="/content/dam/wknd/en/adventures/cycling-tuscany/cycling-tuscany"
+                            elementNames="gearList"
+                            fragmentPath="/content/dam/wknd-shared/en/adventures/cycling-tuscany/cycling-tuscany"
                             paragraphScope="all"
                             variationName="master">
                             <par3

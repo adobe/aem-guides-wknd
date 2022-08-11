@@ -18,13 +18,7 @@ package com.adobe.aem.guides.wknd.it.tests;
 import com.adobe.cq.testing.client.CQClient;
 import com.adobe.cq.testing.junit.rules.CQAuthorPublishClassRule;
 import com.adobe.cq.testing.junit.rules.CQRule;
-import com.adobe.cq.testing.junit.rules.Page;
-
-import org.apache.http.HttpEntity;
-import org.apache.http.entity.ContentType;
-import org.apache.http.entity.StringEntity;
 import org.apache.sling.testing.clients.ClientException;
-import org.apache.sling.testing.clients.SlingHttpResponse;
 import org.junit.*;
 
 
@@ -52,7 +46,7 @@ public class GraphQLEndpointIT {
     static CQClient adminPublish;
 
     private static String PERSISTENT_QUERY_ENDPOINT = "/graphql/execute.json";
-    private static String ALL_ADVENTURE_ENDPOINT = "/wknd/adventures-all";
+    private static String ALL_ADVENTURE_ENDPOINT = "/wknd-shared/adventures-all";
 
     // Thanks to the CQAuthorClassRule, we can create two CQClient instances
     // bound to the admin user on both the author and publish service.
@@ -65,6 +59,7 @@ public class GraphQLEndpointIT {
 
     /**
      * Verifies that the persisted query All Adventures exists on Author
+     * @throws ClientException if cannot connect
      */
     @Test
     public void testAllAdventureEndpointAuthor() throws ClientException {
@@ -73,6 +68,7 @@ public class GraphQLEndpointIT {
 
     /**
      * Verifies that the persisted query All Adventures exists on Publish
+     * @throws ClientException if cannot connect
      */
     @Test
     public void testAllAdventureEndpointPublish() throws ClientException {

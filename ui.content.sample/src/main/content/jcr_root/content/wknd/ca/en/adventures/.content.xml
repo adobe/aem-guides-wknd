@@ -6,7 +6,7 @@
         cq:lastModifiedBy="admin"
         cq:lastRolledout="{Date}2020-11-08T12:48:38.974-08:00"
         cq:lastRolledoutBy="admin"
-        cq:tags="[wknd:customer-journey/attract,wknd:customer-journey/engage,wknd:activity/surfing]"
+        cq:tags="[wknd-shared:customer-journey/attract,wknd-shared:customer-journey/engage,wknd-shared:activity/surfing]"
         cq:template="/conf/wknd/settings/wcm/templates/landing-page-template"
         jcr:description="Join us on one of our next adventures.  Browse our list of curated experiences and sign up for one when you're ready to explore with us."
         jcr:mixinTypes="[cq:LiveRelationship]"
@@ -72,7 +72,7 @@
                     sling:resourceType="wknd/components/teaser"
                     actionsEnabled="false"
                     descriptionFromPage="false"
-                    fileReference="/content/dam/wknd/en/adventures/riverside-camping-australia/AdobeStock_216674449.jpeg"
+                    fileReference="/content/dam/wknd-shared/en/adventures/riverside-camping-australia/adobestock-216674449.jpeg"
                     textIsRich="true"
                     titleFromPage="false">
                     <actions
@@ -151,7 +151,7 @@
                             listFrom="tags"
                             orderBy="title"
                             sortOrder="asc"
-                            tags="[wknd:activity/climbing]"
+                            tags="[wknd-shared:activity/climbing]"
                             tagsMatch="any"/>
                         <item_1572038183552
                             cq:lastRolledout="{Date}2020-09-30T17:38:06.356-07:00"
@@ -165,7 +165,7 @@
                             childDepth="1"
                             listFrom="tags"
                             sortOrder="asc"
-                            tags="[wknd:activity/cycling]"
+                            tags="[wknd-shared:activity/cycling]"
                             tagsMatch="any"/>
                         <item_1572038188340
                             cq:lastRolledout="{Date}2020-09-30T17:38:06.361-07:00"
@@ -180,7 +180,7 @@
                             listFrom="tags"
                             orderBy="title"
                             sortOrder="asc"
-                            tags="[wknd:activity/skiing]"
+                            tags="[wknd-shared:activity/skiing]"
                             tagsMatch="any"/>
                         <item_1572038193228
                             cq:lastRolledout="{Date}2020-09-30T17:38:06.366-07:00"
@@ -195,7 +195,7 @@
                             listFrom="tags"
                             orderBy="title"
                             sortOrder="asc"
-                            tags="[wknd:activity/surfing]"
+                            tags="[wknd-shared:activity/surfing]"
                             tagsMatch="any"/>
                         <item_1572038199423
                             cq:lastRolledout="{Date}2020-09-30T17:38:06.370-07:00"
@@ -210,7 +210,7 @@
                             listFrom="tags"
                             orderBy="title"
                             sortOrder="asc"
-                            tags="[wknd:activity/hiking,wknd:activity/camping,wknd:activity/social,wknd:activity/hunting-fishing]"
+                            tags="[wknd-shared:activity/hiking,wknd-shared:activity/camping,wknd-shared:activity/social,wknd-shared:activity/hunting-fishing]"
                             tagsMatch="any"/>
                     </tabs>
                     <separator

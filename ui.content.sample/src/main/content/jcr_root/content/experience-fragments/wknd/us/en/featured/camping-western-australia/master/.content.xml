@@ -46,7 +46,7 @@
                     sling:resourceType="wknd/components/teaser"
                     actionsEnabled="true"
                     descriptionFromPage="false"
-                    fileReference="/content/dam/wknd/en/magazine/western-australia/adobestock_156407519.jpeg"
+                    fileReference="/content/dam/wknd-shared/en/magazine/western-australia/adobestock-156407519.jpeg"
                     id="featured-teaser"
                     pretitle="Featured"
                     textIsRich="true"

@@ -35,7 +35,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/byline"
-                    fileReference="/content/dam/wknd/en/contributors/jacob_wester.jpg"
+                    fileReference="/content/dam/wknd-shared/en/contributors/jacob_wester.jpg"
                     name="Jacob Wester"
                     occupations="[Skater,Writer]">
                     <cq:responsive jcr:primaryType="nt:unstructured">

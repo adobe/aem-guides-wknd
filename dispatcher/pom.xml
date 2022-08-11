@@ -7,7 +7,7 @@
   <parent>
     <groupId>com.adobe.aem.guides</groupId>
     <artifactId>aem-guides-wknd</artifactId>
-    <version>1.1.1-SNAPSHOT</version>
+    <version>2.0.1-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
@@ -38,202 +38,90 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-enforcer-plugin</artifactId>
+                <executions>
+                    <!-- enforce that immutable files are not touched: https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure -->
+                    <execution>
+                        <id>enforce-checksum-of-immutable-files</id>
+                        <goals>
+                            <goal>enforce</goal>
+                        </goals>
+                        <configuration>
+                            <rules>
+                                <!-- rules being inserted by archetype-pre-package.groovy -->
+                                <requireFileChecksum>
+                                    <file>src/conf.d/available_vhosts/default.vhost</file>
+                                    <checksum>d4bc425c3f0ce825450019ce2501e14e</checksum>
+                                    <type>md5</type>
+                                    <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.d/available_vhosts/default.vhost</message>
+                                </requireFileChecksum>
+                                <requireFileChecksum>
+                                    <file>src/conf.d/dispatcher_vhost.conf</file>
+                                    <checksum>b27855383754854932170e282fbf643a</checksum>
+                                    <type>md5</type>
+                                    <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.d/dispatcher_vhost.conf</message>
+                                </requireFileChecksum>
+                                <requireFileChecksum>
+                                    <file>src/conf.d/rewrites/default_rewrite.rules</file>
+                                    <checksum>8b866275685509537f6ab0397ddeda53</checksum>
+                                    <type>md5</type>
+                                    <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.d/rewrites/default_rewrite.rules</message>
+                                </requireFileChecksum>
+                                <requireFileChecksum>
+                                    <file>src/conf.dispatcher.d/available_farms/default.farm</file>
+                                    <checksum>0a5ad761467bc7a57c53e647b9d7b671</checksum>
+                                    <type>md5</type>
+                                    <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.dispatcher.d/available_farms/default.farm</message>
+                                </requireFileChecksum>
+                                <requireFileChecksum>
+                                    <file>src/conf.dispatcher.d/cache/default_invalidate.any</file>
+                                    <checksum>1335157699f9ea9b51f72ab868c7e885</checksum>
+                                    <type>md5</type>
+                                    <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.dispatcher.d/cache/default_invalidate.any</message>
+                                </requireFileChecksum>
+                                <requireFileChecksum>
+                                    <file>src/conf.dispatcher.d/cache/default_rules.any</file>
+                                    <checksum>bc9135f627dd2c813373950d7cb71af4</checksum>
+                                    <type>md5</type>
+                                    <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.dispatcher.d/cache/default_rules.any</message>
+                                </requireFileChecksum>
+                                <requireFileChecksum>
+                                    <file>src/conf.dispatcher.d/clientheaders/default_clientheaders.any</file>
+                                    <checksum>b9b4548f5570cffe7a7f10ffb219e27e</checksum>
+                                    <type>md5</type>
+                                    <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.dispatcher.d/clientheaders/default_clientheaders.any</message>
+                                </requireFileChecksum>
+                                <requireFileChecksum>
+                                    <file>src/conf.dispatcher.d/dispatcher.any</file>
+                                    <checksum>f452e3f790c96de440dca7d2ae3630a6</checksum>
+                                    <type>md5</type>
+                                    <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.dispatcher.d/dispatcher.any</message>
+                                </requireFileChecksum>
+                                <requireFileChecksum>
+                                    <file>src/conf.dispatcher.d/filters/default_filters.any</file>
+                                    <checksum>93d6896c1b92829af8707ead21b7e62a</checksum>
+                                    <type>md5</type>
+                                    <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.dispatcher.d/filters/default_filters.any</message>
+                                </requireFileChecksum>
+                                <requireFileChecksum>
+                                    <file>src/conf.dispatcher.d/renders/default_renders.any</file>
+                                    <checksum>3c7472f635d35795ec270e7b0b40a07a</checksum>
+                                    <type>md5</type>
+                                    <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.dispatcher.d/renders/default_renders.any</message>
+                                </requireFileChecksum>
+                                <requireFileChecksum>
+                                    <file>src/conf.dispatcher.d/virtualhosts/default_virtualhosts.any</file>
+                                    <checksum>dd1caafd65a7f5e249fbcdaa0e88ed9e</checksum>
+                                    <type>md5</type>
+                                    <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.dispatcher.d/virtualhosts/default_virtualhosts.any</message>
+                                </requireFileChecksum>
+                            </rules>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
-    <profiles>
-        <profile>
-            <id>notOnWindows</id>
-            <activation>
-                <os>
-                    <family>!windows</family>
-                </os>
-            </activation>
-            <build>
-                <plugins>
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-enforcer-plugin</artifactId>
-                        <executions>
-                            <!-- enforce that immutable files are not touched: https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure -->
-                            <execution>
-                                <id>enforce-checksum-of-immutable-files</id>
-                                <goals>
-                                    <goal>enforce</goal>
-                                </goals>
-                                <configuration>
-                                    <rules>
-                                        <!-- rules being inserted by archetype-pre-package.groovy -->
-                                        <requireFileChecksum>
-                                            <file>src/conf.d/available_vhosts/default.vhost</file>
-                                            <checksum>d4bc425c3f0ce825450019ce2501e14e</checksum>
-                                            <type>md5</type>
-                                            <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.d/available_vhosts/default.vhost</message>
-                                        </requireFileChecksum>
-                                        <requireFileChecksum>
-                                            <file>src/conf.d/dispatcher_vhost.conf</file>
-                                            <checksum>5c4b79b90d98207bd4866de6ef61679b</checksum>
-                                            <type>md5</type>
-                                            <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.d/dispatcher_vhost.conf</message>
-                                        </requireFileChecksum>
-                                        <requireFileChecksum>
-                                            <file>src/conf.d/rewrites/default_rewrite.rules</file>
-                                            <checksum>92800e1502954d8038b103f027cee332</checksum>
-                                            <type>md5</type>
-                                            <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.d/rewrites/default_rewrite.rules</message>
-                                        </requireFileChecksum>
-                                        <requireFileChecksum>
-                                            <file>src/conf.dispatcher.d/available_farms/default.farm</file>
-                                            <checksum>0a5ad761467bc7a57c53e647b9d7b671</checksum>
-                                            <type>md5</type>
-                                            <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.dispatcher.d/available_farms/default.farm</message>
-                                        </requireFileChecksum>
-                                        <requireFileChecksum>
-                                            <file>src/conf.dispatcher.d/cache/default_invalidate.any</file>
-                                            <checksum>1335157699f9ea9b51f72ab868c7e885</checksum>
-                                            <type>md5</type>
-                                            <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.dispatcher.d/cache/default_invalidate.any</message>
-                                        </requireFileChecksum>
-                                        <requireFileChecksum>
-                                            <file>src/conf.dispatcher.d/cache/default_rules.any</file>
-                                            <checksum>daf2c7e3b81a862f5ee4f27b4c22de2f</checksum>
-                                            <type>md5</type>
-                                            <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.dispatcher.d/cache/default_rules.any</message>
-                                        </requireFileChecksum>
-                                        <requireFileChecksum>
-                                            <file>src/conf.dispatcher.d/clientheaders/default_clientheaders.any</file>
-                                            <checksum>b9b4548f5570cffe7a7f10ffb219e27e</checksum>
-                                            <type>md5</type>
-                                            <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.dispatcher.d/clientheaders/default_clientheaders.any</message>
-                                        </requireFileChecksum>
-                                        <requireFileChecksum>
-                                            <file>src/conf.dispatcher.d/dispatcher.any</file>
-                                            <checksum>f452e3f790c96de440dca7d2ae3630a6</checksum>
-                                            <type>md5</type>
-                                            <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.dispatcher.d/dispatcher.any</message>
-                                        </requireFileChecksum>
-                                        <requireFileChecksum>
-                                            <file>src/conf.dispatcher.d/filters/default_filters.any</file>
-                                            <checksum>9ec99c914a961bbbab406218f8c1fb51</checksum>
-                                            <type>md5</type>
-                                            <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.dispatcher.d/filters/default_filters.any</message>
-                                        </requireFileChecksum>
-                                        <requireFileChecksum>
-                                            <file>src/conf.dispatcher.d/renders/default_renders.any</file>
-                                            <checksum>3c7472f635d35795ec270e7b0b40a07a</checksum>
-                                            <type>md5</type>
-                                            <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.dispatcher.d/renders/default_renders.any</message>
-                                        </requireFileChecksum>
-                                        <requireFileChecksum>
-                                            <file>src/conf.dispatcher.d/virtualhosts/default_virtualhosts.any</file>
-                                            <checksum>dd1caafd65a7f5e249fbcdaa0e88ed9e</checksum>
-                                            <type>md5</type>
-                                            <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.dispatcher.d/virtualhosts/default_virtualhosts.any</message>
-                                        </requireFileChecksum>
-
-                                    </rules>
-                                </configuration>
-                            </execution>
-                        </executions>
-                    </plugin>
-                </plugins>
-            </build>
-        </profile>
-        <profile>
-            <id>onWindows</id>
-            <activation>
-                <os>
-                    <family>windows</family>
-                </os>
-            </activation>
-            <build>
-                <plugins>
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-enforcer-plugin</artifactId>
-                        <executions>
-                            <!-- enforce that immutable files are not touched: https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure -->
-                            <execution>
-                                <id>enforce-checksum-of-immutable-files</id>
-                                <goals>
-                                    <goal>enforce</goal>
-                                </goals>
-                                <configuration>
-                                    <rules>
-                                        <!-- rules being inserted by archetype-pre-package.groovy -->
-                                        <requireFileChecksum>
-                                            <file>src/conf.d/available_vhosts/default.vhost</file>
-                                            <checksum>3601d8516d22447eea5ad5ff35be7fc5</checksum>
-                                            <type>md5</type>
-                                            <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.d/available_vhosts/default.vhost</message>
-                                        </requireFileChecksum>
-                                        <requireFileChecksum>
-                                            <file>src/conf.d/dispatcher_vhost.conf</file>
-                                            <checksum>b37f0821edbb80c57080872a4478d682</checksum>
-                                            <type>md5</type>
-                                            <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.d/dispatcher_vhost.conf</message>
-                                        </requireFileChecksum>
-                                        <requireFileChecksum>
-                                            <file>src/conf.d/rewrites/default_rewrite.rules</file>
-                                            <checksum>359c9779632fd82aaed3643dd952e647</checksum>
-                                            <type>md5</type>
-                                            <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.d/rewrites/default_rewrite.rules</message>
-                                        </requireFileChecksum>
-                                        <requireFileChecksum>
-                                            <file>src/conf.dispatcher.d/available_farms/default.farm</file>
-                                            <checksum>f0f389356a7c6c124f712b48d3a277ca</checksum>
-                                            <type>md5</type>
-                                            <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.dispatcher.d/available_farms/default.farm</message>
-                                        </requireFileChecksum>
-                                        <requireFileChecksum>
-                                            <file>src/conf.dispatcher.d/cache/default_invalidate.any</file>
-                                            <checksum>b70b37e34985ad67b07f8b41652c0d57</checksum>
-                                            <type>md5</type>
-                                            <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.dispatcher.d/cache/default_invalidate.any</message>
-                                        </requireFileChecksum>
-                                        <requireFileChecksum>
-                                            <file>src/conf.dispatcher.d/cache/default_rules.any</file>
-                                            <checksum>335fc064f345107ff46975b55cd1cf9c</checksum>
-                                            <type>md5</type>
-                                            <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.dispatcher.d/cache/default_rules.any</message>
-                                        </requireFileChecksum>
-                                        <requireFileChecksum>
-                                            <file>src/conf.dispatcher.d/clientheaders/default_clientheaders.any</file>
-                                            <checksum>acfa31c74c1a34d8e30658a09358f8d7</checksum>
-                                            <type>md5</type>
-                                            <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.dispatcher.d/clientheaders/default_clientheaders.any</message>
-                                        </requireFileChecksum>
-                                        <requireFileChecksum>
-                                            <file>src/conf.dispatcher.d/dispatcher.any</file>
-                                            <checksum>c66f76e1138b98527d9904f23202b3b0</checksum>
-                                            <type>md5</type>
-                                            <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.dispatcher.d/dispatcher.any</message>
-                                        </requireFileChecksum>
-                                        <requireFileChecksum>
-                                            <file>src/conf.dispatcher.d/filters/default_filters.any</file>
-                                            <checksum>70e31f0d18a9656075f928ee108aa366</checksum>
-                                            <type>md5</type>
-                                            <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.dispatcher.d/filters/default_filters.any</message>
-                                        </requireFileChecksum>
-                                        <requireFileChecksum>
-                                            <file>src/conf.dispatcher.d/renders/default_renders.any</file>
-                                            <checksum>3e86b6fc52209d66692667eae51caaa6</checksum>
-                                            <type>md5</type>
-                                            <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.dispatcher.d/renders/default_renders.any</message>
-                                        </requireFileChecksum>
-                                        <requireFileChecksum>
-                                            <file>src/conf.dispatcher.d/virtualhosts/default_virtualhosts.any</file>
-                                            <checksum>39d92a0a0b11a1a69fe33a791626c7d0</checksum>
-                                            <type>md5</type>
-                                            <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.dispatcher.d/virtualhosts/default_virtualhosts.any</message>
-                                        </requireFileChecksum>
-
-                                    </rules>
-                                </configuration>
-                            </execution>
-                        </executions>
-                    </plugin>
-                </plugins>
-            </build>
-        </profile>
-    </profiles>
 </project>
