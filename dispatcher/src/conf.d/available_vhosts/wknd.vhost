@@ -61,7 +61,7 @@ Include conf.d/variables/custom.vars
     ErrorDocument 503 ${500_PAGE}
     ErrorDocument 504 ${500_PAGE}
     
-    ## Default Fastly Cache Settings for AEM - V20220207
+    ## Default Fastly Cache Settings for AEM - V20220414
     # Theme Sources via Clientlib: cache mutable resources for max 24h on CDN and background refresh after 12h to avoid MISS
     <LocationMatch "^/etc\.clientlibs/.*\.(?i:json|png|gif|webp|jpe?g|svg)$">
         Header set Cache-Control "max-age=43200,stale-while-revalidate=43200,stale-if-error=43200,public" "expr=%{REQUEST_STATUS} < 400"
@@ -100,6 +100,19 @@ Include conf.d/variables/custom.vars
     # Images/Video from DAM: cache mutable resources for max 24h on CDN and background refresh after 12h to avoid MISS
     <LocationMatch "^/content/dam/.*\.(?i:jpe?g|gif|js|mov|mp4|png|svg|txt|zip|ico|webp|pdf)$">
         Header set Cache-Control "max-age=43200,stale-while-revalidate=43200,stale-if-error=43200" "expr=%{REQUEST_STATUS} < 400"
+        Header set Age 0
+    </LocationMatch>
+    # ContextHub
+    <LocationMatch "^/etc/cloudsettings.kernel.js.*">
+        Header always set Cache-Control "max-age=300,stale-while-revalidate=43200,stale-if-error=43200" "expr=%{REQUEST_STATUS} < 400"
+        Header set Age 0
+    </LocationMatch>
+    <LocationMatch "^/conf/.*/settings/wcm/segments.seg.js$">
+        Header set Cache-Control "max-age=300,stale-while-revalidate=43200,stale-if-error=43200" "expr=%{REQUEST_STATUS} < 400"
+        Header set Age 0
+    </LocationMatch>
+    <LocationMatch "^/content/.*/_jcr_content/contexthub.pagedata.json$">
+        Header set Cache-Control "max-age=300,stale-while-revalidate=43200,stale-if-error=43200" "expr=%{REQUEST_STATUS} < 400"
         Header set Age 0
     </LocationMatch>
 </VirtualHost>

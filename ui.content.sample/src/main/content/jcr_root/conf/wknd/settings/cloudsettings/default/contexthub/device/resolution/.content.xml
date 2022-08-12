@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Screen Resolution"
+    sling:resourceType="/libs/granite/contexthub/cloudsettings/components/baseuimodule"
+    configjson="\{&#xd;&#xa;   &quot;icon&quot;: &quot;coral-Icon--move&quot;,&#xd;&#xa;    &quot;title&quot;: &quot;Screen Resolution&quot;,&#xd;&#xa;    &quot;storeMapping&quot;: {&#xd;&#xa;      &quot;emulator&quot;: &quot;emulators&quot;&#xd;&#xa;    },&#xd;&#xa;    &quot;template&quot;: &quot;&lt;p>{{{ i18n \\&quot;Resolution\\&quot;}}}&lt;/p>&lt;p>{{{emulator.currentDevice.width}}} x {{{emulator.currentDevice.height}}}&lt;/p>&quot;&#xd;&#xa;}"
+    enabled="{Boolean}true"
+    moduleType="contexthub.base"/>

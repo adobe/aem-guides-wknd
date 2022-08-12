@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:OrderedFolder"
+    jcr:title="ContextHub Configuration"
+    sling:resourceType="/libs/granite/contexthub/cloudsettings/components/baseconfiguration"
+    debug="{Boolean}false">
+    <geolocation/>
+    <surferinfo/>
+    <profile/>
+    <persona/>
+    <device/>
+    <eventdata/>
+    <pagedata/>
+    <segmentation/>
+    <emulators/>
+    <cache/>
+</jcr:root>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:lastModified="{Date}2022-01-27T16:27:52.341+01:00"
+    jcr:lastModifiedBy="admin"
+    jcr:mixinTypes="[mix:lastModified,sling:HierarchyNode]"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="default"
+    sling:resourceType="granite/cloudsettings/components/delegatepage"
+    delegatePath="granite/cloudsettings/content/overview/container">
+    <contexthub/>
+</jcr:root>
