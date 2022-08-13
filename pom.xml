@@ -62,7 +62,7 @@
         <componentGroupName>WKND Site</componentGroupName>
         <core.wcm.components.version>2.19.2</core.wcm.components.version>
         <uber.jar.version>6.5.13</uber.jar.version>
-        <wknd-shared.version>2.0.0</wknd-shared.version>
+        <wknd-shared.version>2.1.0</wknd-shared.version>
         <aemanalyser.version>1.4.10</aemanalyser.version>
     </properties>
 
