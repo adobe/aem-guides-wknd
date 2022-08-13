@@ -19,7 +19,7 @@
     <groupId>com.adobe.aem.guides</groupId>
     <artifactId>aem-guides-wknd</artifactId>
     <packaging>pom</packaging>
-    <version>2.0.1-SNAPSHOT</version>
+    <version>2.1.0</version>
      <name>WKND Sites Project - Reactor Project</name>
     <description>WKND Sites Project</description>
     <url>https://github.com/adobe/aem-guides-wknd</url>
@@ -84,7 +84,7 @@
         <connection>scm:git:https://github.com/adobe/aem-guides-wknd.git</connection>
         <developerConnection>scm:git:https://github.com/adobe/aem-guides-wknd.git</developerConnection>
         <url>https://github.com/adobe/aem-guides-wknd/tree/main</url>
-        <tag>HEAD</tag>
+        <tag>aem-guides-wknd-2.1.0</tag>
     </scm>
 
     <build>
