@@ -91,7 +91,7 @@
 		# through different means. 
 		/ignoreUrlParams {
 			/0001 { /glob "*" /type "deny" }
-			$include "../cache/marketing_query_parameters.any"
+			# $include "../cache/marketing_query_parameters.any"
 		}
 
 		# Cache response headers next to a cached file. On the first request to
