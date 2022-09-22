@@ -81,3 +81,7 @@ buildNumber.properties
 ### Visual Studio ###
 .vscode
 .history
+
+### Node/NPM ###
+node/
+node_modules/
