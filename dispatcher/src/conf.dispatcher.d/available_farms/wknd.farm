@@ -3,9 +3,6 @@
 #
 # This file originated as a copy from conf.dispatcher.d/available_farms/default.farm
 #
-# Modifications to this file include:
-# + Added CORS Headers to /cache /headers 
-#
 
 /publishfarm {
 	# client headers which should be passed through to the render instances
@@ -100,7 +97,6 @@
 		# requests to the cached resource, the stored headers are added to the
 		# response.
 		# Note, that file globbing characters are not allowed here.
-		# CORS HTTP response headers: https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#the_http_response_headers
 		/headers {
 			"Cache-Control"
 			"Content-Disposition"
@@ -108,12 +104,6 @@
 			"Expires"
 			"Last-Modified"
 			"X-Content-Type-Options"
-			"Access-Control-Allow-Origin"
-			"Access-Control-Expose-Headers"
-			"Access-Control-Max-Age"
-			"Access-Control-Allow-Credentials"
-			"Access-Control-Allow-Methods"
-			"Access-Control-Allow-Headers"
 		}
 		# A grace period defines the number of seconds a stale, auto-invalidated
 		# resource may still be served from the cache after the last activation
