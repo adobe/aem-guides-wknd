@@ -27,7 +27,7 @@ Release for this project is performed via GitHub Actions. The source file for th
 Next release the artifacts in the staging repository to be deployed to Maven central.
 
 1. Navigate to https://oss.sonatype.org/ and Log in.
-1. Navigate to **Staging Repositories** and find the WKND Shared stage repo.
+1. Navigate to **Staging Repositories** and find the WKND Guides stage repo.
 1. Click **Release**. Releasing the staging repo will push the artifacts to Maven Central after a small delay (four hours for all mirrors to catch up).
 1. Download the artifact `aem-guides-wknd.all-X.X.X.zip`.
 
