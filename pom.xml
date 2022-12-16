@@ -58,9 +58,9 @@
         <bnd.version>5.1.2</bnd.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <aem.sdk.api>2022.5.7575.20220530T152407Z-220401</aem.sdk.api>
+        <aem.sdk.api>2022.10.9398.20221020T071514Z-220900</aem.sdk.api>
         <componentGroupName>WKND Site</componentGroupName>
-        <core.wcm.components.version>2.19.2</core.wcm.components.version>
+        <core.wcm.components.version>2.20.8</core.wcm.components.version>
         <uber.jar.version>6.5.13</uber.jar.version>
         <wknd-shared.version>2.1.2</wknd-shared.version>
         <aemanalyser.version>1.4.10</aemanalyser.version>
