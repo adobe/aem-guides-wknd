@@ -59,7 +59,7 @@
                                 </requireFileChecksum>
                                 <requireFileChecksum>
                                     <file>src/conf.d/dispatcher_vhost.conf</file>
-                                    <checksum>e5a9e1d61afd452e537d39753f77c67f</checksum>
+                                    <checksum>d421515ce65d25e4c7bf3cb365295bae</checksum>
                                     <type>md5</type>
                                     <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.d/dispatcher_vhost.conf</message>
                                 </requireFileChecksum>
@@ -68,6 +68,12 @@
                                     <checksum>8e9af819b868d93df01b16d3487f3401</checksum>
                                     <type>md5</type>
                                     <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.d/enabled_vhosts/vhosts.conf</message>
+                                </requireFileChecksum>
+                                <requireFileChecksum>
+                                    <file>src/conf.d/mod_security/default_mod_security.conf</file>
+                                    <checksum>683f4bca94b35d5109a593787a5d173e</checksum>
+                                    <type>md5</type>
+                                    <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.d/mod_security/default_mod_security.conf</message>
                                 </requireFileChecksum>
                                 <requireFileChecksum>
                                     <file>src/conf.d/rewrites/default_rewrite.rules</file>
