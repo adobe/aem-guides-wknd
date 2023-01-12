@@ -80,16 +80,21 @@ Import-Package: javax.annotation;version=0.0.0,*
     </build>
 
     <dependencies>
-        <!-- Core Component Dependency -->
-        <dependency>
-            <groupId>com.adobe.cq</groupId>
-            <artifactId>core.wcm.components.core</artifactId>
-        </dependency>
         <dependency>
             <groupId>uk.org.lidalia</groupId>
             <artifactId>slf4j-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.adobe.aem</groupId>
+            <artifactId>aem-sdk-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.adobe.cq</groupId>
+            <artifactId>core.wcm.components.core</artifactId>
+            <scope>test</scope>
+        </dependency>
+
 
         <!-- Testing -->
         <dependency>
@@ -125,6 +130,16 @@ Import-Package: javax.annotation;version=0.0.0,*
                     <artifactId>slf4j-simple</artifactId>
                 </exclusion>
             </exclusions>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.sling</groupId>
+            <artifactId>org.apache.sling.testing.caconfig-mock-plugin</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.adobe.cq</groupId>
+            <artifactId>core.wcm.components.testing.aem-mock-plugin</artifactId>
             <scope>test</scope>
         </dependency>
         <!-- Required to be able to support injection with @Self and @Via -->
@@ -319,5 +334,5 @@ Import-Package: javax.annotation;version=0.0.0,*
                 </dependency>
             </dependencies>
         </profile>
-    </profiles>
+    </profiles>    
 </project>
