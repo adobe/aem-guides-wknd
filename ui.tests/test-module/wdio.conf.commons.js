@@ -19,7 +19,7 @@
  */
 const conf = require('./lib/config');
 const commons = require('./lib/commons');
-const HtmlReporter = require('@rpii/wdio-html-reporter').HtmlReporter;
+const HtmlReporter = require('wdio-html-nice-reporter').HtmlReporter;
 const path = require('path');
 const log4js = require('log4js');
 
@@ -28,12 +28,16 @@ exports.config = {
 
     // Tests
     specs: [
-        './specs/**/*.js'
+        './specs/**/*.js',
     ],
 
     logLevel: 'debug',
 
     bail: 0,
+
+    // Enforce complete spec file retry when a test fail
+    specFileRetries: 1,
+    specFileRetriesDeferred: false,
 
     baseUrl: conf.aem.author.base_url,
 
