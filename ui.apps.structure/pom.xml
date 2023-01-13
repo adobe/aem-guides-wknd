@@ -46,10 +46,6 @@
 
                         <!-- Immutable context-aware configurations -->
                         <filter><root>/apps/settings</root></filter>
-
-                        <!-- DAM folder root, will be created via repoinit -->
-                        <filter><root>/content/dam/wknd</root></filter>
-
                     </filters>
                 </configuration>
             </plugin>
