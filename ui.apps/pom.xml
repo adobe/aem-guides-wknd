@@ -102,7 +102,6 @@
         </plugins>
     </build>
 
-
     <!-- ====================================================================== -->
     <!-- D E P E N D E N C I E S                                                -->
     <!-- ====================================================================== -->
@@ -119,7 +118,6 @@
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>
-
 
         <dependency>
             <groupId>com.adobe.aem.guides</groupId>
