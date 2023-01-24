@@ -115,10 +115,12 @@ browser.addCommand('AEMSitesSetPageTitle', function(parentPath, name, title) {
 
     // Navigate to page parent path
     browser.url(path.posix.join(AEM_SITES_PATH, parentPath));
+    const checkboxSelector = `[data-foundation-collection-item-id="${path.posix.join(parentPath, name)}"] [type="checkbox"]`;
+
     // Select sample page in the list
-    $(`[data-foundation-collection-item-id="${path.posix.join(parentPath, name)}"] [type="checkbox"]`).waitForClickable();
+    $(checkboxSelector).waitForClickable();
     browser.pause(1000); // Avoid action bar not appearing after clicking checkbox
-    $(`[data-foundation-collection-item-id="${path.posix.join(parentPath, name)}"] [type="checkbox"]`).click();
+    $(checkboxSelector).click();
     // Access page properties form
     $('[data-foundation-collection-action*="properties"]').click();
     // Store original title
@@ -128,7 +130,7 @@ browser.addCommand('AEMSitesSetPageTitle', function(parentPath, name, title) {
     // Submit
     $('[type="submit"]').click();
     // Wait until we get redirected to the Sites console
-    $(`[data-foundation-collection-item-id="${path.posix.join(parentPath, name)}"] [type="checkbox"]`).waitForExist();
+    $(checkboxSelector).waitForExist();
 
     return originalTitle;
 });
