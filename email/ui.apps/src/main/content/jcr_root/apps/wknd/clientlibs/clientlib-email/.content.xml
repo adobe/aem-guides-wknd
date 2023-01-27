@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+     jcr:primaryType="cq:ClientLibraryFolder"
+     allowProxy="{Boolean}true"
+     categories="[wknd.email]"
+     embed="[core.email.components.container,core.wcm.components.tabs.v1,core.email.components.experiencefragment,core.email.components.teaser,core.email.components.image.v1.image,core.email.components.text.v1.text,core.email.components.segmentation.v1.segmentation]"/>

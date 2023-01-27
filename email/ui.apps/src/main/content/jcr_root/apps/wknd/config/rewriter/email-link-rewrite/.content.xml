@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    contentTypes="[text/html]"
+    enabled="{Boolean}true"
+    generatorType="htmlparser"
+    order="1001"
+    paths="[/content/wknd,/content/campaigns/wknd,/content/experience-fragments/wknd]"
+    serializerType="htmlwriter"
+    transformerTypes="[email-link-rewrite,campaign-link-rewrite]">
+    <transformer-email-link-rewrite
+        jcr:primaryType="nt:unstructured"
+        component-optional="{Boolean}true"
+        cq:contentType="campaignContent"/>
+    <transformer-campaign-link-rewrite
+        jcr:primaryType="nt:unstructured"
+        component-optional="{Boolean}true"/>
+    <generator-htmlparser
+        jcr:primaryType="nt:unstructured"
+        includeTags="[IMG,A,TD,TH]"/>
+</jcr:root>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+
+    <filter root="/content/campaigns/wknd"/>
+
+    <!-- Force Policy and Template Updates -->
+    <filter root="/conf/wknd/settings/wcm" mode="merge" />
+    <!-- <filter root="/conf/wknd/settings/wcm/policies" mode="merge" />
+    <filter root="/conf/wknd/settings/wcm/template-type/email-page" mode="merge" />
+    <filter root="/conf/wknd/settings/wcm/templates/email-page" mode="merge" /> -->
+</workspaceFilter>

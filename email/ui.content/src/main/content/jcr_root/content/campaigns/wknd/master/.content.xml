@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-01-05T15:56:06.250-05:00"
+        cq:lastModifiedBy="content-writer-service"
+        cq:template="/libs/cq/personalization/templates/ambit"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Master Area"
+        sling:resourceType="cq/personalization/components/ambitpage">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys"/>
+    </jcr:content>
+    <campaign-emails/>
+</jcr:root>
