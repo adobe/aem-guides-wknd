@@ -31,7 +31,7 @@
   <!-- ====================================================================== -->
   <artifactId>aem-guides-wknd.email.all</artifactId>
   <packaging>content-package</packaging>
-  <name>WKND Email Project - All</name>
+  <name>WKND Email - All</name>
   <description>All content package for WKND Email</description>
 
   <!-- ====================================================================== -->
@@ -47,7 +47,7 @@
               <artifactId>filevault-package-maven-plugin</artifactId>
               <extensions>true</extensions>
               <configuration>
-                  <group>com.adobe.aem.guides</group>
+                  <group>com.adobe.aem.guides.email</group>
                   <packageType>container</packageType>
                   <properties>
                       <cloudManagerTarget>all</cloudManagerTarget>
@@ -114,31 +114,31 @@
                       <artifactId>filevault-package-maven-plugin</artifactId>
                       <extensions>true</extensions>
                       <configuration>
-                          <group>com.adobe.aem.guides</group>
+                          <group>com.adobe.aem.guides.email</group>
                           <embeddeds>
                               <embedded>
                                   <groupId>com.adobe.aem.guides</groupId>
                                   <artifactId>aem-guides-wknd.email.ui.apps</artifactId>
                                   <type>zip</type>
-                                  <target>/apps/wknd-packages/application/install</target>
+                                  <target>/apps/wknd-email-packages/application/install</target>
                               </embedded>  
                               <embedded>
                                 <groupId>com.adobe.aem.guides</groupId>
                                 <artifactId>aem-guides-wknd.email.ui.content</artifactId>
                                 <type>zip</type>
-                                <target>/apps/wknd-packages/content/install</target>
+                                <target>/apps/wknd-email-packages/content/install</target>
                             </embedded> 
                             <!-- Core Email Components -->
                               <embedded>
                                 <groupId>com.adobe.cq</groupId>
                                 <artifactId>core.email.components.core</artifactId>
-                                <target>/apps/wetrain-vendor-packages/application/install</target>
+                                <target>/apps/wknd-email-vendor-packages/application/install</target>
                             </embedded>
                             <embedded>
                                 <groupId>com.adobe.cq</groupId>
                                 <artifactId>core.email.components.content</artifactId>
                                 <type>zip</type>
-                                <target>/apps/wetrain-vendor-packages/application/install</target>
+                                <target>/apps/wknd-email-vendor-packages/application/install</target>
                             </embedded>                        
                           </embeddeds>
                       </configuration>
