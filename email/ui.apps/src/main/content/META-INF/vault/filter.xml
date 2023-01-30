@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/apps/wknd"/>
+    <filter root="/apps/wknd" mode="merge"/>
     <filter root="/apps/wknd/clientlibs/clientlib-email"/>
     <filter root="/apps/wknd/components/email"/>
     <filter root="/apps/wknd/components/config"/>

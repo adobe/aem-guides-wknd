@@ -32,7 +32,7 @@
     <!-- ====================================================================== -->
     <artifactId>aem-guides-wknd.email.ui.apps</artifactId>
     <packaging>content-package</packaging>
-    <name>WKND Email Project - UI apps</name>
+    <name>WKND Email - UI apps</name>
     <description>UI apps package for WKND Email</description>
 
     <!-- ====================================================================== -->
@@ -51,12 +51,16 @@
                     <properties>
                         <cloudManagerTarget>none</cloudManagerTarget>
                     </properties>
-                    <group>com.adobe.aem.guides</group>
+                    <group>com.adobe.aem.guides.email</group>
                     <name>aem-guides-wknd.email.ui.apps</name>
                     <packageType>application</packageType>
                     <accessControlHandling>merge</accessControlHandling>
                     <dependencies>
-                    </dependencies>
+                      <dependency>
+                          <groupId>com.adobe.aem.guides</groupId>
+                          <artifactId>aem-guides-wknd.ui.apps</artifactId>
+                      </dependency>
+                  </dependencies>
                 </configuration>
             </plugin>
             <plugin>
@@ -100,6 +104,12 @@
     <!-- D E P E N D E N C I E S                                                -->
     <!-- ====================================================================== -->
     <dependencies>
+      <dependency>
+        <groupId>com.adobe.aem.guides</groupId>
+        <artifactId>aem-guides-wknd.ui.apps</artifactId>
+        <version>${project.version}</version>
+        <type>zip</type>
+    </dependency>
       <dependency>
         <groupId>com.adobe.aem</groupId>
         <artifactId>uber-jar</artifactId>
