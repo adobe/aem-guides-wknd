@@ -5,22 +5,86 @@ version: 2.1
 # Define a job to be invoked later in a workflow.
 # See: https://circleci.com/docs/2.0/configuration-reference/#jobs
 jobs:
-  say-hello:
+  verify:
     # Specify the execution environment. You can specify an image from Dockerhub or use one of our Convenience Images from CircleCI's Developer Hub.
     # See: https://circleci.com/docs/2.0/configuration-reference/#docker-machine-macos-windows-executor
     docker:
-      - image: cimg/base:stable
+      - image: cimg/openjdk:11.0-node
     # Add steps to the job
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
     steps:
       - checkout
       - run:
-          name: "Say hello"
-          command: "echo Hello, World!"
+          name: "prepare aio"
+          command: |
+            npm install -g @adobe/aio-cli
+            aio plugins:install @adobe/aio-cli-plugin-cloudmanager
+            aio plugins:install @adobe/aio-cli-plugin-aem-rde
+            aio plugins:update
+
+      - run:
+          name: "aio login"
+          command: |
+            echo "${SERVICE_ACCOUNT_PRIVATE_KEY_B64}" | base64 -d > private.key
+            
+            aio config:set ims.contexts.aio-cli-plugin-cloudmanager.client_id "${SERVICE_ACCOUNT_CLIENT_ID}"
+            aio config:set ims.contexts.aio-cli-plugin-cloudmanager.client_secret "${SERVICE_ACCOUNT_CLIENT_SECRET}"
+            aio config:set ims.contexts.aio-cli-plugin-cloudmanager.technical_account_id "${SERVICE_ACCOUNT_TECH_ACCOUNT_ID}"
+            aio config:set  --json ims.contexts.aio-cli-plugin-cloudmanager.meta_scopes '["ent_cloudmgr_sdk"]'
+            aio config:set ims.contexts.aio-cli-plugin-cloudmanager.ims_org_id "${SERVICE_ACCOUNT_ORG_ID}"
+            aio config:set ims.contexts.aio-cli-plugin-cloudmanager.private_key  private.key --file
+            
+            aio auth login --ctx=aio-cli-plugin-cloudmanager > login.log
+
+
+#      - run:
+#          name: "reset the RDE"
+#          command: |
+#                @aio aem:rde:reset
+
+      - restore_cache:
+          keys:
+            - maven-{{ checksum "pom.xml" }}
+
+      - run:
+          name: "build project"
+          command: |
+            mvn clean package
+
+      - run:
+          name: "install on RDE"
+          command: |
+            aio config:set cloudmanager_orgid  "${SERVICE_ACCOUNT_ORG_ID}"
+            aio config:set cloudmanager_programid 100060 
+            aio config:set cloudmanager_environmentid 923606
+            
+            ALL_FILE=$(ls all/target/ | grep zip ) && aio aem:rde:install -t content-package "all/target/${ALL_FILE}"
+            DISP_FILE=$(ls dispatcher/target/ | grep zip ) && aio aem:rde:install -t dispatcher-config "dispatcher/target/${DISP_FILE}"
+
+      - run:
+          name: "Run Integration Tests"
+          command: |
+            cd it.tests 
+            mvn clean verify \
+            -Plocal \
+            -Dit.author.url="${AUTHOR_URL}" \
+            -Dit.author.user="${AUTHOR_USER}" \
+            -Dit.author.password="${AUTHOR_PASSWORD}" \
+            -Dit.publish.url="${PUBLISH_URL}" \
+            -Dit.publish.user="${PUBLISH_USER}" \
+            -Dit.publish.password="${PUBLISH_PASSWORD}" \
+            -Dmaven.javadoc.skip=true \
+            -Dmaven.surefire.debug
+
+      - save_cache:
+          key: maven-{{ checksum "pom.xml" }}
+          paths:
+            - /home/circleci/.m2/repository/
+
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
-  say-hello-workflow:
+  pr-verify:
     jobs:
-      - say-hello
+      - verify

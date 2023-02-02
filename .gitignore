@@ -60,6 +60,9 @@ hs_err_pid*
 # Mac OS #
 .DS_Store
 
+# local secrets
+secrets.sh
+
 ### Maven ###
 target/
 pom.xml.tag
