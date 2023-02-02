@@ -12,7 +12,7 @@
         jcr:description="WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world."
         jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync]"
         jcr:primaryType="cq:PageContent"
-        jcr:title="WKND Adventures and Travel"
+        jcr:title="WKND Adventures and Travel: Modified"
         sling:resourceType="wknd/components/page"
         pageTitle="Home">
         <root
