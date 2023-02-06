@@ -62,7 +62,7 @@ jobs:
             DISP_FILE=$(ls dispatcher/target/ | grep zip ) && aio aem:rde:install -t dispatcher-config "dispatcher/target/${DISP_FILE}"
 
       - run:
-          name: "Run Integration Tests"
+          name: "Run Integration Tests"/
           command: |
             cd it.tests 
             mvn clean verify \
@@ -81,10 +81,33 @@ jobs:
           paths:
             - /home/circleci/.m2/repository/
 
+  eaas:
+    # Specify the execution environment. You can specify an image from Dockerhub or use one of our Convenience Images from CircleCI's Developer Hub.
+    # See: https://circleci.com/docs/2.0/configuration-reference/#docker-machine-macos-windows-executor
+    docker:
+      - image: cimg/openjdk:11.0-node
+
+      - run:
+          name: "download Eaas cli"
+          command: |
+            curl -L https://github.com/andresbott/aem-guides-wknd/releases/download/poc-eaas/eaas-0.4.4  --output eaas
+
+      - run:
+          name: "download Eaas login"
+          command: |
+              echo "${SERVICE_ACCOUNT_PRIVATE_KEY_B64}" | base64 -d > private.key
+              eaas login integration  \
+                --organization "${SERVICE_ACCOUNT_ORG_ID}" \ 
+                --clientId "${SERVICE_ACCOUNT_CLIENT_ID}" \
+                --secret "${SERVICE_ACCOUNT_CLIENT_SECRET}" \ 
+                --privateKey private.key \ 
+                --accountId "${SERVICE_ACCOUNT_TECH_ACCOUNT_ID}"
+            
+              eaas health           
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
   pr-verify:
     jobs:
-      - verify
+      - eaas
