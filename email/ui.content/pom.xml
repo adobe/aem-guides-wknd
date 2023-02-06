@@ -32,7 +32,7 @@
     <!-- ====================================================================== -->
     <artifactId>aem-guides-wknd.email.ui.content</artifactId>
     <packaging>content-package</packaging>
-    <name>UI content</name>
+    <name>WKND Email - UI content</name>
     <description>UI content package</description>
 
     <!-- ====================================================================== -->
@@ -50,14 +50,14 @@
                   <properties>
                       <cloudManagerTarget>none</cloudManagerTarget>
                   </properties>
-                  <group>com.adobe.aem.guides</group>
+                  <group>com.adobe.aem.guides.email</group>
                   <name>aem-guides-wknd.email.ui.content</name>
                   <packageType>content</packageType>
                   <accessControlHandling>merge</accessControlHandling>
                   <validatorsSettings>
                       <jackrabbit-filter>
                           <options>
-                              <validRoots>/conf,/content,/content/experience-fragments,/content/dam</validRoots>
+                              <validRoots>/conf,/content,/content/experience-fragments,/content/dam,conf/wknd/settings/wcm</validRoots>
                           </options>
                       </jackrabbit-filter>
                   </validatorsSettings>
@@ -66,6 +66,10 @@
                           <groupId>com.adobe.aem.guides</groupId>
                           <artifactId>aem-guides-wknd.email.ui.apps</artifactId>
                       </dependency>
+                      <dependency>
+                        <groupId>com.adobe.aem.guides</groupId>
+                        <artifactId>aem-guides-wknd.ui.content</artifactId>
+                    </dependency>
                   </dependencies>
               </configuration>
           </plugin>
@@ -91,6 +95,12 @@
           <version>${project.version}</version>
           <type>zip</type>
       </dependency>
+      <dependency>
+        <groupId>com.adobe.aem.guides</groupId>
+        <artifactId>aem-guides-wknd.ui.content</artifactId>
+        <version>${project.version}</version>
+        <type>zip</type>
+    </dependency>
       <dependency>
           <groupId>com.adobe.aem</groupId>
           <artifactId>uber-jar</artifactId>

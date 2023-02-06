@@ -38,11 +38,10 @@
       <module>ui.content</module> 
     </modules>
     
-    <!-- <properties>
+    <properties>
       <core.email.components.version>1.0.0</core.email.components.version>
-      <project.version>2.1.3-SNAPSHOT</project.version>
-      <uberjar.version>6.5.13</uberjar.version>
-    </properties> -->
+    </properties>
+ 
 
 
     <dependencies>
