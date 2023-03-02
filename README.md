@@ -25,7 +25,7 @@ To deploy WKND to AEM as a Cloud Service, this project's source code must be dep
 2. Push the `main` branch to your Cloud Manager's Git repository
 3. Ensure a deployment pipline is configured to deploy the target branch/repo to the desired AEM as a Cloud Service env
 4. Run the Cloud Manager pipeline
-5. WKND will not be deployed to the target AEM as a Cloud Service environment
+5. WKND will now be deployed to the target AEM as a Cloud Service environment
 
 ### Local development (AEM 6.5 or AEM SDK)
 
