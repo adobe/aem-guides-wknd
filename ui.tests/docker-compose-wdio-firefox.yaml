@@ -34,6 +34,7 @@ services:
     volumes:
       - ./target/reports:/tmp/reports
       - 'shared:/tmp/shared'
+      - 'shared:/usr/src/app/assets'
     image: 'com.adobe.aem.guides-aem-guides-wknd.ui.tests/ui.tests:latest'
   selenium-firefox:
     image: 'selenium/standalone-firefox-debug'
