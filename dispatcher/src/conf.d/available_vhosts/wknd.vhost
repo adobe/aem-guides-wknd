@@ -19,6 +19,62 @@ Include conf.d/variables/custom.vars
 	# Add header breadcrumbs for help in troubleshooting
 	<IfModule mod_headers.c>
 		Header add X-Vhost "publish"
+        SetEnvIfExpr "req_novary('Origin') == ''"  CORSType=none CORSProcessing=false
+        SetEnvIfExpr "req_novary('Origin') != ''"  CORSType=cors CORSProcessing=true CORSTrusted=false
+
+        SetEnvIfExpr "req_novary('Access-Control-Request-Method') == '' && %{REQUEST_METHOD} == 'OPTIONS' && req_novary('Origin') != ''  " CORSType=invalidpreflight CORSProcessing=false
+        SetEnvIfExpr "req_novary('Access-Control-Request-Method') != '' && %{REQUEST_METHOD} == 'OPTIONS' && req_novary('Origin') != ''  " CORSType=preflight CORSProcessing=true CORSTrusted=false
+        SetEnvIfExpr "req_novary('Origin') -strcmatch 'https://%{HTTP_HOST}*'"  CORSType=samedomain CORSProcessing=false
+
+
+        # For requests that require CORS processing, check if the Origin can be trusted. We could use a RewriteMap to lookup, however the variety of URLs is infinite
+        # So its better to use Regexes. If a RewriteMap is required, split out the FQDN from the Origin prior to checking the RewriteMap.
+
+        # Need to extract the http host from envar after processing
+        # setenvif is late processing, but this needs to be checked
+        # this seems to be the only way (other than RewriteRule E=) of getting HTTP_HOST into an envar late in the
+        # request processing cycle.
+        SetEnvIfExpr "%{HTTP_HOST} =~ /(.*)/ " ParsedHost=$1
+
+        # Before this, if CORSProcessing is true, CORSTrusted if false.
+        # Next check the Origin header to identify request that can be trusted to do Cors, by matching the Origin header.
+
+        SetEnvIfExpr "env('CORSProcessing') == 'true' && env('CORSTrusted') != 'true' && req_novary('Origin') =~ m#(https://(.*\.)?adobe\.com(:\d+)?$)#" CORSTrusted=true
+        SetEnvIfExpr "env('CORSProcessing') == 'true' && env('CORSTrusted') != 'true' && req_novary('Origin') =~ m#(https://(.*\.)?csb\.app(:\d+)?$)#" CORSTrusted=true
+        SetEnvIfExpr "env('CORSProcessing') == 'true' && env('CORSTrusted') != 'true' && req_novary('Origin') =~ m#(https://cdpn\.io(:\d+)?$)#" CORSTrusted=true
+        SetEnvIfExpr "env('CORSProcessing') == 'true' && env('CORSTrusted') != 'true' && req_novary('Origin') =~ m#(https://(.*\.)?github\.dev(:\d+)?$)#" CORSTrusted=true
+        SetEnvIfExpr "env('CORSProcessing') == 'true' && env('CORSTrusted') != 'true' && req_novary('Origin') =~ m#(https://(.*\.)?vercel\.app(:\d+)?$)#" CORSTrusted=true
+        SetEnvIfExpr "env('CORSProcessing') == 'true' && env('CORSTrusted') != 'true' && req_novary('Origin') =~ m#(http://localhost(:\d+)?$)#" CORSTrusted=true
+        SetEnvIfExpr "env('CORSProcessing') == 'true' && env('CORSTrusted') != 'true' && req_novary('Origin') =~ m#(http://127\.0\.0\.1(:\d+)?$)#" CORSTrusted=true
+
+        # Debugging, comment out for production
+        # Header always set "X-CORSType" "%{CORSType}e"
+        # Header always set "X-CORSProcessing" "%{CORSProcessing}e"
+        # Header always set "X-CORSTrusted" "%{CORSTrusted}e"
+        # Header always set "X-ParsedHost" "%{ParsedHost}e"
+
+        # Extract the Origin header (should probably ensure split request is not possible, by passing the result through a URL encode step)
+        SetEnvIfNoCase ^Origin$ ^https://(.*)$ CORSTrustedOrigin=https://$1
+
+        # Flush If already set
+        Header unset Access-Control-Allow-Origin
+        Header unset Access-Control-Allow-Credentials
+
+        # Trusted
+        Header always set Access-Control-Allow-Credentials "true" "expr=reqenv('CORSTrusted') == 'true'"
+        Header always set Access-Control-Allow-Origin "%{CORSTrustedOrigin}e" "expr=reqenv('CORSTrusted') == 'true'"
+        Header always set Access-Control-Allow-Methods "GET, HEAD, POST" "expr=reqenv('CORSTrusted') == 'true'"
+        Header always set Access-Control-Max-Age 1800 "expr=reqenv('CORSTrusted') == 'true'"
+        Header always set Access-Control-Allow-Headers "Origin, Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers, X-AEM-Vip-Key" "expr=reqenv('CORSTrusted') == 'true'"
+
+        # Non-CORS or Not Trusted
+        Header unset Access-Control-Allow-Credentials "expr=reqenv('CORSProcessing') == 'false' || reqenv('CORSTrusted') == 'false'"
+        Header unset Access-Control-Allow-Origin "expr=reqenv('CORSProcessing') == 'false' || reqenv('CORSTrusted') == 'false'"
+        Header unset Access-Control-Allow-Methods "expr=reqenv('CORSProcessing') == 'false' || reqenv('CORSTrusted') == 'false'"
+        Header unset Access-Control-Max-Age "expr=reqenv('CORSProcessing') == 'false' || reqenv('CORSTrusted') == 'false'"
+
+        # Always vary on origin, even if its not there.
+        Header merge Vary Origin
 	</IfModule>
 	<Directory />
 		<IfModule disp_apache2.c>
