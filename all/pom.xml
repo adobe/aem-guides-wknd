@@ -197,9 +197,10 @@
                 <plugins>
                     <plugin>
                         <groupId>org.apache.jackrabbit</groupId>
-                        <artifactId>filevault-package-maven-plugin</artifactId>
+                        <artifactId>filevault-package-maven-plugin</artifactId>                    
                         <extensions>true</extensions>
                         <configuration>
+                            <finalName>aem-guides-wknd.all-${version}-classic</finalName>
                             <group>com.adobe.aem.guides</group>
                             <embeddeds>
                                 <embedded>
@@ -257,8 +258,17 @@
                             </embeddeds>
                         </configuration>
                     </plugin>
-            </plugins>
+                </plugins>
             </build>
+              <dependencies>    
+                <!-- WKND Shared -->
+                <dependency>
+                    <groupId>com.adobe.aem.guides</groupId>
+                    <artifactId>aem-guides-wknd-shared.ui.content</artifactId>
+                    <version>${wknd-shared.65.version}</version>
+                    <type>zip</type>
+                </dependency>        
+            </dependencies>
          </profile>
     </profiles>
 
