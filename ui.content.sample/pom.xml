@@ -71,7 +71,6 @@
                         <dependency>
                             <groupId>com.adobe.aem.guides</groupId>
                             <artifactId>aem-guides-wknd-shared.ui.content</artifactId>
-                            <version>${wknd-shared.version}</version>
                         </dependency>
                     </dependencies>
                 </configuration>
@@ -116,4 +115,13 @@
             <type>zip</type>
         </dependency>
     </dependencies>
+
+    <profiles>
+        <profile>
+            <id>classic</id>
+            <properties>
+                <wknd-shared.version>${wknd-shared.65.version}</wknd-shared.version>
+            </properties>
+        </profile>
+    </profiles>
 </project>
