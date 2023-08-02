@@ -21,20 +21,6 @@ public interface Byline {
     /***
     * @return a boolean if the component has enough content to display.
     */
-    boolean isAnyFieldEmpty();
-
-    /***
-     * @return a boolean based on the state of the name field.
-     */
-    boolean isNameEmpty();
-
-    /***
-     * @return a boolean based on the state of the occupations field.
-     */
-    boolean isOccupationsEmpty();
-
-    /***
-     * @return a boolean based on the state of the occupations field.
-     */
-    boolean isImageEmpty();
+    boolean isEmpty();
+    
 }
