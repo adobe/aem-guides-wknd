@@ -116,4 +116,13 @@
             <artifactId>aem-sdk-api</artifactId>
         </dependency>
     </dependencies>
+
+    <profiles>
+        <profile>
+            <id>classic</id>
+            <properties>
+                <wknd-shared.version>${wknd-shared.65.version}</wknd-shared.version>
+            </properties>
+        </profile>
+    </profiles>
 </project>

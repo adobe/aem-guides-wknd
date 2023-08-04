@@ -193,6 +193,9 @@
             <activation>
                 <activeByDefault>false</activeByDefault>
             </activation>
+            <properties>
+                <wknd-shared.version>${wknd-shared.65.version}</wknd-shared.version>
+            </properties>
             <build>
                 <plugins>
                     <plugin>
@@ -265,7 +268,7 @@
                 <dependency>
                     <groupId>com.adobe.aem.guides</groupId>
                     <artifactId>aem-guides-wknd-shared.ui.content</artifactId>
-                    <version>${wknd-shared.65.version}</version>
+                    <version>${wknd-shared.version}</version>
                     <type>zip</type>
                 </dependency>        
             </dependencies>

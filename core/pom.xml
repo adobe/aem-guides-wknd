@@ -160,7 +160,6 @@ Import-Package: javax.annotation;version=0.0.0,*
         </profile>
         <profile>
             <id>classic</id>
-
              <build>
                 <plugins>
                     <plugin>
