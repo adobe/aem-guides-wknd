@@ -80,8 +80,16 @@ Include conf.d/variables/custom.vars
           # Always vary on origin, even if its not there.
           Header merge Vary Origin
 
-          Header always set x-cors-processing-last "reqenv('CORSProcessing')"
-          Header always set x-cors-trusted-last "reqenv('CORSTrusted')"
+          Header always set x-cors-processing-y reqenv('CORSProcessing')
+          Header always set x-cors-trusted-y reqenv('CORSTrusted')
+
+          Header always set x-cors-processing-z "%{ENV:CORSProcessing}"
+          Header always set x-cors-trusted-z "%{ENV:CORSTrusted}"
+
+          Header always set x-cors-processing-z1 %{ENV:CORSProcessing}
+          Header always set x-cors-trusted-z1 %{ENV:CORSTrusted}
+
+
 
           # CORS - send 204 for CORS requests which are not trusted
           RewriteCond expr "reqenv('CORSProcessing') == 'true' && reqenv('CORSTrusted') == 'false'"
