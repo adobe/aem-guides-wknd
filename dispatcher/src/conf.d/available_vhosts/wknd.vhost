@@ -81,10 +81,11 @@ Include conf.d/variables/custom.vars
           Header merge Vary Origin
 
           Header always set x-cors-processing-y "rbbb" "expr=reqenv('CORSProcessing') == 'true'"
-          Header always set x-cors-trusted-y "rbbb" "expr=reqenv('CORSTrusted') == 'false'"
+          Header always set x-cors-trusted-y "rbbb" "expr=reqenv('CORSTrusted') == 'true'"
 
           # CORS - send 204 for CORS requests which are not trusted
-          RewriteCond expr "reqenv('CORSProcessing') == 'true' && reqenv('CORSTrusted') == 'false'"
+          RewriteCond expr "reqenv('CORSProcessing') == 'true'
+          RewriteCond expr "reqenv('CORSTrusted') == 'false'"
           RewriteRule "^(.*)" - [R=204,L]
 
           ################## End of CORS configuration ##################
