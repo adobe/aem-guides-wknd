@@ -83,11 +83,8 @@ Include conf.d/variables/custom.vars
           Header always set x-cors-processing-y reqenv('CORSProcessing')
           Header always set x-cors-trusted-y reqenv('CORSTrusted')
 
-          Header always set x-cors-processing-z "%{ENV:CORSProcessing}"
-          Header always set x-cors-trusted-z "%{ENV:CORSTrusted}"
-
-          Header always set x-cors-processing-z1 %{ENV:CORSProcessing}
-          Header always set x-cors-trusted-z1 %{ENV:CORSTrusted}
+          Header always set x-cors-processing-z1 "%{CORSProcessing}e"
+          Header always set x-cors-trusted-z1 "%{CORSTrusted}e"
 
 
 
