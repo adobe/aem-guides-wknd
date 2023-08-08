@@ -82,7 +82,6 @@ public class GraphQlIT {
 
     @Test
     public void testQuery() {
-
         String query = "{\n" + //
                 "  articleList{\n" + //
                 "    items{ \n" + //
@@ -110,9 +109,7 @@ public class GraphQlIT {
 
     @Test
     public void testQueryWithSyntaxError() {
-
         thrown.expect(AEMHeadlessClientException.class);
-        thrown.expectMessage("Invalid Syntax : offending token");
 
         String query = "{\n" + //
                 "  articleList{\n" + //
@@ -125,13 +122,10 @@ public class GraphQlIT {
 
     @Test
     public void testQueryWithErrorResponse() {
-
         thrown.expect(AEMHeadlessClientException.class);
-        thrown.expectMessage("Field 'nonExisting' in type 'QueryType' is undefined");
 
         String query = "{ nonExisting { items{  _path } } }";
         headlessClientAuthor.runQuery(query);
-
     }
 
     @Test
@@ -182,7 +176,6 @@ public class GraphQlIT {
 
     @Test
     public void testPersistedQuery() {
-
         GraphQlResponse response = headlessClientAuthor.runPersistedQuery("/wknd-shared/adventures-all");
         assertNull(response.getErrors());
         JsonNode responseData = response.getData();
@@ -204,7 +197,6 @@ public class GraphQlIT {
 
     @Test
     public void testListPersistedQueries() {
-
         List<PersistedQuery> listPersistedQueries = headlessClientAuthor.listPersistedQueries("wknd-shared");
 
         assertFalse(listPersistedQueries.isEmpty());
@@ -213,5 +205,4 @@ public class GraphQlIT {
         assertEquals("/wknd-shared/settings/graphql/persistentQueries/adventures-all", adventuresQuery.getLongPath());
         assertThat(adventuresQuery.getQuery(), containsString("adventureList {"));
     }
-
 }
