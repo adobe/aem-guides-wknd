@@ -89,7 +89,9 @@ Include conf.d/variables/custom.vars
 
 
           # CORS - send 204 for CORS requests which are not trusted
-          RewriteCond expr "reqenv('CORSProcessing') == 'true' && reqenv('CORSTrusted') == 'false'"
+          #RewriteCond expr "reqenv('CORSProcessing') == 'true' && reqenv('CORSTrusted') == 'false'"
+          RewriteCond %{ENV:CORSProcessing} ^true$
+          RewriteCond %{ENV:CORSTrusted} ^false$
           RewriteRule "^(.*)" - [R=204,L]
 
           ################## End of CORS configuration ##################
