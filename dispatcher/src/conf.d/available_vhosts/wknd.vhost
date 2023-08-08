@@ -20,11 +20,8 @@ Include conf.d/variables/custom.vars
 	<IfModule mod_headers.c>
 		Header add X-Vhost "publish"
 
-
-
         <IfDefine ENABLE_CORS>
           ################## Start of CORS configuration ##################
-
           SetEnvIfExpr "req_novary('Origin') == ''" CORSType=none CORSProcessing=false
           SetEnvIfExpr "req_novary('Origin') != ''" CORSType=cors CORSProcessing=true CORSTrusted=false
 
@@ -35,30 +32,22 @@ Include conf.d/variables/custom.vars
           # For requests that require CORS processing, check if the Origin can be trusted
           SetEnvIfExpr "%{HTTP_HOST} =~ /(.*)/ " ParsedHost=$1
 
-          Header always set x-cors-type "%{CORSType}e"
-          Header always set x-cors-processing "%{CORSProcessing}e"
-          Header always set x-cors-trusted-1 "%{CORSTrusted}e"
-          
-          Header always set x-cors-parsedhost "%{ParsedHost}e"
-          
-          
-          
           ################## Adapt regex to match CORS origin(s) for your environment
-          SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(https://.*.adobe.com$)#" CORSTrusted=true
-          Header always set x-cors-trusted-a "%{CORSTrusted}e"
-          SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(https://.*.enablementadobe.com$)#" CORSTrusted=true
-          Header always set x-cors-trusted-b "%{CORSTrusted}e"
-          SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(https://codesandbox\.io$)#" CORSTrusted=true
-          Header always set x-cors-trusted-c "%{CORSTrusted}e"
-          SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(https://cdpn.io$)#" CORSTrusted=true
-          Header always set x-cors-trusted-d "%{CORSTrusted}e"
+          # Developer Localhost
           SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(http://localhost(:\d+)?$)#" CORSTrusted=true
-          Header always set x-cors-trusted-e "%{CORSTrusted}e"
+          # Adobe AppBuilder
+          SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(https://experience\.adobe\.com$)#" CORSTrusted=true          
+          # Developer Vercel app
+          SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(https://.*\.vercel\.app$)#" CORSTrusted=true
+          # Developer Github.io app
+          SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(https://.*\.github\.io$)#" CORSTrusted=true
+          # Developer Codesandbox.io app
+          SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(https://codesandbox\.io$)#" CORSTrusted=true
+          # Developer CodePen.io app
+          SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(https://cdpn\.io$)#" CORSTrusted=true
 
           # Extract the Origin header
           SetEnvIfNoCase ^Origin$ ^(.*)$ CORSTrustedOrigin=$1
-
-          Header always set x-cors-trusted-origin "%{CORSTrustedOrigin}e"
 
           # Flush If already set
           Header unset Access-Control-Allow-Origin
@@ -84,6 +73,7 @@ Include conf.d/variables/custom.vars
           RewriteCond expr "reqenv('CORSProcessing') == 'true' && reqenv('CORSTrusted') == 'false'"
           RewriteRule "^(.*)" - [R=204,L]
 
+          # Remove Origin before sending to AEM Publish
           RequestHeader unset Origin
 
           ################## End of CORS configuration ##################
