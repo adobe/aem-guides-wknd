@@ -44,13 +44,16 @@ Include conf.d/variables/custom.vars
           
           
           ################## Adapt regex to match CORS origin(s) for your environment
-          SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(https://.*.adobe.com?$)#" CORSTrusted=true
-          SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(https://.*.enablementadobe.com?$)#" CORSTrusted=true
-          SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(https://.*.codesandbox.io?$)#" CORSTrusted=true
-          SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(https://.*.cdpn.io?$)#" CORSTrusted=true
+          SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(https://.*.adobe.com$)#" CORSTrusted=true
+          Header always set x-cors-trusted-a "%{CORSTrusted}e"
+          SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(https://.*.enablementadobe.com$)#" CORSTrusted=true
+          Header always set x-cors-trusted-b "%{CORSTrusted}e"
+          SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(https://codesandbox\.io$)#" CORSTrusted=true
+          Header always set x-cors-trusted-c "%{CORSTrusted}e"
+          SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(https://cdpn.io$)#" CORSTrusted=true
+          Header always set x-cors-trusted-d "%{CORSTrusted}e"
           SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(http://localhost(:\d+)?$)#" CORSTrusted=true
-
-          Header always set x-cors-trusted-2 "%{CORSTrusted}e"
+          Header always set x-cors-trusted-e "%{CORSTrusted}e"
 
           # Extract the Origin header
           SetEnvIfNoCase ^Origin$ ^(.*)$ CORSTrustedOrigin=$1
