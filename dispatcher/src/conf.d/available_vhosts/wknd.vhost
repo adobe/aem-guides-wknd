@@ -20,6 +20,8 @@ Include conf.d/variables/custom.vars
 	<IfModule mod_headers.c>
 		Header add X-Vhost "publish"
 
+
+
         <IfDefine ENABLE_CORS>
           ################## Start of CORS configuration ##################
 
@@ -33,6 +35,14 @@ Include conf.d/variables/custom.vars
           # For requests that require CORS processing, check if the Origin can be trusted
           SetEnvIfExpr "%{HTTP_HOST} =~ /(.*)/ " ParsedHost=$1
 
+          Header always set x-cors-type "%{CORSType}e"
+          Header always set x-cors-processing "%{CORSProcessing}e"
+          Header always set x-cors-trusted-1 "%{CORSTrusted}e"
+          
+          Header always set x-cors-parsedhost "%{ParsedHost}e"
+          
+          
+          
           ################## Adapt regex to match CORS origin(s) for your environment
           SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(https://.*.adobe.com?$)#" CORSTrusted=true
           SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(https://.*.enablementadobe.com?$)#" CORSTrusted=true
@@ -40,8 +50,12 @@ Include conf.d/variables/custom.vars
           SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(https://.*.cdpn.io?$)#" CORSTrusted=true
           SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(http://localhost(:\d+)?$)#" CORSTrusted=true
 
+          Header always set x-cors-trusted-2 "%{CORSTrusted}e"
+
           # Extract the Origin header
           SetEnvIfNoCase ^Origin$ ^(.*)$ CORSTrustedOrigin=$1
+
+          Header always set x-cors-trusted-origin "%{CORSTrustedOrigin}e"
 
           # Flush If already set
           Header unset Access-Control-Allow-Origin
