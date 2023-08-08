@@ -32,7 +32,9 @@ Include conf.d/variables/custom.vars
           # For requests that require CORS processing, check if the Origin can be trusted
           SetEnvIfExpr "%{HTTP_HOST} =~ /(.*)/ " ParsedHost=$1
 
-          ################## Adapt regex to match CORS origin(s) for your environment
+          ################## Adapt regex to match CORS origin(s) for applications
+
+          ################## The following provide access from common developer platforms, to accelerate AEM Headless access to WKND content.
           # Developer Localhost
           SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(http://localhost(:\d+)?$)#" CORSTrusted=true
           # Adobe AppBuilder
