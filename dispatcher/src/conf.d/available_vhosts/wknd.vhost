@@ -44,7 +44,7 @@ Include conf.d/variables/custom.vars
           # Developer Github.io app
           SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(https://.*\.github\.io$)#" CORSTrusted=true
           # Developer Codesandbox.io app
-          SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(https://codesandbox\.io$)#" CORSTrusted=true
+          SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(https://.*\.csb\.app$)#" CORSTrusted=true
           # Developer CodePen.io app
           SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(https://cdpn\.io$)#" CORSTrusted=true
 
