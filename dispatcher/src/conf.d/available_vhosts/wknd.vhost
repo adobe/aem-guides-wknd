@@ -19,6 +19,56 @@ Include conf.d/variables/custom.vars
 	# Add header breadcrumbs for help in troubleshooting
 	<IfModule mod_headers.c>
 		Header add X-Vhost "publish"
+
+        <IfDefine ENABLE_CORS>
+          ################## Start of CORS configuration ##################
+
+          SetEnvIfExpr "req_novary('Origin') == ''" CORSType=none CORSProcessing=false
+          SetEnvIfExpr "req_novary('Origin') != ''" CORSType=cors CORSProcessing=true CORSTrusted=false
+
+          SetEnvIfExpr "req_novary('Access-Control-Request-Method') == '' && %{REQUEST_METHOD} == 'OPTIONS' && req_novary('Origin') != ''" CORSType=invalidpreflight CORSProcessing=false
+          SetEnvIfExpr "req_novary('Access-Control-Request-Method') != '' && %{REQUEST_METHOD} == 'OPTIONS' && req_novary('Origin') != ''" CORSType=preflight CORSProcessing=true CORSTrusted=false
+          SetEnvIfExpr "req_novary('Origin') -strcmatch '%{REQUEST_SCHEME}://%{HTTP_HOST}*'" CORSType=samedomain CORSProcessing=false
+
+          # For requests that require CORS processing, check if the Origin can be trusted
+          SetEnvIfExpr "%{HTTP_HOST} =~ /(.*)/ " ParsedHost=$1
+
+          ################## Adapt regex to match CORS origin(s) for your environment
+          SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(https://.*.adobe.com?$)#" CORSTrusted=true
+          SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(https://.*.enablementadobe.com?$)#" CORSTrusted=true
+          SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(https://.*.codesandbox.io?$)#" CORSTrusted=true
+          SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(https://.*.cdpn.io?$)#" CORSTrusted=true
+          SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(http://localhost(:\d+)?$)#" CORSTrusted=true
+
+          # Extract the Origin header
+          SetEnvIfNoCase ^Origin$ ^(.*)$ CORSTrustedOrigin=$1
+
+          # Flush If already set
+          Header unset Access-Control-Allow-Origin
+          Header unset Access-Control-Allow-Credentials
+
+          # Trusted
+          Header always set Access-Control-Allow-Credentials "true" "expr=reqenv('CORSTrusted') == 'true'"
+          Header always set Access-Control-Allow-Origin "%{CORSTrustedOrigin}e" "expr=reqenv('CORSTrusted') == 'true'"
+          Header always set Access-Control-Allow-Methods "GET" "expr=reqenv('CORSTrusted') == 'true'"
+          Header always set Access-Control-Max-Age 1800 "expr=reqenv('CORSTrusted') == 'true'"
+          Header always set Access-Control-Allow-Headers "Origin, Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers" "expr=reqenv('CORSTrusted') == 'true'"
+
+          # Non-CORS or Not Trusted
+          Header unset Access-Control-Allow-Credentials "expr=reqenv('CORSProcessing') == 'false' || reqenv('CORSTrusted') == 'false'"
+          Header unset Access-Control-Allow-Origin "expr=reqenv('CORSProcessing') == 'false' || reqenv('CORSTrusted') == 'false'"
+          Header unset Access-Control-Allow-Methods "expr=reqenv('CORSProcessing') == 'false' || reqenv('CORSTrusted') == 'false'"
+          Header unset Access-Control-Max-Age "expr=reqenv('CORSProcessing') == 'false' || reqenv('CORSTrusted') == 'false'"
+
+          # Always vary on origin, even if its not there.
+          Header merge Vary Origin
+
+          # CORS - send 204 for CORS requests which are not trusted
+          RewriteCond expr "reqenv('CORSProcessing') == 'true' && reqenv('CORSTrusted') == 'false'"
+          RewriteRule "^(.*)" - [R=204,L]
+
+          ################## End of CORS configuration ##################
+        </IfDefine>        
 	</IfModule>
 	<Directory />
 		<IfModule disp_apache2.c>
