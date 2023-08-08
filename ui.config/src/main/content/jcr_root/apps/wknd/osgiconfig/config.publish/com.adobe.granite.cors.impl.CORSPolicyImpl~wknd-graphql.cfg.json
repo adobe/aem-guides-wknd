@@ -1,0 +1,32 @@
+// This OSGi configuration is to support local development on the AEM SDK. 
+// The Dispatcher CORS configuration should be used when deploying to AEM as a Cloud Service.
+// See https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/deployments/configurations/cors.html
+{
+    "alloworigin":[
+      ""
+    ],
+    "alloworiginregexp":[
+      "http://localhost:.*"
+    ],
+    "allowedpaths": [
+      "/graphql/execute.json.*",
+      "/content/_cq_graphql/wknd-shared/endpoint.json",
+      "/content/experience-fragments/.*"
+    ],
+    "supportedheaders": [
+      "Origin",
+      "Accept",
+      "X-Requested-With",
+      "Content-Type",
+      "Access-Control-Request-Method",
+      "Access-Control-Request-Headers"
+    ],
+    "supportedmethods":[
+      "GET",
+      "HEAD",
+      "POST"
+    ],
+    "maxage:Integer": 1800,
+    "supportscredentials": false,
+    "exposedheaders":[ "" ]
+}
