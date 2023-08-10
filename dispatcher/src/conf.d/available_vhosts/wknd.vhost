@@ -8,6 +8,11 @@
 # Include customer defined variables
 Include conf.d/variables/custom.vars
 
+# Add ModSecurity Configuration
+<IfModule mod_security2.c>
+    Include conf.d/modsec/modsecurity.conf
+</IfModule>
+
 <VirtualHost *:80>
 	ServerName	"publish"
 	# Put names of which domains are used for your published site/content here
