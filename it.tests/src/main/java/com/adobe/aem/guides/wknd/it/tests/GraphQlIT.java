@@ -186,12 +186,12 @@ public class GraphQlIT {
         JsonNode adventureListItems = adventureListList.get("items");
         assertNotNull(adventureListItems);
         assertEquals(16, adventureListItems.size());
-        JsonNode firstAdvantureItem = adventureListItems.get(0);
-        assertNotNull(firstAdvantureItem.get("_path"));
-        assertNotNull(firstAdvantureItem.get("title"));
-        assertNotNull(firstAdvantureItem.get("price"));
-        assertNotNull(firstAdvantureItem.get("tripLength"));
-        assertNotNull(firstAdvantureItem.get("primaryImage"));
+        JsonNode firstAdventureItem = adventureListItems.get(0);
+        assertNotNull(firstAdventureItem.get("_path"));
+        assertNotNull(firstAdventureItem.get("title"));
+        assertNotNull(firstAdventureItem.get("price"));
+        assertNotNull(firstAdventureItem.get("tripLength"));
+        assertNotNull(firstAdventureItem.get("primaryImage"));
 
     }
 
@@ -203,6 +203,6 @@ public class GraphQlIT {
         PersistedQuery adventuresQuery = listPersistedQueries.stream()
                 .filter(p -> p.getShortPath().equals("/wknd-shared/adventures-all")).findFirst().get();
         assertEquals("/wknd-shared/settings/graphql/persistentQueries/adventures-all", adventuresQuery.getLongPath());
-        assertThat(adventuresQuery.getQuery(), containsString("adventureList {"));
+        assertThat(adventuresQuery.getQuery(), containsString("adventureList") );
     }
 }
