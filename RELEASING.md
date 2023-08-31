@@ -15,7 +15,7 @@ Make sure that all issues assigned to the current milestone have been closed and
 
 Release for this project is performed via GitHub Actions. The source file for the release is stored at: `.github/workflows/maven-release.yml` and dictates the workflow **Release to OSSRH**.
 
-1. Navigate to the repo in GitHub > [Actions](https://github.com/adobe/aem-guides-wknd/actions).
+1. Navigate to the repo in GitHub > [Actions](https://github.com/wcm-io/aem-guides-wknd-wcmio/actions).
 1. Under **Workflows** click **Release to OSSRH**
 1. Choose the branch `main`. The workflow only runs against `main`.
 1. Choose a release version. An odd/even version patterning is used. So for a minor release, if the current version is `1.1.0-SNAPSHOT` enter `1.2.0`.
@@ -83,7 +83,7 @@ GPG_TTY=$(tty)
 export GPG_TTY
 ```
 
-3. Go to https://github.com/adobe/aem-guides-wknd/releases and edit the release tag and update the release text. Add compiled AEM Packages for AEM as a Cloud Service (default build) and special classic build for 6.x.x.
+3. Go to https://github.com/wcm-io/aem-guides-wknd-wcmio/releases and edit the release tag and update the release text. Add compiled AEM Packages for AEM as a Cloud Service (default build) and special classic build for 6.x.x.
 
 4. Log into https://oss.sonatype.org/ and close the staging repository. Closing the staging repo will automatically push the artifacts to Maven Central after a small delay (four hours for all mirrors to catch up)
 
@@ -93,6 +93,6 @@ export GPG_TTY
 
 After you release **AEM WKND Sites Project** (aka aem-guides-wknd) using any one of the above methods, follow below steps to publish it.
 
-1. Go to https://github.com/adobe/aem-guides-wknd/releases and edit the release tag and update the release text. Add compiled AEM Packages from the previous step.
+1. Go to https://github.com/wcm-io/aem-guides-wknd-wcmio/releases and edit the release tag and update the release text. Add compiled AEM Packages from the previous step.
 1. Close any issues fixed in the release and create the next milestone.
 1. Add a release announcement (and any other docs) to the documentation site.

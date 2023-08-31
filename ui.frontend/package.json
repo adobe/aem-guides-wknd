@@ -4,7 +4,7 @@
   "description": "Generates an AEM Frontend project with Webpack",
   "repository": {
     "type": "git",
-    "url": "https://github.com/adobe/aem-guides-wknd"
+    "url": "https://github.com/wcm-io/aem-guides-wknd-wcmio"
   },
   "private": true,
   "main": "src/main/webpack/site/main.ts",

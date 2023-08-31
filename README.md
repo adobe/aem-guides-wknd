@@ -11,7 +11,7 @@ WKND versions are compatible with the following versions of Adobe Experience Man
 
 ## Released artifacts
 
-![Maven CI](https://github.com/adobe/aem-guides-wknd/actions/workflows/maven.yml/badge.svg)
+![Maven CI](https://github.com/wcm-io/aem-guides-wknd-wcmio/actions/workflows/maven.yml/badge.svg)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.adobe.aem.guides/aem-guides-wknd/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.adobe.aem.guides/aem-guides-wknd)
 
 This is a sample Adobe Experience Manager project for a full stack Sites implementation for a fictitious lifestyle brand, WKND.
@@ -42,8 +42,8 @@ To deploy WKND to AEM as a Cloud Service, this project's source code must be dep
 
 Pre-compiled AEM packages are available under the latest release for easy installation on local environments using [CRX Package Manager](http://localhost:4502/crx/packmgr/index.jsp)
 
-* [`aem-guides-wknd.all-x.x.x.zip`](https://github.com/adobe/aem-guides-wknd/releases/latest): AEM as a Cloud Service, default build
-* [`aem-guides-wknd.all-x.x.x-classic.zip`](https://github.com/adobe/aem-guides-wknd/releases/latest): AEM 6.5.x+
+* [`aem-guides-wknd.all-x.x.x.zip`](https://github.com/wcm-io/aem-guides-wknd-wcmio/releases/latest): AEM as a Cloud Service, default build
+* [`aem-guides-wknd.all-x.x.x-classic.zip`](https://github.com/wcm-io/aem-guides-wknd-wcmio/releases/latest): AEM 6.5.x+
 
 ## How to build
 
@@ -66,8 +66,8 @@ $ mvn clean install -PautoInstallSinglePackage -Pclassic
 WKND Version | AEM as a Cloud Service | AEM 6.5   | Java SE | Maven
 -------------|------------------------|-----------|---------|---------
 Latest (main branch)| Continual              | **6.5.13.0+** |  8, 11  | 3.3.9+
-[v1.1.0](https://github.com/adobe/aem-guides-wknd/releases/tag/aem-guides-wknd-1.1.0) | Continual | 6.5.10+ | 8, 11 | 3.3.9+
-[v1.0.0](https://github.com/adobe/aem-guides-wknd/releases/tag/aem-guides-wknd-1.0.0) | Continual | 6.5.4+ | 8, 11 | 3.3.9+
+[v1.1.0](https://github.com/wcm-io/aem-guides-wknd-wcmio/releases/tag/aem-guides-wknd-1.1.0) | Continual | 6.5.10+ | 8, 11 | 3.3.9+
+[v1.0.0](https://github.com/wcm-io/aem-guides-wknd-wcmio/releases/tag/aem-guides-wknd-1.0.0) | Continual | 6.5.4+ | 8, 11 | 3.3.9+
 
 Setup your local development environment for [AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) or for [older versions of AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
