@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+
+    <filter root="/content/campaigns/wknd"/>
+
+    <!-- Force Policy and Template Updates -->
+    <filter root="/conf/wknd/settings/wcm" mode="merge" >
+      <include pattern="/conf/wknd/settings/wcm/policies"/>
+      <include pattern="/conf/wknd/settings/wcm/policies/wknd"/>
+      <include pattern="/conf/wknd/settings/wcm/policies/wknd/components"/>
+      <include pattern="/conf/wknd/settings/wcm/policies/wknd/components/email(/.*)?"/>
+      <include pattern="/conf/wknd/settings/wcm/template-types"/>
+      <include pattern="/conf/wknd/settings/wcm/template-types/email-page(/.*)?"/>
+      <include pattern="/conf/wknd/settings/wcm/templates"/>
+      <include pattern="/conf/wknd/settings/wcm/templates/email-page(/.*)?"/>
+    </filter>
+    <!-- <filter root="/conf/wknd/settings/wcm/policies/wknd/components/email"/> -->
+    <!-- <filter root="/conf/wknd/settings/wcm/template-types/email-page" />
+    <filter root="/conf/wknd/settings/wcm/templates/email-page"/> -->
+</workspaceFilter>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <wknd jcr:primaryType="nt:unstructured">
+        <components jcr:primaryType="nt:unstructured">
+          <email jcr:primaryType="nt:unstructured">
+              <container jcr:primaryType="nt:unstructured">
+                  <policy_1672952724261
+                      jcr:lastModified="{Date}2023-01-06T16:56:53.343-05:00"
+                      jcr:lastModifiedBy="admin"
+                      jcr:primaryType="nt:unstructured"
+                      jcr:title="WKND Email Root Policy"
+                      sling:resourceType="wcm/core/components/policy/policy"
+                      backgroundColorEnabled="true"
+                      backgroundImageEnabled="true"
+                      components="[group:WKND.Email]">
+                      <jcr:content jcr:primaryType="nt:unstructured"/>
+                      <cq:styleGroups jcr:primaryType="nt:unstructured">
+                          <item0 jcr:primaryType="nt:unstructured">
+                              <cq:styles jcr:primaryType="nt:unstructured">
+                                  <item0
+                                      cq:styleClasses="cmp-layout-container--fixed"
+                                      cq:styleId="1673035858285"
+                                      cq:styleLabel="fixed"
+                                      jcr:primaryType="nt:unstructured"/>
+                              </cq:styles>
+                          </item0>
+                      </cq:styleGroups>
+                  </policy_1672952724261>
+                  <policy_1403557968438282
+                      jcr:lastModified="{Date}2023-01-06T14:46:21.294-05:00"
+                      jcr:lastModifiedBy="admin"
+                      jcr:primaryType="nt:unstructured"
+                      jcr:title="WKND Email Content Policy"
+                      sling:resourceType="wcm/core/components/policy/policy"
+                      backgroundColorEnabled="true"
+                      components="[/apps/wknd/components/email/button,/apps/wknd/components/email/contentfragment,/apps/wknd/components/email/experiencefragment,/apps/wknd/components/email/image,/apps/wknd/components/email/segmentation,/apps/wknd/components/email/teaser,/apps/wknd/components/email/text,/apps/wknd/components/email/title]">
+                      <jcr:content jcr:primaryType="nt:unstructured"/>
+                      <cq:authoring jcr:primaryType="nt:unstructured">
+                          <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                              <mapping_1672955301490
+                                  jcr:primaryType="nt:unstructured"
+                                  assetGroup="media"
+                                  assetMimetype="image/*"
+                                  droptarget="image"
+                                  resourceType="wknd/components/email/image"/>
+                              <mapping_1672955398460
+                                  jcr:primaryType="nt:unstructured"
+                                  assetGroup="media"
+                                  assetMimetype="[application/vnd.adobe.contentfragment,text/html]"
+                                  droptarget="contentfragment"
+                                  resourceType="wknd/components/email/contentfragment"/>
+                              <mapping_1672955445288
+                                  jcr:primaryType="nt:unstructured"
+                                  assetGroup="content"
+                                  assetMimetype="text/html"
+                                  droptarget="experiencefragment"
+                                  resourceType="wknd/components/email/experiencefragment"/>
+                          </assetToComponentMapping>
+                      </cq:authoring>
+                  </policy_1403557968438282>
+              </container>
+              <page jcr:primaryType="nt:unstructured">
+                  <policy_1672953032638
+                      jcr:lastModified="{Date}2023-01-06T16:03:17.416-05:00"
+                      jcr:lastModifiedBy="admin"
+                      jcr:primaryType="nt:unstructured"
+                      jcr:title="WKND Email Page Policy"
+                      sling:resourceType="wcm/core/components/policy/policy"
+                      clientlibsAsync="false">
+                      <jcr:content jcr:primaryType="nt:unstructured"/>
+                  </policy_1672953032638>
+              </page>
+              <text jcr:primaryType="nt:unstructured">
+                  <policy_1673026230186
+                      jcr:lastModified="{Date}2023-01-06T17:01:58.621-05:00"
+                      jcr:lastModifiedBy="admin"
+                      jcr:primaryType="nt:unstructured"
+                      jcr:title="WKND Email Text Policy"
+                      sling:resourceType="wcm/core/components/policy/policy">
+                      <jcr:content jcr:primaryType="nt:unstructured"/>
+                      <rtePlugins jcr:primaryType="nt:unstructured">
+                          <paraformat
+                              jcr:primaryType="nt:unstructured"
+                              features="-">
+                              <formats
+                                  jcr:primaryType="nt:unstructured"
+                                  override="true">
+                                  <item0
+                                      jcr:primaryType="nt:unstructured"
+                                      description="Paragraph"
+                                      tag="p"/>
+                                  <item1
+                                      jcr:primaryType="nt:unstructured"
+                                      description="Heading 1"
+                                      tag="h1"/>
+                                  <item2
+                                      jcr:primaryType="nt:unstructured"
+                                      description="Heading 2"
+                                      tag="h2"/>
+                                  <item3
+                                      jcr:primaryType="nt:unstructured"
+                                      description="Heading 3"
+                                      tag="h3"/>
+                                  <item4
+                                      jcr:primaryType="nt:unstructured"
+                                      description="Heading 4"
+                                      tag="h4"/>
+                                  <item5
+                                      jcr:primaryType="nt:unstructured"
+                                      description="Heading 5"
+                                      tag="h5"/>
+                                  <item6
+                                      jcr:primaryType="nt:unstructured"
+                                      description="Heading 6"
+                                      tag="h6"/>
+                                  <item7
+                                      jcr:primaryType="nt:unstructured"
+                                      description="Quote"
+                                      tag="blockquote"/>
+                                  <item8
+                                      jcr:primaryType="nt:unstructured"
+                                      description="Horizontal Rule (visual line break)"
+                                      tag="hr"/>
+                                  <item9
+                                      jcr:primaryType="nt:unstructured"
+                                      description="Preformatted"
+                                      tag="pre"/>
+                              </formats>
+                          </paraformat>
+                          <misctools
+                              jcr:primaryType="nt:unstructured"
+                              features="specialchars,sourceedit">
+                              <specialCharsConfig jcr:primaryType="nt:unstructured">
+                                  <chars
+                                      jcr:primaryType="nt:unstructured"
+                                      override="true">
+                                      <item0
+                                          jcr:primaryType="nt:unstructured"
+                                          entity="&amp;copy;"
+                                          name="copyright"/>
+                                      <item1
+                                          jcr:primaryType="nt:unstructured"
+                                          entity="&amp;euro;"
+                                          name="euro"/>
+                                      <item2
+                                          jcr:primaryType="nt:unstructured"
+                                          entity="&amp;reg;"
+                                          name="registered"/>
+                                      <item3
+                                          jcr:primaryType="nt:unstructured"
+                                          entity="&amp;trade;"
+                                          name="trademark"/>
+                                  </chars>
+                              </specialCharsConfig>
+                          </misctools>
+                          <edit
+                              jcr:primaryType="nt:unstructured"
+                              features="paste-plaintext,paste-wordhtml"/>
+                          <findreplace
+                              jcr:primaryType="nt:unstructured"
+                              features="*"/>
+                          <undo
+                              jcr:primaryType="nt:unstructured"
+                              features="*"/>
+                          <spellcheck
+                              jcr:primaryType="nt:unstructured"
+                              features="*"/>
+                          <image
+                              jcr:primaryType="nt:unstructured"
+                              features="*"/>
+                          <table
+                              jcr:primaryType="nt:unstructured"
+                              features="*"/>
+                          <lists
+                              jcr:primaryType="nt:unstructured"
+                              features="*"/>
+                          <justify
+                              jcr:primaryType="nt:unstructured"
+                              features="*"/>
+                          <format
+                              jcr:primaryType="nt:unstructured"
+                              features="bold,italic,underline"/>
+                          <links
+                              jcr:primaryType="nt:unstructured"
+                              features="modifylink,unlink,anchor"/>
+                          <subsuperscript
+                              jcr:primaryType="nt:unstructured"
+                              features="*"/>
+                      </rtePlugins>
+                      <cq:styleGroups jcr:primaryType="nt:unstructured">
+                          <item0 jcr:primaryType="nt:unstructured">
+                              <cq:styles jcr:primaryType="nt:unstructured">
+                                  <item0
+                                      cq:styleClasses="cmp-text--font-xsmall"
+                                      cq:styleId="1673029013873"
+                                      cq:styleLabel="Extra-Small"
+                                      jcr:primaryType="nt:unstructured"/>
+                              </cq:styles>
+                          </item0>
+                      </cq:styleGroups>
+                  </policy_1673026230186>
+              </text>
+              <image jcr:primaryType="nt:unstructured">
+                  <policy_1673035121552
+                      jcr:lastModified="{Date}2023-01-06T15:02:27.646-05:00"
+                      jcr:lastModifiedBy="admin"
+                      jcr:primaryType="nt:unstructured"
+                      jcr:title="WKND Email Image Policy"
+                      sling:resourceType="wcm/core/components/policy/policy"
+                      allowedRenditionWidths="[100,200,300,400,500,600,700,800,900,1000,1100,1200,1600]"
+                      defaultWidth="1280"
+                      displayPopupTitle="true"
+                      isDecorative="false"
+                      jpegQuality="{Long}60"
+                      titleValueFromDAM="true">
+                      <jcr:content jcr:primaryType="nt:unstructured"/>
+                  </policy_1673035121552>
+              </image>
+          </email>
+        </components>
+    </wknd>
+</jcr:root>

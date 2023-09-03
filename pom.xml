@@ -44,6 +44,7 @@
         <module>it.tests</module>
         <module>dispatcher</module>
         <module>ui.tests</module>
+        <module>email</module>
     </modules>
 
     <properties>
@@ -61,7 +62,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <aem.sdk.api>2022.11.9850.20221116T162329Z-220900</aem.sdk.api>
         <componentGroupName>WKND Site</componentGroupName>
-        <core.wcm.components.version>2.20.8</core.wcm.components.version>
+        <core.wcm.components.version>2.21.2</core.wcm.components.version>
         <uber.jar.version>6.5.13</uber.jar.version>
         <wknd-shared.version>3.1.0</wknd-shared.version>
         <wknd-shared.65.version>2.2.2</wknd-shared.65.version>
