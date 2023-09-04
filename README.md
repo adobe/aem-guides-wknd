@@ -4,10 +4,10 @@
 
 WKND versions are compatible with the following versions of Adobe Experience Manager:
 
-| AEM version | WKND version |
-|:------------|:------------------------------:|
+| AEM version            | WKND version |
+|:-----------------------|:------------------------------:|
 | AEM as a Cloud Service | 3.x                 |
-| 6.5 SP16    | 2.x, 3.x                       |
+| 6.5 SP17               | 2.x, 3.x                       |
 
 ## Released artifacts
 
@@ -63,11 +63,11 @@ $ mvn clean install -PautoInstallSinglePackage -Pclassic
 
 ## System Requirements
 
-WKND Version | AEM as a Cloud Service | AEM 6.5   | Java SE | Maven
--------------|------------------------|-----------|---------|---------
-Latest (main branch)| Continual              | **6.5.13.0+** |  8, 11  | 3.3.9+
-[v1.1.0](https://github.com/adobe/aem-guides-wknd/releases/tag/aem-guides-wknd-1.1.0) | Continual | 6.5.10+ | 8, 11 | 3.3.9+
-[v1.0.0](https://github.com/adobe/aem-guides-wknd/releases/tag/aem-guides-wknd-1.0.0) | Continual | 6.5.4+ | 8, 11 | 3.3.9+
+WKND Version | AEM as a Cloud Service | AEM 6.5       | Java SE | Maven
+-------------|------------------------|---------------|---------|---------
+Latest (main branch)| Continual              | **6.5.17.0+** |  8, 11  | 3.3.9+
+[v1.1.0](https://github.com/adobe/aem-guides-wknd/releases/tag/aem-guides-wknd-1.1.0) | Continual | 6.5.10+       | 8, 11 | 3.3.9+
+[v1.0.0](https://github.com/adobe/aem-guides-wknd/releases/tag/aem-guides-wknd-1.0.0) | Continual | 6.5.4+        | 8, 11 | 3.3.9+
 
 Setup your local development environment for [AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) or for [older versions of AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
