@@ -1,0 +1,49 @@
+kind: "CDN"
+version: "1"
+metadata:
+  envTypes: ["dev"]
+data:
+  trafficFilters:
+    rules:
+      # Block access to a given path
+      # - name: block-path
+      #   when:
+      #     allOf:
+      #       - reqProperty: tier
+      #         matches: "author|publish"
+      #       - reqProperty: path
+      #         equals: '/block/me'
+      #   action: block
+      # Block access to OFAC countries
+      - name: block-ofac-countries
+        when:
+          allOf:
+            - reqProperty: tier
+              matches: "author|publish"
+            - reqProperty: clientCountry
+              in:
+                - SY
+                - BY
+                - MM
+                - KP
+                - IQ
+                - CD
+                - SD
+                - IR
+                - LR
+                - ZW
+                - CU
+                - CI
+        action: block
+      # Block client for 5m when it exceeds 100 req/sec on a time window of 1sec
+      - name: limit-requests-per-client-ip
+        when:
+          reqProperty: tier
+          matches: "author|publish"
+        rateLimit:
+          limit: 100
+          window: 1
+          penalty: 300
+          groupBy:
+            - reqProperty: clientIp
+        action: block
