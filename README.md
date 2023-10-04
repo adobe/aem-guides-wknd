@@ -1,4 +1,4 @@
-# AEM WKND Sites Project
+# AEM WKND Sites Project - snasif
 
 ## Adobe Experience Manager compatibility
 
