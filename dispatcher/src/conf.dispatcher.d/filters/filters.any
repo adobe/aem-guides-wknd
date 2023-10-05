@@ -36,3 +36,7 @@ $include "./default_filters.any"
 # ContextHub
 /0200 { /type "allow" /url "*/contexthub.pagedata.json" }
 /0201 { /type "allow" /url "/home/users/*.infinity.json" }
+
+# SITES-15655 - Enable API to Get Content Fragments and models on publish
+/0300 { /type "allow" /method "GET" /url "/adobe/sites/cf/models*" }
+/0301 { /type "allow" /method "GET" /url "/adobe/sites/cf/fragments*" }
