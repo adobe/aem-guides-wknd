@@ -29,3 +29,7 @@ $include "./default_filters.any"
 
 # Allow to download web manifest for PWA
 /0180 { /type "allow" /extension "webmanifest" }
+
+# SITES-15655 - Enable API to Get Content Fragments and models on publish
+/0190 { /type "allow" /method "GET" /url "/adobe/sites/cf/models*" }
+/0191 { /type "allow" /method "GET" /url "/adobe/sites/cf/fragments*" }
