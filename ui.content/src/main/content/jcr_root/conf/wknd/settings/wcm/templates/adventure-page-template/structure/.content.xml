@@ -6,6 +6,12 @@
         cq:lastModified="{Date}2020-07-08T14:51:50.044-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/adventure-page-template"
+        cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
+        cq:lastReplicated_preview="{Date}2023-09-15T11:00:00.000-07:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_preview="Activate"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="wknd/components/page">
         <root
