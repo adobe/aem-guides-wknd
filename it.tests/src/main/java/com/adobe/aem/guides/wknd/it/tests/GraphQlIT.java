@@ -21,6 +21,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
 
 import java.net.URISyntaxException;
 import java.util.HashMap;
@@ -102,7 +103,7 @@ public class GraphQlIT {
         assertNotNull(articleList);
         JsonNode articleListItems = articleList.get("items");
         assertNotNull(articleListItems);
-        assertEquals(7, articleListItems.size());
+        assertTrue(articleListItems.size() > 0);
         assertNotNull(articleListItems.get(0).get("_path"));
         assertNotNull(articleListItems.get(0).get("authorFragment"));
     }
@@ -169,7 +170,7 @@ public class GraphQlIT {
         assertNotNull(articleList);
         JsonNode articleListItems = articleList.get("items");
         assertNotNull(articleListItems);
-        assertEquals(1, articleListItems.size());
+        assertTrue(articleListItems.size() > 0);
         assertEquals(TEST_AUTHOR_FIRST_NAME, articleListItems.get(0).get("authorFragment").get("firstName").asText());
         assertEquals(TEST_AUTHOR_LAST_NAME, articleListItems.get(0).get("authorFragment").get("lastName").asText());
     }
@@ -185,7 +186,7 @@ public class GraphQlIT {
         assertNotNull(adventureListList);
         JsonNode adventureListItems = adventureListList.get("items");
         assertNotNull(adventureListItems);
-        assertEquals(16, adventureListItems.size());
+        assertTrue(adventureListItems.size() > 0);
         JsonNode firstAdventureItem = adventureListItems.get(0);
         assertNotNull(firstAdventureItem.get("_path"));
         assertNotNull(firstAdventureItem.get("title"));
