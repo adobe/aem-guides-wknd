@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
- |  Copyright 2020 Adobe Systems Incorporated
+ |  Copyright 2023 Adobe Systems Incorporated
  |
  |  Licensed under the Apache License, Version 2.0 (the "License");
  |  you may not use this file except in compliance with the License.
@@ -18,29 +18,19 @@
 <!--
  | DO NOT MODIFY
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>com.adobe.aem.guides</groupId>
-        <artifactId>aem-guides-wknd</artifactId>
-        <version>3.2.1-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath>
-    </parent>
+    <groupId>com.adobe.cq.cloud</groupId>
+    <version>0.0.1-SNAPSHOT</version>
+    <artifactId>com.adobe.cq.cloud.testing.ui.cypress.tests</artifactId>
+    <name>com.adobe.cq.cloud.testing.ui.cypress - UI Tests</name>
+    <description></description>
 
-    <artifactId>aem-guides-wknd.ui.tests</artifactId>
-    <name>WKND Sites Project - UI Tests</name>
-    <description>UI Tests for WKND Sites Project</description>
-    <packaging>pom</packaging>
-   
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <frontend-maven-plugin.version>1.11.3</frontend-maven-plugin.version>
-        <node.version>v12.16.3</node.version>
-        <npm.version>6.14.4</npm.version>
-
-        <HEADLESS_BROWSER>false</HEADLESS_BROWSER>
         <REPORTS_PATH>${project.basedir}/target/reports</REPORTS_PATH>
 
         <!-- AEMaaCS UI testing convention properties -->
@@ -50,7 +40,6 @@
         <AEM_PUBLISH_URL />
         <AEM_PUBLISH_USERNAME>admin</AEM_PUBLISH_USERNAME>
         <AEM_PUBLISH_PASSWORD>admin</AEM_PUBLISH_PASSWORD>
-        <SELENIUM_BROWSER>chrome</SELENIUM_BROWSER>
     </properties>
 
     <build>
@@ -63,11 +52,6 @@
                 <plugin>
                     <artifactId>maven-resources-plugin</artifactId>
                     <version>3.0.2</version>
-                </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-assembly-plugin</artifactId>
-                    <version>3.3.0</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
@@ -92,9 +76,8 @@
                 <artifactId>maven-assembly-plugin</artifactId>
                 <configuration>
                     <descriptors>
-                        <descriptor>${project.basedir}/assembly-ui-test-docker-context.xml</descriptor>
+                        <descriptor>assembly-ui-test-docker-context.xml</descriptor>
                     </descriptors>
-                    <tarLongFileMode>posix</tarLongFileMode>
                 </configuration>
                 <executions>
                     <execution>
@@ -110,65 +93,6 @@
     </build>
 
     <profiles>
-        <!-- Profile to run UI tests locally locally -->
-        <profile>
-            <id>ui-tests-local-execution</id>
-            <build>
-                <plugins>
-                    <plugin>
-                        <groupId>com.github.eirslett</groupId>
-                        <artifactId>frontend-maven-plugin</artifactId>
-                        <version>${frontend-maven-plugin.version}</version>
-                        <executions>
-                            <execution>
-                                <id>install node and npm</id>
-                                <phase>validate</phase>
-                                <goals>
-                                    <goal>install-node-and-npm</goal>
-                                </goals>
-                                <configuration>
-                                    <nodeVersion>${node.version}</nodeVersion>
-                                    <npmVersion>${npm.version}</npmVersion>
-                                    <installDirectory>test-module</installDirectory>
-                                </configuration>
-                            </execution>
-                            <execution>
-                                <id>npm ci</id>
-                                <phase>test</phase>
-                                <goals>
-                                    <goal>npm</goal>
-                                </goals>
-                            </execution>
-                            <execution>
-                                <id>test chrome</id>
-                                <phase>test</phase>
-                                <goals>
-                                    <goal>npm</goal>
-                                </goals>
-                                <configuration>
-                                    <arguments>run test-local-${SELENIUM_BROWSER}</arguments>
-                                </configuration>
-                            </execution>
-                        </executions>
-                        <configuration>
-                            <workingDirectory>test-module</workingDirectory>
-                            <environmentVariables>
-                                <AEM_AUTHOR_URL>${AEM_AUTHOR_URL}</AEM_AUTHOR_URL>
-                                <AEM_AUTHOR_USERNAME>${AEM_AUTHOR_USERNAME}</AEM_AUTHOR_USERNAME>
-                                <AEM_AUTHOR_PASSWORD>${AEM_AUTHOR_PASSWORD}</AEM_AUTHOR_PASSWORD>
-                                <AEM_PUBLISH_URL>${AEM_PUBLISH_URL}</AEM_PUBLISH_URL>
-                                <AEM_PUBLISH_USERNAME>${AEM_PUBLISH_USERNAME}</AEM_PUBLISH_USERNAME>
-                                <AEM_PUBLISH_PASSWORD>${AEM_PUBLISH_PASSWORD}</AEM_PUBLISH_PASSWORD>
-                                <SELENIUM_BROWSER>${SELENIUM_BROWSER}</SELENIUM_BROWSER>
-                                <HEADLESS_BROWSER>${HEADLESS_BROWSER}</HEADLESS_BROWSER>
-                                <REPORTS_PATH>${REPORTS_PATH}</REPORTS_PATH>
-                            </environmentVariables>
-                        </configuration>
-                    </plugin>
-                </plugins>
-            </build>
-        </profile>
-
         <profile>
             <id>ui-tests-docker-build</id>
             <activation>
@@ -189,7 +113,7 @@
                             </goals>
                             <configuration> 
                                 <executable>docker</executable>
-                                <workingDirectory>${project.basedir}</workingDirectory>
+                                <workingDirectory>.</workingDirectory>
                                 <arguments>
                                     <argument>build</argument>
                                     <argument>-t</argument>
@@ -206,7 +130,7 @@
                             </goals>
                             <configuration> 
                                 <executable>docker</executable>
-                                <workingDirectory>${project.basedir}</workingDirectory>
+                                <workingDirectory>.</workingDirectory>
                                 <arguments>
                                     <argument>tag</argument>
                                     <argument>${project.groupId}-${project.artifactId}/ui.tests:${project.version}</argument>
@@ -233,49 +157,25 @@
                         <version>1.6.0</version>
                         <executions>
                             <execution>
-                                <id>docker-compose-up</id>
+                                <id>docker-run</id>
                                 <phase>test</phase>
                                 <goals>
                                     <goal>exec</goal>
                                 </goals>
                                 <configuration>
-                                    <executable>docker-compose</executable>
-                                    <workingDirectory>${project.basedir}</workingDirectory>
-                                    <environmentVariables>
-                                        <AEM_AUTHOR_URL>${AEM_AUTHOR_URL}</AEM_AUTHOR_URL>
-                                        <AEM_AUTHOR_USERNAME>${AEM_AUTHOR_USERNAME}</AEM_AUTHOR_USERNAME>
-                                        <AEM_AUTHOR_PASSWORD>${AEM_AUTHOR_PASSWORD}</AEM_AUTHOR_PASSWORD>
-                                        <AEM_PUBLISH_URL>${AEM_PUBLISH_URL}</AEM_PUBLISH_URL>
-                                        <AEM_PUBLISH_USERNAME>${AEM_PUBLISH_USERNAME}</AEM_PUBLISH_USERNAME>
-                                        <AEM_PUBLISH_PASSWORD>${AEM_PUBLISH_PASSWORD}</AEM_PUBLISH_PASSWORD>
-                                        <SELENIUM_BROWSER>${SELENIUM_BROWSER}</SELENIUM_BROWSER>
-                                        <HEADLESS_BROWSER>${HEADLESS_BROWSER}</HEADLESS_BROWSER>
-                                        <REPORTS_PATH>${REPORTS_PATH}</REPORTS_PATH>
-                                    </environmentVariables>
+                                    <executable>docker</executable>
+                                    <workingDirectory>.</workingDirectory>
                                     <arguments>
-                                        <argument>-f</argument>
-                                        <argument>${project.basedir}/docker-compose-wdio-${SELENIUM_BROWSER}.yaml</argument>
-                                        <argument>up</argument>
-                                        <argument>--quiet-pull</argument>
-                                        <argument>--abort-on-container-exit</argument>
-                                        <argument>--remove-orphans</argument>
-                                    </arguments>
-                                </configuration>
-                            </execution>
-                            <execution>
-                                <id>docker-compose-down</id>
-                                <phase>test</phase>
-                                <goals>
-                                    <goal>exec</goal>
-                                </goals>
-                                <configuration>
-                                    <executable>docker-compose</executable>
-                                    <workingDirectory>${project.basedir}</workingDirectory>
-                                    <arguments>
-                                        <argument>-f</argument>
-                                        <argument>${project.basedir}/docker-compose-wdio-${SELENIUM_BROWSER}.yaml</argument>
-                                        <argument>down</argument>
-                                        <argument>--remove-orphans</argument>
+                                        <argument>run</argument>
+                                        <argument>-eAEM_AUTHOR_URL=${AEM_AUTHOR_URL}</argument>
+                                        <argument>-eAEM_AUTHOR_USERNAME=${AEM_AUTHOR_USERNAME}</argument>
+                                        <argument>-eAEM_AUTHOR_PASSWORD=${AEM_AUTHOR_PASSWORD}</argument>
+                                        <argument>-eAEM_PUBLISH_URL=${AEM_PUBLISH_URL}</argument>
+                                        <argument>-eAEM_PUBLISH_USERNAME=${AEM_PUBLISH_USERNAME}</argument>
+                                        <argument>-eAEM_PUBLISH_PASSWORD=${AEM_PUBLISH_PASSWORD}</argument>
+                                        <argument>-eREPORTS_PATH=/tmp/reports</argument>
+                                        <argument>-v${REPORTS_PATH}:/tmp/reports</argument>
+                                        <argument>${project.groupId}-${project.artifactId}/ui.tests:latest</argument>
                                     </arguments>
                                 </configuration>
                             </execution>
