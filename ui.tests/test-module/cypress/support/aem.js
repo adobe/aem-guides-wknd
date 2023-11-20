@@ -179,8 +179,6 @@ Cypress.Commands.add('AEMDeleteTestPages', function (path, regex = '') {
 Cypress.Commands.add('AEMPathExists', function (baseUrl, path) {
   const url = new URL(path, baseUrl)
 
-  console.log('COMMAND CALLED - START')
-
   return cy.request({
     url: url.href,
     failOnStatusCode: false

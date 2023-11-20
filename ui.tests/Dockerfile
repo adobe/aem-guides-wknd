@@ -20,7 +20,6 @@ RUN apt -qqy update \
     && apt -qqy --no-install-recommends install \
     python \
     build-essential
-# <<< End EAAS Convention \
 
 # Set Application Environment
 WORKDIR ${APP_PATH}

@@ -1,11 +1,11 @@
 # Cypress sample module
 
 Sample structure  for [Cypress](https://www.cypress.io) UI test module which conforms to
-AEM  Cloud Manager quality gate UI test conventions.
+AEM Cloud Manager quality gate UI test conventions.
 
 ## Cloud Manager UI test module conventions
 
-AEM provides an integrated suite of Cloud Manager quality gates to ensure smooth updates to custom applications,
+AEM provides an integrated suite of Cloud Manager quality gates to ensure smooth updates to custom applications;
 UI tests are executed as part of a specific quality gate for each Cloud Manager pipeline with a dedicated Custom UI Testing step.
 
 Within the project structure there is a [specific location](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.tests)
@@ -29,10 +29,10 @@ to run cypress tests.
 
 ### xvfb setup
 
->When running several Cypress instances in parallel, the spawning of multiple X11 servers at once can cause problems for some of them. In this case, you can separately start a single X11 server and pass the server's address to each Cypress instance using DISPLAY variable.
+>When running several Cypress instances in parallel, the spawning of multiple X11 servers at once can cause problems for some of them. In this case, you can separately start a single X11 server and pass the server's address to each Cypress instance using the DISPLAY environment variable.
 
-The setup described in [the documentation](https://docs.cypress.io/guides/continuous-integration/introduction#In-Docker) 
-is implemented in `run.sh` as is used as entrypoint to the container.
+The setup described in [the documentation](https://docs.cypress.io/guides/continuous-integration/introduction#In-Docker)
+is implemented in `run.sh`,  used as the _entrypoint_ to the container.
 
 ## Execute test module
 
@@ -40,7 +40,7 @@ is implemented in `run.sh` as is used as entrypoint to the container.
 
 Refer to [test-module/README.md](test-module/README.md).
 
-### Build and run test image
+### Build and run the test image
 
 The image built from the Dockerfile can be used to execute tests locally against an AEM environment. The `ui-tests-docker-execution`
 maven profile will start the docker-compose setup starting Cypress and the test module, executing the tests against

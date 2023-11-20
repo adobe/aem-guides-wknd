@@ -46,7 +46,7 @@ describe('validate the Wknd authoring flow', () => {
     cy.get('input[name="./jcr:title"]').type(testPage.title + '-edited')
     cy.get('button[type="submit"]#shell-propertiespage-doneactivator').click()
     cy.visit('/')
-    // navigate back and asset the value is stored
+    // navigate back and assess the value is stored
     cy.AEMNavigatePageProperties(testPage.path)
     cy.get('coral-panel.is-selected input[name="./jcr:title"]').should('have.value', testPage.title + '-edited')
   })
