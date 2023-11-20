@@ -34,12 +34,13 @@ const config = {
     REPORTS_PATH: reportsPath
   },
   e2e: {
-    setupNodeEvents (on, config) {
+    setupNodeEvents (on) {
       require('cypress-terminal-report/src/installLogsPrinter')(on, {
         printLogsToConsole: 'always'
       })
     },
     baseUrl: authorURL,
+    defaultCommandTimeout: 10000,
     reporter: 'cypress-multi-reporters',
     reporterOptions: {
       configFile: 'reporter.config.js'

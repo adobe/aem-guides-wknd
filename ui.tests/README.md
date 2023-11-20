@@ -62,9 +62,15 @@ The following environment variables (AEM UI test convention) can be passed
    ```
    mvn clean package -Pui-tests-docker-build
    ```
-2. Run the test
+2. Run the test (set environment variables accordingly) 
    ```
-   mvn verify -Pui-tests-docker-execution -DAEM_AUTHOR_URL=https://author.my-deployment.com -DAEM_AUTHOR_USERNAME=<PASS> -DAEM_AUTHOR_PASSWORD=<PASS>
+   mvn verify -Pui-tests-docker-execution \
+   -DAEM_AUTHOR_URL=${AEM_AUTHOR_URL} \
+   -DAEM_AUTHOR_USERNAME=${AEM_AUTHOR_USERNAME} \
+   -DAEM_AUTHOR_PASSWORD=${AEM_AUTHOR_PASSWORD} \
+   -DAEM_PUBLISH_URL=${AEM_PUBLISH_URL} \
+   -DAEM_PUBLISH_USERNAME=${AEM_PUBLISH_USERNAME} \
+   -DAEM_PUBLISH_PASSWORD=${AEM_PUBLISH_PASSWORD}   
    ```
 
 ## Integrate into your Cloud Manager repository

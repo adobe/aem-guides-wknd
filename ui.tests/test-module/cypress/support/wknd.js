@@ -19,13 +19,13 @@ import { RandomPageTitle } from './aem' // contains some utility functions
 // WKNDCreateContentPage creates a random content page, the page details can be accessed with this.wkndPage
 // NOTE: Don't use an arrow function as they don't have their own bindings to this, arguments, or super,
 
-Cypress.Commands.add('WKNDCreateContentPage', function (dir,title) {
+Cypress.Commands.add('WKNDCreateContentPage', function (dir, title) {
   if (!title) {
     title = RandomPageTitle()
   }
 
   // remove  trailing slash from dir
-  dir = dir.replace(/\/+$/, '');
+  dir = dir.replace(/\/+$/, '')
 
   cy.AEMNavigateSites(dir)
 
@@ -48,5 +48,5 @@ Cypress.Commands.add('WKNDCreateContentPage', function (dir,title) {
   cy.get('coral-dialog[aria-hidden="false"] ._coral-Button--primary', { timeout: 10000 }).click()
 
   cy.wrap(
-      { path: dir +"/"+ title,        title: title}).as('wkndPage')
+    { path: dir + '/' + title, title }).as('wkndPage')
 })
