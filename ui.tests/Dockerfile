@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM cypress/included:12.17.0
+FROM cypress/included:13.5.1
 
 ENV APP_PATH /usr/src/app
 RUN apt -qqy update \
