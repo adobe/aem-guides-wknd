@@ -1,45 +1,75 @@
-Sample Tests Project
-====================
+# Cypress Sample Test Module
 
-Sample UI tests using [Webdriver.IO](https://webdriver.io/) framework
+This module documents the recommended structure for a Cypress test module and adheres to the Cloud Manager UI test module conventions,
+ensuring that tests will be executed and reports generated are stored in the proper location.
 
-## Structure
+## Usage
 
-* `lib/config.js` Builds configuration object from Environment variables sent by EaaS
-* `package.json` Project definition: dependencies, npm scripts, ...
-* `wdio.conf.js` WDIO configuration: selenium endpoint, reporters, browser capabilities, ...
-* `specs/aem` Tests
+### local testing
 
-### Requirements
+- Install Cypress
+  ```shell
+  npm install
+  ```
 
-* [Node.js LTS](https://nodejs.org/en/)
+- Set environment variables required for test execution
+  ```shell
+  export AEM_AUTHOR_URL=https://author-p***-e***.adobeaemcloud.com
+  export AEM_AUTHOR_USERNAME=admin
+  export AEM_AUTHOR_PASSWORD=***
+  export AEM_PUBLISH_URL=https://publish-p***-e***.adobeaemcloud.com
+  export AEM_PUBLISH_USERNAME=admin
+  export AEM_PUBLISH_PASSWORD=***
+  export REPORTS_PATH=target/
+  ```
 
-### Install
+- Run tests with one of the following commands
+  ```shell
+  npm test              # Using default Cypress browser
+  npm run test-chrome   # Using Google Chrome browser
+  ```
+
+- For debugging tests, you may run Cypress with the browser visible and Cypress console
+  ```shell
+  npx cypress run --headed --no-exit --browser chrome
+  ```
+
+### Reports
+
+In order to be able to interpret the results of the tests correctly, a summary in JUnit format needs to be
+provided. To achieve this, both the `spec` and `mocha-junit-reporter` reporter are configured:
 
 ```
-npm ci
+reporter: 'cypress-multi-reporters',
+reporterOptions: {
+  configFile: 'reporter.config.js',
+},
 ```
 
-### Run tests locally
+```javascript
+const reportsPath = process.env.REPORTS_PATH || 'cypress/results'
 
-#### Requirements
+module.exports = {
+  "reporterEnabled": "spec, mocha-junit-reporter",
+  "mochaJunitReporterReporterOptions": {
+    "mochaFile": `${reportsPath}/output.xml`
+  },
+}
+```
 
-* AEM instance (example: `http://localhost:4502`)
+In order for the report to be found `reportPath` must be the value passed in the environment
+variable `REPORTS_PATH` as expected by EaaS. See [cypress.config.js](cypress.config.js)
 
-  > For local testing we suggest to use the [AEM as a Cloud Service SDK](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html)
+### Screenshots / Videos
 
-* Latest version of Chrome or Firefox browser installed locally in default location
+Cypress will automatically record videos for all test executions and create screenshots for test failures.
 
-#### Run
+Additional screenshots can be captured during the test execution using following command:
 
-* Chrome
-  ```
-  npm run test-local-chrome
-  ```
+```javascript
+cy.screenshot()
+```
 
-* Firefox
-  ```
-  npm run test-local-firefox
-  ```
+`$REPORTS_PATH/videos` will contain the videos.
 
-After execution, reports and logs are available in `reports` folder
+`$REPORTS_PATH/screenshots` will contain the images.
