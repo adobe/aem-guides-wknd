@@ -3,9 +3,6 @@
 This module documents the recommended structure for a Cypress test module and adheres to the Cloud Manager UI test module conventions,
 ensuring that tests will be executed and reports generated are stored in the proper location.
 
-Some examples of basic tasks like logging in-out of AEM instances, taking screenshots, logging browser requests are included.
-
-
 ## Usage
 
 ### local testing
@@ -30,7 +27,6 @@ Some examples of basic tasks like logging in-out of AEM instances, taking screen
   ```shell
   npm test              # Using default Cypress browser
   npm run test-chrome   # Using Google Chrome browser
-  npm run test-firefox  # Using Firefox browser
   ```
 
 - For debugging tests, you may run Cypress with the browser visible and Cypress console
@@ -43,7 +39,7 @@ Some examples of basic tasks like logging in-out of AEM instances, taking screen
 In order to be able to interpret the results of the tests correctly, a summary in JUnit format needs to be
 provided. To achieve this, both the `spec` and `mocha-junit-reporter` reporter are configured:
 
-```javascript
+```
 reporter: 'cypress-multi-reporters',
 reporterOptions: {
   configFile: 'reporter.config.js',
