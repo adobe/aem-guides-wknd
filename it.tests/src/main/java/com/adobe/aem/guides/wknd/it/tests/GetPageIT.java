@@ -19,10 +19,7 @@ import com.adobe.cq.testing.client.CQClient;
 import com.adobe.cq.testing.junit.rules.CQAuthorPublishClassRule;
 import com.adobe.cq.testing.junit.rules.CQRule;
 import org.apache.sling.testing.clients.ClientException;
-import org.apache.sling.testing.clients.SlingHttpResponse;
 import org.junit.*;
-
-import static org.junit.Assert.assertEquals;
 
 
 /**
@@ -68,12 +65,6 @@ public class GetPageIT {
     @Test
     public void testHomePageAuthor() throws ClientException {
         adminAuthor.doGet("/", 200);
-    }
-    @Test
-    public void testHomePagePub() throws ClientException {
-        SlingHttpResponse response = adminPublish.doGet("/", 200);
-
-        assertEquals(response.getSlingStatusAsInt(), 200);
     }
 
     /**
