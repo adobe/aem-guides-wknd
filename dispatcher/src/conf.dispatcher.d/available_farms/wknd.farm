@@ -90,10 +90,10 @@
 		# Marketing parameters can normally be ignored on most websites as they are tracked
 		# through different means. 
 		/ignoreUrlParams {
-                   # Common rule denying all parameters
+                   # All parameters can be passed to the AEM publisher
 			/0001 { /glob "*" /type "deny" }
 
-                   # Include additional rules from an external file
+                   # Ignore common marketing parameters by including the marketing_query_parameters.any file
 			$include "../cache/marketing_query_parameters.any"
                    }
 
