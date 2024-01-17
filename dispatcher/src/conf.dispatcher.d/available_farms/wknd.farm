@@ -90,16 +90,16 @@
 		# Marketing parameters can normally be ignored on most websites as they are tracked
 		# through different means. 
 		/ignoreUrlParams {
-                 # Common rule denying all parameters
-                   /0001 { /glob "*" /type "deny" }
+                   # Common rule denying all parameters
+                       /0001 { /glob "*" /type "deny" }
 
-                 # Test-specific rules
-                  /0002 { /glob "utm_campaign" /type "allow" }
-                  /0003 { /glob "page" /type "deny" }
+                   # Test-specific rules
+                      /0002 { /glob "utm_campaign" /type "allow" }
+                      /0003 { /glob "page" /type "deny" }
 
-                # Include additional rules from an external file
-                  $include "../cache/marketing_query_parameters.any"
-                }
+                  # Include additional rules from an external file
+                      $include "../cache/marketing_query_parameters.any"
+                  }
 
 		# Cache response headers next to a cached file. On the first request to
 		# an uncached resource, all headers matching one of the values found here
