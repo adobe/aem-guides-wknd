@@ -6,7 +6,7 @@ WKND versions are compatible with the following versions of Adobe Experience Man
 
 | AEM version            | WKND version |
 |:-----------------------|:------------------------------:|
-| AEM as a Cloud Service | 3.x                 |
+| AEM as a Cloud Service | 3.1                 |
 | 6.5 SP17               | 2.x, 3.x                       |
 
 ## Released artifacts
