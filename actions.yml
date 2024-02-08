@@ -1,0 +1,13 @@
+name: test_poc
+on:
+  push:
+    branches: [actions]
+  pull_request:
+    branches: [actions]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    -uses: actions/checkout@v2
