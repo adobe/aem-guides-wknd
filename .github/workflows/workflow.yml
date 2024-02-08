@@ -21,8 +21,9 @@ jobs:
       
     - name: Build with Maven
       run: mvn clean install -B
-    
-    - name: SonarQube Scan
-      uses: sonarsource/sonarcloud-github-action@v4
-      env:
-        SONAR_TOKEN: 'sqa_eeefad7db086885c55080a8f0a89618c5ea929b3'
+        - name: SonarQube Scan
+      uses: kitabisa/sonarqube-action@v1.2.0
+      with:
+        host: 'http://13.233.186.160:9000/'
+        login: 'sqa_eeefad7db086885c55080a8f0a89618c5ea929b3'
+
