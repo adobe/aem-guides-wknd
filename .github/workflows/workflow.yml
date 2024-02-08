@@ -23,6 +23,6 @@ jobs:
       run: mvn clean install -B
     
     - name: SonarQube Scan
-      uses: sonarsource/sonarcloud-github-action@v1
+      uses: sonarsource/sonarcloud-github-action@v4
       env:
         SONAR_TOKEN: 'sqa_eeefad7db086885c55080a8f0a89618c5ea929b3'
