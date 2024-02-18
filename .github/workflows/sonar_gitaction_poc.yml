@@ -9,7 +9,7 @@ on:
 jobs:
   sonarqube:
     name: SonarQube Trigger
-    runs-on: self-hosted
+    runs-on: aem-runner
     steps:
       - name: Checking out
         uses: actions/checkout@v2
