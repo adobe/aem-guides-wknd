@@ -1,7 +1,0 @@
-# Created by https://www.gitignore.io/api/eclipse,java,maven
-
-node/
-node_modules/
-npm-debug.log
-install.js
-dist/
