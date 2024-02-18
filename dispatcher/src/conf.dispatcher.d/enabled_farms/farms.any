@@ -1,2 +1,0 @@
-## Include all of the customers *.farm files
-$include "./*.farm"
