@@ -1,9 +1,0 @@
-**/.DS_Store
-**/package-lock.json
-**/node
-**/node_modules
-**/reports
-*/*.md
-*/*.txt
-*/*.log
-*/wdio.conf.local*
