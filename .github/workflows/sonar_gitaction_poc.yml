@@ -29,4 +29,4 @@ jobs:
       - name: Sonar Scan
         uses: warchant/setup-sonar-scanner@v7
       - name: SonarQube Scan
-        run: mvn clean verify sonar:sonar -Dsonar.projectKey=aem-test1 -Dsonar.projectName='aem-test1' -Dsonar.host.url=${{secrets.SOANR_HOST_URL}} -Dsonar.token=${{secrets.SONAR_TOKEN}}
+        run: mvn clean verify sonar:sonar -Dsonar.projectKey=aem-test1 -Dsonar.projectName='aem-test1' -Dsonar.host.url=http://13.201.33.163:9000 -Dsonar.token=sqp_e7f46cca7baa33919ba2f543b88edcc348e78e0c
