@@ -22,7 +22,7 @@
     <parent>
         <groupId>com.adobe.aem.guides</groupId>
         <artifactId>aem-guides-wknd</artifactId>
-        <version>3.2.1-SNAPSHOT</version>
+        <version>3.3.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -123,7 +123,7 @@
                         <id>analyse-project</id>
                         <phase>verify</phase>
                         <goals>
-                            <goal>project-analyse</goal>                           
+                            <goal>project-analyse</goal>
                         </goals>
                     </execution>
                 </executions>
@@ -200,7 +200,7 @@
                 <plugins>
                     <plugin>
                         <groupId>org.apache.jackrabbit</groupId>
-                        <artifactId>filevault-package-maven-plugin</artifactId>                    
+                        <artifactId>filevault-package-maven-plugin</artifactId>
                         <extensions>true</extensions>
                         <configuration>
                             <finalName>aem-guides-wknd.all-${version}-classic</finalName>
@@ -257,20 +257,20 @@
                                     <artifactId>aem-guides-wknd-shared.ui.content</artifactId>
                                     <type>zip</type>
                                     <target>/apps/wknd-vendor-packages/content/install</target>
-                                </embedded>                           
+                                </embedded>
                             </embeddeds>
                         </configuration>
                     </plugin>
                 </plugins>
             </build>
-              <dependencies>    
+              <dependencies>
                 <!-- WKND Shared -->
                 <dependency>
                     <groupId>com.adobe.aem.guides</groupId>
                     <artifactId>aem-guides-wknd-shared.ui.content</artifactId>
                     <version>${wknd-shared.version}</version>
                     <type>zip</type>
-                </dependency>        
+                </dependency>
             </dependencies>
          </profile>
     </profiles>
@@ -316,13 +316,13 @@
         </dependency>
         <dependency>
             <groupId>com.adobe.cq</groupId>
-            <artifactId>core.wcm.components.core</artifactId>                
+            <artifactId>core.wcm.components.core</artifactId>
         </dependency>
         <!-- WKND Shared -->
         <dependency>
             <groupId>com.adobe.aem.guides</groupId>
             <artifactId>aem-guides-wknd-shared.ui.content</artifactId>
             <type>zip</type>
-        </dependency>        
+        </dependency>
     </dependencies>
 </project>

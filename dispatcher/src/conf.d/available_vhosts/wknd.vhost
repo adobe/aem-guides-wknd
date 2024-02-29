@@ -3,7 +3,7 @@
 #
 # It has been modified to let Apache handle errors 400, 500
 # It uses error pages created in AEM as the 404 and 500x pages defined by variables in custom.vars
-# 
+#
 
 # Include customer defined variables
 Include conf.d/variables/custom.vars
@@ -49,7 +49,7 @@ Include conf.d/variables/custom.vars
         # Developer Localhost
         SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(http://localhost(:\d+)?$)#" CORSTrusted=true
         # Adobe AppBuilder
-        SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(https://experience\.adobe\.com$)#" CORSTrusted=true          
+        SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(https://experience\.adobe\.com$)#" CORSTrusted=true
         # Developer Vercel app
         SetEnvIfExpr "env('CORSProcessing') == 'true' && req_novary('Origin') =~ m#(https://.*\.vercel\.app$)#" CORSTrusted=true
         # Developer Github.io app
@@ -133,7 +133,7 @@ Include conf.d/variables/custom.vars
     ErrorDocument 502 ${500_PAGE}
     ErrorDocument 503 ${500_PAGE}
     ErrorDocument 504 ${500_PAGE}
-    
+
     ## Default Fastly Cache Settings for AEM - V20220414
     # Theme Sources via Clientlib: cache mutable resources for max 24h on CDN and background refresh after 12h to avoid MISS
     <LocationMatch "^/etc\.clientlibs/.*\.(?i:json|png|gif|webp|jpe?g|svg)$">
@@ -186,6 +186,16 @@ Include conf.d/variables/custom.vars
     </LocationMatch>
     <LocationMatch "^/content/.*/_jcr_content/contexthub.pagedata.json$">
         Header set Cache-Control "max-age=300,stale-while-revalidate=43200,stale-if-error=43200" "expr=%{REQUEST_STATUS} < 400"
+        Header set Age 0
+    </LocationMatch>
+    <LocationMatch "^/.*/about-us.html$">
+        Header unset Cache-Control
+        Header always set Cache-Control "private"
+        Header set Age 0
+    </LocationMatch>
+    <LocationMatch "^/.*/about-us.html$">
+        Header unset Cache-Control
+        Header always set Cache-Control "private"
         Header set Age 0
     </LocationMatch>
 </VirtualHost>

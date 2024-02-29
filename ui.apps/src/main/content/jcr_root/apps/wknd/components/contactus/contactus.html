@@ -1,0 +1,38 @@
+<!--/*
+    Copyright 2015 Adobe Systems Incorporated
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+*/-->
+<div class="cmp-contactus" data-cmp-is="contactus" data-sly-test="${model.message != ''}">
+    <div class="cmp-contactus__item" data-sly-use.model="com.adobe.aem.guides.wknd.core.models.ContactUsModel" data-sly-test="${model.message}">
+        <p class="cmp-contactus__item-output"data-cmp-hook-contactus="model">${model.message @context="unsafe"}</p>
+    </div>
+</div>
+
+<div class="cmp-contactus-error" id="cmp-contactus-error" data-cmp-is="contactus">
+
+</div>
+
+<div data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html" class="wknd-contact-us-form" data-sly-test="${model.message == ''}">
+    <form id="wknd-contact-us-form" class="wknd-contact-us-form__form">
+        <div>
+            <input type="text" id="wknd-contact-us-form-username" name="username" placeholder="Username"/>
+        </div>
+        <div>
+            <textarea cols="40" id="wknd-contact-us-form-message" rows="5" name="message" placeholder="Your message"></textarea>
+        </div>
+        <div>
+            <input id="wknd-contact-us-form-submit" type="submit" value="Send"/>
+        </div>
+    </form>
+</div>
