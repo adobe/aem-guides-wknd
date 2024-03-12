@@ -24,7 +24,7 @@
 </div>
 
 <div data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html" class="wknd-contact-us-form" data-sly-test="${model.message == ''}">
-    <form id="wknd-contact-us-form" class="wknd-contact-us-form__form">
+    <div id="wknd-contact-us-form" class="wknd-contact-us-form__form">
         <div>
             <input type="text" id="wknd-contact-us-form-username" name="username" placeholder="Username"/>
         </div>
@@ -34,5 +34,5 @@
         <div>
             <input id="wknd-contact-us-form-submit" type="submit" value="Send"/>
         </div>
-    </form>
+    </div>
 </div>
