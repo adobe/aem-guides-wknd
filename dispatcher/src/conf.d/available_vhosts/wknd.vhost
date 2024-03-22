@@ -16,6 +16,18 @@ Include conf.d/variables/custom.vars
 	DocumentRoot "${DOCROOT}"
 	# URI dereferencing algorithm is applied at Sling's level, do not decode parameters here
 	AllowEncodedSlashes NoDecode
+
+    RewriteEngine On
+    RewriteCond %{REQUEST_SCHEME} (.+)
+    RewriteRule ^ - [E=my_request_scheme:%1]
+
+    RewriteCond %{HTTP_HOST} (.+)
+    RewriteRule ^ - [E=my_request_host:%1]
+
+    SetEnvIf Origin "^https?://([^:/]+)" origin_host=$1
+    Header always set Debug-Request-Or "%{origin_host}e"
+
+
 	# Add header breadcrumbs for help in troubleshooting
 	<IfModule mod_headers.c>
 		Header add X-Vhost "publish"
@@ -38,7 +50,9 @@ Include conf.d/variables/custom.vars
 
         SetEnvIfExpr "req_novary('Access-Control-Request-Method') == '' && %{REQUEST_METHOD} == 'OPTIONS' && req_novary('Origin') != ''" CORSType=invalidpreflight CORSProcessing=false
         SetEnvIfExpr "req_novary('Access-Control-Request-Method') != '' && %{REQUEST_METHOD} == 'OPTIONS' && req_novary('Origin') != ''" CORSType=preflight CORSProcessing=true CORSTrusted=false
-        SetEnvIfExpr "req_novary('Origin') -strcmatch '%{REQUEST_SCHEME}://%{HTTP_HOST}*'" CORSType=samedomain CORSProcessing=false
+        #SetEnvIfExpr "req_novary('Origin') -strcmatch '%{REQUEST_SCHEME}://%{HTTP_HOST}*'" CORSType=samedomain CORSProcessing=false CORSTrusted=true
+        SetEnvIfExpr "env('origin_host') == env('my_request_host')" CORSType=samedomain CORSProcessing=false CORSTrusted=true
+        
 
         # For requests that require CORS processing, check if the Origin can be trusted
         SetEnvIfExpr "%{HTTP_HOST} =~ /(.*)/ " ParsedHost=$1
@@ -74,6 +88,15 @@ Include conf.d/variables/custom.vars
         Header always set Access-Control-Allow-Methods "GET" "expr=reqenv('CORSTrusted') == 'true'"
         Header always set Access-Control-Max-Age 1800 "expr=reqenv('CORSTrusted') == 'true'"
         Header always set Access-Control-Allow-Headers "Origin, Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers" "expr=reqenv('CORSTrusted') == 'true'"
+
+        # Uncomment while debugging
+        Header always set Debug-CORSProcessing "true" "expr=reqenv('CORSProcessing') == 'true'"
+        Header always set Debug-CORSProcessing "false" "expr=reqenv('CORSProcessing') == 'false'"
+        Header always set Debug-CORSTrusted "false" "expr=reqenv('CORSTrusted') == 'false'"
+        Header always set Debug-CORSTrusted "true" "expr=reqenv('CORSTrusted') == 'true'"
+        Header always set Debug-Request-Scheme "%{my_request_scheme}e"
+        Header always set Debug-Request-Host "%{my_request_host}e"
+        Header always set Debug-Request-Origin "%{origin_host}e"
 
         # Non-CORS or Not Trusted
         Header unset Access-Control-Allow-Credentials "expr=reqenv('CORSProcessing') == 'false' || reqenv('CORSTrusted') == 'false'"
