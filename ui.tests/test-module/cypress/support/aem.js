@@ -142,6 +142,13 @@ Cypress.Commands.add('AEMDeletePage', function (path, ignoreVerification = false
   cy.get('coral-dialog[aria-hidden="false"] coral-checkbox[name="archive"] input').uncheck()
   // confirm the delete dialog
   cy.get('coral-dialog[aria-hidden="false"] ._coral-Button--warning').click()
+
+    // wait until page is deleted
+  cy.waitUntil(() => cy.AEMPathNotExists(Cypress.env('AEM_PUBLISH_URL'), path + '.html'), {
+    errorMsg: `page ${path} should not exist`,
+    timeout: 15000,
+    interval: 1000
+  });
 })
 
 // AEMDeleteTestPages will find pages in the current path that match the pattern and delete them.
@@ -185,6 +192,18 @@ Cypress.Commands.add('AEMPathExists', function (baseUrl, path) {
   })
     .then(response => {
       return (response.status === 200)
+    })
+})
+
+Cypress.Commands.add('AEMPathNotExists', function (baseUrl, path) {
+  const url = new URL(path, baseUrl)
+
+  return cy.request({
+    url: url.href,
+    failOnStatusCode: false
+  })
+    .then(response => {
+      return (response.status === 404)
     })
 })
 
