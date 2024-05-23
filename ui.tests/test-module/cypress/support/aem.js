@@ -143,8 +143,8 @@ Cypress.Commands.add('AEMDeletePage', function (path, ignoreVerification = false
   // confirm the delete dialog
   cy.get('coral-dialog[aria-hidden="false"] ._coral-Button--warning').click()
 
-    // wait until page is deleted
-  cy.waitUntil(() => cy.AEMPathNotExists(Cypress.env('AEM_PUBLISH_URL'), path + '.html'), {
+  // wait until page is deleted
+  cy.waitUntil(() => cy.AEMPathNotExists(Cypress.env('AEM_AUTHOR_URL'), path + '.html'), {
     errorMsg: `page ${path} should not exist`,
     timeout: 15000,
     interval: 1000
