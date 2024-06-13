@@ -42,6 +42,17 @@ module.exports = {
   context: BUILD_DIR,
   clientLibRoot: CLIENTLIB_DIR,
   libs: [
+    /* These embeds and categories can added to clientlib-site below as well */
+    {
+      ...libsBaseConfig,
+      name: 'clientlib-dependencies',
+      categories: ['wknd.dependencies'],
+      // Add AEM OOTB client libraries as needed
+      embed: ['granite.csrf.standalone'],
+      assets: {
+        // Add any CSS and JS entrypoint scripts and stylesheets into the dependencies clientlib       
+      }
+    },
     {
       ...libsBaseConfig,
       name: 'clientlib-site',
