@@ -4,6 +4,12 @@ This module contains integration tests. These tests will be run in an AEM as a C
 
 ## Run Tests locally
 
+Some tests are running on publish instance, to deploy WKND content there run the following command:
+
+```
+mvn clean install -PautoInstallSinglePackagePublish
+```
+
 To execute the integration tests locally use the following command:
 
 ```
