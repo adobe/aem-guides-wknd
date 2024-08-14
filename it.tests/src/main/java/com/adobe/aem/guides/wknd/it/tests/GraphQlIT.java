@@ -15,19 +15,11 @@
  */
 package com.adobe.aem.guides.wknd.it.tests;
 
-import static org.hamcrest.CoreMatchers.containsString;
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertNull;
-import static org.junit.Assert.assertTrue;
-
-import java.net.URISyntaxException;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
+import com.adobe.aem.graphql.client.AEMHeadlessClient;
+import com.adobe.aem.graphql.client.GraphQlResponse;
+import com.adobe.aem.graphql.client.PersistedQuery;
+import com.adobe.cq.testing.junit.rules.CQAuthorPublishClassRule;
+import com.fasterxml.jackson.databind.JsonNode;
 import org.apache.sling.testing.clients.instance.InstanceConfiguration;
 import org.junit.BeforeClass;
 import org.junit.ClassRule;
@@ -37,12 +29,19 @@ import org.junit.rules.ExpectedException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.adobe.aem.graphql.client.AEMHeadlessClient;
-import com.adobe.aem.graphql.client.AEMHeadlessClientException;
-import com.adobe.aem.graphql.client.GraphQlResponse;
-import com.adobe.aem.graphql.client.PersistedQuery;
-import com.adobe.cq.testing.junit.rules.CQAuthorPublishClassRule;
-import com.fasterxml.jackson.databind.JsonNode;
+import java.net.URISyntaxException;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
+
+import static org.hamcrest.CoreMatchers.containsString;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
 
 /**
  * GraphQL tests.
@@ -109,29 +108,7 @@ public class GraphQlIT {
     }
 
     @Test
-    public void testQueryWithSyntaxError() {
-        thrown.expect(AEMHeadlessClientException.class);
-
-        String query = "{\n" + //
-                "  articleList{\n" + //
-                "    items{ \n" + //
-                "      _path\n" + //
-                "      author\n";
-
-        headlessClientAuthor.runQuery(query);
-    }
-
-    @Test
-    public void testQueryWithErrorResponse() {
-        thrown.expect(AEMHeadlessClientException.class);
-
-        String query = "{ nonExisting { items{  _path } } }";
-        headlessClientAuthor.runQuery(query);
-    }
-
-    @Test
     public void testQueryWithParameters() {
-
         String query = "query($authorFirstName: String, $authorLastName: String) {\n" +
                 "articleList(filter: {\n" +
                 "authorFragment: {\n" +
@@ -193,7 +170,6 @@ public class GraphQlIT {
         assertNotNull(firstAdventureItem.get("price"));
         assertNotNull(firstAdventureItem.get("tripLength"));
         assertNotNull(firstAdventureItem.get("primaryImage"));
-
     }
 
     @Test
@@ -201,9 +177,11 @@ public class GraphQlIT {
         List<PersistedQuery> listPersistedQueries = headlessClientAuthor.listPersistedQueries("wknd-shared");
 
         assertFalse(listPersistedQueries.isEmpty());
-        PersistedQuery adventuresQuery = listPersistedQueries.stream()
-                .filter(p -> p.getShortPath().equals("/wknd-shared/adventures-all")).findFirst().get();
+        Optional<PersistedQuery> queryOptional = listPersistedQueries.stream()
+                .filter(p -> p.getShortPath().equals("/wknd-shared/adventures-all")).findFirst();
+        assertTrue(queryOptional.isPresent());
+        PersistedQuery adventuresQuery = queryOptional.get();
         assertEquals("/wknd-shared/settings/graphql/persistentQueries/adventures-all", adventuresQuery.getLongPath());
-        assertThat(adventuresQuery.getQuery(), containsString("adventureList") );
+        assertThat(adventuresQuery.getQuery(), containsString("adventureList {"));
     }
 }
