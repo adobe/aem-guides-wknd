@@ -4,7 +4,7 @@ This module contains integration tests. These tests will be run in an AEM as a C
 
 ## Run Tests locally
 
-Some tests are running on publish instance, to deploy WKND content there run the following command:
+GraphQLEndpointIT test relying on running publish instance with persisted query deployed, to deploy WKND content there run the following command:
 
 ```
 mvn clean install -PautoInstallSinglePackagePublish
