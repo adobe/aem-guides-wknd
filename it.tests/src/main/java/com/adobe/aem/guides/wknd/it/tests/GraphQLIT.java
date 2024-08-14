@@ -46,7 +46,7 @@ import static org.junit.Assert.assertTrue;
 /**
  * GraphQL tests.
  */
-public class GraphQlIT {
+public class GraphQLIT {
 
     private static final String TEST_AUTHOR_FIRST_NAME = "Ian";
 
@@ -54,7 +54,7 @@ public class GraphQlIT {
 
     private static final String WKND_SHARED_GRAPHQL_ENDPOINT = "/content/_cq_graphql/wknd-shared/endpoint.json";
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(GraphQlIT.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(GraphQLIT.class);
 
     @Rule
     public ExpectedException thrown = ExpectedException.none();
