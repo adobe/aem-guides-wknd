@@ -7,6 +7,10 @@ ensuring that tests will be executed and reports generated are stored in the pro
 
 ### local testing
 
+Note: These sample tests were written for AEMCS only.
+If you want to try running them against local environment, you need to set up author and publish environments 
+with WKND dispatcher configuration (URL rewrites) and working replication.
+
 - Install Cypress
   ```shell
   npm install

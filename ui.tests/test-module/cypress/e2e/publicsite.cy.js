@@ -38,6 +38,12 @@ describe('validate the Wknd public site', () => {
     // note: cy.origin creates a new context, hence we need to pass the test page as a new argument.
     // also exception handling is isolated to the new context
     cy.origin(Cypress.env('AEM_PUBLISH_URL'), () => {
+      cy.on('uncaught:exception', (err) => {
+        if (err.message.includes('Blocked a frame with origin')) {
+          // handle a specific case where contexthub unload makes the test fail when navigating away from the page in the publish instance
+          return false
+        }
+      })
       cy.visit('/')
       cy.get('.cmp-search__field').type('Climbing')
       cy.get('.cmp-search__results a').should('have.length.least', 1)
