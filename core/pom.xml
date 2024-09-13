@@ -84,6 +84,13 @@ Import-Package: javax.annotation;version=0.0.0,*
             <groupId>com.adobe.cq</groupId>
             <artifactId>core.wcm.components.core</artifactId>
         </dependency>        
+
+        <!-- My Example Bundle -->
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>my-example-bundle</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>uk.org.lidalia</groupId>
             <artifactId>slf4j-test</artifactId>

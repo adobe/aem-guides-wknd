@@ -772,6 +772,15 @@ Bundle-DocURL:
                 <type>zip</type>
             </dependency>
 
+            <!-- My Example Bundle -->
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>my-example-bundle</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <scope>system</scope>
+                <systemPath>${maven.multiModuleProjectDirectory}/all/src/main/content/jcr_root/apps/wknd-vendor-packages/container/install/my-example-bundle-1.0-SNAPSHOT.jar</systemPath>
+            </dependency>
+
             <!-- Testing -->
             <dependency>
                 <groupId>org.junit</groupId>
