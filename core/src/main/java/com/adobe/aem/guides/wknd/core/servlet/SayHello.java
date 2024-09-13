@@ -22,11 +22,13 @@ public class SayHello extends SlingSafeMethodsServlet {
     
         private static final long serialVersionUID = 1L;
 
+        // Injecting the HelloWorldService from the `my-example-bundle` bundle
         @Reference
         private HelloWorldService helloWorldService;
     
         @Override
         protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response) throws ServletException, IOException {
+            // Invoking the HelloWorldService's `sayHello` method
             response.getWriter().write("My-Example-Bundle service says: " + helloWorldService.sayHello());
         }
 }
