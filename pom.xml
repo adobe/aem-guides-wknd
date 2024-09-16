@@ -772,6 +772,15 @@ Bundle-DocURL:
                 <type>zip</type>
             </dependency>
 
+            <!-- My Example JAR -->
+            <dependency>
+                <groupId>com.my.example</groupId>
+                <artifactId>my-example-jar</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <scope>system</scope>
+                <systemPath>${maven.multiModuleProjectDirectory}/all/resource/jar/my-example-jar-1.0-SNAPSHOT.jar</systemPath>
+            </dependency>            
+
             <!-- Testing -->
             <dependency>
                 <groupId>org.junit</groupId>

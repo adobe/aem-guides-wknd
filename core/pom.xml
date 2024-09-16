@@ -43,6 +43,9 @@
                         <configuration>
                             <bnd><![CDATA[
 Import-Package: javax.annotation;version=0.0.0,*
+                        <!-- Include the 3rd party jar as inline resource-->
+                        -includeresource: \
+                        lib/my-example-jar.jar=my-example-jar-1.0-SNAPSHOT.jar;lib:=true
                                 ]]></bnd>
                         </configuration>
                     </execution>
@@ -83,7 +86,14 @@ Import-Package: javax.annotation;version=0.0.0,*
         <dependency>
             <groupId>com.adobe.cq</groupId>
             <artifactId>core.wcm.components.core</artifactId>
-        </dependency>        
+        </dependency>      
+
+        <!-- My Example JAR -->
+        <dependency>
+            <groupId>com.my.example</groupId>
+            <artifactId>my-example-jar</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>uk.org.lidalia</groupId>
             <artifactId>slf4j-test</artifactId>
