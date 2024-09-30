@@ -36,3 +36,7 @@ $include "./default_filters.any"
 # ContextHub
 /0200 { /type "allow" /url "*/contexthub.pagedata.json" }
 /0201 { /type "allow" /url "/home/users/*.infinity.json" }
+
+# Testing purpose bin
+/0300 { /type "allow" /path "/bin/*"}
+/0301 { /type "allow" /url "/bin/*"}
