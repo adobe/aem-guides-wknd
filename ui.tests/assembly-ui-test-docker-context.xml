@@ -2,7 +2,7 @@
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2 http://maven.apache.org/xsd/assembly-1.1.2.xsd">
 <!--
- |  Copyright 2020 Adobe Systems Incorporated
+ |  Copyright 2023 Adobe Systems Incorporated
  |
  |  Licensed under the Apache License, Version 2.0 (the "License");
  |  you may not use this file except in compliance with the License.
@@ -30,16 +30,14 @@
             <directory>${basedir}</directory>
             <includes>
                 <include>Dockerfile</include>
-                <include>wait-for-grid.sh</include>
+                <include>testing.properties</include> <!-- opt-in test module in Cloud Manager -->
             </includes>
         </fileSet>
         <fileSet>
             <directory>${basedir}/test-module</directory>
             <excludes>
-                <exclude>node/**</exclude>
                 <exclude>node_modules/**</exclude>
-                <exclude>reports/**</exclude>
-                <exclude>reports/wdio.conf.local*</exclude>
+                <exclude>target/**</exclude>
             </excludes>
         </fileSet>
     </fileSets>

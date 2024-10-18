@@ -13,7 +13,7 @@ jobs:
     strategy:
       matrix:
         os: [ ubuntu-latest ]
-        java: [8, 11]
+        java: [11]
         profile: [ '', '-Pclassic']
 
     steps:
