@@ -25,10 +25,10 @@ import org.junit.jupiter.api.extension.ExtendWith;
 
 import com.adobe.aem.guides.wknd.core.models.Byline;
 import com.adobe.cq.wcm.core.components.models.Image;
-import com.google.common.collect.ImmutableList;
 
 import static org.mockito.Mockito.*;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
@@ -76,11 +76,10 @@ class BylineImplTest {
 
 	@Test
 	   public void testGetOccupations() {
-	       List<String> expected = new ImmutableList.Builder<String>()
-	                               .add("Blogger")
-	                               .add("Photographer")
-	                               .add("YouTuber")
-	                               .build();
+	       List<String> expected = new ArrayList<>();
+	       expected.add("Blogger");
+	       expected.add("Photographer");
+	       expected.add("YouTuber");
 
 	       ctx.currentResource("/content/byline");
 	       Byline byline = ctx.request().adaptTo(Byline.class);
