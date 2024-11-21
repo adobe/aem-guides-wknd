@@ -1,0 +1,17 @@
+<div
+  class="wknd-tagged-article"
+  data-sly-use.article="com.wknd.components.TaggedArticle"
+>
+  <div class="article-card" data-sly-test="${article.latestArticle}">
+    <div class="eyebrow">${article.latestArticle.eyebrow}</div>
+    <img
+      src="${article.latestArticle.imagePath}"
+      alt="${article.latestArticle.imageAlt}"
+    />
+    <h2>${article.latestArticle.title}</h2>
+    <p>${article.latestArticle.description}</p>
+    <a class="cta-button" href="${article.latestArticle.path}.html"
+      >Read More</a
+    >
+  </div>
+</div>
