@@ -1,0 +1,39 @@
+<div
+  data-sly-use.model="com.adobe.aem.guides.wknd.core.models.RecentArticleCard"
+  data-sly-test.hasContent="${model.articleTitle}"
+  class="cmp-recent-article-card"
+>
+  <div class="cmp-recent-article-card__content">
+    <div class="cmp-recent-article-card__eyebrow">${model.articleEyebrow}</div>
+
+    <div class="cmp-recent-article-card__image">
+      <img
+        src="${model.articleImagePath}"
+        alt="${model.articleTitle}"
+        data-sly-test="${model.articleImagePath}"
+      />
+    </div>
+
+    <h2 class="cmp-recent-article-card__title">${model.articleTitle}</h2>
+
+    <div class="cmp-recent-article-card__description">
+      ${model.articleDescription}
+    </div>
+
+    <a
+      class="cmp-recent-article-card__action-link"
+      href="${model.articlePath}.html"
+    >
+      Read More
+    </a>
+  </div>
+</div>
+
+<sly data-sly-test="${!hasContent}">
+  <div class="cq-placeholder" data-emptytext="Recent Article Card"></div>
+</sly>
+
+<sly
+  data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+  data-sly-call="${clientlib.all @ categories='wknd.recentarticlecard'}"
+/>
