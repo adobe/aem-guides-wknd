@@ -90,9 +90,12 @@
 		# Marketing parameters can normally be ignored on most websites as they are tracked
 		# through different means. 
 		/ignoreUrlParams {
+                   # All parameters can be passed to the AEM publisher
 			/0001 { /glob "*" /type "deny" }
-			# $include "../cache/marketing_query_parameters.any"
-		}
+
+                   # Ignore common marketing parameters by including the marketing_query_parameters.any file
+			$include "../cache/marketing_query_parameters.any"
+                   }
 
 		# Cache response headers next to a cached file. On the first request to
 		# an uncached resource, all headers matching one of the values found here

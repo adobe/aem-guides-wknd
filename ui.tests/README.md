@@ -1,106 +1,80 @@
 
-UI Testing module for your AEM application
+UI Testing module for WKND.stie
 ===
 
+This folder contains a set of sample cypress UI tests that following good practices for AEMCS based on the tests 
+provided in the [archetype](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.tests.cypress).
+
+Note: this set of tests are intended to be used on AEMCS and have only been verified using a Cloud instance
 
 ## Structure
 
-* `test-module/` The test project (add your tests there)
+- `Dockerfile` commands to assemble the image
+- `pom.xml` defines project dependencies and build configuration which will be used by Cloud Manager to build the test module image
+- `/test-module` The test project (add your tests there)
 
-**Do not modify following files**
-* `pom.xml` Builds and executes the test Docker image
-* `Dockerfile` Builds test Docker image compatible with AEMaaCS
-* `wait-for-grid.sh` Bash script helper to check Selenium readiness in the Docker image
-* `docker-compose-wdio-*.yaml` Docker compose files to demo the Docker image with Selenium Docker images
-* `assembly-ui-test-docker-context.xml` Packages test project for AEMaaCS
+### Dockerfile
 
+Sample dockerfile is based on the `cypress/included` [image](https://hub.docker.com/r/cypress/included), which
+provides all the dependencies and the binaries to run cypress tests.
 
-## Requirements
+### xvfb setup
 
-* Maven
-* Latest version of Chrome and/or Firefox browser installed locally in default location
-* An AEM author instance running at http://localhost:4502
-* Sample application deployed on your AEM author instance (see [../README.md](../README.md))
+>When running several Cypress instances in parallel, the spawning of multiple X11 servers at once can cause
+> problems for some of them. In this case, you can separately start a single X11 server and pass the server's
+> address to each Cypress instance using the DISPLAY environment variable.
 
+The setup described in [the documentation](https://docs.cypress.io/guides/continuous-integration/introduction#In-Docker)
+is implemented in `run.sh`,  used as the _entrypoint_ to the container.
 
-## Run Tests
+## Execute test module
 
-```
-mvn verify -Pui-tests-local-execution
-```
+### Locally (standalone)
 
-#### Remarks
-* After execution, reports and logs are available in `target/reports` folder
+Refer to [test-module/README.md](test-module/README.md).
 
-### Parameters
+### Using the test image
 
-| Parameter | Required | Default| Description |
-| --- | --- | --- | --- |
-| `AEM_AUTHOR_URL`        | false     | `http://localhost:4502` | URL of the author instance |
-| `AEM_AUTHOR_USERNAME`   | false     | `admin`                 | Username used to access the author instance |
-| `AEM_AUTHOR_PASSWORD`   | false     | `admin`                 | Password used to access the author instance |
-| `AEM_PUBLISH_URL`       | false     | -                       | URL of the publish instance |
-| `AEM_PUBLISH_USERNAME`  | false     | `admin`                 | Username used to access the publish instance |
-| `AEM_PUBLISH_PASSWORD`  | false     | `admin`                 | Password used to access the publish instance |
-| `SELENIUM_BROWSER`      | false     | `chrome`                | Browser used in the tests (`chrome` **_or_** `firefox`) |
-| `HEADLESS_BROWSER`      | false     | `false`                 | Set [headless mode](https://en.wikipedia.org/wiki/Headless_browser) of the browser |
+In the Cloud Manager pipeline the test image will be build and executed, this behaviour can also be recreated.
 
-#### Example
-
-Run tests on <span style="color:green">local</span> <span style="color:orange">headless</span> <span style="color:purple">firefox</span>, targeting a <span style="color:blue">custom AEM author instance</span>:
-
-<PRE>
-mvn test \
-    <span style="color:green">-Plocal-execution</span> \
-    <span style="color:orange">-DHEADLESS_BROWSER=true</span> \
-    <span style="color:purple">-DSELENIUM_BROWSER=firefox</span> \
-    <span style="color:blue">-DAEM_AUTHOR_URL=http://my-aem-author-instance.com</span> \
-    <span style="color:blue">-DAEM_AUTHOR_USERNAME=testuser</span> \
-    <span style="color:blue">-DAEM_AUTHOR_PASSWORD=aVVe5om3</span>
-</PRE>
-
-
-## Docker execution
-
-This project also provides Maven profiles to build and execute the tests using Docker
-
-### Requirements
+#### Requirements
 
 * Maven
-* Docker and `docker-compose`
-* An AEM author instance running at http://localhost:4502
+* Docker
+* Latest version of Chrome installed locally in default location
+* Sample application deployed on your AEMCS environment (Author + Publish)
 
-### Build test image
+#### Build and run the test image
 
-```
-mvn clean install -Pui-tests-docker-build
-```
+The image built from the Dockerfile can be used to execute tests locally against an AEM environment. The `ui-tests-docker-execution`
+maven profile will start the docker-compose setup starting Cypress and the test module, executing the tests against
+the AEM instance defined via environment variables. The test results will be stored in the `./target/reports` directory.
 
-will build Docker image `com.adobe.aem.guides-aem-guides-wknd.ui.tests/ui.tests` locally
+The following environment variables (AEM UI test convention) can be passed
 
-### Run Tests
-
-**Remarks**
-* Following commands will start a Docker service with both the cloud tests and a Selenium server (using official Docker images)
-* Parameters described above also apply for Docker use case
-
-#### Target a local AEM author instance
-
-Example, your instance is available at http://localhost:4502):
-
-```
-mvn verify -Pui-tests-docker-execution -DAEM_AUTHOR_URL=http://host.docker.internal:4502
-```
-
-> `host.docker.internal` is a Docker convention, do not change it!
-
-#### Target a remote AEM author instance
-
-Example, you have an [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/overview/introduction.html) deployment with author instance available at https://author.my-deployment.com:
+| envvar | default |
+| --- | --- |
+| AEM_AUTHOR_URL | https://author-p***-e***.adobeaemcloud.com |
+| AEM_AUTHOR_USERNAME | `admin` |
+| AEM_AUTHOR_PASSWORD | `admin` |
+| AEM_PUBLISH_URL | https://publish-p***-e***.adobeaemcloud.com|
+| AEM_PUBLISH_USERNAME | `admin` |
+| AEM_PUBLISH_PASSWORD | `admin` |
+| REPORTS_PATH | `cypress/results` |
 
 
-```
-mvn verify -Pui-tests-docker-execution -DAEM_AUTHOR_URL=https://author.my-deployment.com
-```
+1. Build the Docker UI test image with below command
+   ```
+   mvn clean package -Pui-tests-docker-build
+   ```
 
-> **&#x26A0; Default tests provided in this module require sample content (module `ui.content`) to be installed in your AEMaaCS deployment!**
+2. Run the test (set environment variables accordingly)
+   ```
+   mvn verify -Pui-tests-docker-execution \
+   -DAEM_AUTHOR_URL=${AEM_AUTHOR_URL} \
+   -DAEM_AUTHOR_USERNAME=${AEM_AUTHOR_USERNAME} \
+   -DAEM_AUTHOR_PASSWORD=${AEM_AUTHOR_PASSWORD} \
+   -DAEM_PUBLISH_URL=${AEM_PUBLISH_URL} \
+   -DAEM_PUBLISH_USERNAME=${AEM_PUBLISH_USERNAME} \
+   -DAEM_PUBLISH_PASSWORD=${AEM_PUBLISH_PASSWORD}   
+   ```

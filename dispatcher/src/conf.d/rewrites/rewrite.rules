@@ -16,7 +16,11 @@ RewriteRule ^(.*)$ https://wknd.site%{REQUEST_URI} [R=301,L,E=cdncache]
 
 # redirect all root traffic to US home page
 RewriteCond %{REQUEST_URI} ^/?$
+RewriteCond %{HTTP:X-Forwarded-Proto} ^$
 RewriteRule ^(/)$ /us/en.html [R=301,L,E=cdncache]
+
+RewriteCond %{REQUEST_URI} ^/?$
+RewriteRule ^(/)$ %{HTTP:X-Forwarded-Proto}://%{HTTP_HOST}/us/en.html [R=301,L,E=cdncache]
 
 RewriteCond %{REQUEST_URI} !^/apps
 RewriteCond %{REQUEST_URI} !^/bin

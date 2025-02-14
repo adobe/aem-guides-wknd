@@ -19,7 +19,7 @@
     <groupId>com.adobe.aem.guides</groupId>
     <artifactId>aem-guides-wknd</artifactId>
     <packaging>pom</packaging>
-    <version>2.1.3-SNAPSHOT</version>
+    <version>3.2.1-SNAPSHOT</version>
      <name>WKND Sites Project - Reactor Project</name>
     <description>WKND Sites Project</description>
     <url>https://github.com/adobe/aem-guides-wknd</url>
@@ -59,12 +59,13 @@
         <bnd.version>5.1.2</bnd.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <aem.sdk.api>2023.3.11382.20230315T073850Z-230100</aem.sdk.api>
+        <aem.sdk.api>2023.7.12874.20230726T072051Z-230702</aem.sdk.api>
         <componentGroupName>WKND Site</componentGroupName>
-        <core.wcm.components.version>2.22.2</core.wcm.components.version>
-        <uber.jar.version>6.5.13</uber.jar.version>
-        <wknd-shared.version>2.1.2</wknd-shared.version>
-        <aemanalyser.version>1.4.10</aemanalyser.version>
+        <core.wcm.components.version>2.27.0</core.wcm.components.version>
+        <uber.jar.version>6.5.17</uber.jar.version>
+        <wknd-shared.version>3.1.0</wknd-shared.version>
+        <wknd-shared.65.version>2.2.2</wknd-shared.65.version>
+        <aemanalyser.version>1.5.8</aemanalyser.version>
     </properties>
 
     <organization>
@@ -320,7 +321,7 @@ Bundle-DocURL:
                     <groupId>org.apache.jackrabbit</groupId>
                     <artifactId>filevault-package-maven-plugin</artifactId>
                     <extensions>true</extensions>
-                    <version>1.1.4</version>
+                    <version>1.3.4</version>
                     <configuration>
                         <filterSource>src/main/content/META-INF/vault/filter.xml</filterSource>
                         <properties>
@@ -333,6 +334,11 @@ Bundle-DocURL:
                                     <cnds>tccl:aem.cnd</cnds>
                                 </options>
                             </jackrabbit-nodetypes>
+                            <netcentric-aem-replication-metadata>
+                                <options>
+                                    <agentNames>publish,preview</agentNames><!-- default value is publish only  -->
+                                </options>
+                             </netcentric-aem-replication-metadata>
                         </validatorsSettings>
                     </configuration>
                     <dependencies>
@@ -340,6 +346,11 @@ Bundle-DocURL:
                             <groupId>biz.netcentric.aem</groupId>
                             <artifactId>aem-nodetypes</artifactId>
                             <version>6.5.5.0</version>
+                        </dependency>
+                        <dependency>
+                            <groupId>biz.netcentric.filevault.validator</groupId>
+                            <artifactId>aem-replication-metadata-validator</artifactId>
+                            <version>1.3.0</version>
                         </dependency>
                     </dependencies>
                 </plugin>
@@ -399,7 +410,7 @@ Bundle-DocURL:
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore/>
+                                        <ignore />
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -419,7 +430,7 @@ Bundle-DocURL:
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore/>
+                                        <ignore />
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -440,7 +451,7 @@ Bundle-DocURL:
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore/>
+                                        <ignore />
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
@@ -452,6 +463,7 @@ Bundle-DocURL:
     </build>
 
     <profiles>
+
         <!-- ====================================================== -->
         <!-- A D O B E P U B L I C P R O F I L E -->
         <!-- ====================================================== -->
@@ -714,6 +726,7 @@ Bundle-DocURL:
                 </plugins>
             </build>
         </profile>
+
     </profiles>
 
 

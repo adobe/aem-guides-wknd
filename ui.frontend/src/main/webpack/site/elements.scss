@@ -44,7 +44,13 @@ body.xf-web-container {
   }
 }
 
+/* remove padding for experience fragments imported into Adobe Target */
 
+div.at-element-marker {
+  .root{
+    padding-top: $gutter-padding;
+  }
+}
 
 // Headings
 // -------------------------

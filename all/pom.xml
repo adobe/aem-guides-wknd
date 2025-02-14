@@ -22,7 +22,7 @@
     <parent>
         <groupId>com.adobe.aem.guides</groupId>
         <artifactId>aem-guides-wknd</artifactId>
-        <version>2.1.3-SNAPSHOT</version>
+        <version>3.2.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -193,13 +193,17 @@
             <activation>
                 <activeByDefault>false</activeByDefault>
             </activation>
+            <properties>
+                <wknd-shared.version>${wknd-shared.65.version}</wknd-shared.version>
+            </properties>
             <build>
                 <plugins>
                     <plugin>
                         <groupId>org.apache.jackrabbit</groupId>
-                        <artifactId>filevault-package-maven-plugin</artifactId>
+                        <artifactId>filevault-package-maven-plugin</artifactId>                    
                         <extensions>true</extensions>
                         <configuration>
+                            <finalName>aem-guides-wknd.all-${version}-classic</finalName>
                             <group>com.adobe.aem.guides</group>
                             <embeddeds>
                                 <embedded>
@@ -257,8 +261,17 @@
                             </embeddeds>
                         </configuration>
                     </plugin>
-            </plugins>
+                </plugins>
             </build>
+              <dependencies>    
+                <!-- WKND Shared -->
+                <dependency>
+                    <groupId>com.adobe.aem.guides</groupId>
+                    <artifactId>aem-guides-wknd-shared.ui.content</artifactId>
+                    <version>${wknd-shared.version}</version>
+                    <type>zip</type>
+                </dependency>        
+            </dependencies>
          </profile>
     </profiles>
 
