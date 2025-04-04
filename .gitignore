@@ -13,6 +13,7 @@ tmp/
 local.properties
 .settings/
 .loadpath
+.aio
 
 # Eclipse Core
 .project
