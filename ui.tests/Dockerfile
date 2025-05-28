@@ -15,6 +15,7 @@
 FROM cypress/included:13.14.1
 
 ENV APP_PATH /usr/src/app
+RUN wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | tee /etc/apt/trusted.gpg.d/google.asc >/dev/null
 RUN apt -qqy update \
     # Generic dependencies
     && apt -qqy --no-install-recommends install \
