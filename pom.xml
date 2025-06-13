@@ -62,7 +62,7 @@
         <aem.sdk.api>2025.6.21193.20250609T124356Z-250500</aem.sdk.api>
         <componentGroupName>WKND Site</componentGroupName>
         <core.wcm.components.version>2.29.0</core.wcm.components.version>
-        <uber.jar.version>6.5.17</uber.jar.version>
+        <uber.jar.version>6.6.0</uber.jar.version>
         <wknd-shared.version>3.1.0</wknd-shared.version>
         <wknd-shared.65.version>2.2.2</wknd-shared.65.version>
         <aemanalyser.version>1.6.6</aemanalyser.version>
