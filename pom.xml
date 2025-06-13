@@ -709,6 +709,7 @@ Bundle-DocURL:
                 </plugins>
             </build>
         </profile>
+        <!--
         <profile>
             <id>cm-java-11</id>
             <activation>
@@ -741,7 +742,7 @@ Bundle-DocURL:
                 </plugins>
             </build>
         </profile>
-
+-->
     </profiles>
 
 
