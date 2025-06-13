@@ -56,16 +56,16 @@
         <vault.user>admin</vault.user>
         <vault.password>admin</vault.password>
         <frontend-maven-plugin.version>1.12.0</frontend-maven-plugin.version>
-        <bnd.version>5.1.2</bnd.version>
+        <bnd.version>6.4.0</bnd.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <aem.sdk.api>2023.7.12874.20230726T072051Z-230702</aem.sdk.api>
+        <aem.sdk.api>2025.6.21193.20250609T124356Z-250500</aem.sdk.api>
         <componentGroupName>WKND Site</componentGroupName>
-        <core.wcm.components.version>2.28.0</core.wcm.components.version>
+        <core.wcm.components.version>2.29.0</core.wcm.components.version>
         <uber.jar.version>6.5.17</uber.jar.version>
         <wknd-shared.version>3.1.0</wknd-shared.version>
         <wknd-shared.65.version>2.2.2</wknd-shared.65.version>
-        <aemanalyser.version>1.5.8</aemanalyser.version>
+        <aemanalyser.version>1.6.6</aemanalyser.version>
     </properties>
 
     <organization>
@@ -148,15 +148,30 @@
                         <configuration>
                             <rules>
                                 <requireMavenVersion>
-                                    <version>[3.3.9,)</version>
+                                    <version>[3.9.4,)</version>
                                 </requireMavenVersion>
                                 <requireJavaVersion>
-                                    <message>Maven must be executed with a Java 8 JRE or higher.</message>
-                                    <version>1.8.0</version>
-                                </requireJavaVersion>
+                                    <version>[21,22)</version>
+                                    <message>Maven must be executed with Java 21.</message>
+                                </requireJavaVersion>                                
                             </rules>
                         </configuration>
                     </execution>
+                    <execution>
+                        <id>enforce-java</id>
+                        <goals>
+                            <goal>enforce</goal>
+                        </goals>
+                        <configuration>
+                            <rules>
+                            <requireJavaVersion>
+                                <version>[21,22)</version> <!-- Exactly Java 21 -->
+                                <message>Maven must be executed with Java 21.</message>
+                            </requireJavaVersion>
+                            </rules>
+                            <fail>true</fail>
+                        </configuration>
+        </execution>                    
                 </executions>
             </plugin>
             <!-- Maven Compiler Plugin -->
@@ -164,8 +179,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
+                    <source>21</source>
+                    <target>21</target>
                 </configuration>
             </plugin>
         </plugins>
@@ -268,7 +283,7 @@ Bundle-DocURL:
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
-                    <version>3.8.1</version>
+                    <version>3.11.0</version>
                 </plugin>
                 <!-- Maven Installer Plugin -->
                 <plugin>
