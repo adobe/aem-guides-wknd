@@ -46,10 +46,17 @@ describe("validate the Wknd public site", () => {
           return false;
         }
       });
+      cy.intercept("**/search?**").as("searchRequest");
+
       cy.visit("/");
       cy.get(".cmp-search__field").type("Climbing");
+
+      // Wait for the search API response
+      cy.wait("@searchRequest");
+
+      // THEN wait for results to appear in the DOM
       cy.get(".cmp-search__results a", { timeout: 10000 }).should(
-        "have.length.least",
+        "have.length.at.least",
         1
       );
     });
