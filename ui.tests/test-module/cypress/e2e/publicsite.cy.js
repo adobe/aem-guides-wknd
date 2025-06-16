@@ -14,46 +14,39 @@
  *  limitations under the License.
  */
 
-describe("validate the Wknd public site", () => {
-  it("front page should load", () => {
+describe('validate the Wknd public site', () => {
+  it('front page should load', () => {
     // note: cy.origin creates a new context, hence we need to pass the test page as a new argument.
     // also exception handling is isolated to the new context
-    cy.origin(Cypress.env("AEM_PUBLISH_URL"), () => {
-      cy.on("uncaught:exception", (err) => {
-        if (err.message.includes("Blocked a frame with origin")) {
+    cy.origin(Cypress.env('AEM_PUBLISH_URL'), () => {
+      cy.on('uncaught:exception', (err) => {
+        if (err.message.includes('Blocked a frame with origin')) {
           // handle a specific case where contexthub unload makes the test fail when navigating away from the page in the publish instance
-          return false;
+          return false
         }
-      });
+      })
 
-      cy.visit("/");
-      cy.get("header").should("exist");
-      cy.get("footer").should("exist");
+      cy.visit('/')
+      cy.get('header').should('exist')
+      cy.get('footer').should('exist')
       // hero image on front page should be visible
-      cy.get(
-        ".cmp-carousel__item--active  .teaser.cmp-teaser--hero img"
-      ).should("be.visible");
-    });
-  });
+      cy.get('.cmp-carousel__item--active  .teaser.cmp-teaser--hero img').should('be.visible')
+    })
+  })
 
-  it("search should have search results", () => {
+  it('search should have search results', () => {
     // note: cy.origin creates a new context, hence we need to pass the test page as a new argument.
     // also exception handling is isolated to the new context
-    cy.origin(Cypress.env("AEM_PUBLISH_URL"), () => {
-      cy.on("uncaught:exception", (err) => {
-        if (err.message.includes("Blocked a frame with origin")) {
+    cy.origin(Cypress.env('AEM_PUBLISH_URL'), () => {
+      cy.on('uncaught:exception', (err) => {
+        if (err.message.includes('Blocked a frame with origin')) {
           // handle a specific case where contexthub unload makes the test fail when navigating away from the page in the publish instance
-          return false;
+          return false
         }
-      });
-
-      cy.visit("/");
-      cy.get(".cmp-search__field").type("Climbing");
-
-      // THEN wait for results to appear in the DOM
-      cy.get(".cmp-search__results a", { timeout: 20000 })
-        .should("exist")
-        .should("have.length.at.least", 1);
-    });
-  });
-});
+      })
+      cy.visit('/')
+      cy.get('.cmp-search__field').type('Climbing')
+      cy.get('.cmp-search__results a').should('have.length.least', 1)
+    })
+  })
+})
