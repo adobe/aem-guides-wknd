@@ -19,7 +19,7 @@
     <parent>
         <groupId>com.adobe.aem.guides</groupId>
         <artifactId>aem-guides-wknd</artifactId>
-        <version>3.2.1-SNAPSHOT</version>
+        <version>4.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>aem-guides-wknd.core</artifactId>
@@ -201,6 +201,7 @@ Import-Package: javax.annotation;version=0.0.0,*
                     <groupId>com.adobe.aem</groupId>
                     <artifactId>uber-jar</artifactId>
                     <version>${uber.jar.version}</version>
+                    <classifier>apis</classifier>
                     <scope>provided</scope>
                 </dependency>
                 <!-- OSGi Dependencies -->
