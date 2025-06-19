@@ -32,6 +32,7 @@ Next release the artifacts in the staging repository to be deployed to Maven cen
 1. Download the artifact `aem-guides-wknd.all-X.X.X.zip`.
 
 ## Release via Local Maven Release Plugin Commands
+
 ### Setup 
 
 In your Maven settings.xml file (`~/.m2/settings.xml`), add a server entry with the id `ossrh`. The username is your [OSSRH](https://issues.sonatype.org/projects/OSSRH/issues) username/Sonatype JIRA ID.
@@ -66,10 +67,6 @@ It is recommended that your private key is protected with a passphrase. You can 
          <password>****</password>
     </server>
     
-### Java&trade; 8
-
-Use Java&trade; 8 when performing the Maven release.
-
 ### Release Process
 
 1. Make sure that the issues and pull requests are associated with the proper milestone -- anything open for the current release should be moved to the next release, either minor or patch depending on the nature of the issue.
