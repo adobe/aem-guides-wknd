@@ -50,7 +50,7 @@ jQuery(function ($) {
             $(langNav).prepend(toggleButton);
 
             //attach toggle to change languages
-            $(navToggleHeader).click(function () {
+            $(langNavToggleHeader).click(function () {
                 displayPosition = $(this).position().left - 240;
                 $(CMP_SELECTOR + ' .cmp-languagenavigation').css({ left: displayPosition });
                 $(CMP_SELECTOR + ' .cmp-languagenavigation').toggleClass('showMenu');
