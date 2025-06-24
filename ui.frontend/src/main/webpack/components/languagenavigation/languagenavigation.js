@@ -26,6 +26,7 @@ jQuery(function ($) {
             ACTIVE_LINK_SELECTOR = '.cmp-languagenavigation__item--active > .cmp-languagenavigation__item-link',
             ACTIVE_COUNTRY_SELECTOR = '.cmp-languagenavigation__item--level-0.cmp-languagenavigation__item--active',
             langNav = $(CMP_SELECTOR).not('[' + CMP_PROCESSED + '=\'true\']'),
+            navToggleHeader = '#langNavToggleHeader',
             activeCountryImg,
             activeLanguage,
             toggleButton,
@@ -49,18 +50,20 @@ jQuery(function ($) {
             $(langNav).prepend(toggleButton);
 
             //attach toggle to change languages
-            $('#langNavToggleHeader').click(function () {
+            $(navToggleHeader).click(function () {
                 displayPosition = $(this).position().left - 240;
                 $(CMP_SELECTOR + ' .cmp-languagenavigation').css({ left: displayPosition });
                 $(CMP_SELECTOR + ' .cmp-languagenavigation').toggleClass('showMenu');
-                $('#langNavToggleHeader').toggleClass('open');
+                $(navToggleHeader).toggleClass('open');
+                $(navToggleHeader).attr('aria-expanded', true);
             });
 
             //allow users to click anywhere to close language switcher
             window.onclick = function (event) {
-                if (!event.target.matches('#langNavToggleHeader') && $('#langNavToggleHeader').hasClass('open')) {
+                if (!event.target.matches(navToggleHeader) && $(navToggleHeader).hasClass('open')) {
                     $(CMP_SELECTOR + ' .cmp-languagenavigation').removeClass('showMenu');
-                    $('#langNavToggleHeader').removeClass('open');
+                    $(navToggleHeader).removeClass('open');
+                    $(navToggleHeader).attr('aria-expanded', false);
                 }
             };
 
