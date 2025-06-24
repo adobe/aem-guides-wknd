@@ -60,7 +60,7 @@ jQuery(function ($) {
 
             //allow users to click anywhere to close language switcher
             window.onclick = function (event) {
-                if (!event.target.matches(navToggleHeader) && $(navToggleHeader).hasClass('open')) {
+                if (!event.target.matches(langNavToggleHeader) && $(langNavToggleHeader).hasClass('open')) {
                     $(CMP_SELECTOR + ' .cmp-languagenavigation').removeClass('showMenu');
                     $(langNavToggleHeader).removeClass('open');
                     $(langNavToggleHeader).attr('aria-expanded', false);
