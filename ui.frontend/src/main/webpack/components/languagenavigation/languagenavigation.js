@@ -46,7 +46,7 @@ jQuery(function ($) {
 
             toggleButton = '<div class="cmp-languagenavigation--langnavtoggle">' +
                                 '<a id="langNavToggleHeader" style="background-image:' + activeCountryImg + 
-                                '" href="#langNavToggle" aria-label="Toggle Language">' + activeLanguage + '</a></div>';
+                                '" href="#langNavToggle" aria-label="Toggle Language '+ activeLanguage +'">' + activeLanguage + '</a></div>';
             $(langNav).prepend(toggleButton);
 
             //attach toggle to change languages
