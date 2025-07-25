@@ -59,7 +59,7 @@
                                 </requireTextFileChecksum>
                                 <requireTextFileChecksum>
                                     <file>src/conf.d/dispatcher_vhost.conf</file>
-                                    <checksum>5e8550f34567ffa1a8c4f744852a8b61</checksum>
+                                    <checksum>b89125ba8462987cfe706dd35b69a170</checksum>
                                     <type>md5</type>
                                     <message>There have been changes detected in a file which is supposed to be immutable according to https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html#file-structure: src/conf.d/dispatcher_vhost.conf</message>
                                 </requireTextFileChecksum>
