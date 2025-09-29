@@ -1,0 +1,8 @@
+kind: "API"
+version: "1.0"
+metadata:
+    envTypes: ["dev", "stage", "prod"]
+data:
+    allowedClientIDs:
+        author:
+        - "dc8df57d39204cedae28a53cf6011c49"
