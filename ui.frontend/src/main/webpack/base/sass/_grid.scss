@@ -22,6 +22,10 @@
 .aem-Grid {
   display: block;
   width: 100%;
+
+  @media (max-width: $screen-xxsmall) {
+    margin-top: 50px;
+  }
 }
 
 .aem-Grid::before,

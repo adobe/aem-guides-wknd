@@ -115,10 +115,18 @@ $search-results-width: 20rem;
         
         .cmp-search__input {
             width: $search-max-mobile-width;
+
+            @media (max-width: $screen-xxsmall) {
+                margin-top: 50px;
+            }
         }
 
         .cmp-search__icon,.cmp-search__loading-indicator  {
             right: 9.5rem;
+
+            @media (max-width: $screen-xxsmall) {
+                margin-top: 50px;
+            }
         }
         
     }
