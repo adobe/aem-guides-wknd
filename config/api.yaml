@@ -1,0 +1,25 @@
+kind: "API"
+version: "1.0"
+metadata:
+  # Specify the environment types this config applies to.
+  # Allowed values: "rde" | "dev" | "stage" | "prod"
+  # Add or remove entries to match your target environments.
+  envTypes:
+    - "rde"
+    - "dev"
+    - "stage"
+    - "prod"
+data:
+  allowedClientIDs:
+    # Author tier — used for AEM Assets Author API (e.g. creating folders via OpenAPI)
+    # Add the Client ID from your Adobe Developer Console (ADC) project credentials.
+    # You can find this value in ADC → your project → OAuth Server-to-Server → Credentials details.
+    author:
+      - "85c8c4c3215141e5aad5a6194a6bf3de"
+
+    # Uncomment and populate the sections below if you also need
+    # publish or preview tier access in the future.
+    # publish:
+    #   - "<ADC_PROJECT_CLIENT_ID>"
+    # preview:
+    #   - "<ADC_PROJECT_CLIENT_ID>"

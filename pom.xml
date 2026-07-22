@@ -19,7 +19,7 @@
     <groupId>com.adobe.aem.guides</groupId>
     <artifactId>aem-guides-wknd</artifactId>
     <packaging>pom</packaging>
-    <version>4.0.5-SNAPSHOT</version>
+    <version>4.1.0-SNAPSHOT</version>
      <name>WKND Sites Project - Reactor Project</name>
     <description>WKND Sites Project</description>
     <url>https://github.com/adobe/aem-guides-wknd</url>
@@ -180,8 +180,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>21</source>
-                    <target>21</target>
+                    <source>11</source>
+                    <target>11</target>
                 </configuration>
             </plugin>
         </plugins>
