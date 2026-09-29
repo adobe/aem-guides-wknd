@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="sling:Folder"
+    jcr:mixinTypes="[mix:language]"
+    jcr:language="en">
+    <ai_search
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="AI Search"
+        sling:message="Semantic Search"/>
+    <contentai_search_unconfigured
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="contentai.search.unconfigured"
+        sling:message="Content AI search is not configured for this environment yet. An administrator needs to configure a Content AI API key before this component can be used."/>
+</jcr:root>

@@ -1,0 +1,13 @@
+<!--/*
+    WKND OVERLAY (GRANITE-71500): guards the core contentaisearch component behind a
+    ContentAIAvailability check, so an unconfigured instance renders a clear message
+    instead of failing at query time with an opaque 502 from AbstractContentAISearchServlet
+    (which does not currently distinguish "not configured" from a genuine backend failure).
+    Remove once core.wcm.components itself surfaces a "not configured" state.
+*/-->
+<sly data-sly-use.availability="com.adobe.aem.guides.wknd.core.models.contentai.ContentAIAvailability"/>
+<sly data-sly-test.isConfigured="${availability.configured}"
+     data-sly-resource="${resource.path @ resourceType='core/wcm/components/contentaisearch/v1/contentaisearch'}"/>
+<div data-sly-test="${!isConfigured}" class="cmp-contentaisearch cmp-contentaisearch--unconfigured">
+    <p class="cmp-contentaisearch__unconfigured-message">${'contentai.search.unconfigured' @ i18n}</p>
+</div>

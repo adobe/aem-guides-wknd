@@ -19,7 +19,7 @@
     <parent>
         <groupId>com.adobe.aem.guides</groupId>
         <artifactId>aem-guides-wknd</artifactId>
-        <version>4.0.5-SNAPSHOT</version>
+        <version>4.1.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>aem-guides-wknd.core</artifactId>
@@ -83,7 +83,7 @@ Import-Package: javax.annotation;version=0.0.0,*
         <dependency>
             <groupId>com.adobe.cq</groupId>
             <artifactId>core.wcm.components.core</artifactId>
-        </dependency>        
+        </dependency>
         <dependency>
             <groupId>uk.org.lidalia</groupId>
             <artifactId>slf4j-test</artifactId>

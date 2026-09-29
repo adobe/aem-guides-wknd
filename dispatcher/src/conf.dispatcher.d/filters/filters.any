@@ -15,6 +15,13 @@ $include "./default_filters.any"
 # Allow Quick Search
 /0110 { /type "allow" /extension "json" /selectors "searchresults" /path "/content/*" }
 
+# Allow ContentAI Supported Search (GRANITE-71500) - ContentAISearchResultsServlet/
+# ContentAIGenSearchServlet are registered with selectors "search"/"gensearch" + extension
+# "json" against the contentaisearch component's resourceType; without an explicit allow rule
+# Dispatcher's default deny-first policy 404s these before they ever reach AEM.
+/0115 { /type "allow" /extension "json" /selectors "search" /path "/content/*" }
+/0116 { /type "allow" /extension "json" /selectors "gensearch" /path "/content/*" }
+
 # Allow j_security check for login
 /0111 { /type "allow" /method "POST" /url "/system/sling/login/j_security_check" }
 

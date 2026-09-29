@@ -19,7 +19,7 @@
     <groupId>com.adobe.aem.guides</groupId>
     <artifactId>aem-guides-wknd</artifactId>
     <packaging>pom</packaging>
-    <version>4.0.5-SNAPSHOT</version>
+    <version>4.1.0-SNAPSHOT</version>
      <name>WKND Sites Project - Reactor Project</name>
     <description>WKND Sites Project</description>
     <url>https://github.com/adobe/aem-guides-wknd</url>
@@ -59,9 +59,9 @@
         <bnd.version>6.4.0</bnd.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <aem.sdk.api>2025.6.21193.20250609T124356Z-250500</aem.sdk.api>
+        <aem.sdk.api>2026.8.27830.20260820T160150Z-260700</aem.sdk.api>
         <componentGroupName>WKND Site</componentGroupName>
-        <core.wcm.components.version>2.29.0</core.wcm.components.version>
+        <core.wcm.components.version>2.32.4</core.wcm.components.version>
         <uber.jar.version>6.6.0</uber.jar.version>
         <wknd-shared.version>3.1.0</wknd-shared.version>
         <wknd-shared.65.version>2.2.2</wknd-shared.65.version>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:tags="[]"
+        cq:template="/conf/wknd/settings/wcm/templates/content-page-template"
+        jcr:description="Search WKND's adventures using AEM Core WCM Components' Content AI semantic search - GRANITE-71500."
+        jcr:primaryType="cq:PageContent"
+        jcr:title="AI-Powered Search"
+        sling:resourceType="wknd/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd/components/container">
+            <container
+                cq:styleIds="[1554340406437]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/container"
+                layout="responsiveGrid">
+                <cq:responsive
+                    jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="12"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="12"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="12"/>
+                </cq:responsive>
+                <contentaisearch
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/contentaisearch"
+                    resultsLayout="card"
+                    resultsSize="{Long}6"
+                    placeholder="Search"
+                    genSearchToggleVisible="{Boolean}true"
+                    genSearchEnabledByDefault="{Boolean}true"
+                    genSearchErrorFallback="RESULTS_ONLY"
+                    disclaimerText="AI-generated responses may be inaccurate. Verify important information before you travel."/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

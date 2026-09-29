@@ -150,7 +150,7 @@
                         jcr:lastModified="{Date}2019-09-15T17:05:56.342-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/search"
+                        sling:resourceType="wknd/components/searchv3"
                         searchRoot="/content/wknd/language-masters/en">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
