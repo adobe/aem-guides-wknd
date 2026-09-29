@@ -2,12 +2,12 @@
 <workspaceFilter version="1.0">
 
     <!-- Content Filters -->
-    <filter root="/content/wknd" />
+    <filter root="/content/wknd" mode="merge" />
     <!-- Changing the filter mode to merge will preserve any existing content on the target environment
     <filter root="/content/wknd" mode="merge"/>
     -->
     <filter root="/content/dam/wknd" mode="update"/>
-    <filter root="/content/experience-fragments/wknd"/>
+    <filter root="/content/experience-fragments/wknd" mode="merge"/>
 
     <!-- Force Policy and Template Updates -->
     <filter root="/conf/wknd/settings/wcm" />
