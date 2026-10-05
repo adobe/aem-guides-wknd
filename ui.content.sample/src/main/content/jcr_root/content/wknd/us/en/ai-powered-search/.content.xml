@@ -4,6 +4,7 @@
     <jcr:content
         cq:tags="[]"
         cq:template="/conf/wknd/settings/wcm/templates/content-page-template"
+        hideInNav="{Boolean}true"
         jcr:description="Search WKND's adventures using AEM Core WCM Components' Content AI semantic search - GRANITE-71500."
         jcr:primaryType="cq:PageContent"
         jcr:title="AI-Powered Search"

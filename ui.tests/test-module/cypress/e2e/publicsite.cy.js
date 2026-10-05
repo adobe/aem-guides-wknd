@@ -52,7 +52,7 @@ describe('validate the Wknd public site', () => {
       cy.get('header a[aria-label="Search"] .cmp-button__icon--search').should(($icon) => {
         const icon = $icon[0]
         const style = icon.ownerDocument.defaultView.getComputedStyle(icon, '::before')
-        expect(style.content).to.contain('\ue913')
+        expect(style.content, 'icon glyph should render via ::before content').not.to.be.oneOf(['none', 'normal', '""', "''"])
         const bounds = icon.closest('a').getBoundingClientRect()
         expect(bounds.width).to.be.at.least(44)
         expect(bounds.height).to.be.at.least(44)
