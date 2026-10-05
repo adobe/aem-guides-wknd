@@ -39,6 +39,11 @@
         background-color: transparent;
         float: right;
 
+        &:hover,
+        &:focus {
+            background-color: $brand-primary;
+        }
+
         &:focus-visible {
             outline: 2px solid $text-color;
             outline-offset: 2px;
