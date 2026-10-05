@@ -98,6 +98,7 @@ component, are unchanged.
 The Cypress `publicsite` spec covers desktop/mobile icon navigation, the V1
 AI-summary checkbox toggle, and an end-to-end search against the real Content
 AI endpoint (asserting non-empty results and an AI answer with source hits).
+
 ### WKND Sample Content
 
 By default, sample content from `ui.content.sample` will be deployed and installed along with the WKND code base. The WKND reference site is used for demo and training purposes and having a pre-built, fully authored site is useful. However, the behavior of including a full reference site (pages, images, etc...) in source control is *unusual* and is **not** recommended for a real-world implementation.
@@ -108,6 +109,22 @@ Including `ui.content.sample` will **overwrite** any authored content during eac
 - <filter root="/content/wknd" />
 + <filter root="/content/wknd" mode="merge"/>
 ```
+
+### Code-only deployment (opt-in)
+
+The default `all` package continues to embed `ui.apps`, `core`, `ui.content`,
+`ui.config`, `ui.content.sample`, and the shared WKND content package, exactly
+as before. For environments with authored content you don't want a deployment
+to overwrite (for example, a shared development environment), build with the
+`codeOnly` Maven profile to produce an `all` package that embeds only `ui.apps`,
+`core`, and `ui.config`:
+
+```
+mvn -PcodeOnly clean install
+```
+
+Use this profile deliberately; it is not active by default and should not be
+used for the initial/full installation of this project.
 
 ### Powered by Adobe Stock
 

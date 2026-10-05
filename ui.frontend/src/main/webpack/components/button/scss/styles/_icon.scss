@@ -25,6 +25,25 @@
             content: $wkndicon-instagram; 
         }
     }
+    .cmp-button__icon--search {
+        &:before {
+            content: $wkndicon-search;
+        }
+    }
+}
+
+.cmp-button--header-search {
+    @extend .cmp-button--icononly;
+
+    .cmp-button {
+        background-color: transparent;
+        float: right;
+
+        &:focus-visible {
+            outline: 2px solid $text-color;
+            outline-offset: 2px;
+        }
+    }
 }
 
 .cmp-button--icononly {
