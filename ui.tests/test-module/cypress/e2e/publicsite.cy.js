@@ -79,7 +79,7 @@ describe('validate the Wknd public site', () => {
   it('central V1 search should return and display search results', () => {
     cy.intercept('GET', '**/contentaisearch.search.json*').as('searchResults')
     cy.intercept('GET', '**/contentaisearch.gensearch.json*').as('aiSummary')
-    cy.visit('/us/en/ai-powered-search.html')
+    cy.visit('/content/wknd/us/en/ai-powered-search.html')
     cy.get('main .cmp-contentaisearch__ai-toggle-input').should('be.checked').uncheck()
     cy.get('main .cmp-contentaisearch__input').type('Climbing{enter}')
     cy.wait('@searchResults', { responseTimeout: 60000 }).then(({ response }) => {
