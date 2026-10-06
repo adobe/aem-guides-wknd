@@ -833,6 +833,11 @@
                                     cq:styleId="1568839776757"
                                     cq:styleLabel="Icon Only"
                                     jcr:primaryType="nt:unstructured"/>
+                                <item1
+                                    cq:styleClasses="cmp-button--header-search"
+                                    cq:styleId="1696512345678"
+                                    cq:styleLabel="Header Search"
+                                    jcr:primaryType="nt:unstructured"/>
                             </cq:styles>
                         </item1>
                     </cq:styleGroups>

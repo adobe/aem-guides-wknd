@@ -273,6 +273,45 @@
                 </dependency>        
             </dependencies>
          </profile>
+        <!-- Opt-in profile: deploy code only, preserving existing authored content on the target environment. -->
+        <profile>
+            <id>codeOnly</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.jackrabbit</groupId>
+                        <artifactId>filevault-package-maven-plugin</artifactId>
+                        <extensions>true</extensions>
+                        <configuration>
+                            <finalName>aem-guides-wknd.all-${version}-codeOnly</finalName>
+                            <group>com.adobe.aem.guides</group>
+                            <embeddeds>
+                                <embedded>
+                                    <groupId>com.adobe.aem.guides</groupId>
+                                    <artifactId>aem-guides-wknd.ui.apps</artifactId>
+                                    <type>zip</type>
+                                    <target>/apps/wknd-packages/application/install</target>
+                                </embedded>
+                                <embedded>
+                                    <groupId>com.adobe.aem.guides</groupId>
+                                    <artifactId>aem-guides-wknd.core</artifactId>
+                                    <target>/apps/wknd-packages/application/install</target>
+                                </embedded>
+                                <embedded>
+                                    <groupId>com.adobe.aem.guides</groupId>
+                                    <artifactId>aem-guides-wknd.ui.config</artifactId>
+                                    <type>zip</type>
+                                    <target>/apps/wknd-packages/application/install</target>
+                                </embedded>
+                            </embeddeds>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+         </profile>
     </profiles>
 
     <!-- ====================================================================== -->

@@ -81,6 +81,24 @@ Setup your local development environment for [AEM as a Cloud Service SDK](https:
 
 ## Notes
 
+### Header search navigation consolidation
+
+Pages that use Content AI Search V1 now expose header search through a single
+accessible magnifying-glass icon (`cmp-button--header-search`) that links to the
+central Content AI Search page, instead of a duplicate inline search field. The
+duplicate auto-generated navigation entry for the central search page is hidden
+so it isn't listed twice.
+
+On desktop, the header layout groups the navigation links and the 48px search
+icon together instead of reserving two full grid columns for the icon, closing
+the large gap that previously appeared between the nav links and the search
+control. Existing mobile/tablet layouts, and headers that don't use this
+component, are unchanged.
+
+The Cypress `publicsite` spec covers desktop/mobile icon navigation, the V1
+AI-summary checkbox toggle, and an end-to-end search against the real Content
+AI endpoint (asserting non-empty results and an AI answer with source hits).
+
 ### WKND Sample Content
 
 By default, sample content from `ui.content.sample` will be deployed and installed along with the WKND code base. The WKND reference site is used for demo and training purposes and having a pre-built, fully authored site is useful. However, the behavior of including a full reference site (pages, images, etc...) in source control is *unusual* and is **not** recommended for a real-world implementation.
@@ -91,6 +109,22 @@ Including `ui.content.sample` will **overwrite** any authored content during eac
 - <filter root="/content/wknd" />
 + <filter root="/content/wknd" mode="merge"/>
 ```
+
+### Code-only deployment (opt-in)
+
+The default `all` package continues to embed `ui.apps`, `core`, `ui.content`,
+`ui.config`, `ui.content.sample`, and the shared WKND content package, exactly
+as before. For environments with authored content you don't want a deployment
+to overwrite (for example, a shared development environment), build with the
+`codeOnly` Maven profile to produce an `all` package that embeds only `ui.apps`,
+`core`, and `ui.config`:
+
+```
+mvn -PcodeOnly clean install
+```
+
+Use this profile deliberately; it is not active by default and should not be
+used for the initial/full installation of this project.
 
 ### Powered by Adobe Stock
 

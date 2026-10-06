@@ -13,6 +13,40 @@
         @include container-content();
     }
 
+    @media (min-width: $screen-medium + 1) {
+        .aem-Grid:has(> .cmp-button--header-search) {
+            display: flex;
+            align-items: center;
+
+            > .cmp-navigation--header {
+                flex: 1;
+                min-width: 0;
+                // Override the legacy header navigation's percentage width.
+                width: auto !important;
+                padding-right: 0;
+
+                .cmp-navigation {
+                    padding-top: 0;
+                }
+
+                .cmp-navigation__item--level-1 > .cmp-navigation__item-link {
+                    display: inline-flex;
+                    align-items: center;
+                    height: $button-size;
+                    padding-top: 0;
+                    padding-bottom: 0;
+                }
+            }
+
+            > .cmp-button--header-search {
+                flex: 0 0 $button-size;
+                width: $button-size;
+                padding: 0;
+                margin-right: $gutter-padding;
+            }
+        }
+    }
+
      /* Tablet */
      @media (max-width: $screen-medium) {
         padding-top: 15px;
