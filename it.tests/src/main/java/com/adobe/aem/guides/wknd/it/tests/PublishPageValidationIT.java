@@ -26,7 +26,7 @@ import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.sling.testing.clients.ClientException;
 import org.apache.sling.testing.clients.SlingHttpResponse;
-import org.eclipse.jetty.client.HttpResponse;
+// Fixed by AEM Modernizer AI — removed unused org.eclipse.jetty.client.HttpResponse import (CRITICAL: deadline Feb 26, 2026)
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.ClassRule;
