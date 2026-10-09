@@ -83,10 +83,4 @@ describe('validate the Wknd public site', () => {
       cy.get('main .cmp-contentaisearch__ai-toggle-input').should('be.checked')
     })
   })
-
-  // Removed: "central V1 search should return and display search results".
-  // This test depends on the .search.json/.gensearch.json servlets added in
-  // core.wcm.components 2.33.0, which are not yet available in the deployed
-  // AEM Cloud Service base image (currently ships core.wcm.components 2.32.6).
-  // Re-add once Adobe ships a base image with core.wcm.components >= 2.33.0.
 })
