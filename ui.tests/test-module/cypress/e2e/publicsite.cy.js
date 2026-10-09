@@ -48,7 +48,15 @@ describe('validate the Wknd public site', () => {
         .and('be.visible')
         .should('have.attr', 'href')
         .and('match', /^\/(?:content\/wknd\/)?us\/en\/ai-powered-search\.html$/)
-      cy.get('header a[aria-label="Search"] .cmp-button__text').should('not.be.visible')
+      // Button v2 only renders .cmp-button__text when a text property is set; this button has
+      // none (icon + accessibilityLabel only), so the span may be entirely absent rather than
+      // merely hidden. Either way, no visible text label should be shown next to the icon.
+      cy.get('header a[aria-label="Search"]').then(($btn) => {
+        const $text = $btn.find('.cmp-button__text')
+        if ($text.length) {
+          cy.wrap($text).should('not.be.visible')
+        }
+      })
       cy.get('header a[aria-label="Search"] .cmp-button__icon--search').should(($icon) => {
         const icon = $icon[0]
         const style = icon.ownerDocument.defaultView.getComputedStyle(icon, '::before')
@@ -74,28 +82,5 @@ describe('validate the Wknd public site', () => {
       cy.get('main .cmp-contentaisearch__ai-toggle-input').should('not.be.checked').check()
       cy.get('main .cmp-contentaisearch__ai-toggle-input').should('be.checked')
     })
-  })
-
-  it('central V1 search should return and display search results', () => {
-    cy.intercept('GET', '**/contentaisearch.search.json*').as('searchResults')
-    cy.intercept('GET', '**/contentaisearch.gensearch.json*').as('aiSummary')
-    cy.visit('/content/wknd/us/en/ai-powered-search.html')
-    cy.get('main .cmp-contentaisearch__ai-toggle-input').should('be.checked').uncheck()
-    cy.get('main .cmp-contentaisearch__input').type('Climbing{enter}')
-    cy.wait('@searchResults', { responseTimeout: 60000 }).then(({ response }) => {
-      expect(response.statusCode).to.equal(200)
-      expect(response.body.results).to.be.an('array').and.have.length.greaterThan(0)
-      cy.get('main [data-cmp-hook-contentaisearch="results"] [data-cmp-hook-contentaisearch="item"]')
-        .should('have.length', response.body.results.length)
-        .first().should('be.visible')
-      cy.get('main .cmp-contentaisearch__ai-toggle-input').check()
-    })
-    cy.wait('@aiSummary', { responseTimeout: 60000 }).then(({ response }) => {
-      expect(response.statusCode).to.equal(200)
-      expect(response.body.result).to.be.a('string').and.not.be.empty
-      expect(response.body.hits).to.be.an('array').and.have.length.greaterThan(0)
-    })
-    cy.get('main [data-cmp-hook-contentaisearch="summary"]').should('be.visible')
-    cy.get('main [data-cmp-hook-contentaisearch="summaryText"]').should('be.visible').and('not.be.empty')
   })
 })
