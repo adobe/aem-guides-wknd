@@ -48,7 +48,15 @@ describe('validate the Wknd public site', () => {
         .and('be.visible')
         .should('have.attr', 'href')
         .and('match', /^\/(?:content\/wknd\/)?us\/en\/ai-powered-search\.html$/)
-      cy.get('header a[aria-label="Search"] .cmp-button__text').should('not.be.visible')
+      // Button v2 only renders .cmp-button__text when a text property is set; this button has
+      // none (icon + accessibilityLabel only), so the span may be entirely absent rather than
+      // merely hidden. Either way, no visible text label should be shown next to the icon.
+      cy.get('header a[aria-label="Search"]').then(($btn) => {
+        const $text = $btn.find('.cmp-button__text')
+        if ($text.length) {
+          cy.wrap($text).should('not.be.visible')
+        }
+      })
       cy.get('header a[aria-label="Search"] .cmp-button__icon--search').should(($icon) => {
         const icon = $icon[0]
         const style = icon.ownerDocument.defaultView.getComputedStyle(icon, '::before')
