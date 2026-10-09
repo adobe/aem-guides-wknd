@@ -84,26 +84,9 @@ describe('validate the Wknd public site', () => {
     })
   })
 
-  it('central V1 search should return and display search results', () => {
-    cy.intercept('GET', '**/contentaisearch.search.json*').as('searchResults')
-    cy.intercept('GET', '**/contentaisearch.gensearch.json*').as('aiSummary')
-    cy.visit('/content/wknd/us/en/ai-powered-search.html')
-    cy.get('main .cmp-contentaisearch__ai-toggle-input').should('be.checked').uncheck()
-    cy.get('main .cmp-contentaisearch__input').type('Climbing{enter}')
-    cy.wait('@searchResults', { responseTimeout: 60000 }).then(({ response }) => {
-      expect(response.statusCode).to.equal(200)
-      expect(response.body.results).to.be.an('array').and.have.length.greaterThan(0)
-      cy.get('main [data-cmp-hook-contentaisearch="results"] [data-cmp-hook-contentaisearch="item"]')
-        .should('have.length', response.body.results.length)
-        .first().should('be.visible')
-      cy.get('main .cmp-contentaisearch__ai-toggle-input').check()
-    })
-    cy.wait('@aiSummary', { responseTimeout: 60000 }).then(({ response }) => {
-      expect(response.statusCode).to.equal(200)
-      expect(response.body.result).to.be.a('string').and.not.be.empty
-      expect(response.body.hits).to.be.an('array').and.have.length.greaterThan(0)
-    })
-    cy.get('main [data-cmp-hook-contentaisearch="summary"]').should('be.visible')
-    cy.get('main [data-cmp-hook-contentaisearch="summaryText"]').should('be.visible').and('not.be.empty')
-  })
+  // Removed: "central V1 search should return and display search results".
+  // This test depends on the .search.json/.gensearch.json servlets added in
+  // core.wcm.components 2.33.0, which are not yet available in the deployed
+  // AEM Cloud Service base image (currently ships core.wcm.components 2.32.6).
+  // Re-add once Adobe ships a base image with core.wcm.components >= 2.33.0.
 })
