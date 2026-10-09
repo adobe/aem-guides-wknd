@@ -85,6 +85,23 @@
                             <target>/apps/wknd-packages/content/install</target>
                         </embedded>
                         <embedded>
+                            <groupId>com.adobe.cq</groupId>
+                            <artifactId>core.wcm.components.content</artifactId>
+                            <type>zip</type>
+                            <target>/apps/wknd-vendor-packages/application/install</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.adobe.cq</groupId>
+                            <artifactId>core.wcm.components.config</artifactId>
+                            <type>zip</type>
+                            <target>/apps/wknd-vendor-packages/application/install</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.adobe.cq</groupId>
+                            <artifactId>core.wcm.components.core</artifactId>
+                            <target>/apps/wknd-vendor-packages/application/install</target>
+                        </embedded>
+                        <embedded>
                             <groupId>com.adobe.aem.guides</groupId>
                             <artifactId>aem-guides-wknd-shared.ui.content</artifactId>
                             <type>zip</type>
