@@ -29,3 +29,11 @@
 
 <!--/* Favicons */-->
 <sly data-sly-include="favicons.html"></sly>
+
+<!--/* Social sharing / crawler image (Page Properties > Thumbnail tab) */-->
+<sly data-sly-use.socialImage="com.adobe.aem.guides.wknd.core.models.SocialImage">
+    <meta data-sly-test="${socialImage.present}" property="og:image" content="${socialImage.url}"/>
+    <meta data-sly-test="${socialImage.present && socialImage.alternateText}" property="og:image:alt" content="${socialImage.alternateText}"/>
+    <meta data-sly-test="${socialImage.present}" name="twitter:card" content="summary_large_image"/>
+    <meta data-sly-test="${socialImage.present}" name="twitter:image" content="${socialImage.url}"/>
+</sly>
