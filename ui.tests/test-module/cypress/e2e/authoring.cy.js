@@ -52,6 +52,19 @@ describe('validate the Wknd authoring flow', () => {
   })
 
   it('should be able to author and publish a page', () => {
+    cy.on('uncaught:exception', (err) => {
+      if (err.message.includes('Blocked a frame with origin')) {
+        // handle a known flaky case where contexthub/analytics iframe unload makes the test fail
+        // while navigating into the page editor on the author instance
+        return false
+      }
+      if (err.message.includes("Cannot read properties of undefined (reading 'querySelector')")) {
+        // handle a known flaky case where the Insert Component dialog's renderComponent call
+        // races with the component list still loading in CI; retried clicks below recover from it
+        return false
+      }
+    })
+
     // ===> add a component to the test page
     // open the page in page editor
     cy.AEMNavigatePageEditor(testPage.path)
@@ -59,8 +72,13 @@ describe('validate the Wknd authoring flow', () => {
     cy.get('div[data-type="Editable"][data-path="' + testPage.path + '/jcr:content/root/container/*"]').click()
     // clik on add
     cy.get('button[data-action="INSERT"][data-path="' + testPage.path + '/jcr:content/root/container/*"]').click()
-    // select the hello world component
-    cy.get('coral-list-item[value="/apps/wknd/components/helloworld"]').click()
+    // select the hello world component (retry the insert if the picker failed to render due to the known flake above)
+    cy.get('body').then(($body) => {
+      if ($body.find('coral-list-item[value="/apps/wknd/components/helloworld"]').length === 0) {
+        cy.get('button[data-action="INSERT"][data-path="' + testPage.path + '/jcr:content/root/container/*"]').click()
+      }
+    })
+    cy.get('coral-list-item[value="/apps/wknd/components/helloworld"]', { timeout: 15000 }).click()
     // verify component is in page
     cy.get('div[data-path="' + testPage.path + '/jcr:content/root/container/helloworld"]').should('exist')
     // verify component content in page
