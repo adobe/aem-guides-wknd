@@ -71,10 +71,10 @@
                             <artifactId>aem-guides-wknd.ui.apps</artifactId>
                             <version>${project.version}</version>
                         </dependency>
-                        <dependency>
+                        <!-- <dependency>
                             <groupId>com.adobe.aem.guides</groupId>
                             <artifactId>aem-guides-wknd-shared.ui.content</artifactId>
-                        </dependency>
+                        </dependency> -->
                     </dependencies>
                 </configuration>
             </plugin>
@@ -105,12 +105,14 @@
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>
+        <!--
         <dependency>
             <groupId>com.adobe.aem.guides</groupId>
             <artifactId>aem-guides-wknd-shared.ui.content</artifactId>
             <version>${wknd-shared.version}</version>
             <type>zip</type>
         </dependency>
+        -->
         <dependency>
             <groupId>com.adobe.aem</groupId>
             <artifactId>aem-sdk-api</artifactId>

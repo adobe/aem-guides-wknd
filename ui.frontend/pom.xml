@@ -44,6 +44,10 @@
             <plugin>
                 <groupId>com.github.eirslett</groupId>
                 <artifactId>frontend-maven-plugin</artifactId>
+                <configuration>
+                    <nodeVersion>v20.19.6</nodeVersion>
+                    <npmVersion>10.8.2</npmVersion>
+                </configuration>
                 <executions>
                     <execution>
                         <id>npm run prod</id>
@@ -89,6 +93,10 @@
                     <plugin>
                         <groupId>com.github.eirslett</groupId>
                         <artifactId>frontend-maven-plugin</artifactId>
+                        <configuration>
+                            <nodeVersion>v20.19.6</nodeVersion>
+                            <npmVersion>10.8.2</npmVersion>
+                        </configuration>
                         <executions>
                             <execution>
                                 <id>npm run dev</id>
