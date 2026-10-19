@@ -16,6 +16,8 @@
 package com.adobe.aem.guides.wknd.core.models.impl;
 
 import com.adobe.aem.guides.wknd.core.models.ImageList;
+import com.adobe.aem.guides.wknd.core.telemetry.WkndTelemetry;
+import com.adobe.aem.guides.wknd.core.telemetry.WkndTelemetryExtension;
 import com.adobe.cq.wcm.core.components.internal.DataLayerConfig;
 import com.adobe.cq.wcm.core.components.models.Image;
 import com.adobe.cq.wcm.core.components.models.List;
@@ -26,6 +28,10 @@ import com.day.cq.search.PredicateGroup;
 import com.day.cq.search.Query;
 import com.day.cq.search.QueryBuilder;
 import com.day.cq.search.result.SearchResult;
+import io.opentelemetry.api.common.AttributeKey;
+import io.opentelemetry.api.trace.StatusCode;
+import io.opentelemetry.sdk.trace.data.EventData;
+import io.opentelemetry.sdk.trace.data.SpanData;
 import io.wcm.testing.mock.aem.junit5.AemContext;
 import io.wcm.testing.mock.aem.junit5.AemContextExtension;
 import org.apache.commons.lang3.StringUtils;
@@ -55,7 +61,7 @@ import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.argThat;
 import static org.mockito.Mockito.*;
 
-@ExtendWith({AemContextExtension.class, MockitoExtension.class})
+@ExtendWith({AemContextExtension.class, MockitoExtension.class, WkndTelemetryExtension.class})
 class ImageListImplTest {
 
     private final AemContext ctx = new AemContext(ResourceResolverType.JCR_MOCK);
@@ -140,6 +146,42 @@ class ImageListImplTest {
 
         // Close for each page that has a result
         verify(leakedResourceResolver, times(2)).close();
+
+        // Each QueryBuilder query is traced as its own span: what it searched, and how many results it found
+        final java.util.List<SpanData> querySpans = WkndTelemetryExtension.spans("ImageList.findPageComponentResources");
+        assertEquals(3, querySpans.size());
+        assertEquals(Arrays.asList("/content/pages/page-1/jcr:content", "/content/pages/page-2/jcr:content", "/content/pages/page-3/jcr:content"),
+                querySpans.stream().map(span -> span.getAttributes().get(AttributeKey.stringKey("wknd.query.path"))).collect(Collectors.toList()));
+        assertEquals(Arrays.asList(1L, 1L, 0L),
+                querySpans.stream().map(span -> span.getAttributes().get(AttributeKey.longKey("wknd.query.result_count"))).collect(Collectors.toList()));
+        for (SpanData span : querySpans) {
+            assertEquals(WkndTelemetry.SCOPE, span.getInstrumentationScopeInfo().getName());
+            assertEquals("wknd/components/image", span.getAttributes().get(AttributeKey.stringKey("wknd.query.resource_type")));
+            assertEquals(1L, span.getAttributes().get(AttributeKey.longKey("wknd.query.limit")));
+            assertEquals(StatusCode.UNSET, span.getStatus().getStatusCode());
+        }
+    }
+
+    @Test
+    void getListItems_recordsQueryFailureOnSpan() throws NoSuchFieldException, IllegalAccessException {
+        doThrow(new IllegalStateException("Query failed")).when(mockQueryBuilder).createQuery(any(PredicateGroup.class), any(Session.class));
+
+        ctx.currentResource("/content/image-list");
+        final ImageList actual = ctx.request().adaptTo(ImageList.class);
+        setCoreList((ImageListImpl) actual, new MockList("/content/pages/page-1"));
+
+        assertThrows(IllegalStateException.class, actual::getListItems);
+
+        // The failure is recorded on the query's span, and the exception still propagates to the caller
+        final java.util.List<SpanData> querySpans = WkndTelemetryExtension.spans("ImageList.findPageComponentResources");
+        assertEquals(1, querySpans.size());
+        final SpanData span = querySpans.get(0);
+        assertEquals(StatusCode.ERROR, span.getStatus().getStatusCode());
+        assertEquals("Image List query failed", span.getStatus().getDescription());
+        final EventData exception = span.getEvents().get(0);
+        assertEquals("exception", exception.getName());
+        assertEquals("java.lang.IllegalStateException", exception.getAttributes().get(AttributeKey.stringKey("exception.type")));
+        assertEquals("Query failed", exception.getAttributes().get(AttributeKey.stringKey("exception.message")));
     }
 
     @Test

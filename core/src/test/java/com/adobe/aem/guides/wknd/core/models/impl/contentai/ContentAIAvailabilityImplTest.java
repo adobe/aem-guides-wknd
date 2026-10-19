@@ -15,6 +15,7 @@
  */
 package com.adobe.aem.guides.wknd.core.models.impl.contentai;
 
+import java.io.IOException;
 import java.util.Hashtable;
 
 import org.junit.jupiter.api.BeforeEach;
@@ -24,15 +25,22 @@ import org.osgi.framework.Constants;
 import org.osgi.service.cm.Configuration;
 import org.osgi.service.cm.ConfigurationAdmin;
 
+import io.opentelemetry.api.common.AttributeKey;
+import io.opentelemetry.api.trace.StatusCode;
+import io.opentelemetry.sdk.trace.data.EventData;
+import io.opentelemetry.sdk.trace.data.SpanData;
 import io.wcm.testing.mock.aem.junit5.AemContext;
 import io.wcm.testing.mock.aem.junit5.AemContextExtension;
 
 import com.adobe.aem.guides.wknd.core.models.contentai.ContentAIAvailability;
+import com.adobe.aem.guides.wknd.core.telemetry.WkndTelemetryExtension;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.Mockito.doAnswer;
 import static org.mockito.Mockito.doReturn;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.never;
@@ -59,7 +67,7 @@ import static org.mockito.Mockito.when;
  * osgi-mock upgrade that silently changes that (as a newer 3.x already does; see that test's
  * javadoc) fails loudly here instead of just quietly leaving the fallback path uncovered.
  */
-@ExtendWith(AemContextExtension.class)
+@ExtendWith({AemContextExtension.class, WkndTelemetryExtension.class})
 class ContentAIAvailabilityImplTest {
 
     private static final String CONTENT_AI_CLIENT_PID =
@@ -113,6 +121,54 @@ class ContentAIAvailabilityImplTest {
         seedApiKey("3a2ede9fd93a47c1b41fa4d73a97b926");
 
         assertTrue(adapt().isConfigured());
+
+        final SpanData span = lookupSpan();
+        assertEquals(Boolean.TRUE, span.getAttributes().get(AttributeKey.booleanKey("wknd.content_ai.configured")));
+        assertEquals(StatusCode.UNSET, span.getStatus().getStatusCode());
+    }
+
+    @Test
+    void resolveConfigured_recordsLookupFailureOnSpan() throws Exception {
+        registerConfigurationAdminThrowing(new IOException("Configuration store unavailable"));
+
+        assertFalse(adapt().isConfigured());
+
+        assertFailureRecorded(lookupSpan(), "java.io.IOException", "Configuration store unavailable");
+    }
+
+    @Test
+    void resolveConfigured_recordsUnexpectedFailureOnSpan() throws Exception {
+        registerConfigurationAdminThrowing(new IllegalStateException("Unexpected failure"));
+
+        assertFalse(adapt().isConfigured());
+
+        assertFailureRecorded(lookupSpan(), "java.lang.IllegalStateException", "Unexpected failure");
+    }
+
+    private void registerConfigurationAdminThrowing(Exception failure) throws Exception {
+        // Spy the Sling mock, so the OSGi mocks keep working, and throw from the two-argument lookup the model uses.
+        // doAnswer rather than doThrow: the Sling mock's override does not declare IOException.
+        ConfigurationAdmin spyConfigurationAdmin = spy(ctx.getService(ConfigurationAdmin.class));
+        doAnswer(invocation -> {
+            throw failure;
+        }).when(spyConfigurationAdmin).getConfiguration(CONTENT_AI_CLIENT_PID, null);
+        ctx.registerService(ConfigurationAdmin.class, spyConfigurationAdmin,
+                Constants.SERVICE_RANKING, Integer.MAX_VALUE);
+    }
+
+    private static SpanData lookupSpan() {
+        final java.util.List<SpanData> spans = WkndTelemetryExtension.spans("ContentAIAvailability.resolveConfigured");
+        assertEquals(1, spans.size());
+        return spans.get(0);
+    }
+
+    private static void assertFailureRecorded(SpanData span, String exceptionType, String exceptionMessage) {
+        assertEquals(StatusCode.ERROR, span.getStatus().getStatusCode());
+        assertEquals("Content AI configuration lookup failed", span.getStatus().getDescription());
+        final EventData exception = span.getEvents().get(0);
+        assertEquals("exception", exception.getName());
+        assertEquals(exceptionType, exception.getAttributes().get(AttributeKey.stringKey("exception.type")));
+        assertEquals(exceptionMessage, exception.getAttributes().get(AttributeKey.stringKey("exception.message")));
     }
 
     /**

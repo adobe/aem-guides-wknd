@@ -777,6 +777,13 @@ Bundle-DocURL:
                 <version>${opentelemetry-instrumentation.version}</version>
                 <scope>provided</scope>
             </dependency>
+            <!-- In-memory OpenTelemetry SDK for unit tests that assert on spans -->
+            <dependency>
+                <groupId>io.opentelemetry</groupId>
+                <artifactId>opentelemetry-sdk-testing</artifactId>
+                <version>${opentelemetry.version}</version>
+                <scope>test</scope>
+            </dependency>
 
              <!-- AEM Core Components -->
             <dependency>

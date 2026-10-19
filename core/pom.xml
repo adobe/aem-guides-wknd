@@ -99,6 +99,10 @@ Import-Package: !io.opentelemetry.*,javax.annotation;version=0.0.0,*
             <artifactId>opentelemetry-instrumentation-annotations</artifactId>
         </dependency>
         <dependency>
+            <groupId>io.opentelemetry</groupId>
+            <artifactId>opentelemetry-sdk-testing</artifactId>
+        </dependency>
+        <dependency>
             <groupId>uk.org.lidalia</groupId>
             <artifactId>slf4j-test</artifactId>
             <scope>test</scope>
