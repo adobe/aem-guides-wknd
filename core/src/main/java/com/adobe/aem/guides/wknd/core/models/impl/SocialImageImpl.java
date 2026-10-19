@@ -30,6 +30,10 @@ import org.apache.sling.models.annotations.injectorspecific.Self;
 import com.adobe.aem.guides.wknd.core.models.SocialImage;
 import com.day.cq.wcm.api.Page;
 
+import io.opentelemetry.api.common.AttributeKey;
+import io.opentelemetry.api.trace.Span;
+import io.opentelemetry.instrumentation.annotations.WithSpan;
+
 @Model(
         adaptables = SlingHttpServletRequest.class,
         adapters = SocialImage.class,
@@ -50,6 +54,8 @@ public class SocialImageImpl implements SocialImage {
     private static final int MAX_NODES_TO_VISIT = 500;
     private static final int MAX_DEPTH = 15;
 
+    private static final AttributeKey<String> IMAGE_SOURCE = AttributeKey.stringKey("wknd.social_image.source");
+
     @Self
     private SlingHttpServletRequest request;
 
@@ -65,11 +71,17 @@ public class SocialImageImpl implements SocialImage {
             return;
         }
 
+        final String source;
         if (resolveFromFeaturedImage()) {
-            return;
+            source = "featured_image";
+        } else if (resolveFromFirstImageOnPage()) {
+            source = "first_image_on_page";
+        } else {
+            source = "none";
         }
 
-        resolveFromFirstImageOnPage();
+        // Add business context to the span that is already active. On AEM as a Cloud Service, that is the span of the HTL script that loaded this model.
+        Span.current().setAttribute(IMAGE_SOURCE, source);
     }
 
     /**
@@ -96,16 +108,27 @@ public class SocialImageImpl implements SocialImage {
     /**
      * Falls back to the first DAM image referenced anywhere in the page's content tree (in rendered/document
      * order), covering pages that don't have a Thumbnail explicitly set, e.g. Image/Teaser components.
+     * <p>
+     * {@code @WithSpan} makes the OpenTelemetry agent wrap this method in its own span.
+     *
+     * @return true if an image was found
      */
-    private void resolveFromFirstImageOnPage() {
+    @WithSpan("SocialImage.resolveFromFirstImageOnPage")
+    protected boolean resolveFromFirstImageOnPage() {
         Resource contentResource = currentPage.getContentResource();
         if (contentResource == null) {
-            return;
+            return false;
         }
 
-        Resource firstImage = findFirstImage(contentResource, 0, new int[]{0});
+        int[] visitedCount = new int[]{0};
+        Resource firstImage = findFirstImage(contentResource, 0, visitedCount);
+
+        // Span.current() is the span @WithSpan started for this method.
+        Span.current().setAttribute("wknd.social_image.nodes_visited", visitedCount[0]);
+        Span.current().setAttribute("wknd.social_image.walk_truncated", visitedCount[0] > MAX_NODES_TO_VISIT);
+
         if (firstImage == null) {
-            return;
+            return false;
         }
 
         ValueMap properties = firstImage.getValueMap();
@@ -114,6 +137,7 @@ public class SocialImageImpl implements SocialImage {
         String alt = StringUtils.defaultIfBlank(properties.get(PN_ALT, String.class),
                 properties.get(PN_ALT_TEXT, String.class));
         alternateText = StringUtils.defaultIfBlank(alt, currentPage.getTitle());
+        return true;
     }
 
     /**
