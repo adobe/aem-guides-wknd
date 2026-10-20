@@ -16,6 +16,7 @@
 package com.adobe.aem.guides.wknd.core.models.impl;
 
 import com.adobe.aem.guides.wknd.core.models.ImageList;
+import com.adobe.aem.guides.wknd.core.telemetry.WkndTelemetry;
 import com.adobe.cq.wcm.core.components.models.Image;
 import com.adobe.cq.wcm.core.components.models.datalayer.ComponentData;
 import com.adobe.cq.wcm.core.components.models.datalayer.builder.DataLayerBuilder;
@@ -33,6 +34,11 @@ import com.day.cq.wcm.api.PageManager;
 import com.day.cq.wcm.api.components.ComponentContext;
 
 import org.apache.commons.lang3.StringUtils;
+
+import io.opentelemetry.api.common.AttributeKey;
+import io.opentelemetry.api.trace.Span;
+import io.opentelemetry.api.trace.StatusCode;
+import io.opentelemetry.context.Scope;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ResourceResolver;
@@ -70,6 +76,8 @@ public class ImageListImpl implements ImageList {
     private static final Logger log = LoggerFactory.getLogger(ImageListImpl.class);
 
     protected static final String RESOURCE_TYPE = "wknd/components/image-list";
+
+    private static final AttributeKey<String> QUERY_RESOURCE_TYPE = AttributeKey.stringKey("wknd.query.resource_type");
 
     @Self
     @Required
@@ -235,29 +243,42 @@ public class ImageListImpl implements ImageList {
         params.put(Predicate.ORDER_BY, "@jcr:path");
         params.put(Predicate.ORDER_BY + "." + Predicate.PARAM_SORT , Predicate.SORT_ASCENDING);
 
-        final long start = System.currentTimeMillis();
+        // A child of the current span (on AEM as a Cloud Service, the image-list HTL script span), so each query shows up in the trace.
+        final Span span = WkndTelemetry.TRACER.spanBuilder("ImageList.findPageComponentResources")
+                .setAttribute("wknd.query.path", page.getContentResource().getPath())
+                .setAttribute(QUERY_RESOURCE_TYPE, slingResourceType)
+                .setAttribute("wknd.query.limit", limit)
+                .startSpan();
 
-        final Iterator<Resource> resources = queryBuilder.createQuery(PredicateGroup.create(Collections.unmodifiableMap(params)),
-                request.getResourceResolver().adaptTo(Session.class)).getResult().getResources();
+        try (Scope ignored = span.makeCurrent()) {
+            final Iterator<Resource> resources = queryBuilder.createQuery(PredicateGroup.create(Collections.unmodifiableMap(params)),
+                    request.getResourceResolver().adaptTo(Session.class)).getResult().getResources();
 
-        // Handle QueryBuilder's leakingResourceResolver; Make sure to close it manually.
-        ResourceResolver leakingResourceResolver = null;
+            // Handle QueryBuilder's leakingResourceResolver; Make sure to close it manually.
+            ResourceResolver leakingResourceResolver = null;
 
-        while(resources.hasNext()) {
-            final Resource resource = resources.next();
+            while(resources.hasNext()) {
+                final Resource resource = resources.next();
 
-            if (leakingResourceResolver == null) {
-                leakingResourceResolver = resource.getResourceResolver();
+                if (leakingResourceResolver == null) {
+                    leakingResourceResolver = resource.getResourceResolver();
+                }
+
+                componentResources.add(request.getResourceResolver().getResource(resource.getPath()));
             }
 
-            componentResources.add(request.getResourceResolver().getResource(resource.getPath()));
-        }
+            if (leakingResourceResolver != null) {
+                leakingResourceResolver.close();
+            }
 
-        if (leakingResourceResolver != null) {
-            leakingResourceResolver.close();
+            span.setAttribute("wknd.query.result_count", componentResources.size());
+        } catch (RuntimeException e) {
+            span.recordException(e);
+            span.setStatus(StatusCode.ERROR, "Image List query failed");
+            throw e;
+        } finally {
+            span.end();
         }
-
-        log.debug("Query searching for component of type [ {} ] over [ {} ] took [ {} ms ]", slingResourceType, page.getContentResource().getPath(), System.currentTimeMillis() - start);
 
         return componentResources;
     }

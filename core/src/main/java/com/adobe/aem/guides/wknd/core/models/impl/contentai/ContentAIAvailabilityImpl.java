@@ -29,6 +29,11 @@ import javax.annotation.PostConstruct;
 import java.io.IOException;
 
 import com.adobe.aem.guides.wknd.core.models.contentai.ContentAIAvailability;
+import com.adobe.aem.guides.wknd.core.telemetry.WkndTelemetry;
+
+import io.opentelemetry.api.trace.Span;
+import io.opentelemetry.api.trace.StatusCode;
+import io.opentelemetry.context.Scope;
 
 @Model(
         adaptables = {SlingHttpServletRequest.class},
@@ -75,20 +80,33 @@ public class ContentAIAvailabilityImpl implements ContentAIAvailability {
         if (configurationAdmin == null) {
             return false;
         }
+        final Span span = WkndTelemetry.TRACER.spanBuilder("ContentAIAvailability.resolveConfigured").startSpan();
+        // Close the scope in finally, not with try-with-resources: try-with-resources closes it before the
+        // catch blocks run, and the WARN logs below should carry this span's trace and span IDs.
+        final Scope scope = span.makeCurrent();
         try {
             Configuration configuration = lookupConfiguration();
             Object apiKey = configuration.getProperties() == null
                     ? null
                     : configuration.getProperties().get(API_KEY_PROPERTY);
-            return apiKey instanceof String && StringUtils.isNotBlank((String) apiKey);
+            boolean isConfigured = apiKey instanceof String && StringUtils.isNotBlank((String) apiKey);
+            span.setAttribute("wknd.content_ai.configured", isConfigured);
+            return isConfigured;
         } catch (IOException e) {
+            span.recordException(e);
+            span.setStatus(StatusCode.ERROR, "Content AI configuration lookup failed");
             LOGGER.warn("Unable to determine whether Content AI is configured (PID {})", CONTENT_AI_CLIENT_PID, e);
             return false;
         } catch (RuntimeException e) {
             // Defensive: an unexpected ConfigurationAdmin implementation failure should degrade
             // to "not configured", never break the whole component's rendering via @PostConstruct.
+            span.recordException(e);
+            span.setStatus(StatusCode.ERROR, "Content AI configuration lookup failed");
             LOGGER.warn("Unexpected failure determining whether Content AI is configured (PID {})", CONTENT_AI_CLIENT_PID, e);
             return false;
+        } finally {
+            scope.close();
+            span.end();
         }
     }
 

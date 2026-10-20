@@ -66,6 +66,9 @@
         <wknd-shared.version>3.1.0</wknd-shared.version>
         <wknd-shared.65.version>2.2.2</wknd-shared.65.version>
         <aemanalyser.version>1.6.6</aemanalyser.version>
+        <!-- OpenTelemetry API: match the agent AEM as a Cloud Service runs (Java agent 2.27.0 = API 1.61.0) -->
+        <opentelemetry.version>1.61.0</opentelemetry.version>
+        <opentelemetry-instrumentation.version>2.27.0</opentelemetry-instrumentation.version>
     </properties>
 
     <organization>
@@ -759,6 +762,27 @@ Bundle-DocURL:
                 <artifactId>aem-sdk-api</artifactId>
                 <version>${aem.sdk.api}</version>
                 <scope>provided</scope>
+            </dependency>
+
+            <!-- OpenTelemetry API (the agent on AEM as a Cloud Service provides the implementation) -->
+            <dependency>
+                <groupId>io.opentelemetry</groupId>
+                <artifactId>opentelemetry-api</artifactId>
+                <version>${opentelemetry.version}</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>io.opentelemetry.instrumentation</groupId>
+                <artifactId>opentelemetry-instrumentation-annotations</artifactId>
+                <version>${opentelemetry-instrumentation.version}</version>
+                <scope>provided</scope>
+            </dependency>
+            <!-- In-memory OpenTelemetry SDK for unit tests that assert on spans -->
+            <dependency>
+                <groupId>io.opentelemetry</groupId>
+                <artifactId>opentelemetry-sdk-testing</artifactId>
+                <version>${opentelemetry.version}</version>
+                <scope>test</scope>
             </dependency>
 
              <!-- AEM Core Components -->
