@@ -1,8 +1,0 @@
-{
-  "org.apache.sling.commons.log.names": [
-    "com.adobe.aem.guides.wknd"
-  ],
-  "org.apache.sling.commons.log.level": "info",
-  "org.apache.sling.commons.log.file": "logs/error.log",
-  "org.apache.sling.commons.log.additiv": "true"
-}
