@@ -1,0 +1,23 @@
+<sly data-sly-test.editMode="${(wcmmode.edit || wcmInit.isTouchAuthoring)}">
+  <div class="hint">Author Hint: Edit Footer component</div>
+</sly>
+
+<div class="footer">
+  <div class="footer__container">
+
+    <!--/* INLINE RTE */-->
+    <div class="footer__msg sf-caption">
+      <sly data-sly-test="${editMode}">
+        <div data-sly-resource="${'footer-text' @ resourceType='global/components/rte-components/text-body'}"></div>
+      </sly>
+      <sly data-sly-test="${!editMode}">
+        <sly data-sly-use.rteVal="${'com.adobe.aem.guides.wknd.core.sightly.ResourceValueExists' @ node='footer-text'}">
+          <sly data-sly-test="${rteVal.rteValue}">
+            <sly data-sly-resource="${'footer-text' @ resourceType='global/components/rte-components/text-body'}"></sly>
+          </sly>
+        </sly>
+      </sly>
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,17 @@
+<sly data-sly-use.breadcrumb="${'com.adobe.aem.guides.wknd.core.sightly.Breadcrumb'}"></sly>
+<section class="breadcrumbs-container">
+  <div class="breadcrumbs-container-wrapper">
+    <ol class="breadcrumbs">
+      <sly data-sly-list="${breadcrumb.breadcrumbList}">
+        <li class="crumb">
+          <sly data-sly-use.linkId="${'com.adobe.aem.guides.wknd.core.sightly.UniquePathIdGenerator' @ currentNodePath=currentNode.path, itemName=item.name}"></sly>
+          <a class="crumb-link" id="bc-${itemList.index}-${linkId.formattedNodePath}" href="${item.path}" title="${item.pageTitle}" data-event="site interaction" data-category="bc|${currentPage.parent.name}|li" data-description="${currentPage.name}">
+            ${item.properties['pageTitle'] ? item.properties['pageTitle'] : item.title }
+          </a>
+          <span class="icon icon--7 crumb-icon">
+          </span>
+        </li>
+      </sly>
+    </ol>
+  </div>
+</section>

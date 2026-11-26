@@ -35,7 +35,7 @@
     <modules>
         <module>all</module>
         <module>core</module>
-        <module>ui.frontend</module>
+        <!-- <module>ui.frontend</module> -->
         <module>ui.apps</module>
         <module>ui.apps.structure</module>
         <module>ui.config</module>
@@ -843,6 +843,19 @@ Bundle-DocURL:
                 <artifactId>slf4j-test</artifactId>
                 <version>1.0.1</version>
                 <scope>test</scope>
+            </dependency>
+            <!-- Apache Commons -->
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>3.0</version>
+            </dependency>
+            <!-- Lombok -->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.48</version>
+                <scope>provided</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
